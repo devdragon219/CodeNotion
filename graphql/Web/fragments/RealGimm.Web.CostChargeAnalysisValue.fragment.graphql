@@ -1,0 +1,8 @@
+fragment CostChargeAnalysisValueFragment on CostChargeAnalysisValue {
+  totalConsumption
+  consumptionPerGrossSurface
+  consumptionPerHeatingCoolingSurface
+  totalCost
+  costPerGrossSurface
+  costPerHeatingCoolingSurface
+}

@@ -1,0 +1,6 @@
+fragment FloorFragment on Floor {
+  id
+  name
+  position
+  templateReference
+}

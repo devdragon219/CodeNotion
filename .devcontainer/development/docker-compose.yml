@@ -1,0 +1,62 @@
+services:
+  app:
+    image: mcr.microsoft.com/devcontainers/dotnet:1-8.0
+    ulimits:
+      nofile: 8192
+    volumes:
+      - ../..:/workspace:cached
+      - ~/.ssh:/home/vscode/.ssh
+      - exportcache:/opt/rg5-cache
+    environment:
+      - LOCAL_BACKEND=http://localhost:5050/
+      - LOCAL_FRONTEND_HOST=0.0.0.0
+      - NODE_OPTIONS=--max-old-space-size=4096
+      - RG5_ST_NAME=tenant1
+      - RG5_ST_GUID=60554f2a-1140-4c92-9ab2-184e0414341e
+      - RG5_ST_COUNTRY=ita
+      - RG5_ST_ADMINPW=password1
+      - RG5_ST_NOMINATIM=https://rg5-test.grupposcai.it/nominatim/search
+      - RG5_ST_CMIS_URL=http://example:8081/inmemory/atom11
+      - RG5_ST_CMIS_USERNAME=test
+      - RG5_ST_CMIS_PASSWORD=test
+      - RG5_ST_MAKEDEMO=yes
+
+      # Overrides default command so things don't shut down after the process ends.
+    command: /bin/bash /workspace/backend/scripts/parts/init-devcontainer.sh
+    networks:
+      - realgimm-net
+    ports:
+      - "127.0.0.1:5050:5050"
+      - "127.0.0.1:3000:3000"
+    depends_on:
+      - db
+    links:
+      - db
+
+  db:
+    image: docker.io/postgis/postgis:14-3.3-alpine
+    restart: unless-stopped
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: "aStrongP@ssword"
+    networks:
+      - realgimm-net
+    ports:
+      - "127.0.0.1:5432:5432"
+
+  queue:
+    image: docker.io/library/rabbitmq:3-alpine
+    restart: unless-stopped
+    networks:
+      - realgimm-net
+    ports:
+      - "127.0.0.1:5672:5672"
+
+volumes:
+  pgdata:
+  exportcache:
+
+networks:
+  realgimm-net:
+    driver: bridge

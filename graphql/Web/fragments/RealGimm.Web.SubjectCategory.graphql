@@ -1,0 +1,7 @@
+fragment SubjectCategoryFragment on SubjectCategory {
+  name
+  function {
+    isCompanyGroup
+  }
+  id
+}

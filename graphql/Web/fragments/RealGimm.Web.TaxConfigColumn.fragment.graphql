@@ -1,0 +1,8 @@
+fragment TaxConfigColumnFragment on TaxConfigColumn {
+  key
+  type
+  numberValue
+  stringValue
+  booleanValue
+  dateValue
+}

@@ -1,0 +1,31 @@
+fragment FacilityContractTemplateFragment on ContractTemplate {
+  id
+  description
+  internalCode
+  contractType {
+    id
+    name
+  }
+  catalogueTypes {
+    ...FacilityCatalogueTypeFragment
+  }
+}
+
+fragment FacilityContractTemplateDetailFragment on ContractTemplate {
+  id
+  description
+  internalCode
+  contractType {
+    id
+    name
+  }
+  catalogueTypes {
+    ...FacilityCatalogueTypeFragment
+  }
+  slas {
+    ...SlaDetailFragment
+  }
+  penalties {
+    ...PenaltyDetailFragment
+  }
+}

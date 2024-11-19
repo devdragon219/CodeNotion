@@ -1,0 +1,33 @@
+fragment AssetTaxFragment on AssetTaxGroupedRow {
+  assetTaxCalculation {
+    id
+    taxCalculator
+  }
+  expectedDueDate
+  lastUpdate
+  managementSubject
+  managementSubjectId
+  totalAmount
+  totalTaxableAmount
+  year
+  payments {
+    assetTaxCalculation {
+      id
+      cadastralUnit {
+        id
+        estateUnit {
+          id
+          internalCode
+          estate {
+            id
+            internalCode
+          }
+        }
+      }
+    }
+    issue
+    isDefinitive
+    isIssueOverridden
+    id
+  }
+}

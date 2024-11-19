@@ -1,0 +1,6 @@
+fragment FacilityContractTypeFragment on FcltContractType {
+  id
+  name
+  internalCode
+  ordering
+}

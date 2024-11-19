@@ -1,0 +1,51 @@
+{
+  "vat_rate": {
+    "title": "VAT rates",
+    "field": {
+      "internal_code": "VAT rate code",
+      "description": "Description",
+      "type": "VAT rate type",
+      "rate_percent": "VAT rate%"
+    },
+    "error": {
+      "internal_code": "The VAT rate code provided is already in use"
+    },
+    "action": {
+      "add_vat_rate": "Add VAT rate"
+    },
+    "text": {
+      "no_vat_rates": "No VAT rates available"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add VAT rate",
+        "save": "Save VAT rate"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this VAT rate?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these VAT rates?\nThe process cannot be undone"
+        }
+      },
+      "update": {
+        "title": "Edit VAT rate",
+        "save": "Save VAT rate"
+      },
+      "view": {
+        "title": "VAT rate details"
+      }
+    },
+    "feedback": {
+      "create": {
+        "single": "VAT rate successfully created",
+        "multiple": "VAT rates successfully created"
+      },
+      "delete": {
+        "single": "VAT rate successfully deleted",
+        "multiple": "VAT rates successfully deleted"
+      },
+      "update": "VAT rate successfully updated"
+    }
+  }
+}

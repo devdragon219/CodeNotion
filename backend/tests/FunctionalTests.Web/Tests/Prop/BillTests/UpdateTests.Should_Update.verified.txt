@@ -1,0 +1,62 @@
+﻿{
+  Data: {
+    bill: {
+      update: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          billRows: [
+            {
+              amount: 23.04,
+              itemType: {
+                id: 4
+              },
+              notes: Est expedita et ex rerum aut.,
+              since: null,
+              until: null,
+              vatRateId: 4
+            },
+            {
+              amount: 50.36,
+              itemType: {
+                id: 4
+              },
+              notes: Doloribus soluta expedita veniam et.,
+              since: null,
+              until: null,
+              vatRateId: 4
+            },
+            {
+              amount: 190.01,
+              itemType: {
+                id: 4
+              },
+              notes: Neque eum quibusdam.,
+              since: null,
+              until: null,
+              vatRateId: 6
+            }
+          ],
+          contractBillingPeriod: PER_QUADRIMESTER,
+          date: 2023-02-25,
+          emissionType: AUTOMATIC,
+          estateUnitId: 1,
+          finalDate: null,
+          id: 1,
+          internalCode: AP00001,
+          isInvoiced: true,
+          isOccupiedWithoutRight: true,
+          isTemporary: true,
+          mainCounterpartSubjectId: 3,
+          since: 2023-02-25,
+          totalAmount: 433.35,
+          transactorPaymentType: AITO,
+          transactorSubjectId: 3,
+          until: 2023-03-23,
+          year: 2023
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

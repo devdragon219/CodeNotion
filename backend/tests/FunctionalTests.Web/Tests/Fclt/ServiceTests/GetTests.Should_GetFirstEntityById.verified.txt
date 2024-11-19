@@ -1,0 +1,47 @@
+﻿{
+  activities: [
+    {
+      activityType: ON_INCIDENT,
+      id: 11,
+      isMandatoryByLaw: true,
+      name: amet
+    },
+    {
+      activityType: PLANNED_MAINTENANCE,
+      id: 12,
+      isMandatoryByLaw: false,
+      name: doloribus
+    },
+    {
+      activityType: ON_INCIDENT,
+      id: 13,
+      isMandatoryByLaw: true,
+      name: doloremque
+    },
+    {
+      activityType: PLANNED_MAINTENANCE,
+      id: 14,
+      isMandatoryByLaw: false,
+      name: a
+    },
+    {
+      activityType: ON_INCIDENT,
+      id: 15,
+      isMandatoryByLaw: false,
+      name: sed
+    }
+  ],
+  category: {
+    id: 1,
+    internalCode: SC00001,
+    name: Igiene ambientale
+  },
+  id: 3,
+  internalCode: S000003,
+  name: Disinfezione e sanificazione di superfici e ambienti,
+  subCategory: {
+    id: 1,
+    internalCode: SC00001SC001,
+    name: Pulizia e sanificazione
+  }
+}

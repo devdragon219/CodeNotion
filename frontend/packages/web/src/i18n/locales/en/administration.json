@@ -1,0 +1,66 @@
+{
+  "administration": {
+    "title": "Administrations",
+    "detail_title": "{{type}} administration",
+    "tab": {
+      "general_data": "General data",
+      "estate": "Estate",
+      "administration": "Administration",
+      "terms": "Terms",
+      "recap": "Recap"
+    },
+    "section_title": {
+      "select_estate": "Select estate",
+      "estate": "Estate",
+      "administration": "Administration",
+      "general_data": "General data",
+      "bank_account": "Bank account",
+      "address": "Address",
+      "contacts": "Contacts",
+      "recap": "Recap"
+    },
+    "field": {
+      "administration_type": "Administration type",
+      "administrator": "Administrator",
+      "start_date": "Start of term date",
+      "end_date": "End of term date",
+      "payment_type": "Payment type",
+      "is_payment_data_included": "Is payment data included",
+      "bank_account_holder": "Bank account holder",
+      "notes": "Notes"
+    },
+    "action": {
+      "add_administration": "Add administration"
+    },
+    "error": {
+      "no_estate": "No estate selected",
+      "no_administrations": "Add at least one administration",
+      "administration_not_expired": "There is an administration of the same type still in effect",
+      "no_duplicated_administration": "An administration with the same type and date interval already exists"
+    },
+    "text": {
+      "no_administrations": "No administrations available"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add administration",
+        "save": "Save administration"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this administration?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these administrations?\nThe process cannot be undone"
+        }
+      }
+    },
+    "feedback": {
+      "create": "Administration created successfully",
+      "delete": {
+        "single": "Administration deleted successfully",
+        "multiple": "Administrations deleted successfully"
+      },
+      "update": "Administration edited successfully"
+    }
+  }
+}

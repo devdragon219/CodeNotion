@@ -1,0 +1,38 @@
+﻿{
+  Data: {
+    billItemType: {
+      add: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          activeExemptVR: {
+            id: 1
+          },
+          activeNonTaxableVR: {
+            id: 5
+          },
+          activeSubjectVR: {
+            id: 1
+          },
+          description: Dolore aut.,
+          id: 1,
+          internalCode: grnfc,
+          isForAdministration: true,
+          isForContractCosts: true,
+          isForContractFee: true,
+          isPositive: false,
+          passiveExemptVR: {
+            id: 2
+          },
+          passiveNonTaxableVR: {
+            id: 3
+          },
+          passiveSubjectVR: {
+            id: 7
+          }
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

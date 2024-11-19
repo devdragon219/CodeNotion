@@ -1,0 +1,74 @@
+﻿[
+  [
+    0,
+    U01,
+    Altro,
+    Immobili,Unitá immobiliari,Sotto unitá immobiliari,Contratti
+  ],
+  [
+    0,
+    U02,
+    Abitativo,
+    Immobili,Unitá immobiliari,Sotto unitá immobiliari,Contratti
+  ],
+  [
+    0,
+    U03,
+    Ufficio,
+    Immobili,Unitá immobiliari,Sotto unitá immobiliari,Contratti
+  ],
+  [
+    0,
+    U04,
+    Negozio/bar/mercato,
+    Immobili,Unitá immobiliari,Sotto unitá immobiliari,Contratti
+  ],
+  [
+    0,
+    U05,
+    Box/posto auto,
+    Immobili,Unitá immobiliari,Sotto unitá immobiliari,Contratti
+  ],
+  [
+    0,
+    U06,
+    Magazzino,
+    Immobili,Unitá immobiliari,Sotto unitá immobiliari,Contratti
+  ],
+  [
+    0,
+    U07,
+    Laboratorio,
+    Immobili,Unitá immobiliari,Sotto unitá immobiliari,Contratti
+  ],
+  [
+    0,
+    U08,
+    Cantina/sottotetto,
+    Immobili,Unitá immobiliari,Sotto unitá immobiliari,Contratti
+  ],
+  [
+    0,
+    U09,
+    Scuola,
+    Immobili,Unitá immobiliari,Sotto unitá immobiliari,Contratti
+  ],
+  [
+    0,
+    U10,
+    Sede associativa,
+    Immobili,Unitá immobiliari,Sotto unitá immobiliari,Contratti
+  ],
+  [
+    0,
+    U11,
+    Terreno,
+    Immobili,Unitá immobiliari,Sotto unitá immobiliari,Contratti
+  ],
+  [
+    0,
+    U12,
+    Misto,
+    Immobili,Unitá immobiliari,Sotto unitá immobiliari,Contratti
+  ]
+]

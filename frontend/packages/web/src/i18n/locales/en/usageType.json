@@ -1,0 +1,50 @@
+{
+  "usage_type": {
+    "title": "Usage types",
+    "section_title": {
+      "usage_type": "Usage type"
+    },
+    "field": {
+      "internal_code": "Usage Type Code",
+      "name": "Usage Type Description",
+      "applicability": "Applicability",
+      "ordering": "Ordering"
+    },
+    "error": {
+      "internal_code": "The usage type code provided is already in use"
+    },
+    "action": {
+      "add_usage_type": "Add usage type"
+    },
+    "text": {
+      "no_usage_types": "No usage types available"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add usage type",
+        "save": "Save usage type"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this usage type?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these usage types?\nThe process cannot be undone"
+        }
+      },
+      "update": {
+        "title": "Update usage type"
+      },
+      "view": {
+        "title": "View usage type"
+      }
+    },
+    "feedback": {
+      "create": "Usage type created successfully",
+      "delete": {
+        "single": "Usage type deleted successfully",
+        "multiple": "Usage types deleted successfully"
+      },
+      "update": "Usage type edited successfully"
+    }
+  }
+}

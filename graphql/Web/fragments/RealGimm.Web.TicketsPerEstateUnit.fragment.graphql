@@ -1,0 +1,9 @@
+fragment TicketsPerEstateUnitFragment on TicketsPerEstateUnit {
+  locationEstateUnit {
+    id
+    internalCode
+  }
+  tickets {
+    ...FacilityContractTicketFragment
+  }
+}

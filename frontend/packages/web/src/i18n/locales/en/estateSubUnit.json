@@ -1,0 +1,49 @@
+{
+  "estate_sub_unit": {
+    "section_title": {
+      "no_estate_sub_unit": "No estate sub units available",
+      "estate_sub_unit": "Sub EU"
+    },
+    "field": {
+      "internal_code": "Sub EU code",
+      "occupant_type": "Occupant type",
+      "occupant": "Occupant",
+      "org_unit": "Org unit",
+      "usage_type": "Use type",
+      "since": "Management start date",
+      "until": "Management end date",
+      "surface": "Surface sqm",
+      "occupancy_percentage": "% occupancy",
+      "notes": "Notes"
+    },
+    "action": {
+      "add_estate_sub_unit": "Add Sub EU"
+    },
+    "text": {
+      "no_estate_sub_units": "No estate sub units available"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add sub EU"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this sub estate unit?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these sub estate units?\nThe process cannot be undone"
+        }
+      },
+      "edit": {
+        "title": "Edit sub EU"
+      }
+    },
+    "feedback": {
+      "create": "Sub estate unit successfully created",
+      "delete": {
+        "single": "Sub estate unit successfully deleted",
+        "multiple": "Sub estate units successfully deleted"
+      },
+      "update": "Sub estate unit successfully updated"
+    }
+  }
+}

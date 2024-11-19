@@ -1,0 +1,257 @@
+{
+  "tax_config": {
+    "calculator": {
+      "IMU": {
+        "coefficients": {
+          "action": "Aggiungi coefficiente rivalutazione",
+          "dialog": {
+            "view": "Coefficiente rivalutazione",
+            "create": "Aggiunta coefficiente rivalutazione",
+            "update": "Modifica coefficiente rivalutazione",
+            "delete": {
+              "title": "Sei sicuro?",
+              "description": {
+                "single": "Sei davvero sicuro\ndi voler cancellare questo coefficiente rivalutazione?\nIl processo non potrà essere annullato",
+                "multiple": "Sei davvero sicuro\ndi voler cancellare questi coefficienti rivalutazione?\nIl processo non potrà essere annullato"
+              }
+            }
+          },
+          "feedback": {
+            "create": "Coefficiente rivalutazione creato con successo",
+            "delete": {
+              "single": "Coefficiente rivalutazione cancellato con successo",
+              "multiple": "Coefficienti rivalutazioni cancellati con successo"
+            },
+            "update": "Coefficiente rivalutazione modificato con successo"
+          },
+          "table": {
+            "name": "Coefficienti",
+            "empty": "Non sono presenti coefficienti"
+          }
+        },
+        "global": {
+          "action": "Aggiungi parametro",
+          "dialog": {
+            "view": "Parametro IMU",
+            "create": "Aggiunta parametro IMU",
+            "update": "Modifica parametro IMU",
+            "delete": {
+              "title": "Sei sicuro?",
+              "description": {
+                "single": "Sei davvero sicuro\ndi voler cancellare questo parametro IMU?\nIl processo non potrà essere annullato",
+                "multiple": "Sei davvero sicuro\ndi voler cancellare questi parametri IMU?\nIl processo non potrà essere annullato"
+              }
+            }
+          },
+          "feedback": {
+            "create": "Parametro IMU creato con successo",
+            "delete": {
+              "single": "Parametro IMU cancellato con successo",
+              "multiple": "Parametri IMU cancellati con successo"
+            },
+            "update": "Parametro IMU modificato con successo"
+          },
+          "table": {
+            "name": "Parametri IMU",
+            "empty": "Non sono presenti parametri IMU"
+          }
+        },
+        "rates": {
+          "action": "Aggiungi aliquota",
+          "dialog": {
+            "view": "Aliquota IMU",
+            "create": "Aggiunta aliquota IMU",
+            "update": "Modifica aliquota IMU",
+            "delete": {
+              "title": "Sei sicuro?",
+              "description": {
+                "single": "Sei davvero sicuro\ndi voler cancellare questa aliquota IMU?\nIl processo non potrà essere annullato",
+                "multiple": "Sei davvero sicuro\ndi voler cancellare queste aliquote IMU?\nIl processo non potrà essere annullato"
+              }
+            }
+          },
+          "feedback": {
+            "create": "Aliquota IMU creata con successo",
+            "delete": {
+              "single": "Aliquota IMU cancellata con successo",
+              "multiple": "Aliquote IMU cancellate con successo"
+            },
+            "update": "Aliquota IMU modificata con successo"
+          },
+          "table": {
+            "name": "Aliquote",
+            "empty": "Non sono presenti aliquote"
+          }
+        },
+        "rates_by_city": {
+          "action": "Aggiungi aliquota",
+          "dialog": {
+            "view": "Aliquota IMU",
+            "create": "Aggiunta aliquota IMU",
+            "update": "Modifica aliquota IMU",
+            "delete": {
+              "title": "Sei sicuro?",
+              "description": {
+                "single": "Sei davvero sicuro\ndi voler cancellare questa aliquota IMU?\nIl processo non potrà essere annullato",
+                "multiple": "Sei davvero sicuro\ndi voler cancellare queste aliquote IMU?\nIl processo non potrà essere annullato"
+              }
+            }
+          },
+          "feedback": {
+            "create": "Aliquota IMU creata con successo",
+            "delete": {
+              "single": "Aliquota IMU cancellata con successo",
+              "multiple": "Aliquote IMU cancellate con successo"
+            },
+            "update": "Aliquota IMU modificata con successo"
+          },
+          "table": {
+            "name": "Aliquote IMU",
+            "empty": "Non sono presenti aliquote IMU"
+          }
+        },
+        "revaluation_coeff_d": {
+          "action": "Aggiungi coefficiente rivalutazione",
+          "dialog": {
+            "view": "Coefficiente rivalutazione",
+            "create": "Aggiunta coefficiente rivalutazione",
+            "update": "Modifica coefficiente rivalutazione",
+            "delete": {
+              "title": "Sei sicuro?",
+              "description": {
+                "single": "Sei davvero sicuro\ndi voler cancellare questo coefficiente rivalutazione?\nIl processo non potrà essere annullato",
+                "multiple": "Sei davvero sicuro\ndi voler cancellare questi coefficienti rivalutazione?\nIl processo non potrà essere annullato"
+              }
+            }
+          },
+          "feedback": {
+            "create": "Coefficiente rivalutazione creato con successo",
+            "delete": {
+              "single": "Coefficiente rivalutazione cancellato con successo",
+              "multiple": "Coefficienti rivalutazioni cancellati con successo"
+            },
+            "update": "Coefficiente rivalutazione modificato con successo"
+          },
+          "table": {
+            "name": "Coefficienti rivalutazione",
+            "empty": "Non sono presenti coefficienti rivalutazione"
+          }
+        }
+      },
+      "ILIA": {
+        "global": {
+          "action": "Aggiungi parametro",
+          "dialog": {
+            "view": "Parametro ILIA",
+            "create": "Aggiunta parametro ILIA",
+            "update": "Modifica parametro ILIA",
+            "delete": {
+              "title": "Sei sicuro?",
+              "description": {
+                "single": "Sei davvero sicuro\ndi voler cancellare questo parametro ILIA?\nIl processo non potrà essere annullato",
+                "multiple": "Sei davvero sicuro\ndi voler cancellare questi parametri ILIA?\nIl processo non potrà essere annullato"
+              }
+            }
+          },
+          "feedback": {
+            "create": "Parametro ILIA creato con successo",
+            "delete": {
+              "single": "Parametro ILIA cancellato con successo",
+              "multiple": "Parametri ILIA cancellati con successo"
+            },
+            "update": "Parametro ILIA modificato con successo"
+          },
+          "table": {
+            "name": "Parametri ILIA",
+            "empty": "Non sono presenti parametri ILIA"
+          }
+        },
+        "rates": {
+          "action": "Aggiungi aliquota",
+          "dialog": {
+            "view": "Aliquota ILIA",
+            "create": "Aggiunta aliquota ILIA",
+            "update": "Modifica aliquota ILIA",
+            "delete": {
+              "title": "Sei sicuro?",
+              "description": {
+                "single": "Sei davvero sicuro\ndi voler cancellare questa aliquota ILIA?\nIl processo non potrà essere annullato",
+                "multiple": "Sei davvero sicuro\ndi voler cancellare queste aliquote ILIA?\nIl processo non potrà essere annullato"
+              }
+            }
+          },
+          "feedback": {
+            "create": "Aliquota ILIA creata con successo",
+            "delete": {
+              "single": "Aliquota ILIA cancellata con successo",
+              "multiple": "Aliquote ILIA cancellate con successo"
+            },
+            "update": "Aliquota ILIA modificata con successo"
+          },
+          "table": {
+            "name": "Aliquote",
+            "empty": "Non sono presenti aliquote"
+          }
+        },
+        "rates_by_city": {
+          "action": "Aggiungi aliquota",
+          "dialog": {
+            "view": "Aliquota ILIA",
+            "create": "Aggiunta aliquota ILIA",
+            "update": "Modifica aliquota ILIA",
+            "delete": {
+              "title": "Sei sicuro?",
+              "description": {
+                "single": "Sei davvero sicuro\ndi voler cancellare questa aliquota ILIA?\nIl processo non potrà essere annullato",
+                "multiple": "Sei davvero sicuro\ndi voler cancellare queste aliquote ILIA?\nIl processo non potrà essere annullato"
+              }
+            }
+          },
+          "feedback": {
+            "create": "Aliquota ILIA creata con successo",
+            "delete": {
+              "single": "Aliquota ILIA cancellata con successo",
+              "multiple": "Aliquote ILIA cancellate con successo"
+            },
+            "update": "Aliquota ILIA modificata con successo"
+          },
+          "table": {
+            "name": "Aliquote ILIA",
+            "empty": "Non sono presenti aliquote ILIA"
+          }
+        }
+      }
+    },
+    "tab": {
+      "general_data": "Dati generali",
+      "recap": "Riepilogo"
+    },
+    "section_title": {
+      "general_data": "Dati generali",
+      "recap": "Riepilogo"
+    },
+    "field": {
+      "year": "Anno",
+      "city_name": "Comune",
+      "city_county_name": "Provincia",
+      "rbc_min_amount": "Valore minimo",
+      "rbc_city_min_amount": "Valore minimo comunale",
+      "rates": "Aliquote",
+      "coefficients": "Coefficienti di rivalutazione",
+      "base_rate": "Aliquota base",
+      "min_amount": "Valore minimo",
+      "cfd_year": "Anno di riferimento",
+      "cfd_rate": "Coefficiente di rivalutazione",
+      "rbc_code": "Codice",
+      "rbc_description": "Descrizione",
+      "rbc_rate": "Aliquota"
+    },
+    "error": {
+      "existing_value": "Esiste già un'aliquota per questo anno",
+      "no_sub_tables": "Aggiungi almeno un'aliquota"
+    },
+    "action": {
+      "show_all": "Vedi tutto"
+    }
+  }
+}

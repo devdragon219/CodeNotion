@@ -1,0 +1,62 @@
+query getReadings(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: ReadingFilterInput
+  $order: [ReadingSortInput!]
+) {
+  reading {
+    listReadings(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...ReadingFragment
+      }
+      totalCount
+    }
+  }
+}
+
+mutation deleteReadings($ids: [Int!]!) {
+  reading {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation createReading($readingInput: ReadingInput!) {
+  reading {
+    add(input: $readingInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+mutation updateReading($readingId: Int!, $readingInput: ReadingInput!) {
+  reading {
+    update(id: $readingId, input: $readingInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+﻿{
+  description: TERRENO A PRATO,
+  id: 1,
+  internalCode: CLC001,
+  ordering: 0
+}

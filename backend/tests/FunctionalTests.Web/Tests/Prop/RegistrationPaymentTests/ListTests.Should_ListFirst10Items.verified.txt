@@ -1,0 +1,111 @@
+﻿{
+  nodes: [
+    {
+      id: 1,
+      paymentCode: RK7KWFZ9AG,
+      paymentType: MANUAL_INPUT,
+      paymentYear: 2024,
+      sanctionAmount: 983.940000,
+      taxAmount: 522.560000,
+      totalAmount: 5489.620000,
+      valueDate: 2023-03-02
+    },
+    {
+      id: 2,
+      paymentCode: NBAT862MOM,
+      paymentType: PAYMENT,
+      paymentYear: 2023,
+      sanctionAmount: 935.840000,
+      taxAmount: 299.210000,
+      totalAmount: 1810.200000,
+      valueDate: 2024-08-22
+    },
+    {
+      id: 3,
+      paymentCode: 53LYH5OK8M,
+      paymentType: MANUAL_INPUT,
+      paymentYear: 2020,
+      sanctionAmount: 865.440000,
+      taxAmount: 424.850000,
+      totalAmount: 4843.100000,
+      valueDate: 2020-01-10
+    },
+    {
+      id: 4,
+      paymentCode: 4W6VJSICZ1,
+      paymentType: MANUAL_INPUT,
+      paymentYear: 2021,
+      sanctionAmount: 275.420000,
+      taxAmount: 209.070000,
+      totalAmount: 2972.150000,
+      valueDate: 2023-06-18
+    },
+    {
+      id: 5,
+      paymentCode: 7VHMBD8ZL0,
+      paymentType: PAYMENT,
+      paymentYear: 2022,
+      sanctionAmount: 241.430000,
+      taxAmount: 965.610000,
+      totalAmount: 273.420000,
+      valueDate: 2024-12-02
+    },
+    {
+      id: 6,
+      paymentCode: 3Q3UNK8UUG,
+      paymentType: PAYMENT,
+      paymentYear: 2020,
+      sanctionAmount: 514.220000,
+      taxAmount: 822.850000,
+      totalAmount: 1578.460000,
+      valueDate: 2024-07-16
+    },
+    {
+      id: 7,
+      paymentCode: ZL3MZVJ40K,
+      paymentType: PAYMENT,
+      paymentYear: 2023,
+      sanctionAmount: 879.550000,
+      taxAmount: 441.310000,
+      totalAmount: 1594.610000,
+      valueDate: 2023-05-13
+    },
+    {
+      id: 8,
+      paymentCode: JI5MJB8SGX,
+      paymentType: MANUAL_INPUT,
+      paymentYear: 2024,
+      sanctionAmount: 235.240000,
+      taxAmount: 273.030000,
+      totalAmount: 1706.430000,
+      valueDate: 2021-09-08
+    },
+    {
+      id: 9,
+      paymentCode: NLXWAOCGS7,
+      paymentType: PAYMENT,
+      paymentYear: 2022,
+      sanctionAmount: 875.860000,
+      taxAmount: 567.690000,
+      totalAmount: 614.730000,
+      valueDate: 2024-07-19
+    },
+    {
+      id: 10,
+      paymentCode: 69MLWCRS43,
+      paymentType: PAYMENT,
+      paymentYear: 2021,
+      sanctionAmount: 613.510000,
+      taxAmount: 673.490000,
+      totalAmount: 1742.470000,
+      valueDate: 2023-01-26
+    }
+  ],
+  pageInfo: {
+    endCursor: OQ==,
+    hasNextPage: true,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 30
+}

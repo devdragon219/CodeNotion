@@ -1,0 +1,95 @@
+query getInterventionTypes(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: InterventionTypeFilterInput
+  $order: [InterventionTypeSortInput!]
+) {
+  interventionType {
+    listInterventionTypes(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...InterventionTypeFragment
+      }
+      totalCount
+    }
+  }
+}
+
+mutation addInterventionType($input: InterventionTypeInput!) {
+  interventionType {
+    add(input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateInterventionType(
+  $interventionTypeId: Int!
+  $input: InterventionTypeInput!
+) {
+  interventionType {
+    update(id: $interventionTypeId, input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteInterventionTypes($ids: [Int!]!) {
+  interventionType {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getInterventionTypeInternalCode {
+  interventionType {
+    proposeNewInternalCode
+  }
+}
+
+query canUseInterventionTypeInternalCode(
+  $internalCode: String!
+  $currentInterventionTypeId: Int
+) {
+  interventionType {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentInterventionTypeId: $currentInterventionTypeId
+    )
+  }
+}
+
+query exportInterventionTypes(
+  $where: InterventionTypeFilterInput
+  $order: [InterventionTypeSortInput!]
+) {
+  interventionType {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}

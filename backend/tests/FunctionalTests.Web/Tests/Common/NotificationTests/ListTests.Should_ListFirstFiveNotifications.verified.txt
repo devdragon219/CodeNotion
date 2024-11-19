@@ -1,0 +1,58 @@
+﻿{
+  Data: {
+    notification: {
+      listNotifications: {
+        nodes: [
+          {
+            downloadGuid: Guid_1,
+            id: 1,
+            isSuccess: true,
+            status: NEW,
+            timestamp: DateTimeOffset_1,
+            username: admin@tenant1
+          },
+          {
+            downloadGuid: Guid_2,
+            id: 2,
+            isSuccess: true,
+            status: NEW,
+            timestamp: DateTimeOffset_2,
+            username: admin@tenant1
+          },
+          {
+            downloadGuid: Guid_3,
+            id: 3,
+            isSuccess: true,
+            status: NEW,
+            timestamp: DateTimeOffset_3,
+            username: admin@tenant1
+          },
+          {
+            downloadGuid: Guid_4,
+            id: 4,
+            isSuccess: true,
+            status: NEW,
+            timestamp: DateTimeOffset_4,
+            username: admin@tenant1
+          },
+          {
+            downloadGuid: Guid_5,
+            id: 5,
+            isSuccess: true,
+            status: NEW,
+            timestamp: DateTimeOffset_5,
+            username: admin@tenant1
+          }
+        ],
+        pageInfo: {
+          endCursor: NA==,
+          hasNextPage: false,
+          hasPreviousPage: false,
+          startCursor: MA==
+        },
+        totalCount: 5
+      }
+    }
+  },
+  IsDataSet: true
+}

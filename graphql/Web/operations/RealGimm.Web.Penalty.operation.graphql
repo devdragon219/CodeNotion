@@ -1,0 +1,126 @@
+query getPenalties(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: PenaltyFilterInput
+  $order: [PenaltySortInput!]
+) {
+  penalty {
+    listPenalties(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...PenaltyFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getAllPenalties($where: PenaltyFilterInput, $order: [PenaltySortInput!]) {
+  penalty {
+    listPenaltiesFull(where: $where, order: $order) {
+      ...PenaltyDetailFragment
+    }
+  }
+}
+
+mutation addPenalties($inputs: [PenaltyInput!]!) {
+  penalty {
+    addRange(inputs: $inputs) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+      value {
+        ...PenaltyDetailFragment
+      }
+    }
+  }
+}
+
+mutation updatePenalty($penaltyId: Int!, $input: PenaltyInput!) {
+  penalty {
+    update(id: $penaltyId, input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deletePenalties($ids: [Int!]!) {
+  penalty {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getPenaltyInternalCode(
+  $additionallyOccupiedCodes: [String!]!
+  $contractInternalCode: String
+) {
+  penalty {
+    proposeNewInternalCode(
+      additionallyOccupiedCodes: $additionallyOccupiedCodes
+      contractInternalCode: $contractInternalCode
+    )
+  }
+}
+
+query canUsePenaltyInternalCode(
+  $internalCode: String!
+  $currentPenaltyId: Int
+) {
+  penalty {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentPenaltyId: $currentPenaltyId
+    )
+  }
+}
+
+query exportPenalties($where: PenaltyFilterInput, $order: [PenaltySortInput!]) {
+  penalty {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+query getPenalty($penaltyId: Int!) {
+  penalty {
+    get(id: $penaltyId) {
+      ...PenaltyDetailFragment
+    }
+  }
+}
+
+mutation deletePenalty($id: Int!) {
+  penalty {
+    delete(id: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}

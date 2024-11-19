@@ -1,0 +1,29 @@
+﻿{
+  Data: {
+    ticketChecklistTemplate: {
+      update: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          catalogueType: {
+            category: {
+              name: est
+            },
+            name: unde,
+            subCategory: {
+              name: iste
+            }
+          },
+          costBaseFactor: FORFAIT,
+          id: 1,
+          internalCode: SM01,
+          name: Runte, Macejkovic and DuBuque,
+          rawWorkCost: 915.42,
+          safetyCost: 1015.42,
+          type: PREVENTATIVE_AND_ON_TRIGGER_CONDITION
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

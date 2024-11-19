@@ -1,0 +1,19 @@
+{
+  "audit_event": {
+    "title": "Audit log",
+    "field": {
+      "type": "Tipo entità",
+      "table_pk": "Chiave primaria tabella",
+      "user": "User",
+      "action": "Azione",
+      "date": "Data",
+      "audit_data": "Dettagli audit"
+    },
+    "text": {
+      "no_audit_events": "Non sono presenti eventi"
+    },
+    "dialog": {
+      "view": "Dettagli evento"
+    }
+  }
+}

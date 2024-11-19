@@ -1,0 +1,19 @@
+fragment BillRowFragment on BillRow {
+  itemType {
+    description
+    id
+    defaultAccountingItem {
+      internalCode
+    }
+  }
+  since
+  until
+  amount
+  vatRate {
+    internalCode
+    description
+    ratePercent
+    id
+  }
+  id
+}

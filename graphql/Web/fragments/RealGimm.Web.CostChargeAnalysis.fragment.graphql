@@ -1,0 +1,39 @@
+fragment CostChargeAnalysisFragment on CostChargeAnalysis {
+  measurementUnit
+  surface {
+    currentYear {
+      area
+      date
+    }
+    previousYear {
+      area
+      date
+    }
+  }
+  consumption {
+    currentYearValue
+    previousYearValue
+    difference
+    differencePercentage
+  }
+  cost {
+    currentYearValue
+    previousYearValue
+    difference
+    differencePercentage
+  }
+  perYear {
+    key
+    value {
+      value {
+        ...CostChargeAnalysisValueFragment
+      }
+      perMonth {
+        key
+        value {
+          ...CostChargeAnalysisValueFragment
+        }
+      }
+    }
+  }
+}

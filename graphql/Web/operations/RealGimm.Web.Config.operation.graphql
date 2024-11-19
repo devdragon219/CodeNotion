@@ -1,0 +1,26 @@
+query getConfigs($where: ConfigFilterInput, $order: [ConfigSortInput!]) {
+  admin {
+    listConfigs(where: $where, order: $order) {
+      ...ConfigFragment
+    }
+  }
+}
+
+mutation updateConfig(
+  $function: ConfigFunction!
+  $name: String!
+  $value: String
+) {
+  admin {
+    updateConfig(function: $function, name: $name, value: $value) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+      value {
+        ...ConfigFragment
+      }
+    }
+  }
+}

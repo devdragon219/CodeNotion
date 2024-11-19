@@ -1,0 +1,27 @@
+﻿{
+  Data: {
+    taxCredit: {
+      listGroupedOperations: {
+        nodes: [
+          {
+            amount: 5921.340000,
+            date: 2023-09-09,
+            ids: [
+              1
+            ],
+            notes: null
+          },
+          {
+            amount: -4161.980000,
+            date: 2023-09-14,
+            ids: [
+              2
+            ],
+            notes: null
+          }
+        ]
+      }
+    }
+  },
+  IsDataSet: true
+}

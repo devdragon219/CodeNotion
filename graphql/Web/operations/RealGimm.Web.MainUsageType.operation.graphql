@@ -1,0 +1,95 @@
+query getMainUsageTypes(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: EstateMainUsageTypeFilterInput
+  $order: [EstateMainUsageTypeSortInput!]
+) {
+  estateMainUsageType {
+    listEstateMainUsageTypes(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...MainUsageTypeFragment
+      }
+      totalCount
+    }
+  }
+}
+
+mutation addMainUsageType($input: EstateMainUsageTypeInput!) {
+  estateMainUsageType {
+    add(input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateMainUsageType(
+  $mainUsageTypeId: Int!
+  $input: EstateMainUsageTypeInput!
+) {
+  estateMainUsageType {
+    update(id: $mainUsageTypeId, input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteMainUsageTypes($ids: [Int!]!) {
+  estateMainUsageType {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query exportMainUsageTypes(
+  $where: EstateMainUsageTypeFilterInput
+  $order: [EstateMainUsageTypeSortInput!]
+) {
+  estateMainUsageType {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+query getMainUsageTypeInternalCode {
+  estateMainUsageType {
+    proposeNewInternalCode
+  }
+}
+
+query canUseMainUsageTypeInternalCode(
+  $internalCode: String!
+  $currentMainUsageTypeId: Int
+) {
+  estateMainUsageType {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentEstateMainUsageTypeId: $currentMainUsageTypeId
+    )
+  }
+}

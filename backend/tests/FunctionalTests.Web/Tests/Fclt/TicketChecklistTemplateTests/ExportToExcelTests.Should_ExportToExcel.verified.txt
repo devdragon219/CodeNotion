@@ -1,0 +1,37 @@
+﻿[
+  [
+    SM01,
+    Runte, Macejkovic and DuBuque,
+    Elevatori,
+    Elevatori elettromeccanici,
+    MPP-MSC
+  ],
+  [
+    SM02,
+    Dibbert and Sons,
+    Impianti elettrici,
+    Sistema di alimentazione emergenza,
+    MSC
+  ],
+  [
+    SM03,
+    Hauck, Koch and Corkery,
+    Impianti elettrici,
+    Sistema di alimentazione normale,
+    MPP-MSC
+  ],
+  [
+    SM04,
+    Bradtke, Rempel and Raynor,
+    Impianti elettrici,
+    Sistema di alimentazione normale,
+    MPP-MSC
+  ],
+  [
+    SM05,
+    Muller LLC,
+    Elevatori,
+    Elevatori elettromeccanici,
+    MPP
+  ]
+]

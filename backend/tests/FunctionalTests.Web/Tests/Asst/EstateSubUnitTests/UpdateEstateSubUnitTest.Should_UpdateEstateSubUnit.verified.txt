@@ -1,0 +1,30 @@
+﻿{
+  Data: {
+    estateSubUnit: {
+      update: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          deletionDate: null,
+          estateUnit: {
+            name: EU2023_41X
+          },
+          id: 1,
+          internalCode: SUB_202311,
+          notes: Note,
+          occupancyPercent: 50,
+          occupantId: 1,
+          occupantType: THIRD_PARTIES,
+          orgUnitId: 1,
+          since: 2023-11-24,
+          surfaceSqM: 100,
+          until: 9999-12-31,
+          usageType: {
+            name: est
+          }
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

@@ -1,0 +1,5 @@
+﻿{
+  id: 1,
+  internalCode: MU01,
+  name: Altro
+}

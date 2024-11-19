@@ -1,0 +1,101 @@
+﻿{
+  nodes: [
+    {
+      dueDate: 2023-05-31,
+      id: 1,
+      invoicedConsumptionAmount: 553.740000,
+      invoiceNumber: 246,
+      referenceDate: 2023-05-10,
+      totalAmount: 779.620000,
+      totalVATAmount: 155.920000
+    },
+    {
+      dueDate: 2023-09-30,
+      id: 2,
+      invoicedConsumptionAmount: 224.290000,
+      invoiceNumber: 83,
+      referenceDate: 2023-09-10,
+      totalAmount: 327.310000,
+      totalVATAmount: 65.460000
+    },
+    {
+      dueDate: 2022-12-31,
+      id: 3,
+      invoicedConsumptionAmount: 226.100000,
+      invoiceNumber: 299,
+      referenceDate: 2022-12-10,
+      totalAmount: 693.320000,
+      totalVATAmount: 138.660000
+    },
+    {
+      dueDate: 2024-08-31,
+      id: 4,
+      invoicedConsumptionAmount: 345.240000,
+      invoiceNumber: 158,
+      referenceDate: 2024-08-10,
+      totalAmount: 937.320000,
+      totalVATAmount: 187.460000
+    },
+    {
+      dueDate: 2023-11-30,
+      id: 5,
+      invoicedConsumptionAmount: 345.240000,
+      invoiceNumber: 90,
+      referenceDate: 2023-11-10,
+      totalAmount: 989.120000,
+      totalVATAmount: 197.820000
+    },
+    {
+      dueDate: 2024-03-31,
+      id: 6,
+      invoicedConsumptionAmount: 835.810000,
+      invoiceNumber: 288,
+      referenceDate: 2024-03-10,
+      totalAmount: 529.870000,
+      totalVATAmount: 105.970000
+    },
+    {
+      dueDate: 2022-07-31,
+      id: 7,
+      invoicedConsumptionAmount: 590.370000,
+      invoiceNumber: 138,
+      referenceDate: 2022-07-10,
+      totalAmount: 189.480000,
+      totalVATAmount: 37.900000
+    },
+    {
+      dueDate: 2025-01-31,
+      id: 8,
+      invoicedConsumptionAmount: 374.730000,
+      invoiceNumber: 264,
+      referenceDate: 2025-01-10,
+      totalAmount: 834.150000,
+      totalVATAmount: 166.830000
+    },
+    {
+      dueDate: 2024-05-31,
+      id: 9,
+      invoicedConsumptionAmount: 375.350000,
+      invoiceNumber: 269,
+      referenceDate: 2024-05-10,
+      totalAmount: 132.250000,
+      totalVATAmount: 26.450000
+    },
+    {
+      dueDate: 2024-11-30,
+      id: 10,
+      invoicedConsumptionAmount: 774.760000,
+      invoiceNumber: 145,
+      referenceDate: 2024-11-10,
+      totalAmount: 669.590000,
+      totalVATAmount: 133.920000
+    }
+  ],
+  pageInfo: {
+    endCursor: OQ==,
+    hasNextPage: true,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 100
+}

@@ -1,0 +1,20 @@
+fragment OrgUnitTreeNodeFragment on OrgUnitTreeNode {
+  id
+  name
+  isSubject
+  children {
+    id
+    name
+    isSubject
+    children {
+      id
+      name
+      isSubject
+      children {
+        id
+        name
+        isSubject
+      }
+    }
+  }
+}

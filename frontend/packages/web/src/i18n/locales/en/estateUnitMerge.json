@@ -1,0 +1,30 @@
+{
+  "estate_unit_merge": {
+    "title": "Merge",
+    "tab": {
+      "estate_units": "UI to merge",
+      "estate": "Select estate",
+      "estate_unit": "New EU",
+      "cadastral_unit": "New CU",
+      "cadastral_coordinates": "Cadastral coordinates",
+      "recap": "Recap"
+    },
+    "section_title": {
+      "select_estate_units": "Select EU to merge",
+      "selected_estate_units": "Selected EU to merge"
+    },
+    "error": {
+      "no_estate_units": "Select at least two estate units",
+      "invalid_estate_units": "The estate units must be located in the same city"
+    },
+    "action": {
+      "save": "Save merge"
+    },
+    "text": {
+      "no_selected_estate_units": "No EU selected to merge"
+    },
+    "feedback": {
+      "succeeded": "Estate units merged successfully"
+    }
+  }
+}

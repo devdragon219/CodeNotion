@@ -1,0 +1,20 @@
+fragment EstateUnitSurfaceSummaryFloorFragment on EstateUnitSurfaceSummaryFloor {
+  surfaceId
+  surfaceSqMTotal
+  surfaceSqMCommonArea
+  surfaceSqMSideArea
+  floor {
+    ...EstateUnitSurfaceSummaryFloorSummaryFragment
+  }
+  functionAreas {
+    surfaceId
+    surfaceSqMTotal
+    surfaceSqMCommonArea
+    surfaceSqMSideArea
+    functionArea {
+      id
+      name
+      surfaceType
+    }
+  }
+}

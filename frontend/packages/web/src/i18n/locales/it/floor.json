@@ -1,0 +1,48 @@
+{
+  "floor": {
+    "title": "Piani",
+    "field": {
+      "floor_position": "Posizione piano",
+      "floor_name": "Denominazione piano"
+    },
+    "action": {
+      "add_floor": "Aggiungi piano"
+    },
+    "text": {
+      "no_floors": "Non sono presenti piani"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta piani",
+        "description": "Inserisci piano con relativa posizione verticale (es. 0 per pianoterra, 0.5 per piano rialzato, 1 per primo piano) e denominazione",
+        "save": "Salva piani"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questo piano?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare questi piani?\nIl processo non potrà essere annullato"
+        }
+      },
+      "update": {
+        "title": "Modifica piano",
+        "description": "Inserisci piano con relativa posizione verticale (es. 0 per pianoterra, 0.5 per piano rialzato, 1 per primo piano) e denominazione",
+        "save": "Salva piano"
+      },
+      "view": {
+        "title": "Visualizza piano"
+      }
+    },
+    "feedback": {
+      "create": {
+        "single": "Piano creato con successo",
+        "multiple": "Piani creati con successo"
+      },
+      "delete": {
+        "single": "Piano cancellato con successo",
+        "multiple": "Piani cancellati con successo"
+      },
+      "update": "Piano modificato con successo"
+    }
+  }
+}

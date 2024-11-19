@@ -1,0 +1,12 @@
+﻿{
+  Data: {
+    catalogueItem: {
+      document: {
+        addRange: {
+          isSuccess: true
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

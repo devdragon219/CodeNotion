@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>RealGimm.SharedKernel</AssemblyName>
+    <RootNamespace>RealGimm.SharedKernel</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ardalis.Result" />
+    <PackageReference Include="Autofac" />
+    <PackageReference Include="Ardalis.Specification" />
+    <PackageReference Include="HotChocolate.Abstractions" />
+    <PackageReference Include="Rebus" />
+    <PackageReference Include="Microsoft.Extensions.ObjectPool" />
+    <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" />
+    <PackageReference Include="Quartz" />
+  </ItemGroup>
+
+</Project>

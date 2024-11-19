@@ -1,0 +1,64 @@
+{
+  "estate_unit_group": {
+    "title": "Estate unit groups",
+    "tab": {
+      "general_data": "General data",
+      "estate_units": "Estate units"
+    },
+    "section_title": {
+      "general_data": "General data",
+      "estate_units": "Estate units",
+      "select_estate_units": "Select EU to include into the group",
+      "selected_estate_units": "Selected EU"
+    },
+    "field": {
+      "internal_code": "Code",
+      "name": "Description",
+      "management_subject": "Management subject",
+      "estate_units": "Estate units",
+      "estate_unit_internal_code": "EU code",
+      "estate_unit_name": "EU name",
+      "estate_unit_type": "EU type",
+      "estate_unit_status": "EU status",
+      "estate_unit_address": "Address",
+      "estate_unit_estate_internal_code": "Estate code",
+      "estate_unit_estate_name": "Estate name"
+    },
+    "error": {
+      "internal_code": "The code provided is already in use",
+      "no_estate_units": "No estate unit selected"
+    },
+    "action": {
+      "add_estate_units": "Add estate units"
+    },
+    "text": {
+      "no_estate_unit_groups": "No estate unit groups available",
+      "no_selected_estate_units": "No EU selected"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add estate unit group",
+        "save": "Save estate unit group"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this estate unit group?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these estate unit groups?\nThe process cannot be undone"
+        }
+      },
+      "estate_units": {
+        "view": "View estate units",
+        "add": "Add estate units"
+      }
+    },
+    "feedback": {
+      "create": "Estate unit group successfully created",
+      "delete": {
+        "single": "Estate unit group successfully deleted",
+        "multiple": "Estate unit groups successfully deleted"
+      },
+      "update": "Estate unit group successfully updated"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+fragment IssuesExcludedFromMaintenanceContractLineChartDataPointFragment on IssuesExcludedFromMaintenanceContractLineChartDataPoint {
+  excludedCount
+  nonExcludedCount
+}

@@ -1,0 +1,80 @@
+﻿[
+  [
+     ,
+    admin@tenant1,
+    Attivo,
+    Dibbert Inc,Brown LLC,Rempel - Simonis,Willms, Crist and Swift,Ratke LLC,Bashirian, Vandervort and Wiegand,Torp, Gerlach and Dickens,Sauer, Shanahan and Weber,Hackett, Bernier and DuBuque,Olson LLC,Spencer - Block,Ferry, Ritchie and Nicolas,Marks, Runte and Ferry,Blick LLC,Deckow, Hamill and Fay,Weissnat, Connelly and Waters,Kuhlman LLC,Hyatt LLC,Cassin Group,Crooks Inc,123,
+    Dipendente - Tipo utente interno,
+    Admin
+  ],
+  [
+    Keegan Ullrich,
+    reanna.runte@hotmail.com,
+    Attivo,
+    Hackett, Bernier and DuBuque,Crooks Inc,Torp, Gerlach and Dickens,
+    Dipendente - Tipo utente interno
+  ],
+  [
+    Alexander Stoltenberg,
+    jamison_nader@gmail.com,
+    Attivo,
+    Crooks Inc,Blick LLC,Sauer, Shanahan and Weber,
+    Dipendente - Tipo utente interno
+  ],
+  [
+    Julian Watsica,
+    rosendo69@hotmail.com,
+    Attivo,
+    Blick LLC,Ferry, Ritchie and Nicolas,Willms, Crist and Swift,
+    Dipendente - Tipo utente interno
+  ],
+  [
+    Alexander Homenick,
+    jace_gulgowski76@gmail.com,
+    Attivo,
+    Torp, Gerlach and Dickens,Crooks Inc,Ferry, Ritchie and Nicolas,
+    Dipendente - Tipo utente interno
+  ],
+  [
+    Jacquelyn Corkery,
+    blair_goodwin33@hotmail.com,
+    Attivo,
+    Ratke LLC,Hackett, Bernier and DuBuque,Deckow, Hamill and Fay,
+    Dipendente - Tipo utente interno
+  ],
+  [
+    Ryan Parisian,
+    jeff_dietrich73@yahoo.com,
+    Attivo,
+    Marks, Runte and Ferry,Bashirian, Vandervort and Wiegand,Cassin Group,
+    Dipendente - Tipo utente interno
+  ],
+  [
+    Reyna Erdman,
+    asha64@hotmail.com,
+    Attivo,
+    Crooks Inc,Spencer - Block,Blick LLC,
+    Dipendente - Tipo utente interno
+  ],
+  [
+    Susan Dickens,
+    raleigh_bradtke12@hotmail.com,
+    Attivo,
+    Olson LLC,Ferry, Ritchie and Nicolas,Sauer, Shanahan and Weber,
+    Dipendente - Tipo utente interno
+  ],
+  [
+    Tressie Grimes,
+    jana_skiles76@hotmail.com,
+    Attivo,
+    Spencer - Block,Blick LLC,Sauer, Shanahan and Weber,
+    Dipendente - Tipo utente interno
+  ],
+  [
+    Linnea Pouros,
+    reggie6@gmail.com,
+    Attivo,
+    Marks, Runte and Ferry,Cassin Group,Bashirian, Vandervort and Wiegand,
+    Dipendente - Tipo utente interno
+  ]
+]

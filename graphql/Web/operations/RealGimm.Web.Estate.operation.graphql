@@ -1,0 +1,242 @@
+query getEstates(
+  $keepTopIds: [Int!]
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: EstateFilterInput
+  $order: [EstateSortInput!]
+) {
+  estate {
+    listEstates(
+      keepTopIds: $keepTopIds
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...EstateFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getAllEstates($where: EstateFilterInput, $order: [EstateSortInput!]) {
+  estate {
+    listEstatesFull(where: $where, order: $order) {
+      ...EstateLightDtoFragment
+    }
+  }
+}
+
+mutation deleteEstate($id: Int!) {
+  estate {
+    delete(estateId: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteEstates($ids: [Int!]!) {
+  estate {
+    deleteRange(estateIds: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query exportEstates($where: EstateFilterInput, $order: [EstateSortInput!]) {
+  estate {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+query getEstateInternalCode {
+  estate {
+    proposeNewInternalCode
+  }
+}
+
+query canUseEstateInternalCode($internalCode: String!, $currentEstateId: Int) {
+  estate {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentEstateId: $currentEstateId
+    )
+  }
+}
+
+mutation createEstate($estateInput: EstateInput!) {
+  estate {
+    addEstate(estateInput: $estateInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+      value {
+        id
+      }
+    }
+  }
+}
+
+query getEstate($estateId: Int!) {
+  estate {
+    estate(estateId: $estateId) {
+      ...EstateDetailFragment
+    }
+  }
+}
+
+mutation updateEstate($estateId: Int!, $estateInput: EstateInput!) {
+  estate {
+    updateEstate(estateId: $estateId, estateInput: $estateInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getEstateSurfaces($estateId: Int!) {
+  estate {
+    surfaces(estateId: $estateId) {
+      ...EstateSurfacesFragment
+    }
+  }
+}
+
+mutation addEstateDocuments($estateId: Int!, $inputs: [DocumentInput!]!) {
+  estate {
+    document {
+      addRange(estateId: $estateId, inputs: $inputs) {
+        errors
+        isSuccess
+        validationErrors {
+          ...ValidationErrorFragment
+        }
+      }
+    }
+  }
+}
+
+mutation deleteEstateDocuments($entityId: Int!, $cmisIds: [String!]!) {
+  estate {
+    document {
+      deleteRange(estateId: $entityId, cmisIds: $cmisIds) {
+        errors
+        isSuccess
+        validationErrors {
+          ...ValidationErrorFragment
+        }
+      }
+    }
+  }
+}
+
+mutation updateEstateDocument($estateId: Int!, $input: DocumentInput!) {
+  estate {
+    document {
+      update(estateId: $estateId, input: $input) {
+        errors
+        isSuccess
+        validationErrors {
+          ...ValidationErrorFragment
+        }
+      }
+    }
+  }
+}
+
+query getEstateDocuments(
+  $estateId: Int!
+  $where: DocumentFilterInput
+  $order: [DocumentsPerContentCategoryGroupOutputSortInput!]
+) {
+  estate {
+    estate(estateId: $estateId) {
+      documents(where: $where, order: $order) {
+        ...DocumentsPerContentCategoryGroupOutputFragment
+      }
+    }
+  }
+}
+
+query getEstateImages($estateId: Int!) {
+  estate {
+    estate(estateId: $estateId) {
+      images {
+        ...DocumentFragment
+      }
+    }
+  }
+}
+
+query exportEstatePortfolio($estateId: Int!, $cmisIds: [String!]!) {
+  estate {
+    documents {
+      exportPortfolioToZip(estateId: $estateId, cmisIds: $cmisIds) {
+        errors
+        isSuccess
+        validationErrors {
+          ...ValidationErrorFragment
+        }
+      }
+    }
+  }
+}
+
+query getEstateStatistics {
+  estate {
+    statistics {
+      ...EstateStatisticsOutputFragment
+    }
+  }
+}
+
+query getEstatesMap {
+  estate {
+    locations {
+      ...EstateLocationFragment
+    }
+  }
+}
+
+query getEstateOccupationStatistics {
+  estate {
+    occupationStatistics {
+      lastMonth {
+        averageTotalOccupiedEstatesCount
+        totalOccupiedEstatesCount
+        date
+      }
+      lastYear {
+        averageTotalOccupiedEstatesCount
+        totalOccupiedEstatesCount
+        month
+      }
+      percentageIncreaseComparedToLastYear
+      percentageIncreaseComparedToTwoYears
+    }
+  }
+}

@@ -1,0 +1,10 @@
+fragment ReportGeneratorFilterFieldFragment on ReportGeneratorFilterField {
+  name
+  label
+  isMandatory
+  type
+  validValues {
+    key
+    value
+  }
+}

@@ -1,0 +1,17 @@
+﻿{
+  Data: {
+    cadastralLandCategory: {
+      update: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          description: dolore,
+          id: 1,
+          internalCode: 3grnfcx3n1,
+          ordering: 3
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

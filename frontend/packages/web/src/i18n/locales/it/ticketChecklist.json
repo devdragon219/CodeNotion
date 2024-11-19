@@ -1,0 +1,94 @@
+{
+  "ticket_checklist": {
+    "title": "Schede manutenzione",
+    "tab": {
+      "estate_units": "Unità immobiliari",
+      "ticket_checklist_templates": "Schede manutenzione",
+      "recap": "Riepilogo",
+      "general_data": "Dati generali",
+      "costs": "Costi",
+      "preventative_maintenance": "Manutenzione PP",
+      "on_condition_maintenance": "Manutenzione SC"
+    },
+    "section_title": {
+      "estate_units": "Unità immobiliari",
+      "select_estate_units": "Seleziona le UI da associare al contratto",
+      "selected_estate_units": "UI selezionate",
+      "ticket_checklist_templates": "Schede manutenzione",
+      "select_ticket_checklist_templates": "Seleziona i modelli schede manutenzione da associare alle UI",
+      "selected_ticket_checklist_templates": "Modelli schede manutenzione selezionate",
+      "recap": "Riepilogo",
+      "general_data": "Dati generali",
+      "general_data_unit": "Dati generali unità",
+      "costs": "Costi",
+      "preventative_maintenance": "Manutenzione preventiva programmata (MPP)",
+      "on_condition_maintenance": "Manutenzione su condizione (MSC)",
+      "activities": "Attività"
+    },
+    "field": {
+      "internal_code": "Codice",
+      "name": "Denominazione",
+      "catalogue_category": "Categoria",
+      "catalogue_subcategory": "Sottocategoria",
+      "ticket_checklist_template_type": "Tipologia modello schema",
+      "catalogue_type": "Tipologia oggetto",
+      "estate_unit_code": "Codice UI",
+      "estate_unit_name": "Denominazione UI",
+      "estate_unit_address": "Indirizzo",
+      "estate_unit_type": "Tipologia",
+      "facility_contract_code": "Codice contratto",
+      "facility_contract_provider": "Fornitore",
+      "facility_contract_type": "Tipologia contratto",
+      "facility_contract_status": "Stato contratto",
+      "measurement_unit": "Unità di misura",
+      "raw_work_cost": "Costi di manutenzione",
+      "safety_cost": "Oneri di sicurezza",
+      "planned_period": "Periodicità",
+      "yearly_visits": "Visite annue",
+      "days_of_week": "Giorni della settimana",
+      "tolerance_days": "Giorni di tolleranza",
+      "intervention_type": "Tipologia intervento",
+      "craft": "Specializzazione",
+      "activity_type": "Tipologia",
+      "activity_name": "Attività"
+    },
+    "error": {
+      "no_estate_units_selected": "Nessuna UI selezionata",
+      "no_ticket_checklist_templates_selected": "Nessun modello scheda manutenzione selezionato",
+      "no_selected_days_of_week": "Selezionare almeno un giorno della settimana",
+      "no_selected_activities": "Nessuna attività selezionata"
+    },
+    "text": {
+      "no_ticket_checklists": "Non sono presenti schede manutenzione",
+      "no_estate_units_selected": "Nessuna UI selezionata",
+      "no_ticket_checklist_templates_selected": "Nessun modello scheda manutenzione selezionato",
+      "no_selected_activities": "Nessuna attività selezionata"
+    },
+    "action": {
+      "add_ticket_checklists": "Aggiungi schede manutenzione",
+      "edit_activities": "Modifica attività"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta schede manutenzione",
+        "save": "Salva schede manutenzione"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa scheda manutenzione?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste schede manutenzione?\nIl processo non potrà essere annullato"
+        }
+      },
+      "edit_activities": "Modifica attività"
+    },
+    "feedback": {
+      "create": "Scheda manutenzione creata con successo",
+      "delete": {
+        "single": "Scheda manutenzione cancellata con successo",
+        "multiple": "Schede manutenzione cancellate con successo"
+      },
+      "update": "Scheda manutenzione modificata con successo"
+    }
+  }
+}

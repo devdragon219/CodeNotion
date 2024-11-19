@@ -1,0 +1,36 @@
+rg5-dev.grupposcai.it {
+    handle /api/* {
+        reverse_proxy bo-backend
+    }
+    handle /kc/* {
+        reverse_proxy http://keycloak:8080
+    }
+    handle /* {
+        reverse_proxy bo-frontend
+    }
+    header {
+      -Server
+      X-Content-Type-Options nosniff
+      Strict-Transport-Security "max-age=31536000; includeSubDomains"
+      Permissions-Policy "accelerometer=(), camera=(), geolocation=(), microphone=(), payment=(), usb=(), fullscreen=(self), gyroscope=()"
+      Referrer-Policy "no-referrer-when-downgrade"
+      X-Frame-Options "SAMEORIGIN"
+    }
+}
+
+rg5-dev-fo.grupposcai.it {
+    handle /api/* {
+        reverse_proxy fo-backend
+    }
+    handle /* {
+        reverse_proxy fo-frontend
+    }
+    header {
+      -Server
+      X-Content-Type-Options nosniff
+      Strict-Transport-Security "max-age=31536000; includeSubDomains"
+      Permissions-Policy "accelerometer=(), camera=(), geolocation=(), microphone=(), payment=(), usb=(), fullscreen=(self), gyroscope=()"
+      Referrer-Policy "no-referrer-when-downgrade"
+      X-Frame-Options "SAMEORIGIN"
+    }
+}

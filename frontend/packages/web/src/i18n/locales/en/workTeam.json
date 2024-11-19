@@ -1,0 +1,49 @@
+{
+  "work_team": {
+    "title": "Work teams",
+    "section_title": {
+      "general_data": "General data"
+    },
+    "field": {
+      "internal_code": "Team code",
+      "description": "Description",
+      "provider_subject": "Provider",
+      "leader_user": "Leader",
+      "workers": "Workers",
+      "insertion_date": "Insertion date",
+      "worker_first_name": "First name",
+      "worker_last_name": "Last name",
+      "worker_since": "Since",
+      "worker_until": "Until",
+      "worker_craft": "Craft",
+      "worker_level": "Level"
+    },
+    "error": {
+      "internal_code": "The team code provided is already in use"
+    },
+    "text": {
+      "no_work_teams": "No work teams available"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add work team"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this work team?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these work teams?\nThe process cannot be undone"
+        }
+      },
+      "view_workers": "View workers"
+    },
+    "feedback": {
+      "create": "Work team created successfully",
+      "delete": {
+        "single": "Work team deleted successfully",
+        "multiple": "Work teams deleted successfully"
+      },
+      "update": "Work team edited successfully"
+    }
+  }
+}

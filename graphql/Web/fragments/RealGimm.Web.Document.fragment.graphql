@@ -1,0 +1,20 @@
+fragment DocumentFragment on Document {
+  cmisId
+  contentCategory
+  contentCategoryGroup
+  contentType
+  creationDate
+  entityId
+  entityIntId
+  fileName
+  issueDate
+  issuer
+  issuerCode
+  mimeType
+  name
+  notes
+  protocolNumber
+  since
+  until
+  uploaderName
+}

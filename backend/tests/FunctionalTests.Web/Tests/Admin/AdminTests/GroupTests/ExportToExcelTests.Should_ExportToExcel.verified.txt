@@ -1,0 +1,10 @@
+﻿[
+  [
+    Admin,
+    Amministratori
+  ],
+  [
+    Base,
+    Utenti
+  ]
+]

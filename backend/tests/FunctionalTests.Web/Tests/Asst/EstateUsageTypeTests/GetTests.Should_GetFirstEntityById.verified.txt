@@ -1,0 +1,9 @@
+﻿{
+  id: 1,
+  internalCode: U01,
+  isForContracts: true,
+  isForEstate: true,
+  isForEstateSubUnit: true,
+  isForEstateUnit: true,
+  name: Altro
+}

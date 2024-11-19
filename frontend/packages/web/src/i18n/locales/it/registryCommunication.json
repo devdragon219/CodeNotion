@@ -1,0 +1,85 @@
+{
+  "registry_communication": {
+    "title": "Comunicazioni di registro",
+    "tab": {
+      "temporary": "Provvisori",
+      "confirmed": "Confermati"
+    },
+    "section_title": {
+      "general_data": "Dati comunicazioni",
+      "anomalies": "Anomalie rilevate",
+      "contracts": "Contratti"
+    },
+    "field": {
+      "management_subject": "Ente di gestione",
+      "contract_type": "Tipologia contratto",
+      "communication_type": "Tipologia comunicazione",
+      "end_date": "Data di scadenza",
+      "payment_date": "Data pagamento",
+      "date": "Data",
+      "legal_representative": "Legale rappresentate",
+      "bank_account": "Conto corrente",
+      "debt_amount": "Importo",
+      "anomalies": "Anomalie",
+      "anomalies_counter": "Numero anomalie",
+      "anomaly": "Anomalia",
+      "included_excluded": "Incluso/escluso",
+      "contract_code": "Numero contratto",
+      "estate_units": "Unità immobiliari",
+      "estate_unit_address": "Indirizzo",
+      "landlord": "Locatore",
+      "tenant": "Locatario",
+      "estate_unit_name": "Denominazione UI",
+      "estate_unit_internal_code": "Codice UI"
+    },
+    "action": {
+      "confirm_all": "Conferma tutte le comunicazioni",
+      "confirm_single": "Conferma la comunicazione",
+      "confirm_multiple": "Conferma le comunicazioni",
+      "cancel_all": "Annulla tutte le comunicazioni",
+      "cancel_single": "Annulla la comunicazione",
+      "cancel_multiple": "Annulla le comunicazioni",
+      "export": "Esporta XML RLI",
+      "include": "Includi",
+      "exclude": "Escludi"
+    },
+    "text": {
+      "no_registry_communications": "Non sono presenti comunicazioni di registro",
+      "no_anomalies": "Non sono presenti anomalie",
+      "no_contracts": "Non sono presenti contratti",
+      "active_contract": "Attivo",
+      "passive_contract": "Passivo"
+    },
+    "dialog": {
+      "estate_units": "Unità immobiliari",
+      "anomalies": "Anomalie rilevate",
+      "confirm_temporary_registry_communications": {
+        "title": "Conferma comunicazioni",
+        "action": "Conferma"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questo contratto dalla comunicazione?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare questi contratti dalla comunicazione?\nIl processo non potrà essere annullato"
+        }
+      }
+    },
+    "feedback": {
+      "confirm": {
+        "single": "Comunicazione confermata con successo",
+        "multiple": "Comunicazioni confermate con successo"
+      },
+      "cancel": {
+        "single": "Comunicazione annullata con successo",
+        "multiple": "Comunicazioni annullate con successo"
+      },
+      "delete": {
+        "single": "Contratto cancellato dalla comunicazione con successo",
+        "multiple": "Contratti cancellati dalla comunicazione con successo"
+      },
+      "exclude": "Comunicazione segnata come esclusa con successo",
+      "include": "Comunicazione segnata come inclusa con successo"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+fragment RegistrationOfficeFragment on RegistrationOffice {
+  id
+  description
+  externalCode
+  city {
+    ...CityFragment
+  }
+}

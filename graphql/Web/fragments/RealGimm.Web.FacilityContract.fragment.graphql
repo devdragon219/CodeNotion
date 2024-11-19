@@ -1,0 +1,71 @@
+fragment FacilityContractFragment on FcltContract {
+  id
+  internalCode
+  externalCode
+  type {
+    id
+    name
+  }
+  entryStatus
+  providerSubject {
+    id
+    name
+  }
+  description
+  agreementDate
+  effectiveDate
+  expirationDate
+  estateUnitIds
+  priceLists {
+    ...PriceListDetailFragment
+  }
+}
+
+fragment FacilityContractDetailFragment on FcltContract {
+  ...FacilityContractFragment
+  billingInfo {
+    billingPeriod
+    vatPercentage
+    purchaseFeeWithoutVAT
+    fixedRateFee
+    discountPercentage
+  }
+  cancellationNoticeDaysCount
+  catalogueTypes {
+    ...FacilityCatalogueTypeFragment
+  }
+  estateUnits {
+    ...EstateUnitFragment
+  }
+  frameworkAgreements {
+    id
+    externalCode
+    notes
+  }
+  maximumRenewalDaysCount
+  originalEstateUnitGroup {
+    ...EstateUnitGroupFragment
+  }
+  originalTemplate {
+    ...FacilityContractTemplateDetailFragment
+  }
+  penalties {
+    ...PenaltyDetailFragment
+  }
+  priceLists {
+    ...PriceListDetailFragment
+  }
+  renewalNoticeDaysCount
+  slas {
+    ...SlaDetailFragment
+  }
+  termExtensions {
+    daysCount
+    feeDifference
+    notes
+    id
+  }
+  ticketChecklists {
+    ...TicketChecklistFragment
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "command": "/bin/bash",
+      "type": "process",
+      "args": ["${workspaceFolder}/backend/scripts/debug.sh"],
+      "problemMatcher": "$msCompile"
+    }
+  ]
+}

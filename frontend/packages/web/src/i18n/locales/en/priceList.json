@@ -1,0 +1,48 @@
+{
+  "price_list": {
+    "title": "Price lists",
+    "tab": {
+      "general_data": "General data",
+      "price_list_articles": "Articles"
+    },
+    "section_title": {
+      "general_data": "General data",
+      "no_price_list_articles": "No articles available, press edit to add an article"
+    },
+    "field": {
+      "ordering": "Ordering",
+      "internal_code": "Price list code",
+      "name": "Name",
+      "default": "Default price list"
+    },
+    "action": {
+      "add_price_list_articles": "Add articles"
+    },
+    "error": {
+      "internal_code": "The price list code provided is already in use"
+    },
+    "text": {
+      "no_price_lists": "No price lists available"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add price list"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this price list?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these price lists?\nThe process cannot be undone"
+        }
+      }
+    },
+    "feedback": {
+      "create": "Price list created successfully",
+      "delete": {
+        "single": "Price list deleted successfully",
+        "multiple": "Price lists deleted successfully"
+      },
+      "update": "Price list edited successfully"
+    }
+  }
+}

@@ -1,0 +1,179 @@
+﻿{
+  addresses: [
+    {
+      addressType: PRIMARY,
+      cityName: West Milfordstad,
+      cityReference: null,
+      countryISO: FRA,
+      countryName: Comoros,
+      countyName: Cambridgeshire,
+      countyReference: null,
+      deletionDate: null,
+      localPostCode: 28808-1682,
+      notes: null,
+      numbering: 786,
+      regionName: null,
+      regionReference: null,
+      toponymy: Jacquelyn Curve
+    }
+  ],
+  buildYear: 1967,
+  catalogueItems: [
+    {
+      activationDate: 2022-12-26,
+      id: 15,
+      internalCode: 7hk9b8s4mk,
+      lastMaintenanceDate: 2023-06-01,
+      status: OPERATIONAL
+    },
+    {
+      activationDate: 2022-06-14,
+      id: 21,
+      internalCode: f4ukpn0kgz,
+      lastMaintenanceDate: 2023-05-12,
+      status: OPERATIONAL
+    }
+  ],
+  decommissioningDate: 2022-10-14,
+  deletionDate: null,
+  estateUnits: [
+    {
+      deletionDate: null,
+      disusedDate: null,
+      externalCode: vpwn99h7vh,
+      grossSurface: 0,
+      id: 4,
+      internalCode: I00003U004,
+      lastRelevantChangeDate: null,
+      managementSubjectId: 5,
+      name: Macejkovic - O'Kon,
+      netSurface: 0,
+      notes: Quidem voluptatem consequatur et asperiores laborum alias voluptatibus sapiente nesciunt est sunt consectetur veritatis aut minus aut voluptas facilis sunt et quo eos ducimus et et praesentium laboriosam omnis molestiae est repellat est sunt fuga doloribus officiis ut eos alias iste tempore vel et quia repellendus occaecati eum ut cupiditate.,
+      officialActId: null,
+      ownershipEndDate: null,
+      ownershipPercent: null,
+      ownershipStartDate: 2023-12-21,
+      ownershipType: LOAN,
+      procurementActId: null,
+      sharedArea: false,
+      status: DISCONTINUED_SPLIT,
+      subNumbering: 8,
+      type: OTHER
+    },
+    {
+      deletionDate: null,
+      disusedDate: null,
+      externalCode: dln2jz5h25,
+      grossSurface: 0,
+      id: 6,
+      internalCode: I00003U006,
+      lastRelevantChangeDate: null,
+      managementSubjectId: 5,
+      name: Nienow - Marks,
+      netSurface: 0,
+      notes: Maiores eaque sit aperiam sint sunt vero modi fugit nesciunt omnis fugiat facere labore quia quia dolor in qui eum tempora in quae minima atque ex est esse autem adipisci aut dolores cupiditate possimus autem quisquam blanditiis dicta qui ipsa omnis ut cumque impedit laudantium perspiciatis quo nihil et voluptate.,
+      officialActId: null,
+      ownershipEndDate: null,
+      ownershipPercent: null,
+      ownershipStartDate: 2023-12-20,
+      ownershipType: SURFACE_RIGHTS,
+      procurementActId: null,
+      sharedArea: false,
+      status: RETURNED,
+      subNumbering: 6,
+      type: GROUND
+    },
+    {
+      deletionDate: null,
+      disusedDate: null,
+      externalCode: 61e57xkf98,
+      grossSurface: 0,
+      id: 11,
+      internalCode: I00003U011,
+      lastRelevantChangeDate: null,
+      managementSubjectId: 5,
+      name: Tromp - Johns,
+      netSurface: 0,
+      notes: Exercitationem tempora laudantium dolores neque voluptas quia consectetur quod et quia repellendus adipisci sit ut porro voluptas voluptatum corporis id impedit vel quaerat et ut dolores sint dolore in officia dicta aut quas quaerat soluta dignissimos alias dolorum molestiae aut omnis modi labore et consectetur qui at numquam et dolores.,
+      officialActId: null,
+      ownershipEndDate: null,
+      ownershipPercent: null,
+      ownershipStartDate: 2023-12-04,
+      ownershipType: LOAN,
+      procurementActId: null,
+      sharedArea: false,
+      status: RETURNED,
+      subNumbering: 16,
+      type: GROUND
+    }
+  ],
+  externalCode: 9ukniy2i5t,
+  floors: [
+    {
+      id: 20,
+      name: Seminterrato,
+      position: -1.0,
+      templateReference: Guid_1
+    },
+    {
+      id: 21,
+      name: Piano terra,
+      position: 0.0,
+      templateReference: Guid_2
+    },
+    {
+      id: 22,
+      name: Primo piano,
+      position: 1.0,
+      templateReference: Guid_3
+    },
+    {
+      id: 23,
+      name: Secondo piano,
+      position: 2.0,
+      templateReference: Guid_4
+    },
+    {
+      id: 24,
+      name: Terzo piano,
+      position: 3.0,
+      templateReference: Guid_5
+    },
+    {
+      id: 25,
+      name: Quarto piano,
+      position: 4.0,
+      templateReference: Guid_6
+    }
+  ],
+  id: 3,
+  internalCode: I00003,
+  mainUsageType: {
+    id: 8,
+    internalCode: MU08,
+    name: Agricola
+  },
+  managementOrgUnitId: null,
+  managementSubjectId: 5,
+  name: Denesik LLC,
+  notes: Tempore asperiores corporis et laudantium atque numquam quasi incidunt voluptatem ducimus qui sit iure illum sed repudiandae doloremque molestias sapiente asperiores sit et minima delectus officia est quia quam aut rerum aut aliquam magni eveniet dolor aut perspiciatis repellendus excepturi aliquid doloribus aperiam eligendi quia adipisci dolores culpa voluptatem enim.,
+  ownership: MIXED,
+  stairs: [
+    {
+      description: Et dignissimos reiciendis.,
+      id: 3
+    }
+  ],
+  status: DECOMMISSIONED,
+  surfaceAreaSqM: 5796,
+  type: LAND_PLOT_UNDEVELOPED,
+  usageType: {
+    id: 1,
+    internalCode: U01,
+    isForContracts: true,
+    isForEstate: true,
+    isForEstateSubUnit: true,
+    isForEstateUnit: true,
+    name: Altro
+  }
+}

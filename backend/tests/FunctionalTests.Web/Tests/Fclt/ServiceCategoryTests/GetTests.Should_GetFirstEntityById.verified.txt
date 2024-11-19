@@ -1,0 +1,5 @@
+﻿{
+  id: 1,
+  internalCode: SC00001,
+  name: Igiene ambientale
+}

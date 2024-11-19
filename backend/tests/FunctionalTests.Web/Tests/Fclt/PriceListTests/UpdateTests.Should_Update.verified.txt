@@ -1,0 +1,18 @@
+﻿{
+  Data: {
+    priceList: {
+      update: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          id: 1,
+          internalCode: LS0001,
+          isDefault: false,
+          name: Dolore aut.,
+          ordering: 1
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

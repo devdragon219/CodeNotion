@@ -1,0 +1,1160 @@
+﻿{
+  catalogueTypes: [
+    {
+      activities: [
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 1,
+          isMandatoryByLaw: false,
+          name: est
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 2,
+          isMandatoryByLaw: false,
+          name: iste
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 3,
+          isMandatoryByLaw: false,
+          name: et
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 4,
+          isMandatoryByLaw: true,
+          name: ad
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 5,
+          isMandatoryByLaw: false,
+          name: harum
+        }
+      ],
+      category: {
+        id: 1,
+        internalCode: CO00001,
+        name: Impianti elettrici,
+        subCategories: [
+          {
+            id: 1,
+            internalCode: CO00001SC001,
+            name: Impianto elettrico
+          },
+          {
+            id: 2,
+            internalCode: CO00001SC002,
+            name: Impianto di terra e protezione scariche atmosferiche
+          },
+          {
+            id: 3,
+            internalCode: CO00001SC004,
+            name: Sistema di alimentazione normale
+          },
+          {
+            id: 4,
+            internalCode: CO00001SC005,
+            name: Sistema di alimentazione emergenza
+          },
+          {
+            id: 36,
+            internalCode: CO00001SC003,
+            name: Impianto di telecomunicazioni
+          },
+          {
+            id: 37,
+            internalCode: CO00001SC006,
+            name: Sistema di alimentazione in continuità assoluta
+          },
+          {
+            id: 38,
+            internalCode: CO00001SC007,
+            name: Sistema generale
+          }
+        ]
+      },
+      fields: [
+        [
+          {
+            id: Guid_1,
+            isMandatory: false,
+            name: illum,
+            type: DATE,
+            validValues: null
+          },
+          {
+            id: Guid_2,
+            isMandatory: false,
+            name: quia,
+            type: SINGLE_ITEM_FROM_LIST,
+            validValues: [
+              reiciendis,
+              ad,
+              nostrum
+            ]
+          },
+          {
+            id: Guid_3,
+            isMandatory: false,
+            name: totam,
+            type: SIMPLE_NUMBER,
+            validValues: null
+          }
+        ],
+        [
+          {
+            id: Guid_4,
+            isMandatory: false,
+            name: doloremque,
+            type: SINGLE_ITEM_FROM_LIST,
+            validValues: [
+              ipsam,
+              illum,
+              pariatur,
+              doloribus
+            ]
+          },
+          {
+            id: Guid_5,
+            isMandatory: false,
+            name: aperiam,
+            type: DATE,
+            validValues: null
+          },
+          {
+            id: Guid_6,
+            isMandatory: false,
+            name: recusandae,
+            type: DATE,
+            validValues: null
+          },
+          {
+            id: Guid_7,
+            isMandatory: true,
+            name: vitae,
+            type: SIMPLE_NUMBER,
+            validValues: null
+          }
+        ],
+        [
+          {
+            id: Guid_8,
+            isMandatory: false,
+            name: doloribus,
+            type: SINGLE_ITEM_FROM_LIST,
+            validValues: [
+              vel
+            ]
+          },
+          {
+            id: Guid_9,
+            isMandatory: false,
+            name: nisi,
+            type: DATE,
+            validValues: null
+          }
+        ]
+      ],
+      id: 1,
+      internalCode: TO00001,
+      name: Impianto di terra,
+      subCategory: {
+        id: 2,
+        internalCode: CO00001SC002,
+        name: Impianto di terra e protezione scariche atmosferiche
+      }
+    },
+    {
+      activities: [
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 6,
+          isMandatoryByLaw: false,
+          name: doloremque
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 7,
+          isMandatoryByLaw: false,
+          name: cum
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 8,
+          isMandatoryByLaw: true,
+          name: pariatur
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 9,
+          isMandatoryByLaw: false,
+          name: cumque
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 10,
+          isMandatoryByLaw: true,
+          name: est
+        }
+      ],
+      category: {
+        id: 1,
+        internalCode: CO00001,
+        name: Impianti elettrici,
+        subCategories: [
+          {
+            id: 1,
+            internalCode: CO00001SC001,
+            name: Impianto elettrico
+          },
+          {
+            id: 2,
+            internalCode: CO00001SC002,
+            name: Impianto di terra e protezione scariche atmosferiche
+          },
+          {
+            id: 3,
+            internalCode: CO00001SC004,
+            name: Sistema di alimentazione normale
+          },
+          {
+            id: 4,
+            internalCode: CO00001SC005,
+            name: Sistema di alimentazione emergenza
+          },
+          {
+            id: 36,
+            internalCode: CO00001SC003,
+            name: Impianto di telecomunicazioni
+          },
+          {
+            id: 37,
+            internalCode: CO00001SC006,
+            name: Sistema di alimentazione in continuità assoluta
+          },
+          {
+            id: 38,
+            internalCode: CO00001SC007,
+            name: Sistema generale
+          }
+        ]
+      },
+      fields: [
+        [
+          {
+            id: Guid_10,
+            isMandatory: true,
+            name: sed,
+            type: SINGLE_ITEM_FROM_LIST,
+            validValues: [
+              suscipit,
+              blanditiis,
+              ratione,
+              modi
+            ]
+          },
+          {
+            id: Guid_11,
+            isMandatory: false,
+            name: velit,
+            type: DATE,
+            validValues: null
+          },
+          {
+            id: Guid_12,
+            isMandatory: true,
+            name: corrupti,
+            type: SINGLE_ITEM_FROM_LIST,
+            validValues: [
+              id,
+              vero,
+              soluta,
+              fuga,
+              eius
+            ]
+          }
+        ],
+        [
+          {
+            id: Guid_13,
+            isMandatory: true,
+            name: eveniet,
+            type: SINGLE_ITEM_FROM_LIST,
+            validValues: [
+              facilis
+            ]
+          },
+          {
+            id: Guid_14,
+            isMandatory: true,
+            name: dolorem,
+            type: SINGLE_ITEM_FROM_LIST,
+            validValues: [
+              et,
+              quisquam,
+              consequatur
+            ]
+          },
+          {
+            id: Guid_15,
+            isMandatory: false,
+            name: aut,
+            type: DATE,
+            validValues: null
+          },
+          {
+            id: Guid_16,
+            isMandatory: false,
+            name: consequuntur,
+            type: SIMPLE_TEXT,
+            validValues: null
+          }
+        ],
+        [
+          {
+            id: Guid_17,
+            isMandatory: true,
+            name: ut,
+            type: DATE,
+            validValues: null
+          },
+          {
+            id: Guid_18,
+            isMandatory: false,
+            name: totam,
+            type: SINGLE_ITEM_FROM_LIST,
+            validValues: [
+              voluptas,
+              itaque,
+              exercitationem,
+              cupiditate
+            ]
+          }
+        ]
+      ],
+      id: 2,
+      internalCode: TO00002,
+      name: Impianto di protezione da scariche atmosferiche,
+      subCategory: {
+        id: 2,
+        internalCode: CO00001SC002,
+        name: Impianto di terra e protezione scariche atmosferiche
+      }
+    },
+    {
+      activities: [
+        {
+          activityType: ON_INCIDENT,
+          id: 11,
+          isMandatoryByLaw: true,
+          name: amet
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 12,
+          isMandatoryByLaw: false,
+          name: doloribus
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 13,
+          isMandatoryByLaw: true,
+          name: doloremque
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 14,
+          isMandatoryByLaw: false,
+          name: a
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 15,
+          isMandatoryByLaw: false,
+          name: sed
+        }
+      ],
+      category: {
+        id: 1,
+        internalCode: CO00001,
+        name: Impianti elettrici,
+        subCategories: [
+          {
+            id: 1,
+            internalCode: CO00001SC001,
+            name: Impianto elettrico
+          },
+          {
+            id: 2,
+            internalCode: CO00001SC002,
+            name: Impianto di terra e protezione scariche atmosferiche
+          },
+          {
+            id: 3,
+            internalCode: CO00001SC004,
+            name: Sistema di alimentazione normale
+          },
+          {
+            id: 4,
+            internalCode: CO00001SC005,
+            name: Sistema di alimentazione emergenza
+          },
+          {
+            id: 36,
+            internalCode: CO00001SC003,
+            name: Impianto di telecomunicazioni
+          },
+          {
+            id: 37,
+            internalCode: CO00001SC006,
+            name: Sistema di alimentazione in continuità assoluta
+          },
+          {
+            id: 38,
+            internalCode: CO00001SC007,
+            name: Sistema generale
+          }
+        ]
+      },
+      fields: [
+        [
+          {
+            id: Guid_19,
+            isMandatory: true,
+            name: sit,
+            type: SINGLE_ITEM_FROM_LIST,
+            validValues: [
+              amet,
+              quasi
+            ]
+          },
+          {
+            id: Guid_20,
+            isMandatory: false,
+            name: fuga,
+            type: DATE,
+            validValues: null
+          },
+          {
+            id: Guid_21,
+            isMandatory: true,
+            name: molestiae,
+            type: SINGLE_ITEM_FROM_LIST,
+            validValues: [
+              ut
+            ]
+          }
+        ],
+        [
+          {
+            id: Guid_22,
+            isMandatory: true,
+            name: explicabo,
+            type: SIMPLE_TEXT,
+            validValues: null
+          },
+          {
+            id: Guid_23,
+            isMandatory: false,
+            name: est,
+            type: SIMPLE_NUMBER,
+            validValues: null
+          },
+          {
+            id: Guid_24,
+            isMandatory: false,
+            name: ratione,
+            type: DATE,
+            validValues: null
+          }
+        ],
+        [
+          {
+            id: Guid_25,
+            isMandatory: true,
+            name: et,
+            type: SIMPLE_NUMBER,
+            validValues: null
+          }
+        ]
+      ],
+      id: 3,
+      internalCode: TO00003,
+      name: Cabine ricezione MT e di trasformazione MT/BT,
+      subCategory: {
+        id: 3,
+        internalCode: CO00001SC004,
+        name: Sistema di alimentazione normale
+      }
+    },
+    {
+      activities: [
+        {
+          activityType: ON_INCIDENT,
+          id: 16,
+          isMandatoryByLaw: true,
+          name: autem
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 17,
+          isMandatoryByLaw: true,
+          name: ratione
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 18,
+          isMandatoryByLaw: true,
+          name: porro
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 19,
+          isMandatoryByLaw: false,
+          name: adipisci
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 20,
+          isMandatoryByLaw: false,
+          name: id
+        }
+      ],
+      category: {
+        id: 1,
+        internalCode: CO00001,
+        name: Impianti elettrici,
+        subCategories: [
+          {
+            id: 1,
+            internalCode: CO00001SC001,
+            name: Impianto elettrico
+          },
+          {
+            id: 2,
+            internalCode: CO00001SC002,
+            name: Impianto di terra e protezione scariche atmosferiche
+          },
+          {
+            id: 3,
+            internalCode: CO00001SC004,
+            name: Sistema di alimentazione normale
+          },
+          {
+            id: 4,
+            internalCode: CO00001SC005,
+            name: Sistema di alimentazione emergenza
+          },
+          {
+            id: 36,
+            internalCode: CO00001SC003,
+            name: Impianto di telecomunicazioni
+          },
+          {
+            id: 37,
+            internalCode: CO00001SC006,
+            name: Sistema di alimentazione in continuità assoluta
+          },
+          {
+            id: 38,
+            internalCode: CO00001SC007,
+            name: Sistema generale
+          }
+        ]
+      },
+      fields: [
+        [
+          {
+            id: Guid_26,
+            isMandatory: true,
+            name: veritatis,
+            type: DATE,
+            validValues: null
+          },
+          {
+            id: Guid_27,
+            isMandatory: false,
+            name: a,
+            type: SIMPLE_NUMBER,
+            validValues: null
+          },
+          {
+            id: Guid_28,
+            isMandatory: true,
+            name: cupiditate,
+            type: DATE,
+            validValues: null
+          },
+          {
+            id: Guid_29,
+            isMandatory: true,
+            name: provident,
+            type: SIMPLE_NUMBER,
+            validValues: null
+          }
+        ],
+        [
+          {
+            id: Guid_30,
+            isMandatory: false,
+            name: nulla,
+            type: SIMPLE_TEXT,
+            validValues: null
+          },
+          {
+            id: Guid_31,
+            isMandatory: true,
+            name: quod,
+            type: SINGLE_ITEM_FROM_LIST,
+            validValues: [
+              cumque
+            ]
+          }
+        ],
+        [
+          {
+            id: Guid_32,
+            isMandatory: false,
+            name: eum,
+            type: DATE,
+            validValues: null
+          },
+          {
+            id: Guid_33,
+            isMandatory: true,
+            name: quia,
+            type: DATE,
+            validValues: null
+          },
+          {
+            id: Guid_34,
+            isMandatory: false,
+            name: magnam,
+            type: DATE,
+            validValues: null
+          }
+        ]
+      ],
+      id: 4,
+      internalCode: TO00004,
+      name: Impianto rifasamento (anello e anello B ),
+      subCategory: {
+        id: 3,
+        internalCode: CO00001SC004,
+        name: Sistema di alimentazione normale
+      }
+    },
+    {
+      activities: [
+        {
+          activityType: ON_INCIDENT,
+          id: 21,
+          isMandatoryByLaw: false,
+          name: fuga
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 22,
+          isMandatoryByLaw: false,
+          name: eveniet
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 23,
+          isMandatoryByLaw: false,
+          name: ipsum
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 24,
+          isMandatoryByLaw: true,
+          name: eius
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 25,
+          isMandatoryByLaw: false,
+          name: et
+        }
+      ],
+      category: {
+        id: 1,
+        internalCode: CO00001,
+        name: Impianti elettrici,
+        subCategories: [
+          {
+            id: 1,
+            internalCode: CO00001SC001,
+            name: Impianto elettrico
+          },
+          {
+            id: 2,
+            internalCode: CO00001SC002,
+            name: Impianto di terra e protezione scariche atmosferiche
+          },
+          {
+            id: 3,
+            internalCode: CO00001SC004,
+            name: Sistema di alimentazione normale
+          },
+          {
+            id: 4,
+            internalCode: CO00001SC005,
+            name: Sistema di alimentazione emergenza
+          },
+          {
+            id: 36,
+            internalCode: CO00001SC003,
+            name: Impianto di telecomunicazioni
+          },
+          {
+            id: 37,
+            internalCode: CO00001SC006,
+            name: Sistema di alimentazione in continuità assoluta
+          },
+          {
+            id: 38,
+            internalCode: CO00001SC007,
+            name: Sistema generale
+          }
+        ]
+      },
+      fields: [
+        [
+          {
+            id: Guid_35,
+            isMandatory: false,
+            name: voluptatem,
+            type: DATE,
+            validValues: null
+          }
+        ],
+        [
+          {
+            id: Guid_36,
+            isMandatory: false,
+            name: sint,
+            type: SIMPLE_TEXT,
+            validValues: null
+          },
+          {
+            id: Guid_37,
+            isMandatory: true,
+            name: excepturi,
+            type: SINGLE_ITEM_FROM_LIST,
+            validValues: [
+              in,
+              omnis,
+              tempore,
+              asperiores
+            ]
+          },
+          {
+            id: Guid_38,
+            isMandatory: true,
+            name: corporis,
+            type: SIMPLE_NUMBER,
+            validValues: null
+          }
+        ],
+        [
+          {
+            id: Guid_39,
+            isMandatory: true,
+            name: numquam,
+            type: SIMPLE_TEXT,
+            validValues: null
+          },
+          {
+            id: Guid_40,
+            isMandatory: true,
+            name: voluptatem,
+            type: SIMPLE_NUMBER,
+            validValues: null
+          }
+        ]
+      ],
+      id: 5,
+      internalCode: TO00005,
+      name: Quadri elettrici di ricezione e distribuzione in media tensione,
+      subCategory: {
+        id: 3,
+        internalCode: CO00001SC004,
+        name: Sistema di alimentazione normale
+      }
+    },
+    {
+      activities: [
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 26,
+          isMandatoryByLaw: false,
+          name: aut
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 27,
+          isMandatoryByLaw: true,
+          name: consequuntur
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 28,
+          isMandatoryByLaw: true,
+          name: voluptatum
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 29,
+          isMandatoryByLaw: false,
+          name: tempore
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 30,
+          isMandatoryByLaw: false,
+          name: consequatur
+        }
+      ],
+      category: {
+        id: 1,
+        internalCode: CO00001,
+        name: Impianti elettrici,
+        subCategories: [
+          {
+            id: 1,
+            internalCode: CO00001SC001,
+            name: Impianto elettrico
+          },
+          {
+            id: 2,
+            internalCode: CO00001SC002,
+            name: Impianto di terra e protezione scariche atmosferiche
+          },
+          {
+            id: 3,
+            internalCode: CO00001SC004,
+            name: Sistema di alimentazione normale
+          },
+          {
+            id: 4,
+            internalCode: CO00001SC005,
+            name: Sistema di alimentazione emergenza
+          },
+          {
+            id: 36,
+            internalCode: CO00001SC003,
+            name: Impianto di telecomunicazioni
+          },
+          {
+            id: 37,
+            internalCode: CO00001SC006,
+            name: Sistema di alimentazione in continuità assoluta
+          },
+          {
+            id: 38,
+            internalCode: CO00001SC007,
+            name: Sistema generale
+          }
+        ]
+      },
+      fields: [
+        [
+          {
+            id: Guid_41,
+            isMandatory: false,
+            name: iure,
+            type: SIMPLE_TEXT,
+            validValues: null
+          }
+        ],
+        [
+          {
+            id: Guid_42,
+            isMandatory: false,
+            name: doloremque,
+            type: SINGLE_ITEM_FROM_LIST,
+            validValues: [
+              sit,
+              et,
+              minima,
+              delectus,
+              officia
+            ]
+          },
+          {
+            id: Guid_43,
+            isMandatory: true,
+            name: est,
+            type: SIMPLE_NUMBER,
+            validValues: null
+          },
+          {
+            id: Guid_44,
+            isMandatory: false,
+            name: aut,
+            type: SINGLE_ITEM_FROM_LIST,
+            validValues: [
+              magni,
+              eveniet
+            ]
+          },
+          {
+            id: Guid_45,
+            isMandatory: false,
+            name: dolor,
+            type: DATE,
+            validValues: null
+          }
+        ],
+        [
+          {
+            id: Guid_46,
+            isMandatory: true,
+            name: excepturi,
+            type: SINGLE_ITEM_FROM_LIST,
+            validValues: [
+              eligendi
+            ]
+          },
+          {
+            id: Guid_47,
+            isMandatory: true,
+            name: quia,
+            type: SIMPLE_NUMBER,
+            validValues: null
+          },
+          {
+            id: Guid_48,
+            isMandatory: true,
+            name: culpa,
+            type: SIMPLE_NUMBER,
+            validValues: null
+          },
+          {
+            id: Guid_49,
+            isMandatory: false,
+            name: et,
+            type: SIMPLE_TEXT,
+            validValues: null
+          }
+        ]
+      ],
+      id: 6,
+      internalCode: TO00006,
+      name: Quadro generale di bassa tensione,
+      subCategory: {
+        id: 3,
+        internalCode: CO00001SC004,
+        name: Sistema di alimentazione normale
+      }
+    },
+    {
+      activities: [
+        {
+          activityType: ON_INCIDENT,
+          id: 31,
+          isMandatoryByLaw: false,
+          name: itaque
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 32,
+          isMandatoryByLaw: true,
+          name: nam
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 33,
+          isMandatoryByLaw: true,
+          name: qui
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 34,
+          isMandatoryByLaw: false,
+          name: quasi
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 35,
+          isMandatoryByLaw: true,
+          name: et
+        }
+      ],
+      category: {
+        id: 1,
+        internalCode: CO00001,
+        name: Impianti elettrici,
+        subCategories: [
+          {
+            id: 1,
+            internalCode: CO00001SC001,
+            name: Impianto elettrico
+          },
+          {
+            id: 2,
+            internalCode: CO00001SC002,
+            name: Impianto di terra e protezione scariche atmosferiche
+          },
+          {
+            id: 3,
+            internalCode: CO00001SC004,
+            name: Sistema di alimentazione normale
+          },
+          {
+            id: 4,
+            internalCode: CO00001SC005,
+            name: Sistema di alimentazione emergenza
+          },
+          {
+            id: 36,
+            internalCode: CO00001SC003,
+            name: Impianto di telecomunicazioni
+          },
+          {
+            id: 37,
+            internalCode: CO00001SC006,
+            name: Sistema di alimentazione in continuità assoluta
+          },
+          {
+            id: 38,
+            internalCode: CO00001SC007,
+            name: Sistema generale
+          }
+        ]
+      },
+      fields: [
+        [
+          {
+            id: Guid_50,
+            isMandatory: false,
+            name: natus,
+            type: SIMPLE_NUMBER,
+            validValues: null
+          },
+          {
+            id: Guid_51,
+            isMandatory: true,
+            name: voluptatem,
+            type: SINGLE_ITEM_FROM_LIST,
+            validValues: [
+              saepe,
+              et,
+              aliquam,
+              voluptatem
+            ]
+          },
+          {
+            id: Guid_52,
+            isMandatory: true,
+            name: voluptatum,
+            type: SINGLE_ITEM_FROM_LIST,
+            validValues: [
+              quidem,
+              voluptatem,
+              consequatur
+            ]
+          }
+        ],
+        [
+          {
+            id: Guid_53,
+            isMandatory: false,
+            name: asperiores,
+            type: SIMPLE_TEXT,
+            validValues: null
+          }
+        ],
+        [
+          {
+            id: Guid_54,
+            isMandatory: true,
+            name: sapiente,
+            type: SINGLE_ITEM_FROM_LIST,
+            validValues: [
+              consectetur
+            ]
+          },
+          {
+            id: Guid_55,
+            isMandatory: true,
+            name: veritatis,
+            type: DATE,
+            validValues: null
+          },
+          {
+            id: Guid_56,
+            isMandatory: false,
+            name: aut,
+            type: DATE,
+            validValues: null
+          },
+          {
+            id: Guid_57,
+            isMandatory: true,
+            name: sunt,
+            type: SINGLE_ITEM_FROM_LIST,
+            validValues: [
+              ducimus,
+              et,
+              et,
+              praesentium,
+              laboriosam
+            ]
+          }
+        ]
+      ],
+      id: 7,
+      internalCode: TO00007,
+      name: Gruppo elettrogeno,
+      subCategory: {
+        id: 4,
+        internalCode: CO00001SC005,
+        name: Sistema di alimentazione emergenza
+      }
+    }
+  ],
+  id: 1,
+  internalCode: CO00001,
+  name: Impianti elettrici,
+  subCategories: [
+    {
+      id: 1,
+      internalCode: CO00001SC001,
+      name: Impianto elettrico
+    },
+    {
+      id: 2,
+      internalCode: CO00001SC002,
+      name: Impianto di terra e protezione scariche atmosferiche
+    },
+    {
+      id: 3,
+      internalCode: CO00001SC004,
+      name: Sistema di alimentazione normale
+    },
+    {
+      id: 4,
+      internalCode: CO00001SC005,
+      name: Sistema di alimentazione emergenza
+    },
+    {
+      id: 36,
+      internalCode: CO00001SC003,
+      name: Impianto di telecomunicazioni
+    },
+    {
+      id: 37,
+      internalCode: CO00001SC006,
+      name: Sistema di alimentazione in continuità assoluta
+    },
+    {
+      id: 38,
+      internalCode: CO00001SC007,
+      name: Sistema generale
+    }
+  ]
+}

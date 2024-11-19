@@ -1,0 +1,120 @@
+query getSlas(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: SLAFilterInput
+  $order: [SLASortInput!]
+) {
+  sla {
+    listSLAs(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...SlaFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getAllSlas($where: SLAFilterInput, $order: [SLASortInput!]) {
+  sla {
+    listSLAsFull(where: $where, order: $order) {
+      ...SlaDetailFragment
+    }
+  }
+}
+
+mutation addSlas($inputs: [SLAInput!]!) {
+  sla {
+    addRange(inputs: $inputs) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+      value {
+        ...SlaDetailFragment
+      }
+    }
+  }
+}
+
+mutation updateSla($slaId: Int!, $input: SLAInput!) {
+  sla {
+    update(id: $slaId, input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteSlas($ids: [Int!]!) {
+  sla {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getSlaInternalCode(
+  $additionallyOccupiedCodes: [String!]!
+  $contractInternalCode: String
+) {
+  sla {
+    proposeNewInternalCode(
+      additionallyOccupiedCodes: $additionallyOccupiedCodes
+      contractInternalCode: $contractInternalCode
+    )
+  }
+}
+
+query canUseSlaInternalCode($internalCode: String!, $currentSlaId: Int) {
+  sla {
+    canUseInternalCode(internalCode: $internalCode, currentSLAId: $currentSlaId)
+  }
+}
+
+query exportSlas($where: SLAFilterInput, $order: [SLASortInput!]) {
+  sla {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+query getSla($slaId: Int!) {
+  sla {
+    get(id: $slaId) {
+      ...SlaDetailFragment
+    }
+  }
+}
+
+mutation deleteSla($id: Int!) {
+  sla {
+    delete(id: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}

@@ -1,0 +1,177 @@
+﻿{
+  nodes: [
+    {
+      closureDate: null,
+      deletionDate: null,
+      entryStatus: WORKING,
+      externalCode: gmgz1v,
+      geographicalCities: [
+        681,
+        321,
+        819,
+        850,
+        992
+      ],
+      id: 1,
+      internalCode: wfz9a,
+      name: DuBuque - Macejkovic,
+      notes: null,
+      orgUnitType: GEOGRAPHICAL_HIERARCHY,
+      parentOrgUnitId: null,
+      parentSubjectId: 56
+    },
+    {
+      closureDate: null,
+      deletionDate: null,
+      entryStatus: WORKING,
+      externalCode: tquom7,
+      geographicalCities: null,
+      id: 2,
+      internalCode: pmh7v,
+      name: Ernser and Sons,
+      notes: null,
+      orgUnitType: MANAGEMENT_HIERARCHY,
+      parentOrgUnitId: null,
+      parentSubjectId: 70
+    },
+    {
+      closureDate: null,
+      deletionDate: null,
+      entryStatus: WORKING,
+      externalCode: t3qp4w,
+      geographicalCities: [
+        482,
+        545
+      ],
+      id: 3,
+      internalCode: 7zhnp,
+      name: Nolan Group,
+      notes: null,
+      orgUnitType: GEOGRAPHICAL_HIERARCHY,
+      parentOrgUnitId: null,
+      parentSubjectId: 78
+    },
+    {
+      closureDate: null,
+      deletionDate: null,
+      entryStatus: WORKING,
+      externalCode: h5ok8m,
+      geographicalCities: null,
+      id: 4,
+      internalCode: 353ly,
+      name: Bergstrom, Tromp and Pagac,
+      notes: null,
+      orgUnitType: MANAGEMENT_HIERARCHY,
+      parentOrgUnitId: null,
+      parentSubjectId: 53
+    },
+    {
+      closureDate: null,
+      deletionDate: null,
+      entryStatus: WORKING,
+      externalCode: ok66l9,
+      geographicalCities: [
+        573,
+        72,
+        271,
+        844,
+        572
+      ],
+      id: 5,
+      internalCode: x4pmt,
+      name: Roberts and Sons,
+      notes: null,
+      orgUnitType: GEOGRAPHICAL_HIERARCHY,
+      parentOrgUnitId: null,
+      parentSubjectId: 17
+    },
+    {
+      closureDate: null,
+      deletionDate: null,
+      entryStatus: WORKING,
+      externalCode: a2gh72,
+      geographicalCities: null,
+      id: 6,
+      internalCode: nkjoz,
+      name: Crist - Schulist,
+      notes: null,
+      orgUnitType: MANAGEMENT_HIERARCHY,
+      parentOrgUnitId: null,
+      parentSubjectId: 51
+    },
+    {
+      closureDate: null,
+      deletionDate: null,
+      entryStatus: WORKING,
+      externalCode: 6vjsic,
+      geographicalCities: [
+        43,
+        695,
+        130,
+        203,
+        502
+      ],
+      id: 7,
+      internalCode: vz94w,
+      name: Hane, Johnston and Wolf,
+      notes: null,
+      orgUnitType: GEOGRAPHICAL_HIERARCHY,
+      parentOrgUnitId: null,
+      parentSubjectId: 20
+    },
+    {
+      closureDate: null,
+      deletionDate: null,
+      entryStatus: WORKING,
+      externalCode: pwn99h,
+      geographicalCities: null,
+      id: 8,
+      internalCode: nc03v,
+      name: Cole, Moore and Macejkovic,
+      notes: null,
+      orgUnitType: MANAGEMENT_HIERARCHY,
+      parentOrgUnitId: null,
+      parentSubjectId: 7
+    },
+    {
+      closureDate: null,
+      deletionDate: null,
+      entryStatus: WORKING,
+      externalCode: wsgcsf,
+      geographicalCities: [
+        1000,
+        613,
+        98,
+        628
+      ],
+      id: 9,
+      internalCode: k8uug,
+      name: Spencer LLC,
+      notes: null,
+      orgUnitType: GEOGRAPHICAL_HIERARCHY,
+      parentOrgUnitId: null,
+      parentSubjectId: 3
+    },
+    {
+      closureDate: null,
+      deletionDate: null,
+      entryStatus: WORKING,
+      externalCode: tji5mj,
+      geographicalCities: null,
+      id: 10,
+      internalCode: dvbsi,
+      name: Lynch LLC,
+      notes: null,
+      orgUnitType: MANAGEMENT_HIERARCHY,
+      parentOrgUnitId: null,
+      parentSubjectId: 64
+    }
+  ],
+  pageInfo: {
+    endCursor: OQ==,
+    hasNextPage: true,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 28
+}

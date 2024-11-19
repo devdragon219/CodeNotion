@@ -1,0 +1,60 @@
+{
+  "calendar": {
+    "title": "Calendari",
+    "section_title": {
+      "calendar": "Calendario",
+      "calendars": "Calendari",
+      "holidays": "Festivita"
+    },
+    "field": {
+      "name": "Nome calendario",
+      "timezone": "Fuso orario",
+      "day_since": "Dalle ore",
+      "day_until": "Alle ore",
+      "holiday_name": "Nome festività",
+      "holiday_date": "Data festività",
+      "holiday_periodicity": "Frequenza",
+      "day": "Giorno",
+      "time": "Ora"
+    },
+    "error": {
+      "overlapping_time_range": "L'orario inserito è già incluso in un altro intervallo"
+    },
+    "action": {
+      "add_time": "Aggiungi orario",
+      "add_holiday": "Aggiungi festività",
+      "add_calendar": "Aggiungi calendario"
+    },
+    "text": {
+      "no_calendars": "Non sono presenti calendari",
+      "no_holidays": "Non sono presenti festività"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta calendario"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questo calendario?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare questi calendari?\nIl processo non potrà essere annullato"
+        }
+      },
+      "update": {
+        "title": "Modifica calendario"
+      },
+      "view": {
+        "title": "Visualizza calendario"
+      },
+      "calendars": "Calendari"
+    },
+    "feedback": {
+      "create": "Calendario creato con successo",
+      "delete": {
+        "single": "Calendario cancellato con successo",
+        "multiple": "Calendari cancellati con successo"
+      },
+      "update": "Calendario modificato con successo"
+    }
+  }
+}

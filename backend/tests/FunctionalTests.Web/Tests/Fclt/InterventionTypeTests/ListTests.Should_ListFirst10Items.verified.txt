@@ -1,0 +1,36 @@
+﻿{
+  nodes: [
+    {
+      id: 1,
+      internalCode: TI01,
+      name: Est illum.
+    },
+    {
+      id: 2,
+      internalCode: TI02,
+      name: Assumenda iste.
+    },
+    {
+      id: 3,
+      internalCode: TI03,
+      name: Quia natus.
+    },
+    {
+      id: 4,
+      internalCode: TI04,
+      name: Et dignissimos.
+    },
+    {
+      id: 5,
+      internalCode: TI05,
+      name: Reiciendis ad.
+    }
+  ],
+  pageInfo: {
+    endCursor: NA==,
+    hasNextPage: false,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 5
+}

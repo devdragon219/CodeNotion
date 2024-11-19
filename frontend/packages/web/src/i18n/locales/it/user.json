@@ -1,0 +1,102 @@
+{
+  "user": {
+    "title": "Utenti",
+    "tab": {
+      "general_data": "Dati generali",
+      "config": "Configurazione",
+      "org_unit": "UO di appartenenza",
+      "contacts": "Contatti",
+      "sessions": "Sessioni",
+      "recap": "Riepilogo"
+    },
+    "section_title": {
+      "general_data": "Dati generali",
+      "config": "Configurazione",
+      "org_unit": "UO di appartenenza",
+      "contacts": "Contatti",
+      "change_password": "Modifica password",
+      "permissions": "Permessi",
+      "recap": "Riepilogo"
+    },
+    "field": {
+      "first_name": "Nome",
+      "last_name": "Cognome",
+      "full_name": "Cognome e nome",
+      "user_name": "Nome utente",
+      "status": "Stato utente",
+      "enabled_since": "Data di attivazione",
+      "ceased_date": "Data cessazione",
+      "locked_since": "Data inizio sospensione",
+      "suspension_reason": "Motivo di sospensione",
+      "management_subjects": "Ente/i di gestione",
+      "type": "Tipologia utente",
+      "groups": "Gruppi operativi",
+      "new_password": "Nuova password",
+      "confirm_password": "Conferma nuova password",
+      "office_access": "Accesso utente",
+      "supplier_subject": "Fornitore",
+      "org_unit_code": "Codice UO",
+      "org_unit_description": "Descrizione UO",
+      "org_unit_type": "Tipologia UO",
+      "org_unit_management_subject": "Ente di gestione",
+      "org_unit_group_society": "Società",
+      "org_unit_parent_org_unit": "UO di riferimento",
+      "session_creation_date": "Data avvio sessione",
+      "session_ip_address": "Indirizzo IP",
+      "session_ip_location": "Località",
+      "session_user_agent": "User agent",
+      "session_expiration_date": "Scadenza sessione"
+    },
+    "action": {
+      "add_internal_user": "Dipendente",
+      "add_external_user": "Fornitore",
+      "change_password": "Modifica password",
+      "revoke_all_sessions": "Revoca tutte le sessioni"
+    },
+    "error": {
+      "user_name": "Il nome utente inserito è già in uso"
+    },
+    "text": {
+      "no_users": "Non sono presenti utenti",
+      "associable_org_units": "Seleziona le UO di appartenenza",
+      "associated_org_units": "UO di appartenenza",
+      "no_associated_org_units": "Non sono presenti UO di appartenenza"
+    },
+    "dialog": {
+      "change_password": {
+        "title": "Modifica password"
+      },
+      "create": {
+        "title": {
+          "INTERNAL": "Aggiunta dipendente",
+          "EXTERNAL_SUPPLIER": "Aggiunta fornitore"
+        },
+        "save": "Salva utente"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questo utente?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare questi utenti?\nIl processo non potrà essere annullato"
+        }
+      },
+      "org_units": {
+        "title": "Modifica UO di appartenenza"
+      }
+    },
+    "feedback": {
+      "create": "Utente creato con successo",
+      "delete": {
+        "single": "Utente cancellato con successo",
+        "multiple": "Utenti cancellati con successo"
+      },
+      "update": "Utente modificato con successo"
+    },
+    "permission": {
+      "read": "Visualizza",
+      "update": "Modifica",
+      "create": "Aggiungi",
+      "delete": "Cancella"
+    }
+  }
+}

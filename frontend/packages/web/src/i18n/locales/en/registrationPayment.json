@@ -1,0 +1,74 @@
+{
+  "registration_payment": {
+    "title": "Registration payments",
+    "tab": {
+      "contract": "Contract",
+      "general_data": "Data and taxes",
+      "rows": "Registration taxes",
+      "recap": "Recap"
+    },
+    "section_title": {
+      "contract": "Select contract",
+      "general_data": "General data",
+      "communication_data": "Communication data",
+      "rows": "Taxes",
+      "recap": "Recap"
+    },
+    "field": {
+      "payment_code": "Payment code",
+      "management_subject": "Management subject",
+      "payment_date": "Date",
+      "payment_year": "Payment year",
+      "contract_code": "Contract code",
+      "estate": "Estate",
+      "address_toponymy": "Address",
+      "address_city": "City",
+      "address_county": "County",
+      "tax_amount": "Importo imposta mancante",
+      "sanction_amount": "Sanction amount",
+      "row_entity": "Entity code",
+      "row_year": "Year",
+      "row_period": "Period ",
+      "row_code": "Tax code",
+      "row_description": "Tax description",
+      "row_amount_cleared": "Tax amount cleared",
+      "row_amount_due": "Tax amount due"
+    },
+    "error": {
+      "no_contract": "No contract selected"
+    },
+    "action": {
+      "add_row": "Add tax"
+    },
+    "text": {
+      "no_registration_payments": "No registration payments available",
+      "no_contracts": "No contracts available",
+      "no_rows": "No taxes available"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add registration tax",
+        "save": "Save registration tax"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this registration tax?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these registration taxes?\nThe process cannot be undone"
+        }
+      },
+      "row": {
+        "add": "Add tax",
+        "edit": "Edit tax"
+      }
+    },
+    "feedback": {
+      "create": "Registration tax successfully created",
+      "delete": {
+        "single": "Registration tax successfully deleted",
+        "multiple": "Registration taxes successfully deleted"
+      },
+      "update": "Registration tax successfully updated"
+    }
+  }
+}

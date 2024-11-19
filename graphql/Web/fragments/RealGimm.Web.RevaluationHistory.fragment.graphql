@@ -1,0 +1,8 @@
+fragment RevaluationHistoryFragment on RevaluationHistory {
+  since
+  baseYearlyRate
+  indexPercent
+  revaluationAmount
+  yearlyRateWithRevaluation
+  id
+}

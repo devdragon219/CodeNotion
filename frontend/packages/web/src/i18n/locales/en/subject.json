@@ -1,0 +1,170 @@
+{
+  "subject": {
+    "title": "Subjects",
+    "tab": {
+      "general_data": "General information",
+      "personal_data": "Personal information",
+      "addresses_and_contacts": "Addresses and contacts",
+      "accounting_data": "Accounting information",
+      "documents": "Documents",
+      "recap": "Recap"
+    },
+    "section_title": {
+      "general_data": "General information",
+      "personal_data": "Personal information",
+      "corporate_data": "Corporate information",
+      "legal_representative": "Legal representative",
+      "legal_representative_or_other": "Legal representative/Guardian/Executor administrator",
+      "heirs": "Heirs",
+      "heir": "Heir",
+      "legal_address": "Legal address",
+      "residential_address": "Residential address",
+      "other_addresses": "Other addresses",
+      "contacts": "Contacts",
+      "bank_account": "Bank account",
+      "split_payment": "Split payment",
+      "identity_document": "Identity document",
+      "other_documents": "Other documents",
+      "recap": "Recap"
+    },
+    "field": {
+      "name": "Name",
+      "subject_type": "Subject type",
+      "status": "Status",
+      "subject_category": "Subject category",
+      "split_payment": "Split payment",
+      "legal_nature": "Legal nature",
+      "category": "Category",
+      "management_code": "Management code",
+      "subject_code": "Subject code",
+      "external_subject_code": "External subject code",
+      "subject_status": "Subject status",
+      "closure_date": "Termination date",
+      "owning_management_subjects": "Owning management subject(s)",
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "birth_sex": "Gender",
+      "birth_date": "Birth date",
+      "business_name": "Business name",
+      "subject_name": "Subject name",
+      "establishment_date": "Establishment date",
+      "share_capital": "Share capital",
+      "vat_number": "VAT number",
+      "tax_id_code": "Tax ID number",
+      "cciaa_number": "CCIAA number",
+      "cciaa_county": "CCIAA county",
+      "rea_number": "REA number",
+      "rea_county": "REA county",
+      "group_leader": "Group leader",
+      "tax_status_landlord_vat": "Subject to landlord VAT",
+      "tax_status_tenant_vat": "Subject to tenant VAT",
+      "birth_address_country": "Birth country",
+      "birth_address_city": "Birth city",
+      "birth_address_county": "Birth county",
+      "signature": "Signature",
+      "sia_code": "SIA code",
+      "company_group_parent": "Entity of which the subject is a group company",
+      "officer_type": "Link nature",
+      "officer_name": "Representative subject name",
+      "officer_since": "Start date",
+      "officer_until": "End date",
+      "heir_name": "Heir subject name",
+      "address_type": "Type",
+      "address_country": "Country",
+      "address_city": "City",
+      "address_county": "County",
+      "address_toponymy": "Address",
+      "address_number": "Number",
+      "address_postal_code": "Postal code",
+      "address_notes": "Notes",
+      "contact_phone_type": "Phone type",
+      "contact_phone_number": "Phone number",
+      "contact_mobile_phone": "Mobile phone",
+      "contact_landline_phone": "Landline phone",
+      "contact_email_type": "Email type",
+      "contact_email": "Email",
+      "contact_registered_email": "Registered email",
+      "bank_account_number": "Number",
+      "bank_account_holder": "Holder",
+      "bank_account_notes": "Notes",
+      "tax_status_split_payment": "Subjectivity",
+      "tax_status_split_payment_since": "Validity start date",
+      "tax_status_split_payment_until": "Validity end date",
+      "document_type": "Document type",
+      "document_number": "Document number",
+      "document_issue_date": "Document issue date",
+      "document_expiry_date": "Document expiry date",
+      "document_issued_by": "Releasing authority",
+      "identity_document_upload": "Upload identity document",
+      "other_document_upload": "Upload other document",
+      "identity_document_upload_description": "Upload the front and\nthe rest of your document in one file."
+    },
+    "error": {
+      "internal_code": "The subject code provided is already in use",
+      "company_group_relation": "A group leader already exist for this subject",
+      "signature": "The signature provided is already in use",
+      "tax_id_code": "The tax id code provided is invalid",
+      "iban": "A bank account already exist with this value"
+    },
+    "action": {
+      "add_management_subject": "Management subject",
+      "add_other_subject": "Other subject",
+      "add_legal_representative": "Add legal representative",
+      "add_heir": "Add heir",
+      "add_address": "Add address",
+      "add_bank_account": "Add bank account",
+      "add_identity_document": "Add identity document",
+      "add_other_document": "Add other document"
+    },
+    "text": {
+      "no_subjects": "No subjects available",
+      "no_legal_representatives": "There are no Legal Representatives entered",
+      "no_legal_representatives_or_other": "There are no Legal Representative/Legal Guardian/Support Administrator entered",
+      "no_heirs": "There are no heirs entered",
+      "no_other_addresses": "There are no other addresses entered",
+      "no_bank_accounts": "There are no bank accounts entered",
+      "no_identity_documents": "No identifying documents have been uploaded",
+      "no_other_documents": "No other documents have been uploaded"
+    },
+    "dialog": {
+      "create": {
+        "title": {
+          "MANAGEMENT_SUBJECT": "Add Management Subject",
+          "OTHER": "Add Other Subject"
+        },
+        "save": "Save subject"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this subject?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these subjects?\nThe process cannot be undone"
+        }
+      },
+      "legal_representative": {
+        "add": "Add legal representative",
+        "edit": "Edit legal representative"
+      },
+      "heir": {
+        "add": "Add heir",
+        "edit": "Edit heir"
+      },
+      "address": {
+        "add": "Add address",
+        "edit": "Edit address"
+      },
+      "bank_account": {
+        "add": "Add bank account",
+        "edit": "Edit bank account"
+      }
+    },
+    "feedback": {
+      "create": "Subject successfully created",
+      "delete": {
+        "single": "Subject successfully deleted",
+        "multiple": "Subjects successfully deleted"
+      },
+      "update": "Subject successfully updated"
+    }
+  }
+}

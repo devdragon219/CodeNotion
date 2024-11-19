@@ -1,0 +1,49 @@
+{
+  "estate_sub_unit": {
+    "section_title": {
+      "no_estate_sub_units": "Non sono presenti sotto unità immobiliari",
+      "estate_sub_unit": "Sotto UI"
+    },
+    "field": {
+      "internal_code": "Codice Sotto UI",
+      "occupant_type": "Tipologia utilizzatore",
+      "occupant": "Utilizzatore",
+      "org_unit": "Unità organizzativa",
+      "usage_type": "Destinazione d'uso",
+      "since": "Data inizio gestione",
+      "until": "Data fine gestione",
+      "surface": "Superficie mq",
+      "occupancy_percentage": "% occupazione",
+      "notes": "Note"
+    },
+    "action": {
+      "add_estate_sub_unit": "Aggiungi Sotto UI"
+    },
+    "text": {
+      "no_estate_sub_units": "Non sono presenti sotto unità immobiliari"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiungi sotto UI"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa sotto unità immobiliare?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste sotto unità immobiliari?\nIl processo non potrà essere annullato"
+        }
+      },
+      "edit": {
+        "title": "Modifica sotto UI"
+      }
+    },
+    "feedback": {
+      "create": "Sotto unità immobiliare creata con successo",
+      "delete": {
+        "single": "Sotto unità immobiliare cancellata con successo",
+        "multiple": "Sotto unità immobiliari cancellate con successo"
+      },
+      "update": "Sotto unità immobiliare modificata con successo"
+    }
+  }
+}

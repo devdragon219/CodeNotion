@@ -1,0 +1,124 @@
+services:
+  app:
+    image: mcr.microsoft.com/devcontainers/dotnet:1-8.0
+    ulimits:
+      nofile: 8192
+    volumes:
+      - ../..:/workspace:cached
+      - ~/.ssh:/home/vscode/.ssh
+      - exportcache:/opt/rg5-cache
+    environment:
+      - LOCAL_BACKEND=http://localhost:5050/
+      - LOCAL_FRONTEND_HOST=0.0.0.0
+      - NODE_OPTIONS=--max-old-space-size=4096
+      - RG5_ST_NAME=tenant1
+      - RG5_ST_GUID=60554f2a-1140-4c92-9ab2-184e0414341e
+      - RG5_ST_COUNTRY=ita
+      - RG5_ST_ADMINPW=password1
+      - RG5_ST_NOMINATIM=https://rg5-test.grupposcai.it/nominatim/search
+      - RG5_ST_CMIS_URL=http://inmemorydocs:8081/inmemory/atom11
+      - RG5_ST_CMIS_USERNAME=test
+      - RG5_ST_CMIS_PASSWORD=test
+      - RG5_ST_MAKEDEMO=yes
+
+      # Overrides default command so things don't shut down after the process ends.
+    command: /bin/bash /workspace/backend/scripts/parts/init-devcontainer.sh
+    networks:
+      - realgimm-net
+    ports:
+      - "127.0.0.1:5050:5050"
+      - "127.0.0.1:3000:3000"
+    depends_on:
+      - db
+      - inmemorydocs
+      - aspire-dashboard
+      - keycloak
+    links:
+      - db
+      - inmemorydocs
+
+  db:
+    image: docker.io/postgis/postgis:14-3.3-alpine
+    restart: unless-stopped
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: "aStrongP@ssword"
+    networks:
+      - realgimm-net
+    ports:
+      - "127.0.0.1:5432:5432"
+
+  inmemorydocs:
+    build:
+      dockerfile: Dockerfile
+      context: ../../tools/opencmis-inmemory/
+    networks:
+      - realgimm-net
+    ports:
+      - "127.0.0.1:8081:8081"
+
+  queue:
+    image: docker.io/library/rabbitmq:3-alpine
+    restart: unless-stopped
+    networks:
+      - realgimm-net
+    ports:
+      - "127.0.0.1:5672:5672"
+
+  aspire-dashboard:
+    image: mcr.microsoft.com/dotnet/nightly/aspire-dashboard:8.0.0-preview.6
+    restart: unless-stopped
+    environment:
+      - DOTNET_DASHBOARD_UNSECURED_ALLOW_ANONYMOUS=true
+    networks:
+      - realgimm-net
+
+  keycloak-db:
+    image: postgres:14-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: keycloak-db
+      POSTGRES_USER: keycloak
+      POSTGRES_PASSWORD: keycloakpassword
+    networks:
+      - realgimm-net
+    ports:
+      - "127.0.0.1:5433:5432"
+    volumes:
+      - kcdata:/var/lib/postgresql/data
+
+  keycloak:
+    image: quay.io/keycloak/keycloak:25.0.1
+    restart: unless-stopped
+    networks:
+      - realgimm-net
+    ports:
+      - "127.0.0.1:8080:8080"
+    command: start-dev
+    depends_on:
+      - keycloak-db
+    volumes:
+      - ./realgimm-realm.json:/opt/keycloak/data/import/realgimm-realm.json
+    environment:
+      - KEYCLOAK_ADMIN=admin
+      - KEYCLOAK_ADMIN_PASSWORD=adminpassword
+      - KC_DB=postgres
+      - KC_DB_URL=jdbc:postgresql://keycloak-db:5432/keycloak-db
+      - KC_DB_USERNAME=keycloak
+      - KC_DB_PASSWORD=keycloakpassword
+    entrypoint:
+      - /bin/sh
+      - -c
+      - |
+        /opt/keycloak/bin/kc.sh import --file /opt/keycloak/data/import/realgimm-realm.json --override false &&
+        /opt/keycloak/bin/kc.sh start-dev
+
+volumes:
+  pgdata:
+  exportcache:
+  kcdata:
+
+networks:
+  realgimm-net:
+    driver: bridge

@@ -1,0 +1,42 @@
+{
+  "facility_contract_type": {
+    "title": "Tipologie contratti manutenzione",
+    "field": {
+      "ordering": "Ordinamento",
+      "internal_code": "Codice contratto",
+      "name": "Descrizione"
+    },
+    "error": {
+      "internal_code": "Il codice contratto inserito è già in uso"
+    },
+    "text": {
+      "no_facility_contract_types": "Non sono presenti tipologie contratti manutenzione"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta tipologia contratto manutenzione"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa tipologia contratto manutenzione?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste tipologie contratti manutenzione?\nIl processo non potrà essere annullato"
+        }
+      },
+      "update": {
+        "title": "Modifica tipologia contratto manutenzione"
+      },
+      "view": {
+        "title": "Visualizza tipologia contratto manutenzione"
+      }
+    },
+    "feedback": {
+      "create": "Tipologia contratto manutenzione creato con successo",
+      "delete": {
+        "single": "Tipologia contratto manutenzione cancellato con successo",
+        "multiple": "Tipologie contratti manutenzione cancellati con successo"
+      },
+      "update": "Tipologia contratto manutenzione modificato con successo"
+    }
+  }
+}

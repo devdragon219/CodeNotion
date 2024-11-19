@@ -1,0 +1,116 @@
+query getCadastralUnits(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: CadastralUnitFilterInput
+  $order: [CadastralUnitSortInput!]
+) {
+  cadastralUnit {
+    listCadastralUnits(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...CadastralUnitFragment
+      }
+      totalCount
+    }
+  }
+}
+
+mutation deleteCadastralUnit($id: Int!) {
+  cadastralUnit {
+    delete(id: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteCadastralUnits($ids: [Int!]!) {
+  cadastralUnit {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query exportCadastralUnits(
+  $where: CadastralUnitFilterInput
+  $order: [CadastralUnitSortInput!]
+) {
+  cadastralUnit {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+query getCadastralUnit($cadastralUnitId: Int!) {
+  cadastralUnit {
+    cadastralUnit(id: $cadastralUnitId) {
+      ...CadastralUnitDetailFragment
+    }
+  }
+}
+
+query getCadastralUnitInternalCode($estateUnitId: Int!) {
+  cadastralUnit {
+    proposeNewInternalCode(parentId: $estateUnitId)
+  }
+}
+
+query getCadastralUnitInternalCodeByEstateUnitInternalCode(
+  $estateUnitInternalCode: String!
+) {
+  cadastralUnit {
+    proposeNewInternalCodeByParentCode(parentCode: $estateUnitInternalCode)
+  }
+}
+
+mutation createCadastralUnit($cadastralUnitInput: CadastralUnitInput!) {
+  cadastralUnit {
+    addCadastralUnit(input: $cadastralUnitInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateCadastralUnit(
+  $cadastralUnitId: Int!
+  $cadastralUnitInput: CadastralUnitInput!
+  $isVariation: Boolean!
+) {
+  cadastralUnit {
+    updateCadastralUnit(
+      id: $cadastralUnitId
+      isVariation: $isVariation
+      input: $cadastralUnitInput
+    ) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}

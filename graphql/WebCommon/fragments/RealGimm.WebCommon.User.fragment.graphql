@@ -1,0 +1,18 @@
+fragment UserProfileFragment on User {
+  id
+  firstName
+  lastName
+  userName
+  status
+  enabledSince
+  managementSubjects {
+    id
+    name
+  }
+  contacts {
+    id
+    contactType
+    contactInfo
+    contactInfoType
+  }
+}

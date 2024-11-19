@@ -1,0 +1,74 @@
+{
+  Data: {
+    admin: {
+      updateGroup: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          description: UpdatedDescription,
+          features: [
+            {
+              canCreate: false,
+              canDelete: true,
+              canRead: true,
+              canUpdate: true,
+              feature: 121,
+              groupId: 6
+            },
+            {
+              canCreate: false,
+              canDelete: false,
+              canRead: false,
+              canUpdate: true,
+              feature: 214,
+              groupId: 6
+            },
+            {
+              canCreate: true,
+              canDelete: true,
+              canRead: true,
+              canUpdate: true,
+              feature: 131,
+              groupId: 6
+            },
+            {
+              canCreate: true,
+              canDelete: true,
+              canRead: true,
+              canUpdate: true,
+              feature: 331,
+              groupId: 6
+            },
+            {
+              canCreate: true,
+              canDelete: true,
+              canRead: true,
+              canUpdate: true,
+              feature: 401,
+              groupId: 6
+            },
+            {
+              canCreate: true,
+              canDelete: true,
+              canRead: true,
+              canUpdate: true,
+              feature: 911,
+              groupId: 6
+            },
+            {
+              canCreate: true,
+              canDelete: true,
+              canRead: true,
+              canUpdate: true,
+              feature: 922,
+              groupId: 6
+            }
+          ],
+          id: 6,
+          name: UpdatedName
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

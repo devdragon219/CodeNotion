@@ -1,0 +1,1360 @@
+schema {
+  query: Query
+  mutation: Mutation
+  subscription: Subscription
+}
+
+interface GeoJSONInterface {
+  "The geometry type of the GeoJson object"
+  type: GeoJSONGeometryType!
+  "The minimum bounding box around the geometry object"
+  bbox: [Float]
+  "The coordinate reference system integer identifier"
+  crs: Int
+}
+
+interface ISubject {
+  id: Int!
+  name: String!
+  personType: PersonType!
+  internalCode: String!
+  externalSourceCode: String
+  customPersonType: Int
+  customSubjectStatus: Int
+  creationDate: DateTime!
+  closureDate: DateTime
+  deletionDate: DateTime
+  entryStatus: EntryStatus!
+  addresses: [Address!]!
+  contacts: [Contact!]!
+  orgUnits: [OrgUnit!]!
+  bankAccounts: [BankAccount!]!
+  categories: [SubjectCategory!]!
+  relationMains: [SubjectRelation!]!
+  relationSubordinates: [SubjectRelation!]!
+  taxStatuses: [TaxStatus!]!
+  officers: [SubjectRelation!]!
+  owningMgmtSubjects: [SubjectRelation!]!
+  subOrganizations: [SubjectRelation!]!
+  heirs: [SubjectRelation!]!
+}
+
+interface Notification {
+  username: String!
+  timestamp: DateTime!
+  status: NotificationStatus!
+  id: Int!
+}
+
+type Address {
+  addressType: AddressType!
+  cityName: String
+  cityReference: UUID
+  countyName: String
+  countyReference: UUID
+  regionName: String
+  regionReference: UUID
+  countryName: String
+  countryISO: String
+  toponymy: String
+  numbering: String
+  localPostCode: String
+  notes: String
+  creationDate: DateTime!
+  id: Int!
+}
+
+type BankAccount {
+  bankAccountType: BankAccountType!
+  referenceCode: String
+  referenceCodeType: BankAccountCodeType!
+  notes: String
+  accountHolder: String
+  creationDate: DateTime!
+  id: Int!
+}
+
+type CategoryFunctionFlags {
+  isNone: Boolean!
+  isOfficer: Boolean!
+  isAgreementParty: Boolean!
+  isSupplier: Boolean!
+  isEmployee: Boolean!
+  isLandlord: Boolean!
+  isTenant: Boolean!
+  isCompanyGroup: Boolean!
+  isHeir: Boolean!
+  isBuildingAdministrator: Boolean!
+}
+
+type Contact {
+  contactType: ContactType!
+  contactInfo: String
+  contactInfoType: ContactInfoType!
+  notes: String
+  creationDate: DateTime!
+  id: Int!
+}
+
+type FileUrlOutput {
+  resourceUrl: String!
+}
+
+type GeoJSONLineStringType implements GeoJSONInterface {
+  "The \"coordinates\" field is an array of two or more positions."
+  coordinates: [Position]
+  "The geometry type of the GeoJson object"
+  type: GeoJSONGeometryType!
+  "The minimum bounding box around the geometry object"
+  bbox: [Float!]!
+  "The coordinate reference system integer identifier"
+  crs: Int!
+}
+
+type GeoJSONMultiLineStringType implements GeoJSONInterface {
+  "The \"coordinates\" field is an array of LineString coordinate arrays."
+  coordinates: [Position]
+  "The geometry type of the GeoJson object"
+  type: GeoJSONGeometryType!
+  "The minimum bounding box around the geometry object"
+  bbox: [Float!]!
+  "The coordinate reference system integer identifier"
+  crs: Int!
+}
+
+type GeoJSONMultiPointType implements GeoJSONInterface {
+  "The \"coordinates\" field is an array of positions."
+  coordinates: [Position]
+  "The geometry type of the GeoJson object"
+  type: GeoJSONGeometryType!
+  "The minimum bounding box around the geometry object"
+  bbox: [Float!]!
+  "The coordinate reference system integer identifier"
+  crs: Int!
+}
+
+type GeoJSONMultiPolygonType implements GeoJSONInterface {
+  "The \"coordinates\" field is an array of Polygon coordinate arrays."
+  coordinates: Coordinates
+  "The geometry type of the GeoJson object"
+  type: GeoJSONGeometryType!
+  "The minimum bounding box around the geometry object"
+  bbox: [Float!]!
+  "The coordinate reference system integer identifier"
+  crs: Int!
+}
+
+type GeoJSONPointType implements GeoJSONInterface {
+  "The \"coordinates\" field is a single position."
+  coordinates: Position
+  "The geometry type of the GeoJson object"
+  type: GeoJSONGeometryType!
+  "The minimum bounding box around the geometry object"
+  bbox: [Float!]!
+  "The coordinate reference system integer identifier"
+  crs: Int!
+}
+
+type GeoJSONPolygonType implements GeoJSONInterface {
+  "The \"coordinates\" field MUST be an array of linear ring coordinate arrays. For Polygons with more than one of these rings, the first MUST be the exterior ring, and any others MUST be interior rings. The exterior ring bounds the surface, and the interior rings (if present) bound holes within the surface."
+  coordinates: [[Position]]
+  "The geometry type of the GeoJson object"
+  type: GeoJSONGeometryType!
+  "The minimum bounding box around the geometry object"
+  bbox: [Float!]!
+  "The coordinate reference system integer identifier"
+  crs: Int!
+}
+
+type Group {
+  name: String!
+  description: String
+  creationDate: DateTime!
+  features: [GroupFeature!]!
+  users: [User!]!
+  id: Int!
+}
+
+type GroupFeature {
+  feature: String!
+  group: Group!
+  groupId: Int!
+  canRead: Boolean!
+  canCreate: Boolean!
+  canUpdate: Boolean!
+  canDelete: Boolean!
+}
+
+type IAMContact {
+  contactType: ContactType!
+  contactInfo: String
+  contactInfoType: ContactInfoType!
+  notes: String
+  creationDate: DateTime!
+  deletionDate: DateTime
+  id: Int!
+}
+
+type LegalSubject implements ISubject {
+  contact(infoType: ContactInfoType!): Contact
+  name: String!
+  fullName: String!
+  shorthandDescription: String
+  personType: PersonType!
+  baseCountryTaxIdCode: String
+  additionalTaxIdCode: String
+  baseCountryISO: String
+  location: String
+  businessStart: Date
+  shareCapital: Decimal
+  companiesHouseIdCode: String
+  additionalGovIdCode: String
+  bankingId1: String
+  bankingId2: String
+  interGroupSignature: String
+  legalSubjectType: LegalSubjectType!
+  internalCode: String!
+  externalSourceCode: String
+  customPersonType: Int
+  customSubjectStatus: Int
+  creationDate: DateTime!
+  closureDate: DateTime
+  deletionDate: DateTime
+  entryStatus: EntryStatus!
+  addresses: [Address!]!
+  contacts: [Contact!]!
+  orgUnits: [OrgUnit!]!
+  bankAccounts: [BankAccount!]!
+  categories: [SubjectCategory!]!
+  relationMains: [SubjectRelation!]!
+  relationSubordinates: [SubjectRelation!]!
+  taxStatuses: [TaxStatus!]!
+  officers: [SubjectRelation!]!
+  owningMgmtSubjects: [SubjectRelation!]!
+  subOrganizations: [SubjectRelation!]!
+  companyGroupParent: SubjectRelation
+  heirs: [SubjectRelation!]!
+  id: Int!
+}
+
+"A connection to a list of items."
+type ListSubjectCategoriesConnection {
+  "Information to aid in pagination."
+  pageInfo: PageInfo!
+  "A list of edges."
+  edges: [ListSubjectCategoriesEdge!]
+  "A flattened list of the nodes."
+  nodes: [SubjectCategory!]
+  "Identifies the total count of items in the connection."
+  totalCount: Int!
+}
+
+"An edge in a connection."
+type ListSubjectCategoriesEdge {
+  "A cursor for use in pagination."
+  cursor: String!
+  "The item at the end of the edge."
+  node: SubjectCategory!
+}
+
+"A connection to a list of items."
+type ListSubjectsConnection {
+  "Information to aid in pagination."
+  pageInfo: PageInfo!
+  "A list of edges."
+  edges: [ListSubjectsEdge!]
+  "A flattened list of the nodes."
+  nodes: [ISubject!]
+  "Identifies the total count of items in the connection."
+  totalCount: Int!
+}
+
+"An edge in a connection."
+type ListSubjectsEdge {
+  "A cursor for use in pagination."
+  cursor: String!
+  "The item at the end of the edge."
+  node: ISubject!
+}
+
+type LoginResult {
+  user: UserModel!
+  jwt: String!
+  refreshToken: String
+}
+
+type ManagementSubject implements ISubject {
+  contact(infoType: ContactInfoType!): Contact
+  name: String!
+  fullName: String!
+  shorthandDescription: String
+  personType: PersonType!
+  managementCode: String
+  baseCountryTaxIdCode: String
+  additionalTaxIdCode: String
+  baseCountryISO: String
+  location: String
+  businessStart: Date
+  shareCapital: Decimal
+  companiesHouseIdCode: String
+  additionalGovIdCode: String
+  interGroupSignature: String
+  bankingId1: String
+  bankingId2: String
+  internalCode: String!
+  externalSourceCode: String
+  customPersonType: Int
+  customSubjectStatus: Int
+  creationDate: DateTime!
+  closureDate: DateTime
+  deletionDate: DateTime
+  entryStatus: EntryStatus!
+  addresses: [Address!]!
+  contacts: [Contact!]!
+  orgUnits: [OrgUnit!]!
+  bankAccounts: [BankAccount!]!
+  categories: [SubjectCategory!]!
+  relationMains: [SubjectRelation!]!
+  relationSubordinates: [SubjectRelation!]!
+  taxStatuses: [TaxStatus!]!
+  officers: [SubjectRelation!]!
+  owningMgmtSubjects: [SubjectRelation!]!
+  subOrganizations: [SubjectRelation!]!
+  companyGroupParent: SubjectRelation
+  heirs: [SubjectRelation!]!
+  id: Int!
+}
+
+type Mutation @authorize {
+  login: UserLoginMutations! @allowAnonymous
+  user: UserMutations!
+}
+
+type OrgUnit {
+  orgUnitType: OrgUnitType!
+  name: String
+  internalCode: String!
+  externalCode: String
+  notes: String
+  entryStatus: EntryStatus!
+  influenceArea: GeoJSONPolygonType
+  creationDate: DateTime!
+  deletionDate: DateTime
+  closureDate: DateTime
+  children: [OrgUnit!]!
+  contacts: [Contact!]!
+  geographicalCities: [Int!]
+  parentOrgUnitId: Int
+  parentOrgUnit: OrgUnit
+  parentSubjectId: Int!
+  parentSubject: ISubject!
+  id: Int!
+}
+
+"Information about pagination in a connection."
+type PageInfo {
+  "Indicates whether more edges exist following the set defined by the clients arguments."
+  hasNextPage: Boolean!
+  "Indicates whether more edges exist prior the set defined by the clients arguments."
+  hasPreviousPage: Boolean!
+  "When paginating backwards, the cursor to continue."
+  startCursor: String
+  "When paginating forwards, the cursor to continue."
+  endCursor: String
+}
+
+type PagedInfo {
+  setPageNumber(pageNumber: Long!): PagedInfo
+  setPageSize(pageSize: Long!): PagedInfo
+  setTotalPages(totalPages: Long!): PagedInfo
+  setTotalRecords(totalRecords: Long!): PagedInfo
+  pageNumber: Long!
+  pageSize: Long!
+  totalPages: Long!
+  totalRecords: Long!
+}
+
+type PagedResultOfResult {
+  toPagedResult(pagedInfo: PagedInfoInput): PagedResultOfResult
+  pagedInfo: PagedInfo
+  value: Result
+  status: ResultStatus!
+  isSuccess: Boolean!
+  successMessage: String
+  correlationId: String
+  errors: [String]
+  validationErrors: [ValidationError]
+}
+
+type PasswordExpirationNotification implements Notification {
+  passwordExpirationDate: DateTime!
+  username: String!
+  timestamp: DateTime!
+  status: NotificationStatus!
+  id: Int!
+}
+
+type PhysicalSubject implements ISubject {
+  contact(infoType: ContactInfoType!): Contact
+  name: String!
+  personType: PersonType!
+  customGender: Int
+  firstName: String
+  lastName: String
+  birthSex: BirthSex
+  birthCountryTaxIdCode: String
+  professionalTaxIdCode: String
+  birthDate: Date
+  deathDate: Date
+  birthLocation: Address
+  addresses: [Address!]!
+  internalCode: String!
+  externalSourceCode: String
+  customPersonType: Int
+  customSubjectStatus: Int
+  creationDate: DateTime!
+  closureDate: DateTime
+  deletionDate: DateTime
+  entryStatus: EntryStatus!
+  contacts: [Contact!]!
+  orgUnits: [OrgUnit!]!
+  bankAccounts: [BankAccount!]!
+  categories: [SubjectCategory!]!
+  relationMains: [SubjectRelation!]!
+  relationSubordinates: [SubjectRelation!]!
+  taxStatuses: [TaxStatus!]!
+  officers: [SubjectRelation!]!
+  owningMgmtSubjects: [SubjectRelation!]!
+  subOrganizations: [SubjectRelation!]!
+  heirs: [SubjectRelation!]!
+  id: Int!
+}
+
+type Query @authorize {
+  user: UserQueries!
+  subject: SubjectQueries!
+  subjectCategory: SubjectCategoryQueries!
+}
+
+type Result {
+  toPagedResult(pagedInfo: PagedInfoInput): PagedResultOfResult
+  value: Result
+  status: ResultStatus!
+  isSuccess: Boolean!
+  successMessage: String
+  correlationId: String
+  errors: [String]
+  validationErrors: [ValidationError]
+}
+
+type Session {
+  loginUserAgent: String
+  loginIPAddress: String
+  loginLocation: String
+  lastRefreshIPAddress: String
+  lastRefreshLocation: String
+  lastRefreshUserAgent: String
+  creationDate: DateTime!
+  refreshTokenExpiration: DateTime!
+  id: Int!
+}
+
+type SubjectCategory {
+  name: String!
+  creationDate: DateTime!
+  function: CategoryFunctionFlags!
+  subjects: [Subject!]!
+  id: Int!
+}
+
+type SubjectCategoryQueries {
+  subjectCategory(subjectCategoryId: Int!): SubjectCategory @authorize(roles: [ "131_R" ]) @authorize(roles: [ "OFFICE_B" ])
+  listSubjectCategories("Returns the first _n_ elements from the list." first: Int "Returns the elements in the list that come after the specified cursor." after: String "Returns the last _n_ elements from the list." last: Int "Returns the elements in the list that come before the specified cursor." before: String where: SubjectCategoryFilterInput order: [SubjectCategorySortInput!]): ListSubjectCategoriesConnection @authorize(roles: [ "131_R" ]) @authorize(roles: [ "OFFICE_B" ])
+  allSubjectCategories(where: SubjectCategoryFilterInput order: [SubjectCategorySortInput!]): [SubjectCategory!]! @authorize(roles: [ "131_R" ]) @authorize(roles: [ "OFFICE_B" ])
+}
+
+type SubjectQueries {
+  canUseInternalCode(internalCode: String! currentSubjectId: Int): Boolean! @authorize(roles: [ "121_R" ]) @authorize(roles: [ "OFFICE_B" ])
+  canUseInterGroupSignature(signature: String! companyGroupId: Int! currentSubjectId: Int): Boolean! @authorize(roles: [ "121_R" ]) @authorize(roles: [ "OFFICE_B" ])
+  subject(subjectId: Int!): ISubject @authorize(roles: [ "121_R" ]) @authorize(roles: [ "OFFICE_B" ])
+  listSubjects("Returns the first _n_ elements from the list." first: Int "Returns the elements in the list that come after the specified cursor." after: String "Returns the last _n_ elements from the list." last: Int "Returns the elements in the list that come before the specified cursor." before: String where: SubjectFilterInput order: [SubjectSortInput!]): ListSubjectsConnection @authorize(roles: [ "121_R" ]) @authorize(roles: [ "OFFICE_B" ])
+  listSubjectsFull(where: SubjectFilterInput order: [SubjectSortInput!]): [ISubject!]! @authorize(roles: [ "121_R" ]) @authorize(roles: [ "OFFICE_B" ])
+  exportSubjectsToExcel(where: SubjectFilterInput order: [SubjectSortInput!]): FileUrlOutput! @authorize(roles: [ "121_R" ]) @authorize(roles: [ "OFFICE_B" ])
+  proposeNewInternalCode: String @authorize(roles: [ "121_R" ]) @authorize(roles: [ "OFFICE_B" ])
+  checkItalianTaxID(firstName: String! lastName: String! gender: String! birthDate: Date! cityIstatCode: String! taxId: String!): Boolean! @authorize(roles: [ "121_R" ]) @authorize(roles: [ "OFFICE_B" ])
+  canBeGroupLeader(managementSubjectId: Int! subjectId: Int): Boolean! @authorize(roles: [ "121_R" ]) @authorize(roles: [ "OFFICE_B" ])
+}
+
+type SubjectRelation {
+  main: ISubject!
+  mainId: Int!
+  subordinate: ISubject!
+  subordinateId: Int!
+  relationType: SubjectRelationType!
+  creationDate: DateTime!
+  since: Date
+  until: Date
+  officerRelationType: OfficerType
+  groupRelationType: CompanyGroup
+  notes: String
+  id: Int!
+}
+
+type Subscription @authorize {
+  notifyUser: Notification!
+}
+
+type TaxStatus {
+  taxStatusType: TaxStatusType!
+  notes: String
+  since: Date
+  until: Date
+  id: Int!
+}
+
+type User {
+  unlock(newPasswordHash: String!): Boolean!
+  userName: String!
+  type: UserType!
+  status: UserStatus!
+  officeAccess: OfficeAccess!
+  supplierSubjectId: Int
+  preferredLanguageCode: String
+  firstName: String
+  lastName: String
+  suspensionReason: String
+  creationDate: DateTime!
+  ceasedDate: DateTime
+  lastPasswordUpdated: DateTime
+  lastLoggedIn: DateTime
+  lastLogInAttempt: DateTime
+  lockedSince: DateTime
+  lockedUntil: DateTime
+  enabledSince: DateTime
+  deletionDate: DateTime
+  passwordExpiredSince: DateTime
+  mainDashboard: [WidgetSection!]!
+  facilityDashboard: [WidgetSection!]!
+  contacts: [IAMContact!]!
+  sessions: [Session!]!
+  groups: [Group!]!
+  subjects: [Int!]
+  orgUnits: [Int!]
+  id: Int!
+  supplierSubject: ISubject
+  managementSubjects: [ISubject!]!
+  managementOrgUnits: [OrgUnit!]!
+}
+
+type UserLoginMutations {
+  login(input: LoginInput!): LoginResult!
+  loginOIDC(idToken: String!): LoginResult!
+  refreshAccessToken(accessToken: String! refreshToken: String!): LoginResult!
+}
+
+type UserModel {
+  username: String!
+}
+
+type UserMutations {
+  switchTenant(input: SwitchTenantInput!): LoginResult
+  changePassword(input: ChangePasswordInput!): Result!
+  revokeSession(sessionId: Int!): Result!
+  revokeAllSessions: Result!
+  updateMainDashboardWidgets(inputs: [WidgetSectionInput!]!): Result!
+  updateFacilityDashboardWidgets(inputs: [WidgetSectionInput!]!): Result!
+}
+
+type UserQueries {
+  me: User
+  sessions: [Session!]!
+}
+
+type ValidationError {
+  identifier: String
+  errorMessage: String
+  errorCode: String
+  severity: ValidationSeverity!
+}
+
+type WidgetConfig {
+  width: Int!
+  type: String!
+  id: Int!
+}
+
+type WidgetSection {
+  title: String
+  backgroundColor: String
+  rows: [WidgetSectionRow!]!
+  id: Int!
+}
+
+type WidgetSectionRow {
+  widgets: [WidgetConfig!]!
+  id: Int!
+}
+
+union Subject = PhysicalSubject | ManagementSubject | LegalSubject
+
+input AddressSortInput {
+  addressType: SortEnumType
+  cityName: SortEnumType
+  cityReference: SortEnumType
+  countyName: SortEnumType
+  countyReference: SortEnumType
+  regionName: SortEnumType
+  regionReference: SortEnumType
+  countryName: SortEnumType
+  countryISO: SortEnumType
+  toponymy: SortEnumType
+  numbering: SortEnumType
+  localPostCode: SortEnumType
+  notes: SortEnumType
+  creationDate: SortEnumType
+  id: SortEnumType
+}
+
+input BankAccountCodeTypeOperationFilterInput {
+  eq: BankAccountCodeType
+  neq: BankAccountCodeType
+  in: [BankAccountCodeType!]
+  nin: [BankAccountCodeType!]
+}
+
+input BankAccountFilterInput {
+  and: [BankAccountFilterInput!]
+  or: [BankAccountFilterInput!]
+  bankAccountType: BankAccountTypeOperationFilterInput
+  referenceCode: CustomStringFilterInput
+  referenceCodeType: BankAccountCodeTypeOperationFilterInput
+  notes: CustomStringFilterInput
+  accountHolder: CustomStringFilterInput
+  creationDate: DateTimeOperationFilterInput
+  id: IntOperationFilterInput
+}
+
+input BankAccountTypeOperationFilterInput {
+  eq: BankAccountType
+  neq: BankAccountType
+  in: [BankAccountType!]
+  nin: [BankAccountType!]
+}
+
+input CategoryFunctionFlagsInput {
+  isNone: Boolean
+  isOfficer: Boolean
+  isAgreementParty: Boolean
+  isSupplier: Boolean
+  isEmployee: Boolean
+  isLandlord: Boolean
+  isTenant: Boolean
+  isCompanyGroup: Boolean
+  isHeir: Boolean
+  isBuildingAdministrator: Boolean
+}
+
+input CategoryFunctionOperationFilterInput {
+  eq: CategoryFunctionFlagsInput
+  neq: CategoryFunctionFlagsInput
+  in: [CategoryFunctionFlagsInput!]
+  nin: [CategoryFunctionFlagsInput!]
+}
+
+input ChangePasswordInput {
+  username: String!
+  currentPassword: String!
+  newPassword: String!
+}
+
+input ContactInfoTypeOperationFilterInput {
+  eq: ContactInfoType
+  neq: ContactInfoType
+  in: [ContactInfoType!]
+  nin: [ContactInfoType!]
+}
+
+input ContactTypeOperationFilterInput {
+  eq: ContactType
+  neq: ContactType
+  in: [ContactType!]
+  nin: [ContactType!]
+}
+
+input CustomStringFilterInput {
+  and: [CustomStringFilterInput!]
+  or: [CustomStringFilterInput!]
+  eq: String
+  contains: String
+  ncontains: String
+  startsWith: String
+}
+
+input DateOperationFilterInput {
+  eq: Date
+  neq: Date
+  in: [Date]
+  nin: [Date]
+  gt: Date
+  ngt: Date
+  gte: Date
+  ngte: Date
+  lt: Date
+  nlt: Date
+  lte: Date
+  nlte: Date
+}
+
+input DateTimeOperationFilterInput {
+  eq: DateTime
+  neq: DateTime
+  in: [DateTime]
+  nin: [DateTime]
+  gt: DateTime
+  ngt: DateTime
+  gte: DateTime
+  ngte: DateTime
+  lt: DateTime
+  nlt: DateTime
+  lte: DateTime
+  nlte: DateTime
+}
+
+input DecimalOperationFilterInput {
+  eq: Decimal
+  neq: Decimal
+  in: [Decimal]
+  nin: [Decimal]
+  gt: Decimal
+  ngt: Decimal
+  gte: Decimal
+  ngte: Decimal
+  lt: Decimal
+  nlt: Decimal
+  lte: Decimal
+  nlte: Decimal
+}
+
+input EntryStatusOperationFilterInput {
+  eq: EntryStatus
+  neq: EntryStatus
+  in: [EntryStatus!]
+  nin: [EntryStatus!]
+}
+
+input GeoJSONLineStringInput {
+  "The geometry type of the GeoJson object"
+  type: GeoJSONGeometryType
+  "The \"coordinates\" field is an array of two or more positions."
+  coordinates: [Position]
+  "The coordinate reference system integer identifier"
+  crs: Int
+}
+
+input GeoJSONMultiLineStringInput {
+  "The geometry type of the GeoJson object"
+  type: GeoJSONGeometryType
+  "The \"coordinates\" field is an array of LineString coordinate arrays."
+  coordinates: [[Position]]
+  "The coordinate reference system integer identifier"
+  crs: Int
+}
+
+input GeoJSONMultiPointInput {
+  "The geometry type of the GeoJson object"
+  type: GeoJSONGeometryType
+  "The \"coordinates\" field is an array of positions."
+  coordinates: [Position]
+  "The coordinate reference system integer identifier"
+  crs: Int
+}
+
+input GeoJSONMultiPolygonInput {
+  "The geometry type of the GeoJson object"
+  type: GeoJSONGeometryType
+  "The \"coordinates\" field is an array of Polygon coordinate arrays."
+  coordinates: Coordinates
+  "The coordinate reference system integer identifier"
+  crs: Int
+}
+
+input GeoJSONPointInput {
+  "The geometry type of the GeoJson object"
+  type: GeoJSONGeometryType
+  "The \"coordinates\" field is a single position."
+  coordinates: Position
+  "The coordinate reference system integer identifier"
+  crs: Int
+}
+
+input GeoJSONPolygonInput {
+  "The geometry type of the GeoJson object"
+  type: GeoJSONGeometryType
+  "The \"coordinates\" field MUST be an array of linear ring coordinate arrays. For Polygons with more than one of these rings, the first MUST be the exterior ring, and any others MUST be interior rings. The exterior ring bounds the surface, and the interior rings (if present) bound holes within the surface."
+  coordinates: [[Position]]
+  "The coordinate reference system integer identifier"
+  crs: Int
+}
+
+input IAddressFilterInput {
+  and: [IAddressFilterInput!]
+  or: [IAddressFilterInput!]
+  cityName: CustomStringFilterInput
+  cityReference: UuidOperationFilterInput
+  countyName: CustomStringFilterInput
+  countyReference: UuidOperationFilterInput
+  regionName: CustomStringFilterInput
+  regionReference: UuidOperationFilterInput
+  countryName: CustomStringFilterInput
+  countryISO: CustomStringFilterInput
+  toponymy: CustomStringFilterInput
+  numbering: CustomStringFilterInput
+  localPostCode: CustomStringFilterInput
+  notes: CustomStringFilterInput
+  creationDate: DateTimeOperationFilterInput
+}
+
+input IAddressSortInput {
+  cityName: SortEnumType
+  cityReference: SortEnumType
+  countyName: SortEnumType
+  countyReference: SortEnumType
+  regionName: SortEnumType
+  regionReference: SortEnumType
+  countryName: SortEnumType
+  countryISO: SortEnumType
+  toponymy: SortEnumType
+  numbering: SortEnumType
+  localPostCode: SortEnumType
+  notes: SortEnumType
+  creationDate: SortEnumType
+}
+
+input IContactFilterInput {
+  and: [IContactFilterInput!]
+  or: [IContactFilterInput!]
+  contactType: ContactTypeOperationFilterInput
+  contactInfo: CustomStringFilterInput
+  contactInfoType: ContactInfoTypeOperationFilterInput
+  notes: CustomStringFilterInput
+  creationDate: DateTimeOperationFilterInput
+}
+
+input IntOperationFilterInput {
+  eq: Int
+  neq: Int
+  in: [Int]
+  nin: [Int]
+  gt: Int
+  ngt: Int
+  gte: Int
+  ngte: Int
+  lt: Int
+  nlt: Int
+  lte: Int
+  nlte: Int
+}
+
+input LegalSubjectTypeOperationFilterInput {
+  eq: LegalSubjectType
+  neq: LegalSubjectType
+  in: [LegalSubjectType!]
+  nin: [LegalSubjectType!]
+}
+
+input ListAddressFilterTypeFilterInput {
+  all: IAddressFilterInput
+  none: IAddressFilterInput
+  some: IAddressFilterInput
+  any: Boolean
+}
+
+input ListContactFilterTypeFilterInput {
+  all: IContactFilterInput
+  none: IContactFilterInput
+  some: IContactFilterInput
+  any: Boolean
+}
+
+input ListFilterInputTypeOfBankAccountFilterInput {
+  all: BankAccountFilterInput
+  none: BankAccountFilterInput
+  some: BankAccountFilterInput
+  any: Boolean
+}
+
+input ListFilterInputTypeOfSubjectCategoryFilterInput {
+  all: SubjectCategoryFilterInput
+  none: SubjectCategoryFilterInput
+  some: SubjectCategoryFilterInput
+  any: Boolean
+}
+
+input ListFilterInputTypeOfTaxStatusFilterInput {
+  all: TaxStatusFilterInput
+  none: TaxStatusFilterInput
+  some: TaxStatusFilterInput
+  any: Boolean
+}
+
+input ListIntOperationFilterInput {
+  all: IntOperationFilterInput
+  none: IntOperationFilterInput
+  some: IntOperationFilterInput
+  any: Boolean
+}
+
+input ListOrgUnitFilterTypeFilterInput {
+  all: OrgUnitFilterInput
+  none: OrgUnitFilterInput
+  some: OrgUnitFilterInput
+  any: Boolean
+}
+
+input ListSubjectRelationFilterTypeFilterInput {
+  all: SubjectRelationFilterInput
+  none: SubjectRelationFilterInput
+  some: SubjectRelationFilterInput
+  any: Boolean
+}
+
+input LoginInput {
+  username: String!
+  password: String!
+}
+
+input NullableOfBirthSexOperationFilterInput {
+  eq: BirthSex
+  neq: BirthSex
+  in: [BirthSex]
+  nin: [BirthSex]
+}
+
+input NullableOfCompanyGroupOperationFilterInput {
+  eq: CompanyGroup
+  neq: CompanyGroup
+  in: [CompanyGroup]
+  nin: [CompanyGroup]
+}
+
+input NullableOfOfficerTypeOperationFilterInput {
+  eq: OfficerType
+  neq: OfficerType
+  in: [OfficerType]
+  nin: [OfficerType]
+}
+
+input OrgUnitFilterInput {
+  and: [OrgUnitFilterInput!]
+  or: [OrgUnitFilterInput!]
+  orgUnitType: OrgUnitTypeOperationFilterInput
+  name: CustomStringFilterInput
+  internalCode: CustomStringFilterInput
+  externalCode: CustomStringFilterInput
+  notes: CustomStringFilterInput
+  entryStatus: EntryStatusOperationFilterInput
+  creationDate: DateTimeOperationFilterInput
+  deletionDate: DateTimeOperationFilterInput
+  closureDate: DateTimeOperationFilterInput
+  geographicalCities: ListIntOperationFilterInput
+  parentOrgUnitId: IntOperationFilterInput
+  parentOrgUnit: OrgUnitFilterInput
+  parentSubjectId: IntOperationFilterInput
+  parentSubject: SubjectFilterInput
+  id: IntOperationFilterInput
+}
+
+input OrgUnitTypeOperationFilterInput {
+  eq: OrgUnitType
+  neq: OrgUnitType
+  in: [OrgUnitType!]
+  nin: [OrgUnitType!]
+}
+
+input PagedInfoInput {
+  pageNumber: Long!
+  pageSize: Long!
+  totalPages: Long!
+  totalRecords: Long!
+}
+
+input PersonTypeOperationFilterInput {
+  eq: PersonType
+  neq: PersonType
+  in: [PersonType!]
+  nin: [PersonType!]
+}
+
+input SubjectCategoryFilterInput {
+  and: [SubjectCategoryFilterInput!]
+  or: [SubjectCategoryFilterInput!]
+  name: CustomStringFilterInput
+  creationDate: DateTimeOperationFilterInput
+  function: CategoryFunctionOperationFilterInput
+  id: IntOperationFilterInput
+}
+
+input SubjectCategorySortInput {
+  name: SortEnumType
+  creationDate: SortEnumType
+  function: SortEnumType
+  id: SortEnumType
+}
+
+input SubjectFilterInput {
+  and: [SubjectFilterInput!]
+  or: [SubjectFilterInput!]
+  addresses: ListAddressFilterTypeFilterInput
+  contacts: ListContactFilterTypeFilterInput
+  orgUnits: ListOrgUnitFilterTypeFilterInput
+  relationMains: ListSubjectRelationFilterTypeFilterInput
+  relationSubordinates: ListSubjectRelationFilterTypeFilterInput
+  legalResidentialAddress: IAddressFilterInput
+  customGender: IntOperationFilterInput
+  firstName: CustomStringFilterInput
+  lastName: CustomStringFilterInput
+  birthSex: NullableOfBirthSexOperationFilterInput
+  birthCountryTaxIdCode: CustomStringFilterInput
+  professionalTaxIdCode: CustomStringFilterInput
+  birthDate: DateOperationFilterInput
+  deathDate: DateOperationFilterInput
+  fullName: CustomStringFilterInput
+  shorthandDescription: CustomStringFilterInput
+  baseCountryTaxIdCode: CustomStringFilterInput
+  additionalTaxIdCode: CustomStringFilterInput
+  baseCountryISO: CustomStringFilterInput
+  location: CustomStringFilterInput
+  businessStart: DateOperationFilterInput
+  shareCapital: DecimalOperationFilterInput
+  companiesHouseIdCode: CustomStringFilterInput
+  additionalGovIdCode: CustomStringFilterInput
+  bankingId1: CustomStringFilterInput
+  bankingId2: CustomStringFilterInput
+  interGroupSignature: CustomStringFilterInput
+  legalSubjectType: LegalSubjectTypeOperationFilterInput
+  managementCode: CustomStringFilterInput
+  name: CustomStringFilterInput
+  personType: PersonTypeOperationFilterInput
+  internalCode: CustomStringFilterInput
+  externalSourceCode: CustomStringFilterInput
+  customPersonType: IntOperationFilterInput
+  customSubjectStatus: IntOperationFilterInput
+  creationDate: DateTimeOperationFilterInput
+  closureDate: DateTimeOperationFilterInput
+  deletionDate: DateTimeOperationFilterInput
+  entryStatus: EntryStatusOperationFilterInput
+  bankAccounts: ListFilterInputTypeOfBankAccountFilterInput
+  categories: ListFilterInputTypeOfSubjectCategoryFilterInput
+  taxStatuses: ListFilterInputTypeOfTaxStatusFilterInput
+  id: IntOperationFilterInput
+}
+
+input SubjectRelationFilterInput {
+  and: [SubjectRelationFilterInput!]
+  or: [SubjectRelationFilterInput!]
+  main: SubjectFilterInput
+  subordinate: SubjectFilterInput
+  mainId: IntOperationFilterInput
+  subordinateId: IntOperationFilterInput
+  relationType: SubjectRelationTypeOperationFilterInput
+  creationDate: DateTimeOperationFilterInput
+  since: DateOperationFilterInput
+  until: DateOperationFilterInput
+  officerRelationType: NullableOfOfficerTypeOperationFilterInput
+  groupRelationType: NullableOfCompanyGroupOperationFilterInput
+  notes: CustomStringFilterInput
+  id: IntOperationFilterInput
+}
+
+input SubjectRelationSortInput {
+  main: SubjectSortInput
+  mainId: SortEnumType
+  subordinate: SubjectSortInput
+  subordinateId: SortEnumType
+  relationType: SortEnumType
+  creationDate: SortEnumType
+  since: SortEnumType
+  until: SortEnumType
+  officerRelationType: SortEnumType
+  groupRelationType: SortEnumType
+  notes: SortEnumType
+  id: SortEnumType
+}
+
+input SubjectRelationTypeOperationFilterInput {
+  eq: SubjectRelationType
+  neq: SubjectRelationType
+  in: [SubjectRelationType!]
+  nin: [SubjectRelationType!]
+}
+
+input SubjectSortInput {
+  legalResidentialAddress: IAddressSortInput
+  customGender: SortEnumType
+  firstName: SortEnumType
+  lastName: SortEnumType
+  birthSex: SortEnumType
+  birthCountryTaxIdCode: SortEnumType
+  professionalTaxIdCode: SortEnumType
+  birthDate: SortEnumType
+  deathDate: SortEnumType
+  birthLocation: AddressSortInput
+  fullName: SortEnumType
+  shorthandDescription: SortEnumType
+  baseCountryTaxIdCode: SortEnumType
+  additionalTaxIdCode: SortEnumType
+  baseCountryISO: SortEnumType
+  location: SortEnumType
+  businessStart: SortEnumType
+  shareCapital: SortEnumType
+  companiesHouseIdCode: SortEnumType
+  additionalGovIdCode: SortEnumType
+  bankingId1: SortEnumType
+  bankingId2: SortEnumType
+  interGroupSignature: SortEnumType
+  legalSubjectType: SortEnumType
+  managementCode: SortEnumType
+  name: SortEnumType
+  personType: SortEnumType
+  internalCode: SortEnumType
+  externalSourceCode: SortEnumType
+  customPersonType: SortEnumType
+  customSubjectStatus: SortEnumType
+  creationDate: SortEnumType
+  closureDate: SortEnumType
+  deletionDate: SortEnumType
+  entryStatus: SortEnumType
+  companyGroupParent: SubjectRelationSortInput
+  id: SortEnumType
+}
+
+input SwitchTenantInput {
+  newTenant: UUID!
+}
+
+input TaxStatusFilterInput {
+  and: [TaxStatusFilterInput!]
+  or: [TaxStatusFilterInput!]
+  taxStatusType: TaxStatusTypeOperationFilterInput
+  notes: CustomStringFilterInput
+  since: DateOperationFilterInput
+  until: DateOperationFilterInput
+  id: IntOperationFilterInput
+}
+
+input TaxStatusTypeOperationFilterInput {
+  eq: TaxStatusType
+  neq: TaxStatusType
+  in: [TaxStatusType!]
+  nin: [TaxStatusType!]
+}
+
+input UuidOperationFilterInput {
+  eq: UUID
+  neq: UUID
+  in: [UUID]
+  nin: [UUID]
+  gt: UUID
+  ngt: UUID
+  gte: UUID
+  ngte: UUID
+  lt: UUID
+  nlt: UUID
+  lte: UUID
+  nlte: UUID
+}
+
+input WidgetConfigInput {
+  id: Int
+  width: Int!
+  type: String!
+}
+
+input WidgetSectionInput {
+  id: Int
+  title: String
+  backgroundColor: String
+  rows: [WidgetSectionRowInput!]!
+}
+
+input WidgetSectionRowInput {
+  id: Int
+  widgets: [WidgetConfigInput!]!
+}
+
+enum AddressType {
+  LEGAL_RESIDENTIAL
+  FISCAL
+  MAILING
+  CARE_OF
+  BIRTH_LOCATION
+}
+
+enum ApplyPolicy {
+  BEFORE_RESOLVER
+  AFTER_RESOLVER
+  VALIDATION
+}
+
+enum BankAccountCodeType {
+  IBAN
+}
+
+enum BankAccountType {
+  MAIN
+  BACKUP
+}
+
+enum BirthSex {
+  MALE
+  FEMALE
+}
+
+enum CompanyGroup {
+  MEMBER
+  LEADER
+}
+
+enum ContactInfoType {
+  UNKNOWN
+  LANDLINE_PHONE
+  MOBILE_PHONE
+  E_MAIL
+  REGISTERED_EMAIL
+  SKYPE
+}
+
+enum ContactType {
+  MAIN
+  BACKUP
+}
+
+enum EntryStatus {
+  INCOMPLETE_DRAFT
+  WORKING
+  FROZEN_CLOSED
+}
+
+enum GeoJSONGeometryType {
+  Point
+  MultiPoint
+  LineString
+  MultiLineString
+  Polygon
+  MultiPolygon
+  GeometryCollection
+}
+
+enum LegalSubjectType {
+  ACTUAL_LEGAL_SUBJECT
+  UNRECOGNIZED_BUSINESS_SOCIETY
+  UNRECOGNIZED_NONBUSINESS_SOCIETY
+}
+
+enum NotificationStatus {
+  NEW
+  UNREAD
+  READ
+}
+
+enum OfficeAccess {
+  BOTH
+  BACK_OFFICE
+  FRONT_OFFICE
+}
+
+enum OfficerType {
+  LEGAL_REPRESENTATIVE
+  SPECIAL_LEGAL_REPRESENTATIVE
+  TRUSTEE
+  CURATOR
+  EXECUTOR_ADMINISTRATOR
+  GUARDIAN
+  ATTORNEY
+}
+
+enum OrgUnitType {
+  MANAGEMENT_HIERARCHY
+  GEOGRAPHICAL_HIERARCHY
+  COST_CENTRE
+}
+
+enum PersonType {
+  PHYSICAL_PERSON
+  LEGAL_PERSON
+  MANAGEMENT_SUBJECT
+}
+
+enum ResultStatus {
+  OK
+  ERROR
+  FORBIDDEN
+  UNAUTHORIZED
+  INVALID
+  NOT_FOUND
+  CONFLICT
+  CRITICAL_ERROR
+  UNAVAILABLE
+}
+
+enum SortEnumType {
+  ASC
+  DESC
+}
+
+enum SubjectRelationType {
+  COMPANY_GROUP
+  MANAGEMENT_ENTITY_OWNED
+  OFFICER
+  SUB_ORGANIZATION
+  HEIR
+}
+
+enum TaxStatusType {
+  APPLY_SPLIT_PAYMENT
+  VAT_SUBJECT_AS_TENANT
+  VAT_SUBJECT_AS_LANDLORD
+}
+
+enum UserStatus {
+  ACTIVE
+  CEASED
+  SUSPENDED
+}
+
+enum UserType {
+  INTERNAL
+  EXTERNAL_SUPPLIER
+}
+
+enum ValidationSeverity {
+  ERROR
+  WARNING
+  INFO
+}
+
+directive @allowAnonymous repeatable on FIELD_DEFINITION
+
+directive @authorize("The name of the authorization policy that determines access to the annotated resource." policy: String "Roles that are allowed to access the annotated resource." roles: [String!] "Defines when when the authorize directive shall be applied.By default the authorize directives are applied during the validation phase." apply: ApplyPolicy! = BEFORE_RESOLVER) repeatable on OBJECT | FIELD_DEFINITION
+
+"A coordinate is an array of positions."
+scalar Coordinates
+
+"The `Date` scalar represents an ISO-8601 compliant date type."
+scalar Date
+
+"The `DateTime` scalar represents an ISO-8601 compliant date time type."
+scalar DateTime @specifiedBy(url: "https:\/\/www.graphql-scalars.com\/date-time")
+
+"The built-in `Decimal` scalar type."
+scalar Decimal
+
+scalar Geometry
+
+"The `Long` scalar type represents non-fractional signed whole 64-bit numeric values. Long can represent values between -(2^63) and 2^63 - 1."
+scalar Long
+
+"A position is an array of numbers. There MUST be two or more elements. The first two elements are longitude and latitude, or easting and northing, precisely in that order and using decimal numbers. Altitude or elevation MAY be included as an optional third element."
+scalar Position
+
+scalar UUID @specifiedBy(url: "https:\/\/tools.ietf.org\/html\/rfc4122")

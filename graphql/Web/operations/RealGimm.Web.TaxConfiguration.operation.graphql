@@ -1,0 +1,337 @@
+query getAvailableTaxCalculators {
+  taxConfiguration {
+    availableCalculators {
+      ...TaxCalculatorFragment
+    }
+  }
+}
+
+query getAvailableHistoricalTaxCalculators {
+  taxConfiguration {
+    historyAvailableCalculators {
+      id
+      description
+    }
+  }
+}
+
+query getTaxConfigMainTableValues(
+  $calculatorId: UUID!
+  $tableCode: String!
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: ITaxConfigMainTableRowFilterInput
+  $order: [ITaxConfigMainTableRowSortInput!]
+) {
+  taxConfiguration {
+    listTableValues(
+      calculatorId: $calculatorId
+      tableCode: $tableCode
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...TaxConfigMainTableRowFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getTaxConfigSubTableValues(
+  $calculatorId: UUID!
+  $tableCode: String!
+  $year: Int!
+  $subTable: String!
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+) {
+  taxConfiguration {
+    listSubTableValue(
+      calculatorId: $calculatorId
+      tableCode: $tableCode
+      year: $year
+      subTable: $subTable
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...TaxConfigSubTableRowFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getAllTaxConfigSubTableValues(
+  $calculatorId: UUID!
+  $tableCode: String!
+  $year: Int!
+  $groupReference: UUID
+  $subTable: String!
+) {
+  taxConfiguration {
+    listSubTableValueFull(
+      calculatorId: $calculatorId
+      tableCode: $tableCode
+      year: $year
+      groupReference: $groupReference
+      subTable: $subTable
+    ) {
+      ...TaxConfigSubTableRowFragment
+    }
+  }
+}
+
+query getTaxConfigMainTableValue(
+  $calculatorId: UUID!
+  $tableCode: String!
+  $tableValueId: Int!
+) {
+  taxConfiguration {
+    tableValueBundle(
+      calculatorId: $calculatorId
+      tableCode: $tableCode
+      tableValueId: $tableValueId
+    ) {
+      ...TaxConfigValueBundleFragment
+    }
+  }
+}
+
+mutation addTaxConfigMainTableValue(
+  $calculatorId: UUID!
+  $tableCode: String!
+  $input: TaxConfigInput!
+) {
+  taxConfiguration {
+    addTableValue(
+      calculatorId: $calculatorId
+      tableCode: $tableCode
+      input: $input
+    ) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateTaxConfigMainTableValue(
+  $calculatorId: UUID!
+  $tableCode: String!
+  $tableValueId: Int!
+  $input: TaxConfigInput!
+) {
+  taxConfiguration {
+    updateTableValue(
+      calculatorId: $calculatorId
+      tableCode: $tableCode
+      tableValueId: $tableValueId
+      input: $input
+    ) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteTaxConfigMainTableValue(
+  $calculatorId: UUID!
+  $tableValueId: Int!
+) {
+  taxConfiguration {
+    deleteTableValue(calculatorId: $calculatorId, tableValueId: $tableValueId) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteTaxConfigMainTableValues(
+  $calculatorId: UUID!
+  $tableValueIds: [Int!]!
+) {
+  taxConfiguration {
+    deleteTableValueRange(
+      calculatorId: $calculatorId
+      tableValueIds: $tableValueIds
+    ) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation addTaxConfigSubTableValue(
+  $calculatorId: UUID!
+  $tableCode: String!
+  $year: Int!
+  $input: TaxConfigSubValueRowInput!
+) {
+  taxConfiguration {
+    addSubTableValue(
+      calculatorId: $calculatorId
+      tableCode: $tableCode
+      year: $year
+      input: $input
+    ) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateTaxConfigSubTableValue(
+  $calculatorId: UUID!
+  $tableCode: String!
+  $year: Int!
+  $subTableValueId: Int!
+  $input: TaxConfigSubValueRowInput!
+) {
+  taxConfiguration {
+    updateSubTableValue(
+      calculatorId: $calculatorId
+      tableCode: $tableCode
+      year: $year
+      subTableValueId: $subTableValueId
+      input: $input
+    ) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteTaxConfigSubTableValue(
+  $calculatorId: UUID!
+  $tableCode: String!
+  $year: Int!
+  $subTableValueId: Int!
+) {
+  taxConfiguration {
+    deleteSubTableValue(
+      calculatorId: $calculatorId
+      tableCode: $tableCode
+      year: $year
+      subTableValueId: $subTableValueId
+    ) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteTaxConfigSubTableValues(
+  $calculatorId: UUID!
+  $tableCode: String!
+  $year: Int!
+  $subTableValueIds: [Int!]!
+) {
+  taxConfiguration {
+    deleteSubTableValueRange(
+      calculatorId: $calculatorId
+      tableCode: $tableCode
+      year: $year
+      subTableValueIds: $subTableValueIds
+    ) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query exportTaxConfigMainTableValues(
+  $calculatorId: UUID!
+  $tableCode: String!
+  $where: ITaxConfigMainTableRowFilterInput
+  $order: [ITaxConfigMainTableRowSortInput!]
+) {
+  taxConfiguration {
+    exportToExcelMainTable(
+      calculatorId: $calculatorId
+      tableCode: $tableCode
+      where: $where
+      order: $order
+    ) {
+      resourceUrl
+    }
+  }
+}
+
+query exportTaxConfigSubTableValues(
+  $calculatorId: UUID!
+  $tableCode: String!
+  $subTable: String!
+  $year: Int!
+  $where: ITaxConfigSubTableRowFilterInput
+  $order: [ITaxConfigSubTableRowSortInput!]
+) {
+  taxConfiguration {
+    exportToExcelSubTables(
+      calculatorId: $calculatorId
+      tableCode: $tableCode
+      subTable: $subTable
+      year: $year
+      where: $where
+      order: $order
+    ) {
+      resourceUrl
+    }
+  }
+}
+
+query checkTagConfigTableValueExists(
+  $calculatorId: UUID!
+  $tableCode: String!
+  $year: Int!
+  $groupingReference: UUID
+) {
+  taxConfiguration {
+    checkTableValueExists(
+      calculatorId: $calculatorId
+      tableCode: $tableCode
+      year: $year
+      groupingReference: $groupingReference
+    )
+  }
+}

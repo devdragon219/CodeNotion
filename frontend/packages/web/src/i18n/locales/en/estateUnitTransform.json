@@ -1,0 +1,26 @@
+{
+  "estate_unit_transform": {
+    "title": "Transform",
+    "tab": {
+      "initial_estate_unit": "EU to transform",
+      "estate": "Select estate",
+      "estate_unit": "New EU",
+      "cadastral_unit": "New CU",
+      "cadastral_coordinates": "Cadastral coordinates",
+      "recap": "Recap"
+    },
+    "section_title": {
+      "estate_unit": "Select estate unit to transform"
+    },
+    "error": {
+      "no_estate_unit": "No estate unit selected",
+      "estate_unit_types": "Estate unit type and use type must be different from initial values"
+    },
+    "action": {
+      "save": "Save transform"
+    },
+    "feedback": {
+      "succeeded": "Estate unit transformed successfully"
+    }
+  }
+}

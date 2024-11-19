@@ -1,0 +1,5 @@
+fragment ReadingValueFragment on ReadingValue {
+  touRateIndex
+  value
+  id
+}

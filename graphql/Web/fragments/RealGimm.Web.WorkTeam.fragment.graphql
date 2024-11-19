@@ -1,0 +1,18 @@
+fragment WorkTeamFragment on WorkTeam {
+  internalCode
+  description
+  insertionDate
+  id
+  providerSubject {
+    id
+    name
+  }
+  leaderUser {
+    id
+    firstName
+    lastName
+  }
+  workers {
+    ...WorkerFragment
+  }
+}

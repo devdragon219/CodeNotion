@@ -1,0 +1,55 @@
+{
+  "name": "realgimm5",
+  "private": true,
+  "packageManager": "yarn@4.5.1",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "eslint": "^9.14.0",
+    "eslint-import-resolver-node": "^0.3.9",
+    "eslint-import-resolver-typescript": "^3.6.3",
+    "eslint-plugin-import-x": "^4.4.0",
+    "eslint-plugin-promise": "^7.1.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "eslint-plugin-unicorn": "^56.0.0",
+    "globals": "^15.12.0",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.13.0"
+  },
+  "scripts": {
+    "build": "yarn workspaces foreach -Rpt --from '{@realgimm5/frontend-frontoffice,@realgimm5/frontend-web}' run build",
+    "start:frontoffice": "yarn workspace @realgimm5/frontend-frontoffice start",
+    "start:web": "yarn workspace @realgimm5/frontend-web start",
+    "test": "yarn workspaces foreach --all run test",
+    "codegen": "yarn workspaces foreach --all run codegen",
+    "lint": "yarn workspaces foreach --all run lint",
+    "format": "yarn workspaces foreach --all run format",
+    "tsc": "yarn workspaces foreach --all run tsc",
+    "postinstall": "cd .. && husky frontend/.husky"
+  },
+  "lint-staged": {
+    "./packages/**/{lib,src}/**/*.{json,scss,ts,tsx}": "prettier --write",
+    "../graphql/**/fragments/*.graphql": "prettier --write",
+    "../graphql/**/operations/*.graphql": "prettier --write"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

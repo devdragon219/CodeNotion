@@ -1,0 +1,14 @@
+fragment BillFullListOutputFragment on BillFullListOutput {
+  id
+  contractId
+  contractInternalCode
+  since
+  mainCounterpartSubject {
+    id
+    name
+  }
+  contractManagementSubject {
+    id
+    name
+  }
+}

@@ -1,0 +1,6 @@
+﻿{
+  description: Debiti,
+  externalCode: 0101001,
+  id: 1,
+  internalCode: PAY001
+}

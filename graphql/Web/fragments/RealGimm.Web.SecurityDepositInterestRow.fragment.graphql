@@ -1,0 +1,9 @@
+fragment SecurityDepositInterestRowFragment on SecurityDepositInterestRow {
+  since
+  until
+  baseAmount
+  calculationDate
+  interestAmount
+  appliedInterestRate
+  id
+}

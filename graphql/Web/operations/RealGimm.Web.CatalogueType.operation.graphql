@@ -1,0 +1,154 @@
+query getCatalogueTypes(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: CatalogueTypeFilterInput
+  $order: [CatalogueTypeSortInput!]
+) {
+  catalogueType {
+    listCatalogueTypes(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...CatalogueTypeFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getFullCatalogueTypes(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: CatalogueTypeFilterInput
+  $order: [CatalogueTypeSortInput!]
+) {
+  catalogueType {
+    listCatalogueTypes(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...CatalogueTypeDetailFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getAllCatalogueTypes(
+  $where: CatalogueTypeFilterInput
+  $order: [CatalogueTypeSortInput!]
+) {
+  catalogueType {
+    listCatalogueTypesFull(where: $where, order: $order) {
+      ...CatalogueTypeFragment
+    }
+  }
+}
+
+mutation deleteCatalogueType($id: Int!) {
+  catalogueType {
+    delete(id: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteCatalogueTypes($ids: [Int!]!) {
+  catalogueType {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query exportCatalogueTypes(
+  $where: CatalogueTypeFilterInput
+  $order: [CatalogueTypeSortInput!]
+) {
+  catalogueType {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+query getCatalogueType($catalogueTypeId: Int!) {
+  catalogueType {
+    get(id: $catalogueTypeId) {
+      ...CatalogueTypeDetailFragment
+    }
+  }
+}
+
+mutation createCatalogueType($catalogueTypeInput: CatalogueTypeInput!) {
+  catalogueType {
+    add(input: $catalogueTypeInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateCatalogueType(
+  $catalogueTypeId: Int!
+  $catalogueTypeInput: CatalogueTypeInput!
+) {
+  catalogueType {
+    update(id: $catalogueTypeId, input: $catalogueTypeInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getCatalogueTypeInternalCode {
+  catalogueType {
+    proposeNewInternalCode
+  }
+}
+
+query canUseCatalogueTypeInternalCode(
+  $internalCode: String!
+  $currentCatalogueTypeId: Int
+) {
+  catalogueType {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentCatalogueTypeId: $currentCatalogueTypeId
+    )
+  }
+}

@@ -1,0 +1,95 @@
+query getCadastralLandCategories(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: CadastralLandCategoryFilterInput
+  $order: [CadastralLandCategorySortInput!]
+) {
+  cadastralLandCategory {
+    cadastralLandCategories(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...CadastralLandCategoryFragment
+      }
+      totalCount
+    }
+  }
+}
+
+mutation addCadastralLandCategory($input: CadastralLandCategoryInput!) {
+  cadastralLandCategory {
+    add(input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateCadastralLandCategory(
+  $cadastralLandCategoryId: Int!
+  $input: CadastralLandCategoryInput!
+) {
+  cadastralLandCategory {
+    update(id: $cadastralLandCategoryId, input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteCadastralLandCategories($ids: [Int!]!) {
+  cadastralLandCategory {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getCadastralLandCategoryInternalCode {
+  cadastralLandCategory {
+    proposeNewInternalCode
+  }
+}
+
+query canUseCadastralLandCategoryInternalCode(
+  $internalCode: String!
+  $currentCadastralLandCategoryId: Int
+) {
+  cadastralLandCategory {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentCadastralLandCategoryId: $currentCadastralLandCategoryId
+    )
+  }
+}
+
+query exportCadastralLandCategories(
+  $where: CadastralLandCategoryFilterInput
+  $order: [CadastralLandCategorySortInput!]
+) {
+  cadastralLandCategory {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}

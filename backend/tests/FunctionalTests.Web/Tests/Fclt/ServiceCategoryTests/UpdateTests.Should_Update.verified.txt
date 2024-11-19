@@ -1,0 +1,16 @@
+﻿{
+  Data: {
+    serviceCategory: {
+      update: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          id: 1,
+          internalCode: 83grnfcx3n,
+          name: ServiceCategory 0
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

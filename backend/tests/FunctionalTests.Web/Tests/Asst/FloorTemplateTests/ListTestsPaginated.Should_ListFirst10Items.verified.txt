@@ -1,0 +1,71 @@
+﻿{
+  nodes: [
+    {
+      guid: Guid_1,
+      id: 1,
+      name: Seminterrato,
+      position: -1.0
+    },
+    {
+      guid: Guid_2,
+      id: 2,
+      name: Piano terra,
+      position: 0.0
+    },
+    {
+      guid: Guid_3,
+      id: 3,
+      name: Primo piano,
+      position: 1.0
+    },
+    {
+      guid: Guid_4,
+      id: 4,
+      name: Secondo piano,
+      position: 2.0
+    },
+    {
+      guid: Guid_5,
+      id: 5,
+      name: Terzo piano,
+      position: 3.0
+    },
+    {
+      guid: Guid_6,
+      id: 6,
+      name: Quarto piano,
+      position: 4.0
+    },
+    {
+      guid: Guid_7,
+      id: 7,
+      name: Quinto piano,
+      position: 5.0
+    },
+    {
+      guid: Guid_8,
+      id: 8,
+      name: Sesto piano,
+      position: 6.0
+    },
+    {
+      guid: Guid_9,
+      id: 9,
+      name: Settimo piano,
+      position: 7.0
+    },
+    {
+      guid: Guid_10,
+      id: 10,
+      name: Ottavo piano,
+      position: 8.0
+    }
+  ],
+  pageInfo: {
+    endCursor: OQ==,
+    hasNextPage: true,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 12
+}

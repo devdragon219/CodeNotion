@@ -1,0 +1,99 @@
+query getGroups(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: GroupFilterInput
+  $order: [GroupSortInput!]
+) {
+  admin {
+    listGroup(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      nodes {
+        ...GroupFragment
+      }
+      pageInfo {
+        ...PageInfoFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getGroup($groupId: Int!) {
+  admin {
+    group(groupId: $groupId) {
+      ...GroupDetailFragment
+    }
+  }
+}
+
+query getGroupsPermissions($groupIds: [Int!]!) {
+  admin {
+    groupPermissions(groupIds: $groupIds) {
+      ...GroupPermissionSummaryFragment
+    }
+  }
+}
+
+query exportGroups($where: GroupFilterInput, $order: [GroupSortInput!]) {
+  admin {
+    exportGroupsToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+mutation createGroup($groupInput: AdminGroupInput!) {
+  admin {
+    addGroup(groupInput: $groupInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateGroup($groupId: Int!, $groupInput: AdminGroupInput!) {
+  admin {
+    updateGroup(groupId: $groupId, groupInput: $groupInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteGroup($id: Int!) {
+  admin {
+    deleteGroup(groupId: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteGroups($ids: [Int!]!) {
+  admin {
+    deleteGroupsByIds(groupsIds: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}

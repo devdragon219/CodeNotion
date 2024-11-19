@@ -1,0 +1,50 @@
+mutation confirmTemporaryRegistryCommunicationGroup(
+  $groupId: TemporaryRegistryCommunicationGroupIdInput!
+  $date: Date!
+  $requestingSubjectLegalRepresentativeId: Int!
+  $debtBankAccountId: Int!
+) {
+  temporaryRegistryCommunication {
+    confirm(
+      groupId: $groupId
+      date: $date
+      requestingSubjectLegalRepresentativeId: $requestingSubjectLegalRepresentativeId
+      debtBankAccountId: $debtBankAccountId
+    ) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation confirmTemporaryRegistryCommunicationGroups(
+  $groupIds: [TemporaryRegistryCommunicationGroupIdInput!]!
+  $inputs: [ConfirmTemporaryRegistryCommunicationGroupInput!]!
+) {
+  temporaryRegistryCommunication {
+    confirmRange(groupIds: $groupIds, inputs: $inputs) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation confirmAllTemporaryRegistryCommunicationGroups(
+  $inputs: [ConfirmTemporaryRegistryCommunicationGroupInput!]!
+) {
+  temporaryRegistryCommunication {
+    confirmAll(inputs: $inputs) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}

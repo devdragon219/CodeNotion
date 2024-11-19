@@ -1,0 +1,8 @@
+fragment ContractExpiryOutputFragment on ContractExpiryOutput {
+  contractId
+  internalCode
+  typeDescription
+  daysToExpiration
+  managementSubjectName
+  billingBaseFee
+}

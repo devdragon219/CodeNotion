@@ -1,0 +1,40 @@
+{
+  "files.watcherExclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "terminal.integrated.env.osx": {
+    "NODE_OPTIONS": "--max-old-space-size=4096"
+  },
+  "eslint.useFlatConfig": true,
+  "eslint.nodePath": "frontend/.yarn/sdks",
+  "eslint.workingDirectories": [{ "pattern": "frontend/packages/*/" }],
+  "prettier.prettierPath": "frontend/.yarn/sdks/prettier/index.cjs",
+  "typescript.tsdk": "frontend/.yarn/sdks/typescript/lib",
+  "typescript.suggest.paths": false,
+  "javascript.suggest.paths": false,
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "[csharp]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "editor.detectIndentation": false,
+  "coverage-gutters.coverageBaseDir": "coverage/**",
+  "editor.tabSize": 2
+}

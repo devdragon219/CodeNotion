@@ -1,0 +1,101 @@
+﻿{
+  nodes: [
+    {
+      catalogueType: {
+        category: {
+          name: Elevatori
+        },
+        name: Argano e motogeneratore,
+        subCategory: {
+          name: Elevatori elettromeccanici
+        }
+      },
+      costBaseFactor: FORFAIT,
+      id: 1,
+      internalCode: SM01,
+      name: Runte, Macejkovic and DuBuque,
+      rawWorkCost: 915.420000,
+      safetyCost: 1015.420000,
+      type: PREVENTATIVE_AND_ON_TRIGGER_CONDITION
+    },
+    {
+      catalogueType: {
+        category: {
+          name: Impianti elettrici
+        },
+        name: Gruppo elettrogeno,
+        subCategory: {
+          name: Sistema di alimentazione emergenza
+        }
+      },
+      costBaseFactor: SQ_M,
+      id: 2,
+      internalCode: SM02,
+      name: Dibbert and Sons,
+      rawWorkCost: 989.690000,
+      safetyCost: 1089.690000,
+      type: ON_TRIGGER_CONDITION
+    },
+    {
+      catalogueType: {
+        category: {
+          name: Impianti elettrici
+        },
+        name: Quadri elettrici di ricezione e distribuzione in media tensione,
+        subCategory: {
+          name: Sistema di alimentazione normale
+        }
+      },
+      costBaseFactor: SQ_M,
+      id: 3,
+      internalCode: SM03,
+      name: Hauck, Koch and Corkery,
+      rawWorkCost: 469.070000,
+      safetyCost: 569.070000,
+      type: PREVENTATIVE_AND_ON_TRIGGER_CONDITION
+    },
+    {
+      catalogueType: {
+        category: {
+          name: Impianti elettrici
+        },
+        name: Cabine ricezione MT e di trasformazione MT/BT,
+        subCategory: {
+          name: Sistema di alimentazione normale
+        }
+      },
+      costBaseFactor: FORFAIT,
+      id: 4,
+      internalCode: SM04,
+      name: Bradtke, Rempel and Raynor,
+      rawWorkCost: 914.660000,
+      safetyCost: 1014.660000,
+      type: PREVENTATIVE_AND_ON_TRIGGER_CONDITION
+    },
+    {
+      catalogueType: {
+        category: {
+          name: Elevatori
+        },
+        name: Quadro di manovra,
+        subCategory: {
+          name: Elevatori elettromeccanici
+        }
+      },
+      costBaseFactor: FORFAIT,
+      id: 5,
+      internalCode: SM05,
+      name: Muller LLC,
+      rawWorkCost: 934.870000,
+      safetyCost: 1034.870000,
+      type: PREVENTATIVE
+    }
+  ],
+  pageInfo: {
+    endCursor: NA==,
+    hasNextPage: false,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 5
+}

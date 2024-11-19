@@ -1,0 +1,139 @@
+﻿{
+  nodes: [
+    {
+      function: {
+        isAgreementParty: false,
+        isBuildingAdministrator: false,
+        isCompanyGroup: false,
+        isEmployee: false,
+        isHeir: false,
+        isLandlord: false,
+        isNone: true,
+        isOfficer: true,
+        isSupplier: false,
+        isTenant: false
+      },
+      id: 1,
+      name: Legale Rappresentante/Amministratore
+    },
+    {
+      function: {
+        isAgreementParty: false,
+        isBuildingAdministrator: false,
+        isCompanyGroup: false,
+        isEmployee: false,
+        isHeir: false,
+        isLandlord: false,
+        isNone: true,
+        isOfficer: false,
+        isSupplier: false,
+        isTenant: true
+      },
+      id: 2,
+      name: Conduttore/Locatario
+    },
+    {
+      function: {
+        isAgreementParty: false,
+        isBuildingAdministrator: false,
+        isCompanyGroup: false,
+        isEmployee: false,
+        isHeir: false,
+        isLandlord: true,
+        isNone: true,
+        isOfficer: false,
+        isSupplier: false,
+        isTenant: false
+      },
+      id: 3,
+      name: Proprietario/Locatore
+    },
+    {
+      function: {
+        isAgreementParty: false,
+        isBuildingAdministrator: false,
+        isCompanyGroup: false,
+        isEmployee: false,
+        isHeir: false,
+        isLandlord: false,
+        isNone: true,
+        isOfficer: false,
+        isSupplier: true,
+        isTenant: false
+      },
+      id: 4,
+      name: Fornitore
+    },
+    {
+      function: {
+        isAgreementParty: true,
+        isBuildingAdministrator: false,
+        isCompanyGroup: false,
+        isEmployee: false,
+        isHeir: false,
+        isLandlord: false,
+        isNone: true,
+        isOfficer: false,
+        isSupplier: false,
+        isTenant: false
+      },
+      id: 5,
+      name: Controparte Contrattuale
+    },
+    {
+      function: {
+        isAgreementParty: false,
+        isBuildingAdministrator: false,
+        isCompanyGroup: true,
+        isEmployee: false,
+        isHeir: false,
+        isLandlord: false,
+        isNone: true,
+        isOfficer: false,
+        isSupplier: false,
+        isTenant: false
+      },
+      id: 6,
+      name: Gruppo Aziendale
+    },
+    {
+      function: {
+        isAgreementParty: false,
+        isBuildingAdministrator: false,
+        isCompanyGroup: false,
+        isEmployee: false,
+        isHeir: true,
+        isLandlord: false,
+        isNone: true,
+        isOfficer: false,
+        isSupplier: false,
+        isTenant: false
+      },
+      id: 7,
+      name: Erede
+    },
+    {
+      function: {
+        isAgreementParty: false,
+        isBuildingAdministrator: true,
+        isCompanyGroup: false,
+        isEmployee: false,
+        isHeir: false,
+        isLandlord: false,
+        isNone: true,
+        isOfficer: false,
+        isSupplier: false,
+        isTenant: false
+      },
+      id: 8,
+      name: Amministrazione di Condominio
+    }
+  ],
+  pageInfo: {
+    endCursor: Nw==,
+    hasNextPage: false,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 8
+}

@@ -1,0 +1,62 @@
+﻿{
+  Cities: [
+    {
+      Name: Ecuador,
+      Guid: Guid_1,
+      CityProvider: Guid_2,
+      CountryISO: BRN,
+      LastUpdated: DateTime_1,
+      IsCountyMainCity: false,
+      Id: 1
+    }
+  ],
+  VatRates: [
+    {
+      InternalCode: VR001,
+      Description: Aut totam,
+      Type: Exempt,
+      Id: 1
+    },
+    {
+      InternalCode: VR002,
+      Description: Expedita et ex rerum aut,
+      Type: NonTaxable,
+      Id: 2
+    },
+    {
+      InternalCode: VR003,
+      Description: Dolore voluptatem,
+      RatePercent: 64.0,
+      Id: 3
+    }
+  ],
+  BillItemTypes: [
+    {
+      Description: Est illum.,
+      InternalCode: VB001,
+      IsForContractFee: false,
+      IsForContractCosts: true,
+      IsForAdministration: false,
+      IsPositive: false,
+      IsForTax: false,
+      ActiveSubjectVRId: 3,
+      ActiveExemptVRId: 1,
+      ActiveNonTaxableVRId: 2,
+      PassiveSubjectVRId: 3,
+      PassiveExemptVRId: 1,
+      PassiveNonTaxableVRId: 2,
+      AdministrationVRId: 1,
+      Id: 1
+    }
+  ],
+  CustomCodes: [
+    {
+      Name: Ecuador,
+      DataProvider: Guid_2,
+      Group: City,
+      Function: Transcoding,
+      InternalCode: 1,
+      Id: 1
+    }
+  ]
+}

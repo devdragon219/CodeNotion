@@ -1,0 +1,7 @@
+fragment TableFragment on Table {
+  code
+  columns {
+    ...ColumnFragment
+  }
+  canAddRemoveRows
+}

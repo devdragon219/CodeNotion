@@ -1,0 +1,20 @@
+﻿{
+  Data: {
+    taxCredit: {
+      addOperation: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          amount: -408.90,
+          assetTaxPaymentId: null,
+          date: 2023-09-23,
+          id: 3,
+          notes: Quia natus et dignissimos reiciendis ad nostrum.,
+          since: null,
+          until: null
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

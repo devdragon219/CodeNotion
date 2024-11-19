@@ -1,0 +1,16 @@
+﻿{
+  Data: {
+    penalty: {
+      update: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          description: Est illum.,
+          id: 1,
+          internalCode: PE001
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

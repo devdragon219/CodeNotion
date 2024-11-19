@@ -1,0 +1,22 @@
+﻿[
+  [
+    TI01,
+    Est illum.
+  ],
+  [
+    TI02,
+    Assumenda iste.
+  ],
+  [
+    TI03,
+    Quia natus.
+  ],
+  [
+    TI04,
+    Et dignissimos.
+  ],
+  [
+    TI05,
+    Reiciendis ad.
+  ]
+]

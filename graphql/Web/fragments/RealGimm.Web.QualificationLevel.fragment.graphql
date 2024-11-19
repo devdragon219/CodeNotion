@@ -1,0 +1,6 @@
+fragment QualificationLevelFragment on QualificationLevel {
+  internalCode
+  name
+  ordering
+  id
+}

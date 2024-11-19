@@ -1,0 +1,123 @@
+{
+  "cost_charge": {
+    "title": "Spese",
+    "tab": {
+      "utility_service": "Fornitura",
+      "general_data": "Spesa",
+      "recap": "Riepilogo"
+    },
+    "section_title": {
+      "import": "Per aggiungere in modo massivo le spese, scaricare il template, compilarlo nei campi richiesti e caricarlo",
+      "upload_cost_charges": "Upload spese",
+      "select_utility_service": "Seleziona fornitura",
+      "utility_service": "Dati fornitura",
+      "cost_charge": "Spesa",
+      "invoiced_consumption": "Consumo fatturato",
+      "actual_consumption": "Consumo rilevato",
+      "expected_consumption": "Consumo stimato",
+      "other_data": "Altri dati",
+      "recap": "Riepilogo"
+    },
+    "field": {
+      "estates": "Immobili",
+      "estate_units": "Unità immobiliari",
+      "utility_type": "Tipologia fornitura",
+      "total_amount": "Importo da pagare",
+      "period": "Periodo",
+      "period_start": "Inizio periodo",
+      "period_end": "Fine periodo",
+      "reference_date": "Data emissione",
+      "due_date": "Scadenza",
+      "invoice_number": "Numero fattura",
+      "vat_amount": "Totale IVA",
+      "invoiced_consumption": "Consumo fatturato",
+      "invoiced_consumption_with_unit": "Consumo fatturato ({{ measurementUnit }})",
+      "since": "Data inizio periodo",
+      "until": "Data fine periodo",
+      "reading": "Fascia",
+      "reading_value": "Fascia {{ index }}",
+      "usage_value": "Consumo",
+      "usage_value_with_unit": "Consumo ({{ measurementUnit }})",
+      "reference_subject": "Intestatario",
+      "org_unit": "Unità organizzativa",
+      "utility_type_category": "Categoria fornitura",
+      "provider_subject": "Fornitore",
+      "provider_subject_internal_code": "Codice fornitore",
+      "provider_subject_vat_number": "P.IVA",
+      "accounting_item": "Codice contabilità",
+      "utility_description": "Descrizione fornitura",
+      "utility_contract_code": "Codice fornitura (contratto)",
+      "utility_user_code": "Codice cliente",
+      "utility_type_metering_type": "Lettura/consumo",
+      "free_market": "Mercato libero",
+      "deposit": "Deposito cauzionale",
+      "status": "Stato contratto",
+      "utility_meter_serial": "Matricola contatore",
+      "utility_delivery_point_code": "POD/PDR/Presa",
+      "activation_date": "Data attivazione",
+      "deactivation_date": "Data cessazione",
+      "deactivation_request_date": "Data disdetta",
+      "contract_power_nominal": "Potenza contrattuale",
+      "contract_power_maximum": "Potenza disponibile",
+      "contract_nominal_tension": "Tensione",
+      "notes": "Note"
+    },
+    "error": {
+      "no_utility_service": "Nessuna fornitura selezionata",
+      "invoiced_consumption": "Il consumo fatturato non può essere minore della somma dei consumi rilevati e stimati",
+      "since": "La 'Data inizio periodo' deve corrispondere al campo 'Inizio periodo'",
+      "until": "La 'Data fine periodo' deve corrispondere al campo 'Fine periodo'",
+      "consumptions": "Il periodo del consumo stimato deve iniziare il giorno successivo alla data di fine periodo del consumo rilevato"
+    },
+    "action": {
+      "add_single_cost_charge": "Aggiunta singola spesa",
+      "add_multiple_cost_charges": "Aggiunta massiva spese",
+      "download_csv_template": "Scarica csv template",
+      "download_excel_template": "Scarica excel template",
+      "add_actual_consumption": "Aggiunta consumo rilevato",
+      "add_expected_consumption": "Aggiunta consumo stimato"
+    },
+    "text": {
+      "no_cost_charges": "Non sono presenti spese",
+      "no_actual_consumption": "Nessun consumo rilevato inserito",
+      "no_expected_consumption": "Nessun consumo stimato inserito"
+    },
+    "dialog": {
+      "create": {
+        "single": {
+          "title": "Aggiunta spesa",
+          "save": "Salva spesa"
+        },
+        "multiple": {
+          "title": "Aggiunta massiva spese"
+        }
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa spesa?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste spese?\nIl processo non potrà essere annullato"
+        }
+      },
+      "consumption": {
+        "add": {
+          "actual": "Aggiunta consumo rilevato",
+          "expected": "Aggiunta consumo stimato"
+        },
+        "edit": {
+          "actual": "Modifica consumo rilevato",
+          "expected": "Modifica consumo stimato"
+        }
+      }
+    },
+    "feedback": {
+      "create": "Spesa creata con successo",
+      "delete": {
+        "single": "Spesa cancellata con successo",
+        "multiple": "Spese cancellate con successo"
+      },
+      "import": "{{ amount }} spese importate con successo",
+      "update": "Spesa modificata con successo"
+    }
+  }
+}

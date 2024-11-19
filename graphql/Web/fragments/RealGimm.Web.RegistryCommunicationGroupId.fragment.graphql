@@ -1,0 +1,9 @@
+fragment RegistryCommunicationGroupIdFragment on RegistryCommunicationGroupId {
+  managementSubjectId
+  isActiveContract
+  communicationType
+  endDate
+  date
+  requestingSubjectLegalRepresentativeId
+  debtBankAccountId
+}

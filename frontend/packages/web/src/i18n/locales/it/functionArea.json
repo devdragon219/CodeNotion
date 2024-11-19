@@ -1,0 +1,50 @@
+{
+  "function_area": {
+    "title": "Aree funzionali",
+    "field": {
+      "function_area_code": "Codice area funzionale",
+      "function_area_name": "Denominazione area funzionale",
+      "function_area_type": "Natura area funzionale"
+    },
+    "error": {
+      "internal_code": "Il codice area funzionale inserito è già in uso"
+    },
+    "action": {
+      "add_function_area": "Aggiungi area funzionale"
+    },
+    "text": {
+      "no_function_areas": "Non sono presenti aree funzionali"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta aree funzionali",
+        "save": "Salva aree funzionali"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa area funzionale?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste aree funzionali?\nIl processo non potrà essere annullato"
+        }
+      },
+      "update": {
+        "title": "Modifica area funzionale",
+        "save": "Salva area funzionale"
+      },
+      "view": {
+        "title": "Visualizza area funzionale"
+      }
+    },
+    "feedback": {
+      "create": {
+        "single": "Area funzionale creata con successo",
+        "multiple": "Aree funzionali create con successo"
+      },
+      "delete": {
+        "single": "Area funzionale cancellata con successo",
+        "multiple": "Aree funzionali cancellate con successo"
+      },
+      "update": "Area funzionale modificata con successo"
+    }
+  }
+}

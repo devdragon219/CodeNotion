@@ -1,0 +1,18 @@
+﻿{
+  Data: {
+    contract: {
+      resumeBilling: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          id: 1,
+          isRecoveryArrears: true,
+          notes: notes,
+          since: 2019-11-01,
+          until: 2020-01-01
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

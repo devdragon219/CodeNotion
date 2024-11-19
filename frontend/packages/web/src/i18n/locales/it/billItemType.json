@@ -1,0 +1,69 @@
+{
+  "bill_item_type": {
+    "title": "Voci bollettazione",
+    "tab": {
+      "general_data": "Dati generali",
+      "rates": "Aliquote",
+      "recap": "Riepilogo"
+    },
+    "section_title": {
+      "general_data": "Dati generali",
+      "other_data": "Altri dati",
+      "active_contracts": "Contratti attivi",
+      "passive_contracts": "Contratti passivi",
+      "administration": "Amministrazione",
+      "recap": "Riepilogo"
+    },
+    "field": {
+      "internal_code": "Codice bollettazione",
+      "description": "Descrizione",
+      "sign": "Segno",
+      "applicability": "Applicabilità",
+      "accounting_item": "Codice Voce Corrispondente",
+      "active_subject_vr": "CA Soggetti",
+      "active_exempt_vr": "CA Esenti",
+      "active_non_taxable_vr": "CA Non imponibili",
+      "passive_subject_vr": "CP Soggetti",
+      "passive_exempt_vr": "CP Esenti",
+      "passive_non_taxable_vr": "CP Non imponibili",
+      "vat_rate_type": "Tipo Aliquota IVA",
+      "vat_rate": "Aliquota IVA"
+    },
+    "error": {
+      "internal_code": "Il codice voce bollettazione inserito è già in uso",
+      "no_contract": "Nessun contratto selezionato"
+    },
+    "action": {
+      "add_bill_item_type": "Aggiungi voce bollettazione",
+      "select_all_applicabilities": "Seleziona tutte le applicabilità"
+    },
+    "text": {
+      "no_bill_item_types": "Non sono presenti voci bollettazione"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta voce bollettazione",
+        "save": "Salva voce bollettazione"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa voce bollettazione?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste voci bollettazione?\nIl processo non potrà essere annullato"
+        }
+      },
+      "activity": {
+        "add": "Aggiungi attività",
+        "edit": "Modifica attività"
+      }
+    },
+    "feedback": {
+      "create": "Voce bollettazione creata con successo",
+      "delete": {
+        "single": "Voce bollettazione cancellata con successo",
+        "multiple": "Voci bollettazione cancellate con successo"
+      },
+      "update": "Voce bollettazione modificata con successo"
+    }
+  }
+}

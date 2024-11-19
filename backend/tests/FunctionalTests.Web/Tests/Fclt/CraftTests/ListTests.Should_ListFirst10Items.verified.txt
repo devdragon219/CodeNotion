@@ -1,0 +1,41 @@
+﻿{
+  nodes: [
+    {
+      id: 1,
+      internalCode: SP01,
+      name: Est illum.,
+      ordering: 1
+    },
+    {
+      id: 2,
+      internalCode: SP02,
+      name: Assumenda iste.,
+      ordering: 2
+    },
+    {
+      id: 3,
+      internalCode: SP03,
+      name: Quia natus.,
+      ordering: 3
+    },
+    {
+      id: 4,
+      internalCode: SP04,
+      name: Et dignissimos.,
+      ordering: 4
+    },
+    {
+      id: 5,
+      internalCode: SP05,
+      name: Reiciendis ad.,
+      ordering: 5
+    }
+  ],
+  pageInfo: {
+    endCursor: NA==,
+    hasNextPage: false,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 5
+}

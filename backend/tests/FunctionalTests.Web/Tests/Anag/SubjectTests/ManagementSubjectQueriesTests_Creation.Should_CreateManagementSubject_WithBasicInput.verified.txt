@@ -1,0 +1,13 @@
+﻿{
+  Data: {
+    subject: {
+      addManagementSubject: {
+        isSuccess: true,
+        value: {
+          id: 81
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

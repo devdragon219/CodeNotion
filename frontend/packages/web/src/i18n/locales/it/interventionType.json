@@ -1,0 +1,41 @@
+{
+  "intervention_type": {
+    "title": "Tipologie interventi",
+    "field": {
+      "internal_code": "Codice",
+      "name": "Denominazione"
+    },
+    "error": {
+      "internal_code": "Il codice inserito è già in uso"
+    },
+    "text": {
+      "no_intervention_types": "Non sono presenti tipologie interventi"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta tipologia intervento"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa tipologia intervento?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste tipologie interventi?\nIl processo non potrà essere annullato"
+        }
+      },
+      "update": {
+        "title": "Modifica tipologia intervento"
+      },
+      "view": {
+        "title": "Visualizza tipologia intervento"
+      }
+    },
+    "feedback": {
+      "create": "Tipologia intervento creato con successo",
+      "delete": {
+        "single": "Tipologia intervento cancellato con successo",
+        "multiple": "Tipologie interventi cancellati con successo"
+      },
+      "update": "Tipologia intervento modificato con successo"
+    }
+  }
+}

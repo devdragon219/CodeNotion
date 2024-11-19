@@ -1,0 +1,9 @@
+﻿{
+  pageInfo: {
+    endCursor: null,
+    hasNextPage: false,
+    hasPreviousPage: false,
+    startCursor: null
+  },
+  totalCount: 0
+}

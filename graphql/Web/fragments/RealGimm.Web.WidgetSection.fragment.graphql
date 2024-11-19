@@ -1,0 +1,13 @@
+fragment WidgetSectionFragment on WidgetSection {
+  id
+  title
+  backgroundColor
+  rows {
+    id
+    widgets {
+      id
+      type
+      width
+    }
+  }
+}

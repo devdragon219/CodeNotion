@@ -1,0 +1,929 @@
+﻿{
+  agreementDate: 2022-10-01,
+  billingInfo: {
+    billingPeriod: YEARLY,
+    discountPercentage: null,
+    fixedRateFee: null,
+    purchaseFeeWithoutVAT: 585.070000,
+    vatPercentage: 5.870000
+  },
+  cancellationNoticeDaysCount: 60,
+  catalogueTypes: [
+    {
+      activities: [
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 91,
+          isMandatoryByLaw: false,
+          name: sunt
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 92,
+          isMandatoryByLaw: true,
+          name: officiis
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 93,
+          isMandatoryByLaw: false,
+          name: alias
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 94,
+          isMandatoryByLaw: true,
+          name: vel
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 95,
+          isMandatoryByLaw: false,
+          name: repellendus
+        }
+      ],
+      category: {
+        id: 3,
+        internalCode: CO00003,
+        name: Elevatori,
+        subCategories: [
+          {
+            id: 7,
+            internalCode: CO00003SC001,
+            name: Elevatori elettromeccanici
+          },
+          {
+            id: 8,
+            internalCode: CO00003SC002,
+            name: Elevatori idraulici
+          },
+          {
+            id: 25,
+            internalCode: CO00003SC003,
+            name: Elevatori speciali
+          },
+          {
+            id: 26,
+            internalCode: CO00003SC004,
+            name: Rampe idrauliche
+          },
+          {
+            id: 27,
+            internalCode: CO00003SC005,
+            name: Ponteggi sospesi
+          },
+          {
+            id: 28,
+            internalCode: CO00003SC006,
+            name: Scale e tappeti mobili
+          },
+          {
+            id: 29,
+            internalCode: CO00003SC007,
+            name: Montascale
+          },
+          {
+            id: 30,
+            internalCode: CO00003SC008,
+            name: Montacarte
+          },
+          {
+            id: 31,
+            internalCode: CO00003SC009,
+            name: Servoscala / piattaforme
+          },
+          {
+            id: 32,
+            internalCode: CO00003SC010,
+            name: Rampe di carico idrauliche
+          }
+        ]
+      },
+      fields: [
+        [
+          {
+            id: Guid_1,
+            isMandatory: true,
+            name: illum,
+            type: SINGLE_ITEM_FROM_LIST,
+            validValues: [
+              ut
+            ]
+          },
+          {
+            id: Guid_2,
+            isMandatory: true,
+            name: et,
+            type: DATE,
+            validValues: null
+          }
+        ],
+        [
+          {
+            id: Guid_3,
+            isMandatory: false,
+            name: ut,
+            type: SIMPLE_TEXT,
+            validValues: null
+          }
+        ],
+        [
+          {
+            id: Guid_4,
+            isMandatory: false,
+            name: dolorem,
+            type: SINGLE_ITEM_FROM_LIST,
+            validValues: [
+              repellendus
+            ]
+          },
+          {
+            id: Guid_5,
+            isMandatory: true,
+            name: et,
+            type: SIMPLE_TEXT,
+            validValues: null
+          },
+          {
+            id: Guid_6,
+            isMandatory: true,
+            name: quibusdam,
+            type: DATE,
+            validValues: null
+          }
+        ]
+      ],
+      id: 19,
+      internalCode: TO00019,
+      name: Imp. elevatore idraulico fino a 12 fermate,
+      subCategory: {
+        id: 8,
+        internalCode: CO00003SC002,
+        name: Elevatori idraulici
+      }
+    },
+    {
+      activities: [
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 81,
+          isMandatoryByLaw: false,
+          name: et
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 82,
+          isMandatoryByLaw: false,
+          name: alias
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 83,
+          isMandatoryByLaw: true,
+          name: nesciunt
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 84,
+          isMandatoryByLaw: true,
+          name: consectetur
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 85,
+          isMandatoryByLaw: false,
+          name: minus
+        }
+      ],
+      category: {
+        id: 3,
+        internalCode: CO00003,
+        name: Elevatori,
+        subCategories: [
+          {
+            id: 7,
+            internalCode: CO00003SC001,
+            name: Elevatori elettromeccanici
+          },
+          {
+            id: 8,
+            internalCode: CO00003SC002,
+            name: Elevatori idraulici
+          },
+          {
+            id: 25,
+            internalCode: CO00003SC003,
+            name: Elevatori speciali
+          },
+          {
+            id: 26,
+            internalCode: CO00003SC004,
+            name: Rampe idrauliche
+          },
+          {
+            id: 27,
+            internalCode: CO00003SC005,
+            name: Ponteggi sospesi
+          },
+          {
+            id: 28,
+            internalCode: CO00003SC006,
+            name: Scale e tappeti mobili
+          },
+          {
+            id: 29,
+            internalCode: CO00003SC007,
+            name: Montascale
+          },
+          {
+            id: 30,
+            internalCode: CO00003SC008,
+            name: Montacarte
+          },
+          {
+            id: 31,
+            internalCode: CO00003SC009,
+            name: Servoscala / piattaforme
+          },
+          {
+            id: 32,
+            internalCode: CO00003SC010,
+            name: Rampe di carico idrauliche
+          }
+        ]
+      },
+      fields: [
+        [
+          {
+            id: Guid_7,
+            isMandatory: true,
+            name: totam,
+            type: SINGLE_ITEM_FROM_LIST,
+            validValues: [
+              et,
+              et,
+              sapiente,
+              sequi,
+              officiis
+            ]
+          },
+          {
+            id: Guid_8,
+            isMandatory: false,
+            name: ea,
+            type: DATE,
+            validValues: null
+          }
+        ],
+        [
+          {
+            id: Guid_9,
+            isMandatory: true,
+            name: voluptates,
+            type: SIMPLE_TEXT,
+            validValues: null
+          },
+          {
+            id: Guid_10,
+            isMandatory: true,
+            name: et,
+            type: DATE,
+            validValues: null
+          },
+          {
+            id: Guid_11,
+            isMandatory: true,
+            name: repellendus,
+            type: SIMPLE_NUMBER,
+            validValues: null
+          },
+          {
+            id: Guid_12,
+            isMandatory: false,
+            name: explicabo,
+            type: DATE,
+            validValues: null
+          }
+        ],
+        [
+          {
+            id: Guid_13,
+            isMandatory: true,
+            name: atque,
+            type: SIMPLE_TEXT,
+            validValues: null
+          },
+          {
+            id: Guid_14,
+            isMandatory: true,
+            name: suscipit,
+            type: SIMPLE_NUMBER,
+            validValues: null
+          }
+        ]
+      ],
+      id: 17,
+      internalCode: TO00017,
+      name: Imp. elevatore elettrico AC/VF fino a 12 fermate,
+      subCategory: {
+        id: 7,
+        internalCode: CO00003SC001,
+        name: Elevatori elettromeccanici
+      }
+    },
+    {
+      activities: [
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 96,
+          isMandatoryByLaw: true,
+          name: ut
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 97,
+          isMandatoryByLaw: true,
+          name: harum
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 98,
+          isMandatoryByLaw: true,
+          name: magnam
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 99,
+          isMandatoryByLaw: true,
+          name: et
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 100,
+          isMandatoryByLaw: true,
+          name: voluptatem
+        }
+      ],
+      category: {
+        id: 5,
+        internalCode: CO00005,
+        name: Condizionamento e riscaldamento,
+        subCategories: [
+          {
+            id: 13,
+            internalCode: CO00005SC001,
+            name: Climatizzazione
+          },
+          {
+            id: 18,
+            internalCode: CO00005SC002,
+            name: Riscaldamento
+          },
+          {
+            id: 19,
+            internalCode: CO00005SC003,
+            name: Reti e terminali per fluidi vettori
+          },
+          {
+            id: 20,
+            internalCode: CO00005SC004,
+            name: Reti e terminali di distribuzione dell’aria
+          },
+          {
+            id: 21,
+            internalCode: CO00005SC005,
+            name: Termoregolazione
+          },
+          {
+            id: 22,
+            internalCode: CO00005SC006,
+            name: Rete di distribuzione gas combustibile
+          },
+          {
+            id: 23,
+            internalCode: CO00005SC007,
+            name: Impianto smaltimento aria
+          },
+          {
+            id: 24,
+            internalCode: CO00005SC008,
+            name: Termoregolazione e risparmio energetico
+          }
+        ]
+      },
+      fields: [
+        [
+          {
+            id: Guid_15,
+            isMandatory: false,
+            name: quaerat,
+            type: SINGLE_ITEM_FROM_LIST,
+            validValues: [
+              placeat,
+              quos,
+              id,
+              soluta
+            ]
+          },
+          {
+            id: Guid_16,
+            isMandatory: true,
+            name: nihil,
+            type: DATE,
+            validValues: null
+          },
+          {
+            id: Guid_17,
+            isMandatory: true,
+            name: accusamus,
+            type: SINGLE_ITEM_FROM_LIST,
+            validValues: [
+              rerum,
+              dolorem
+            ]
+          },
+          {
+            id: Guid_18,
+            isMandatory: true,
+            name: similique,
+            type: DATE,
+            validValues: null
+          }
+        ],
+        [
+          {
+            id: Guid_19,
+            isMandatory: true,
+            name: non,
+            type: SINGLE_ITEM_FROM_LIST,
+            validValues: [
+              earum,
+              commodi
+            ]
+          }
+        ],
+        [
+          {
+            id: Guid_20,
+            isMandatory: true,
+            name: repudiandae,
+            type: SIMPLE_TEXT,
+            validValues: null
+          },
+          {
+            id: Guid_21,
+            isMandatory: true,
+            name: magnam,
+            type: SIMPLE_TEXT,
+            validValues: null
+          }
+        ]
+      ],
+      id: 20,
+      internalCode: TO00020,
+      name: Unità di trattamento aria primaria,
+      subCategory: {
+        id: 13,
+        internalCode: CO00005SC001,
+        name: Climatizzazione
+      }
+    }
+  ],
+  description: Ad nostrum totam harum totam voluptatibus doloremque eos asperiores cum.,
+  effectiveDate: 2022-10-20,
+  entryStatus: WORKING,
+  estateUnits: [
+    {
+      deletionDate: null,
+      disusedDate: null,
+      externalCode: hgickwy95s,
+      grossSurface: 0,
+      id: 19,
+      internalCode: I00002U019,
+      lastRelevantChangeDate: null,
+      managementSubjectId: 18,
+      name: Goodwin Inc,
+      netSurface: 0,
+      notes: Quae esse provident quia aut quis at et consequatur unde vero quis optio nisi ipsum inventore ea excepturi voluptatibus quo qui eaque dolore laudantium cupiditate aut libero sequi magnam sit occaecati laboriosam fuga sed aut ducimus est hic aspernatur quae quam quidem maiores minima aperiam aut facere nesciunt dolor excepturi.,
+      officialActId: null,
+      ownershipEndDate: null,
+      ownershipPercent: null,
+      ownershipStartDate: 2023-12-16,
+      ownershipType: RIGHT_OF_USE,
+      procurementActId: null,
+      sharedArea: false,
+      status: RETURNED,
+      subNumbering: 8,
+      type: OTHER
+    },
+    {
+      deletionDate: null,
+      disusedDate: null,
+      externalCode: 5ia9hra2yi,
+      grossSurface: 0,
+      id: 16,
+      internalCode: I00026U016,
+      lastRelevantChangeDate: null,
+      managementSubjectId: 8,
+      name: Hansen, Glover and Prosacco,
+      netSurface: 0,
+      notes: Et commodi ut eos sed occaecati esse animi nulla quam dolorem quis cum commodi voluptate dolor qui dolor odio natus repellat quidem aspernatur consequatur quasi nihil animi explicabo velit quis a est rerum et sed illo dolores inventore maxime consequatur at aut harum molestiae a dolor dolorem recusandae nulla optio.,
+      officialActId: null,
+      ownershipEndDate: null,
+      ownershipPercent: null,
+      ownershipStartDate: 2023-12-05,
+      ownershipType: THIRD_PARTIES,
+      procurementActId: null,
+      sharedArea: false,
+      status: RETURNED,
+      subNumbering: 10,
+      type: BUILDING_AREA
+    },
+    {
+      deletionDate: null,
+      disusedDate: null,
+      externalCode: 2nnxb3sw26,
+      grossSurface: 0,
+      id: 8,
+      internalCode: I00024U008,
+      lastRelevantChangeDate: null,
+      managementSubjectId: 13,
+      name: Walsh, Pfannerstill and Zemlak,
+      netSurface: 0,
+      notes: Molestiae repellendus nostrum ea accusamus incidunt sed similique eius tempore atque est deleniti neque voluptatem ducimus totam architecto a ut et et sapiente sequi officiis ea necessitatibus animi itaque voluptates autem dolorem et explicabo harum repellendus quia ipsam explicabo eligendi similique molestiae atque aut qui suscipit neque quos voluptates officiis.,
+      officialActId: null,
+      ownershipEndDate: null,
+      ownershipPercent: null,
+      ownershipStartDate: 2023-12-24,
+      ownershipType: RIGHT_OF_USE,
+      procurementActId: null,
+      sharedArea: false,
+      status: SOLD,
+      subNumbering: 3,
+      type: URBAN_AREA
+    }
+  ],
+  expirationDate: 2023-07-20,
+  externalCode: SVTOFOXL,
+  frameworkAgreements: [
+    {
+      externalCode: HZQTAJIY,
+      id: 1,
+      notes: null
+    }
+  ],
+  id: 1,
+  internalCode: CM00001,
+  maximumRenewalDaysCount: 90,
+  originalEstateUnitGroup: null,
+  originalTemplate: {
+    description: Emmerich - Bernier,
+    id: 10
+  },
+  penalties: [
+    {
+      description: Accusantium qui.,
+      flatIfConditions: [
+        {
+          complextConditionOperator: OR,
+          id: 905,
+          internalConditions: [
+            {
+              id: 1013
+            },
+            {
+              id: 1014
+            },
+            {
+              id: 1053
+            }
+          ]
+        },
+        {
+          id: 1013,
+          operator: NOT_EQUAL,
+          targetCatalogueSubCategory: {
+            id: 32,
+            name: Rampe di carico idrauliche
+          }
+        },
+        {
+          id: 1014,
+          operator: NOT_EQUAL,
+          targetCatalogueSubCategory: {
+            id: 32,
+            name: Rampe di carico idrauliche
+          }
+        },
+        {
+          id: 1053,
+          operator: NOT_EQUAL,
+          targetCatalogueType: {
+            id: 18,
+            name: Imp. elevatore idraulico fino a 6 fermate
+          }
+        }
+      ],
+      id: 51,
+      ifCondition: {
+        id: 905
+      },
+      internalCode: CM00001PE001,
+      thenOperator: OR
+    },
+    {
+      description: Necessitatibus temporibus.,
+      flatIfConditions: [
+        {
+          complextConditionOperator: OR,
+          id: 906,
+          internalConditions: [
+            {
+              id: 972
+            },
+            {
+              id: 1073
+            }
+          ]
+        },
+        {
+          id: 972,
+          operator: NOT_EQUAL,
+          targetCatalogueCategory: {
+            id: 5,
+            name: Condizionamento e riscaldamento
+          }
+        },
+        {
+          calendar: {
+            id: 1,
+            name: Calendar 0,
+            timeZoneId: Indian/Mahe
+          },
+          id: 1073,
+          maxTimePeriodInMinutes: 5,
+          minTimePeriodInMinutes: null,
+          targetMasterStatus: RESOLVED,
+          timeComparisonOperator: LESS_THAN
+        }
+      ],
+      id: 52,
+      ifCondition: {
+        id: 906
+      },
+      internalCode: CM00001PE002,
+      thenOperator: AND
+    },
+    {
+      description: Est laborum.,
+      flatIfConditions: [
+        {
+          complextConditionOperator: AND,
+          id: 907,
+          internalConditions: [
+            {
+              id: 973
+            },
+            {
+              id: 974
+            }
+          ]
+        },
+        {
+          id: 973,
+          operator: NOT_EQUAL,
+          targetCatalogueCategory: {
+            id: 5,
+            name: Condizionamento e riscaldamento
+          }
+        },
+        {
+          id: 974,
+          operator: NOT_EQUAL,
+          targetCatalogueCategory: {
+            id: 5,
+            name: Condizionamento e riscaldamento
+          }
+        }
+      ],
+      id: 53,
+      ifCondition: {
+        id: 907
+      },
+      internalCode: CM00001PE003,
+      thenOperator: OR
+    }
+  ],
+  priceLists: [
+    {
+      id: 3,
+      internalCode: LS0003,
+      isDefault: false,
+      name: Quia natus.,
+      ordering: 3
+    },
+    {
+      id: 7,
+      internalCode: LS0007,
+      isDefault: false,
+      name: Harum totam.,
+      ordering: 7
+    },
+    {
+      id: 10,
+      internalCode: LS0010,
+      isDefault: false,
+      name: Cum ipsam.,
+      ordering: 10
+    }
+  ],
+  providerSubject: {
+    id: 3,
+    name: Rempel - Simonis
+  },
+  renewalNoticeDaysCount: 30,
+  slas: [
+    {
+      description: Nostrum nemo.,
+      flatIfConditions: [
+        {
+          complextConditionOperator: OR,
+          id: 908,
+          internalConditions: [
+            {
+              id: 1015
+            },
+            {
+              id: 1016
+            },
+            {
+              id: 1054
+            }
+          ]
+        },
+        {
+          id: 1015,
+          operator: NOT_EQUAL,
+          targetCatalogueSubCategory: {
+            id: 32,
+            name: Rampe di carico idrauliche
+          }
+        },
+        {
+          id: 1016,
+          operator: NOT_EQUAL,
+          targetCatalogueSubCategory: {
+            id: 32,
+            name: Rampe di carico idrauliche
+          }
+        },
+        {
+          id: 1054,
+          operator: NOT_EQUAL,
+          targetCatalogueType: {
+            id: 18,
+            name: Imp. elevatore idraulico fino a 6 fermate
+          }
+        }
+      ],
+      flatThenConditions: [
+        {
+          complextConditionOperator: OR,
+          id: 909,
+          internalConditions: [
+            {
+              id: 975
+            },
+            {
+              id: 1074
+            }
+          ]
+        },
+        {
+          id: 975,
+          operator: NOT_EQUAL,
+          targetCatalogueCategory: {
+            id: 5,
+            name: Condizionamento e riscaldamento
+          }
+        },
+        {
+          calendar: {
+            id: 1,
+            name: Calendar 0,
+            timeZoneId: Indian/Mahe
+          },
+          id: 1074,
+          maxTimePeriodInMinutes: 5,
+          minTimePeriodInMinutes: null,
+          targetMasterStatus: RESOLVED,
+          timeComparisonOperator: LESS_THAN
+        }
+      ],
+      id: 51,
+      ifCondition: {
+        id: 908
+      },
+      internalCode: CM00001SLA001,
+      thenCondition: {
+        id: 909
+      }
+    },
+    {
+      description: Rerum sit.,
+      flatIfConditions: [
+        {
+          complextConditionOperator: AND,
+          id: 910,
+          internalConditions: [
+            {
+              id: 976
+            },
+            {
+              id: 977
+            }
+          ]
+        },
+        {
+          id: 976,
+          operator: NOT_EQUAL,
+          targetCatalogueCategory: {
+            id: 5,
+            name: Condizionamento e riscaldamento
+          }
+        },
+        {
+          id: 977,
+          operator: NOT_EQUAL,
+          targetCatalogueCategory: {
+            id: 5,
+            name: Condizionamento e riscaldamento
+          }
+        }
+      ],
+      flatThenConditions: [
+        {
+          complextConditionOperator: OR,
+          id: 911,
+          internalConditions: [
+            {
+              id: 1095
+            },
+            {
+              id: 1108
+            }
+          ]
+        },
+        {
+          id: 1095,
+          operator: NOT_EQUAL,
+          targetPriority: CRITICAL
+        },
+        {
+          id: 1108,
+          targetTicketType: {
+            description: Est illum.,
+            id: 1,
+            internalCode: TTK01,
+            ordering: 1
+          },
+          ticketTypeEqualityOperator: NOT_EQUAL
+        }
+      ],
+      id: 52,
+      ifCondition: {
+        id: 910
+      },
+      internalCode: CM00001SLA002,
+      thenCondition: {
+        id: 911
+      }
+    }
+  ],
+  termExtensions: [
+    {
+      daysCount: 60,
+      feeDifference: 15.000000,
+      id: 1,
+      notes: Voluptas tempore totam fugiat consequatur autem voluptas.
+    },
+    {
+      daysCount: 90,
+      feeDifference: 15.000000,
+      id: 2,
+      notes: Sit quis qui modi amet quasi fuga eligendi.
+    },
+    {
+      daysCount: 180,
+      feeDifference: 12.000000,
+      id: 3,
+      notes: Et ut cum explicabo voluptatem odit est tenetur quos ratione.
+    }
+  ],
+  type: {
+    id: 35,
+    internalCode: TCM035,
+    name: Pagac LLC,
+    ordering: 35
+  }
+}

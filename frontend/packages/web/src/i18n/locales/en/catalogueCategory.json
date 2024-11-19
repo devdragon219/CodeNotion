@@ -1,0 +1,66 @@
+{
+  "catalogue_category": {
+    "title": "Catalogue Categories",
+    "tab": {
+      "general_data": "General data",
+      "catalogue_sub_category": "Subcategory"
+    },
+    "section_title": {
+      "general_data": "General data",
+      "catalogue_sub_category": "Object subcategory"
+    },
+    "field": {
+      "catalogue_category_code": "Category Code",
+      "catalogue_category_name": "Description",
+      "catalogue_sub_categories": "Subcategory",
+      "catalogue_sub_category_code": "Subcategory Code",
+      "catalogue_sub_category_name": "Description",
+      "catalogue_sub_category_parent": "Category"
+    },
+    "error": {
+      "category_internal_code": "The catalogue category code provided is already in use",
+      "sub_category_internal_code": "The catalogue subcategory code provided is already in use"
+    },
+    "action": {
+      "add_catalogue_category": "Add object category",
+      "add_sub_category": "Add subcategory"
+    },
+    "text": {
+      "no_catalogue_categories": "No object categories available",
+      "no_sub_categories": "No subcategories available, press edit to add a subcategory"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add catalogue category",
+        "save": "Save category"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this catalogue category?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these catalogue categories?\nThe process cannot be undone"
+        }
+      },
+      "update": {
+        "title": "Edit catalogue category",
+        "save": "Save catalogue category"
+      },
+      "sub_category": {
+        "add": "Add subcategory",
+        "edit": "Edit subcategory",
+        "view": "Show all subcategories"
+      }
+    },
+    "feedback": {
+      "create": {
+        "single": "Catalogue category successfully created",
+        "multiple": "Catalogue categories successfully created"
+      },
+      "delete": {
+        "single": "Catalogue category successfully deleted",
+        "multiple": "Catalogue categories successfully deleted"
+      },
+      "update": "Catalogue category successfully updated"
+    }
+  }
+}

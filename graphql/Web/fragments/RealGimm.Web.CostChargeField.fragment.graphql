@@ -1,0 +1,7 @@
+fragment CostChargeFieldFragment on CostChargeField {
+  name
+  isMandatory
+  templateTypeId
+  type
+  value
+}

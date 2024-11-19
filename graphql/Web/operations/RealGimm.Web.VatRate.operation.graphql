@@ -1,0 +1,88 @@
+query getVATRates(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: VATRateFilterInput
+  $order: [VATRateSortInput!]
+) {
+  vatRate {
+    listVATRates(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...VatRateFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getVatRateInternalCode {
+  vatRate {
+    proposeNewInternalCode
+  }
+}
+
+query canUseVatRateInternalCode(
+  $internalCode: String!
+  $currentVatRateId: Int
+) {
+  vatRate {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentVATRateId: $currentVatRateId
+    )
+  }
+}
+
+mutation addVatRate($input: VATRateInput!) {
+  vatRate {
+    add(input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+mutation updateVatRate($vatRateId: Int!, $input: VATRateInput!) {
+  vatRate {
+    update(id: $vatRateId, input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteVatRates($ids: [Int!]!) {
+  vatRate {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query exportVatRates($where: VATRateFilterInput, $order: [VATRateSortInput!]) {
+  vatRate {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}

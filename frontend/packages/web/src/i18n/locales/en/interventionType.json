@@ -1,0 +1,41 @@
+{
+  "intervention_type": {
+    "title": "Intervention types",
+    "field": {
+      "internal_code": "Code",
+      "name": "Name"
+    },
+    "error": {
+      "internal_code": "The code is already in use"
+    },
+    "text": {
+      "no_intervention_types": "No intervention types available"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add intervention type"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this intervention type?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these intervention types?\nThe process cannot be undone"
+        }
+      },
+      "update": {
+        "title": "Update intervention type"
+      },
+      "view": {
+        "title": "View intervention type"
+      }
+    },
+    "feedback": {
+      "create": "Intervention type created successfully",
+      "delete": {
+        "single": "Intervention type deleted successfully",
+        "multiple": "Intervention types deleted successfully"
+      },
+      "update": "Intervention type edited successfully"
+    }
+  }
+}

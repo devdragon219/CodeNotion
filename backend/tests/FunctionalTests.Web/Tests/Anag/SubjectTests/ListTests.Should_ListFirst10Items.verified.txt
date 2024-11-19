@@ -1,0 +1,131 @@
+﻿{
+  nodes: [
+    {
+      closureDate: null,
+      customPersonType: null,
+      customSubjectStatus: null,
+      deletionDate: null,
+      entryStatus: INCOMPLETE_DRAFT,
+      externalSourceCode: gutsrxainb,
+      id: 1,
+      internalCode: 10000,
+      name: Dibbert Inc,
+      personType: MANAGEMENT_SUBJECT
+    },
+    {
+      closureDate: null,
+      customPersonType: null,
+      customSubjectStatus: null,
+      deletionDate: null,
+      entryStatus: WORKING,
+      externalSourceCode: bd8zl0zy5r,
+      id: 2,
+      internalCode: 10004,
+      name: Brown LLC,
+      personType: MANAGEMENT_SUBJECT
+    },
+    {
+      closureDate: null,
+      customPersonType: null,
+      customSubjectStatus: null,
+      deletionDate: null,
+      entryStatus: WORKING,
+      externalSourceCode: ku845rtr86,
+      id: 3,
+      internalCode: 10008,
+      name: Rempel - Simonis,
+      personType: MANAGEMENT_SUBJECT
+    },
+    {
+      closureDate: null,
+      customPersonType: null,
+      customSubjectStatus: null,
+      deletionDate: null,
+      entryStatus: WORKING,
+      externalSourceCode: ohqh50gg2y,
+      id: 4,
+      internalCode: 10012,
+      name: Willms, Crist and Swift,
+      personType: MANAGEMENT_SUBJECT
+    },
+    {
+      closureDate: null,
+      customPersonType: null,
+      customSubjectStatus: null,
+      deletionDate: null,
+      entryStatus: WORKING,
+      externalSourceCode: drc3cmxpri,
+      id: 5,
+      internalCode: 10016,
+      name: Ratke LLC,
+      personType: MANAGEMENT_SUBJECT
+    },
+    {
+      closureDate: null,
+      customPersonType: null,
+      customSubjectStatus: null,
+      deletionDate: null,
+      entryStatus: INCOMPLETE_DRAFT,
+      externalSourceCode: f3p44wp4s0,
+      id: 6,
+      internalCode: 10020,
+      name: Bashirian, Vandervort and Wiegand,
+      personType: MANAGEMENT_SUBJECT
+    },
+    {
+      closureDate: null,
+      customPersonType: null,
+      customSubjectStatus: null,
+      deletionDate: null,
+      entryStatus: WORKING,
+      externalSourceCode: l0mq8kcnwn,
+      id: 7,
+      internalCode: 10024,
+      name: Torp, Gerlach and Dickens,
+      personType: MANAGEMENT_SUBJECT
+    },
+    {
+      closureDate: null,
+      customPersonType: null,
+      customSubjectStatus: null,
+      deletionDate: null,
+      entryStatus: WORKING,
+      externalSourceCode: yn7142qtu3,
+      id: 8,
+      internalCode: 10028,
+      name: Sauer, Shanahan and Weber,
+      personType: MANAGEMENT_SUBJECT
+    },
+    {
+      closureDate: null,
+      customPersonType: null,
+      customSubjectStatus: null,
+      deletionDate: null,
+      entryStatus: WORKING,
+      externalSourceCode: c0g6it2hlr,
+      id: 9,
+      internalCode: 10032,
+      name: Hackett, Bernier and DuBuque,
+      personType: MANAGEMENT_SUBJECT
+    },
+    {
+      closureDate: null,
+      customPersonType: null,
+      customSubjectStatus: null,
+      deletionDate: null,
+      entryStatus: INCOMPLETE_DRAFT,
+      externalSourceCode: ucfk3fipk9,
+      id: 10,
+      internalCode: 10036,
+      name: Olson LLC,
+      personType: MANAGEMENT_SUBJECT
+    }
+  ],
+  pageInfo: {
+    endCursor: OQ==,
+    hasNextPage: true,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 78
+}

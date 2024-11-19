@@ -1,0 +1,28 @@
+fragment CatalogueItemFragment on CatalogueItem {
+  estate {
+    id
+  }
+  catalogueType {
+    ...FacilityCatalogueTypeFragment
+  }
+  internalCode
+  id
+}
+
+fragment CatalogueItemDetailFragment on CatalogueItem {
+  estate {
+    ...EstateFragment
+  }
+  catalogueType {
+    ...CatalogueTypeDetailFragment
+  }
+  internalCode
+  status
+  activationDate
+  lastMaintenanceDate
+  decommissioningDate
+  fields {
+    ...CatalogueItemFieldFragment
+  }
+  id
+}

@@ -1,0 +1,106 @@
+fragment EstateUnitCadastralUnitDetailFragment on CadastralUnit {
+  internalCode
+  type
+  address {
+    ...AsstAddressFragment
+  }
+  coordinates {
+    ...CadastralCoordinatesFragment
+  }
+  unavailabilities {
+    since
+    until
+    notes
+    id
+  }
+  status
+  since
+  until
+  lastRelevantChangeDate
+  inspection {
+    ...CadastralUnitInspectionFragment
+  }
+  income {
+    ...CadastralUnitIncomeFragment
+  }
+  cadastralNotes
+  fiscalNotes
+  consortiumNotes
+  isCadastralRegistrationInProgress
+  isAncillaryUnit
+  id
+}
+
+fragment CadastralUnitDetailFragment on CadastralUnit {
+  ...EstateUnitCadastralUnitDetailFragment
+  estateUnit {
+    ...EstateUnitFragment
+  }
+  history {
+    ...EstateUnitCadastralUnitDetailFragment
+    estateUnit {
+      internalCode
+    }
+  }
+  taxConfig {
+    taxCalculator
+    code
+    isMandatory
+    templateTypeId
+    type
+    value
+    id
+  }
+  taxCalculators {
+    name
+    taxCalculator
+    form {
+      name
+      isMandatory
+      id
+      type
+      validValues {
+        key
+        value
+      }
+    }
+  }
+  taxPayments {
+    id
+    expectedInstallments
+    taxCalculator
+    year
+    installments {
+      installmentsPaid
+      amountPaid
+      date
+    }
+  }
+}
+
+fragment CadastralUnitFragment on CadastralUnit {
+  id
+  internalCode
+  estateUnit {
+    id
+    internalCode
+    managementSubject {
+      id
+      name
+    }
+    estate {
+      id
+      internalCode
+    }
+  }
+  type
+  since
+  until
+  address {
+    ...AsstAddressFragment
+  }
+  coordinates {
+    ...CadastralCoordinatesFragment
+  }
+  status
+}

@@ -1,0 +1,101 @@
+﻿{
+  nodes: [
+    {
+      id: 1,
+      internalCode: U01,
+      isForContracts: true,
+      isForEstate: true,
+      isForEstateSubUnit: true,
+      isForEstateUnit: true,
+      name: Altro
+    },
+    {
+      id: 2,
+      internalCode: U02,
+      isForContracts: true,
+      isForEstate: true,
+      isForEstateSubUnit: true,
+      isForEstateUnit: true,
+      name: Abitativo
+    },
+    {
+      id: 3,
+      internalCode: U03,
+      isForContracts: true,
+      isForEstate: true,
+      isForEstateSubUnit: true,
+      isForEstateUnit: true,
+      name: Ufficio
+    },
+    {
+      id: 4,
+      internalCode: U04,
+      isForContracts: true,
+      isForEstate: true,
+      isForEstateSubUnit: true,
+      isForEstateUnit: true,
+      name: Negozio/bar/mercato
+    },
+    {
+      id: 5,
+      internalCode: U05,
+      isForContracts: true,
+      isForEstate: true,
+      isForEstateSubUnit: true,
+      isForEstateUnit: true,
+      name: Box/posto auto
+    },
+    {
+      id: 6,
+      internalCode: U06,
+      isForContracts: true,
+      isForEstate: true,
+      isForEstateSubUnit: true,
+      isForEstateUnit: true,
+      name: Magazzino
+    },
+    {
+      id: 7,
+      internalCode: U07,
+      isForContracts: true,
+      isForEstate: true,
+      isForEstateSubUnit: true,
+      isForEstateUnit: true,
+      name: Laboratorio
+    },
+    {
+      id: 8,
+      internalCode: U08,
+      isForContracts: true,
+      isForEstate: true,
+      isForEstateSubUnit: true,
+      isForEstateUnit: true,
+      name: Cantina/sottotetto
+    },
+    {
+      id: 9,
+      internalCode: U09,
+      isForContracts: true,
+      isForEstate: true,
+      isForEstateSubUnit: true,
+      isForEstateUnit: true,
+      name: Scuola
+    },
+    {
+      id: 10,
+      internalCode: U10,
+      isForContracts: true,
+      isForEstate: true,
+      isForEstateSubUnit: true,
+      isForEstateUnit: true,
+      name: Sede associativa
+    }
+  ],
+  pageInfo: {
+    endCursor: OQ==,
+    hasNextPage: true,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 12
+}

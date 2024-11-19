@@ -1,0 +1,49 @@
+{
+  "catalogue_item": {
+    "tab": {
+      "general_data": "General data",
+      "documents": "Documents"
+    },
+    "section_title": {
+      "documents": "Documents"
+    },
+    "field": {
+      "estate": "Estate",
+      "catalogue_category": "Category",
+      "catalogue_subcategory": "Subcategory",
+      "catalogue_type": "Object type",
+      "catalogue_type_count": "Number of objects",
+      "catalogue_item_code": "Object code",
+      "catalogue_item_status": "Object status",
+      "catalogue_item_activation_date": "Activation date",
+      "catalogue_item_decommissioning_date": "Decommissioning date",
+      "catalogue_item_last_maintenance_date": "Last maintenance date",
+      "document_upload": "Upload documents"
+    },
+    "error": {
+      "internal_code": "The object code entered is already in use"
+    },
+    "action": {
+      "add_document": "Add document"
+    },
+    "text": {
+      "no_documents": "No documents available, press edit to add a document"
+    },
+    "dialog": {
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this object?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these objects?\nThe process cannot be undone"
+        }
+      }
+    },
+    "feedback": {
+      "delete": {
+        "single": "Object successfully deleted",
+        "multiple": "Objects successfully deleted"
+      },
+      "update": "Object updated successfully"
+    }
+  }
+}

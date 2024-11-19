@@ -1,0 +1,123 @@
+query getPriceLists(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: PriceListFilterInput
+  $order: [PriceListSortInput!]
+) {
+  priceList {
+    listPriceLists(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...PriceListFragment
+      }
+      totalCount
+    }
+  }
+}
+
+mutation addPriceList($input: PriceListInput!) {
+  priceList {
+    add(input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updatePriceList($priceListId: Int!, $input: PriceListInput!) {
+  priceList {
+    update(id: $priceListId, input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deletePriceLists($ids: [Int!]!) {
+  priceList {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getPriceListInternalCode {
+  priceList {
+    proposeNewInternalCode
+  }
+}
+
+query canUsePriceListInternalCode(
+  $internalCode: String!
+  $currentPriceListId: Int
+) {
+  priceList {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentPriceListId: $currentPriceListId
+    )
+  }
+}
+
+query exportPriceLists(
+  $where: PriceListFilterInput
+  $order: [PriceListSortInput!]
+) {
+  priceList {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+query getPriceList($priceListId: Int!) {
+  priceList {
+    get(id: $priceListId) {
+      ...PriceListDetailFragment
+    }
+  }
+}
+
+mutation deletePriceList($id: Int!) {
+  priceList {
+    delete(id: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getAllPriceLists(
+  $where: PriceListFilterInput
+  $order: [PriceListSortInput!]
+) {
+  priceList {
+    listPriceListsFull(where: $where, order: $order) {
+      ...PriceListFragment
+    }
+  }
+}

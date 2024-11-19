@@ -1,0 +1,20 @@
+fragment TaxConfigMainTableRowFragment on TaxConfigMainTableRow {
+  ... on TaxConfigGenericRow {
+    id
+    year
+    otherColumns {
+      ...TaxConfigColumnFragment
+    }
+  }
+  ... on TaxConfigGroupedRow {
+    id
+    groupingReference
+    year
+    city {
+      ...CityFragment
+    }
+    otherColumns {
+      ...TaxConfigColumnFragment
+    }
+  }
+}

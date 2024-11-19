@@ -1,0 +1,6 @@
+﻿{
+  cityId: null,
+  description: Tutti Gli Uffici,
+  externalCode: ALL,
+  id: 1
+}

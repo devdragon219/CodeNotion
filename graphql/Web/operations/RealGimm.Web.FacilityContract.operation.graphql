@@ -1,0 +1,183 @@
+query getFacilityContracts(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: FcltContractFilterInput
+  $order: [FcltContractSortInput!]
+) {
+  fcltContract {
+    listFcltContracts(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...FacilityContractFragment
+      }
+      totalCount
+    }
+  }
+}
+
+mutation deleteFacilityContract($id: Int!) {
+  fcltContract {
+    delete(id: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteFacilityContracts($ids: [Int!]!) {
+  fcltContract {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query exportFacilityContracts(
+  $where: FcltContractFilterInput
+  $order: [FcltContractSortInput!]
+) {
+  fcltContract {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+query getFacilityContractInternalCode {
+  fcltContract {
+    proposeNewInternalCode
+  }
+}
+
+query canUseFacilityContractInternalCode(
+  $internalCode: String!
+  $currentFacilityContractId: Int
+) {
+  fcltContract {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentContractId: $currentFacilityContractId
+    )
+  }
+}
+
+mutation createFacilityContract($input: FcltContractInput!) {
+  fcltContract {
+    add(input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+      value {
+        id
+      }
+    }
+  }
+}
+
+query getFacilityContract($facilityContractId: Int!) {
+  fcltContract {
+    get(id: $facilityContractId) {
+      ...FacilityContractDetailFragment
+    }
+  }
+}
+
+mutation updateFacilityContract(
+  $facilityContractId: Int!
+  $input: FcltContractInput!
+) {
+  fcltContract {
+    update(id: $facilityContractId, input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation addFacilityContractDocuments(
+  $facilityContractId: Int!
+  $inputs: [DocumentInput!]!
+) {
+  fcltContract {
+    document {
+      addRange(contractId: $facilityContractId, inputs: $inputs) {
+        errors
+        isSuccess
+        validationErrors {
+          ...ValidationErrorFragment
+        }
+      }
+    }
+  }
+}
+
+mutation deleteFacilityContractDocuments(
+  $entityId: Int!
+  $cmisIds: [String!]!
+) {
+  fcltContract {
+    document {
+      deleteRange(contractId: $entityId, cmisIds: $cmisIds) {
+        errors
+        isSuccess
+        validationErrors {
+          ...ValidationErrorFragment
+        }
+      }
+    }
+  }
+}
+
+mutation updateFacilityContractDocument(
+  $facilityContractId: Int!
+  $input: DocumentInput!
+) {
+  fcltContract {
+    document {
+      update(contractId: $facilityContractId, input: $input) {
+        errors
+        isSuccess
+        validationErrors {
+          ...ValidationErrorFragment
+        }
+      }
+    }
+  }
+}
+
+query getFacilityContractDocuments(
+  $facilityContractId: Int!
+  $where: DocumentFilterInput
+  $order: [DocumentsPerContentCategoryGroupOutputSortInput!]
+) {
+  fcltContract {
+    get(id: $facilityContractId) {
+      documents(where: $where, order: $order) {
+        ...DocumentsPerContentCategoryGroupOutputFragment
+      }
+    }
+  }
+}

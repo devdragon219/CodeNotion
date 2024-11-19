@@ -1,0 +1,30 @@
+query getAvailableReportGenerators {
+  reportGenerator {
+    availableReportGenerators {
+      ...ReportGeneratorOutputFragment
+    }
+  }
+}
+
+mutation generateReports(
+  $reportGeneratorId: UUID!
+  $targetReportFormats: [ReportFormat!]!
+  $filters: [ReportGeneratorFilterInput!]!
+) {
+  reportGenerator {
+    generateReports(
+      reportGeneratorId: $reportGeneratorId
+      targetReportFormats: $targetReportFormats
+      filters: $filters
+    ) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+      value {
+        resourceUrl
+      }
+    }
+  }
+}

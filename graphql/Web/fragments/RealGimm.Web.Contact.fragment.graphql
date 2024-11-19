@@ -1,0 +1,6 @@
+fragment ContactFragment on Contact {
+  id
+  contactInfo
+  contactInfoType
+  contactType
+}

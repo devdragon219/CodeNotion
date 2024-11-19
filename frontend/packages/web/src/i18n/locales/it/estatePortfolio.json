@@ -1,0 +1,19 @@
+{
+  "estate_portfolio": {
+    "tab": {
+      "estate": "Immobile",
+      "estate_unit": "Unità immobiliare",
+      "catalogue": "Consistenza"
+    },
+    "catalogue": {
+      "fields": {
+        "catalogue_category": "Categoria oggetto",
+        "catalogue_subcategory": "Sottocategoria oggetto",
+        "catalogue_type": "Tipologia oggetto"
+      }
+    },
+    "dialog": {
+      "title": "Esporta fascicolo immobiliare"
+    }
+  }
+}

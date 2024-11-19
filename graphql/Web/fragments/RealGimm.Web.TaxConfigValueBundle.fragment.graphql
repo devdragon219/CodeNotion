@@ -1,0 +1,14 @@
+fragment TaxConfigValueBundleFragment on TaxConfigValueBundle {
+  calculator {
+    ...TaxCalculatorFragment
+  }
+  mainValue {
+    ...TaxConfigMainTableRowFragment
+  }
+  allSubTableValues {
+    key
+    value {
+      ...TaxConfigSubTableRowFragment
+    }
+  }
+}

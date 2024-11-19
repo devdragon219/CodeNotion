@@ -1,0 +1,61 @@
+﻿{
+  nodes: [
+    {
+      id: 1,
+      internalCode: MU01,
+      name: Altro
+    },
+    {
+      id: 2,
+      internalCode: MU02,
+      name: Abitativo
+    },
+    {
+      id: 3,
+      internalCode: MU03,
+      name: Clinica/casa di cura/ospedale
+    },
+    {
+      id: 4,
+      internalCode: MU04,
+      name: Commerciale
+    },
+    {
+      id: 5,
+      internalCode: MU05,
+      name: Industriale
+    },
+    {
+      id: 6,
+      internalCode: MU06,
+      name: Artigianale
+    },
+    {
+      id: 7,
+      internalCode: MU07,
+      name: Direzionale
+    },
+    {
+      id: 8,
+      internalCode: MU08,
+      name: Agricola
+    },
+    {
+      id: 9,
+      internalCode: MU09,
+      name: Struttura per attività ludico sportive
+    },
+    {
+      id: 10,
+      internalCode: MU10,
+      name: Struttura ricettiva
+    }
+  ],
+  pageInfo: {
+    endCursor: OQ==,
+    hasNextPage: true,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 14
+}

@@ -1,0 +1,4 @@
+fragment TicketsAmountChartDataPointFragment on TicketsAmountChartDataPoint {
+  excludedAmount
+  nonExcludedAmount
+}

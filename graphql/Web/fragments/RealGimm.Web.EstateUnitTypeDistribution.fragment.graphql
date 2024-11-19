@@ -1,0 +1,4 @@
+fragment EstateUnitTypeDistributionFragment on EstateUnitTypeDistribution {
+  percentage
+  estateUnitType
+}

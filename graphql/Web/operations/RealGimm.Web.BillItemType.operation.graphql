@@ -1,0 +1,112 @@
+query getBillItemTypes(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: BillItemTypeFilterInput
+  $order: [BillItemTypeSortInput!]
+) {
+  billItemType {
+    listBillItemTypes(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...BillItemTypeFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getBillItemType($billItemTypeId: Int!) {
+  billItemType {
+    get(id: $billItemTypeId) {
+      ...BillItemTypeFragment
+    }
+  }
+}
+
+query exportBillItemTypes(
+  $where: BillItemTypeFilterInput
+  $order: [BillItemTypeSortInput!]
+) {
+  billItemType {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+mutation createBillItemType($input: BillItemTypeInput!) {
+  billItemType {
+    add(input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateBillItemType($billItemTypeId: Int!, $input: BillItemTypeInput!) {
+  billItemType {
+    update(id: $billItemTypeId, input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteBillItemType($id: Int!) {
+  billItemType {
+    delete(id: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteBillItemTypes($ids: [Int!]!) {
+  billItemType {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getBillItemTypeInternalCode {
+  billItemType {
+    proposeNewInternalCode
+  }
+}
+
+query canUseBillItemTypeInternalCode(
+  $internalCode: String!
+  $currentBillItemTypeId: Int
+) {
+  billItemType {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentBillItemTypeId: $currentBillItemTypeId
+    )
+  }
+}

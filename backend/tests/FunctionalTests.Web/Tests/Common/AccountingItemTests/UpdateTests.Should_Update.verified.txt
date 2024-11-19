@@ -1,0 +1,17 @@
+﻿{
+  Data: {
+    accountingItem: {
+      update: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          description: dolore,
+          externalCode: 3grnfcx3n,
+          id: 1,
+          internalCode: 18bzo
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

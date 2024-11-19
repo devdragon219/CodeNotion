@@ -1,0 +1,115 @@
+query getContractTypes(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: ContractTypeFilterInput
+  $order: [ContractTypeSortInput!]
+) {
+  contractType {
+    listContractTypes(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...ContractTypeFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getContractType($contractTypeId: Int!) {
+  contractType {
+    get(id: $contractTypeId) {
+      ...ContractTypeFragment
+    }
+  }
+}
+
+query exportContractTypes(
+  $where: ContractTypeFilterInput
+  $order: [ContractTypeSortInput!]
+) {
+  contractType {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+mutation createContractType($contractTypeInput: ContractTypeInput!) {
+  contractType {
+    add(input: $contractTypeInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateContractType(
+  $contractTypeId: Int!
+  $contractTypeInput: ContractTypeInput!
+) {
+  contractType {
+    update(id: $contractTypeId, input: $contractTypeInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteContractType($id: Int!) {
+  contractType {
+    delete(id: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteContractTypes($ids: [Int!]!) {
+  contractType {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getContractTypeInternalCode {
+  contractType {
+    proposeNewInternalCode
+  }
+}
+
+query canUseContractTypeInternalCode(
+  $internalCode: String!
+  $currentContractTypeId: Int
+) {
+  contractType {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentContractTypeId: $currentContractTypeId
+    )
+  }
+}

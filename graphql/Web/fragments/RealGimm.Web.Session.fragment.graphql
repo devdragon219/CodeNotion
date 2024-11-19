@@ -1,0 +1,8 @@
+fragment SessionFragment on Session {
+  id
+  loginUserAgent
+  loginIPAddress
+  loginLocation
+  creationDate
+  refreshTokenExpiration
+}

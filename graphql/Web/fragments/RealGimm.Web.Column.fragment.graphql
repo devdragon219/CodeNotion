@@ -1,0 +1,11 @@
+fragment ColumnFragment on Column {
+  code
+  sourceField
+  sourceKey
+  filterKey
+  valueType
+  isVisibleInTable
+  isVisibleInDetail
+  isReadonly
+  isMandatory
+}

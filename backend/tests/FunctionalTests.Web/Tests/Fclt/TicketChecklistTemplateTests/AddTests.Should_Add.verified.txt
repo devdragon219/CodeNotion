@@ -1,0 +1,29 @@
+﻿{
+  Data: {
+    ticketChecklistTemplate: {
+      add: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          catalogueType: {
+            category: {
+              name: est
+            },
+            name: unde,
+            subCategory: {
+              name: iste
+            }
+          },
+          costBaseFactor: FORFAIT,
+          id: 1,
+          internalCode: SM01,
+          name: Konopelski Group,
+          rawWorkCost: 489.50,
+          safetyCost: 589.50,
+          type: PREVENTATIVE
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

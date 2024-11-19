@@ -1,0 +1,205 @@
+﻿[
+  [
+    I00022,
+    Impianti e attrezzature antincendio,
+    Compartimentazione antincendio,
+    Serrande di compartimentazione,
+    1
+  ],
+  [
+    I00026,
+    Condizionamento e riscaldamento,
+    Climatizzazione,
+    Filtri aria,
+    1
+  ],
+  [
+    I00014,
+    Impianti elettrici,
+    Sistema di alimentazione normale,
+    Cabine ricezione MT e di trasformazione MT/BT,
+    1
+  ],
+  [
+    I00011,
+    Impianti e attrezzature antincendio,
+    Attrezzature antincendio,
+    Estintori,
+    1
+  ],
+  [
+    I00007,
+    Impianti elettrici,
+    Sistema di alimentazione normale,
+    Quadri elettrici di ricezione e distribuzione in media tensione,
+    1
+  ],
+  [
+    I00022,
+    Impianti elettrici,
+    Sistema di alimentazione normale,
+    Quadro generale di bassa tensione,
+    1
+  ],
+  [
+    I00016,
+    Impianti elettrici,
+    Impianto di terra e protezione scariche atmosferiche,
+    Impianto di protezione da scariche atmosferiche,
+    1
+  ],
+  [
+    I00028,
+    Condizionamento e riscaldamento,
+    Climatizzazione,
+    Ventilconvettori,
+    1
+  ],
+  [
+    I00026,
+    Impianti e attrezzature antincendio,
+    Compartimentazione antincendio,
+    Serrande di compartimentazione,
+    1
+  ],
+  [
+    I00019,
+    Impianti e attrezzature antincendio,
+    Attrezzature antincendio,
+    Idranti,
+    1
+  ],
+  [
+    I00030,
+    Impianti e attrezzature antincendio,
+    Attrezzature antincendio,
+    Estintori,
+    1
+  ],
+  [
+    I00017,
+    Condizionamento e riscaldamento,
+    Climatizzazione,
+    Ventilconvettori,
+    1
+  ],
+  [
+    I00025,
+    Elevatori,
+    Elevatori elettromeccanici,
+    Vano corsa e cabina,
+    1
+  ],
+  [
+    I00030,
+    Condizionamento e riscaldamento,
+    Climatizzazione,
+    Ventilconvettori,
+    1
+  ],
+  [
+    I00003,
+    Condizionamento e riscaldamento,
+    Climatizzazione,
+    Ventilconvettori,
+    1
+  ],
+  [
+    I00027,
+    Elevatori,
+    Elevatori elettromeccanici,
+    Imp. elevatore elettrico AC/VF fino a 12 fermate,
+    1
+  ],
+  [
+    I00006,
+    Impianti e attrezzature antincendio,
+    Attrezzature antincendio,
+    Evacuatori di fumo,
+    1
+  ],
+  [
+    I00026,
+    Impianti e attrezzature antincendio,
+    Attrezzature antincendio,
+    Idranti,
+    1
+  ],
+  [
+    I00017,
+    Elevatori,
+    Elevatori idraulici,
+    Imp. elevatore idraulico fino a 12 fermate,
+    1
+  ],
+  [
+    I00017,
+    Impianti elettrici,
+    Sistema di alimentazione normale,
+    Quadri elettrici di ricezione e distribuzione in media tensione,
+    1
+  ],
+  [
+    I00003,
+    Elevatori,
+    Elevatori elettromeccanici,
+    Imp. elevatore elettrico AC/VF fino a 6 fermate,
+    1
+  ],
+  [
+    I00024,
+    Impianti elettrici,
+    Sistema di alimentazione normale,
+    Cabine ricezione MT e di trasformazione MT/BT,
+    2
+  ],
+  [
+    I00026,
+    Elevatori,
+    Elevatori elettromeccanici,
+    Vano corsa e cabina,
+    1
+  ],
+  [
+    I00023,
+    Condizionamento e riscaldamento,
+    Climatizzazione,
+    Filtri aria,
+    1
+  ],
+  [
+    I00030,
+    Condizionamento e riscaldamento,
+    Climatizzazione,
+    Unità di trattamento aria primaria,
+    1
+  ],
+  [
+    I00024,
+    Elevatori,
+    Elevatori elettromeccanici,
+    Imp. elevatore elettrico AC/VF fino a 6 fermate,
+    1
+  ],
+  [
+    I00011,
+    Impianti e attrezzature antincendio,
+    Attrezzature antincendio,
+    Evacuatori di fumo,
+    1
+  ],
+  [
+    I00024,
+    Elevatori,
+    Elevatori elettromeccanici,
+    Imp. elevatore elettrico AC/VF fino a 12 fermate,
+    1
+  ],
+  [
+    I00030,
+    Impianti e attrezzature antincendio,
+    Compartimentazione antincendio,
+    Serrande di compartimentazione,
+    1
+  ]
+]

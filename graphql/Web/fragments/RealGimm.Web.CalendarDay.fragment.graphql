@@ -1,0 +1,8 @@
+fragment CalendarDayFragment on CalendarDay {
+  dayOfWeek
+  timeRanges {
+    since
+    until
+  }
+  id
+}

@@ -1,0 +1,187 @@
+query getCatalogues(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: CatalogueOutputFilterInput
+  $order: [CatalogueOutputSortInput!]
+) {
+  catalogue {
+    listCatalogues(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...CatalogueFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query exportCatalogues(
+  $where: CatalogueOutputFilterInput
+  $order: [CatalogueOutputSortInput!]
+) {
+  catalogue {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+mutation deleteCatalogue($catalogueTypeId: Int!, $estateId: Int!) {
+  catalogue {
+    delete(id: { estateId: $estateId, catalogueTypeId: $catalogueTypeId }) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteCatalogues($ids: [CatalogueIdInput!]!) {
+  catalogue {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation createCatalogues($catalogueInputs: [CatalogueItemInput!]!) {
+  catalogue {
+    add(inputs: $catalogueInputs) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getCatalogue($catalogueTypeId: Int!, $estateId: Int!) {
+  catalogue {
+    get(estateId: $estateId, catalogueTypeId: $catalogueTypeId) {
+      ...CatalogueItemDetailFragment
+    }
+  }
+}
+
+mutation updateCatalogue(
+  $catalogueTypeId: Int!
+  $estateId: Int!
+  $catalogueInputs: [CatalogueItemInput!]!
+) {
+  catalogue {
+    update(
+      id: { estateId: $estateId, catalogueTypeId: $catalogueTypeId }
+      inputs: $catalogueInputs
+    ) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getCatalogueDocuments(
+  $catalogueTypeId: Int!
+  $estateId: Int!
+  $where: DocumentFilterInput
+  $order: [DocumentsPerContentCategoryGroupOutputSortInput!]
+) {
+  catalogue {
+    documents {
+      listDocuments(
+        catalogueTypeId: $catalogueTypeId
+        estateId: $estateId
+        where: $where
+        order: $order
+      ) {
+        ...DocumentsPerContentCategoryGroupOutputFragment
+      }
+    }
+  }
+}
+
+mutation addCatalogueDocuments(
+  $catalogueTypeId: Int!
+  $estateId: Int!
+  $inputs: [DocumentInput!]!
+) {
+  catalogue {
+    document {
+      addRange(
+        catalogueTypeId: $catalogueTypeId
+        estateId: $estateId
+        inputs: $inputs
+      ) {
+        errors
+        isSuccess
+        validationErrors {
+          ...ValidationErrorFragment
+        }
+      }
+    }
+  }
+}
+
+mutation deleteCatalogueDocuments(
+  $catalogueTypeId: Int!
+  $estateId: Int!
+  $cmisIds: [String!]!
+) {
+  catalogue {
+    document {
+      deleteRange(
+        catalogueTypeId: $catalogueTypeId
+        estateId: $estateId
+        cmisIds: $cmisIds
+      ) {
+        errors
+        isSuccess
+        validationErrors {
+          ...ValidationErrorFragment
+        }
+      }
+    }
+  }
+}
+
+mutation updateCatalogueDocument(
+  $catalogueTypeId: Int!
+  $estateId: Int!
+  $input: DocumentInput!
+) {
+  catalogue {
+    document {
+      update(
+        catalogueTypeId: $catalogueTypeId
+        estateId: $estateId
+        input: $input
+      ) {
+        errors
+        isSuccess
+        validationErrors {
+          ...ValidationErrorFragment
+        }
+      }
+    }
+  }
+}

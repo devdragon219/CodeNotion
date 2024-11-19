@@ -1,0 +1,49 @@
+{
+  "work_team": {
+    "title": "Squadre",
+    "section_title": {
+      "general_data": "Dati generali"
+    },
+    "field": {
+      "internal_code": "Codice squadra",
+      "description": "Descrizione",
+      "provider_subject": "Fornitore",
+      "leader_user": "Caposquadra",
+      "workers": "Operai",
+      "insertion_date": "Data inserimento",
+      "worker_first_name": "Nome",
+      "worker_last_name": "Cognome",
+      "worker_since": "Data inizio",
+      "worker_until": "Data fine",
+      "worker_craft": "Specializzazione",
+      "worker_level": "Livello"
+    },
+    "error": {
+      "internal_code": "Il codice squadra inserito è già in uso"
+    },
+    "text": {
+      "no_work_teams": "Non sono presenti squadre"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta squadra"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa squadra?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste squadre?\nIl processo non potrà essere annullato"
+        }
+      },
+      "view_workers": "Visualizza operai"
+    },
+    "feedback": {
+      "create": "Squadra creata con successo",
+      "delete": {
+        "single": "Squadra cancellata con successo",
+        "multiple": "Squadre cancellate con successo"
+      },
+      "update": "Squadra modificata con successo"
+    }
+  }
+}

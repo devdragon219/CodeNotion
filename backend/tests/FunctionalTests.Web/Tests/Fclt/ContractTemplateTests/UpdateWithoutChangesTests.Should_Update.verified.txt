@@ -1,0 +1,26 @@
+﻿{
+  Data: {
+    contractTemplate: {
+      update: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          catalogueTypeIds: [
+            3,
+            2
+          ],
+          contractType: {
+            id: 1,
+            internalCode: TCM001,
+            name: Schumm, Runte and Macejkovic,
+            ordering: 1
+          },
+          description: Schumm, Runte and Macejkovic,
+          id: 1,
+          internalCode: MCM001
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

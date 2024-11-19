@@ -1,0 +1,27 @@
+﻿{
+  Data: {
+    estateSubUnit: {
+      add: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          deletionDate: null,
+          estateUnit: {
+            name: EU2023_41X
+          },
+          id: 1,
+          internalCode: CD_202310,
+          notes: Note,
+          occupancyPercent: 50,
+          occupantId: 1,
+          occupantType: THIRD_PARTIES,
+          orgUnitId: 1,
+          since: 2023-11-01,
+          surfaceSqM: 100,
+          until: 9999-12-31,
+          useType: OFFICE
+        }
+      }
+    }
+  }
+}

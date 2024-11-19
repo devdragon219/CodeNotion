@@ -1,0 +1,511 @@
+﻿{
+  nodes: [
+    {
+      actualPrice: 31.000000,
+      actualPriceSince: 2023-10-25,
+      actualPriceUntil: 2024-06-11,
+      catalogueTypes: [
+        {
+          category: {
+            id: 3,
+            name: Elevatori
+          },
+          id: 13,
+          name: Argano e motogeneratore,
+          subCategory: {
+            id: 7,
+            name: Elevatori elettromeccanici
+          }
+        }
+      ],
+      id: 1,
+      internalCode: AR001,
+      measurementUnit: {
+        id: 2,
+        internalCode: UL02,
+        name: Assumenda iste.,
+        ordering: 2
+      },
+      name: Est illum.,
+      priceList: {
+        name: Reiciendis ad.
+      },
+      pricePeriods: [
+        {
+          price: 31.000000,
+          since: 2023-10-25,
+          until: 2024-06-11
+        }
+      ]
+    },
+    {
+      actualPrice: 85.560000,
+      actualPriceSince: 2023-05-11,
+      actualPriceUntil: 2024-04-25,
+      catalogueTypes: [
+        {
+          category: {
+            id: 1,
+            name: Impianti elettrici
+          },
+          id: 1,
+          name: Impianto di terra,
+          subCategory: {
+            id: 2,
+            name: Impianto di terra e protezione scariche atmosferiche
+          }
+        },
+        {
+          category: {
+            id: 5,
+            name: Condizionamento e riscaldamento
+          },
+          id: 20,
+          name: Unità di trattamento aria primaria,
+          subCategory: {
+            id: 13,
+            name: Climatizzazione
+          }
+        },
+        {
+          category: {
+            id: 5,
+            name: Condizionamento e riscaldamento
+          },
+          id: 22,
+          name: Ventilconvettori,
+          subCategory: {
+            id: 13,
+            name: Climatizzazione
+          }
+        }
+      ],
+      id: 2,
+      internalCode: AR002,
+      measurementUnit: {
+        id: 2,
+        internalCode: UL02,
+        name: Assumenda iste.,
+        ordering: 2
+      },
+      name: Nostrum totam.,
+      priceList: {
+        name: Nostrum totam.
+      },
+      pricePeriods: [
+        {
+          price: 85.560000,
+          since: 2023-05-11,
+          until: 2024-04-25
+        }
+      ]
+    },
+    {
+      actualPrice: 98.910000,
+      actualPriceSince: 2022-05-17,
+      actualPriceUntil: null,
+      catalogueTypes: [
+        {
+          category: {
+            id: 3,
+            name: Elevatori
+          },
+          id: 16,
+          name: Imp. elevatore elettrico AC/VF fino a 6 fermate,
+          subCategory: {
+            id: 7,
+            name: Elevatori elettromeccanici
+          }
+        },
+        {
+          category: {
+            id: 3,
+            name: Elevatori
+          },
+          id: 13,
+          name: Argano e motogeneratore,
+          subCategory: {
+            id: 7,
+            name: Elevatori elettromeccanici
+          }
+        },
+        {
+          category: {
+            id: 1,
+            name: Impianti elettrici
+          },
+          id: 4,
+          name: Impianto rifasamento (anello e anello B ),
+          subCategory: {
+            id: 3,
+            name: Sistema di alimentazione normale
+          }
+        }
+      ],
+      id: 3,
+      internalCode: AR003,
+      measurementUnit: {
+        id: 2,
+        internalCode: UL02,
+        name: Assumenda iste.,
+        ordering: 2
+      },
+      name: Doloribus aperiam.,
+      priceList: {
+        name: Reiciendis ad.
+      },
+      pricePeriods: [
+        {
+          price: 98.910000,
+          since: 2022-05-17,
+          until: null
+        }
+      ]
+    },
+    {
+      actualPrice: 91.170000,
+      actualPriceSince: 2023-06-08,
+      actualPriceUntil: null,
+      catalogueTypes: [
+        {
+          category: {
+            id: 5,
+            name: Condizionamento e riscaldamento
+          },
+          id: 22,
+          name: Ventilconvettori,
+          subCategory: {
+            id: 13,
+            name: Climatizzazione
+          }
+        },
+        {
+          category: {
+            id: 2,
+            name: Impianti e attrezzature antincendio
+          },
+          id: 12,
+          name: Serrande di compartimentazione,
+          subCategory: {
+            id: 6,
+            name: Compartimentazione antincendio
+          }
+        }
+      ],
+      id: 4,
+      internalCode: AR004,
+      measurementUnit: {
+        id: 5,
+        internalCode: UL05,
+        name: Reiciendis ad.,
+        ordering: 5
+      },
+      name: Facilis omnis.,
+      priceList: {
+        name: Harum totam.
+      },
+      pricePeriods: [
+        {
+          price: 91.170000,
+          since: 2023-06-08,
+          until: null
+        }
+      ]
+    },
+    {
+      actualPrice: 23.520000,
+      actualPriceSince: 2023-06-10,
+      actualPriceUntil: null,
+      catalogueTypes: [
+        {
+          category: {
+            id: 2,
+            name: Impianti e attrezzature antincendio
+          },
+          id: 10,
+          name: Evacuatori di fumo,
+          subCategory: {
+            id: 5,
+            name: Attrezzature antincendio
+          }
+        }
+      ],
+      id: 5,
+      internalCode: AR005,
+      measurementUnit: {
+        id: 3,
+        internalCode: UL03,
+        name: Quia natus.,
+        ordering: 3
+      },
+      name: Autem suscipit.,
+      priceList: {
+        name: Eos asperiores.
+      },
+      pricePeriods: [
+        {
+          price: 23.520000,
+          since: 2023-06-10,
+          until: null
+        }
+      ]
+    },
+    {
+      actualPrice: 21.160000,
+      actualPriceSince: 2023-10-18,
+      actualPriceUntil: 2024-02-01,
+      catalogueTypes: [
+        {
+          category: {
+            id: 3,
+            name: Elevatori
+          },
+          id: 14,
+          name: Quadro di manovra,
+          subCategory: {
+            id: 7,
+            name: Elevatori elettromeccanici
+          }
+        },
+        {
+          category: {
+            id: 1,
+            name: Impianti elettrici
+          },
+          id: 6,
+          name: Quadro generale di bassa tensione,
+          subCategory: {
+            id: 3,
+            name: Sistema di alimentazione normale
+          }
+        },
+        {
+          category: {
+            id: 5,
+            name: Condizionamento e riscaldamento
+          },
+          id: 20,
+          name: Unità di trattamento aria primaria,
+          subCategory: {
+            id: 13,
+            name: Climatizzazione
+          }
+        }
+      ],
+      id: 6,
+      internalCode: AR006,
+      measurementUnit: {
+        id: 2,
+        internalCode: UL02,
+        name: Assumenda iste.,
+        ordering: 2
+      },
+      name: Debitis dolorem.,
+      priceList: {
+        name: Assumenda iste.
+      },
+      pricePeriods: [
+        {
+          price: 21.160000,
+          since: 2023-10-18,
+          until: 2024-02-01
+        }
+      ]
+    },
+    {
+      actualPrice: 73.250000,
+      actualPriceSince: 2023-08-15,
+      actualPriceUntil: 2024-02-07,
+      catalogueTypes: [
+        {
+          category: {
+            id: 3,
+            name: Elevatori
+          },
+          id: 15,
+          name: Vano corsa e cabina,
+          subCategory: {
+            id: 7,
+            name: Elevatori elettromeccanici
+          }
+        },
+        {
+          category: {
+            id: 3,
+            name: Elevatori
+          },
+          id: 17,
+          name: Imp. elevatore elettrico AC/VF fino a 12 fermate,
+          subCategory: {
+            id: 7,
+            name: Elevatori elettromeccanici
+          }
+        }
+      ],
+      id: 7,
+      internalCode: AR007,
+      measurementUnit: {
+        id: 4,
+        internalCode: UL04,
+        name: Et dignissimos.,
+        ordering: 4
+      },
+      name: Facilis dolorem.,
+      priceList: {
+        name: Est illum.
+      },
+      pricePeriods: [
+        {
+          price: 73.250000,
+          since: 2023-08-15,
+          until: 2024-02-07
+        }
+      ]
+    },
+    {
+      actualPrice: 80.390000,
+      actualPriceSince: 2022-12-09,
+      actualPriceUntil: 2024-11-01,
+      catalogueTypes: [
+        {
+          category: {
+            id: 2,
+            name: Impianti e attrezzature antincendio
+          },
+          id: 8,
+          name: Estintori,
+          subCategory: {
+            id: 5,
+            name: Attrezzature antincendio
+          }
+        },
+        {
+          category: {
+            id: 3,
+            name: Elevatori
+          },
+          id: 16,
+          name: Imp. elevatore elettrico AC/VF fino a 6 fermate,
+          subCategory: {
+            id: 7,
+            name: Elevatori elettromeccanici
+          }
+        }
+      ],
+      id: 8,
+      internalCode: AR008,
+      measurementUnit: {
+        id: 5,
+        internalCode: UL05,
+        name: Reiciendis ad.,
+        ordering: 5
+      },
+      name: Consequuntur et.,
+      priceList: {
+        name: Nostrum totam.
+      },
+      pricePeriods: [
+        {
+          price: 80.390000,
+          since: 2022-12-09,
+          until: 2024-11-01
+        }
+      ]
+    },
+    {
+      actualPrice: 11.510000,
+      actualPriceSince: 2023-08-23,
+      actualPriceUntil: null,
+      catalogueTypes: [
+        {
+          category: {
+            id: 2,
+            name: Impianti e attrezzature antincendio
+          },
+          id: 8,
+          name: Estintori,
+          subCategory: {
+            id: 5,
+            name: Attrezzature antincendio
+          }
+        },
+        {
+          category: {
+            id: 1,
+            name: Impianti elettrici
+          },
+          id: 1,
+          name: Impianto di terra,
+          subCategory: {
+            id: 2,
+            name: Impianto di terra e protezione scariche atmosferiche
+          }
+        }
+      ],
+      id: 9,
+      internalCode: AR009,
+      measurementUnit: {
+        id: 4,
+        internalCode: UL04,
+        name: Et dignissimos.,
+        ordering: 4
+      },
+      name: Voluptas itaque.,
+      priceList: {
+        name: Reiciendis ad.
+      },
+      pricePeriods: [
+        {
+          price: 11.510000,
+          since: 2023-08-23,
+          until: null
+        }
+      ]
+    },
+    {
+      actualPrice: 13.930000,
+      actualPriceSince: 2022-02-18,
+      actualPriceUntil: 2024-11-26,
+      catalogueTypes: [
+        {
+          category: {
+            id: 5,
+            name: Condizionamento e riscaldamento
+          },
+          id: 21,
+          name: Filtri aria,
+          subCategory: {
+            id: 13,
+            name: Climatizzazione
+          }
+        }
+      ],
+      id: 10,
+      internalCode: AR010,
+      measurementUnit: {
+        id: 2,
+        internalCode: UL02,
+        name: Assumenda iste.,
+        ordering: 2
+      },
+      name: Fuga eligendi.,
+      priceList: {
+        name: Est illum.
+      },
+      pricePeriods: [
+        {
+          price: 13.930000,
+          since: 2022-02-18,
+          until: 2024-11-26
+        }
+      ]
+    }
+  ],
+  pageInfo: {
+    endCursor: OQ==,
+    hasNextPage: true,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 50
+}

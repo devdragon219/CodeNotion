@@ -1,0 +1,18 @@
+fragment TakeoverFragment on Takeover {
+  originalSubjectId
+  newSubjectId
+  legalRepresentativeSubjectId
+  takeoverDate
+  effectiveDate
+  type
+  id
+  originalSubject {
+    ...SubjectDetailFragment
+  }
+  newSubject {
+    ...SubjectDetailFragment
+  }
+  legalRepresentativeSubject {
+    ...SubjectDetailFragment
+  }
+}

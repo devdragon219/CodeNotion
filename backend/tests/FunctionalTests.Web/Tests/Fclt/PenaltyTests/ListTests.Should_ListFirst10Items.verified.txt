@@ -1,0 +1,61 @@
+﻿{
+  nodes: [
+    {
+      description: Est illum.,
+      id: 1,
+      internalCode: PE001
+    },
+    {
+      description: Reiciendis ad.,
+      id: 2,
+      internalCode: PE002
+    },
+    {
+      description: Voluptatibus doloremque.,
+      id: 3,
+      internalCode: PE003
+    },
+    {
+      description: Doloribus aperiam.,
+      id: 4,
+      internalCode: PE004
+    },
+    {
+      description: Amet qui.,
+      id: 5,
+      internalCode: PE005
+    },
+    {
+      description: Nisi a.,
+      id: 6,
+      internalCode: PE006
+    },
+    {
+      description: Suscipit blanditiis.,
+      id: 7,
+      internalCode: PE007
+    },
+    {
+      description: Dolorum corrupti.,
+      id: 8,
+      internalCode: PE008
+    },
+    {
+      description: Fuga eius.,
+      id: 9,
+      internalCode: PE009
+    },
+    {
+      description: Dolorem eius.,
+      id: 10,
+      internalCode: PE010
+    }
+  ],
+  pageInfo: {
+    endCursor: OQ==,
+    hasNextPage: true,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 71
+}

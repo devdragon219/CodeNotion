@@ -1,0 +1,61 @@
+﻿{
+  nodes: [
+    {
+      description: Est illum.,
+      id: 1,
+      internalCode: SLA001
+    },
+    {
+      description: Assumenda iste.,
+      id: 2,
+      internalCode: SLA002
+    },
+    {
+      description: Quia natus.,
+      id: 3,
+      internalCode: SLA003
+    },
+    {
+      description: Et dignissimos.,
+      id: 4,
+      internalCode: SLA004
+    },
+    {
+      description: Reiciendis ad.,
+      id: 5,
+      internalCode: SLA005
+    },
+    {
+      description: Nostrum totam.,
+      id: 6,
+      internalCode: SLA006
+    },
+    {
+      description: Harum totam.,
+      id: 7,
+      internalCode: SLA007
+    },
+    {
+      description: Voluptatibus doloremque.,
+      id: 8,
+      internalCode: SLA008
+    },
+    {
+      description: Eos asperiores.,
+      id: 9,
+      internalCode: SLA009
+    },
+    {
+      description: Cum ipsam.,
+      id: 10,
+      internalCode: SLA010
+    }
+  ],
+  pageInfo: {
+    endCursor: OQ==,
+    hasNextPage: true,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 73
+}

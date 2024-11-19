@@ -1,0 +1,7 @@
+fragment CatalogueTypeFieldFragment on CatalogueTypeField {
+  name
+  isMandatory
+  type
+  validValues
+  id
+}

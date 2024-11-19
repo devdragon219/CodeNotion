@@ -1,0 +1,16 @@
+﻿{
+  Data: {
+    calendar: {
+      add: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          id: 1,
+          name: Calendar 0,
+          timeZoneId: America/Kralendijk
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

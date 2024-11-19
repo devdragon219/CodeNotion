@@ -1,0 +1,356 @@
+{
+  "core": {
+    "button": {
+      "actions": "Actions",
+      "close": "Close",
+      "confirm": "Confirm",
+      "detail": "Show detail",
+      "duplicate": "Duplicate",
+      "exclude": "Exclude",
+      "include": "Include",
+      "show": "Show",
+      "show_all": "Show all"
+    },
+    "enum": {
+      "applicability": {
+        "ADMINISTRATION": "Administration",
+        "CONTRACT_COSTS": "Contract costs",
+        "CONTRACT_FEE": "Contract fee",
+        "TAX": "Tax"
+      },
+      "condition_type": {
+        "CATALOGUE_CATEGORY": "Category",
+        "CATALOGUE_SUB_CATEGORY": "Subcategory",
+        "CATALOGUE_TYPE": "Catalogue type",
+        "PENALTY_TYPE": "Penalty type",
+        "PRIORITY": "Ticket priority",
+        "TICKET_MASTER_STATUS": "Ticket status",
+        "TICKET_TYPE": "Ticket type"
+      },
+      "contract_landlord_variation": {
+        "TAKEOVER": "Landlord takeover",
+        "TRANSFER": "Landlord transfer"
+      },
+      "contract_tenant_variation": {
+        "TAKEOVER": "Tenant takeover",
+        "TRANSFER": "Tenant transfer"
+      },
+      "cost_charge_analysis_period": {
+        "PER_HEATING_COOLING_SURFACE": "Sqm energy",
+        "PER_GROSS_SURFACE": "Sqm gross",
+        "TOTAL": "Total"
+      },
+      "counterpart_landlord_variation": {
+        "ADD": "Landlord add",
+        "TAKEOVER": "Landlord takeover",
+        "TRANSFER": "Landlord transfer",
+        "DECEASE": "Landlord decease"
+      },
+      "counterpart_tenant_variation": {
+        "ADD": "Tenant add",
+        "TAKEOVER": "Tenant takeover",
+        "TRANSFER": "Tenant transfer",
+        "DECEASE": "Tenant decease"
+      },
+      "dashboard_widget_last_period": {
+        "BI_WEEK": "Last 14 days",
+        "CUSTOM": "Custom range",
+        "MONTH": "Last month",
+        "QUARTER": "Last quarter",
+        "QUARTER_PER_DAY": "Last quarter per day",
+        "QUARTER_PER_WEEK": "Last quarter per week",
+        "SEMESTER": "Last semester",
+        "WEEK": "Last 7 days",
+        "YEAR": "Last year",
+        "YEAR_PER_MONTH": "Last year per month",
+        "YEAR_PER_WEEK": "Last year per week"
+      },
+      "dashboard_widget_period": {
+        "BI_WEEK": "14 days",
+        "CUSTOM": "Custom range",
+        "MONTH": "Month",
+        "QUARTER": "Quarter",
+        "QUARTER_PER_DAY": "Quarter per day",
+        "QUARTER_PER_WEEK": "Quarter per week",
+        "SEMESTER": "Semester",
+        "WEEK": "7 days",
+        "YEAR": "Year",
+        "YEAR_PER_MONTH": "Year per month",
+        "YEAR_PER_WEEK": "Year per week"
+      },
+      "dashboard_widget_type": {
+        "ACTIVE_CONTRACTS_EXPIRATIONS_LIST": "Active contracts expirations",
+        "BILL_PAYMENTS_STATUS_PERCENTAGE": "Percentage payments status",
+        "CHECKLIST_TICKETS_EXPIRATIONS_LIST": "Maintenance tickets expirations",
+        "CONTRACTS_RECAP": "Contracts recap",
+        "ESTATE_MAP": "Estate map",
+        "ESTATE_OCCUPATION_STATUS_PERCENTAGE": "Estate occupation chart",
+        "ESTATE_UNIT_TYPES_PERCENTAGE": "Estate unit types percentage",
+        "INCOME_OUTCOME_COMPARISON_CHART": "Income outcome comparison chart",
+        "ISSUE_TICKETS_EXPIRATIONS_LIST": "Issue tickets expirations",
+        "MANDATORY_BY_LAW_TICKETS_EXPIRATIONS_LIST": "Maintenance mandatory by law expirations",
+        "NOTIFICATIONS_LIST": "Notifications",
+        "PASSIVE_CONTRACTS_EXPIRATIONS_LIST": "Passive contracts expirations",
+        "REAL_ESTATE_RECAP": "Real estate recap",
+        "TICKETS_COMPLETED_CHART": "Completed tickets chart",
+        "TICKETS_COUNT_CHART": "Comparison between maintenance activities chart",
+        "TICKETS_EXCLUDED_FROM_MAINTENANCE_CONTRACT_CHART": "Fee/extra fee tickets chart",
+        "TICKETS_EXCLUDED_FROM_MAINTENANCE_CONTRACT_EXPENSES_CHART": "Fee/extra fee tickets expenses chart",
+        "TICKETS_EXCLUDED_FROM_MAINTENANCE_CONTRACT_EXPENSES_PERCENTAGE": "Fee/extra fee tickets expenses percentage",
+        "TICKETS_EXCLUDED_FROM_MAINTENANCE_CONTRACT_PERCENTAGE": "Fee/extra fee tickets percentage",
+        "TICKETS_EXCLUDED_FROM_MAINTENANCE_CONTRACT_TOTAL_EXPENSES_COUNT": "Fee/extra fee tickets total expenses",
+        "TICKETS_MANDATORY_BY_LAW_EXPIRED": "Tickets mandatory by law expired",
+        "TICKETS_MANDATORY_BY_LAW_LIST": "Expiration dates tickets mandatory by law",
+        "TICKETS_MANDATORY_BY_LAW_STATUS_PERCENTAGE": "Ticket statuses mandatory by law percentage",
+        "TICKETS_MANDATORY_BY_LAW_TYPE_PERCENTAGE": "Ticket types mandatory by law percentage",
+        "TICKETS_PREVENTATIVE_EXPIRED": "Preventative tickets expired",
+        "TICKETS_PRIORITY_PERCENTAGE": "Priorities tickets percentage",
+        "TICKETS_SLA_RESPECTING_PERCENTAGE": "SLA respecting tickets percentage",
+        "TICKETS_STATUS_CHART_AVERAGE_RESOLUTION_DURATION": "Average resolution duration tickets",
+        "TICKETS_STATUS_CHART": "Statuses tickets chart",
+        "TICKETS_STATUS_COUNT": "Statuses tickets",
+        "TICKETS_STATUS_PERCENTAGE": "Statuses tickets percentage",
+        "TICKETS_TOTAL_EXPENSES_CHART": "Total expenses tickets comparison chart",
+        "TICKETS_TYPE_CHART": "Types tickets chart",
+        "TICKETS_TYPE_LIST": "Types tickets",
+        "USAGE_TYPES_PERCENTAGE": "Intended uses percentage"
+      },
+      "legal_nature": {
+        "LEGAL_PERSON": "Legal person",
+        "PHYSICAL_PERSON": "Physical person",
+        "OTHER": "Other nature (condominiums, ex.)"
+      },
+      "notification_body": {
+        "CATALOGUE_ITEM_DOCUMENT_EXPIRED_NOTIFICATION": "A catalogue item document is expired.",
+        "CONTRACT_DOCUMENT_EXPIRED_NOTIFICATION": "A contract document is expired.",
+        "CONTRACTS_EXPIRATION_NOTIFICATION": "{{ amount }} contracts will expire in {{ daysToExpiration }} days.",
+        "COST_CHARGES_EXPIRATION_NOTIFICATION": "{{ amount }} cost charges are reaching to the payment due date in {{ daysToExpiration }} days.",
+        "ESTATE_DOCUMENT_EXPIRED_NOTIFICATION": "An estate document is expired.",
+        "ESTATE_PORTFOLIO_EXPORT_IS_READY_NOTIFICATION": "The estate portfolio export is ready for download.",
+        "ESTATE_UNIT_DOCUMENT_EXPIRED_NOTIFICATION": "An estate unit document is expired.",
+        "PASSWORD_EXPIRATION_NOTIFICATION": "Your password will expire in {{ daysToExpiration }} days. Please, create a new one before the expiration.",
+        "SUBJECT_DOCUMENT_EXPIRED_NOTIFICATION": "A subject document is expired."
+      },
+      "notification_title": {
+        "CATALOGUE_ITEM_DOCUMENT_EXPIRED_NOTIFICATION": "Catalogue item document expiration",
+        "CONTRACT_DOCUMENT_EXPIRED_NOTIFICATION": "Contract document expiration",
+        "CONTRACTS_EXPIRATION_NOTIFICATION": "Contracts expiration",
+        "COST_CHARGES_EXPIRATION_NOTIFICATION": "Cost charges expiration",
+        "ESTATE_DOCUMENT_EXPIRED_NOTIFICATION": "Estate document expiration",
+        "ESTATE_PORTFOLIO_EXPORT_IS_READY_NOTIFICATION": "Estate portfolio export",
+        "ESTATE_UNIT_DOCUMENT_EXPIRED_NOTIFICATION": "Estate unit document expiration",
+        "PASSWORD_EXPIRATION_NOTIFICATION": "Password expiration",
+        "SUBJECT_DOCUMENT_EXPIRED_NOTIFICATION": "Subject document expiration"
+      },
+      "rate_plan_status": {
+        "NOT_EXPECTED": "Not to be declared",
+        "WAITING": "To be declared",
+        "DECLARED": "Declared in final processing"
+      },
+      "subject_type": {
+        "MANAGEMENT_SUBJECT": "Management subject",
+        "OTHER": "Non management subject"
+      },
+      "surface_mode": {
+        "FLOOR": "Total surface per floor",
+        "FUNCTION_AREA": "Surface per function area per floor",
+        "TOTAL": "Total surface per EU"
+      },
+      "usage_type_applicability": {
+        "ESTATE": "Estates",
+        "ESTATE_UNIT": "Estate units",
+        "ESTATE_SUB_UNIT": "Estate sub units",
+        "CONTRACT": "Contracts"
+      }
+    },
+    "error": {
+      "download": "The document download didn't succeed, please try again",
+      "fields_not_matching": "The '{{ first }}' field does not match with the '{{ second }}' field",
+      "iban": "Invalid IBAN",
+      "upload": "The document upload didn't succeed, please try again"
+    },
+    "feature": {
+      "registry": {
+        "title": "Registry",
+        "subjects": "Subjects",
+        "org_units": "Organizational units"
+      },
+      "real_estate": {
+        "title": "Real estate",
+        "estates": "Estates",
+        "estates_catalogue": "Estates catalogue",
+        "estate_units": "Estate units",
+        "estate_units_variations": "Estate unit variations",
+        "cadastral_units": "Cadastral units",
+        "catalogue_config": "Catalogue config",
+        "cadastral_land_categories": "Cadastral land categories",
+        "asset_tax": "Tax processing"
+      },
+      "asset_management": {
+        "title": "Asset management",
+        "contracts": "Contracts",
+        "contract_types": "Contract types",
+        "bills": "Payment notices/warrants",
+        "administration": "Administration",
+        "registry_communications": "Registry communications",
+        "registration_payments": "Registration payments"
+      },
+      "repository": {
+        "title": "Documents",
+        "documents": "Documents"
+      },
+      "energy_management": {
+        "title": "Energy management",
+        "utility_types": "Utility types",
+        "utility_services": "Utilities",
+        "cost_charges": "Cost Charges"
+      },
+      "system": {
+        "title": "System",
+        "permissions": "Permissions",
+        "audit_events": "Audit log",
+        "configs": "Modules settings"
+      },
+      "maintenance": {
+        "title": "Maintenance",
+        "estate_unit_groups": "Estate unit groups",
+        "facility_contracts": "Facility contracts",
+        "facility_contract_templates": "Facility contract templates",
+        "facility_contract_types": "Facility contract types",
+        "slas": "SLAs",
+        "config": "Config",
+        "penalties": "Penalties",
+        "price_lists": "Price lists",
+        "price_list_articles": "Articles",
+        "tickets": "Maintenance activities",
+        "service_categories": "Service categories"
+      },
+      "common": {
+        "title": "Settings",
+        "vat_rates": "VAT rates",
+        "interest_rates": "Interest rates",
+        "accounting_items": "Accounting items",
+        "bill_item_types": "Bill item types",
+        "revaluation_data": "Monetary revaluation",
+        "tax_rates": "Tax rates",
+        "report_generators": "Report"
+      }
+    },
+    "feedback": {
+      "document_updated": "Document successfully updated",
+      "documents_download": "Download will continue in the background, you will receive a notification when it's ready"
+    },
+    "menu": {
+      "registry": {
+        "title": "Registry",
+        "subjects": "Subjects",
+        "org_units": "Organizational units"
+      },
+      "real_estate": {
+        "title": "Real estate",
+        "estates": "Estates",
+        "estate_units": "Estate units",
+        "cadastral_units": "Cadastral units",
+        "catalogues": "Catalogue"
+      },
+      "asset_management": {
+        "title": "Asset management",
+        "active_contracts": "Active contracts",
+        "passive_contracts": "Passive contracts",
+        "active_bills": "Active bills",
+        "passive_bills": "Passive bills",
+        "administration": "Administration",
+        "registry_communications": "Registry communications",
+        "registration_payments": "Registration payments"
+      },
+      "energy_management": {
+        "title": "Energy management",
+        "utility_services": "Utility services",
+        "cost_charges": "Cost charges",
+        "cost_charge_analysis": "Analysis"
+      },
+      "maintenance": {
+        "title": "Maintenance",
+        "tickets": "Maintenance activities",
+        "tickets_calendar": "Maintenance calendar",
+        "tickets_timetable": {
+          "title": "Timetable",
+          "expired": "Expired",
+          "expiring": "Expiring"
+        },
+        "facility_contracts": "Facility contracts",
+        "work_teams": "Work teams",
+        "price_lists": "Price lists",
+        "price_list_articles": "Articles"
+      },
+      "tax_management": {
+        "title": "Tax management",
+        "asset_taxes": "Tax processing",
+        "report_generator": "Report"
+      },
+      "repository": {
+        "title": "Documents",
+        "documents": "Documents",
+        "expired_documents": "Expired",
+        "expiring_documents": "Expiring"
+      },
+      "system": {
+        "title": "System",
+        "users": "Users",
+        "groups": "Groups",
+        "audit_events": "Audit",
+        "configs": "Modules settings"
+      },
+      "settings": {
+        "title": "Settings",
+        "real_estate": {
+          "floors": "Floors",
+          "function_areas": "Function areas",
+          "catalogue_types": "Catalogue types",
+          "catalogue_categories": "Catalogue category",
+          "main_usage_types": "Main usage types",
+          "usage_types": "Usage types",
+          "cadastral_land_categories": "Cadastral land categories"
+        },
+        "asset_management": {
+          "contract_types": "Contract types",
+          "accounting_items": "Accounting items",
+          "bill_item_types": "Bill item types",
+          "vat_rates": "VAT rates",
+          "interest_rates": "Interest rates",
+          "revaluation_data": "Monetary revaluation"
+        },
+        "energy_management": {
+          "utility_types": "Utility types"
+        },
+        "tax_management": {
+          "revaluation_coefficients": "Revaluation coefficients",
+          "tax_rates": "Tax rates"
+        },
+        "maintenance": {
+          "facility_contract_types": "Facility contract types",
+          "facility_contract_templates": "Facility contract templates",
+          "estate_unit_groups": "Estate unit groups",
+          "slas": "SLAs",
+          "penalties": "Penalties",
+          "calendars": "Calendars",
+          "ticket_checklist_templates": "Ticket checklist templates",
+          "intervention_types": "Intervention types",
+          "crafts": "Crafts",
+          "qualification_levels": "Qualification levels",
+          "ticket_types": "Ticket types",
+          "price_list_measurement_units": "Price list measurement units",
+          "service_categories": "Service categories"
+        }
+      }
+    },
+    "text": {
+      "days": "dd",
+      "last_updated": "Last updated {{date}}",
+      "no_data": "No data",
+      "outstanding": "Outstanding",
+      "percentage": "Percentage",
+      "uncategorized": "Uncategorized"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+﻿{
+  Data: {
+    estateMainUsageType: {
+      update: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          id: 1,
+          internalCode: aut,
+          name: dolore
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

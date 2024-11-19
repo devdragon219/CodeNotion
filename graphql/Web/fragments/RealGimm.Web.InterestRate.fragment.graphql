@@ -1,0 +1,6 @@
+fragment InterestRateFragment on InterestRate {
+  id
+  since
+  until
+  rate
+}

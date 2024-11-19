@@ -1,0 +1,34 @@
+fragment EstateSubUnitFragment on EstateSubUnit {
+  internalCode
+  occupantType
+  occupantSubject {
+    name
+    id
+  }
+  orgUnit {
+    id
+    name
+  }
+  occupancyPercent
+  usageType {
+    ...UsageTypeFragment
+  }
+  notes
+  since
+  until
+  surfaceSqM
+  id
+  estateUnit {
+    id
+    name
+    type
+    address {
+      ...AsstAddressFragment
+    }
+    currentCadastralUnit {
+      id
+      isAncillaryUnit
+      isCadastralRegistrationInProgress
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "cadastral_land_category": {
+    "title": "Tipi qualità",
+    "field": {
+      "internal_code": "Codice tipo qualità",
+      "description": "Descrizione tipo qualità",
+      "country_iso": "Nazione",
+      "ordering": "Ordinamento"
+    },
+    "error": {
+      "internal_code": "Il codice tipo qualità inserito è già in uso"
+    },
+    "action": {
+      "add_cadastral_land_category": "Aggiungi tipi qualità"
+    },
+    "text": {
+      "no_cadastral_land_categories": "Non sono presenti tipi qualità"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta tipo qualità",
+        "save": "Salva tipo qualità"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questo tipo qualità?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare questi tipi qualità?\nIl processo non potrà essere annullato"
+        }
+      },
+      "update": {
+        "title": "Modifica tipo qualità"
+      },
+      "view": {
+        "title": "Visualizza tipo qualità"
+      }
+    },
+    "feedback": {
+      "create": "Tipo qualità creato con successo",
+      "delete": {
+        "single": "Tipo qualità cancellato con successo",
+        "multiple": "Tipi qualità cancellati con successo"
+      },
+      "update": "Tipo qualità modificato con successo"
+    }
+  }
+}

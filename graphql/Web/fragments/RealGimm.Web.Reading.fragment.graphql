@@ -1,0 +1,9 @@
+fragment ReadingFragment on Reading {
+  notes
+  readingTimestamp
+  isEstimated
+  values {
+    ...ReadingValueFragment
+  }
+  id
+}

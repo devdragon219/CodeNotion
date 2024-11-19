@@ -1,0 +1,6 @@
+fragment EstateUnitSurfaceSummaryFloorSummaryFragment on EstateUnitSurfaceSummaryFloorSummary {
+  id
+  name
+  position
+  templateReference
+}

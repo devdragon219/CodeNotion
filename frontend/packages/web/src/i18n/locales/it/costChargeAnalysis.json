@@ -1,0 +1,51 @@
+{
+  "cost_charge_analysis": {
+    "title": "Analisi",
+    "tab": {
+      "general_data": "Seleziona elementi da analizzare",
+      "results": "Analisi"
+    },
+    "section_title": {
+      "surfaces": "Superfici di riferimento",
+      "consumptions": "Consumi",
+      "costs": "Costi",
+      "yearly_consumptions": "Consumi annuali",
+      "monthly_consumptions": "Consumi mensili",
+      "yearly_costs": "Costi annuali",
+      "monthly_costs": "Costi mensili"
+    },
+    "field": {
+      "filter_type": "Filtro",
+      "estate": "Immobile",
+      "utility_type": "Tipo fornitura",
+      "utility_service": "Codice fornitura",
+      "city": "Comune",
+      "county": "Provincia",
+      "toponymy": "Indirizzo",
+      "year": "Anno",
+      "years": "Anni",
+      "from": "Da",
+      "to": "A"
+    },
+    "text": {
+      "target_year": "Anno attuale",
+      "previous_year": "Anno precedente",
+      "surface": "{{ value }} mq",
+      "difference": "Differenza",
+      "difference_percentage": "% differenza",
+      "yearly_consumption": "Consumo annuale",
+      "monthly_consumption": "Consumo mensile",
+      "yearly_cost": "Costo annuale",
+      "monthly_cost": "Costo mensile",
+      "year": "Anno",
+      "month": "Mese",
+      "consumption": "Consumo",
+      "cost": "Costo",
+      "total": "Totale"
+    },
+    "action": {
+      "add_filter": "Aggiungi filtro",
+      "complete": "Fine"
+    }
+  }
+}

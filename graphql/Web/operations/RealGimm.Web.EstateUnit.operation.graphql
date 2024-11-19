@@ -1,0 +1,281 @@
+query getEstateUnits(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: EstateUnitFilterInput
+  $order: [EstateUnitSortInput!]
+) {
+  estateUnit {
+    listEstateUnits(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...EstateUnitFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getAllEstateUnits(
+  $where: EstateUnitFilterInput
+  $order: [EstateUnitSortInput!]
+) {
+  estateUnit {
+    listEstateUnitsFull(where: $where, order: $order) {
+      ...EstateUnitFragment
+    }
+  }
+}
+
+mutation deleteEstateUnit($id: Int!) {
+  estateUnit {
+    delete(id: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteEstateUnits($ids: [Int!]!) {
+  estateUnit {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query exportEstateUnits(
+  $where: EstateUnitFilterInput
+  $order: [EstateUnitSortInput!]
+) {
+  estateUnit {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+query getEstateUnit($estateUnitId: Int!) {
+  estateUnit {
+    estateUnit(estateUnitId: $estateUnitId) {
+      ...EstateUnitDetailFragment
+    }
+  }
+}
+
+query getEstateUnitInternalCode($estateId: Int!) {
+  estateUnit {
+    proposeNewInternalCode(parentEstateId: $estateId)
+  }
+}
+
+mutation createEstateUnit($estateUnitInput: EstateUnitInput!) {
+  estateUnit {
+    add(input: $estateUnitInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+      value {
+        id
+      }
+    }
+  }
+}
+
+mutation updateEstateUnit(
+  $estateUnitId: Int!
+  $estateUnitInput: EstateUnitInput!
+) {
+  estateUnit {
+    update(id: $estateUnitId, input: $estateUnitInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getEstateUnitInternalCodeByAlreadyInUseInternalCodes(
+  $estateId: Int!
+  $alreadyInUseInternalCodes: [String!]!
+) {
+  estateUnit {
+    proposeNewInternalCodeExceptOccupied(
+      parentId: $estateId
+      additionallyOccupiedCodes: $alreadyInUseInternalCodes
+    )
+  }
+}
+
+mutation mergeEstateUnits(
+  $estateUnitIds: [Int!]!
+  $estateUnitInput: EstateUnitInput!
+) {
+  estateUnit {
+    merge(ids: $estateUnitIds, input: $estateUnitInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation splitEstateUnit(
+  $estateUnitId: Int!
+  $estateUnitInputs: [EstateUnitInput!]!
+) {
+  estateUnit {
+    split(id: $estateUnitId, inputs: $estateUnitInputs) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation transformEstateUnit(
+  $estateUnitId: Int!
+  $estateUnitInput: EstateUnitInput!
+) {
+  estateUnit {
+    transform(id: $estateUnitId, input: $estateUnitInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation addEstateUnitDocuments(
+  $estateUnitId: Int!
+  $inputs: [DocumentInput!]!
+) {
+  estateUnit {
+    document {
+      addRange(estateUnitId: $estateUnitId, inputs: $inputs) {
+        errors
+        isSuccess
+        validationErrors {
+          ...ValidationErrorFragment
+        }
+      }
+    }
+  }
+}
+
+mutation deleteEstateUnitDocuments($entityId: Int!, $cmisIds: [String!]!) {
+  estateUnit {
+    document {
+      deleteRange(estateUnitId: $entityId, cmisIds: $cmisIds) {
+        errors
+        isSuccess
+        validationErrors {
+          ...ValidationErrorFragment
+        }
+      }
+    }
+  }
+}
+
+mutation updateEstateUnitDocument($estateUnitId: Int!, $input: DocumentInput!) {
+  estateUnit {
+    document {
+      update(estateUnitId: $estateUnitId, input: $input) {
+        errors
+        isSuccess
+        validationErrors {
+          ...ValidationErrorFragment
+        }
+      }
+    }
+  }
+}
+
+query getEstateUnitDocuments(
+  $estateUnitId: Int!
+  $where: DocumentFilterInput
+  $order: [DocumentsPerContentCategoryGroupOutputSortInput!]
+) {
+  estateUnit {
+    estateUnit(estateUnitId: $estateUnitId) {
+      documents(where: $where, order: $order) {
+        ...DocumentsPerContentCategoryGroupOutputFragment
+      }
+    }
+  }
+}
+
+query getEstateUnitsDocuments(
+  $estateUnitIds: [Int!]!
+  $where: EstateUnitDocumentsFlatOutputFilterInput
+  $order: [EstateUnitDocumentsOutputSortInput!]
+) {
+  estateUnit {
+    documents {
+      listDocuments(
+        estateUnitIds: $estateUnitIds
+        where: $where
+        order: $order
+      ) {
+        ...EstateUnitDocumentsOutputFragment
+      }
+    }
+  }
+}
+
+query getEstateUnitTypeDistribution(
+  $showAll: Boolean!
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: EstateUnitTypeDistributionFilterInput
+  $order: [EstateUnitTypeDistributionSortInput!]
+) {
+  estateUnit {
+    estateUnitTypeDistribution(
+      showAll: $showAll
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...EstateUnitTypeDistributionFragment
+      }
+      totalCount
+    }
+  }
+}

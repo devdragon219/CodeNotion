@@ -1,0 +1,60 @@
+{
+  "calendar": {
+    "title": "Calendars",
+    "section_title": {
+      "calendar": "Calendar",
+      "calendars": "Calendars",
+      "holidays": "Holidays"
+    },
+    "field": {
+      "name": "Calendar name",
+      "timezone": "Timezone",
+      "day_since": "Since",
+      "day_until": "Until",
+      "holiday_name": "Holiday name",
+      "holiday_date": "Holiday date",
+      "holiday_periodicity": "Holiday periodicity",
+      "day": "Day",
+      "time": "Time"
+    },
+    "error": {
+      "overlapping_time_range": "The time provided is already contained inside an other time range"
+    },
+    "action": {
+      "add_time": "Add time",
+      "add_holiday": "Add holiday",
+      "add_calendar": "Add calendar"
+    },
+    "text": {
+      "no_calendars": "No calendars available",
+      "no_holidays": "No holidays available"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add calendar"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this calendar?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these calendars?\nThe process cannot be undone"
+        }
+      },
+      "update": {
+        "title": "Update calendar"
+      },
+      "view": {
+        "title": "View calendar"
+      },
+      "calendars": "Calendars"
+    },
+    "feedback": {
+      "create": "Calendar created successfully",
+      "delete": {
+        "single": "Calendar deleted successfully",
+        "multiple": "Calendars deleted successfully"
+      },
+      "update": "Calendar edited successfully"
+    }
+  }
+}

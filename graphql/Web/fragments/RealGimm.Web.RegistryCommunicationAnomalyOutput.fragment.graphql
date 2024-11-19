@@ -1,0 +1,5 @@
+fragment RegistryCommunicationGroupAnomalyFragment on RegistryCommunicationAnomalyOutput {
+  contractInternalCode
+  description
+  guid
+}

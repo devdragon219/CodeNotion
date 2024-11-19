@@ -1,0 +1,43 @@
+{
+  "sla": {
+    "title": "SLA",
+    "section_title": {
+      "general_data": "Dati generali",
+      "slas": "SLA"
+    },
+    "field": {
+      "internal_code": "Codice SLA",
+      "description": "Descrizione SLA"
+    },
+    "error": {
+      "internal_code": "Il codice SLA inserito è già in uso"
+    },
+    "text": {
+      "no_slas": "Non sono presenti SLA"
+    },
+    "action": {
+      "calendar": "Calendario",
+      "add_sla": "Aggiungi SLA"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta SLA"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa SLA?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste SLA?\nIl processo non potrà essere annullato"
+        }
+      }
+    },
+    "feedback": {
+      "create": "SLA creata con successo",
+      "delete": {
+        "single": "SLA cancellata con successo",
+        "multiple": "SLA cancellate con successo"
+      },
+      "update": "SLA modificata con successo"
+    }
+  }
+}

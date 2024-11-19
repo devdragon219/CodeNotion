@@ -1,0 +1,5 @@
+fragment InterventionTypeFragment on InterventionType {
+  internalCode
+  name
+  id
+}

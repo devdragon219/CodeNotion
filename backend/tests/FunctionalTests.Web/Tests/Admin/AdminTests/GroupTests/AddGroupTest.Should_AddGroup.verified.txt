@@ -1,0 +1,74 @@
+﻿{
+  Data: {
+    admin: {
+      addGroup: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          description: TestGroupDescription,
+          features: [
+            {
+              canCreate: false,
+              canDelete: true,
+              canRead: true,
+              canUpdate: true,
+              feature: 121,
+              groupId: 5
+            },
+            {
+              canCreate: true,
+              canDelete: false,
+              canRead: false,
+              canUpdate: true,
+              feature: 131,
+              groupId: 5
+            },
+            {
+              canCreate: false,
+              canDelete: false,
+              canRead: false,
+              canUpdate: true,
+              feature: 214,
+              groupId: 5
+            },
+            {
+              canCreate: true,
+              canDelete: true,
+              canRead: true,
+              canUpdate: true,
+              feature: 331,
+              groupId: 5
+            },
+            {
+              canCreate: true,
+              canDelete: true,
+              canRead: true,
+              canUpdate: true,
+              feature: 401,
+              groupId: 5
+            },
+            {
+              canCreate: true,
+              canDelete: true,
+              canRead: true,
+              canUpdate: true,
+              feature: 911,
+              groupId: 5
+            },
+            {
+              canCreate: true,
+              canDelete: true,
+              canRead: true,
+              canUpdate: true,
+              feature: 922,
+              groupId: 5
+            }
+          ],
+          id: 5,
+          name: TestGroupName
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

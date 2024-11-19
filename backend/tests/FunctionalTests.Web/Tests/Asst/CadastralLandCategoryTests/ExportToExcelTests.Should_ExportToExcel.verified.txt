@@ -1,0 +1,386 @@
+﻿[
+  [
+    0,
+    CLC001,
+    TERRENO A PRATO,
+    Italia
+  ],
+  [
+    1,
+    CLC002,
+    VIGNETO,
+    Italia
+  ],
+  [
+    2,
+    CLC003,
+    BOSCO,
+    Italia
+  ],
+  [
+    3,
+    CLC004,
+    BOSCO ALTO,
+    Italia
+  ],
+  [
+    4,
+    CLC005,
+    BOSCO CEDUO,
+    Italia
+  ],
+  [
+    5,
+    CLC006,
+    BOSCO MISTO,
+    Italia
+  ],
+  [
+    6,
+    CLC007,
+    CASTAGNETO DA FRUTTO,
+    Italia
+  ],
+  [
+    7,
+    CLC008,
+    FABBRICATO RURALE,
+    Italia
+  ],
+  [
+    8,
+    CLC009,
+    FRUTTETO,
+    Italia
+  ],
+  [
+    9,
+    CLC010,
+    INCOLTO IMPRODUTTIVO,
+    Italia
+  ],
+  [
+    10,
+    CLC011,
+    INCOLTO PRODUTTIVO,
+    Italia
+  ],
+  [
+    11,
+    CLC012,
+    ORTO,
+    Italia
+  ],
+  [
+    12,
+    CLC013,
+    PASCOLO,
+    Italia
+  ],
+  [
+    13,
+    CLC014,
+    PRATO,
+    Italia
+  ],
+  [
+    14,
+    CLC015,
+    PRATO PARCHEGGIO,
+    Italia
+  ],
+  [
+    15,
+    CLC016,
+    SEMINATIVO,
+    Italia
+  ],
+  [
+    16,
+    CLC017,
+    PRATO ARBORATO,
+    Italia
+  ],
+  [
+    17,
+    CLC018,
+    SEMINATIVO ARBORATO,
+    Italia
+  ],
+  [
+    18,
+    CLC019,
+    TERRENO A PASCOLO,
+    Italia
+  ],
+  [
+    19,
+    CLC020,
+    TERRENO A VIGNETO,
+    Italia
+  ],
+  [
+    20,
+    CLC021,
+    TERRENO INCOLTO,
+    Italia
+  ],
+  [
+    21,
+    CLC022,
+    STRADA CONSORTILE,
+    Italia
+  ],
+  [
+    22,
+    CLC023,
+    TERRENO SEMINATIVO,
+    Italia
+  ],
+  [
+    23,
+    CLC024,
+    FOSSO,
+    Italia
+  ],
+  [
+    24,
+    CLC025,
+    PASCOLO CESPUGLIATO,
+    Italia
+  ],
+  [
+    25,
+    CLC026,
+    FRUTTETO IRRIGUO,
+    Italia
+  ],
+  [
+    26,
+    CLC027,
+    SEMINATIVO IRRIGUO,
+    Italia
+  ],
+  [
+    27,
+    CLC028,
+    SEMINATIVO IRRIGUO ARBORATO,
+    Italia
+  ],
+  [
+    28,
+    CLC029,
+    INCOLTO STERILE,
+    Italia
+  ],
+  [
+    29,
+    CLC030,
+    SEMINATIVO IRRIGUO,
+    Italia
+  ],
+  [
+    30,
+    CLC031,
+    SEMINATIVO IRRIGUO ARBORATO,
+    Italia
+  ],
+  [
+    31,
+    CLC032,
+    STRADA PRIVATA,
+    Italia
+  ],
+  [
+    32,
+    CLC033,
+    TERR N FORM,
+    Italia
+  ],
+  [
+    33,
+    CLC034,
+    AREA URBANA,
+    Italia
+  ],
+  [
+    34,
+    CLC035,
+    ULIVETO,
+    Italia
+  ],
+  [
+    35,
+    CLC036,
+    VIGNETO,
+    Italia
+  ],
+  [
+    36,
+    CLC037,
+    AGRUMETO,
+    Italia
+  ],
+  [
+    37,
+    CLC038,
+    AREA FAB DM,
+    Italia
+  ],
+  [
+    38,
+    CLC039,
+    AREA RURALE,
+    Italia
+  ],
+  [
+    39,
+    CLC040,
+    CANALE BON,
+    Italia
+  ],
+  [
+    40,
+    CLC041,
+    CANNETO,
+    Italia
+  ],
+  [
+    41,
+    CLC042,
+    CAVA,
+    Italia
+  ],
+  [
+    42,
+    CLC043,
+    F.U. DI ACCERT,
+    Italia
+  ],
+  [
+    43,
+    CLC044,
+    FICO D'INDIA,
+    Italia
+  ],
+  [
+    44,
+    CLC045,
+    LIMONETO,
+    Italia
+  ],
+  [
+    45,
+    CLC046,
+    MANDORLETO,
+    Italia
+  ],
+  [
+    46,
+    CLC047,
+    NOCCIOLETO,
+    Italia
+  ],
+  [
+    47,
+    CLC048,
+    NOCETO,
+    Italia
+  ],
+  [
+    48,
+    CLC049,
+    ORTO IRRIGUO,
+    Italia
+  ],
+  [
+    49,
+    CLC050,
+    ORTO IRRIGUO FLOREALE,
+    Italia
+  ],
+  [
+    50,
+    CLC051,
+    PASCOLO ARBORATO,
+    Italia
+  ],
+  [
+    51,
+    CLC052,
+    PIOPPETO,
+    Italia
+  ],
+  [
+    52,
+    CLC053,
+    PRATO IRRIGUO,
+    Italia
+  ],
+  [
+    53,
+    CLC054,
+    PRATO MARCITO,
+    Italia
+  ],
+  [
+    54,
+    CLC055,
+    REL ACQ ES,
+    Italia
+  ],
+  [
+    55,
+    CLC056,
+    RELIQUATO ENTE URBANO,
+    Italia
+  ],
+  [
+    56,
+    CLC057,
+    RELIQUATO STRADALE,
+    Italia
+  ],
+  [
+    57,
+    CLC058,
+    RISAIA STABILE,
+    Italia
+  ],
+  [
+    58,
+    CLC059,
+    SEMINATIVO IRRIGUO-PRATO,
+    Italia
+  ],
+  [
+    59,
+    CLC060,
+    SEMINATIVO IRRIGUO-RISAIA STABILE,
+    Italia
+  ],
+  [
+    60,
+    CLC061,
+    SEMINATIVO-CANNETO,
+    Italia
+  ],
+  [
+    61,
+    CLC062,
+    SOMMACCHETO,
+    Italia
+  ],
+  [
+    62,
+    CLC063,
+    STAGNO,
+    Italia
+  ],
+  [
+    63,
+    CLC064,
+    VIGNETO IRRIGUO,
+    Italia
+  ]
+]

@@ -1,0 +1,71 @@
+﻿{
+  __typename: ManagementSubject,
+  additionalGovIdCode: tok66l9zk2,
+  additionalTaxIdCode: 53lyh5ok8m,
+  addresses: [
+    {
+      addressType: LEGAL_RESIDENTIAL,
+      city: null,
+      cityName: Consuelomouth,
+      countryISO: AND,
+      countyName: Cambridgeshire,
+      id: 1,
+      localPostCode: 24649,
+      notes: null,
+      numbering: 89638,
+      toponymy: Schumm Spring
+    }
+  ],
+  bankAccounts: [
+    {
+      accountHolder: Credit Card Account,
+      bankAccountType: MAIN,
+      id: 1,
+      notes: null,
+      referenceCode: PK95T2990054093805600039,
+      referenceCodeType: IBAN
+    }
+  ],
+  bankingId1: null,
+  bankingId2: null,
+  baseCountryTaxIdCode: momx7x2wo3,
+  businessStart: 2018-04-15,
+  categories: [
+    {
+      function: {
+        isCompanyGroup: true
+      },
+      id: 6,
+      name: Gruppo Aziendale
+    }
+  ],
+  closureDate: null,
+  companiesHouseIdCode: hum3qex4pm,
+  companyGroupParent: {
+    groupRelationType: LEADER,
+    id: 1,
+    main: {
+      id: 1,
+      name: Dibbert Inc
+    }
+  },
+  contacts: [
+    {
+      contactInfo: 8752594922,
+      contactInfoType: MOBILE_PHONE,
+      contactType: MAIN,
+      id: 1
+    }
+  ],
+  entryStatus: INCOMPLETE_DRAFT,
+  externalSourceCode: gutsrxainb,
+  fullName: Dibbert Inc,
+  id: 1,
+  interGroupSignature: hjbo,
+  internalCode: 10000,
+  managementCode: 6nt7z,
+  name: Dibbert Inc,
+  personType: MANAGEMENT_SUBJECT,
+  shareCapital: 281273.077053,
+  shorthandDescription: null
+}

@@ -1,0 +1,10 @@
+﻿[
+  [
+    Calendar 0,
+    (UTC+04:00) Seychelles Time
+  ],
+  [
+    Calendar 1,
+    (UTC+01:00) Central European Time (Vatican)
+  ]
+]

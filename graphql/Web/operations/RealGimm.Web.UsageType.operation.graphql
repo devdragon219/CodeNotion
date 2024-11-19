@@ -1,0 +1,133 @@
+query getUsageTypes(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: EstateUsageTypeFilterInput
+  $order: [EstateUsageTypeSortInput!]
+) {
+  estateUsageType {
+    listEstateUsageTypes(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...UsageTypeFragment
+      }
+      totalCount
+    }
+  }
+}
+
+mutation addUsageType($input: EstateUsageTypeInput!) {
+  estateUsageType {
+    add(input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateUsageType($usageTypeId: Int!, $input: EstateUsageTypeInput!) {
+  estateUsageType {
+    update(id: $usageTypeId, input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteUsageTypes($ids: [Int!]!) {
+  estateUsageType {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query exportUsageTypes(
+  $where: EstateUsageTypeFilterInput
+  $order: [EstateUsageTypeSortInput!]
+) {
+  estateUsageType {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+query getUsageTypeInternalCode {
+  estateUsageType {
+    proposeNewInternalCode
+  }
+}
+
+query canUseUsageTypeInternalCode(
+  $internalCode: String!
+  $currentUsageTypeId: Int
+) {
+  estateUsageType {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentEstateUsageTypeId: $currentUsageTypeId
+    )
+  }
+}
+
+query getUsageTypeDistribution(
+  $showAll: Boolean!
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: UsageTypeDistributionFilterInput
+  $order: [UsageTypeDistributionSortInput!]
+) {
+  estateUsageType {
+    usageTypeDistribution(
+      showAll: $showAll
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...UsageTypeDistributionFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getAllUsageTypes(
+  $where: EstateUsageTypeFilterInput
+  $order: [EstateUsageTypeSortInput!]
+) {
+  estateUsageType {
+    listEstateUsageTypesFull(where: $where, order: $order) {
+      ...UsageTypeFragment
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "ticket_type": {
+    "title": "Tipologie ticket",
+    "field": {
+      "ordering": "Ordinamento",
+      "internal_code": "Codice tipologia",
+      "description": "Descrizione"
+    },
+    "error": {
+      "internal_code": "Il codice tipologia inserito è già in uso"
+    },
+    "text": {
+      "no_ticket_types": "Non sono presenti tipologie ticket"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta tipologia ticket"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa tipologia ticket?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste tipologie ticket?\nIl processo non potrà essere annullato"
+        }
+      },
+      "update": {
+        "title": "Modifica tipologia ticket"
+      },
+      "view": {
+        "title": "Visualizza tipologia ticket"
+      }
+    },
+    "feedback": {
+      "create": "Tipologia ticket creata con successo",
+      "delete": {
+        "single": "Tipologia ticket cancellata con successo",
+        "multiple": "Tipologie ticket cancellate con successo"
+      },
+      "update": "Tipologia ticket modificata con successo"
+    }
+  }
+}

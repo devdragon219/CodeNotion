@@ -1,0 +1,3382 @@
+﻿[
+  {
+    activities: [
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 1,
+        isMandatoryByLaw: false,
+        name: est
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 2,
+        isMandatoryByLaw: false,
+        name: iste
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 3,
+        isMandatoryByLaw: false,
+        name: et
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 4,
+        isMandatoryByLaw: true,
+        name: ad
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 5,
+        isMandatoryByLaw: false,
+        name: harum
+      }
+    ],
+    category: {
+      id: 1,
+      internalCode: CO00001,
+      name: Impianti elettrici,
+      subCategories: [
+        {
+          id: 2,
+          internalCode: CO00001SC002,
+          name: Impianto di terra e protezione scariche atmosferiche
+        },
+        {
+          id: 1,
+          internalCode: CO00001SC001,
+          name: Impianto elettrico
+        },
+        {
+          id: 3,
+          internalCode: CO00001SC004,
+          name: Sistema di alimentazione normale
+        },
+        {
+          id: 4,
+          internalCode: CO00001SC005,
+          name: Sistema di alimentazione emergenza
+        },
+        {
+          id: 36,
+          internalCode: CO00001SC003,
+          name: Impianto di telecomunicazioni
+        },
+        {
+          id: 37,
+          internalCode: CO00001SC006,
+          name: Sistema di alimentazione in continuità assoluta
+        },
+        {
+          id: 38,
+          internalCode: CO00001SC007,
+          name: Sistema generale
+        }
+      ]
+    },
+    fields: [
+      [
+        {
+          id: Guid_1,
+          isMandatory: false,
+          name: illum,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_2,
+          isMandatory: false,
+          name: quia,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            reiciendis,
+            ad,
+            nostrum
+          ]
+        },
+        {
+          id: Guid_3,
+          isMandatory: false,
+          name: totam,
+          type: SIMPLE_NUMBER,
+          validValues: null
+        }
+      ],
+      [
+        {
+          id: Guid_4,
+          isMandatory: false,
+          name: doloremque,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            ipsam,
+            illum,
+            pariatur,
+            doloribus
+          ]
+        },
+        {
+          id: Guid_5,
+          isMandatory: false,
+          name: aperiam,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_6,
+          isMandatory: false,
+          name: recusandae,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_7,
+          isMandatory: true,
+          name: vitae,
+          type: SIMPLE_NUMBER,
+          validValues: null
+        }
+      ],
+      [
+        {
+          id: Guid_8,
+          isMandatory: false,
+          name: doloribus,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            vel
+          ]
+        },
+        {
+          id: Guid_9,
+          isMandatory: false,
+          name: nisi,
+          type: DATE,
+          validValues: null
+        }
+      ]
+    ],
+    id: 1,
+    internalCode: TO00001,
+    name: Impianto di terra,
+    subCategory: {
+      id: 2,
+      internalCode: CO00001SC002,
+      name: Impianto di terra e protezione scariche atmosferiche
+    }
+  },
+  {
+    activities: [
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 6,
+        isMandatoryByLaw: false,
+        name: doloremque
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 7,
+        isMandatoryByLaw: false,
+        name: cum
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 8,
+        isMandatoryByLaw: true,
+        name: pariatur
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 9,
+        isMandatoryByLaw: false,
+        name: cumque
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 10,
+        isMandatoryByLaw: true,
+        name: est
+      }
+    ],
+    category: {
+      id: 1,
+      internalCode: CO00001,
+      name: Impianti elettrici,
+      subCategories: [
+        {
+          id: 2,
+          internalCode: CO00001SC002,
+          name: Impianto di terra e protezione scariche atmosferiche
+        },
+        {
+          id: 1,
+          internalCode: CO00001SC001,
+          name: Impianto elettrico
+        },
+        {
+          id: 3,
+          internalCode: CO00001SC004,
+          name: Sistema di alimentazione normale
+        },
+        {
+          id: 4,
+          internalCode: CO00001SC005,
+          name: Sistema di alimentazione emergenza
+        },
+        {
+          id: 36,
+          internalCode: CO00001SC003,
+          name: Impianto di telecomunicazioni
+        },
+        {
+          id: 37,
+          internalCode: CO00001SC006,
+          name: Sistema di alimentazione in continuità assoluta
+        },
+        {
+          id: 38,
+          internalCode: CO00001SC007,
+          name: Sistema generale
+        }
+      ]
+    },
+    fields: [
+      [
+        {
+          id: Guid_10,
+          isMandatory: true,
+          name: sed,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            suscipit,
+            blanditiis,
+            ratione,
+            modi
+          ]
+        },
+        {
+          id: Guid_11,
+          isMandatory: false,
+          name: velit,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_12,
+          isMandatory: true,
+          name: corrupti,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            id,
+            vero,
+            soluta,
+            fuga,
+            eius
+          ]
+        }
+      ],
+      [
+        {
+          id: Guid_13,
+          isMandatory: true,
+          name: eveniet,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            facilis
+          ]
+        },
+        {
+          id: Guid_14,
+          isMandatory: true,
+          name: dolorem,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            et,
+            quisquam,
+            consequatur
+          ]
+        },
+        {
+          id: Guid_15,
+          isMandatory: false,
+          name: aut,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_16,
+          isMandatory: false,
+          name: consequuntur,
+          type: SIMPLE_TEXT,
+          validValues: null
+        }
+      ],
+      [
+        {
+          id: Guid_17,
+          isMandatory: true,
+          name: ut,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_18,
+          isMandatory: false,
+          name: totam,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            voluptas,
+            itaque,
+            exercitationem,
+            cupiditate
+          ]
+        }
+      ]
+    ],
+    id: 2,
+    internalCode: TO00002,
+    name: Impianto di protezione da scariche atmosferiche,
+    subCategory: {
+      id: 2,
+      internalCode: CO00001SC002,
+      name: Impianto di terra e protezione scariche atmosferiche
+    }
+  },
+  {
+    activities: [
+      {
+        activityType: ON_INCIDENT,
+        id: 11,
+        isMandatoryByLaw: true,
+        name: amet
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 12,
+        isMandatoryByLaw: false,
+        name: doloribus
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 13,
+        isMandatoryByLaw: true,
+        name: doloremque
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 14,
+        isMandatoryByLaw: false,
+        name: a
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 15,
+        isMandatoryByLaw: false,
+        name: sed
+      }
+    ],
+    category: {
+      id: 1,
+      internalCode: CO00001,
+      name: Impianti elettrici,
+      subCategories: [
+        {
+          id: 2,
+          internalCode: CO00001SC002,
+          name: Impianto di terra e protezione scariche atmosferiche
+        },
+        {
+          id: 1,
+          internalCode: CO00001SC001,
+          name: Impianto elettrico
+        },
+        {
+          id: 3,
+          internalCode: CO00001SC004,
+          name: Sistema di alimentazione normale
+        },
+        {
+          id: 4,
+          internalCode: CO00001SC005,
+          name: Sistema di alimentazione emergenza
+        },
+        {
+          id: 36,
+          internalCode: CO00001SC003,
+          name: Impianto di telecomunicazioni
+        },
+        {
+          id: 37,
+          internalCode: CO00001SC006,
+          name: Sistema di alimentazione in continuità assoluta
+        },
+        {
+          id: 38,
+          internalCode: CO00001SC007,
+          name: Sistema generale
+        }
+      ]
+    },
+    fields: [
+      [
+        {
+          id: Guid_19,
+          isMandatory: true,
+          name: sit,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            amet,
+            quasi
+          ]
+        },
+        {
+          id: Guid_20,
+          isMandatory: false,
+          name: fuga,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_21,
+          isMandatory: true,
+          name: molestiae,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            ut
+          ]
+        }
+      ],
+      [
+        {
+          id: Guid_22,
+          isMandatory: true,
+          name: explicabo,
+          type: SIMPLE_TEXT,
+          validValues: null
+        },
+        {
+          id: Guid_23,
+          isMandatory: false,
+          name: est,
+          type: SIMPLE_NUMBER,
+          validValues: null
+        },
+        {
+          id: Guid_24,
+          isMandatory: false,
+          name: ratione,
+          type: DATE,
+          validValues: null
+        }
+      ],
+      [
+        {
+          id: Guid_25,
+          isMandatory: true,
+          name: et,
+          type: SIMPLE_NUMBER,
+          validValues: null
+        }
+      ]
+    ],
+    id: 3,
+    internalCode: TO00003,
+    name: Cabine ricezione MT e di trasformazione MT/BT,
+    subCategory: {
+      id: 3,
+      internalCode: CO00001SC004,
+      name: Sistema di alimentazione normale
+    }
+  },
+  {
+    activities: [
+      {
+        activityType: ON_INCIDENT,
+        id: 16,
+        isMandatoryByLaw: true,
+        name: autem
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 17,
+        isMandatoryByLaw: true,
+        name: ratione
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 18,
+        isMandatoryByLaw: true,
+        name: porro
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 19,
+        isMandatoryByLaw: false,
+        name: adipisci
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 20,
+        isMandatoryByLaw: false,
+        name: id
+      }
+    ],
+    category: {
+      id: 1,
+      internalCode: CO00001,
+      name: Impianti elettrici,
+      subCategories: [
+        {
+          id: 2,
+          internalCode: CO00001SC002,
+          name: Impianto di terra e protezione scariche atmosferiche
+        },
+        {
+          id: 1,
+          internalCode: CO00001SC001,
+          name: Impianto elettrico
+        },
+        {
+          id: 3,
+          internalCode: CO00001SC004,
+          name: Sistema di alimentazione normale
+        },
+        {
+          id: 4,
+          internalCode: CO00001SC005,
+          name: Sistema di alimentazione emergenza
+        },
+        {
+          id: 36,
+          internalCode: CO00001SC003,
+          name: Impianto di telecomunicazioni
+        },
+        {
+          id: 37,
+          internalCode: CO00001SC006,
+          name: Sistema di alimentazione in continuità assoluta
+        },
+        {
+          id: 38,
+          internalCode: CO00001SC007,
+          name: Sistema generale
+        }
+      ]
+    },
+    fields: [
+      [
+        {
+          id: Guid_26,
+          isMandatory: true,
+          name: veritatis,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_27,
+          isMandatory: false,
+          name: a,
+          type: SIMPLE_NUMBER,
+          validValues: null
+        },
+        {
+          id: Guid_28,
+          isMandatory: true,
+          name: cupiditate,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_29,
+          isMandatory: true,
+          name: provident,
+          type: SIMPLE_NUMBER,
+          validValues: null
+        }
+      ],
+      [
+        {
+          id: Guid_30,
+          isMandatory: false,
+          name: nulla,
+          type: SIMPLE_TEXT,
+          validValues: null
+        },
+        {
+          id: Guid_31,
+          isMandatory: true,
+          name: quod,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            cumque
+          ]
+        }
+      ],
+      [
+        {
+          id: Guid_32,
+          isMandatory: false,
+          name: eum,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_33,
+          isMandatory: true,
+          name: quia,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_34,
+          isMandatory: false,
+          name: magnam,
+          type: DATE,
+          validValues: null
+        }
+      ]
+    ],
+    id: 4,
+    internalCode: TO00004,
+    name: Impianto rifasamento (anello e anello B ),
+    subCategory: {
+      id: 3,
+      internalCode: CO00001SC004,
+      name: Sistema di alimentazione normale
+    }
+  },
+  {
+    activities: [
+      {
+        activityType: ON_INCIDENT,
+        id: 21,
+        isMandatoryByLaw: false,
+        name: fuga
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 22,
+        isMandatoryByLaw: false,
+        name: eveniet
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 23,
+        isMandatoryByLaw: false,
+        name: ipsum
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 24,
+        isMandatoryByLaw: true,
+        name: eius
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 25,
+        isMandatoryByLaw: false,
+        name: et
+      }
+    ],
+    category: {
+      id: 1,
+      internalCode: CO00001,
+      name: Impianti elettrici,
+      subCategories: [
+        {
+          id: 2,
+          internalCode: CO00001SC002,
+          name: Impianto di terra e protezione scariche atmosferiche
+        },
+        {
+          id: 1,
+          internalCode: CO00001SC001,
+          name: Impianto elettrico
+        },
+        {
+          id: 3,
+          internalCode: CO00001SC004,
+          name: Sistema di alimentazione normale
+        },
+        {
+          id: 4,
+          internalCode: CO00001SC005,
+          name: Sistema di alimentazione emergenza
+        },
+        {
+          id: 36,
+          internalCode: CO00001SC003,
+          name: Impianto di telecomunicazioni
+        },
+        {
+          id: 37,
+          internalCode: CO00001SC006,
+          name: Sistema di alimentazione in continuità assoluta
+        },
+        {
+          id: 38,
+          internalCode: CO00001SC007,
+          name: Sistema generale
+        }
+      ]
+    },
+    fields: [
+      [
+        {
+          id: Guid_35,
+          isMandatory: false,
+          name: voluptatem,
+          type: DATE,
+          validValues: null
+        }
+      ],
+      [
+        {
+          id: Guid_36,
+          isMandatory: false,
+          name: sint,
+          type: SIMPLE_TEXT,
+          validValues: null
+        },
+        {
+          id: Guid_37,
+          isMandatory: true,
+          name: excepturi,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            in,
+            omnis,
+            tempore,
+            asperiores
+          ]
+        },
+        {
+          id: Guid_38,
+          isMandatory: true,
+          name: corporis,
+          type: SIMPLE_NUMBER,
+          validValues: null
+        }
+      ],
+      [
+        {
+          id: Guid_39,
+          isMandatory: true,
+          name: numquam,
+          type: SIMPLE_TEXT,
+          validValues: null
+        },
+        {
+          id: Guid_40,
+          isMandatory: true,
+          name: voluptatem,
+          type: SIMPLE_NUMBER,
+          validValues: null
+        }
+      ]
+    ],
+    id: 5,
+    internalCode: TO00005,
+    name: Quadri elettrici di ricezione e distribuzione in media tensione,
+    subCategory: {
+      id: 3,
+      internalCode: CO00001SC004,
+      name: Sistema di alimentazione normale
+    }
+  },
+  {
+    activities: [
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 26,
+        isMandatoryByLaw: false,
+        name: aut
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 27,
+        isMandatoryByLaw: true,
+        name: consequuntur
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 28,
+        isMandatoryByLaw: true,
+        name: voluptatum
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 29,
+        isMandatoryByLaw: false,
+        name: tempore
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 30,
+        isMandatoryByLaw: false,
+        name: consequatur
+      }
+    ],
+    category: {
+      id: 1,
+      internalCode: CO00001,
+      name: Impianti elettrici,
+      subCategories: [
+        {
+          id: 2,
+          internalCode: CO00001SC002,
+          name: Impianto di terra e protezione scariche atmosferiche
+        },
+        {
+          id: 1,
+          internalCode: CO00001SC001,
+          name: Impianto elettrico
+        },
+        {
+          id: 3,
+          internalCode: CO00001SC004,
+          name: Sistema di alimentazione normale
+        },
+        {
+          id: 4,
+          internalCode: CO00001SC005,
+          name: Sistema di alimentazione emergenza
+        },
+        {
+          id: 36,
+          internalCode: CO00001SC003,
+          name: Impianto di telecomunicazioni
+        },
+        {
+          id: 37,
+          internalCode: CO00001SC006,
+          name: Sistema di alimentazione in continuità assoluta
+        },
+        {
+          id: 38,
+          internalCode: CO00001SC007,
+          name: Sistema generale
+        }
+      ]
+    },
+    fields: [
+      [
+        {
+          id: Guid_41,
+          isMandatory: false,
+          name: iure,
+          type: SIMPLE_TEXT,
+          validValues: null
+        }
+      ],
+      [
+        {
+          id: Guid_42,
+          isMandatory: false,
+          name: doloremque,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            sit,
+            et,
+            minima,
+            delectus,
+            officia
+          ]
+        },
+        {
+          id: Guid_43,
+          isMandatory: true,
+          name: est,
+          type: SIMPLE_NUMBER,
+          validValues: null
+        },
+        {
+          id: Guid_44,
+          isMandatory: false,
+          name: aut,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            magni,
+            eveniet
+          ]
+        },
+        {
+          id: Guid_45,
+          isMandatory: false,
+          name: dolor,
+          type: DATE,
+          validValues: null
+        }
+      ],
+      [
+        {
+          id: Guid_46,
+          isMandatory: true,
+          name: excepturi,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            eligendi
+          ]
+        },
+        {
+          id: Guid_47,
+          isMandatory: true,
+          name: quia,
+          type: SIMPLE_NUMBER,
+          validValues: null
+        },
+        {
+          id: Guid_48,
+          isMandatory: true,
+          name: culpa,
+          type: SIMPLE_NUMBER,
+          validValues: null
+        },
+        {
+          id: Guid_49,
+          isMandatory: false,
+          name: et,
+          type: SIMPLE_TEXT,
+          validValues: null
+        }
+      ]
+    ],
+    id: 6,
+    internalCode: TO00006,
+    name: Quadro generale di bassa tensione,
+    subCategory: {
+      id: 3,
+      internalCode: CO00001SC004,
+      name: Sistema di alimentazione normale
+    }
+  },
+  {
+    activities: [
+      {
+        activityType: ON_INCIDENT,
+        id: 31,
+        isMandatoryByLaw: false,
+        name: itaque
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 32,
+        isMandatoryByLaw: true,
+        name: nam
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 33,
+        isMandatoryByLaw: true,
+        name: qui
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 34,
+        isMandatoryByLaw: false,
+        name: quasi
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 35,
+        isMandatoryByLaw: true,
+        name: et
+      }
+    ],
+    category: {
+      id: 1,
+      internalCode: CO00001,
+      name: Impianti elettrici,
+      subCategories: [
+        {
+          id: 2,
+          internalCode: CO00001SC002,
+          name: Impianto di terra e protezione scariche atmosferiche
+        },
+        {
+          id: 1,
+          internalCode: CO00001SC001,
+          name: Impianto elettrico
+        },
+        {
+          id: 3,
+          internalCode: CO00001SC004,
+          name: Sistema di alimentazione normale
+        },
+        {
+          id: 4,
+          internalCode: CO00001SC005,
+          name: Sistema di alimentazione emergenza
+        },
+        {
+          id: 36,
+          internalCode: CO00001SC003,
+          name: Impianto di telecomunicazioni
+        },
+        {
+          id: 37,
+          internalCode: CO00001SC006,
+          name: Sistema di alimentazione in continuità assoluta
+        },
+        {
+          id: 38,
+          internalCode: CO00001SC007,
+          name: Sistema generale
+        }
+      ]
+    },
+    fields: [
+      [
+        {
+          id: Guid_50,
+          isMandatory: false,
+          name: natus,
+          type: SIMPLE_NUMBER,
+          validValues: null
+        },
+        {
+          id: Guid_51,
+          isMandatory: true,
+          name: voluptatem,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            saepe,
+            et,
+            aliquam,
+            voluptatem
+          ]
+        },
+        {
+          id: Guid_52,
+          isMandatory: true,
+          name: voluptatum,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            quidem,
+            voluptatem,
+            consequatur
+          ]
+        }
+      ],
+      [
+        {
+          id: Guid_53,
+          isMandatory: false,
+          name: asperiores,
+          type: SIMPLE_TEXT,
+          validValues: null
+        }
+      ],
+      [
+        {
+          id: Guid_54,
+          isMandatory: true,
+          name: sapiente,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            consectetur
+          ]
+        },
+        {
+          id: Guid_55,
+          isMandatory: true,
+          name: veritatis,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_56,
+          isMandatory: false,
+          name: aut,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_57,
+          isMandatory: true,
+          name: sunt,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            ducimus,
+            et,
+            et,
+            praesentium,
+            laboriosam
+          ]
+        }
+      ]
+    ],
+    id: 7,
+    internalCode: TO00007,
+    name: Gruppo elettrogeno,
+    subCategory: {
+      id: 4,
+      internalCode: CO00001SC005,
+      name: Sistema di alimentazione emergenza
+    }
+  },
+  {
+    activities: [
+      {
+        activityType: ON_INCIDENT,
+        id: 36,
+        isMandatoryByLaw: false,
+        name: non
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 37,
+        isMandatoryByLaw: true,
+        name: cum
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 38,
+        isMandatoryByLaw: false,
+        name: odit
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 39,
+        isMandatoryByLaw: false,
+        name: quos
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 40,
+        isMandatoryByLaw: false,
+        name: similique
+      }
+    ],
+    category: {
+      id: 2,
+      internalCode: CO00002,
+      name: Impianti e attrezzature antincendio,
+      subCategories: [
+        {
+          id: 5,
+          internalCode: CO00002SC001,
+          name: Attrezzature antincendio
+        },
+        {
+          id: 6,
+          internalCode: CO00002SC004,
+          name: Compartimentazione antincendio
+        },
+        {
+          id: 33,
+          internalCode: CO00002SC002,
+          name: Impianto rilevazione incendio
+        },
+        {
+          id: 34,
+          internalCode: CO00002SC003,
+          name: Impianto spegnimento incendio
+        },
+        {
+          id: 35,
+          internalCode: CO00002SC005,
+          name: Manichette antincendio
+        }
+      ]
+    },
+    fields: [
+      [
+        {
+          id: Guid_58,
+          isMandatory: false,
+          name: molestiae,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            sunt,
+            fuga,
+            doloribus,
+            officiis
+          ]
+        },
+        {
+          id: Guid_59,
+          isMandatory: true,
+          name: ut,
+          type: SIMPLE_TEXT,
+          validValues: null
+        },
+        {
+          id: Guid_60,
+          isMandatory: false,
+          name: iste,
+          type: SIMPLE_NUMBER,
+          validValues: null
+        },
+        {
+          id: Guid_61,
+          isMandatory: true,
+          name: et,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            eum,
+            ut,
+            cupiditate
+          ]
+        }
+      ],
+      [
+        {
+          id: Guid_62,
+          isMandatory: false,
+          name: harum,
+          type: SIMPLE_NUMBER,
+          validValues: null
+        }
+      ],
+      [
+        {
+          id: Guid_63,
+          isMandatory: true,
+          name: et,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            consectetur,
+            voluptatem
+          ]
+        }
+      ]
+    ],
+    id: 8,
+    internalCode: TO00008,
+    name: Estintori,
+    subCategory: {
+      id: 5,
+      internalCode: CO00002SC001,
+      name: Attrezzature antincendio
+    }
+  },
+  {
+    activities: [
+      {
+        activityType: ON_INCIDENT,
+        id: 41,
+        isMandatoryByLaw: false,
+        name: consequatur
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 42,
+        isMandatoryByLaw: false,
+        name: veritatis
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 43,
+        isMandatoryByLaw: true,
+        name: a
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 44,
+        isMandatoryByLaw: false,
+        name: cupiditate
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 45,
+        isMandatoryByLaw: true,
+        name: provident
+      }
+    ],
+    category: {
+      id: 2,
+      internalCode: CO00002,
+      name: Impianti e attrezzature antincendio,
+      subCategories: [
+        {
+          id: 5,
+          internalCode: CO00002SC001,
+          name: Attrezzature antincendio
+        },
+        {
+          id: 6,
+          internalCode: CO00002SC004,
+          name: Compartimentazione antincendio
+        },
+        {
+          id: 33,
+          internalCode: CO00002SC002,
+          name: Impianto rilevazione incendio
+        },
+        {
+          id: 34,
+          internalCode: CO00002SC003,
+          name: Impianto spegnimento incendio
+        },
+        {
+          id: 35,
+          internalCode: CO00002SC005,
+          name: Manichette antincendio
+        }
+      ]
+    },
+    fields: [
+      [
+        {
+          id: Guid_64,
+          isMandatory: false,
+          name: quia,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_65,
+          isMandatory: true,
+          name: est,
+          type: SIMPLE_TEXT,
+          validValues: null
+        },
+        {
+          id: Guid_66,
+          isMandatory: true,
+          name: odio,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            cumque,
+            rerum,
+            perferendis
+          ]
+        }
+      ],
+      [
+        {
+          id: Guid_67,
+          isMandatory: false,
+          name: praesentium,
+          type: SIMPLE_TEXT,
+          validValues: null
+        },
+        {
+          id: Guid_68,
+          isMandatory: true,
+          name: quia,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_69,
+          isMandatory: true,
+          name: et,
+          type: SIMPLE_NUMBER,
+          validValues: null
+        }
+      ],
+      [
+        {
+          id: Guid_70,
+          isMandatory: true,
+          name: dignissimos,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            provident,
+            hic,
+            sed,
+            rerum,
+            at
+          ]
+        }
+      ]
+    ],
+    id: 9,
+    internalCode: TO00009,
+    name: Idranti,
+    subCategory: {
+      id: 5,
+      internalCode: CO00002SC001,
+      name: Attrezzature antincendio
+    }
+  },
+  {
+    activities: [
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 46,
+        isMandatoryByLaw: false,
+        name: dolores
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 47,
+        isMandatoryByLaw: true,
+        name: aut
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 48,
+        isMandatoryByLaw: false,
+        name: recusandae
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 49,
+        isMandatoryByLaw: false,
+        name: et
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 50,
+        isMandatoryByLaw: true,
+        name: similique
+      }
+    ],
+    category: {
+      id: 2,
+      internalCode: CO00002,
+      name: Impianti e attrezzature antincendio,
+      subCategories: [
+        {
+          id: 5,
+          internalCode: CO00002SC001,
+          name: Attrezzature antincendio
+        },
+        {
+          id: 6,
+          internalCode: CO00002SC004,
+          name: Compartimentazione antincendio
+        },
+        {
+          id: 33,
+          internalCode: CO00002SC002,
+          name: Impianto rilevazione incendio
+        },
+        {
+          id: 34,
+          internalCode: CO00002SC003,
+          name: Impianto spegnimento incendio
+        },
+        {
+          id: 35,
+          internalCode: CO00002SC005,
+          name: Manichette antincendio
+        }
+      ]
+    },
+    fields: [
+      [
+        {
+          id: Guid_71,
+          isMandatory: false,
+          name: totam,
+          type: SIMPLE_NUMBER,
+          validValues: null
+        },
+        {
+          id: Guid_72,
+          isMandatory: true,
+          name: omnis,
+          type: SIMPLE_NUMBER,
+          validValues: null
+        },
+        {
+          id: Guid_73,
+          isMandatory: true,
+          name: reprehenderit,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_74,
+          isMandatory: false,
+          name: animi,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            soluta,
+            nisi
+          ]
+        }
+      ],
+      [
+        {
+          id: Guid_75,
+          isMandatory: true,
+          name: et,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            eos,
+            hic,
+            enim
+          ]
+        },
+        {
+          id: Guid_76,
+          isMandatory: true,
+          name: dolores,
+          type: SIMPLE_TEXT,
+          validValues: null
+        }
+      ],
+      [
+        {
+          id: Guid_77,
+          isMandatory: false,
+          name: et,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            possimus,
+            temporibus
+          ]
+        },
+        {
+          id: Guid_78,
+          isMandatory: true,
+          name: sed,
+          type: DATE,
+          validValues: null
+        }
+      ]
+    ],
+    id: 10,
+    internalCode: TO00010,
+    name: Evacuatori di fumo,
+    subCategory: {
+      id: 5,
+      internalCode: CO00002SC001,
+      name: Attrezzature antincendio
+    }
+  },
+  {
+    activities: [
+      {
+        activityType: ON_INCIDENT,
+        id: 51,
+        isMandatoryByLaw: false,
+        name: est
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 52,
+        isMandatoryByLaw: true,
+        name: similique
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 53,
+        isMandatoryByLaw: false,
+        name: voluptas
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 54,
+        isMandatoryByLaw: true,
+        name: sint
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 55,
+        isMandatoryByLaw: false,
+        name: excepturi
+      }
+    ],
+    category: {
+      id: 2,
+      internalCode: CO00002,
+      name: Impianti e attrezzature antincendio,
+      subCategories: [
+        {
+          id: 5,
+          internalCode: CO00002SC001,
+          name: Attrezzature antincendio
+        },
+        {
+          id: 6,
+          internalCode: CO00002SC004,
+          name: Compartimentazione antincendio
+        },
+        {
+          id: 33,
+          internalCode: CO00002SC002,
+          name: Impianto rilevazione incendio
+        },
+        {
+          id: 34,
+          internalCode: CO00002SC003,
+          name: Impianto spegnimento incendio
+        },
+        {
+          id: 35,
+          internalCode: CO00002SC005,
+          name: Manichette antincendio
+        }
+      ]
+    },
+    fields: [
+      [
+        {
+          id: Guid_79,
+          isMandatory: false,
+          name: sunt,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            autem,
+            deserunt
+          ]
+        },
+        {
+          id: Guid_80,
+          isMandatory: true,
+          name: nam,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_81,
+          isMandatory: true,
+          name: asperiores,
+          type: SIMPLE_NUMBER,
+          validValues: null
+        }
+      ],
+      [
+        {
+          id: Guid_82,
+          isMandatory: false,
+          name: voluptatem,
+          type: SIMPLE_TEXT,
+          validValues: null
+        }
+      ],
+      [
+        {
+          id: Guid_83,
+          isMandatory: false,
+          name: aperiam,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_84,
+          isMandatory: true,
+          name: vero,
+          type: SIMPLE_TEXT,
+          validValues: null
+        }
+      ]
+    ],
+    id: 11,
+    internalCode: TO00011,
+    name: Porte tagliafuoco e uscite di sicurezza,
+    subCategory: {
+      id: 6,
+      internalCode: CO00002SC004,
+      name: Compartimentazione antincendio
+    }
+  },
+  {
+    activities: [
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 56,
+        isMandatoryByLaw: false,
+        name: rerum
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 57,
+        isMandatoryByLaw: true,
+        name: tempore
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 58,
+        isMandatoryByLaw: true,
+        name: et
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 59,
+        isMandatoryByLaw: true,
+        name: numquam
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 60,
+        isMandatoryByLaw: true,
+        name: voluptatem
+      }
+    ],
+    category: {
+      id: 2,
+      internalCode: CO00002,
+      name: Impianti e attrezzature antincendio,
+      subCategories: [
+        {
+          id: 5,
+          internalCode: CO00002SC001,
+          name: Attrezzature antincendio
+        },
+        {
+          id: 6,
+          internalCode: CO00002SC004,
+          name: Compartimentazione antincendio
+        },
+        {
+          id: 33,
+          internalCode: CO00002SC002,
+          name: Impianto rilevazione incendio
+        },
+        {
+          id: 34,
+          internalCode: CO00002SC003,
+          name: Impianto spegnimento incendio
+        },
+        {
+          id: 35,
+          internalCode: CO00002SC005,
+          name: Manichette antincendio
+        }
+      ]
+    },
+    fields: [
+      [
+        {
+          id: Guid_85,
+          isMandatory: false,
+          name: omnis,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            quia,
+            quia
+          ]
+        }
+      ],
+      [
+        {
+          id: Guid_86,
+          isMandatory: false,
+          name: in,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            in,
+            quae
+          ]
+        }
+      ],
+      [
+        {
+          id: Guid_87,
+          isMandatory: true,
+          name: atque,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_88,
+          isMandatory: false,
+          name: esse,
+          type: SIMPLE_TEXT,
+          validValues: null
+        }
+      ]
+    ],
+    id: 12,
+    internalCode: TO00012,
+    name: Serrande di compartimentazione,
+    subCategory: {
+      id: 6,
+      internalCode: CO00002SC004,
+      name: Compartimentazione antincendio
+    }
+  },
+  {
+    activities: [
+      {
+        activityType: ON_INCIDENT,
+        id: 61,
+        isMandatoryByLaw: false,
+        name: sit
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 62,
+        isMandatoryByLaw: true,
+        name: sed
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 63,
+        isMandatoryByLaw: false,
+        name: molestias
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 64,
+        isMandatoryByLaw: true,
+        name: sit
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 65,
+        isMandatoryByLaw: false,
+        name: delectus
+      }
+    ],
+    category: {
+      id: 3,
+      internalCode: CO00003,
+      name: Elevatori,
+      subCategories: [
+        {
+          id: 7,
+          internalCode: CO00003SC001,
+          name: Elevatori elettromeccanici
+        },
+        {
+          id: 8,
+          internalCode: CO00003SC002,
+          name: Elevatori idraulici
+        },
+        {
+          id: 25,
+          internalCode: CO00003SC003,
+          name: Elevatori speciali
+        },
+        {
+          id: 26,
+          internalCode: CO00003SC004,
+          name: Rampe idrauliche
+        },
+        {
+          id: 27,
+          internalCode: CO00003SC005,
+          name: Ponteggi sospesi
+        },
+        {
+          id: 28,
+          internalCode: CO00003SC006,
+          name: Scale e tappeti mobili
+        },
+        {
+          id: 29,
+          internalCode: CO00003SC007,
+          name: Montascale
+        },
+        {
+          id: 30,
+          internalCode: CO00003SC008,
+          name: Montacarte
+        },
+        {
+          id: 31,
+          internalCode: CO00003SC009,
+          name: Servoscala / piattaforme
+        },
+        {
+          id: 32,
+          internalCode: CO00003SC010,
+          name: Rampe di carico idrauliche
+        }
+      ]
+    },
+    fields: [
+      [
+        {
+          id: Guid_89,
+          isMandatory: false,
+          name: dolores,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            quisquam,
+            blanditiis
+          ]
+        }
+      ],
+      [
+        {
+          id: Guid_90,
+          isMandatory: true,
+          name: qui,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            cumque,
+            impedit
+          ]
+        }
+      ],
+      [
+        {
+          id: Guid_91,
+          isMandatory: false,
+          name: perspiciatis,
+          type: SIMPLE_NUMBER,
+          validValues: null
+        },
+        {
+          id: Guid_92,
+          isMandatory: true,
+          name: et,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            facere,
+            ut,
+            et
+          ]
+        }
+      ]
+    ],
+    id: 13,
+    internalCode: TO00013,
+    name: Argano e motogeneratore,
+    subCategory: {
+      id: 7,
+      internalCode: CO00003SC001,
+      name: Elevatori elettromeccanici
+    }
+  },
+  {
+    activities: [
+      {
+        activityType: ON_INCIDENT,
+        id: 66,
+        isMandatoryByLaw: false,
+        name: quia
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 67,
+        isMandatoryByLaw: true,
+        name: rerum
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 68,
+        isMandatoryByLaw: true,
+        name: magni
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 69,
+        isMandatoryByLaw: false,
+        name: aut
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 70,
+        isMandatoryByLaw: false,
+        name: excepturi
+      }
+    ],
+    category: {
+      id: 3,
+      internalCode: CO00003,
+      name: Elevatori,
+      subCategories: [
+        {
+          id: 7,
+          internalCode: CO00003SC001,
+          name: Elevatori elettromeccanici
+        },
+        {
+          id: 8,
+          internalCode: CO00003SC002,
+          name: Elevatori idraulici
+        },
+        {
+          id: 25,
+          internalCode: CO00003SC003,
+          name: Elevatori speciali
+        },
+        {
+          id: 26,
+          internalCode: CO00003SC004,
+          name: Rampe idrauliche
+        },
+        {
+          id: 27,
+          internalCode: CO00003SC005,
+          name: Ponteggi sospesi
+        },
+        {
+          id: 28,
+          internalCode: CO00003SC006,
+          name: Scale e tappeti mobili
+        },
+        {
+          id: 29,
+          internalCode: CO00003SC007,
+          name: Montascale
+        },
+        {
+          id: 30,
+          internalCode: CO00003SC008,
+          name: Montacarte
+        },
+        {
+          id: 31,
+          internalCode: CO00003SC009,
+          name: Servoscala / piattaforme
+        },
+        {
+          id: 32,
+          internalCode: CO00003SC010,
+          name: Rampe di carico idrauliche
+        }
+      ]
+    },
+    fields: [
+      [
+        {
+          id: Guid_93,
+          isMandatory: true,
+          name: doloribus,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_94,
+          isMandatory: false,
+          name: nesciunt,
+          type: SIMPLE_NUMBER,
+          validValues: null
+        },
+        {
+          id: Guid_95,
+          isMandatory: false,
+          name: et,
+          type: SIMPLE_TEXT,
+          validValues: null
+        }
+      ],
+      [
+        {
+          id: Guid_96,
+          isMandatory: false,
+          name: nemo,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            libero,
+            explicabo,
+            asperiores
+          ]
+        },
+        {
+          id: Guid_97,
+          isMandatory: true,
+          name: est,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            laboriosam,
+            illum,
+            earum,
+            occaecati
+          ]
+        },
+        {
+          id: Guid_98,
+          isMandatory: false,
+          name: sit,
+          type: SIMPLE_NUMBER,
+          validValues: null
+        }
+      ],
+      [
+        {
+          id: Guid_99,
+          isMandatory: true,
+          name: occaecati,
+          type: SIMPLE_NUMBER,
+          validValues: null
+        },
+        {
+          id: Guid_100,
+          isMandatory: false,
+          name: fugiat,
+          type: DATE,
+          validValues: null
+        }
+      ]
+    ],
+    id: 14,
+    internalCode: TO00014,
+    name: Quadro di manovra,
+    subCategory: {
+      id: 7,
+      internalCode: CO00003SC001,
+      name: Elevatori elettromeccanici
+    }
+  },
+  {
+    activities: [
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 71,
+        isMandatoryByLaw: true,
+        name: aperiam
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 72,
+        isMandatoryByLaw: false,
+        name: adipisci
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 73,
+        isMandatoryByLaw: true,
+        name: voluptatem
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 74,
+        isMandatoryByLaw: false,
+        name: repellendus
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 75,
+        isMandatoryByLaw: true,
+        name: natus
+      }
+    ],
+    category: {
+      id: 3,
+      internalCode: CO00003,
+      name: Elevatori,
+      subCategories: [
+        {
+          id: 7,
+          internalCode: CO00003SC001,
+          name: Elevatori elettromeccanici
+        },
+        {
+          id: 8,
+          internalCode: CO00003SC002,
+          name: Elevatori idraulici
+        },
+        {
+          id: 25,
+          internalCode: CO00003SC003,
+          name: Elevatori speciali
+        },
+        {
+          id: 26,
+          internalCode: CO00003SC004,
+          name: Rampe idrauliche
+        },
+        {
+          id: 27,
+          internalCode: CO00003SC005,
+          name: Ponteggi sospesi
+        },
+        {
+          id: 28,
+          internalCode: CO00003SC006,
+          name: Scale e tappeti mobili
+        },
+        {
+          id: 29,
+          internalCode: CO00003SC007,
+          name: Montascale
+        },
+        {
+          id: 30,
+          internalCode: CO00003SC008,
+          name: Montacarte
+        },
+        {
+          id: 31,
+          internalCode: CO00003SC009,
+          name: Servoscala / piattaforme
+        },
+        {
+          id: 32,
+          internalCode: CO00003SC010,
+          name: Rampe di carico idrauliche
+        }
+      ]
+    },
+    fields: [
+      [
+        {
+          id: Guid_101,
+          isMandatory: true,
+          name: sed,
+          type: SIMPLE_TEXT,
+          validValues: null
+        },
+        {
+          id: Guid_102,
+          isMandatory: false,
+          name: suscipit,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            dolorem,
+            ut,
+            quo,
+            iste
+          ]
+        }
+      ],
+      [
+        {
+          id: Guid_103,
+          isMandatory: false,
+          name: quod,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_104,
+          isMandatory: true,
+          name: veritatis,
+          type: SIMPLE_TEXT,
+          validValues: null
+        }
+      ],
+      [
+        {
+          id: Guid_105,
+          isMandatory: true,
+          name: et,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_106,
+          isMandatory: false,
+          name: rerum,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            perspiciatis
+          ]
+        },
+        {
+          id: Guid_107,
+          isMandatory: true,
+          name: sed,
+          type: SIMPLE_TEXT,
+          validValues: null
+        },
+        {
+          id: Guid_108,
+          isMandatory: true,
+          name: dolorem,
+          type: DATE,
+          validValues: null
+        }
+      ]
+    ],
+    id: 15,
+    internalCode: TO00015,
+    name: Vano corsa e cabina,
+    subCategory: {
+      id: 7,
+      internalCode: CO00003SC001,
+      name: Elevatori elettromeccanici
+    }
+  },
+  {
+    activities: [
+      {
+        activityType: ON_INCIDENT,
+        id: 76,
+        isMandatoryByLaw: false,
+        name: voluptatem
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 77,
+        isMandatoryByLaw: false,
+        name: quo
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 78,
+        isMandatoryByLaw: true,
+        name: aliquam
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 79,
+        isMandatoryByLaw: true,
+        name: adipisci
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 80,
+        isMandatoryByLaw: true,
+        name: quidem
+      }
+    ],
+    category: {
+      id: 3,
+      internalCode: CO00003,
+      name: Elevatori,
+      subCategories: [
+        {
+          id: 7,
+          internalCode: CO00003SC001,
+          name: Elevatori elettromeccanici
+        },
+        {
+          id: 8,
+          internalCode: CO00003SC002,
+          name: Elevatori idraulici
+        },
+        {
+          id: 25,
+          internalCode: CO00003SC003,
+          name: Elevatori speciali
+        },
+        {
+          id: 26,
+          internalCode: CO00003SC004,
+          name: Rampe idrauliche
+        },
+        {
+          id: 27,
+          internalCode: CO00003SC005,
+          name: Ponteggi sospesi
+        },
+        {
+          id: 28,
+          internalCode: CO00003SC006,
+          name: Scale e tappeti mobili
+        },
+        {
+          id: 29,
+          internalCode: CO00003SC007,
+          name: Montascale
+        },
+        {
+          id: 30,
+          internalCode: CO00003SC008,
+          name: Montacarte
+        },
+        {
+          id: 31,
+          internalCode: CO00003SC009,
+          name: Servoscala / piattaforme
+        },
+        {
+          id: 32,
+          internalCode: CO00003SC010,
+          name: Rampe di carico idrauliche
+        }
+      ]
+    },
+    fields: [
+      [
+        {
+          id: Guid_109,
+          isMandatory: false,
+          name: natus,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_110,
+          isMandatory: false,
+          name: porro,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            asperiores,
+            nihil,
+            soluta,
+            fuga
+          ]
+        }
+      ],
+      [
+        {
+          id: Guid_111,
+          isMandatory: false,
+          name: rerum,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            odit,
+            temporibus
+          ]
+        }
+      ],
+      [
+        {
+          id: Guid_112,
+          isMandatory: true,
+          name: architecto,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            nostrum,
+            ea,
+            accusamus,
+            incidunt
+          ]
+        },
+        {
+          id: Guid_113,
+          isMandatory: false,
+          name: sed,
+          type: SIMPLE_TEXT,
+          validValues: null
+        },
+        {
+          id: Guid_114,
+          isMandatory: true,
+          name: tempore,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_115,
+          isMandatory: true,
+          name: deleniti,
+          type: SIMPLE_TEXT,
+          validValues: null
+        }
+      ]
+    ],
+    id: 16,
+    internalCode: TO00016,
+    name: Imp. elevatore elettrico AC/VF fino a 6 fermate,
+    subCategory: {
+      id: 7,
+      internalCode: CO00003SC001,
+      name: Elevatori elettromeccanici
+    }
+  },
+  {
+    activities: [
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 81,
+        isMandatoryByLaw: false,
+        name: et
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 82,
+        isMandatoryByLaw: false,
+        name: alias
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 83,
+        isMandatoryByLaw: true,
+        name: nesciunt
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 84,
+        isMandatoryByLaw: true,
+        name: consectetur
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 85,
+        isMandatoryByLaw: false,
+        name: minus
+      }
+    ],
+    category: {
+      id: 3,
+      internalCode: CO00003,
+      name: Elevatori,
+      subCategories: [
+        {
+          id: 7,
+          internalCode: CO00003SC001,
+          name: Elevatori elettromeccanici
+        },
+        {
+          id: 8,
+          internalCode: CO00003SC002,
+          name: Elevatori idraulici
+        },
+        {
+          id: 25,
+          internalCode: CO00003SC003,
+          name: Elevatori speciali
+        },
+        {
+          id: 26,
+          internalCode: CO00003SC004,
+          name: Rampe idrauliche
+        },
+        {
+          id: 27,
+          internalCode: CO00003SC005,
+          name: Ponteggi sospesi
+        },
+        {
+          id: 28,
+          internalCode: CO00003SC006,
+          name: Scale e tappeti mobili
+        },
+        {
+          id: 29,
+          internalCode: CO00003SC007,
+          name: Montascale
+        },
+        {
+          id: 30,
+          internalCode: CO00003SC008,
+          name: Montacarte
+        },
+        {
+          id: 31,
+          internalCode: CO00003SC009,
+          name: Servoscala / piattaforme
+        },
+        {
+          id: 32,
+          internalCode: CO00003SC010,
+          name: Rampe di carico idrauliche
+        }
+      ]
+    },
+    fields: [
+      [
+        {
+          id: Guid_116,
+          isMandatory: true,
+          name: totam,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            et,
+            et,
+            sapiente,
+            sequi,
+            officiis
+          ]
+        },
+        {
+          id: Guid_117,
+          isMandatory: false,
+          name: ea,
+          type: DATE,
+          validValues: null
+        }
+      ],
+      [
+        {
+          id: Guid_118,
+          isMandatory: true,
+          name: voluptates,
+          type: SIMPLE_TEXT,
+          validValues: null
+        },
+        {
+          id: Guid_119,
+          isMandatory: true,
+          name: et,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_120,
+          isMandatory: true,
+          name: repellendus,
+          type: SIMPLE_NUMBER,
+          validValues: null
+        },
+        {
+          id: Guid_121,
+          isMandatory: false,
+          name: explicabo,
+          type: DATE,
+          validValues: null
+        }
+      ],
+      [
+        {
+          id: Guid_122,
+          isMandatory: true,
+          name: atque,
+          type: SIMPLE_TEXT,
+          validValues: null
+        },
+        {
+          id: Guid_123,
+          isMandatory: true,
+          name: suscipit,
+          type: SIMPLE_NUMBER,
+          validValues: null
+        }
+      ]
+    ],
+    id: 17,
+    internalCode: TO00017,
+    name: Imp. elevatore elettrico AC/VF fino a 12 fermate,
+    subCategory: {
+      id: 7,
+      internalCode: CO00003SC001,
+      name: Elevatori elettromeccanici
+    }
+  },
+  {
+    activities: [
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 86,
+        isMandatoryByLaw: true,
+        name: facilis
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 87,
+        isMandatoryByLaw: true,
+        name: quo
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 88,
+        isMandatoryByLaw: true,
+        name: et
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 89,
+        isMandatoryByLaw: true,
+        name: laboriosam
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 90,
+        isMandatoryByLaw: false,
+        name: est
+      }
+    ],
+    category: {
+      id: 3,
+      internalCode: CO00003,
+      name: Elevatori,
+      subCategories: [
+        {
+          id: 7,
+          internalCode: CO00003SC001,
+          name: Elevatori elettromeccanici
+        },
+        {
+          id: 8,
+          internalCode: CO00003SC002,
+          name: Elevatori idraulici
+        },
+        {
+          id: 25,
+          internalCode: CO00003SC003,
+          name: Elevatori speciali
+        },
+        {
+          id: 26,
+          internalCode: CO00003SC004,
+          name: Rampe idrauliche
+        },
+        {
+          id: 27,
+          internalCode: CO00003SC005,
+          name: Ponteggi sospesi
+        },
+        {
+          id: 28,
+          internalCode: CO00003SC006,
+          name: Scale e tappeti mobili
+        },
+        {
+          id: 29,
+          internalCode: CO00003SC007,
+          name: Montascale
+        },
+        {
+          id: 30,
+          internalCode: CO00003SC008,
+          name: Montacarte
+        },
+        {
+          id: 31,
+          internalCode: CO00003SC009,
+          name: Servoscala / piattaforme
+        },
+        {
+          id: 32,
+          internalCode: CO00003SC010,
+          name: Rampe di carico idrauliche
+        }
+      ]
+    },
+    fields: [
+      [
+        {
+          id: Guid_124,
+          isMandatory: false,
+          name: officiis,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_125,
+          isMandatory: true,
+          name: rerum,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            qui
+          ]
+        },
+        {
+          id: Guid_126,
+          isMandatory: false,
+          name: eos,
+          type: SIMPLE_NUMBER,
+          validValues: null
+        },
+        {
+          id: Guid_127,
+          isMandatory: false,
+          name: laboriosam,
+          type: DATE,
+          validValues: null
+        }
+      ],
+      [
+        {
+          id: Guid_128,
+          isMandatory: true,
+          name: exercitationem,
+          type: SIMPLE_TEXT,
+          validValues: null
+        },
+        {
+          id: Guid_129,
+          isMandatory: false,
+          name: iure,
+          type: SIMPLE_TEXT,
+          validValues: null
+        }
+      ],
+      [
+        {
+          id: Guid_130,
+          isMandatory: false,
+          name: voluptatem,
+          type: SIMPLE_NUMBER,
+          validValues: null
+        }
+      ]
+    ],
+    id: 18,
+    internalCode: TO00018,
+    name: Imp. elevatore idraulico fino a 6 fermate,
+    subCategory: {
+      id: 8,
+      internalCode: CO00003SC002,
+      name: Elevatori idraulici
+    }
+  },
+  {
+    activities: [
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 91,
+        isMandatoryByLaw: false,
+        name: sunt
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 92,
+        isMandatoryByLaw: true,
+        name: officiis
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 93,
+        isMandatoryByLaw: false,
+        name: alias
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 94,
+        isMandatoryByLaw: true,
+        name: vel
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 95,
+        isMandatoryByLaw: false,
+        name: repellendus
+      }
+    ],
+    category: {
+      id: 3,
+      internalCode: CO00003,
+      name: Elevatori,
+      subCategories: [
+        {
+          id: 7,
+          internalCode: CO00003SC001,
+          name: Elevatori elettromeccanici
+        },
+        {
+          id: 8,
+          internalCode: CO00003SC002,
+          name: Elevatori idraulici
+        },
+        {
+          id: 25,
+          internalCode: CO00003SC003,
+          name: Elevatori speciali
+        },
+        {
+          id: 26,
+          internalCode: CO00003SC004,
+          name: Rampe idrauliche
+        },
+        {
+          id: 27,
+          internalCode: CO00003SC005,
+          name: Ponteggi sospesi
+        },
+        {
+          id: 28,
+          internalCode: CO00003SC006,
+          name: Scale e tappeti mobili
+        },
+        {
+          id: 29,
+          internalCode: CO00003SC007,
+          name: Montascale
+        },
+        {
+          id: 30,
+          internalCode: CO00003SC008,
+          name: Montacarte
+        },
+        {
+          id: 31,
+          internalCode: CO00003SC009,
+          name: Servoscala / piattaforme
+        },
+        {
+          id: 32,
+          internalCode: CO00003SC010,
+          name: Rampe di carico idrauliche
+        }
+      ]
+    },
+    fields: [
+      [
+        {
+          id: Guid_131,
+          isMandatory: true,
+          name: illum,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            ut
+          ]
+        },
+        {
+          id: Guid_132,
+          isMandatory: true,
+          name: et,
+          type: DATE,
+          validValues: null
+        }
+      ],
+      [
+        {
+          id: Guid_133,
+          isMandatory: false,
+          name: ut,
+          type: SIMPLE_TEXT,
+          validValues: null
+        }
+      ],
+      [
+        {
+          id: Guid_134,
+          isMandatory: false,
+          name: dolorem,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            repellendus
+          ]
+        },
+        {
+          id: Guid_135,
+          isMandatory: true,
+          name: et,
+          type: SIMPLE_TEXT,
+          validValues: null
+        },
+        {
+          id: Guid_136,
+          isMandatory: true,
+          name: quibusdam,
+          type: DATE,
+          validValues: null
+        }
+      ]
+    ],
+    id: 19,
+    internalCode: TO00019,
+    name: Imp. elevatore idraulico fino a 12 fermate,
+    subCategory: {
+      id: 8,
+      internalCode: CO00003SC002,
+      name: Elevatori idraulici
+    }
+  },
+  {
+    activities: [
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 96,
+        isMandatoryByLaw: true,
+        name: ut
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 97,
+        isMandatoryByLaw: true,
+        name: harum
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 98,
+        isMandatoryByLaw: true,
+        name: magnam
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 99,
+        isMandatoryByLaw: true,
+        name: et
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 100,
+        isMandatoryByLaw: true,
+        name: voluptatem
+      }
+    ],
+    category: {
+      id: 5,
+      internalCode: CO00005,
+      name: Condizionamento e riscaldamento,
+      subCategories: [
+        {
+          id: 13,
+          internalCode: CO00005SC001,
+          name: Climatizzazione
+        },
+        {
+          id: 18,
+          internalCode: CO00005SC002,
+          name: Riscaldamento
+        },
+        {
+          id: 19,
+          internalCode: CO00005SC003,
+          name: Reti e terminali per fluidi vettori
+        },
+        {
+          id: 20,
+          internalCode: CO00005SC004,
+          name: Reti e terminali di distribuzione dell’aria
+        },
+        {
+          id: 21,
+          internalCode: CO00005SC005,
+          name: Termoregolazione
+        },
+        {
+          id: 22,
+          internalCode: CO00005SC006,
+          name: Rete di distribuzione gas combustibile
+        },
+        {
+          id: 23,
+          internalCode: CO00005SC007,
+          name: Impianto smaltimento aria
+        },
+        {
+          id: 24,
+          internalCode: CO00005SC008,
+          name: Termoregolazione e risparmio energetico
+        }
+      ]
+    },
+    fields: [
+      [
+        {
+          id: Guid_137,
+          isMandatory: false,
+          name: quaerat,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            placeat,
+            quos,
+            id,
+            soluta
+          ]
+        },
+        {
+          id: Guid_138,
+          isMandatory: true,
+          name: nihil,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_139,
+          isMandatory: true,
+          name: accusamus,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            rerum,
+            dolorem
+          ]
+        },
+        {
+          id: Guid_140,
+          isMandatory: true,
+          name: similique,
+          type: DATE,
+          validValues: null
+        }
+      ],
+      [
+        {
+          id: Guid_141,
+          isMandatory: true,
+          name: non,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            earum,
+            commodi
+          ]
+        }
+      ],
+      [
+        {
+          id: Guid_142,
+          isMandatory: true,
+          name: repudiandae,
+          type: SIMPLE_TEXT,
+          validValues: null
+        },
+        {
+          id: Guid_143,
+          isMandatory: true,
+          name: magnam,
+          type: SIMPLE_TEXT,
+          validValues: null
+        }
+      ]
+    ],
+    id: 20,
+    internalCode: TO00020,
+    name: Unità di trattamento aria primaria,
+    subCategory: {
+      id: 13,
+      internalCode: CO00005SC001,
+      name: Climatizzazione
+    }
+  },
+  {
+    activities: [
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 101,
+        isMandatoryByLaw: false,
+        name: sed
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 102,
+        isMandatoryByLaw: true,
+        name: atque
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 103,
+        isMandatoryByLaw: false,
+        name: sed
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 104,
+        isMandatoryByLaw: true,
+        name: cumque
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 105,
+        isMandatoryByLaw: false,
+        name: similique
+      }
+    ],
+    category: {
+      id: 5,
+      internalCode: CO00005,
+      name: Condizionamento e riscaldamento,
+      subCategories: [
+        {
+          id: 13,
+          internalCode: CO00005SC001,
+          name: Climatizzazione
+        },
+        {
+          id: 18,
+          internalCode: CO00005SC002,
+          name: Riscaldamento
+        },
+        {
+          id: 19,
+          internalCode: CO00005SC003,
+          name: Reti e terminali per fluidi vettori
+        },
+        {
+          id: 20,
+          internalCode: CO00005SC004,
+          name: Reti e terminali di distribuzione dell’aria
+        },
+        {
+          id: 21,
+          internalCode: CO00005SC005,
+          name: Termoregolazione
+        },
+        {
+          id: 22,
+          internalCode: CO00005SC006,
+          name: Rete di distribuzione gas combustibile
+        },
+        {
+          id: 23,
+          internalCode: CO00005SC007,
+          name: Impianto smaltimento aria
+        },
+        {
+          id: 24,
+          internalCode: CO00005SC008,
+          name: Termoregolazione e risparmio energetico
+        }
+      ]
+    },
+    fields: [
+      [
+        {
+          id: Guid_144,
+          isMandatory: true,
+          name: totam,
+          type: SIMPLE_TEXT,
+          validValues: null
+        },
+        {
+          id: Guid_145,
+          isMandatory: false,
+          name: ipsam,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            voluptas,
+            veritatis,
+            perferendis
+          ]
+        }
+      ],
+      [
+        {
+          id: Guid_146,
+          isMandatory: false,
+          name: inventore,
+          type: SIMPLE_NUMBER,
+          validValues: null
+        }
+      ],
+      [
+        {
+          id: Guid_147,
+          isMandatory: true,
+          name: tempora,
+          type: SIMPLE_TEXT,
+          validValues: null
+        },
+        {
+          id: Guid_148,
+          isMandatory: false,
+          name: architecto,
+          type: DATE,
+          validValues: null
+        }
+      ]
+    ],
+    id: 21,
+    internalCode: TO00021,
+    name: Filtri aria,
+    subCategory: {
+      id: 13,
+      internalCode: CO00005SC001,
+      name: Climatizzazione
+    }
+  },
+  {
+    activities: [
+      {
+        activityType: ON_INCIDENT,
+        id: 106,
+        isMandatoryByLaw: true,
+        name: quia
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 107,
+        isMandatoryByLaw: true,
+        name: harum
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 108,
+        isMandatoryByLaw: true,
+        name: voluptatem
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 109,
+        isMandatoryByLaw: false,
+        name: exercitationem
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 110,
+        isMandatoryByLaw: true,
+        name: provident
+      }
+    ],
+    category: {
+      id: 5,
+      internalCode: CO00005,
+      name: Condizionamento e riscaldamento,
+      subCategories: [
+        {
+          id: 13,
+          internalCode: CO00005SC001,
+          name: Climatizzazione
+        },
+        {
+          id: 18,
+          internalCode: CO00005SC002,
+          name: Riscaldamento
+        },
+        {
+          id: 19,
+          internalCode: CO00005SC003,
+          name: Reti e terminali per fluidi vettori
+        },
+        {
+          id: 20,
+          internalCode: CO00005SC004,
+          name: Reti e terminali di distribuzione dell’aria
+        },
+        {
+          id: 21,
+          internalCode: CO00005SC005,
+          name: Termoregolazione
+        },
+        {
+          id: 22,
+          internalCode: CO00005SC006,
+          name: Rete di distribuzione gas combustibile
+        },
+        {
+          id: 23,
+          internalCode: CO00005SC007,
+          name: Impianto smaltimento aria
+        },
+        {
+          id: 24,
+          internalCode: CO00005SC008,
+          name: Termoregolazione e risparmio energetico
+        }
+      ]
+    },
+    fields: [
+      [
+        {
+          id: Guid_149,
+          isMandatory: true,
+          name: quae,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            eum
+          ]
+        },
+        {
+          id: Guid_150,
+          isMandatory: true,
+          name: assumenda,
+          type: SIMPLE_TEXT,
+          validValues: null
+        },
+        {
+          id: Guid_151,
+          isMandatory: false,
+          name: ut,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            possimus,
+            excepturi,
+            consequatur,
+            magnam
+          ]
+        }
+      ],
+      [
+        {
+          id: Guid_152,
+          isMandatory: false,
+          name: quo,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_153,
+          isMandatory: false,
+          name: nesciunt,
+          type: SIMPLE_TEXT,
+          validValues: null
+        }
+      ],
+      [
+        {
+          id: Guid_154,
+          isMandatory: false,
+          name: error,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_155,
+          isMandatory: false,
+          name: quia,
+          type: SIMPLE_TEXT,
+          validValues: null
+        },
+        {
+          id: Guid_156,
+          isMandatory: true,
+          name: dolorem,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_157,
+          isMandatory: true,
+          name: repudiandae,
+          type: DATE,
+          validValues: null
+        }
+      ]
+    ],
+    id: 22,
+    internalCode: TO00022,
+    name: Ventilconvettori,
+    subCategory: {
+      id: 13,
+      internalCode: CO00005SC001,
+      name: Climatizzazione
+    }
+  }
+]

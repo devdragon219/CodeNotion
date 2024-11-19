@@ -1,0 +1,21 @@
+﻿{
+  nodes: [
+    {
+      description: Amministratori,
+      id: 1,
+      name: Admin
+    },
+    {
+      description: Utenti,
+      id: 2,
+      name: Base
+    }
+  ],
+  pageInfo: {
+    endCursor: MQ==,
+    hasNextPage: false,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 2
+}

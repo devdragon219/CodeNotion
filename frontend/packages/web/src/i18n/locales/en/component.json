@@ -1,0 +1,228 @@
+{
+  "component": {
+    "addresses_field": {
+      "field": {
+        "type": "Type",
+        "country": "Country",
+        "city": "City",
+        "county": "County",
+        "toponymy": "Address",
+        "number": "Number",
+        "postal_code": "Postal code",
+        "notes": "Notes"
+      }
+    },
+    "conditions_builder": {
+      "section_title": {
+        "if": "If",
+        "then": "Then"
+      },
+      "field": {
+        "condition": "Param condition",
+        "operator": "Operation",
+        "calendar": "Calendar",
+        "value": "Value",
+        "value_max": "Value max",
+        "value_min": "Value min",
+        "penalty_type": "Penalty type",
+        "penalty_value": "Penalty value"
+      },
+      "action": {
+        "add_condition": "Add condition",
+        "add_inner_condition": "Add inner condition",
+        "add_penalty": "Add penalty"
+      },
+      "error": {
+        "no_conditions": "Create at least one condition"
+      }
+    },
+    "dashboard_widget": {
+      "bill_payments_status_percentage": {
+        "title": "Payment status",
+        "paid": "Paid",
+        "pending": "Pending",
+        "view_all": "View all payments"
+      },
+      "contracts_expirations_list": {
+        "title": {
+          "active": "Active contracts expirations",
+          "passive": "Passive contracts expirations"
+        },
+        "view_all": "View all"
+      },
+      "contracts_recap": {
+        "active_contracts_count": "Active contracts count",
+        "active_contracts_income": "Active contracts income",
+        "passive_contracts_count": "Passive contracts count",
+        "passive_contracts_outcome": "Passive contracts outcome"
+      },
+      "estate_occupation_status_percentage": {
+        "title": "Occupancy percentage",
+        "last_year_increase": "Compared to last year",
+        "two_years_increase": "Compared to two years ago",
+        "total": "Total",
+        "average": "Average"
+      },
+      "estate_unit_types_percentage": {
+        "title": "Estate unit types",
+        "view_all": "View all estate unit types"
+      },
+      "income_outcome_comparison_chart": {
+        "title": "Income Outcome comparison",
+        "income": "Income",
+        "outcome": "Outcome"
+      },
+      "notifications_list": {
+        "title": "Notifications",
+        "no_notifications": "There are currently no notifications",
+        "view_all": "View all"
+      },
+      "real_estate_recap": {
+        "estates": "Estates",
+        "estate_units": "Estate Units",
+        "occupied_estates": "Occupied Estates",
+        "vacant_estates": "Free Estates"
+      },
+      "tickets_completed_chart": {
+        "title": "Maintenances completed",
+        "start_date": "Start date",
+        "end_date": "End date",
+        "chart_type": "Period",
+        "tickets_on_condition": "On condition maintenances",
+        "tickets_preventative": "Preventative maintenances"
+      },
+      "tickets_count_chart": {
+        "title": "Comparison between maintenance activities",
+        "years": "Years"
+      },
+      "tickets_excluded_from_maintenance_contract": {
+        "title": {
+          "default": "Fee/extra fee",
+          "expenses": "Expenses",
+          "total_expenses": "Total expenses"
+        },
+        "start_date": "Start date",
+        "end_date": "End date",
+        "chart_type": "Period",
+        "excluded": "Excluded",
+        "non_excluded": "Included",
+        "total_yearly_expenses": "Total yearly expenses",
+        "excluded_expenses": "Excluded expenses",
+        "non_excluded_expenses": "Included expenses"
+      },
+      "tickets_expirations_list": {
+        "title": {
+          "checklist": "Maintenance expirations",
+          "mandatory_by_law": "Mandatory by law expirations",
+          "issue": "Issue expirations"
+        },
+        "view_all": "View all"
+      },
+      "tickets_mandatory_by_law_expired": {
+        "title": "Tickets mandatory by law expired"
+      },
+      "tickets_mandatory_by_law_list": {
+        "title": "Expiration dates",
+        "catalogue_type": "Catalogue type",
+        "ticket_code": "Maintenance code",
+        "date": "Date"
+      },
+      "tickets_mandatory_by_law_status_percentage": {
+        "title": "Statuses",
+        "tickets_done": "Done",
+        "tickets_expired": "Expired",
+        "tickets_scheduled": "Scheduled"
+      },
+      "tickets_mandatory_by_law_type_percentage": {
+        "title": "Types"
+      },
+      "tickets_preventative_expired": {
+        "title": "Preventative tickets expired"
+      },
+      "tickets_priority_percentage": {
+        "title": "Priority"
+      },
+      "tickets_sla_respecting_percentage": {
+        "title": "SLA respecting tickets",
+        "respecting": "SLA respecting",
+        "non_respecting": "SLA non respecting"
+      },
+      "tickets_status": {
+        "title": {
+          "average": "Average resolution duration",
+          "count": "Statuses"
+        },
+        "start_date": "Start date",
+        "end_date": "End date",
+        "chart_type": "Period",
+        "status_assigned": "Assigned",
+        "status_completed": "Closed",
+        "status_in_progress": "In progress",
+        "status_new": "Open",
+        "status_resolved": "Resolved"
+      },
+      "tickets_total_expenses": {
+        "title": "Comparison total expenses",
+        "years": "Years"
+      },
+      "tickets_type_chart": {
+        "title": "Maintenances activities",
+        "start_date": "Start date",
+        "end_date": "End date",
+        "chart_type": "Period",
+        "tickets_issue": "Tickets",
+        "tickets_on_condition": "On condition maintenances",
+        "tickets_preventative": "Preventative maintenances"
+      },
+      "tickets_type_list": {
+        "title": "Types",
+        "type": "Type"
+      },
+      "usage_types_percentage": {
+        "title": "Usage types",
+        "view_all": "View all usage types"
+      }
+    },
+    "estate_unit_usage_type_field": {
+      "label": "Usage type"
+    },
+    "estate_usage_type_field": {
+      "label": "Usage type"
+    },
+    "permissions_table": {
+      "module": "Module",
+      "block": "Block",
+      "module_and_block": "Module and block",
+      "permissions": "Permissions",
+      "read": "Read",
+      "edit": "Edit",
+      "delete": "Delete",
+      "add": "Add",
+      "no_permissions": "No permissions"
+    },
+    "worker": {
+      "section_title": {
+        "workers": "Workers"
+      },
+      "field": {
+        "worker_first_name": "First name",
+        "worker_last_name": "Last name",
+        "worker_since": "Since",
+        "worker_until": "Until",
+        "worker_craft": "Craft",
+        "worker_level": "Level"
+      },
+      "text": {
+        "no_workers": "No workers available"
+      },
+      "action": {
+        "add_workers": "Add workers"
+      },
+      "dialog": {
+        "view_workers": "View workers",
+        "add_workers": "Add workers",
+        "edit_worker": "Edit worker"
+      }
+    }
+  }
+}

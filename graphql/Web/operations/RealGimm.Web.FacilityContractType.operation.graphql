@@ -1,0 +1,95 @@
+query getFacilityContractTypes(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: FcltContractTypeFilterInput
+  $order: [FcltContractTypeSortInput!]
+) {
+  fcltContractType {
+    listFcltContractTypes(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...FacilityContractTypeFragment
+      }
+      totalCount
+    }
+  }
+}
+
+mutation addFacilityContractType($input: FcltContractTypeInput!) {
+  fcltContractType {
+    add(input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateFacilityContractType(
+  $facilityContractTypeId: Int!
+  $input: FcltContractTypeInput!
+) {
+  fcltContractType {
+    update(id: $facilityContractTypeId, input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteFacilityContractTypes($ids: [Int!]!) {
+  fcltContractType {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getFacilityContractTypeInternalCode {
+  fcltContractType {
+    proposeNewInternalCode
+  }
+}
+
+query canUseFacilityContractTypeInternalCode(
+  $internalCode: String!
+  $currentFacilityContractTypeId: Int
+) {
+  fcltContractType {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentContractTypeId: $currentFacilityContractTypeId
+    )
+  }
+}
+
+query exportFacilityContractTypes(
+  $where: FcltContractTypeFilterInput
+  $order: [FcltContractTypeSortInput!]
+) {
+  fcltContractType {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}

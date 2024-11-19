@@ -1,0 +1,50 @@
+{
+  "accounting_item": {
+    "title": "Voci di bilancio",
+    "field": {
+      "internal_code": "Codice interno",
+      "description": "Descrizione",
+      "external_code": "Codice esterno"
+    },
+    "error": {
+      "internal_code": "Il codice voce di bilancio inserito è già in uso"
+    },
+    "action": {
+      "add_accounting_item": "Aggiungi voce di bilancio"
+    },
+    "text": {
+      "no_accounting_items": "Non sono presenti voci di bilancio"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta voce di bilancio",
+        "save": "Salva voce di bilancio"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa voce di bilancio?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste voci di bilancio?\nIl processo non potrà essere annullato"
+        }
+      },
+      "update": {
+        "title": "Modifica voce di bilancio",
+        "save": "Salva voce di bilancio"
+      },
+      "view": {
+        "title": "Visualizza voce di bilancio"
+      }
+    },
+    "feedback": {
+      "create": {
+        "single": "Voce di bilancio creata con successo",
+        "multiple": "Voci di bilancio create con successo"
+      },
+      "delete": {
+        "single": "Voce di bilancio cancellata con successo",
+        "multiple": "Voci di bilancio cancellate con successo"
+      },
+      "update": "Voce di bilancio modificata con successo"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+﻿{
+  Data: {
+    cadastralUnit: {
+      updateCadastralUnit: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          cadastralNotes: Apartment with park view,
+          consortiumNotes: Part of a building consortium,
+          coordinates: [
+            {
+              coordinateType: ITALIAN_ORDINARY,
+              hasITTavData: true,
+              itTavCorpo: ITTavCorpo,
+              itTavPartita: ITTavPartita,
+              itTavPorzione: ITTavPorzione,
+              level1: Level1,
+              level2: Level2,
+              level3: Level3,
+              level4: Level4,
+              level5: Level5,
+              notes: Notes,
+              unmanagedOverride: null
+            }
+          ],
+          estateUnit: {
+            id: 1
+          },
+          expenses: [
+            {
+              amount: 1000.00,
+              expenseType: INCREMENT,
+              fiscalYear: 2021,
+              id: 2,
+              referenceYear: 2020,
+              revaluationFactor: 1.0
+            }
+          ],
+          history: [
+            {
+              cadastralNotes: Apartment with park view,
+              consortiumNotes: Part of a building consortium,
+              deletionDate: null,
+              fiscalNotes: Tax exempt until 2025,
+              historyTags: [
+                Guid_Empty
+              ],
+              id: 1,
+              internalCode: CUEU2023_41,
+              since: 1990-05-20,
+              status: CANCELLED,
+              type: BUILDING_AREA,
+              until: 2000-10-11
+            }
+          ],
+          historyTags: [
+            Guid_Empty
+          ],
+          id: 1,
+          income: {
+            cadastralAmount: 1500.00,
+            macroCategory: Residential,
+            metric: SQUARE_METRES,
+            metricAmount: 120.0,
+            metricRentedAmount: 100.0,
+            microCategory: Apartment,
+            registeredSurface: 130.0,
+            type: ACTUAL_INCOME
+          },
+          inspection: {
+            date: 2022-01-16,
+            heading: Historical Inspection,
+            isDirectRestriction: true,
+            isHistoricalEstate: true,
+            macroZone: Historical Center,
+            microZone: Trastevere,
+            protocolDate: 2022-01-15,
+            protocolNumber: RM20220115
+          },
+          internalCode: CUEU2023_41,
+          since: 1990-05-20,
+          status: CANCELLED,
+          type: BUILDING_AREA,
+          unavailabilities: [
+            {
+              id: 2,
+              notes: Notes,
+              since: 2021-01-01,
+              until: null
+            }
+          ],
+          until: 2000-10-11
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

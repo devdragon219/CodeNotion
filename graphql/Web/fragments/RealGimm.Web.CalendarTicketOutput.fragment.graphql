@@ -1,0 +1,15 @@
+fragment CalendarTicketOutputFragment on CalendarTicketOutput {
+  id
+  mainType
+  dueDate
+  internalCode
+  workOrderReference
+  description
+  masterStatus
+  requestor
+  isExcludedFromMaintenanceContract
+  supplierSubject {
+    id
+    name
+  }
+}

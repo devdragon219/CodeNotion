@@ -1,0 +1,96 @@
+﻿[
+  {
+    Status: Working,
+    InternalCode: CP00001,
+    ManagementSubjectId: 1,
+    Type: {
+      Description: Ad nostrum totam harum totam.,
+      InternalCode: CT00002,
+      IsActive: false,
+      IsStampTax: false,
+      IsRegistrationTax: false,
+      UsageTypeId: 1,
+      IsRentChargeApplicable: false,
+      IsAbsoluteRevaluation: false,
+      IsRevaluationApplicable: false,
+      Id: 2
+    },
+    AgreementDate: Date_1,
+    EffectStartDate: Date_2,
+    LastRenewalStartDate: Date_3,
+    AnytimeTerminationWarningMonths: 9,
+    NonRenewalWarningMonths: 11,
+    BillingStartDate: Date_4,
+    BillingAfterTerm: true,
+    RecoverBillsAfterSuspension: false,
+    BillingAlignedToCalendarYear: false,
+    BillingAppliesBaseFee: false,
+    BillingVATRateType: Rate,
+    BillingPeriod: Yearly,
+    BillingWithSplitPayment: true,
+    BillingWithStampTax: False,
+    Notes: Iste quia natus et dignissimos.,
+    BillingNotes: Ad nostrum totam harum totam.,
+    IsReleased: false,
+    TerminationDate: Date_5,
+    Counterparts: [
+      {
+        SubjectId: 1,
+        IsMainCounterpart: true,
+        ContractSharePercent: 100.0,
+        Since: Date_1,
+        Id: 1
+      }
+    ],
+    IsRevaluationModified: false,
+    DurationYears: 2,
+    Id: 1
+  },
+  {
+    Status: Working,
+    InternalCode: CA00002,
+    ManagementSubjectId: 1,
+    Type: {
+      Description: Illum assumenda iste quia natus.,
+      InternalCode: CT00001,
+      IsActive: true,
+      IsStampTax: false,
+      IsRegistrationTax: false,
+      UsageTypeId: 1,
+      IsRentChargeApplicable: false,
+      IsAbsoluteRevaluation: false,
+      IsRevaluationApplicable: false,
+      Id: 1
+    },
+    AgreementDate: Date_6,
+    EffectStartDate: Date_7,
+    LastRenewalStartDate: Date_3,
+    SecondTermExpirationDate: Date_8,
+    AnytimeTerminationWarningMonths: 11,
+    NonRenewalWarningMonths: 2,
+    BillingStartDate: Date_9,
+    BillingAfterTerm: false,
+    RecoverBillsAfterSuspension: true,
+    BillingAlignedToCalendarYear: true,
+    BillingAppliesBaseFee: false,
+    BillingVATRateType: Rate,
+    BillingPeriod: Monthly,
+    BillingWithSplitPayment: false,
+    BillingWithStampTax: False,
+    Notes: Doloribus facilis omnis.,
+    BillingNotes: Vel nisi a.,
+    IsReleased: false,
+    Counterparts: [
+      {
+        SubjectId: 1,
+        IsMainCounterpart: true,
+        ContractSharePercent: 100.0,
+        Since: Date_1,
+        Id: 2
+      }
+    ],
+    IsRevaluationModified: false,
+    DurationYears: 2,
+    Id: 2
+  }
+]

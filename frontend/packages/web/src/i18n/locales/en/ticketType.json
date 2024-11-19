@@ -1,0 +1,42 @@
+{
+  "ticket_type": {
+    "title": "Ticket types",
+    "field": {
+      "ordering": "Ordering",
+      "internal_code": "Type code",
+      "description": "Description"
+    },
+    "error": {
+      "internal_code": "The type code provided is already in use"
+    },
+    "text": {
+      "no_ticket_types": "No ticket types available"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add ticket type"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this ticket type?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these ticket types?\nThe process cannot be undone"
+        }
+      },
+      "update": {
+        "title": "Update ticket type"
+      },
+      "view": {
+        "title": "View ticket type"
+      }
+    },
+    "feedback": {
+      "create": "Ticket type created successfully",
+      "delete": {
+        "single": "Ticket type deleted successfully",
+        "multiple": "Ticket types deleted successfully"
+      },
+      "update": "Ticket type edited successfully"
+    }
+  }
+}

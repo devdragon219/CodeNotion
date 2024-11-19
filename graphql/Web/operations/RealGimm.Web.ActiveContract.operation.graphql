@@ -1,0 +1,109 @@
+mutation takeoverActiveContractLandlord(
+  $contractId: Int!
+  $legalRepresentativeSubjectId: Int!
+  $paymentDate: Date!
+  $successorIds: [Int!]!
+) {
+  activeContract {
+    takeoverLandlord(
+      contractId: $contractId
+      legalRepresentativeSubjectId: $legalRepresentativeSubjectId
+      paymentDate: $paymentDate
+      successorIds: $successorIds
+    ) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation addActiveContractTenants(
+  $contractId: Int!
+  $updatedCounterpartInputs: [ContractVariationUpdatedCounterpartInput!]!
+  $newCounterpartInputs: [ContractVariationNewCounterpartInput!]!
+) {
+  activeContract {
+    addTenants(
+      contractId: $contractId
+      updatedCounterpartInputs: $updatedCounterpartInputs
+      newCounterpartInputs: $newCounterpartInputs
+    ) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation takeoverActiveContractTenants(
+  $contractId: Int!
+  $takeoverDate: Date!
+  $takeoverType: TakeoverType!
+  $updatedCounterpartInputs: [ContractNoDateUpdateCounterpartInput!]!
+  $newCounterpartInputs: [ContractNoDateNewCounterpartInput!]!
+) {
+  activeContract {
+    takeoverTenants(
+      contractId: $contractId
+      takeoverDate: $takeoverDate
+      takeoverType: $takeoverType
+      updatedCounterpartInputs: $updatedCounterpartInputs
+      newCounterpartInputs: $newCounterpartInputs
+    ) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation transferActiveContractTenants(
+  $contractId: Int!
+  $transferDate: Date!
+  $updatedCounterpartInputs: [ContractNoDateUpdateCounterpartInput!]!
+  $newCounterpartInputs: [ContractNoDateNewCounterpartInput!]!
+) {
+  activeContract {
+    transferTenants(
+      contractId: $contractId
+      transferDate: $transferDate
+      updatedCounterpartInputs: $updatedCounterpartInputs
+      newCounterpartInputs: $newCounterpartInputs
+    ) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deceaseActiveContractTenant(
+  $contractId: Int!
+  $deadCounterpartId: Int!
+  $heirInputs: [ContractDeathVariationNewCounterpartInput!]!
+  $updatedCounterpartInputs: [ContractVariationUpdatedCounterpartInput!]!
+) {
+  activeContract {
+    takeoverDeadTenant(
+      contractId: $contractId
+      deadCounterpartId: $deadCounterpartId
+      heirInputs: $heirInputs
+      updatedCounterpartInputs: $updatedCounterpartInputs
+    ) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}

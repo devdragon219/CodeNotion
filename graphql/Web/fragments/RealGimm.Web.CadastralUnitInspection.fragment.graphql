@@ -1,0 +1,10 @@
+fragment CadastralUnitInspectionFragment on CadastralUnitInspection {
+  date
+  protocolDate
+  protocolNumber
+  heading
+  macroZone
+  microZone
+  isHistoricalEstate
+  isDirectRestriction
+}

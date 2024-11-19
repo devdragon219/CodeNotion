@@ -1,0 +1,47 @@
+{
+  "group": {
+    "title": "Gruppi",
+    "tab": {
+      "general_data": "Dati generali",
+      "permissions": "Permessi",
+      "recap": "Riepilogo"
+    },
+    "section_title": {
+      "general_data": "Dati generali",
+      "permissions": "Permessi",
+      "recap": "Riepilogo"
+    },
+    "field": {
+      "name": "Denominazione gruppo",
+      "description": "Descrizione",
+      "permissions": "Permessi"
+    },
+    "text": {
+      "no_groups": "Non sono presenti gruppi"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta gruppo",
+        "save": "Salva gruppo"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questo gruppo?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare questi gruppi?\nIl processo non potrà essere annullato"
+        }
+      },
+      "change_permissions": {
+        "title": "Modifica permessi gruppo"
+      }
+    },
+    "feedback": {
+      "create": "Gruppo creato con successo",
+      "delete": {
+        "single": "Gruppo cancellato con successo",
+        "multiple": "Gruppi cancellati con successo"
+      },
+      "update": "Gruppo modificato con successo"
+    }
+  }
+}

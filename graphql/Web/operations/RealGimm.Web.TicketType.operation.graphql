@@ -1,0 +1,92 @@
+query getTicketTypes(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: TicketTypeFilterInput
+  $order: [TicketTypeSortInput!]
+) {
+  ticketType {
+    listTicketTypes(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...TicketTypeFragment
+      }
+      totalCount
+    }
+  }
+}
+
+mutation addTicketType($input: TicketTypeInput!) {
+  ticketType {
+    add(input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateTicketType($ticketTypeId: Int!, $input: TicketTypeInput!) {
+  ticketType {
+    update(id: $ticketTypeId, input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteTicketTypes($ids: [Int!]!) {
+  ticketType {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getTicketTypeInternalCode {
+  ticketType {
+    proposeNewInternalCode
+  }
+}
+
+query canUseTicketTypeInternalCode(
+  $internalCode: String!
+  $currentTicketTypeId: Int
+) {
+  ticketType {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentTicketTypeId: $currentTicketTypeId
+    )
+  }
+}
+
+query exportTicketTypes(
+  $where: TicketTypeFilterInput
+  $order: [TicketTypeSortInput!]
+) {
+  ticketType {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}

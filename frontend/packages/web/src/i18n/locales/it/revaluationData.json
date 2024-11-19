@@ -1,0 +1,14 @@
+{
+  "revaluation_data": {
+    "title": "Rivalutazione monetaria",
+    "field": {
+      "year": "Anno",
+      "month": "Mese",
+      "base_year": "Anno base",
+      "index": "Indice"
+    },
+    "text": {
+      "no_revaluations": "Non sono presenti rivalutazioni monetarie"
+    }
+  }
+}

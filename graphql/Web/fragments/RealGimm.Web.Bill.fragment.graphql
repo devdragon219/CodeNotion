@@ -1,0 +1,95 @@
+fragment BillFragment on Bill {
+  id
+  internalCode
+  contract {
+    internalCode
+    managementSubject {
+      id
+      name
+    }
+    type {
+      id
+      description
+    }
+  }
+  counterpartSubject {
+    id
+    name
+  }
+  year
+  isInvoiced
+  estateUnit {
+    id
+    internalCode
+    address {
+      ...AsstAddressFragment
+    }
+  }
+  contractBillingPeriod
+  isOccupiedWithoutRight
+  date
+  since
+  until
+  transactorPaymentType
+  transactorSubject {
+    id
+    name
+  }
+  emissionType
+  totalAmount
+}
+
+fragment BillDetailFragment on Bill {
+  isTemporary
+  contract {
+    counterparts {
+      subject {
+        name
+        id
+      }
+    }
+    internalCode
+    managementSubject {
+      name
+    }
+    transactors {
+      subject {
+        name
+        id
+      }
+    }
+    type {
+      description
+    }
+  }
+  counterpartSubject {
+    name
+    id
+  }
+  year
+  isInvoiced
+  estateUnit {
+    internalCode
+    address {
+      ...AsstAddressFragment
+    }
+  }
+  contractBillingPeriod
+  isOccupiedWithoutRight
+  date
+  since
+  until
+  transactorPaymentType
+  transactorSubject {
+    name
+    id
+  }
+  emissionType
+  finalDate
+  totalAmount
+  billRows {
+    ...BillRowFragment
+  }
+  internalCode
+  id
+}

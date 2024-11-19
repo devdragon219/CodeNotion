@@ -1,0 +1,191 @@
+﻿{
+  nodes: [
+    {
+      id: 1,
+      isEstimated: false,
+      notes: Natus et dignissimos reiciendis.,
+      readingTimestamp: DateTimeOffset_1,
+      values: [
+        {
+          id: 1,
+          touRateIndex: 0,
+          value: 2737.000000
+        },
+        {
+          id: 2,
+          touRateIndex: 1,
+          value: 2919.000000
+        },
+        {
+          id: 3,
+          touRateIndex: 2,
+          value: 4673.000000
+        }
+      ]
+    },
+    {
+      id: 2,
+      isEstimated: false,
+      notes: null,
+      readingTimestamp: DateTimeOffset_2,
+      values: [
+        {
+          id: 4,
+          touRateIndex: 0,
+          value: 8624.000000
+        },
+        {
+          id: 5,
+          touRateIndex: 1,
+          value: 9954.000000
+        },
+        {
+          id: 6,
+          touRateIndex: 2,
+          value: 6772.000000
+        }
+      ]
+    },
+    {
+      id: 3,
+      isEstimated: false,
+      notes: Cumque non recusandae.,
+      readingTimestamp: DateTimeOffset_3,
+      values: [
+        {
+          id: 7,
+          touRateIndex: 0,
+          value: 6876.000000
+        }
+      ]
+    },
+    {
+      id: 4,
+      isEstimated: true,
+      notes: null,
+      readingTimestamp: DateTimeOffset_4,
+      values: [
+        {
+          id: 8,
+          touRateIndex: 0,
+          value: 2972.000000
+        }
+      ]
+    },
+    {
+      id: 5,
+      isEstimated: false,
+      notes: null,
+      readingTimestamp: DateTimeOffset_5,
+      values: [
+        {
+          id: 9,
+          touRateIndex: 0,
+          value: 3810.000000
+        },
+        {
+          id: 10,
+          touRateIndex: 1,
+          value: 3431.000000
+        },
+        {
+          id: 11,
+          touRateIndex: 2,
+          value: 9575.000000
+        },
+        {
+          id: 12,
+          touRateIndex: 3,
+          value: 5051.000000
+        }
+      ]
+    },
+    {
+      id: 6,
+      isEstimated: true,
+      notes: Suscipit blanditiis ratione modi velit porro dolorum corrupti adipisci.,
+      readingTimestamp: DateTimeOffset_6,
+      values: [
+        {
+          id: 13,
+          touRateIndex: 0,
+          value: 8782.000000
+        },
+        {
+          id: 14,
+          touRateIndex: 1,
+          value: 8255.000000
+        },
+        {
+          id: 15,
+          touRateIndex: 2,
+          value: 7354.000000
+        }
+      ]
+    },
+    {
+      id: 7,
+      isEstimated: false,
+      notes: null,
+      readingTimestamp: DateTimeOffset_7,
+      values: [
+        {
+          id: 16,
+          touRateIndex: 0,
+          value: 8954.000000
+        }
+      ]
+    },
+    {
+      id: 8,
+      isEstimated: false,
+      notes: null,
+      readingTimestamp: DateTimeOffset_8,
+      values: [
+        {
+          id: 17,
+          touRateIndex: 0,
+          value: 6441.000000
+        },
+        {
+          id: 18,
+          touRateIndex: 1,
+          value: 8268.000000
+        }
+      ]
+    },
+    {
+      id: 9,
+      isEstimated: true,
+      notes: Consequatur aut qui porro consequuntur et consectetur voluptatum.,
+      readingTimestamp: DateTimeOffset_9,
+      values: [
+        {
+          id: 19,
+          touRateIndex: 0,
+          value: 5408.000000
+        }
+      ]
+    },
+    {
+      id: 10,
+      isEstimated: true,
+      notes: Autem voluptas itaque exercitationem cupiditate nam sit quis qui.,
+      readingTimestamp: DateTimeOffset_10,
+      values: [
+        {
+          id: 20,
+          touRateIndex: 0,
+          value: 2225.000000
+        }
+      ]
+    }
+  ],
+  pageInfo: {
+    endCursor: OQ==,
+    hasNextPage: true,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 100
+}

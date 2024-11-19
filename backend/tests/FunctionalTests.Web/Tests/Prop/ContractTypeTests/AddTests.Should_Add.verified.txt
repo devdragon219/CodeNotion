@@ -1,0 +1,30 @@
+﻿{
+  Data: {
+    contractType: {
+      add: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          description: Aut totam est expedita et ex rerum aut rerum doloremque.,
+          id: 1,
+          internalCode: CT00001,
+          isAbsoluteRevaluation: false,
+          isActive: true,
+          isRegistrationTax: false,
+          isRentChargeApplicable: true,
+          isRevaluationApplicable: false,
+          isStampTax: true,
+          nature: LAND,
+          registrationTaxIncomeType: ITA_L4_RESIDENTIAL_FINANCIAL,
+          registrationTaxPercent: 79.8,
+          registrationTaxTenantPercent: 79.38,
+          revaluationCalculationMonth: null,
+          revaluationIndexMonth: 2,
+          revaluationRatePercent: null,
+          usageTypeId: 2
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

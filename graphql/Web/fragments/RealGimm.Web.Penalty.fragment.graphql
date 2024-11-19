@@ -1,0 +1,23 @@
+fragment PenaltyFragment on Penalty {
+  internalCode
+  description
+  id
+}
+
+fragment PenaltyDetailFragment on Penalty {
+  internalCode
+  description
+  ifCondition {
+    id
+  }
+  flatIfConditions {
+    ...TicketConditionFragment
+  }
+  thenOperator
+  thenPenalties {
+    type
+    amount
+    id
+  }
+  id
+}

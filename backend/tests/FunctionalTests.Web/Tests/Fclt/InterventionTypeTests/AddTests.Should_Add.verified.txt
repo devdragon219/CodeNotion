@@ -1,0 +1,16 @@
+﻿{
+  Data: {
+    interventionType: {
+      add: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          id: 1,
+          internalCode: TI01,
+          name: Dolore aut.
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

@@ -1,0 +1,15 @@
+fragment EstateLightDtoFragment on EstateLightDto {
+  id
+  managementSubjectId
+  internalCode
+  name
+  managementSubjectName
+  status
+  type
+  usageType {
+    ...UsageTypeFragment
+  }
+  addresses {
+    ...AsstAddressFragment
+  }
+}

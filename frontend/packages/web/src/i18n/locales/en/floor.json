@@ -1,0 +1,48 @@
+{
+  "floor": {
+    "title": "Floors",
+    "field": {
+      "floor_position": "Floor position",
+      "floor_name": "Floor name"
+    },
+    "action": {
+      "add_floor": "Add floor"
+    },
+    "text": {
+      "no_floors": "No floors available"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add floors",
+        "description": "Enter floor with relative vertical position (e.g., 0 for first floor, 0.5 for mezzanine floor, 1 for second floor) and designation",
+        "save": "Save floors"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this floor?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these floors?\nThe process cannot be undone"
+        }
+      },
+      "update": {
+        "title": "Edit floor",
+        "description": "Enter floor with relative vertical position (e.g., 0 for first floor, 0.5 for mezzanine floor, 1 for second floor) and designation",
+        "save": "Save floor"
+      },
+      "view": {
+        "title": "Floor details"
+      }
+    },
+    "feedback": {
+      "create": {
+        "single": "Floor successfully created",
+        "multiple": "Floors successfully created"
+      },
+      "delete": {
+        "single": "Floor successfully deleted",
+        "multiple": "Floors successfully deleted"
+      },
+      "update": "Floor successfully updated"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+query getCrafts(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: CraftFilterInput
+  $order: [CraftSortInput!]
+) {
+  craft {
+    listCrafts(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...CraftFragment
+      }
+      totalCount
+    }
+  }
+}
+
+mutation addCraft($input: CraftInput!) {
+  craft {
+    add(input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateCraft($craftId: Int!, $input: CraftInput!) {
+  craft {
+    update(id: $craftId, input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteCrafts($ids: [Int!]!) {
+  craft {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getCraftInternalCode {
+  craft {
+    proposeNewInternalCode
+  }
+}
+
+query canUseCraftInternalCode($internalCode: String!, $currentCraftId: Int) {
+  craft {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentCraftId: $currentCraftId
+    )
+  }
+}
+
+query exportCrafts($where: CraftFilterInput, $order: [CraftSortInput!]) {
+  craft {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "document": {
+    "title": {
+      "documents": "Documenti",
+      "expired": "Scaduti",
+      "expiring": "In scadenza"
+    },
+    "tab": {
+      "all": "Tutti",
+      "estates": "Immobili",
+      "estate_units": "Unità immobiliari",
+      "catalogues": "Consistenza",
+      "subjects": "Soggetti",
+      "contracts": "Contratti",
+      "facility_contracts": "Contratti manutenzione",
+      "tickets": "Ticket"
+    },
+    "field": {
+      "document_name": "Nome documento",
+      "identity_document_type": "Tipo documento identità",
+      "protocol_number": "Numero documento",
+      "content_category": "Categoria / Sottocategoria",
+      "since": "Data inizio validità",
+      "until": "Data fine validità",
+      "issue_date": "Data emissione",
+      "issuer": "Emesso da",
+      "estate": "Immobile",
+      "estate_unit": "Unità immobiliare",
+      "subject": "Soggetto",
+      "catalogue_item": "Codice oggetto",
+      "catalogue_category": "Categoria oggetto",
+      "catalogue_sub_category": "Sottocategoria oggetto",
+      "catalogue_type": "Tipologia oggetto",
+      "contract": "Numero contratto",
+      "facility_contract": "Numero contratto manutenzione",
+      "ticket": "Codice attività",
+      "file_name": "Allegato",
+      "uploader_name": "Caricato da",
+      "creation_date": "Data caricamento",
+      "expired": "Scaduto",
+      "expired_days": "gg dalla scadenza",
+      "expiring_days": "gg alla scadenza"
+    },
+    "text": {
+      "no_documents": "Non sono presenti documenti"
+    }
+  }
+}

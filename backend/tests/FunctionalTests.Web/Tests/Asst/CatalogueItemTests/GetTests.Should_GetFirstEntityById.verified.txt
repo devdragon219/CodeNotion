@@ -1,0 +1,133 @@
+﻿{
+  activationDate: 2022-10-19,
+  catalogueType: {
+    activities: [
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 56,
+        isMandatoryByLaw: false,
+        name: rerum
+      },
+      {
+        activityType: PLANNED_MAINTENANCE,
+        id: 57,
+        isMandatoryByLaw: true,
+        name: tempore
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 58,
+        isMandatoryByLaw: true,
+        name: et
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 59,
+        isMandatoryByLaw: true,
+        name: numquam
+      },
+      {
+        activityType: ON_INCIDENT,
+        id: 60,
+        isMandatoryByLaw: true,
+        name: voluptatem
+      }
+    ],
+    category: {
+      id: 2,
+      internalCode: CO00002,
+      name: Impianti e attrezzature antincendio,
+      subCategories: [
+        {
+          id: 6,
+          internalCode: CO00002SC004,
+          name: Compartimentazione antincendio
+        }
+      ]
+    },
+    fields: [
+      [
+        {
+          id: Guid_1,
+          isMandatory: false,
+          name: omnis,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            quia,
+            quia
+          ]
+        }
+      ],
+      [
+        {
+          id: Guid_2,
+          isMandatory: false,
+          name: in,
+          type: SINGLE_ITEM_FROM_LIST,
+          validValues: [
+            in,
+            quae
+          ]
+        }
+      ],
+      [
+        {
+          id: Guid_3,
+          isMandatory: true,
+          name: atque,
+          type: DATE,
+          validValues: null
+        },
+        {
+          id: Guid_4,
+          isMandatory: false,
+          name: esse,
+          type: SIMPLE_TEXT,
+          validValues: null
+        }
+      ]
+    ],
+    id: 12,
+    internalCode: TO00012,
+    name: Serrande di compartimentazione,
+    subCategory: {
+      id: 6,
+      internalCode: CO00002SC004,
+      name: Compartimentazione antincendio
+    }
+  },
+  fields: [
+    {
+      isMandatory: false,
+      name: omnis,
+      templateTypeId: Guid_1,
+      type: SINGLE_ITEM_FROM_LIST,
+      value: quia
+    },
+    {
+      isMandatory: false,
+      name: in,
+      templateTypeId: Guid_2,
+      type: SINGLE_ITEM_FROM_LIST,
+      value: quae
+    },
+    {
+      isMandatory: true,
+      name: atque,
+      templateTypeId: Guid_3,
+      type: DATE,
+      value: Date_1
+    },
+    {
+      isMandatory: false,
+      name: esse,
+      templateTypeId: Guid_4,
+      type: SIMPLE_TEXT,
+      value: natus
+    }
+  ],
+  id: 1,
+  internalCode: trk7kwfz9a,
+  lastMaintenanceDate: 2023-06-28,
+  status: DECOMMISSIONED
+}

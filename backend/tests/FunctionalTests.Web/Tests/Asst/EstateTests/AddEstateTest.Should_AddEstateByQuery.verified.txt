@@ -1,0 +1,10 @@
+﻿{
+  Data: {
+    estate: {
+      addEstate: {
+        isSuccess: true
+      }
+    }
+  },
+  IsDataSet: true
+}

@@ -1,0 +1,74 @@
+{
+  "registration_payment": {
+    "title": "Cartelle esattoriali",
+    "tab": {
+      "contract": "Contratto",
+      "general_data": "Dati e imposte",
+      "rows": "Imposte di registro",
+      "recap": "Riepilogo"
+    },
+    "section_title": {
+      "contract": "Seleziona contratto",
+      "general_data": "Dati generali",
+      "communication_data": "Dati comunicazione",
+      "rows": "Imposte",
+      "recap": "Riepilogo"
+    },
+    "field": {
+      "payment_code": "Numero cartella",
+      "management_subject": "Ente di gestione",
+      "payment_date": "Data",
+      "payment_year": "Periodo di riferimento",
+      "contract_code": "Codice contratto",
+      "estate": "Immobile",
+      "address_toponymy": "Indirizzo",
+      "address_city": "Comune",
+      "address_county": "Provincia",
+      "tax_amount": "Importo imposta mancante",
+      "sanction_amount": "Importo sanzioni",
+      "row_entity": "Codice ente",
+      "row_year": "Anno di riferimento",
+      "row_period": "Periodo di rateazione",
+      "row_code": "Codice imposta",
+      "row_description": "Descrizione imposta",
+      "row_amount_cleared": "Importo a credito / compensato",
+      "row_amount_due": "Importo imposta"
+    },
+    "error": {
+      "no_contract": "Nessun contratto selezionato"
+    },
+    "action": {
+      "add_row": "Aggiungi imposta"
+    },
+    "text": {
+      "no_registration_payments": "Non sono presenti cartelle esattoriali",
+      "no_contracts": "Non sono presenti contratti",
+      "no_rows": "Non sono presenti imposte"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta cartella esattoriale",
+        "save": "Salva cartella esattoriale"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa cartella esattoriale?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste cartelle esattoriali?\nIl processo non potrà essere annullato"
+        }
+      },
+      "row": {
+        "add": "Aggiunta imposta",
+        "edit": "Modifica imposta"
+      }
+    },
+    "feedback": {
+      "create": "Cartella esattoriale creata con successo",
+      "delete": {
+        "single": "Cartella esattoriale cancellata con successo",
+        "multiple": "Cartelle esattoriali cancellate con successo"
+      },
+      "update": "Cartella esattoriale modificata con successo"
+    }
+  }
+}

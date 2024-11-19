@@ -1,0 +1,38 @@
+{
+  "notification": {
+    "title": "Tutte le notifiche",
+    "field": {
+      "title": "Titolo",
+      "body": "Descrizione",
+      "timestamp": "Data",
+      "status": "Stato"
+    },
+    "action": {
+      "mark_all": "Segna tutte come lette",
+      "mark_row": "Segna come letta",
+      "mark_rows": "Segna come lette"
+    },
+    "text": {
+      "no_notifications": "Non sono presenti notifiche"
+    },
+    "dialog": {
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa notifica?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste notifiche?\nIl processo non potrà essere annullato"
+        }
+      }
+    },
+    "feedback": {
+      "delete": {
+        "single": "Notifica cancellata con successo",
+        "multiple": "Notifiche cancellate con successo"
+      },
+      "mark": {
+        "single": "Notifica segnata come letta con successo",
+        "multiple": "Notifiche segnate come lette con successo"
+      }
+    }
+  }
+}

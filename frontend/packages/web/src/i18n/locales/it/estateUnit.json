@@ -1,0 +1,166 @@
+{
+  "estate_unit": {
+    "title": "Unità Immobiliari",
+    "tab": {
+      "general_data": "Dati generali",
+      "official_act": "Atto di provenienza",
+      "estate": "Immobile",
+      "cadastral_unit": "UC",
+      "estate_sub_units": "Sotto UI",
+      "surface": "Superficie UI",
+      "select_surface": "Seleziona superficie",
+      "enter_surface": "Inserisci superficie",
+      "repossession": "Ritiro",
+      "documents": "Documenti",
+      "recap": "Riepilogo"
+    },
+    "section_title": {
+      "estate": "Seleziona immobile",
+      "general_data": "Dati generali",
+      "estate_unit_general_data": "Dati generali unità immobiliare",
+      "official_act": "Atto di provenienza",
+      "no_official_act": "Nessun atto di provenienza presente, clicca su modifica per aggiungere un atto di provenienza",
+      "no_cadastral_unit": "Non sono presenti unità catastali",
+      "surface_mode": "Seleziona la modalità di inserimento della superficie",
+      "surface_value": "Inserisci il  valore della superficie",
+      "surface_floor": "Seleziona il piano",
+      "documents": "Documenti",
+      "recap": "Riepilogo"
+    },
+    "field": {
+      "estate_unit_code": "Codice UI",
+      "estate_unit_type": "Tipologia UI",
+      "estate_unit_status": "Stato UI",
+      "management_subject": "Ente di gestione",
+      "address_toponymy": "Indirizzo",
+      "address_city": "Comune",
+      "address_postal_code": "CAP",
+      "address_county": "Provincia",
+      "address_country": "Nazione",
+      "address_indoor_number": "Numero interno",
+      "stair": "Scala",
+      "external_estate_unit_code": "Codice UI esterno",
+      "estate_unit_name": "Denominazione UI",
+      "net_surface": "Superficie utile (mq)",
+      "gross_surface": "Superficie lorda (mq)",
+      "floors_counter": "Numero di piani",
+      "estate_code": "Codice immobile",
+      "estate_name": "Denominazione immobile",
+      "estate_type": "Tipologia immobile",
+      "cadastral_coordinates": "Dati catastali",
+      "usage_type": "Destinazione d’uso",
+      "external_estate_code": "Codice immobile esterno",
+      "estate_status": "Stato immobile",
+      "estate_usage_type": "Destinazione d'uso",
+      "estate_ownership": "Tipo di possesso",
+      "estate_management_subject": "Ente di gestione",
+      "estate_management_org_unit": "UO gestionale",
+      "floors": "Piani",
+      "shared_area": "Area comune",
+      "disused_date": "Data dismissione",
+      "ownership_type": "Tipologia possesso UI",
+      "ownership_start_date": "Data inizio possesso UI",
+      "ownership_end_date": "Data fine possesso UI",
+      "ownership_percentage": "% possesso",
+      "notes": "Note",
+      "official_act_protocol_number": "Protocollo atto notarile",
+      "official_act_repertoire_number": "Numero repertorio",
+      "official_act_registration_number": "Numero registrazione",
+      "official_act_registration_date": "In data",
+      "official_act_written_at_city": "Scritto a",
+      "official_act_transcription_number": "Numero trascrizione",
+      "official_act_transcription_date": "In data",
+      "official_act_transcription_city": "Scritto a",
+      "official_act_notary_act_date": "Data atto notarile",
+      "official_act_collection_number": "Numero raccolta",
+      "official_act_notary_name": "Notaio",
+      "cadastral_unit_code": "Codice unità catastale",
+      "cadastral_unit_coordinates": "Dati catastali",
+      "cadastral_unit_since": "Data inizio validità",
+      "cadastral_unit_income_macro_category": "Categoria catastale",
+      "cadastral_unit_income_type": "Tipo rendita",
+      "cadastral_unit_income_cadastral_amount": "Rendita catastale",
+      "cadastral_unit_income_micro_category": "Classe",
+      "cadastral_unit_inspection_protocol_number": "Numero protocollo",
+      "cadastral_unit_inspection_protocol_date": "Data protocollo",
+      "cadastral_unit_inspection_date": "Data visura",
+      "cadastral_unit_inspection_heading": "Intestazione visura",
+      "cadastral_unit_address": "Indirizzo completo",
+      "surface_metric": "Unità di misura",
+      "surface_floors": "Piani",
+      "surface_function_area": "Area funzionale",
+      "surface_total_measure": "Misura totale",
+      "surface_common_area": "Di cui area comune",
+      "surface_side_area": "Di cui pertinenza",
+      "surface_function_area_type": "Natura area funzionale",
+      "surface_total_area": "Superficie mq totale",
+      "surface_floor": "Numero piano",
+      "repossession_type": "Tipo attività ritiro",
+      "repossession_reason": "Motivo attività ritiro",
+      "repossession_date": "Data ritiro",
+      "repossession_status": "Stato unità all'atto del ritiro",
+      "repossession_assignable": "Unità assegnabile",
+      "repossession_keys_returned": "Chiavi in sede",
+      "repossession_with_values": "Beni all'interno",
+      "document_upload": "Carica documenti"
+    },
+    "error": {
+      "no_estate": "Nessun immobile selezionato",
+      "surface_common_area": "La superficie di area comune non può essere maggiore della superficie totale",
+      "surface_side_area": "La superficie di area di pertinenza non può essere maggiore della superficie totale",
+      "surface_total_area": "La somma delle superfici di area comune e di pertinenza non può essere maggiore della superficie totale"
+    },
+    "action": {
+      "add_official_act": "Aggiungi atto di provenienza",
+      "add_cadastral_unit": "Aggiungi unità catastale",
+      "add_surface_floor": "Aggiungi superfici su altro piano",
+      "merge": "Fusione",
+      "split": "Frazionamento",
+      "transform": "Trasformazione",
+      "add_document": "Aggiungi documento"
+    },
+    "text": {
+      "no_estate_units": "Non sono presenti unità immobiliari",
+      "no_official_act": "Nessun atto di provenienza presente",
+      "no_documents": "Non sono stati caricati documenti"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta unità Immobiliare",
+        "save": "Salva unità immobiliare"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa unità immobiliare?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste unità immobiliari?\nIl processo non potrà essere annullato"
+        }
+      },
+      "official_act": {
+        "title": "Aggiungi atto di provenienza"
+      },
+      "surfaces": {
+        "title": "Modifica Superfici UI"
+      },
+      "split": {
+        "title": "UI Frazionata",
+        "tab": {
+          "estate": "Seleziona immobile",
+          "estate_unit": "UI frazionata",
+          "cadastral_unit": "Nuova UC",
+          "cadastral_coordinates": "Identificativi catastali",
+          "recap": "Riepilogo"
+        },
+        "save": "Salva UI frazionata"
+      }
+    },
+    "feedback": {
+      "create": "Unità immobiliare creata con successo",
+      "delete": {
+        "single": "Unità immobiliare cancellata con successo",
+        "multiple": "Unità immobiliari cancellate con successo"
+      },
+      "update": "Unità immobiliare modificata con successo"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+﻿[
+  [
+    001,
+    IVA 10% (N.127 - TER TAB A PARTE III DPR 633),
+    Soggetto,
+    10
+  ],
+  [
+    002,
+    IVA 21%,
+    Soggetto,
+    21
+  ],
+  [
+    003,
+    IVA 22%,
+    Soggetto,
+    22
+  ],
+  [
+    004,
+    ESENTE DA I.V.A.AI SENSI ART.6 L.133/99,
+    Esente,
+    0
+  ],
+  [
+    005,
+    ESENTE DA I.V.A.AI SENSI ART.10 D.P.R. 633 DEL 26/10/1972,
+    Esente,
+    0
+  ],
+  [
+    006,
+    ESENTE DA I.V.A.,
+    Esente,
+    0
+  ],
+  [
+    007,
+    NON IMP. AI SENSI ART.8 D.P.R. 633 DEL 26/10/1972,
+    Non imponibile,
+    0
+  ],
+  [
+    008,
+    NON IMPONIBILE,
+    Non imponibile,
+    0
+  ]
+]

@@ -1,0 +1,43 @@
+{
+  "penalty": {
+    "title": "Penalties",
+    "section_title": {
+      "general_data": "General data",
+      "penalties": "Penalties"
+    },
+    "field": {
+      "internal_code": "Penalty code",
+      "description": "Penalty description"
+    },
+    "error": {
+      "internal_code": "The penalty code provided is already in use"
+    },
+    "text": {
+      "no_penalties": "No penalties available"
+    },
+    "action": {
+      "calendar": "Calendar",
+      "add_penalty": "Add penalty"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add penalty"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this penalty?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these penalties?\nThe process cannot be undone"
+        }
+      }
+    },
+    "feedback": {
+      "create": "Penalty created successfully",
+      "delete": {
+        "single": "Penalty deleted successfully",
+        "multiple": "Penalties deleted successfully"
+      },
+      "update": "Penalty edited successfully"
+    }
+  }
+}

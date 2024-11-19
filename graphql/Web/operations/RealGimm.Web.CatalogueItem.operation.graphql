@@ -1,0 +1,181 @@
+query getCatalogueItems(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: CatalogueItemFilterInput
+  $order: [CatalogueItemSortInput!]
+) {
+  catalogueItem {
+    listCatalogueItems(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...CatalogueItemDetailFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getCatalogueItemInternalCode($additionallyOccupiedCodes: [String!]!) {
+  catalogueItem {
+    proposeNewInternalCode(
+      additionallyOccupiedCodes: $additionallyOccupiedCodes
+    )
+  }
+}
+
+query canUseCatalogueItemInternalCode(
+  $internalCode: String!
+  $currentCatalogueItemId: Int
+) {
+  catalogueItem {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentCatalogueItemId: $currentCatalogueItemId
+    )
+  }
+}
+
+query getCatalogueItem($catalogueItemId: Int!) {
+  catalogueItem {
+    get(id: $catalogueItemId) {
+      ...CatalogueItemDetailFragment
+    }
+  }
+}
+
+query exportCatalogueItems(
+  $where: CatalogueItemFilterInput
+  $order: [CatalogueItemSortInput!]
+) {
+  catalogueItem {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+mutation deleteCatalogueItem($id: Int!) {
+  catalogueItem {
+    delete(id: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateCatalogueItem($catalogueItemInput: CatalogueItemInput!) {
+  catalogueItem {
+    update(input: $catalogueItemInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation addCatalogueItemDocuments(
+  $catalogueItemId: Int!
+  $inputs: [DocumentInput!]!
+) {
+  catalogueItem {
+    document {
+      addRange(catalogueItemId: $catalogueItemId, inputs: $inputs) {
+        errors
+        isSuccess
+        validationErrors {
+          ...ValidationErrorFragment
+        }
+      }
+    }
+  }
+}
+
+mutation deleteCatalogueItemDocuments($entityId: Int!, $cmisIds: [String!]!) {
+  catalogueItem {
+    document {
+      deleteRange(catalogueItemId: $entityId, cmisIds: $cmisIds) {
+        errors
+        isSuccess
+        validationErrors {
+          ...ValidationErrorFragment
+        }
+      }
+    }
+  }
+}
+
+mutation updateCatalogueItemDocument(
+  $catalogueItemId: Int!
+  $input: DocumentInput!
+) {
+  catalogueItem {
+    document {
+      update(catalogueItemId: $catalogueItemId, input: $input) {
+        errors
+        isSuccess
+        validationErrors {
+          ...ValidationErrorFragment
+        }
+      }
+    }
+  }
+}
+
+query getCatalogueItemDocuments(
+  $catalogueItemId: Int!
+  $where: DocumentFilterInput
+  $order: [DocumentsPerContentCategoryGroupOutputSortInput!]
+) {
+  catalogueItem {
+    get(id: $catalogueItemId) {
+      documents(where: $where, order: $order) {
+        ...DocumentsPerContentCategoryGroupOutputFragment
+      }
+    }
+  }
+}
+
+query getCatalogueItemsDocuments(
+  $catalogueItemIds: [Int!]!
+  $where: CatalogueDocumentsFlatOutputFilterInput
+  $order: [CatalogueDocumentsCategoryOutputSortInput!]
+) {
+  catalogueItem {
+    documents {
+      listDocuments(
+        catalogueItemIds: $catalogueItemIds
+        where: $where
+        order: $order
+      ) {
+        ...CatalogueDocumentsCategoryOutputFragment
+      }
+    }
+  }
+}
+
+query getAllCatalogueItems(
+  $where: CatalogueItemFilterInput
+  $order: [CatalogueItemSortInput!]
+) {
+  catalogueItem {
+    listCatalogueItemsFull(where: $where, order: $order) {
+      ...CatalogueItemFragment
+    }
+  }
+}

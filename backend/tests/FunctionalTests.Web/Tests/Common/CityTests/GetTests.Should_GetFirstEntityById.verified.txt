@@ -1,0 +1,21 @@
+﻿{
+  cadastralCode: A074,
+  cityExternalCode: 001001,
+  cityProvider: Guid_1,
+  climateZoneCode: null,
+  countryISO: ITA,
+  countryName: Italia,
+  countyExternalCode: ITC11,
+  countyGuid: Guid_2,
+  countyName: Torino,
+  countyShortCode: TO,
+  guid: Guid_3,
+  id: 1,
+  isCountyMainCity: false,
+  name: Agliè,
+  name2: Agliè,
+  name3: ,
+  regionExternalCode: ITC1,
+  regionGuid: Guid_4,
+  regionName: Piemonte
+}

@@ -1,0 +1,6 @@
+fragment TicketsPerEstateUnitsPerYearFragment on TicketsPerEstateUnitsPerYear {
+  requestYear
+  tickets {
+    ...TicketsPerEstateUnitFragment
+  }
+}

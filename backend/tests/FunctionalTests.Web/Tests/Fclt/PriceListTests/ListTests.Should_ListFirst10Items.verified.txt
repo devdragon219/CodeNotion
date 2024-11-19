@@ -1,0 +1,81 @@
+﻿{
+  nodes: [
+    {
+      id: 1,
+      internalCode: LS0001,
+      isDefault: false,
+      name: Est illum.,
+      ordering: 1
+    },
+    {
+      id: 2,
+      internalCode: LS0002,
+      isDefault: false,
+      name: Assumenda iste.,
+      ordering: 2
+    },
+    {
+      id: 3,
+      internalCode: LS0003,
+      isDefault: false,
+      name: Quia natus.,
+      ordering: 3
+    },
+    {
+      id: 4,
+      internalCode: LS0004,
+      isDefault: false,
+      name: Et dignissimos.,
+      ordering: 4
+    },
+    {
+      id: 5,
+      internalCode: LS0005,
+      isDefault: false,
+      name: Reiciendis ad.,
+      ordering: 5
+    },
+    {
+      id: 6,
+      internalCode: LS0006,
+      isDefault: false,
+      name: Nostrum totam.,
+      ordering: 6
+    },
+    {
+      id: 7,
+      internalCode: LS0007,
+      isDefault: false,
+      name: Harum totam.,
+      ordering: 7
+    },
+    {
+      id: 8,
+      internalCode: LS0008,
+      isDefault: false,
+      name: Voluptatibus doloremque.,
+      ordering: 8
+    },
+    {
+      id: 9,
+      internalCode: LS0009,
+      isDefault: false,
+      name: Eos asperiores.,
+      ordering: 9
+    },
+    {
+      id: 10,
+      internalCode: LS0010,
+      isDefault: false,
+      name: Cum ipsam.,
+      ordering: 10
+    }
+  ],
+  pageInfo: {
+    endCursor: OQ==,
+    hasNextPage: false,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 10
+}

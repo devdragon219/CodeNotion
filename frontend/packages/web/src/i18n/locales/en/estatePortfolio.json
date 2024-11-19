@@ -1,0 +1,19 @@
+{
+  "estate_portfolio": {
+    "tab": {
+      "estate": "Estate",
+      "estate_unit": "Estate unit",
+      "catalogue": "Catalogue"
+    },
+    "catalogue": {
+      "fields": {
+        "catalogue_category": "Catalogue category",
+        "catalogue_subcategory": "Catalogue subcategory",
+        "catalogue_type": "Catalogue type"
+      }
+    },
+    "dialog": {
+      "title": "Export estate portfolio"
+    }
+  }
+}

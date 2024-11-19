@@ -1,0 +1,19 @@
+﻿{
+  Data: {
+    orgUnit: {
+      listOrgUnitsByManagementSubject: [
+        {
+          id: 8,
+          name: Cole, Moore and Macejkovic,
+          parentSubjectId: 7
+        },
+        {
+          id: 25,
+          name: Kulas, Nienow and Hammes,
+          parentSubjectId: 7
+        }
+      ]
+    }
+  },
+  IsDataSet: true
+}

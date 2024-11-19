@@ -1,0 +1,6 @@
+fragment MainUsageTypeFragment on EstateMainUsageType {
+  id
+  name
+  internalCode
+  ordering
+}

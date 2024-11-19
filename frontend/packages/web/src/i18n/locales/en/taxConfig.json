@@ -1,0 +1,257 @@
+{
+  "tax_config": {
+    "calculator": {
+      "IMU": {
+        "coefficients": {
+          "action": "Add revaluation coefficient",
+          "dialog": {
+            "view": "Revaluation coefficient",
+            "create": "Add revaluation coefficient",
+            "update": "Edit revaluation coefficient",
+            "delete": {
+              "title": "Are you sure?",
+              "description": {
+                "single": "Are you really sure\nyou want to delete this revaluation coefficient?\nThe process cannot be undone",
+                "multiple": "Are you really sure\nyou want to delete these revaluation coefficients?\nThe process cannot be undone"
+              }
+            }
+          },
+          "feedback": {
+            "create": "Revaluation coefficient successfully created",
+            "delete": {
+              "single": "Revaluation coefficient successfully deleted",
+              "multiple": "Revaluation coefficients successfully deleted"
+            },
+            "update": "Revaluation coefficient successfully updates"
+          },
+          "table": {
+            "name": "Coefficients",
+            "empty": "No coefficients available"
+          }
+        },
+        "global": {
+          "action": "Add param",
+          "dialog": {
+            "view": "IMU param",
+            "create": "Add IMU param",
+            "update": "Edit IMU param",
+            "delete": {
+              "title": "Are you sure?",
+              "description": {
+                "single": "Are you really sure\nyou want to delete this IMU param?\nThe process cannot be undone",
+                "multiple": "Are you really sure\nyou want to delete these IMU params?\nThe process cannot be undone"
+              }
+            }
+          },
+          "feedback": {
+            "create": "IMU param successfully created",
+            "delete": {
+              "single": "IMU param successfully deleted",
+              "multiple": "IMU params successfully deleted"
+            },
+            "update": "IMU param successfully updates"
+          },
+          "table": {
+            "name": "IMU params",
+            "empty": "No IMU params available"
+          }
+        },
+        "rates": {
+          "action": "Add rate",
+          "dialog": {
+            "view": "IMU rate",
+            "create": "Add IMU rate",
+            "update": "Edit IMU rate",
+            "delete": {
+              "title": "Are you sure?",
+              "description": {
+                "single": "Are you really sure\nyou want to delete this IMU rate?\nThe process cannot be undone",
+                "multiple": "Are you really sure\nyou want to delete these IMU rates?\nThe process cannot be undone"
+              }
+            }
+          },
+          "feedback": {
+            "create": "IMU rate successfully created",
+            "delete": {
+              "single": "IMU rate successfully deleted",
+              "multiple": "IMU rate successfully deleted"
+            },
+            "update": "IMU rate successfully updated"
+          },
+          "table": {
+            "name": "Rates",
+            "empty": "No rates available"
+          }
+        },
+        "rates_by_city": {
+          "action": "Add rate",
+          "dialog": {
+            "view": "IMU rate",
+            "create": "Add IMU rate",
+            "update": "Edit IMU rate",
+            "delete": {
+              "title": "Are you sure?",
+              "description": {
+                "single": "Are you really sure\nyou want to delete this IMU rate?\nThe process cannot be undone",
+                "multiple": "Are you really sure\nyou want to delete these IMU rates?\nThe process cannot be undone"
+              }
+            }
+          },
+          "feedback": {
+            "create": "IMU rate successfully created",
+            "delete": {
+              "single": "IMU rate successfully deleted",
+              "multiple": "IMU rate successfully deleted"
+            },
+            "update": "IMU rate successfully updated"
+          },
+          "table": {
+            "name": "IMU rates",
+            "empty": "No IMU rates available"
+          }
+        },
+        "revaluation_coeff_d": {
+          "action": "Add revaluation coefficient",
+          "dialog": {
+            "view": "Revaluation coefficient",
+            "create": "Add revaluation coefficient",
+            "update": "Edit revaluation coefficient",
+            "delete": {
+              "title": "Are you sure?",
+              "description": {
+                "single": "Are you really sure\nyou want to delete this revaluation coefficient?\nThe process cannot be undone",
+                "multiple": "Are you really sure\nyou want to delete these revaluation coefficients?\nThe process cannot be undone"
+              }
+            }
+          },
+          "feedback": {
+            "create": "Revaluation coefficient successfully created",
+            "delete": {
+              "single": "Revaluation coefficient successfully deleted",
+              "multiple": "Revaluation coefficients successfully deleted"
+            },
+            "update": "Revaluation coefficient successfully updates"
+          },
+          "table": {
+            "name": "Revaluation coefficients",
+            "empty": "No revaluation coefficients available"
+          }
+        }
+      },
+      "ILIA": {
+        "global": {
+          "action": "Add param",
+          "dialog": {
+            "view": "ILIA param",
+            "create": "Add ILIA param",
+            "update": "Edit ILIA param",
+            "delete": {
+              "title": "Are you sure?",
+              "description": {
+                "single": "Are you really sure\nyou want to delete this ILIA param?\nThe process cannot be undone",
+                "multiple": "Are you really sure\nyou want to delete these ILIA params?\nThe process cannot be undone"
+              }
+            }
+          },
+          "feedback": {
+            "create": "ILIA param successfully created",
+            "delete": {
+              "single": "ILIA param successfully deleted",
+              "multiple": "ILIA params successfully deleted"
+            },
+            "update": "ILIA param successfully updates"
+          },
+          "table": {
+            "name": "ILIA params",
+            "empty": "No ILIA params available"
+          }
+        },
+        "rates": {
+          "action": "Add rate",
+          "dialog": {
+            "view": "ILIA rate",
+            "create": "Add ILIA rate",
+            "update": "Edit ILIA rate",
+            "delete": {
+              "title": "Are you sure?",
+              "description": {
+                "single": "Are you really sure\nyou want to delete this ILIA rate?\nThe process cannot be undone",
+                "multiple": "Are you really sure\nyou want to delete these ILIA rates?\nThe process cannot be undone"
+              }
+            }
+          },
+          "feedback": {
+            "create": "ILIA rate successfully created",
+            "delete": {
+              "single": "ILIA rate successfully deleted",
+              "multiple": "ILIA rate successfully deleted"
+            },
+            "update": "ILIA rate successfully updated"
+          },
+          "table": {
+            "name": "Rates",
+            "empty": "No rates available"
+          }
+        },
+        "rates_by_city": {
+          "action": "Add rate",
+          "dialog": {
+            "view": "IMU rate",
+            "create": "Add ILIA rate",
+            "update": "Edit ILIA rate",
+            "delete": {
+              "title": "Are you sure?",
+              "description": {
+                "single": "Are you really sure\nyou want to delete this ILIA rate?\nThe process cannot be undone",
+                "multiple": "Are you really sure\nyou want to delete these ILIA rates?\nThe process cannot be undone"
+              }
+            }
+          },
+          "feedback": {
+            "create": "ILIA rate successfully created",
+            "delete": {
+              "single": "ILIA rate successfully deleted",
+              "multiple": "ILIA rate successfully deleted"
+            },
+            "update": "ILIA rate successfully updated"
+          },
+          "table": {
+            "name": "ILIA rates",
+            "empty": "No ILIA rates available"
+          }
+        }
+      }
+    },
+    "tab": {
+      "general_data": "General data",
+      "recap": "Recap"
+    },
+    "section_title": {
+      "general_data": "General data",
+      "recap": "Recap"
+    },
+    "field": {
+      "year": "Year",
+      "city_name": "City",
+      "city_county_name": "County",
+      "rbc_min_amount": "Min amount",
+      "rbc_city_min_amount": "City min amount",
+      "rates": "Rates",
+      "coefficients": "Revaluation coefficients",
+      "base_rate": "Base rate",
+      "min_amount": "Min amount",
+      "cfd_year": "Year",
+      "cfd_rate": "Revaluation coefficient",
+      "rbc_code": "Code",
+      "rbc_description": "Description",
+      "rbc_rate": "Rate"
+    },
+    "error": {
+      "existing_value": "There is already a rate for this year",
+      "no_sub_tables": "Add at least one rate"
+    },
+    "action": {
+      "show_all": "Show all"
+    }
+  }
+}

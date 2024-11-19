@@ -1,0 +1,20 @@
+﻿{
+  Data: {
+    estateUsageType: {
+      add: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          id: 1,
+          internalCode: aut,
+          isForContracts: true,
+          isForEstate: true,
+          isForEstateSubUnit: true,
+          isForEstateUnit: true,
+          name: dolore
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

@@ -1,0 +1,88 @@
+{
+  "catalogue": {
+    "title": "Consistenza",
+    "tab": {
+      "estate": "Immobile",
+      "general_data": "Categoria",
+      "items": "Oggetti",
+      "activities": "Attività",
+      "documents": "Documenti",
+      "recap": "Riepilogo"
+    },
+    "section_title": {
+      "estate": "Seleziona immobile",
+      "general_data": "Seleziona categoria",
+      "item": "Configurazione oggetto",
+      "documents": "Documenti",
+      "recap": "Riepilogo"
+    },
+    "field": {
+      "estate": "Immobile",
+      "estate_code": "Codice immobile",
+      "external_estate_code": "Codice immobile esterno",
+      "estate_name": "Denominazione immobile",
+      "estate_address": "Indirizzo",
+      "estate_status": "Stato immobile",
+      "estate_type": "Tipologia immobile",
+      "estate_usage_type": "Destinazione d'uso",
+      "estate_ownership": "Tipo di possesso",
+      "estate_management_subject": "Ente di gestione",
+      "estate_management_org_unit": "UO gestionale",
+      "notes": "Note",
+      "catalogue_category": "Categoria",
+      "catalogue_subcategory": "Sottocategoria",
+      "catalogue_type": "Tipologia oggetto",
+      "catalogue_type_count": "Numero oggetti",
+      "catalogue_item_code": "Codice oggetto",
+      "catalogue_item_status": "Stato oggetto",
+      "catalogue_item_activation_date": "Data di attivazione",
+      "catalogue_item_decommissioning_date": "Data di disattivazione",
+      "catalogue_item_last_maintenance_date": "Data ultima manutenzione",
+      "activity_type": "Tipologia di manutenzione",
+      "activity_name": "Descrizione attività",
+      "document_upload": "Carica documenti"
+    },
+    "error": {
+      "no_estate": "Nessun immobile selezionato"
+    },
+    "action": {
+      "add_catalogue_item": "Aggiungi oggetto",
+      "add_document": "Aggiungi documento"
+    },
+    "text": {
+      "no_catalogues": "Non sono presenti consistenze",
+      "no_catalogue_items": "Non sono presenti oggetti, clicca su modifica per aggiungere un oggetto",
+      "no_activities": "Non è presente alcuna attività",
+      "no_documents": "Non sono presenti documenti, clicca su modifica per aggiungere un documento"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta oggetto",
+        "save": "Salva oggetto"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa consistenza?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste consistenze?\nIl processo non potrà essere annullato"
+        }
+      },
+      "item": {
+        "add": "Aggiungi oggetto",
+        "edit": "Modifica oggetto"
+      },
+      "document": {
+        "add": "Aggiungi documento",
+        "edit": "Modifica documento"
+      }
+    },
+    "feedback": {
+      "create": "Consistenza creata con successo",
+      "delete": {
+        "single": "Consistenza cancellata con successo",
+        "multiple": "Consistenze cancellate con successo"
+      },
+      "update": "Consistenza modificata con successo"
+    }
+  }
+}

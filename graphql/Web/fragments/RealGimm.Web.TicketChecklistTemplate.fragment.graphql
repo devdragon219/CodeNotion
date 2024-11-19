@@ -1,0 +1,54 @@
+fragment TicketChecklistTemplateFragment on TicketChecklistTemplate {
+  internalCode
+  name
+  catalogueType {
+    id
+    category {
+      id
+      name
+    }
+    subCategory {
+      id
+      name
+    }
+  }
+  type
+  costBaseFactor
+  rawWorkCost
+  safetyCost
+  id
+}
+
+fragment TicketChecklistTemplateDetailFragment on TicketChecklistTemplate {
+  internalCode
+  name
+  catalogueType {
+    ...CatalogueTypeDetailFragment
+  }
+  type
+  costBaseFactor
+  rawWorkCost
+  safetyCost
+  preventativeActivities {
+    ...CatalogueTypeActivityFragment
+  }
+  preventativePlannedPeriod
+  preventativeInterventionType {
+    ...InterventionTypeFragment
+  }
+  preventativeCraft {
+    ...CraftFragment
+  }
+  preventativeDaysOfWeek
+  preventativeToleranceDays
+  onTriggerActivities {
+    ...CatalogueTypeActivityFragment
+  }
+  onTriggerInterventionType {
+    ...InterventionTypeFragment
+  }
+  onTriggerCraft {
+    ...CraftFragment
+  }
+  id
+}

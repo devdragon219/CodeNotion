@@ -1,0 +1,2545 @@
+﻿[
+  {
+    Name: Linnea Pouros,
+    FullName: Linnea Pouros,
+    PersonType: LegalPerson,
+    BaseCountryTaxIdCode: 3QP4W6HJBOGU,
+    AdditionalTaxIdCode: TSRXAINBAT86,
+    LegalSubjectType: UnrecognizedNonbusinessSociety,
+    InternalCode: S0000002,
+    ExternalSourceCode: W3U6NT7ZHNPT,
+    CreationDate: DateTime_1,
+    EntryStatus: Working,
+    Addresses: [
+      {
+        SubjectId: 3,
+        CityName: Reannamouth,
+        CityReference: Guid_1,
+        CountryISO: NGA,
+        Toponymy: 960 Tito Centers Apt. 169,
+        LocalPostCode: 16526,
+        CreationDate: DateTime_2,
+        Id: 3
+      }
+    ],
+    Contacts: [
+      {
+        SubjectId: 3,
+        ContactInfo: +817 (719) 145-3648,
+        Notes: Eveniet dicta quo ipsum facilis dolorem eius repellat deleniti et.; FAX,
+        CreationDate: DateTime_3,
+        Id: 1
+      }
+    ],
+    RelationSubordinates: [
+      {
+        Main: {
+          Name: Heathcote - Will,
+          FullName: Heathcote - Will,
+          PersonType: ManagementSubject,
+          BaseCountryTaxIdCode: MGZ1VZOBTUZ1,
+          AdditionalTaxIdCode: PIXOJ26GAZNR,
+          InternalCode: S0000001,
+          ExternalSourceCode: QTRK7KWFZ9AG,
+          CreationDate: DateTime_4,
+          EntryStatus: Working,
+          Addresses: [
+            {
+              SubjectId: 1,
+              CityName: Reannamouth,
+              CityReference: Guid_1,
+              CountryISO: NGA,
+              Toponymy: 734 Dorian Union Apt. 247,
+              LocalPostCode: 41887-8662,
+              CreationDate: DateTime_5,
+              Id: 1
+            }
+          ],
+          RelationMains: [
+            {
+              MainId: 1,
+              SubordinateId: 1,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_6,
+              Id: 1
+            },
+            {
+              MainId: 1,
+              Subordinate: {
+                Name: Wisozk - Blick,
+                FullName: Wisozk - Blick,
+                PersonType: ManagementSubject,
+                BaseCountryTaxIdCode: AHUM3QEX4PMT,
+                AdditionalTaxIdCode: OK66L9ZK29UK,
+                InternalCode: S0000003,
+                ExternalSourceCode: U2APYZDIAIJ2,
+                CreationDate: DateTime_7,
+                EntryStatus: Working,
+                Addresses: [
+                  {
+                    SubjectId: 2,
+                    CityName: South Susieview,
+                    CityReference: Guid_2,
+                    CountryISO: AZE,
+                    Toponymy: 56930 Nitzsche Parkways Apt. 420,
+                    LocalPostCode: 14403,
+                    CreationDate: DateTime_8,
+                    Id: 2
+                  }
+                ],
+                RelationMains: [
+                  {
+                    MainId: 2,
+                    SubordinateId: 2,
+                    RelationType: ManagementEntityOwned,
+                    CreationDate: DateTime_9,
+                    Id: 2
+                  }
+                ],
+                RelationSubordinates: [
+                  {
+                    MainId: 2,
+                    SubordinateId: 2,
+                    RelationType: ManagementEntityOwned,
+                    CreationDate: DateTime_9,
+                    Id: 2
+                  }
+                ],
+                LegalResidentialAddress: {
+                  SubjectId: 2,
+                  CityName: South Susieview,
+                  CityReference: Guid_2,
+                  CountryISO: AZE,
+                  Toponymy: 56930 Nitzsche Parkways Apt. 420,
+                  LocalPostCode: 14403,
+                  CreationDate: DateTime_8,
+                  Id: 2
+                },
+                OwningMgmtSubjects: [
+                  {
+                    MainId: 2,
+                    SubordinateId: 2,
+                    RelationType: ManagementEntityOwned,
+                    CreationDate: DateTime_9,
+                    Id: 2
+                  }
+                ],
+                Id: 2
+              },
+              SubordinateId: 2,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_10,
+              Id: 3
+            },
+            {
+              MainId: 1,
+              Subordinate: {
+                Name: Keeley O'Kon,
+                FullName: Keeley O'Kon,
+                PersonType: LegalPerson,
+                BaseCountryTaxIdCode: ZVZ94W6VJSIC,
+                AdditionalTaxIdCode: Z1O47HK9B8S4,
+                LegalSubjectType: UnrecognizedNonbusinessSociety,
+                InternalCode: S0000004,
+                ExternalSourceCode: 1IYZ0NAYLRBF,
+                CreationDate: DateTime_11,
+                EntryStatus: Working,
+                Addresses: [
+                  {
+                    SubjectId: 4,
+                    CityName: South Susieview,
+                    CityReference: Guid_2,
+                    CountryISO: AZE,
+                    Toponymy: 86224 Seth Road Apt. 846,
+                    LocalPostCode: 32960,
+                    CreationDate: DateTime_12,
+                    Id: 4
+                  }
+                ],
+                Contacts: [
+                  {
+                    SubjectId: 4,
+                    ContactInfo: +649-08-963-8890,
+                    ContactInfoType: MobilePhone,
+                    Notes: Assumenda iste quia natus et dignissimos reiciendis ad nostrum.,
+                    CreationDate: DateTime_13,
+                    Id: 2
+                  },
+                  {
+                    SubjectId: 4,
+                    ContactInfo: Norbert.Bartell@yahoo.com,
+                    ContactInfoType: EMail,
+                    Notes: Recusandae est unde vitae amet qui exercitationem.,
+                    CreationDate: DateTime_14,
+                    Id: 3
+                  }
+                ],
+                RelationSubordinates: [],
+                LegalResidentialAddress: {
+                  SubjectId: 4,
+                  CityName: South Susieview,
+                  CityReference: Guid_2,
+                  CountryISO: AZE,
+                  Toponymy: 86224 Seth Road Apt. 846,
+                  LocalPostCode: 32960,
+                  CreationDate: DateTime_12,
+                  Id: 4
+                },
+                OwningMgmtSubjects: [],
+                Id: 4
+              },
+              SubordinateId: 4,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_15,
+              Id: 5
+            },
+            {
+              MainId: 1,
+              Subordinate: {
+                Name: Josianne Simonis,
+                FullName: Josianne Simonis,
+                PersonType: LegalPerson,
+                BaseCountryTaxIdCode: UUGWSGCSFNZL,
+                AdditionalTaxIdCode: 3MZVJ40KODVB,
+                LegalSubjectType: UnrecognizedNonbusinessSociety,
+                InternalCode: S0000005,
+                ExternalSourceCode: 5R3623Q3UNK8,
+                CreationDate: DateTime_16,
+                EntryStatus: Working,
+                Addresses: [
+                  {
+                    SubjectId: 5,
+                    CityName: South Susieview,
+                    CityReference: Guid_2,
+                    CountryISO: AZE,
+                    Toponymy: 3284 Lorenz Oval Suite 311,
+                    LocalPostCode: 25574-1418,
+                    CreationDate: DateTime_17,
+                    Id: 5
+                  }
+                ],
+                Contacts: [
+                  {
+                    SubjectId: 5,
+                    ContactInfo: +247 (641) 887-866,
+                    ContactInfoType: LandlinePhone,
+                    Notes: Porro sed ad et autem suscipit blanditiis.,
+                    CreationDate: DateTime_18,
+                    Id: 4
+                  },
+                  {
+                    SubjectId: 5,
+                    ContactInfo: +066 (692) 909-601,
+                    ContactInfoType: LandlinePhone,
+                    Notes: Voluptas itaque exercitationem cupiditate nam sit quis qui modi.,
+                    CreationDate: DateTime_19,
+                    Id: 5
+                  }
+                ],
+                RelationSubordinates: [],
+                LegalResidentialAddress: {
+                  SubjectId: 5,
+                  CityName: South Susieview,
+                  CityReference: Guid_2,
+                  CountryISO: AZE,
+                  Toponymy: 3284 Lorenz Oval Suite 311,
+                  LocalPostCode: 25574-1418,
+                  CreationDate: DateTime_17,
+                  Id: 5
+                },
+                OwningMgmtSubjects: [],
+                Id: 5
+              },
+              SubordinateId: 5,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_20,
+              Id: 6
+            }
+          ],
+          RelationSubordinates: [
+            {
+              MainId: 1,
+              SubordinateId: 1,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_6,
+              Id: 1
+            }
+          ],
+          LegalResidentialAddress: {
+            SubjectId: 1,
+            CityName: Reannamouth,
+            CityReference: Guid_1,
+            CountryISO: NGA,
+            Toponymy: 734 Dorian Union Apt. 247,
+            LocalPostCode: 41887-8662,
+            CreationDate: DateTime_5,
+            Id: 1
+          },
+          OwningMgmtSubjects: [
+            {
+              MainId: 1,
+              SubordinateId: 1,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_6,
+              Id: 1
+            }
+          ],
+          Id: 1
+        },
+        MainId: 1,
+        SubordinateId: 3,
+        RelationType: ManagementEntityOwned,
+        CreationDate: DateTime_21,
+        Id: 4
+      }
+    ],
+    LegalResidentialAddress: {
+      SubjectId: 3,
+      CityName: Reannamouth,
+      CityReference: Guid_1,
+      CountryISO: NGA,
+      Toponymy: 960 Tito Centers Apt. 169,
+      LocalPostCode: 16526,
+      CreationDate: DateTime_2,
+      Id: 3
+    },
+    OwningMgmtSubjects: [
+      {
+        Main: {
+          Name: Heathcote - Will,
+          FullName: Heathcote - Will,
+          PersonType: ManagementSubject,
+          BaseCountryTaxIdCode: MGZ1VZOBTUZ1,
+          AdditionalTaxIdCode: PIXOJ26GAZNR,
+          InternalCode: S0000001,
+          ExternalSourceCode: QTRK7KWFZ9AG,
+          CreationDate: DateTime_4,
+          EntryStatus: Working,
+          Addresses: [
+            {
+              SubjectId: 1,
+              CityName: Reannamouth,
+              CityReference: Guid_1,
+              CountryISO: NGA,
+              Toponymy: 734 Dorian Union Apt. 247,
+              LocalPostCode: 41887-8662,
+              CreationDate: DateTime_5,
+              Id: 1
+            }
+          ],
+          RelationMains: [
+            {
+              MainId: 1,
+              SubordinateId: 1,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_6,
+              Id: 1
+            },
+            {
+              MainId: 1,
+              Subordinate: {
+                Name: Wisozk - Blick,
+                FullName: Wisozk - Blick,
+                PersonType: ManagementSubject,
+                BaseCountryTaxIdCode: AHUM3QEX4PMT,
+                AdditionalTaxIdCode: OK66L9ZK29UK,
+                InternalCode: S0000003,
+                ExternalSourceCode: U2APYZDIAIJ2,
+                CreationDate: DateTime_7,
+                EntryStatus: Working,
+                Addresses: [
+                  {
+                    SubjectId: 2,
+                    CityName: South Susieview,
+                    CityReference: Guid_2,
+                    CountryISO: AZE,
+                    Toponymy: 56930 Nitzsche Parkways Apt. 420,
+                    LocalPostCode: 14403,
+                    CreationDate: DateTime_8,
+                    Id: 2
+                  }
+                ],
+                RelationMains: [
+                  {
+                    MainId: 2,
+                    SubordinateId: 2,
+                    RelationType: ManagementEntityOwned,
+                    CreationDate: DateTime_9,
+                    Id: 2
+                  }
+                ],
+                RelationSubordinates: [
+                  {
+                    MainId: 2,
+                    SubordinateId: 2,
+                    RelationType: ManagementEntityOwned,
+                    CreationDate: DateTime_9,
+                    Id: 2
+                  }
+                ],
+                LegalResidentialAddress: {
+                  SubjectId: 2,
+                  CityName: South Susieview,
+                  CityReference: Guid_2,
+                  CountryISO: AZE,
+                  Toponymy: 56930 Nitzsche Parkways Apt. 420,
+                  LocalPostCode: 14403,
+                  CreationDate: DateTime_8,
+                  Id: 2
+                },
+                OwningMgmtSubjects: [
+                  {
+                    MainId: 2,
+                    SubordinateId: 2,
+                    RelationType: ManagementEntityOwned,
+                    CreationDate: DateTime_9,
+                    Id: 2
+                  }
+                ],
+                Id: 2
+              },
+              SubordinateId: 2,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_10,
+              Id: 3
+            },
+            {
+              MainId: 1,
+              Subordinate: {
+                Name: Keeley O'Kon,
+                FullName: Keeley O'Kon,
+                PersonType: LegalPerson,
+                BaseCountryTaxIdCode: ZVZ94W6VJSIC,
+                AdditionalTaxIdCode: Z1O47HK9B8S4,
+                LegalSubjectType: UnrecognizedNonbusinessSociety,
+                InternalCode: S0000004,
+                ExternalSourceCode: 1IYZ0NAYLRBF,
+                CreationDate: DateTime_11,
+                EntryStatus: Working,
+                Addresses: [
+                  {
+                    SubjectId: 4,
+                    CityName: South Susieview,
+                    CityReference: Guid_2,
+                    CountryISO: AZE,
+                    Toponymy: 86224 Seth Road Apt. 846,
+                    LocalPostCode: 32960,
+                    CreationDate: DateTime_12,
+                    Id: 4
+                  }
+                ],
+                Contacts: [
+                  {
+                    SubjectId: 4,
+                    ContactInfo: +649-08-963-8890,
+                    ContactInfoType: MobilePhone,
+                    Notes: Assumenda iste quia natus et dignissimos reiciendis ad nostrum.,
+                    CreationDate: DateTime_13,
+                    Id: 2
+                  },
+                  {
+                    SubjectId: 4,
+                    ContactInfo: Norbert.Bartell@yahoo.com,
+                    ContactInfoType: EMail,
+                    Notes: Recusandae est unde vitae amet qui exercitationem.,
+                    CreationDate: DateTime_14,
+                    Id: 3
+                  }
+                ],
+                RelationSubordinates: [],
+                LegalResidentialAddress: {
+                  SubjectId: 4,
+                  CityName: South Susieview,
+                  CityReference: Guid_2,
+                  CountryISO: AZE,
+                  Toponymy: 86224 Seth Road Apt. 846,
+                  LocalPostCode: 32960,
+                  CreationDate: DateTime_12,
+                  Id: 4
+                },
+                OwningMgmtSubjects: [],
+                Id: 4
+              },
+              SubordinateId: 4,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_15,
+              Id: 5
+            },
+            {
+              MainId: 1,
+              Subordinate: {
+                Name: Josianne Simonis,
+                FullName: Josianne Simonis,
+                PersonType: LegalPerson,
+                BaseCountryTaxIdCode: UUGWSGCSFNZL,
+                AdditionalTaxIdCode: 3MZVJ40KODVB,
+                LegalSubjectType: UnrecognizedNonbusinessSociety,
+                InternalCode: S0000005,
+                ExternalSourceCode: 5R3623Q3UNK8,
+                CreationDate: DateTime_16,
+                EntryStatus: Working,
+                Addresses: [
+                  {
+                    SubjectId: 5,
+                    CityName: South Susieview,
+                    CityReference: Guid_2,
+                    CountryISO: AZE,
+                    Toponymy: 3284 Lorenz Oval Suite 311,
+                    LocalPostCode: 25574-1418,
+                    CreationDate: DateTime_17,
+                    Id: 5
+                  }
+                ],
+                Contacts: [
+                  {
+                    SubjectId: 5,
+                    ContactInfo: +247 (641) 887-866,
+                    ContactInfoType: LandlinePhone,
+                    Notes: Porro sed ad et autem suscipit blanditiis.,
+                    CreationDate: DateTime_18,
+                    Id: 4
+                  },
+                  {
+                    SubjectId: 5,
+                    ContactInfo: +066 (692) 909-601,
+                    ContactInfoType: LandlinePhone,
+                    Notes: Voluptas itaque exercitationem cupiditate nam sit quis qui modi.,
+                    CreationDate: DateTime_19,
+                    Id: 5
+                  }
+                ],
+                RelationSubordinates: [],
+                LegalResidentialAddress: {
+                  SubjectId: 5,
+                  CityName: South Susieview,
+                  CityReference: Guid_2,
+                  CountryISO: AZE,
+                  Toponymy: 3284 Lorenz Oval Suite 311,
+                  LocalPostCode: 25574-1418,
+                  CreationDate: DateTime_17,
+                  Id: 5
+                },
+                OwningMgmtSubjects: [],
+                Id: 5
+              },
+              SubordinateId: 5,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_20,
+              Id: 6
+            }
+          ],
+          RelationSubordinates: [
+            {
+              MainId: 1,
+              SubordinateId: 1,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_6,
+              Id: 1
+            }
+          ],
+          LegalResidentialAddress: {
+            SubjectId: 1,
+            CityName: Reannamouth,
+            CityReference: Guid_1,
+            CountryISO: NGA,
+            Toponymy: 734 Dorian Union Apt. 247,
+            LocalPostCode: 41887-8662,
+            CreationDate: DateTime_5,
+            Id: 1
+          },
+          OwningMgmtSubjects: [
+            {
+              MainId: 1,
+              SubordinateId: 1,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_6,
+              Id: 1
+            }
+          ],
+          Id: 1
+        },
+        MainId: 1,
+        SubordinateId: 3,
+        RelationType: ManagementEntityOwned,
+        CreationDate: DateTime_21,
+        Id: 4
+      }
+    ],
+    Id: 3
+  },
+  {
+    Name: Keeley O'Kon,
+    FullName: Keeley O'Kon,
+    PersonType: LegalPerson,
+    BaseCountryTaxIdCode: ZVZ94W6VJSIC,
+    AdditionalTaxIdCode: Z1O47HK9B8S4,
+    LegalSubjectType: UnrecognizedNonbusinessSociety,
+    InternalCode: S0000004,
+    ExternalSourceCode: 1IYZ0NAYLRBF,
+    CreationDate: DateTime_11,
+    EntryStatus: Working,
+    Addresses: [
+      {
+        SubjectId: 4,
+        CityName: South Susieview,
+        CityReference: Guid_2,
+        CountryISO: AZE,
+        Toponymy: 86224 Seth Road Apt. 846,
+        LocalPostCode: 32960,
+        CreationDate: DateTime_12,
+        Id: 4
+      }
+    ],
+    Contacts: [
+      {
+        SubjectId: 4,
+        ContactInfo: +649-08-963-8890,
+        ContactInfoType: MobilePhone,
+        Notes: Assumenda iste quia natus et dignissimos reiciendis ad nostrum.,
+        CreationDate: DateTime_13,
+        Id: 2
+      },
+      {
+        SubjectId: 4,
+        ContactInfo: Norbert.Bartell@yahoo.com,
+        ContactInfoType: EMail,
+        Notes: Recusandae est unde vitae amet qui exercitationem.,
+        CreationDate: DateTime_14,
+        Id: 3
+      }
+    ],
+    RelationSubordinates: [
+      {
+        Main: {
+          Name: Heathcote - Will,
+          FullName: Heathcote - Will,
+          PersonType: ManagementSubject,
+          BaseCountryTaxIdCode: MGZ1VZOBTUZ1,
+          AdditionalTaxIdCode: PIXOJ26GAZNR,
+          InternalCode: S0000001,
+          ExternalSourceCode: QTRK7KWFZ9AG,
+          CreationDate: DateTime_4,
+          EntryStatus: Working,
+          Addresses: [
+            {
+              SubjectId: 1,
+              CityName: Reannamouth,
+              CityReference: Guid_1,
+              CountryISO: NGA,
+              Toponymy: 734 Dorian Union Apt. 247,
+              LocalPostCode: 41887-8662,
+              CreationDate: DateTime_5,
+              Id: 1
+            }
+          ],
+          RelationMains: [
+            {
+              MainId: 1,
+              SubordinateId: 1,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_6,
+              Id: 1
+            },
+            {
+              MainId: 1,
+              Subordinate: {
+                Name: Wisozk - Blick,
+                FullName: Wisozk - Blick,
+                PersonType: ManagementSubject,
+                BaseCountryTaxIdCode: AHUM3QEX4PMT,
+                AdditionalTaxIdCode: OK66L9ZK29UK,
+                InternalCode: S0000003,
+                ExternalSourceCode: U2APYZDIAIJ2,
+                CreationDate: DateTime_7,
+                EntryStatus: Working,
+                Addresses: [
+                  {
+                    SubjectId: 2,
+                    CityName: South Susieview,
+                    CityReference: Guid_2,
+                    CountryISO: AZE,
+                    Toponymy: 56930 Nitzsche Parkways Apt. 420,
+                    LocalPostCode: 14403,
+                    CreationDate: DateTime_8,
+                    Id: 2
+                  }
+                ],
+                RelationMains: [
+                  {
+                    MainId: 2,
+                    SubordinateId: 2,
+                    RelationType: ManagementEntityOwned,
+                    CreationDate: DateTime_9,
+                    Id: 2
+                  }
+                ],
+                RelationSubordinates: [
+                  {
+                    MainId: 2,
+                    SubordinateId: 2,
+                    RelationType: ManagementEntityOwned,
+                    CreationDate: DateTime_9,
+                    Id: 2
+                  }
+                ],
+                LegalResidentialAddress: {
+                  SubjectId: 2,
+                  CityName: South Susieview,
+                  CityReference: Guid_2,
+                  CountryISO: AZE,
+                  Toponymy: 56930 Nitzsche Parkways Apt. 420,
+                  LocalPostCode: 14403,
+                  CreationDate: DateTime_8,
+                  Id: 2
+                },
+                OwningMgmtSubjects: [
+                  {
+                    MainId: 2,
+                    SubordinateId: 2,
+                    RelationType: ManagementEntityOwned,
+                    CreationDate: DateTime_9,
+                    Id: 2
+                  }
+                ],
+                Id: 2
+              },
+              SubordinateId: 2,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_10,
+              Id: 3
+            },
+            {
+              MainId: 1,
+              Subordinate: {
+                Name: Linnea Pouros,
+                FullName: Linnea Pouros,
+                PersonType: LegalPerson,
+                BaseCountryTaxIdCode: 3QP4W6HJBOGU,
+                AdditionalTaxIdCode: TSRXAINBAT86,
+                LegalSubjectType: UnrecognizedNonbusinessSociety,
+                InternalCode: S0000002,
+                ExternalSourceCode: W3U6NT7ZHNPT,
+                CreationDate: DateTime_1,
+                EntryStatus: Working,
+                Addresses: [
+                  {
+                    SubjectId: 3,
+                    CityName: Reannamouth,
+                    CityReference: Guid_1,
+                    CountryISO: NGA,
+                    Toponymy: 960 Tito Centers Apt. 169,
+                    LocalPostCode: 16526,
+                    CreationDate: DateTime_2,
+                    Id: 3
+                  }
+                ],
+                Contacts: [
+                  {
+                    SubjectId: 3,
+                    ContactInfo: +817 (719) 145-3648,
+                    Notes: Eveniet dicta quo ipsum facilis dolorem eius repellat deleniti et.; FAX,
+                    CreationDate: DateTime_3,
+                    Id: 1
+                  }
+                ],
+                RelationSubordinates: [],
+                LegalResidentialAddress: {
+                  SubjectId: 3,
+                  CityName: Reannamouth,
+                  CityReference: Guid_1,
+                  CountryISO: NGA,
+                  Toponymy: 960 Tito Centers Apt. 169,
+                  LocalPostCode: 16526,
+                  CreationDate: DateTime_2,
+                  Id: 3
+                },
+                OwningMgmtSubjects: [],
+                Id: 3
+              },
+              SubordinateId: 3,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_21,
+              Id: 4
+            },
+            {
+              MainId: 1,
+              Subordinate: {
+                Name: Josianne Simonis,
+                FullName: Josianne Simonis,
+                PersonType: LegalPerson,
+                BaseCountryTaxIdCode: UUGWSGCSFNZL,
+                AdditionalTaxIdCode: 3MZVJ40KODVB,
+                LegalSubjectType: UnrecognizedNonbusinessSociety,
+                InternalCode: S0000005,
+                ExternalSourceCode: 5R3623Q3UNK8,
+                CreationDate: DateTime_16,
+                EntryStatus: Working,
+                Addresses: [
+                  {
+                    SubjectId: 5,
+                    CityName: South Susieview,
+                    CityReference: Guid_2,
+                    CountryISO: AZE,
+                    Toponymy: 3284 Lorenz Oval Suite 311,
+                    LocalPostCode: 25574-1418,
+                    CreationDate: DateTime_17,
+                    Id: 5
+                  }
+                ],
+                Contacts: [
+                  {
+                    SubjectId: 5,
+                    ContactInfo: +247 (641) 887-866,
+                    ContactInfoType: LandlinePhone,
+                    Notes: Porro sed ad et autem suscipit blanditiis.,
+                    CreationDate: DateTime_18,
+                    Id: 4
+                  },
+                  {
+                    SubjectId: 5,
+                    ContactInfo: +066 (692) 909-601,
+                    ContactInfoType: LandlinePhone,
+                    Notes: Voluptas itaque exercitationem cupiditate nam sit quis qui modi.,
+                    CreationDate: DateTime_19,
+                    Id: 5
+                  }
+                ],
+                RelationSubordinates: [],
+                LegalResidentialAddress: {
+                  SubjectId: 5,
+                  CityName: South Susieview,
+                  CityReference: Guid_2,
+                  CountryISO: AZE,
+                  Toponymy: 3284 Lorenz Oval Suite 311,
+                  LocalPostCode: 25574-1418,
+                  CreationDate: DateTime_17,
+                  Id: 5
+                },
+                OwningMgmtSubjects: [],
+                Id: 5
+              },
+              SubordinateId: 5,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_20,
+              Id: 6
+            }
+          ],
+          RelationSubordinates: [
+            {
+              MainId: 1,
+              SubordinateId: 1,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_6,
+              Id: 1
+            }
+          ],
+          LegalResidentialAddress: {
+            SubjectId: 1,
+            CityName: Reannamouth,
+            CityReference: Guid_1,
+            CountryISO: NGA,
+            Toponymy: 734 Dorian Union Apt. 247,
+            LocalPostCode: 41887-8662,
+            CreationDate: DateTime_5,
+            Id: 1
+          },
+          OwningMgmtSubjects: [
+            {
+              MainId: 1,
+              SubordinateId: 1,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_6,
+              Id: 1
+            }
+          ],
+          Id: 1
+        },
+        MainId: 1,
+        SubordinateId: 4,
+        RelationType: ManagementEntityOwned,
+        CreationDate: DateTime_15,
+        Id: 5
+      }
+    ],
+    LegalResidentialAddress: {
+      SubjectId: 4,
+      CityName: South Susieview,
+      CityReference: Guid_2,
+      CountryISO: AZE,
+      Toponymy: 86224 Seth Road Apt. 846,
+      LocalPostCode: 32960,
+      CreationDate: DateTime_12,
+      Id: 4
+    },
+    OwningMgmtSubjects: [
+      {
+        Main: {
+          Name: Heathcote - Will,
+          FullName: Heathcote - Will,
+          PersonType: ManagementSubject,
+          BaseCountryTaxIdCode: MGZ1VZOBTUZ1,
+          AdditionalTaxIdCode: PIXOJ26GAZNR,
+          InternalCode: S0000001,
+          ExternalSourceCode: QTRK7KWFZ9AG,
+          CreationDate: DateTime_4,
+          EntryStatus: Working,
+          Addresses: [
+            {
+              SubjectId: 1,
+              CityName: Reannamouth,
+              CityReference: Guid_1,
+              CountryISO: NGA,
+              Toponymy: 734 Dorian Union Apt. 247,
+              LocalPostCode: 41887-8662,
+              CreationDate: DateTime_5,
+              Id: 1
+            }
+          ],
+          RelationMains: [
+            {
+              MainId: 1,
+              SubordinateId: 1,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_6,
+              Id: 1
+            },
+            {
+              MainId: 1,
+              Subordinate: {
+                Name: Wisozk - Blick,
+                FullName: Wisozk - Blick,
+                PersonType: ManagementSubject,
+                BaseCountryTaxIdCode: AHUM3QEX4PMT,
+                AdditionalTaxIdCode: OK66L9ZK29UK,
+                InternalCode: S0000003,
+                ExternalSourceCode: U2APYZDIAIJ2,
+                CreationDate: DateTime_7,
+                EntryStatus: Working,
+                Addresses: [
+                  {
+                    SubjectId: 2,
+                    CityName: South Susieview,
+                    CityReference: Guid_2,
+                    CountryISO: AZE,
+                    Toponymy: 56930 Nitzsche Parkways Apt. 420,
+                    LocalPostCode: 14403,
+                    CreationDate: DateTime_8,
+                    Id: 2
+                  }
+                ],
+                RelationMains: [
+                  {
+                    MainId: 2,
+                    SubordinateId: 2,
+                    RelationType: ManagementEntityOwned,
+                    CreationDate: DateTime_9,
+                    Id: 2
+                  }
+                ],
+                RelationSubordinates: [
+                  {
+                    MainId: 2,
+                    SubordinateId: 2,
+                    RelationType: ManagementEntityOwned,
+                    CreationDate: DateTime_9,
+                    Id: 2
+                  }
+                ],
+                LegalResidentialAddress: {
+                  SubjectId: 2,
+                  CityName: South Susieview,
+                  CityReference: Guid_2,
+                  CountryISO: AZE,
+                  Toponymy: 56930 Nitzsche Parkways Apt. 420,
+                  LocalPostCode: 14403,
+                  CreationDate: DateTime_8,
+                  Id: 2
+                },
+                OwningMgmtSubjects: [
+                  {
+                    MainId: 2,
+                    SubordinateId: 2,
+                    RelationType: ManagementEntityOwned,
+                    CreationDate: DateTime_9,
+                    Id: 2
+                  }
+                ],
+                Id: 2
+              },
+              SubordinateId: 2,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_10,
+              Id: 3
+            },
+            {
+              MainId: 1,
+              Subordinate: {
+                Name: Linnea Pouros,
+                FullName: Linnea Pouros,
+                PersonType: LegalPerson,
+                BaseCountryTaxIdCode: 3QP4W6HJBOGU,
+                AdditionalTaxIdCode: TSRXAINBAT86,
+                LegalSubjectType: UnrecognizedNonbusinessSociety,
+                InternalCode: S0000002,
+                ExternalSourceCode: W3U6NT7ZHNPT,
+                CreationDate: DateTime_1,
+                EntryStatus: Working,
+                Addresses: [
+                  {
+                    SubjectId: 3,
+                    CityName: Reannamouth,
+                    CityReference: Guid_1,
+                    CountryISO: NGA,
+                    Toponymy: 960 Tito Centers Apt. 169,
+                    LocalPostCode: 16526,
+                    CreationDate: DateTime_2,
+                    Id: 3
+                  }
+                ],
+                Contacts: [
+                  {
+                    SubjectId: 3,
+                    ContactInfo: +817 (719) 145-3648,
+                    Notes: Eveniet dicta quo ipsum facilis dolorem eius repellat deleniti et.; FAX,
+                    CreationDate: DateTime_3,
+                    Id: 1
+                  }
+                ],
+                RelationSubordinates: [],
+                LegalResidentialAddress: {
+                  SubjectId: 3,
+                  CityName: Reannamouth,
+                  CityReference: Guid_1,
+                  CountryISO: NGA,
+                  Toponymy: 960 Tito Centers Apt. 169,
+                  LocalPostCode: 16526,
+                  CreationDate: DateTime_2,
+                  Id: 3
+                },
+                OwningMgmtSubjects: [],
+                Id: 3
+              },
+              SubordinateId: 3,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_21,
+              Id: 4
+            },
+            {
+              MainId: 1,
+              Subordinate: {
+                Name: Josianne Simonis,
+                FullName: Josianne Simonis,
+                PersonType: LegalPerson,
+                BaseCountryTaxIdCode: UUGWSGCSFNZL,
+                AdditionalTaxIdCode: 3MZVJ40KODVB,
+                LegalSubjectType: UnrecognizedNonbusinessSociety,
+                InternalCode: S0000005,
+                ExternalSourceCode: 5R3623Q3UNK8,
+                CreationDate: DateTime_16,
+                EntryStatus: Working,
+                Addresses: [
+                  {
+                    SubjectId: 5,
+                    CityName: South Susieview,
+                    CityReference: Guid_2,
+                    CountryISO: AZE,
+                    Toponymy: 3284 Lorenz Oval Suite 311,
+                    LocalPostCode: 25574-1418,
+                    CreationDate: DateTime_17,
+                    Id: 5
+                  }
+                ],
+                Contacts: [
+                  {
+                    SubjectId: 5,
+                    ContactInfo: +247 (641) 887-866,
+                    ContactInfoType: LandlinePhone,
+                    Notes: Porro sed ad et autem suscipit blanditiis.,
+                    CreationDate: DateTime_18,
+                    Id: 4
+                  },
+                  {
+                    SubjectId: 5,
+                    ContactInfo: +066 (692) 909-601,
+                    ContactInfoType: LandlinePhone,
+                    Notes: Voluptas itaque exercitationem cupiditate nam sit quis qui modi.,
+                    CreationDate: DateTime_19,
+                    Id: 5
+                  }
+                ],
+                RelationSubordinates: [],
+                LegalResidentialAddress: {
+                  SubjectId: 5,
+                  CityName: South Susieview,
+                  CityReference: Guid_2,
+                  CountryISO: AZE,
+                  Toponymy: 3284 Lorenz Oval Suite 311,
+                  LocalPostCode: 25574-1418,
+                  CreationDate: DateTime_17,
+                  Id: 5
+                },
+                OwningMgmtSubjects: [],
+                Id: 5
+              },
+              SubordinateId: 5,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_20,
+              Id: 6
+            }
+          ],
+          RelationSubordinates: [
+            {
+              MainId: 1,
+              SubordinateId: 1,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_6,
+              Id: 1
+            }
+          ],
+          LegalResidentialAddress: {
+            SubjectId: 1,
+            CityName: Reannamouth,
+            CityReference: Guid_1,
+            CountryISO: NGA,
+            Toponymy: 734 Dorian Union Apt. 247,
+            LocalPostCode: 41887-8662,
+            CreationDate: DateTime_5,
+            Id: 1
+          },
+          OwningMgmtSubjects: [
+            {
+              MainId: 1,
+              SubordinateId: 1,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_6,
+              Id: 1
+            }
+          ],
+          Id: 1
+        },
+        MainId: 1,
+        SubordinateId: 4,
+        RelationType: ManagementEntityOwned,
+        CreationDate: DateTime_15,
+        Id: 5
+      }
+    ],
+    Id: 4
+  },
+  {
+    Name: Josianne Simonis,
+    FullName: Josianne Simonis,
+    PersonType: LegalPerson,
+    BaseCountryTaxIdCode: UUGWSGCSFNZL,
+    AdditionalTaxIdCode: 3MZVJ40KODVB,
+    LegalSubjectType: UnrecognizedNonbusinessSociety,
+    InternalCode: S0000005,
+    ExternalSourceCode: 5R3623Q3UNK8,
+    CreationDate: DateTime_16,
+    EntryStatus: Working,
+    Addresses: [
+      {
+        SubjectId: 5,
+        CityName: South Susieview,
+        CityReference: Guid_2,
+        CountryISO: AZE,
+        Toponymy: 3284 Lorenz Oval Suite 311,
+        LocalPostCode: 25574-1418,
+        CreationDate: DateTime_17,
+        Id: 5
+      }
+    ],
+    Contacts: [
+      {
+        SubjectId: 5,
+        ContactInfo: +247 (641) 887-866,
+        ContactInfoType: LandlinePhone,
+        Notes: Porro sed ad et autem suscipit blanditiis.,
+        CreationDate: DateTime_18,
+        Id: 4
+      },
+      {
+        SubjectId: 5,
+        ContactInfo: +066 (692) 909-601,
+        ContactInfoType: LandlinePhone,
+        Notes: Voluptas itaque exercitationem cupiditate nam sit quis qui modi.,
+        CreationDate: DateTime_19,
+        Id: 5
+      }
+    ],
+    RelationSubordinates: [
+      {
+        Main: {
+          Name: Heathcote - Will,
+          FullName: Heathcote - Will,
+          PersonType: ManagementSubject,
+          BaseCountryTaxIdCode: MGZ1VZOBTUZ1,
+          AdditionalTaxIdCode: PIXOJ26GAZNR,
+          InternalCode: S0000001,
+          ExternalSourceCode: QTRK7KWFZ9AG,
+          CreationDate: DateTime_4,
+          EntryStatus: Working,
+          Addresses: [
+            {
+              SubjectId: 1,
+              CityName: Reannamouth,
+              CityReference: Guid_1,
+              CountryISO: NGA,
+              Toponymy: 734 Dorian Union Apt. 247,
+              LocalPostCode: 41887-8662,
+              CreationDate: DateTime_5,
+              Id: 1
+            }
+          ],
+          RelationMains: [
+            {
+              MainId: 1,
+              SubordinateId: 1,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_6,
+              Id: 1
+            },
+            {
+              MainId: 1,
+              Subordinate: {
+                Name: Wisozk - Blick,
+                FullName: Wisozk - Blick,
+                PersonType: ManagementSubject,
+                BaseCountryTaxIdCode: AHUM3QEX4PMT,
+                AdditionalTaxIdCode: OK66L9ZK29UK,
+                InternalCode: S0000003,
+                ExternalSourceCode: U2APYZDIAIJ2,
+                CreationDate: DateTime_7,
+                EntryStatus: Working,
+                Addresses: [
+                  {
+                    SubjectId: 2,
+                    CityName: South Susieview,
+                    CityReference: Guid_2,
+                    CountryISO: AZE,
+                    Toponymy: 56930 Nitzsche Parkways Apt. 420,
+                    LocalPostCode: 14403,
+                    CreationDate: DateTime_8,
+                    Id: 2
+                  }
+                ],
+                RelationMains: [
+                  {
+                    MainId: 2,
+                    SubordinateId: 2,
+                    RelationType: ManagementEntityOwned,
+                    CreationDate: DateTime_9,
+                    Id: 2
+                  }
+                ],
+                RelationSubordinates: [
+                  {
+                    MainId: 2,
+                    SubordinateId: 2,
+                    RelationType: ManagementEntityOwned,
+                    CreationDate: DateTime_9,
+                    Id: 2
+                  }
+                ],
+                LegalResidentialAddress: {
+                  SubjectId: 2,
+                  CityName: South Susieview,
+                  CityReference: Guid_2,
+                  CountryISO: AZE,
+                  Toponymy: 56930 Nitzsche Parkways Apt. 420,
+                  LocalPostCode: 14403,
+                  CreationDate: DateTime_8,
+                  Id: 2
+                },
+                OwningMgmtSubjects: [
+                  {
+                    MainId: 2,
+                    SubordinateId: 2,
+                    RelationType: ManagementEntityOwned,
+                    CreationDate: DateTime_9,
+                    Id: 2
+                  }
+                ],
+                Id: 2
+              },
+              SubordinateId: 2,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_10,
+              Id: 3
+            },
+            {
+              MainId: 1,
+              Subordinate: {
+                Name: Linnea Pouros,
+                FullName: Linnea Pouros,
+                PersonType: LegalPerson,
+                BaseCountryTaxIdCode: 3QP4W6HJBOGU,
+                AdditionalTaxIdCode: TSRXAINBAT86,
+                LegalSubjectType: UnrecognizedNonbusinessSociety,
+                InternalCode: S0000002,
+                ExternalSourceCode: W3U6NT7ZHNPT,
+                CreationDate: DateTime_1,
+                EntryStatus: Working,
+                Addresses: [
+                  {
+                    SubjectId: 3,
+                    CityName: Reannamouth,
+                    CityReference: Guid_1,
+                    CountryISO: NGA,
+                    Toponymy: 960 Tito Centers Apt. 169,
+                    LocalPostCode: 16526,
+                    CreationDate: DateTime_2,
+                    Id: 3
+                  }
+                ],
+                Contacts: [
+                  {
+                    SubjectId: 3,
+                    ContactInfo: +817 (719) 145-3648,
+                    Notes: Eveniet dicta quo ipsum facilis dolorem eius repellat deleniti et.; FAX,
+                    CreationDate: DateTime_3,
+                    Id: 1
+                  }
+                ],
+                RelationSubordinates: [],
+                LegalResidentialAddress: {
+                  SubjectId: 3,
+                  CityName: Reannamouth,
+                  CityReference: Guid_1,
+                  CountryISO: NGA,
+                  Toponymy: 960 Tito Centers Apt. 169,
+                  LocalPostCode: 16526,
+                  CreationDate: DateTime_2,
+                  Id: 3
+                },
+                OwningMgmtSubjects: [],
+                Id: 3
+              },
+              SubordinateId: 3,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_21,
+              Id: 4
+            },
+            {
+              MainId: 1,
+              Subordinate: {
+                Name: Keeley O'Kon,
+                FullName: Keeley O'Kon,
+                PersonType: LegalPerson,
+                BaseCountryTaxIdCode: ZVZ94W6VJSIC,
+                AdditionalTaxIdCode: Z1O47HK9B8S4,
+                LegalSubjectType: UnrecognizedNonbusinessSociety,
+                InternalCode: S0000004,
+                ExternalSourceCode: 1IYZ0NAYLRBF,
+                CreationDate: DateTime_11,
+                EntryStatus: Working,
+                Addresses: [
+                  {
+                    SubjectId: 4,
+                    CityName: South Susieview,
+                    CityReference: Guid_2,
+                    CountryISO: AZE,
+                    Toponymy: 86224 Seth Road Apt. 846,
+                    LocalPostCode: 32960,
+                    CreationDate: DateTime_12,
+                    Id: 4
+                  }
+                ],
+                Contacts: [
+                  {
+                    SubjectId: 4,
+                    ContactInfo: +649-08-963-8890,
+                    ContactInfoType: MobilePhone,
+                    Notes: Assumenda iste quia natus et dignissimos reiciendis ad nostrum.,
+                    CreationDate: DateTime_13,
+                    Id: 2
+                  },
+                  {
+                    SubjectId: 4,
+                    ContactInfo: Norbert.Bartell@yahoo.com,
+                    ContactInfoType: EMail,
+                    Notes: Recusandae est unde vitae amet qui exercitationem.,
+                    CreationDate: DateTime_14,
+                    Id: 3
+                  }
+                ],
+                RelationSubordinates: [],
+                LegalResidentialAddress: {
+                  SubjectId: 4,
+                  CityName: South Susieview,
+                  CityReference: Guid_2,
+                  CountryISO: AZE,
+                  Toponymy: 86224 Seth Road Apt. 846,
+                  LocalPostCode: 32960,
+                  CreationDate: DateTime_12,
+                  Id: 4
+                },
+                OwningMgmtSubjects: [],
+                Id: 4
+              },
+              SubordinateId: 4,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_15,
+              Id: 5
+            }
+          ],
+          RelationSubordinates: [
+            {
+              MainId: 1,
+              SubordinateId: 1,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_6,
+              Id: 1
+            }
+          ],
+          LegalResidentialAddress: {
+            SubjectId: 1,
+            CityName: Reannamouth,
+            CityReference: Guid_1,
+            CountryISO: NGA,
+            Toponymy: 734 Dorian Union Apt. 247,
+            LocalPostCode: 41887-8662,
+            CreationDate: DateTime_5,
+            Id: 1
+          },
+          OwningMgmtSubjects: [
+            {
+              MainId: 1,
+              SubordinateId: 1,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_6,
+              Id: 1
+            }
+          ],
+          Id: 1
+        },
+        MainId: 1,
+        SubordinateId: 5,
+        RelationType: ManagementEntityOwned,
+        CreationDate: DateTime_20,
+        Id: 6
+      }
+    ],
+    LegalResidentialAddress: {
+      SubjectId: 5,
+      CityName: South Susieview,
+      CityReference: Guid_2,
+      CountryISO: AZE,
+      Toponymy: 3284 Lorenz Oval Suite 311,
+      LocalPostCode: 25574-1418,
+      CreationDate: DateTime_17,
+      Id: 5
+    },
+    OwningMgmtSubjects: [
+      {
+        Main: {
+          Name: Heathcote - Will,
+          FullName: Heathcote - Will,
+          PersonType: ManagementSubject,
+          BaseCountryTaxIdCode: MGZ1VZOBTUZ1,
+          AdditionalTaxIdCode: PIXOJ26GAZNR,
+          InternalCode: S0000001,
+          ExternalSourceCode: QTRK7KWFZ9AG,
+          CreationDate: DateTime_4,
+          EntryStatus: Working,
+          Addresses: [
+            {
+              SubjectId: 1,
+              CityName: Reannamouth,
+              CityReference: Guid_1,
+              CountryISO: NGA,
+              Toponymy: 734 Dorian Union Apt. 247,
+              LocalPostCode: 41887-8662,
+              CreationDate: DateTime_5,
+              Id: 1
+            }
+          ],
+          RelationMains: [
+            {
+              MainId: 1,
+              SubordinateId: 1,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_6,
+              Id: 1
+            },
+            {
+              MainId: 1,
+              Subordinate: {
+                Name: Wisozk - Blick,
+                FullName: Wisozk - Blick,
+                PersonType: ManagementSubject,
+                BaseCountryTaxIdCode: AHUM3QEX4PMT,
+                AdditionalTaxIdCode: OK66L9ZK29UK,
+                InternalCode: S0000003,
+                ExternalSourceCode: U2APYZDIAIJ2,
+                CreationDate: DateTime_7,
+                EntryStatus: Working,
+                Addresses: [
+                  {
+                    SubjectId: 2,
+                    CityName: South Susieview,
+                    CityReference: Guid_2,
+                    CountryISO: AZE,
+                    Toponymy: 56930 Nitzsche Parkways Apt. 420,
+                    LocalPostCode: 14403,
+                    CreationDate: DateTime_8,
+                    Id: 2
+                  }
+                ],
+                RelationMains: [
+                  {
+                    MainId: 2,
+                    SubordinateId: 2,
+                    RelationType: ManagementEntityOwned,
+                    CreationDate: DateTime_9,
+                    Id: 2
+                  }
+                ],
+                RelationSubordinates: [
+                  {
+                    MainId: 2,
+                    SubordinateId: 2,
+                    RelationType: ManagementEntityOwned,
+                    CreationDate: DateTime_9,
+                    Id: 2
+                  }
+                ],
+                LegalResidentialAddress: {
+                  SubjectId: 2,
+                  CityName: South Susieview,
+                  CityReference: Guid_2,
+                  CountryISO: AZE,
+                  Toponymy: 56930 Nitzsche Parkways Apt. 420,
+                  LocalPostCode: 14403,
+                  CreationDate: DateTime_8,
+                  Id: 2
+                },
+                OwningMgmtSubjects: [
+                  {
+                    MainId: 2,
+                    SubordinateId: 2,
+                    RelationType: ManagementEntityOwned,
+                    CreationDate: DateTime_9,
+                    Id: 2
+                  }
+                ],
+                Id: 2
+              },
+              SubordinateId: 2,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_10,
+              Id: 3
+            },
+            {
+              MainId: 1,
+              Subordinate: {
+                Name: Linnea Pouros,
+                FullName: Linnea Pouros,
+                PersonType: LegalPerson,
+                BaseCountryTaxIdCode: 3QP4W6HJBOGU,
+                AdditionalTaxIdCode: TSRXAINBAT86,
+                LegalSubjectType: UnrecognizedNonbusinessSociety,
+                InternalCode: S0000002,
+                ExternalSourceCode: W3U6NT7ZHNPT,
+                CreationDate: DateTime_1,
+                EntryStatus: Working,
+                Addresses: [
+                  {
+                    SubjectId: 3,
+                    CityName: Reannamouth,
+                    CityReference: Guid_1,
+                    CountryISO: NGA,
+                    Toponymy: 960 Tito Centers Apt. 169,
+                    LocalPostCode: 16526,
+                    CreationDate: DateTime_2,
+                    Id: 3
+                  }
+                ],
+                Contacts: [
+                  {
+                    SubjectId: 3,
+                    ContactInfo: +817 (719) 145-3648,
+                    Notes: Eveniet dicta quo ipsum facilis dolorem eius repellat deleniti et.; FAX,
+                    CreationDate: DateTime_3,
+                    Id: 1
+                  }
+                ],
+                RelationSubordinates: [],
+                LegalResidentialAddress: {
+                  SubjectId: 3,
+                  CityName: Reannamouth,
+                  CityReference: Guid_1,
+                  CountryISO: NGA,
+                  Toponymy: 960 Tito Centers Apt. 169,
+                  LocalPostCode: 16526,
+                  CreationDate: DateTime_2,
+                  Id: 3
+                },
+                OwningMgmtSubjects: [],
+                Id: 3
+              },
+              SubordinateId: 3,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_21,
+              Id: 4
+            },
+            {
+              MainId: 1,
+              Subordinate: {
+                Name: Keeley O'Kon,
+                FullName: Keeley O'Kon,
+                PersonType: LegalPerson,
+                BaseCountryTaxIdCode: ZVZ94W6VJSIC,
+                AdditionalTaxIdCode: Z1O47HK9B8S4,
+                LegalSubjectType: UnrecognizedNonbusinessSociety,
+                InternalCode: S0000004,
+                ExternalSourceCode: 1IYZ0NAYLRBF,
+                CreationDate: DateTime_11,
+                EntryStatus: Working,
+                Addresses: [
+                  {
+                    SubjectId: 4,
+                    CityName: South Susieview,
+                    CityReference: Guid_2,
+                    CountryISO: AZE,
+                    Toponymy: 86224 Seth Road Apt. 846,
+                    LocalPostCode: 32960,
+                    CreationDate: DateTime_12,
+                    Id: 4
+                  }
+                ],
+                Contacts: [
+                  {
+                    SubjectId: 4,
+                    ContactInfo: +649-08-963-8890,
+                    ContactInfoType: MobilePhone,
+                    Notes: Assumenda iste quia natus et dignissimos reiciendis ad nostrum.,
+                    CreationDate: DateTime_13,
+                    Id: 2
+                  },
+                  {
+                    SubjectId: 4,
+                    ContactInfo: Norbert.Bartell@yahoo.com,
+                    ContactInfoType: EMail,
+                    Notes: Recusandae est unde vitae amet qui exercitationem.,
+                    CreationDate: DateTime_14,
+                    Id: 3
+                  }
+                ],
+                RelationSubordinates: [],
+                LegalResidentialAddress: {
+                  SubjectId: 4,
+                  CityName: South Susieview,
+                  CityReference: Guid_2,
+                  CountryISO: AZE,
+                  Toponymy: 86224 Seth Road Apt. 846,
+                  LocalPostCode: 32960,
+                  CreationDate: DateTime_12,
+                  Id: 4
+                },
+                OwningMgmtSubjects: [],
+                Id: 4
+              },
+              SubordinateId: 4,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_15,
+              Id: 5
+            }
+          ],
+          RelationSubordinates: [
+            {
+              MainId: 1,
+              SubordinateId: 1,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_6,
+              Id: 1
+            }
+          ],
+          LegalResidentialAddress: {
+            SubjectId: 1,
+            CityName: Reannamouth,
+            CityReference: Guid_1,
+            CountryISO: NGA,
+            Toponymy: 734 Dorian Union Apt. 247,
+            LocalPostCode: 41887-8662,
+            CreationDate: DateTime_5,
+            Id: 1
+          },
+          OwningMgmtSubjects: [
+            {
+              MainId: 1,
+              SubordinateId: 1,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_6,
+              Id: 1
+            }
+          ],
+          Id: 1
+        },
+        MainId: 1,
+        SubordinateId: 5,
+        RelationType: ManagementEntityOwned,
+        CreationDate: DateTime_20,
+        Id: 6
+      }
+    ],
+    Id: 5
+  },
+  {
+    Name: Heathcote - Will,
+    FullName: Heathcote - Will,
+    PersonType: ManagementSubject,
+    BaseCountryTaxIdCode: MGZ1VZOBTUZ1,
+    AdditionalTaxIdCode: PIXOJ26GAZNR,
+    InternalCode: S0000001,
+    ExternalSourceCode: QTRK7KWFZ9AG,
+    CreationDate: DateTime_4,
+    EntryStatus: Working,
+    Addresses: [
+      {
+        SubjectId: 1,
+        CityName: Reannamouth,
+        CityReference: Guid_1,
+        CountryISO: NGA,
+        Toponymy: 734 Dorian Union Apt. 247,
+        LocalPostCode: 41887-8662,
+        CreationDate: DateTime_5,
+        Id: 1
+      }
+    ],
+    RelationMains: [
+      {
+        MainId: 1,
+        SubordinateId: 1,
+        RelationType: ManagementEntityOwned,
+        CreationDate: DateTime_6,
+        Id: 1
+      },
+      {
+        MainId: 1,
+        Subordinate: {
+          Name: Wisozk - Blick,
+          FullName: Wisozk - Blick,
+          PersonType: ManagementSubject,
+          BaseCountryTaxIdCode: AHUM3QEX4PMT,
+          AdditionalTaxIdCode: OK66L9ZK29UK,
+          InternalCode: S0000003,
+          ExternalSourceCode: U2APYZDIAIJ2,
+          CreationDate: DateTime_7,
+          EntryStatus: Working,
+          Addresses: [
+            {
+              SubjectId: 2,
+              CityName: South Susieview,
+              CityReference: Guid_2,
+              CountryISO: AZE,
+              Toponymy: 56930 Nitzsche Parkways Apt. 420,
+              LocalPostCode: 14403,
+              CreationDate: DateTime_8,
+              Id: 2
+            }
+          ],
+          RelationMains: [
+            {
+              MainId: 2,
+              SubordinateId: 2,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_9,
+              Id: 2
+            }
+          ],
+          RelationSubordinates: [
+            {
+              MainId: 2,
+              SubordinateId: 2,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_9,
+              Id: 2
+            }
+          ],
+          LegalResidentialAddress: {
+            SubjectId: 2,
+            CityName: South Susieview,
+            CityReference: Guid_2,
+            CountryISO: AZE,
+            Toponymy: 56930 Nitzsche Parkways Apt. 420,
+            LocalPostCode: 14403,
+            CreationDate: DateTime_8,
+            Id: 2
+          },
+          OwningMgmtSubjects: [
+            {
+              MainId: 2,
+              SubordinateId: 2,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_9,
+              Id: 2
+            }
+          ],
+          Id: 2
+        },
+        SubordinateId: 2,
+        RelationType: ManagementEntityOwned,
+        CreationDate: DateTime_10,
+        Id: 3
+      },
+      {
+        MainId: 1,
+        Subordinate: {
+          Name: Linnea Pouros,
+          FullName: Linnea Pouros,
+          PersonType: LegalPerson,
+          BaseCountryTaxIdCode: 3QP4W6HJBOGU,
+          AdditionalTaxIdCode: TSRXAINBAT86,
+          LegalSubjectType: UnrecognizedNonbusinessSociety,
+          InternalCode: S0000002,
+          ExternalSourceCode: W3U6NT7ZHNPT,
+          CreationDate: DateTime_1,
+          EntryStatus: Working,
+          Addresses: [
+            {
+              SubjectId: 3,
+              CityName: Reannamouth,
+              CityReference: Guid_1,
+              CountryISO: NGA,
+              Toponymy: 960 Tito Centers Apt. 169,
+              LocalPostCode: 16526,
+              CreationDate: DateTime_2,
+              Id: 3
+            }
+          ],
+          Contacts: [
+            {
+              SubjectId: 3,
+              ContactInfo: +817 (719) 145-3648,
+              Notes: Eveniet dicta quo ipsum facilis dolorem eius repellat deleniti et.; FAX,
+              CreationDate: DateTime_3,
+              Id: 1
+            }
+          ],
+          RelationSubordinates: [],
+          LegalResidentialAddress: {
+            SubjectId: 3,
+            CityName: Reannamouth,
+            CityReference: Guid_1,
+            CountryISO: NGA,
+            Toponymy: 960 Tito Centers Apt. 169,
+            LocalPostCode: 16526,
+            CreationDate: DateTime_2,
+            Id: 3
+          },
+          OwningMgmtSubjects: [],
+          Id: 3
+        },
+        SubordinateId: 3,
+        RelationType: ManagementEntityOwned,
+        CreationDate: DateTime_21,
+        Id: 4
+      },
+      {
+        MainId: 1,
+        Subordinate: {
+          Name: Keeley O'Kon,
+          FullName: Keeley O'Kon,
+          PersonType: LegalPerson,
+          BaseCountryTaxIdCode: ZVZ94W6VJSIC,
+          AdditionalTaxIdCode: Z1O47HK9B8S4,
+          LegalSubjectType: UnrecognizedNonbusinessSociety,
+          InternalCode: S0000004,
+          ExternalSourceCode: 1IYZ0NAYLRBF,
+          CreationDate: DateTime_11,
+          EntryStatus: Working,
+          Addresses: [
+            {
+              SubjectId: 4,
+              CityName: South Susieview,
+              CityReference: Guid_2,
+              CountryISO: AZE,
+              Toponymy: 86224 Seth Road Apt. 846,
+              LocalPostCode: 32960,
+              CreationDate: DateTime_12,
+              Id: 4
+            }
+          ],
+          Contacts: [
+            {
+              SubjectId: 4,
+              ContactInfo: +649-08-963-8890,
+              ContactInfoType: MobilePhone,
+              Notes: Assumenda iste quia natus et dignissimos reiciendis ad nostrum.,
+              CreationDate: DateTime_13,
+              Id: 2
+            },
+            {
+              SubjectId: 4,
+              ContactInfo: Norbert.Bartell@yahoo.com,
+              ContactInfoType: EMail,
+              Notes: Recusandae est unde vitae amet qui exercitationem.,
+              CreationDate: DateTime_14,
+              Id: 3
+            }
+          ],
+          RelationSubordinates: [],
+          LegalResidentialAddress: {
+            SubjectId: 4,
+            CityName: South Susieview,
+            CityReference: Guid_2,
+            CountryISO: AZE,
+            Toponymy: 86224 Seth Road Apt. 846,
+            LocalPostCode: 32960,
+            CreationDate: DateTime_12,
+            Id: 4
+          },
+          OwningMgmtSubjects: [],
+          Id: 4
+        },
+        SubordinateId: 4,
+        RelationType: ManagementEntityOwned,
+        CreationDate: DateTime_15,
+        Id: 5
+      },
+      {
+        MainId: 1,
+        Subordinate: {
+          Name: Josianne Simonis,
+          FullName: Josianne Simonis,
+          PersonType: LegalPerson,
+          BaseCountryTaxIdCode: UUGWSGCSFNZL,
+          AdditionalTaxIdCode: 3MZVJ40KODVB,
+          LegalSubjectType: UnrecognizedNonbusinessSociety,
+          InternalCode: S0000005,
+          ExternalSourceCode: 5R3623Q3UNK8,
+          CreationDate: DateTime_16,
+          EntryStatus: Working,
+          Addresses: [
+            {
+              SubjectId: 5,
+              CityName: South Susieview,
+              CityReference: Guid_2,
+              CountryISO: AZE,
+              Toponymy: 3284 Lorenz Oval Suite 311,
+              LocalPostCode: 25574-1418,
+              CreationDate: DateTime_17,
+              Id: 5
+            }
+          ],
+          Contacts: [
+            {
+              SubjectId: 5,
+              ContactInfo: +247 (641) 887-866,
+              ContactInfoType: LandlinePhone,
+              Notes: Porro sed ad et autem suscipit blanditiis.,
+              CreationDate: DateTime_18,
+              Id: 4
+            },
+            {
+              SubjectId: 5,
+              ContactInfo: +066 (692) 909-601,
+              ContactInfoType: LandlinePhone,
+              Notes: Voluptas itaque exercitationem cupiditate nam sit quis qui modi.,
+              CreationDate: DateTime_19,
+              Id: 5
+            }
+          ],
+          RelationSubordinates: [],
+          LegalResidentialAddress: {
+            SubjectId: 5,
+            CityName: South Susieview,
+            CityReference: Guid_2,
+            CountryISO: AZE,
+            Toponymy: 3284 Lorenz Oval Suite 311,
+            LocalPostCode: 25574-1418,
+            CreationDate: DateTime_17,
+            Id: 5
+          },
+          OwningMgmtSubjects: [],
+          Id: 5
+        },
+        SubordinateId: 5,
+        RelationType: ManagementEntityOwned,
+        CreationDate: DateTime_20,
+        Id: 6
+      }
+    ],
+    RelationSubordinates: [
+      {
+        MainId: 1,
+        SubordinateId: 1,
+        RelationType: ManagementEntityOwned,
+        CreationDate: DateTime_6,
+        Id: 1
+      }
+    ],
+    LegalResidentialAddress: {
+      SubjectId: 1,
+      CityName: Reannamouth,
+      CityReference: Guid_1,
+      CountryISO: NGA,
+      Toponymy: 734 Dorian Union Apt. 247,
+      LocalPostCode: 41887-8662,
+      CreationDate: DateTime_5,
+      Id: 1
+    },
+    OwningMgmtSubjects: [
+      {
+        MainId: 1,
+        SubordinateId: 1,
+        RelationType: ManagementEntityOwned,
+        CreationDate: DateTime_6,
+        Id: 1
+      }
+    ],
+    Id: 1
+  },
+  {
+    Name: Wisozk - Blick,
+    FullName: Wisozk - Blick,
+    PersonType: ManagementSubject,
+    BaseCountryTaxIdCode: AHUM3QEX4PMT,
+    AdditionalTaxIdCode: OK66L9ZK29UK,
+    InternalCode: S0000003,
+    ExternalSourceCode: U2APYZDIAIJ2,
+    CreationDate: DateTime_7,
+    EntryStatus: Working,
+    Addresses: [
+      {
+        SubjectId: 2,
+        CityName: South Susieview,
+        CityReference: Guid_2,
+        CountryISO: AZE,
+        Toponymy: 56930 Nitzsche Parkways Apt. 420,
+        LocalPostCode: 14403,
+        CreationDate: DateTime_8,
+        Id: 2
+      }
+    ],
+    RelationMains: [
+      {
+        MainId: 2,
+        SubordinateId: 2,
+        RelationType: ManagementEntityOwned,
+        CreationDate: DateTime_9,
+        Id: 2
+      }
+    ],
+    RelationSubordinates: [
+      {
+        MainId: 2,
+        SubordinateId: 2,
+        RelationType: ManagementEntityOwned,
+        CreationDate: DateTime_9,
+        Id: 2
+      },
+      {
+        Main: {
+          Name: Heathcote - Will,
+          FullName: Heathcote - Will,
+          PersonType: ManagementSubject,
+          BaseCountryTaxIdCode: MGZ1VZOBTUZ1,
+          AdditionalTaxIdCode: PIXOJ26GAZNR,
+          InternalCode: S0000001,
+          ExternalSourceCode: QTRK7KWFZ9AG,
+          CreationDate: DateTime_4,
+          EntryStatus: Working,
+          Addresses: [
+            {
+              SubjectId: 1,
+              CityName: Reannamouth,
+              CityReference: Guid_1,
+              CountryISO: NGA,
+              Toponymy: 734 Dorian Union Apt. 247,
+              LocalPostCode: 41887-8662,
+              CreationDate: DateTime_5,
+              Id: 1
+            }
+          ],
+          RelationMains: [
+            {
+              MainId: 1,
+              SubordinateId: 1,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_6,
+              Id: 1
+            },
+            {
+              MainId: 1,
+              Subordinate: {
+                Name: Linnea Pouros,
+                FullName: Linnea Pouros,
+                PersonType: LegalPerson,
+                BaseCountryTaxIdCode: 3QP4W6HJBOGU,
+                AdditionalTaxIdCode: TSRXAINBAT86,
+                LegalSubjectType: UnrecognizedNonbusinessSociety,
+                InternalCode: S0000002,
+                ExternalSourceCode: W3U6NT7ZHNPT,
+                CreationDate: DateTime_1,
+                EntryStatus: Working,
+                Addresses: [
+                  {
+                    SubjectId: 3,
+                    CityName: Reannamouth,
+                    CityReference: Guid_1,
+                    CountryISO: NGA,
+                    Toponymy: 960 Tito Centers Apt. 169,
+                    LocalPostCode: 16526,
+                    CreationDate: DateTime_2,
+                    Id: 3
+                  }
+                ],
+                Contacts: [
+                  {
+                    SubjectId: 3,
+                    ContactInfo: +817 (719) 145-3648,
+                    Notes: Eveniet dicta quo ipsum facilis dolorem eius repellat deleniti et.; FAX,
+                    CreationDate: DateTime_3,
+                    Id: 1
+                  }
+                ],
+                RelationSubordinates: [],
+                LegalResidentialAddress: {
+                  SubjectId: 3,
+                  CityName: Reannamouth,
+                  CityReference: Guid_1,
+                  CountryISO: NGA,
+                  Toponymy: 960 Tito Centers Apt. 169,
+                  LocalPostCode: 16526,
+                  CreationDate: DateTime_2,
+                  Id: 3
+                },
+                OwningMgmtSubjects: [],
+                Id: 3
+              },
+              SubordinateId: 3,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_21,
+              Id: 4
+            },
+            {
+              MainId: 1,
+              Subordinate: {
+                Name: Keeley O'Kon,
+                FullName: Keeley O'Kon,
+                PersonType: LegalPerson,
+                BaseCountryTaxIdCode: ZVZ94W6VJSIC,
+                AdditionalTaxIdCode: Z1O47HK9B8S4,
+                LegalSubjectType: UnrecognizedNonbusinessSociety,
+                InternalCode: S0000004,
+                ExternalSourceCode: 1IYZ0NAYLRBF,
+                CreationDate: DateTime_11,
+                EntryStatus: Working,
+                Addresses: [
+                  {
+                    SubjectId: 4,
+                    CityName: South Susieview,
+                    CityReference: Guid_2,
+                    CountryISO: AZE,
+                    Toponymy: 86224 Seth Road Apt. 846,
+                    LocalPostCode: 32960,
+                    CreationDate: DateTime_12,
+                    Id: 4
+                  }
+                ],
+                Contacts: [
+                  {
+                    SubjectId: 4,
+                    ContactInfo: +649-08-963-8890,
+                    ContactInfoType: MobilePhone,
+                    Notes: Assumenda iste quia natus et dignissimos reiciendis ad nostrum.,
+                    CreationDate: DateTime_13,
+                    Id: 2
+                  },
+                  {
+                    SubjectId: 4,
+                    ContactInfo: Norbert.Bartell@yahoo.com,
+                    ContactInfoType: EMail,
+                    Notes: Recusandae est unde vitae amet qui exercitationem.,
+                    CreationDate: DateTime_14,
+                    Id: 3
+                  }
+                ],
+                RelationSubordinates: [],
+                LegalResidentialAddress: {
+                  SubjectId: 4,
+                  CityName: South Susieview,
+                  CityReference: Guid_2,
+                  CountryISO: AZE,
+                  Toponymy: 86224 Seth Road Apt. 846,
+                  LocalPostCode: 32960,
+                  CreationDate: DateTime_12,
+                  Id: 4
+                },
+                OwningMgmtSubjects: [],
+                Id: 4
+              },
+              SubordinateId: 4,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_15,
+              Id: 5
+            },
+            {
+              MainId: 1,
+              Subordinate: {
+                Name: Josianne Simonis,
+                FullName: Josianne Simonis,
+                PersonType: LegalPerson,
+                BaseCountryTaxIdCode: UUGWSGCSFNZL,
+                AdditionalTaxIdCode: 3MZVJ40KODVB,
+                LegalSubjectType: UnrecognizedNonbusinessSociety,
+                InternalCode: S0000005,
+                ExternalSourceCode: 5R3623Q3UNK8,
+                CreationDate: DateTime_16,
+                EntryStatus: Working,
+                Addresses: [
+                  {
+                    SubjectId: 5,
+                    CityName: South Susieview,
+                    CityReference: Guid_2,
+                    CountryISO: AZE,
+                    Toponymy: 3284 Lorenz Oval Suite 311,
+                    LocalPostCode: 25574-1418,
+                    CreationDate: DateTime_17,
+                    Id: 5
+                  }
+                ],
+                Contacts: [
+                  {
+                    SubjectId: 5,
+                    ContactInfo: +247 (641) 887-866,
+                    ContactInfoType: LandlinePhone,
+                    Notes: Porro sed ad et autem suscipit blanditiis.,
+                    CreationDate: DateTime_18,
+                    Id: 4
+                  },
+                  {
+                    SubjectId: 5,
+                    ContactInfo: +066 (692) 909-601,
+                    ContactInfoType: LandlinePhone,
+                    Notes: Voluptas itaque exercitationem cupiditate nam sit quis qui modi.,
+                    CreationDate: DateTime_19,
+                    Id: 5
+                  }
+                ],
+                RelationSubordinates: [],
+                LegalResidentialAddress: {
+                  SubjectId: 5,
+                  CityName: South Susieview,
+                  CityReference: Guid_2,
+                  CountryISO: AZE,
+                  Toponymy: 3284 Lorenz Oval Suite 311,
+                  LocalPostCode: 25574-1418,
+                  CreationDate: DateTime_17,
+                  Id: 5
+                },
+                OwningMgmtSubjects: [],
+                Id: 5
+              },
+              SubordinateId: 5,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_20,
+              Id: 6
+            }
+          ],
+          RelationSubordinates: [
+            {
+              MainId: 1,
+              SubordinateId: 1,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_6,
+              Id: 1
+            }
+          ],
+          LegalResidentialAddress: {
+            SubjectId: 1,
+            CityName: Reannamouth,
+            CityReference: Guid_1,
+            CountryISO: NGA,
+            Toponymy: 734 Dorian Union Apt. 247,
+            LocalPostCode: 41887-8662,
+            CreationDate: DateTime_5,
+            Id: 1
+          },
+          OwningMgmtSubjects: [
+            {
+              MainId: 1,
+              SubordinateId: 1,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_6,
+              Id: 1
+            }
+          ],
+          Id: 1
+        },
+        MainId: 1,
+        SubordinateId: 2,
+        RelationType: ManagementEntityOwned,
+        CreationDate: DateTime_10,
+        Id: 3
+      }
+    ],
+    LegalResidentialAddress: {
+      SubjectId: 2,
+      CityName: South Susieview,
+      CityReference: Guid_2,
+      CountryISO: AZE,
+      Toponymy: 56930 Nitzsche Parkways Apt. 420,
+      LocalPostCode: 14403,
+      CreationDate: DateTime_8,
+      Id: 2
+    },
+    OwningMgmtSubjects: [
+      {
+        MainId: 2,
+        SubordinateId: 2,
+        RelationType: ManagementEntityOwned,
+        CreationDate: DateTime_9,
+        Id: 2
+      },
+      {
+        Main: {
+          Name: Heathcote - Will,
+          FullName: Heathcote - Will,
+          PersonType: ManagementSubject,
+          BaseCountryTaxIdCode: MGZ1VZOBTUZ1,
+          AdditionalTaxIdCode: PIXOJ26GAZNR,
+          InternalCode: S0000001,
+          ExternalSourceCode: QTRK7KWFZ9AG,
+          CreationDate: DateTime_4,
+          EntryStatus: Working,
+          Addresses: [
+            {
+              SubjectId: 1,
+              CityName: Reannamouth,
+              CityReference: Guid_1,
+              CountryISO: NGA,
+              Toponymy: 734 Dorian Union Apt. 247,
+              LocalPostCode: 41887-8662,
+              CreationDate: DateTime_5,
+              Id: 1
+            }
+          ],
+          RelationMains: [
+            {
+              MainId: 1,
+              SubordinateId: 1,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_6,
+              Id: 1
+            },
+            {
+              MainId: 1,
+              Subordinate: {
+                Name: Linnea Pouros,
+                FullName: Linnea Pouros,
+                PersonType: LegalPerson,
+                BaseCountryTaxIdCode: 3QP4W6HJBOGU,
+                AdditionalTaxIdCode: TSRXAINBAT86,
+                LegalSubjectType: UnrecognizedNonbusinessSociety,
+                InternalCode: S0000002,
+                ExternalSourceCode: W3U6NT7ZHNPT,
+                CreationDate: DateTime_1,
+                EntryStatus: Working,
+                Addresses: [
+                  {
+                    SubjectId: 3,
+                    CityName: Reannamouth,
+                    CityReference: Guid_1,
+                    CountryISO: NGA,
+                    Toponymy: 960 Tito Centers Apt. 169,
+                    LocalPostCode: 16526,
+                    CreationDate: DateTime_2,
+                    Id: 3
+                  }
+                ],
+                Contacts: [
+                  {
+                    SubjectId: 3,
+                    ContactInfo: +817 (719) 145-3648,
+                    Notes: Eveniet dicta quo ipsum facilis dolorem eius repellat deleniti et.; FAX,
+                    CreationDate: DateTime_3,
+                    Id: 1
+                  }
+                ],
+                RelationSubordinates: [],
+                LegalResidentialAddress: {
+                  SubjectId: 3,
+                  CityName: Reannamouth,
+                  CityReference: Guid_1,
+                  CountryISO: NGA,
+                  Toponymy: 960 Tito Centers Apt. 169,
+                  LocalPostCode: 16526,
+                  CreationDate: DateTime_2,
+                  Id: 3
+                },
+                OwningMgmtSubjects: [],
+                Id: 3
+              },
+              SubordinateId: 3,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_21,
+              Id: 4
+            },
+            {
+              MainId: 1,
+              Subordinate: {
+                Name: Keeley O'Kon,
+                FullName: Keeley O'Kon,
+                PersonType: LegalPerson,
+                BaseCountryTaxIdCode: ZVZ94W6VJSIC,
+                AdditionalTaxIdCode: Z1O47HK9B8S4,
+                LegalSubjectType: UnrecognizedNonbusinessSociety,
+                InternalCode: S0000004,
+                ExternalSourceCode: 1IYZ0NAYLRBF,
+                CreationDate: DateTime_11,
+                EntryStatus: Working,
+                Addresses: [
+                  {
+                    SubjectId: 4,
+                    CityName: South Susieview,
+                    CityReference: Guid_2,
+                    CountryISO: AZE,
+                    Toponymy: 86224 Seth Road Apt. 846,
+                    LocalPostCode: 32960,
+                    CreationDate: DateTime_12,
+                    Id: 4
+                  }
+                ],
+                Contacts: [
+                  {
+                    SubjectId: 4,
+                    ContactInfo: +649-08-963-8890,
+                    ContactInfoType: MobilePhone,
+                    Notes: Assumenda iste quia natus et dignissimos reiciendis ad nostrum.,
+                    CreationDate: DateTime_13,
+                    Id: 2
+                  },
+                  {
+                    SubjectId: 4,
+                    ContactInfo: Norbert.Bartell@yahoo.com,
+                    ContactInfoType: EMail,
+                    Notes: Recusandae est unde vitae amet qui exercitationem.,
+                    CreationDate: DateTime_14,
+                    Id: 3
+                  }
+                ],
+                RelationSubordinates: [],
+                LegalResidentialAddress: {
+                  SubjectId: 4,
+                  CityName: South Susieview,
+                  CityReference: Guid_2,
+                  CountryISO: AZE,
+                  Toponymy: 86224 Seth Road Apt. 846,
+                  LocalPostCode: 32960,
+                  CreationDate: DateTime_12,
+                  Id: 4
+                },
+                OwningMgmtSubjects: [],
+                Id: 4
+              },
+              SubordinateId: 4,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_15,
+              Id: 5
+            },
+            {
+              MainId: 1,
+              Subordinate: {
+                Name: Josianne Simonis,
+                FullName: Josianne Simonis,
+                PersonType: LegalPerson,
+                BaseCountryTaxIdCode: UUGWSGCSFNZL,
+                AdditionalTaxIdCode: 3MZVJ40KODVB,
+                LegalSubjectType: UnrecognizedNonbusinessSociety,
+                InternalCode: S0000005,
+                ExternalSourceCode: 5R3623Q3UNK8,
+                CreationDate: DateTime_16,
+                EntryStatus: Working,
+                Addresses: [
+                  {
+                    SubjectId: 5,
+                    CityName: South Susieview,
+                    CityReference: Guid_2,
+                    CountryISO: AZE,
+                    Toponymy: 3284 Lorenz Oval Suite 311,
+                    LocalPostCode: 25574-1418,
+                    CreationDate: DateTime_17,
+                    Id: 5
+                  }
+                ],
+                Contacts: [
+                  {
+                    SubjectId: 5,
+                    ContactInfo: +247 (641) 887-866,
+                    ContactInfoType: LandlinePhone,
+                    Notes: Porro sed ad et autem suscipit blanditiis.,
+                    CreationDate: DateTime_18,
+                    Id: 4
+                  },
+                  {
+                    SubjectId: 5,
+                    ContactInfo: +066 (692) 909-601,
+                    ContactInfoType: LandlinePhone,
+                    Notes: Voluptas itaque exercitationem cupiditate nam sit quis qui modi.,
+                    CreationDate: DateTime_19,
+                    Id: 5
+                  }
+                ],
+                RelationSubordinates: [],
+                LegalResidentialAddress: {
+                  SubjectId: 5,
+                  CityName: South Susieview,
+                  CityReference: Guid_2,
+                  CountryISO: AZE,
+                  Toponymy: 3284 Lorenz Oval Suite 311,
+                  LocalPostCode: 25574-1418,
+                  CreationDate: DateTime_17,
+                  Id: 5
+                },
+                OwningMgmtSubjects: [],
+                Id: 5
+              },
+              SubordinateId: 5,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_20,
+              Id: 6
+            }
+          ],
+          RelationSubordinates: [
+            {
+              MainId: 1,
+              SubordinateId: 1,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_6,
+              Id: 1
+            }
+          ],
+          LegalResidentialAddress: {
+            SubjectId: 1,
+            CityName: Reannamouth,
+            CityReference: Guid_1,
+            CountryISO: NGA,
+            Toponymy: 734 Dorian Union Apt. 247,
+            LocalPostCode: 41887-8662,
+            CreationDate: DateTime_5,
+            Id: 1
+          },
+          OwningMgmtSubjects: [
+            {
+              MainId: 1,
+              SubordinateId: 1,
+              RelationType: ManagementEntityOwned,
+              CreationDate: DateTime_6,
+              Id: 1
+            }
+          ],
+          Id: 1
+        },
+        MainId: 1,
+        SubordinateId: 2,
+        RelationType: ManagementEntityOwned,
+        CreationDate: DateTime_10,
+        Id: 3
+      }
+    ],
+    Id: 2
+  }
+]

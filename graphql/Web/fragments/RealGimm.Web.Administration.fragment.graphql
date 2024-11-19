@@ -1,0 +1,53 @@
+fragment AdministrationFragment on Administration {
+  id
+  estate {
+    id
+    internalCode
+  }
+  administrationType
+  administratorSubject {
+    id
+    name
+  }
+  since
+  until
+  isPaymentDataIncluded
+  bankAccount {
+    id
+    referenceCode
+    accountHolder
+  }
+  administratorSubject {
+    id
+    addresses {
+      ...AddressFragment
+    }
+  }
+}
+
+fragment AdministrationDetailFragment on Administration {
+  administrationType
+  paymentType
+  since
+  until
+  notes
+  isPaymentDataIncluded
+  id
+  terms {
+    id
+  }
+  estate {
+    id
+    internalCode
+    name
+    mainUsageType {
+      ...MainUsageTypeFragment
+    }
+  }
+  administratorSubject {
+    ...AdministratorFragment
+  }
+  bankAccount {
+    ...BankAccountFragment
+  }
+}

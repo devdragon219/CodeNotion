@@ -1,0 +1,189 @@
+fragment UtilityServiceFragment on UtilityService {
+  id
+  internalCode
+  referenceSubject {
+    id
+    name
+  }
+  orgUnit {
+    id
+    name
+  }
+  utilityType {
+    id
+    internalCode
+    description
+    category
+    meteringType
+    timeOfUseRateCount
+    chargeFields {
+      ...UtilityChargeFieldFragment
+    }
+    measurementUnit
+  }
+  providerSubject {
+    __typename
+    name
+    id
+    internalCode
+    ... on LegalSubject {
+      baseCountryTaxIdCode
+    }
+    ... on ManagementSubject {
+      baseCountryTaxIdCode
+    }
+    ... on PhysicalSubject {
+      professionalTaxIdCode
+    }
+  }
+  status
+  activationDate
+  utilityContractCode
+  utilityUserCode
+  description
+  accountingItem {
+    id
+    internalCode
+    description
+  }
+  isFreeMarket
+  deposit
+  contractPowerNominal
+  contractPowerMaximum
+  utilityMeterSerial
+  contractNominalTension
+  utilityDeliveryPointCode
+  estates {
+    id
+    name
+    internalCode
+    status
+    type
+    usageType {
+      id
+      name
+    }
+    managementSubject {
+      name
+      id
+    }
+    addresses {
+      ...AsstAddressFragment
+    }
+  }
+  estateUnits {
+    address {
+      ...AsstAddressFragment
+    }
+    id
+    name
+    internalCode
+    usageType {
+      id
+      name
+    }
+    type
+    subNumbering
+    currentCadastralUnit {
+      coordinates {
+        ...CadastralCoordinatesFragment
+      }
+    }
+    estate {
+      id
+    }
+  }
+  deactivationDate
+  deactivationRequestDate
+  notes
+}
+
+fragment UtilityServiceDetailFragment on UtilityService {
+  internalCode
+  utilityType {
+    ...UtilityTypeDetailFragment
+  }
+  estates {
+    id
+    name
+    internalCode
+    status
+    type
+    usageType {
+      ...UsageTypeFragment
+    }
+    managementSubject {
+      name
+      id
+    }
+    addresses {
+      ...AsstAddressFragment
+    }
+  }
+  estateUnits {
+    address {
+      ...AsstAddressFragment
+    }
+    id
+    name
+    internalCode
+    usageType {
+      ...UsageTypeFragment
+    }
+    type
+    subNumbering
+    currentCadastralUnit {
+      coordinates {
+        ...CadastralCoordinatesFragment
+      }
+    }
+    estate {
+      id
+    }
+  }
+  providerSubject {
+    __typename
+    name
+    id
+    internalCode
+    ... on LegalSubject {
+      baseCountryTaxIdCode
+    }
+    ... on ManagementSubject {
+      baseCountryTaxIdCode
+    }
+    ... on PhysicalSubject {
+      professionalTaxIdCode
+    }
+  }
+  referenceSubject {
+    name
+    id
+    internalCode
+  }
+  orgUnit {
+    id
+    name
+  }
+  accountingItem {
+    description
+    internalCode
+    id
+  }
+  description
+  utilityUserCode
+  utilityContractCode
+  utilityMeterSerial
+  utilityDeliveryPointCode
+  isFreeMarket
+  deposit
+  status
+  activationDate
+  deactivationRequestDate
+  deactivationDate
+  contractPowerMaximum
+  contractPowerNominal
+  contractNominalTension
+  notes
+  id
+}

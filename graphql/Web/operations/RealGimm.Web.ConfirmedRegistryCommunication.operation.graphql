@@ -1,0 +1,27 @@
+mutation cancelConfirmedRegistryCommunicationGroup(
+  $groupId: ConfirmedRegistryCommunicationGroupIdInput!
+) {
+  confirmedRegistryCommunication {
+    cancelConfirmation(groupId: $groupId) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation cancelConfirmedRegistryCommunicationGroups(
+  $groupIds: [ConfirmedRegistryCommunicationGroupIdInput!]!
+) {
+  confirmedRegistryCommunication {
+    cancelRangeConfirmation(groupIds: $groupIds) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}

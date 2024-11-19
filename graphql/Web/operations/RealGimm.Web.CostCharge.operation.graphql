@@ -1,0 +1,325 @@
+query getCostCharges(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: CostChargeFilterInput
+  $order: [CostChargeSortInput!]
+) {
+  costCharge {
+    listCostCharges(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...CostChargeFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getCostCharge($costChargeId: Int!) {
+  costCharge {
+    get(id: $costChargeId) {
+      ...CostChargeDetailFragment
+    }
+  }
+}
+
+query exportCostCharges(
+  $where: CostChargeFilterInput
+  $order: [CostChargeSortInput!]
+) {
+  costCharge {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+mutation createCostCharge($costChargeInput: CostChargeInput!) {
+  costCharge {
+    add(input: $costChargeInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateCostCharge(
+  $costChargeId: Int!
+  $costChargeInput: CostChargeInput!
+) {
+  costCharge {
+    update(id: $costChargeId, input: $costChargeInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteCostCharge($id: Int!) {
+  costCharge {
+    delete(id: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteCostCharges($ids: [Int!]!) {
+  costCharge {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getCostChargeFilteredEstates(
+  $filters: CostChargeAnalysisFiltersInput
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: EstateFilterInput
+  $order: [EstateSortInput!]
+) {
+  costCharge {
+    filteredEstates(
+      filters: $filters
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        id
+        internalCode
+      }
+      totalCount
+    }
+  }
+}
+
+query getCostChargeFilteredAddresses(
+  $filters: CostChargeAnalysisFiltersInput
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: AsstAddressFilterInput
+  $order: [AsstAddressSortInput!]
+) {
+  costCharge {
+    filteredAddresses(
+      filters: $filters
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        id
+        cityName
+        countyName
+        toponymy
+        numbering
+      }
+      totalCount
+    }
+  }
+}
+
+query getCostChargeFilteredCityNames(
+  $filters: CostChargeAnalysisFiltersInput
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: FilteredCityNameFilterInput
+  $order: [FilteredCityNameSortInput!]
+) {
+  costCharge {
+    filteredCityNames(
+      filters: $filters
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        value
+      }
+      totalCount
+    }
+  }
+}
+
+query getCostChargeFilteredCountyNames(
+  $filters: CostChargeAnalysisFiltersInput
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: FilteredCountyNameFilterInput
+  $order: [FilteredCountyNameSortInput!]
+) {
+  costCharge {
+    filteredCountyNames(
+      filters: $filters
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        value
+      }
+      totalCount
+    }
+  }
+}
+
+query getCostChargeFilteredUtilityTypes(
+  $filters: CostChargeAnalysisFiltersInput
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: UtilityTypeFilterInput
+  $order: [UtilityTypeSortInput!]
+) {
+  costCharge {
+    filteredUtilityTypes(
+      filters: $filters
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        id
+        internalCode
+        description
+      }
+      totalCount
+    }
+  }
+}
+
+query getCostChargeFilteredUtilityServices(
+  $filters: CostChargeAnalysisFiltersInput
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: UtilityServiceFilterInput
+  $order: [UtilityServiceSortInput!]
+) {
+  costCharge {
+    filteredUtilityServices(
+      filters: $filters
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        id
+        utilityContractCode
+      }
+      totalCount
+    }
+  }
+}
+
+query getCostChargeAnalysis($filters: CostChargeAnalysisFiltersInput!) {
+  costCharge {
+    analysis(filters: $filters) {
+      key
+      value {
+        ...CostChargeAnalysisFragment
+      }
+    }
+  }
+}
+
+query getCostChargeCsvImportTemplate {
+  costCharge {
+    templateOfImportFromCsv {
+      resourceUrl
+    }
+  }
+}
+
+query getCostChargeExcelImportTemplate {
+  costCharge {
+    templateOfImportFromExcel {
+      resourceUrl
+    }
+  }
+}
+
+mutation importCostCharges($file: Upload!) {
+  costCharge {
+    import(file: $file) {
+      errors
+      isSuccess
+      value
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}

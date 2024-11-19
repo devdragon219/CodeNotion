@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.alfresco.org/model/dictionary/1.0" name="realgimm:documentModel">
+    <description>RealGimm Custom Model</description>
+    <author>SCAI</author>
+    <imports>
+        <import uri="http://www.alfresco.org/model/content/1.0" prefix="cm"/>
+        <import uri="http://www.alfresco.org/model/dictionary/1.0" prefix="d"/>
+    </imports>
+    <namespaces>
+        <namespace uri="http://www.grupposcai.it/model/realgimm/content/1.0" prefix="realgimm"/>
+    </namespaces>
+    <data-types/>
+    <constraints>
+        <constraint name="realgimm:len-subjectname" type="LENGTH">
+            <parameter name="maxLength">
+                <value>120</value>
+            </parameter>
+            <parameter name="minLength">
+                <value>1</value>
+            </parameter>
+        </constraint>
+        <constraint name="realgimm:len-externalcode" type="LENGTH">
+            <parameter name="maxLength">
+                <value>100</value>
+            </parameter>
+            <parameter name="minLength">
+                <value>1</value>
+            </parameter>
+        </constraint>
+        <constraint name="realgimm:len-notes" type="LENGTH">
+            <parameter name="maxLength">
+                <value>3192</value>
+            </parameter>
+            <parameter name="minLength">
+                <value>1</value>
+            </parameter>
+        </constraint>
+    </constraints>
+    <types>
+        <type name="realgimm:document">
+            <title>RealGimm Document</title>
+            <parent>cm:content</parent>
+            <properties>
+                <property name="realgimm:owner_id">
+                    <title>Owner ID</title>
+                    <type>d:text</type>
+                    <mandatory>true</mandatory>
+                    <index enabled="true">
+                        <tokenised>TRUE</tokenised>
+                        <facetable>false</facetable>
+                    </index>
+                    <constraints>
+                        <constraint ref="realgimm:len-externalcode" />
+                    </constraints>
+                </property>
+                <property name="realgimm:file_name">
+                    <title>File Name</title>
+                    <type>d:text</type>
+                    <mandatory>false</mandatory>
+                    <index enabled="true">
+                        <tokenised>TRUE</tokenised>
+                        <facetable>false</facetable>
+                    </index>
+                    <constraints>
+                        <constraint ref="realgimm:len-subjectname" />
+                    </constraints>
+                </property>
+                <property name="realgimm:tenant_id">
+                    <title>Tenant ID</title>
+                    <type>d:text</type>
+                    <mandatory>true</mandatory>
+                    <index enabled="true">
+                        <tokenised>TRUE</tokenised>
+                        <facetable>false</facetable>
+                    </index>
+                    <constraints>
+                        <constraint ref="realgimm:len-externalcode" />
+                    </constraints>
+                </property>
+                <property name="realgimm:estate_id">
+                    <title>Estate ID</title>
+                    <type>d:text</type>
+                    <mandatory>false</mandatory>
+                    <index enabled="true">
+                        <tokenised>TRUE</tokenised>
+                        <facetable>false</facetable>
+                    </index>
+                    <constraints>
+                        <constraint ref="realgimm:len-externalcode" />
+                    </constraints>
+                </property>
+                <property name="realgimm:management_subject_id">
+                    <title>Management Subject ID</title>
+                    <type>d:text</type>
+                    <mandatory>true</mandatory>
+                    <multiple>true</multiple>
+                    <index enabled="true">
+                        <tokenised>TRUE</tokenised>
+                        <facetable>false</facetable>
+                    </index>
+                    <constraints>
+                        <constraint ref="realgimm:len-externalcode" />
+                    </constraints>
+                </property>
+                <property name="realgimm:issuer_code">
+                    <title>Issuer Code</title>
+                    <type>d:text</type>
+                    <mandatory>false</mandatory>
+                    <index enabled="true">
+                        <tokenised>TRUE</tokenised>
+                        <facetable>false</facetable>
+                    </index>
+                    <constraints>
+                        <constraint ref="realgimm:len-externalcode" />
+                    </constraints>
+                </property>
+                <property name="realgimm:issuer_name">
+                    <title>Issuer Name</title>
+                    <type>d:text</type>
+                    <mandatory>false</mandatory>
+                    <index enabled="true">
+                        <tokenised>TRUE</tokenised>
+                        <facetable>false</facetable>
+                    </index>
+                    <constraints>
+                        <constraint ref="realgimm:len-subjectname" />
+                    </constraints>
+                </property>
+                <property name="realgimm:issue_date">
+                    <title>Issue Date</title>
+                    <type>d:date</type>
+                    <mandatory>false</mandatory>
+                    <index enabled="true">
+                        <tokenised>TRUE</tokenised>
+                    </index>
+                </property>
+                <property name="realgimm:protocol_number">
+                    <title>Protocol Number</title>
+                    <type>d:text</type>
+                    <mandatory>false</mandatory>
+                    <index enabled="true">
+                        <tokenised>TRUE</tokenised>
+                        <facetable>false</facetable>
+                    </index>
+                    <constraints>
+                        <constraint ref="realgimm:len-externalcode" />
+                    </constraints>
+                </property>
+                <property name="realgimm:content_category">
+                    <title>Content Category</title>
+                    <type>d:text</type>
+                    <mandatory>true</mandatory>
+                    <index enabled="true">
+                        <tokenised>BOTH</tokenised>
+                        <facetable>true</facetable>
+                    </index>
+                    <constraints>
+                        <constraint name="realgimm:LIST_69b10892-755c-47d6-88ae-4939f5a08618" type="LIST">
+                            <parameter name="allowedValues">
+                                <list>
+                                  <value>Generic</value>
+                                  <value>SbjIdentityNational</value>
+                                  <value>SbjIdentityPassport</value>
+                                  <value>SbjOther</value>
+                                  <value>BldPlan</value>
+                                  <value>BldPhoto</value>
+                                  <value>BldAdminGeneric</value>
+                                  <value>BldAdminContext</value>
+                                  <value>BldAdminOwnership</value>
+                                  <value>BldAdminLimitations</value>
+                                  <value>BldAdminCadastre</value>
+                                  <value>BldAdminOrigin</value>
+                                  <value>BldAdminGovernment</value>
+                                  <value>BldAdminPermitsApprovals</value>
+                                  <value>BldAdminCommunications</value>
+                                  <value>BldTechGeneric</value>
+                                  <value>BldTechStructure</value>
+                                  <value>BldTechBuildtech</value>
+                                  <value>BldTechRefactoring</value>
+                                  <value>BldTechSystems</value>
+                                  <value>BldTechFireproofing</value>
+                                  <value>BldTechSafetyAndEvacuation</value>
+                                  <value>BldTechObstacles</value>
+                                  <value>BldTechEnergyAcoustics</value>
+                                  <value>BldTechAsbestoAndMsds</value>
+                                  <value>BldTechCommunications</value>
+                                  <value>BldMgmtGeneric</value>
+                                  <value>BldMgmtUsage</value>
+                                  <value>BldMgmtCondominium</value>
+                                  <value>BldMgmtLitigation</value>
+                                  <value>BldMgmtRevamping</value>
+                                  <value>BldMgmtProcurement</value>
+                                  <value>BldMgmtSelling</value>
+                                  <value>BldMgmtUtilities</value>
+                                  <value>BldMgmtInsurance</value>
+                                  <value>BldMgmtMaintenance</value>
+                                  <value>BldMgmtInspections</value>
+                                  <value>BldMgmtIncidentsReports</value>
+                                  <value>BldMgmtEquipmentManuals</value>
+                                  <value>BldMgmtEquipmentWarranties</value>
+                                  <value>BldMgmtSafetyTraining</value>
+                                  <value>BldMgmtCommunications</value>
+                                  <value>CatAdminGeneric</value>
+                                  <value>CatAdminOwnership</value>
+                                  <value>CatAdminContracts</value>
+                                  <value>CatAdminCommunications</value>
+                                  <value>CatTechGeneric</value>
+                                  <value>CatTechManuals</value>
+                                  <value>CatTechDatasheets</value>
+                                  <value>CatTechCertifications</value>
+                                  <value>CatTechCommunications</value>
+                                  <value>CatMgmtGeneric</value>
+                                  <value>CatMgmtMaintenanceOperation</value>
+                                  <value>CatMgmtInspections</value>
+                                  <value>CatMgmtOperationalReports</value>
+                                  <value>CatMgmtEquipmentManuals</value>
+                                  <value>CatMgmtEquipmentWarranties</value>
+                                  <value>CatMgmtSafetyTraining</value>
+                                  <value>CatMgmtCommunications</value>
+                                </list>
+                            </parameter>
+                            <parameter name="caseSensitive">
+                                <value>true</value>
+                            </parameter>
+                            <parameter name="sorted">
+                                <value>false</value>
+                            </parameter>
+                        </constraint>
+                    </constraints>
+                </property>
+                <property name="realgimm:content_type">
+                    <title>Content Type</title>
+                    <type>d:text</type>
+                    <mandatory>true</mandatory>
+                    <index enabled="true">
+                        <tokenised>TRUE</tokenised>
+                        <facetable>false</facetable>
+                    </index>
+                    <constraints>
+                        <constraint name="realgimm:LIST_2a6f029f-7c7a-45be-8415-9957a3ef9dda" type="LIST">
+                            <parameter name="allowedValues">
+                                <list>
+                                    <value>Generic</value>
+                                    <value>Paper</value>
+                                    <value>Image</value>
+                                    <value>Video</value>
+                                    <value>Email</value>
+                                    <value>PDF</value>
+                                    <value>CADDrawing</value>
+                                    <value>Spreadsheet</value>
+                                </list>
+                            </parameter>
+                            <parameter name="caseSensitive">
+                                <value>true</value>
+                            </parameter>
+                            <parameter name="sorted">
+                                <value>false</value>
+                            </parameter>
+                        </constraint>
+                    </constraints>
+                </property>
+                <property name="realgimm:valid_until">
+                    <title>Valid Until</title>
+                    <type>d:date</type>
+                    <mandatory>false</mandatory>
+                    <index enabled="true">
+                        <tokenised>TRUE</tokenised>
+                    </index>
+                </property>
+                <property name="realgimm:valid_since">
+                    <title>Valid Since</title>
+                    <type>d:date</type>
+                    <mandatory>false</mandatory>
+                    <index enabled="true">
+                        <tokenised>TRUE</tokenised>
+                    </index>
+                </property>
+                <property name="realgimm:uploader_name">
+                    <title>Uploader Name</title>
+                    <type>d:text</type>
+                    <mandatory>false</mandatory>
+                    <index enabled="true">
+                        <tokenised>TRUE</tokenised>
+                        <facetable>false</facetable>
+                    </index>
+                    <constraints>
+                        <constraint ref="realgimm:len-subjectname" />
+                    </constraints>
+                </property>
+                <property name="realgimm:notes">
+                    <title>Notes</title>
+                    <type>d:text</type>
+                    <mandatory>false</mandatory>
+                    <index enabled="true">
+                        <tokenised>TRUE</tokenised>
+                        <facetable>false</facetable>
+                    </index>
+                    <constraints>
+                        <constraint ref="realgimm:len-notes" />
+                    </constraints>
+                </property>
+            </properties>
+            <associations/>
+            <overrides/>
+            <mandatory-aspects/>
+        </type>
+    </types>
+    <aspects/>
+</model>

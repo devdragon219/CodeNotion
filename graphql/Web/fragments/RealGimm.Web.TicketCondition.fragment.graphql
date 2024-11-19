@@ -1,0 +1,76 @@
+fragment ComplexTicketConditionFragment on ComplexTicketCondition {
+  booleanOperator: operator
+  internalConditions {
+    id
+  }
+}
+
+fragment TicketCatalogueCategoryEqualityConditionFragment on TicketCatalogueCategoryEqualityCondition {
+  equalityOperator: operator
+  targetCatalogueCategory {
+    ...CatalogueCategoryFragment
+  }
+}
+
+fragment TicketCatalogueSubCategoryEqualityConditionFragment on TicketCatalogueSubCategoryEqualityCondition {
+  equalityOperator: operator
+  targetCatalogueSubCategory {
+    ...CatalogueSubCategoryFragment
+  }
+}
+
+fragment TicketCatalogueTypeEqualityConditionFragment on TicketCatalogueTypeEqualityCondition {
+  equalityOperator: operator
+  targetCatalogueType {
+    ...CatalogueTypeDetailFragment
+  }
+}
+
+fragment TicketMasterStatusConditionFragment on TicketMasterStatusCondition {
+  targetMasterStatus
+  comparisonOperator: timeComparisonOperator
+  calendar {
+    ...CalendarFragment
+  }
+  minTimePeriodInMinutes
+  maxTimePeriodInMinutes
+}
+
+fragment TicketPriorityEqualityConditionFragment on TicketPriorityEqualityCondition {
+  equalityOperator: operator
+  targetPriority
+}
+
+fragment TicketTypeEqualityConditionFragment on TicketTypeEqualityCondition {
+  equalityOperator: operator
+  targetTicketType {
+    id
+    description
+  }
+}
+
+fragment TicketConditionFragment on TicketCondition {
+  __typename
+  id
+  ... on ComplexTicketCondition {
+    ...ComplexTicketConditionFragment
+  }
+  ... on TicketCatalogueCategoryEqualityCondition {
+    ...TicketCatalogueCategoryEqualityConditionFragment
+  }
+  ... on TicketCatalogueSubCategoryEqualityCondition {
+    ...TicketCatalogueSubCategoryEqualityConditionFragment
+  }
+  ... on TicketCatalogueTypeEqualityCondition {
+    ...TicketCatalogueTypeEqualityConditionFragment
+  }
+  ... on TicketMasterStatusCondition {
+    ...TicketMasterStatusConditionFragment
+  }
+  ... on TicketPriorityEqualityCondition {
+    ...TicketPriorityEqualityConditionFragment
+  }
+  ... on TicketTypeEqualityCondition {
+    ...TicketTypeEqualityConditionFragment
+  }
+}

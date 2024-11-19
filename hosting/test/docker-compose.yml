@@ -1,0 +1,88 @@
+version: '3.8'
+
+services:
+  caddy:
+    image: caddy
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - /opt/caddy-data:/data
+      - /opt/Caddyfile:/etc/caddy/Caddyfile
+    depends_on:
+      - bo-frontend
+      - bo-backend
+      - fo-frontend
+      - fo-backend
+
+  bo-frontend:
+    image: europe-west8-docker.pkg.dev/scaitecno-2023-rg41-dev/rg5-test/frontend-web-test:latest
+
+  fo-frontend:
+    image: europe-west8-docker.pkg.dev/scaitecno-2023-rg41-dev/rg5-test/frontend-frontoffice-test:latest
+
+  bo-backend:
+    image: europe-west8-docker.pkg.dev/scaitecno-2023-rg41-dev/rg5-test/backend-test:latest
+    restart: unless-stopped
+    environment:
+      ASPNETCORE_URLS: "http://*:80"
+    volumes:
+      - /opt/appsettings.json:/app/appsettings.json
+      - /opt/backend-data:/root/.aspnet/DataProtection-Keys
+      - exportcache:/opt/rg5-cache
+    depends_on:
+      db:
+        condition: service_healthy
+      queue:
+        condition: service_started
+
+  fo-backend:
+    image: europe-west8-docker.pkg.dev/scaitecno-2023-rg41-dev/rg5-test/backend-test:latest
+    restart: unless-stopped
+    environment:
+      ASPNETCORE_URLS: "http://*:80"
+    entrypoint: "/app/RealGimm.WebFrontOffice"
+    volumes:
+      - /opt/appsettings.json:/app/appsettings.json
+      - /opt/backend-fo-data:/root/.aspnet/DataProtection-Keys
+      - exportcache:/opt/rg5-cache
+    depends_on:
+      db:
+        condition: service_healthy
+      queue:
+        condition: service_started
+
+  tasks:
+    image: europe-west8-docker.pkg.dev/scaitecno-2023-rg41-dev/rg5-test/backend-test:latest
+    restart: unless-stopped
+    volumes:
+      - /opt/appsettings.json:/app/appsettings.json
+      - exportcache:/opt/rg5-cache
+    entrypoint: "/app/Tasks"
+    depends_on:
+      db:
+        condition: service_healthy
+
+  db:
+    image: postgis/postgis:14-3.3-alpine
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "psql -U postgres -c 'SELECT PostGIS_Full_Version();'"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: "aStrongP@ssword"
+
+  queue:
+    image: rabbitmq:3-alpine
+    restart: unless-stopped
+    ports:
+      - "5672:5672"
+
+volumes:
+  pgdata:
+  exportcache:

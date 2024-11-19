@@ -1,0 +1,47 @@
+{
+  "group": {
+    "title": "Groups",
+    "tab": {
+      "general_data": "General data",
+      "permissions": "Permissions",
+      "recap": "Recap"
+    },
+    "section_title": {
+      "general_data": "General data",
+      "permissions": "Permissions",
+      "recap": "Recap"
+    },
+    "field": {
+      "name": "Group name",
+      "description": "Description",
+      "permissions": "Permissions"
+    },
+    "text": {
+      "no_groups": "No groups available"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add group",
+        "save": "Save group"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this group?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these groups?\nThe process cannot be undone"
+        }
+      },
+      "change_permissions": {
+        "title": "Edit group permissions"
+      }
+    },
+    "feedback": {
+      "create": "Group successfully created",
+      "delete": {
+        "single": "Group successfully deleted",
+        "multiple": "Groups successfully deleted"
+      },
+      "update": "Group successfully updated"
+    }
+  }
+}

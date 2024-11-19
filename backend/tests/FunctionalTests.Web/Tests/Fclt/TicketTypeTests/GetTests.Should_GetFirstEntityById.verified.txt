@@ -1,0 +1,6 @@
+﻿{
+  description: Est illum.,
+  id: 1,
+  internalCode: TTK01,
+  ordering: 1
+}

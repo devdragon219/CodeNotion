@@ -1,0 +1,13 @@
+fragment WorkerFragment on Worker {
+  id
+  firstName
+  lastName
+  since
+  until
+  craft {
+    ...CraftFragment
+  }
+  qualificationLevel {
+    ...QualificationLevelFragment
+  }
+}

@@ -1,0 +1,38 @@
+﻿{
+  actualPrice: 31.000000,
+  actualPriceSince: 2023-10-25,
+  actualPriceUntil: 2024-06-11,
+  catalogueTypes: [
+    {
+      category: {
+        id: 3,
+        name: Elevatori
+      },
+      id: 13,
+      name: Argano e motogeneratore,
+      subCategory: {
+        id: 7,
+        name: Elevatori elettromeccanici
+      }
+    }
+  ],
+  id: 1,
+  internalCode: AR001,
+  measurementUnit: {
+    id: 2,
+    internalCode: UL02,
+    name: Assumenda iste.,
+    ordering: 2
+  },
+  name: Est illum.,
+  priceList: {
+    name: Reiciendis ad.
+  },
+  pricePeriods: [
+    {
+      price: 31.000000,
+      since: 2023-10-25,
+      until: 2024-06-11
+    }
+  ]
+}

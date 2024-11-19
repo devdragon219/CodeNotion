@@ -1,0 +1,20 @@
+﻿{
+  Data: {
+    costCharge: {
+      update: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          dueDate: 2024-09-30,
+          id: 1,
+          invoicedConsumptionAmount: 471.88,
+          invoiceNumber: 34,
+          referenceDate: 2024-09-10,
+          totalAmount: 493.66,
+          totalVATAmount: 98.73
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

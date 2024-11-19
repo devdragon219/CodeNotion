@@ -1,0 +1,81 @@
+﻿{
+  nodes: [
+    {
+      activationDate: 2022-10-19,
+      id: 1,
+      internalCode: trk7kwfz9a,
+      lastMaintenanceDate: 2023-06-28,
+      status: DECOMMISSIONED
+    },
+    {
+      activationDate: 2023-01-07,
+      id: 2,
+      internalCode: zobtuz1pix,
+      lastMaintenanceDate: 2023-06-20,
+      status: OPERATIONAL
+    },
+    {
+      activationDate: 2022-06-13,
+      id: 3,
+      internalCode: aznr1dcyip,
+      lastMaintenanceDate: 2023-05-26,
+      status: OPERATIONAL
+    },
+    {
+      activationDate: 2023-01-25,
+      id: 4,
+      internalCode: g57epmh7vt,
+      lastMaintenanceDate: 2023-07-19,
+      status: OPERATIONAL
+    },
+    {
+      activationDate: 2022-12-25,
+      id: 5,
+      internalCode: ww3u6nt7zh,
+      lastMaintenanceDate: 2023-07-06,
+      status: OPERATIONAL
+    },
+    {
+      activationDate: 2023-02-21,
+      id: 6,
+      internalCode: p4w6hjbogu,
+      lastMaintenanceDate: 2023-07-13,
+      status: DECOMMISSIONED
+    },
+    {
+      activationDate: 2023-04-05,
+      id: 7,
+      internalCode: nbat862mom,
+      lastMaintenanceDate: 2023-05-21,
+      status: OPERATIONAL
+    },
+    {
+      activationDate: 2022-07-22,
+      id: 8,
+      internalCode: o353lyh5ok,
+      lastMaintenanceDate: 2023-06-27,
+      status: OPERATIONAL
+    },
+    {
+      activationDate: 2022-05-21,
+      id: 9,
+      internalCode: 2apyzdiaij,
+      lastMaintenanceDate: 2023-05-27,
+      status: OPERATIONAL
+    },
+    {
+      activationDate: 2022-07-03,
+      id: 10,
+      internalCode: 3qex4pmtok,
+      lastMaintenanceDate: 2023-05-18,
+      status: OPERATIONAL
+    }
+  ],
+  pageInfo: {
+    endCursor: OQ==,
+    hasNextPage: true,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 30
+}

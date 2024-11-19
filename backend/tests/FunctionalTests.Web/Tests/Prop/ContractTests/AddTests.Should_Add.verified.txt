@@ -1,0 +1,238 @@
+﻿{
+  Data: {
+    contract: {
+      add: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          agreementDate: 2022-12-21,
+          anytimeTerminationWarningMonths: null,
+          billingAfterTerm: false,
+          billingAlignedToCalendarYear: false,
+          billingAppliesBaseFee: false,
+          billingBaseFee: null,
+          billingBaseFeeBillItemType: null,
+          billingEndDate: null,
+          billingNotes: Cum cum rem et ex non ipsum ut eligendi qui sequi hic.,
+          billingPeriod: BIMONTHLY,
+          billingStartDate: 2024-10-22,
+          billingVATRateType: null,
+          billingWithSplitPayment: false,
+          billingWithStampTax: FALSE,
+          counterparts: [
+            {
+              contractSharePercent: 84.01,
+              id: 1,
+              isMainCounterpart: true,
+              since: 2023-12-25,
+              subjectId: 3,
+              type: NON_PROFIT,
+              until: null
+            },
+            {
+              contractSharePercent: 9.53,
+              id: 2,
+              isMainCounterpart: false,
+              since: 2023-09-22,
+              subjectId: 1,
+              type: NON_PROFIT,
+              until: null
+            },
+            {
+              contractSharePercent: 6.46,
+              id: 3,
+              isMainCounterpart: false,
+              since: 2023-06-09,
+              subjectId: 3,
+              type: NON_PROFIT,
+              until: null
+            }
+          ],
+          effectStartDate: 2023-10-20,
+          externalCode: 3GRNFCX3N1,
+          firstTermDurationMonths: 4,
+          firstTermExpirationDate: 2024-10-29,
+          id: 1,
+          internalCode: CA00001,
+          isOccupiedWithoutRight: null,
+          lastRenewalStartDate: 2022-12-21,
+          locatedUnits: [
+            {
+              estateSubUnitId: 1,
+              estateUnitId: 1,
+              id: 1,
+              isMainUnit: true,
+              isPartialLocation: false,
+              isRegistryUpdateEnabled: false,
+              surfaceSqM: 563
+            }
+          ],
+          managementSubjectId: 1,
+          nonRenewalWarningMonths: 6,
+          notes: Corrupti rerum quae quia numquam dicta enim unde nemo repellat debitis quibusdam eius aut dolor.,
+          oneshotAdditions: [
+            {
+              accountingItemId: 2,
+              amount: 603.00,
+              billItemType: {
+                id: 2
+              },
+              id: 1,
+              installments: 11,
+              isBoundToTermDay: true,
+              isRentalRateVariation: true,
+              notes: null,
+              startDate: 2023-10-27,
+              termEndDate: 2023-09-29,
+              termStartDate: 2023-04-11,
+              vatRateId: 2
+            },
+            {
+              accountingItemId: 1,
+              amount: 709.46,
+              billItemType: {
+                id: 1
+              },
+              id: 2,
+              installments: 4,
+              isBoundToTermDay: false,
+              isRentalRateVariation: false,
+              notes: null,
+              startDate: 2023-12-26,
+              termEndDate: 2024-09-11,
+              termStartDate: 2023-12-30,
+              vatRateId: 2
+            }
+          ],
+          previousCode: 8BZONAMPPY,
+          ratePlans: [
+            {
+              id: 1,
+              isDeclarationExpected: false,
+              isDeclared: false,
+              newYearlyRate: 8355.93,
+              since: 2023-09-23
+            },
+            {
+              id: 2,
+              isDeclarationExpected: false,
+              isDeclared: false,
+              newYearlyRate: 2854.30,
+              since: 2023-07-24
+            }
+          ],
+          reason: NOT_SPECIFIED,
+          recoverBillsAfterSuspension: true,
+          registrationTaxData: {
+            contractRegistrationCode: P0ZTU2II9Z,
+            exemptions: null,
+            firstOnlineRegistrationDate: 2023-06-23,
+            firstRegistrationDate: 2023-09-05,
+            firstRegistrationPeriod: YEAR,
+            incomeType: OTHER_ESTATES,
+            incomeTypeRLI: null,
+            isAccountingManaged: true,
+            isRLIModeEnabled: false,
+            isTakeoverFromPreviousSubject: true,
+            isVoluntarySanctionApplied: true,
+            lastOnlinePaymentDate: 2023-05-10,
+            lastPaymentDate: 2023-03-31,
+            numberOfCopies: 2,
+            numberOfPages: 40,
+            paymentType: ITA_F24_ELIDE,
+            registrationNumber: 35DS6SBTVK,
+            registrationOffice: {
+              cityId: 608,
+              description: Doloremque eos asperiores cum ipsam illum pariatur doloribus aperiam cumque non recusandae est.,
+              externalCode: RO00002,
+              id: 2
+            },
+            registrationSerialNumber: 8BZONAMPPY,
+            registrationYear: 2023,
+            specialCase: ITA_3_YEARS_WITH_RATES_DIFFERENT_FROM_WHOLE,
+            takeoverDate: 2023-06-08,
+            takeoverLegalRepresentativeSubjectId: null,
+            takeoverOriginalSubjectIds: [
+              2
+            ],
+            takeoverType: null,
+            taxableRateRatioPercent: 8.35,
+            tenantShareOfStampTaxPercent: 19.04689903792316,
+            tenantTaxSharePercent: 9.25,
+            transferResolutionAmount: 170.25785962550758
+          },
+          releaseDate: null,
+          releaseReason: null,
+          revaluationData: {
+            baseRevaluationRate: 18.88,
+            isAbsoluteRevaluationApplied: true,
+            isBackHistoryEnabled: false,
+            isRevaluationCalculated: true,
+            nextApplicationDate: 2023-02-07,
+            rateType: BASE_RATE,
+            referencePeriodEnd: 2024-06-07,
+            referencePeriodStart: 2023-10-10,
+            revaluationPeriodMonths: 3,
+            revaluationSharePercent: 8.66
+          },
+          secondTermDurationMonths: 7,
+          secondTermExpirationDate: 2024-09-20,
+          securityDeposits: [
+            {
+              bankAccountId: null,
+              baseAmount: 6029.96,
+              id: 1,
+              interestCalculationStartDate: null,
+              isInterestCalculated: false,
+              isSuretyRenewable: true,
+              notes: null,
+              since: 2023-10-27,
+              subjectId: null,
+              suretySubjectId: 2,
+              takeoverDate: null,
+              type: INSURANCE_SURETY,
+              until: 2023-12-19
+            }
+          ],
+          status: WORKING,
+          sublocatedContract: null,
+          terminationDate: null,
+          terminator: null,
+          transactors: [
+            {
+              addressId: 3,
+              id: 1,
+              invoiceAddressId: 3,
+              isInvoiced: true,
+              since: 2023-07-24,
+              subjectId: 3,
+              transactionSharePercent: 100.0,
+              type: NOPA,
+              until: null
+            }
+          ],
+          type: {
+            description: Illum assumenda iste quia natus et dignissimos reiciendis ad nostrum totam harum.,
+            id: 1,
+            internalCode: CT00001,
+            isAbsoluteRevaluation: true,
+            isActive: true,
+            isRegistrationTax: true,
+            isRentChargeApplicable: false,
+            isRevaluationApplicable: false,
+            isStampTax: false,
+            nature: LAND,
+            registrationTaxIncomeType: ITA_T1_FARMLAND,
+            registrationTaxPercent: null,
+            registrationTaxTenantPercent: null,
+            revaluationCalculationMonth: null,
+            revaluationIndexMonth: 9,
+            revaluationRatePercent: null,
+            usageTypeId: 2
+          }
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

@@ -1,0 +1,7 @@
+fragment GroupPermissionSummaryFragment on PermissionSummary {
+  feature
+  canCreate
+  canRead
+  canUpdate
+  canDelete
+}

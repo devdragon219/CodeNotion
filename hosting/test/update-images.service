@@ -1,0 +1,11 @@
+[Unit]
+Description=Update Images service
+After=syslog.target network.target remote-fs.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/
+ExecStart=/bin/bash /opt/update-images.sh
+
+[Install]
+WantedBy=multi-user.target

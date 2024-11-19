@@ -1,0 +1,86 @@
+﻿{
+  description: Est illum.,
+  flatIfConditions: [
+    {
+      complextConditionOperator: OR,
+      id: 1,
+      internalConditions: [
+        {
+          id: 164
+        },
+        {
+          id: 165
+        },
+        {
+          id: 193
+        }
+      ]
+    },
+    {
+      id: 164,
+      operator: NOT_EQUAL,
+      targetCatalogueSubCategory: {
+        id: 32,
+        name: Rampe di carico idrauliche
+      }
+    },
+    {
+      id: 165,
+      operator: NOT_EQUAL,
+      targetCatalogueSubCategory: {
+        id: 32,
+        name: Rampe di carico idrauliche
+      }
+    },
+    {
+      id: 193,
+      operator: NOT_EQUAL,
+      targetCatalogueType: {
+        id: 18,
+        name: Imp. elevatore idraulico fino a 6 fermate
+      }
+    }
+  ],
+  flatThenConditions: [
+    {
+      complextConditionOperator: OR,
+      id: 2,
+      internalConditions: [
+        {
+          id: 140
+        },
+        {
+          id: 215
+        }
+      ]
+    },
+    {
+      id: 140,
+      operator: NOT_EQUAL,
+      targetCatalogueCategory: {
+        id: 5,
+        name: Condizionamento e riscaldamento
+      }
+    },
+    {
+      calendar: {
+        id: 1,
+        name: Calendar 0,
+        timeZoneId: Indian/Mahe
+      },
+      id: 215,
+      maxTimePeriodInMinutes: 5,
+      minTimePeriodInMinutes: null,
+      targetMasterStatus: RESOLVED,
+      timeComparisonOperator: LESS_THAN
+    }
+  ],
+  id: 1,
+  ifCondition: {
+    id: 1
+  },
+  internalCode: SLA001,
+  thenCondition: {
+    id: 2
+  }
+}

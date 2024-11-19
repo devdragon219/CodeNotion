@@ -1,0 +1,33 @@
+﻿{
+  Data: {
+    catalogueCategory: {
+      update: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          id: 1,
+          internalCode: 3grnfcx3n1,
+          name: dolore,
+          subCategories: [
+            {
+              id: 9,
+              internalCode: grnfcx3n18,
+              name: aut
+            },
+            {
+              id: 10,
+              internalCode: zonamppy35,
+              name: voluptatem
+            },
+            {
+              id: 11,
+              internalCode: s6sbtvkpp0,
+              name: eum
+            }
+          ]
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

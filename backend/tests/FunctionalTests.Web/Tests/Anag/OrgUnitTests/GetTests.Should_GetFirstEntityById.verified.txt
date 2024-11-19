@@ -1,0 +1,85 @@
+﻿{
+  children: [
+    {
+      closureDate: null,
+      deletionDate: null,
+      entryStatus: WORKING,
+      externalCode: znr1dc,
+      geographicalCities: [
+        510,
+        719,
+        127,
+        280,
+        908
+      ],
+      id: 21,
+      internalCode: j26ga,
+      name: Leffler, Watsica and Pfeffer,
+      notes: null,
+      orgUnitType: GEOGRAPHICAL_HIERARCHY,
+      parentOrgUnitId: 1,
+      parentSubjectId: 56
+    }
+  ],
+  closureDate: null,
+  contacts: [
+    {
+      contactInfo: 4347752144,
+      contactInfoType: LANDLINE_PHONE,
+      contactType: MAIN,
+      id: 81,
+      notes: null
+    },
+    {
+      contactInfo: 0725202435,
+      contactInfoType: LANDLINE_PHONE,
+      contactType: MAIN,
+      id: 82,
+      notes: null
+    }
+  ],
+  deletionDate: null,
+  entryStatus: WORKING,
+  externalCode: gmgz1v,
+  geographicalCities: [
+    681,
+    321,
+    819,
+    850,
+    992
+  ],
+  id: 1,
+  internalCode: wfz9a,
+  name: DuBuque - Macejkovic,
+  notes: null,
+  orgUnitType: GEOGRAPHICAL_HIERARCHY,
+  parentOrgUnit: null,
+  parentOrgUnitId: null,
+  parentSubject: {
+    additionalGovIdCode: zomflrhj92,
+    additionalTaxIdCode: nrfmpw0oea,
+    bankingId1: w7m5vwdkoh,
+    bankingId2: 3q66xpmx2w,
+    baseCountryISO: TGO,
+    baseCountryTaxIdCode: xbekg6f05c,
+    businessStart: 2022-07-14,
+    closureDate: null,
+    companiesHouseIdCode: 2yscsrh16o,
+    customPersonType: null,
+    customSubjectStatus: null,
+    deletionDate: null,
+    entryStatus: WORKING,
+    externalSourceCode: stxupx4mei,
+    fullName: Schamberger and Sons,
+    id: 56,
+    interGroupSignature: rg650,
+    internalCode: 10250,
+    legalSubjectType: ACTUAL_LEGAL_SUBJECT,
+    location: 05177 Heller Summit, Goldnerborough, Timor-Leste,
+    name: Schamberger and Sons,
+    personType: LEGAL_PERSON,
+    shareCapital: 700895.717470,
+    shorthandDescription: null
+  },
+  parentSubjectId: 56
+}

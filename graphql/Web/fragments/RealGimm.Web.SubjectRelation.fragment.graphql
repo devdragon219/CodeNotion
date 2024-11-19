@@ -1,0 +1,16 @@
+fragment SubjectRelationFragment on SubjectRelation {
+  main {
+    name
+    id
+  }
+  subordinate {
+    name
+    id
+  }
+  since
+  until
+  groupRelationType
+  officerRelationType
+  relationType
+  id
+}

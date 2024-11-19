@@ -1,0 +1,8 @@
+fragment ReportGeneratorOutputFragment on ReportGeneratorOutput {
+  id
+  name
+  supportedFormats
+  filterFields {
+    ...ReportGeneratorFilterFieldFragment
+  }
+}

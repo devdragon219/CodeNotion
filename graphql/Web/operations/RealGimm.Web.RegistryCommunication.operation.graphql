@@ -1,0 +1,167 @@
+query getRegistryCommunicationGroups(
+  $isConfirmed: Boolean!
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: RegistryCommunicationGroupFilterInput
+  $order: [RegistryCommunicationGroupSortInput!]
+) {
+  registryCommunication {
+    listRegistryCommunicationGroups(
+      isConfirmed: $isConfirmed
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...RegistryCommunicationGroupFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query exportRegistryCommunicationGroups(
+  $isConfirmed: Boolean!
+  $where: RegistryCommunicationGroupFilterInput
+  $order: [RegistryCommunicationGroupSortInput!]
+) {
+  registryCommunication {
+    exportGroupsToExcel(
+      isConfirmed: $isConfirmed
+      where: $where
+      order: $order
+    ) {
+      resourceUrl
+    }
+  }
+}
+
+query getRegistryCommunicationGroup($id: RegistryCommunicationGroupIdInput!) {
+  registryCommunication {
+    group(id: $id) {
+      ...RegistryCommunicationGroupFragment
+    }
+  }
+}
+
+query getRegistryCommunications(
+  $groupId: RegistryCommunicationGroupIdInput!
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: RegistryCommunicationFilterInput
+  $order: [RegistryCommunicationSortInput!]
+) {
+  registryCommunication {
+    listRegistryCommunications(
+      groupId: $groupId
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...RegistryCommunicationFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getRegistryCommunicationManagementSubjects {
+  registryCommunication {
+    listManagementSubjects {
+      ...RegistryCommunicationManagementSubjectFragment
+    }
+  }
+}
+
+query exportConfirmedRegistryCommunicationGroup(
+  $groupId: ConfirmedRegistryCommunicationGroupIdInput!
+) {
+  registryCommunication {
+    exportGroupXmlRli(groupId: $groupId) {
+      resourceUrl
+    }
+  }
+}
+
+mutation markRegistryCommunicationAsExcluded($id: Int!) {
+  registryCommunication {
+    markAsExcluded(id: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation markRegistryCommunicationAsIncluded($id: Int!) {
+  registryCommunication {
+    markAsIncluded(id: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getRegistryCommunicationGroupAnomalies(
+  $groupId: RegistryCommunicationGroupIdInput!
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: RegistryCommunicationAnomalyOutputFilterInput
+  $order: [RegistryCommunicationAnomalyOutputSortInput!]
+) {
+  registryCommunication {
+    listAnomalies(
+      groupId: $groupId
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...RegistryCommunicationGroupAnomalyFragment
+      }
+      totalCount
+    }
+  }
+}
+
+mutation deleteRegistryCommunications($ids: [Int!]!) {
+  registryCommunication {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}

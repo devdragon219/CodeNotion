@@ -1,0 +1,27 @@
+query getAuditEvents(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: AuditLogFilterInput
+  $order: [AuditLogSortInput!]
+) {
+  admin {
+    listAuditEvents(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...AuditLogFragment
+      }
+      totalCount
+    }
+  }
+}

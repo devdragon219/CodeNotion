@@ -1,0 +1,11 @@
+fragment CatalogueCategoryFragment on CatalogueCategory {
+  name
+  internalCode
+  subCategories {
+    ...CatalogueSubCategoryFragment
+  }
+  catalogueTypes {
+    ...CatalogueCategoryCatalogueTypeDetailFragment
+  }
+  id
+}

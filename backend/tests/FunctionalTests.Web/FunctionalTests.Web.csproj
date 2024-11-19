@@ -1,0 +1,710 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Sdk Name="Microsoft.Build.CentralPackageVersions" Version="2.1.3" />
+  
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IsPackable>false</IsPackable>
+    <AssemblyName>RealGimm.FunctionalTests.Web</AssemblyName>
+    <RootNamespace>RealGimm.FunctionalTests.Web</RootNamespace>
+    <IsPublishable>false</IsPublishable>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <None Remove="Tests\Anag\SubjectTests\SubjectQueriesTests_CanBeGroupLeader.Should_ReturnFalse.verified.txt" />
+    <None Remove="Tests\Anag\SubjectTests\SubjectQueriesTests_CanBeGroupLeader.Should_ReturnTrue.verified.txt" />
+    <None Remove="Tests\Asst\FunctionAreaTests\AddRangeTests.Should_AddRange.verified.txt" />
+    <None Update="Tests\Fclt\ServiceTests\AddTests.Should_Add.verified.txt">
+      <DependentUpon>AddTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\ServiceTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <DependentUpon>GetTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\ServiceTests\ListTests.Should_ListFirst10Items.verified.txt">
+      <DependentUpon>ListTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\ServiceTests\UpdateTests.Should_Update.verified.txt">
+      <DependentUpon>UpdateTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\ServiceCategoryTests\AddTests.Should_Add.verified.txt">
+      <DependentUpon>AddTests.cs</DependentUpon>
+      <ParentFile>AddTests</ParentFile>
+    </None>
+    <None Update="Tests\Fclt\ServiceCategoryTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <DependentUpon>GetTests.cs</DependentUpon>
+      <ParentFile>GetTests</ParentFile>
+    </None>
+    <None Update="Tests\Fclt\ServiceCategoryTests\ListTests.Should_ListFirst10Items.verified.txt">
+      <DependentUpon>ListTests.cs</DependentUpon>
+      <ParentFile>ListTests</ParentFile>
+    </None>
+    <None Update="Tests\Fclt\ServiceCategoryTests\UpdateTests.Should_Update.verified.txt">
+      <DependentUpon>UpdateTests.cs</DependentUpon>
+      <ParentFile>UpdateTests</ParentFile>
+    </None>
+    <None Update="Tests\Fclt\ServiceCategoryTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+  </ItemGroup>
+    
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="Respawn" />
+    <PackageReference Include="Testcontainers" />
+    <PackageReference Include="Testcontainers.PostgreSql" />
+    <PackageReference Include="Verify.Xunit" />
+    <PackageReference Include="xunit" />
+    <PackageReference Include="xunit.runner.visualstudio">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="coverlet.collector">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" />
+    <PackageReference Include="McMaster.Extensions.CommandLineUtils" />
+    <PackageReference Include="Newtonsoft.Json" />
+    <PackageReference Include="Ardalis.HttpClientTestExtensions" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Web\Web.csproj" />
+    <ProjectReference Include="..\..\src\TenantCtl\TenantCtl.csproj" />
+    <ProjectReference Include="..\..\src\Infrastructure\Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\Infra.PgSql\Infra.PgSql.csproj" />
+    <ProjectReference Include="..\..\src\SharedKernel\SharedKernel.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Tests\Admin\AdminTests\GroupTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Admin\AdminTests\GroupTests\GenericGetTests.Should_GetFirstEntityById.received.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Admin\AdminTests\GroupTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>GetTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Admin\AdminTests\GroupTests\GenericGetTests.Should_RunWithNoFilters.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Admin\AdminTests\UserTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Admin\AdminTests\UserTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <DependentUpon>GetTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Admin\AdminTests\UserTests\GenericGetTests.Should_RunWithNoFilters.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>GenericGetTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Anag\OrgUnitTests\ListOrgUnitsByManagementSubjectTests.Should_ListByManagementSubject.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>ListOrgUnitsByManagementSubjectTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Anag\OrgUnitTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>GetTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Anag\SubjectCategoryTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>GetTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Anag\SubjectTests\AddLegalSubjectTests.Should_Add.received.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>AddLegalSubjectTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Anag\SubjectTests\AddLegalSubjectTests.Should_Add.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>AddLegalSubjectTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Anag\SubjectTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Anag\SubjectTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>GetTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\CadastralLandCategoryTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\CadastralLandCategoryTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>GetTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\CadastralUnitTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\CadastralUnitTests\GenericGetTests.Should_GetFirstEntityById.received.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\CadastralUnitTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>GetTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\CadastralUnitTests\UpdateTests.Should_AddCadastralUnit.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>UpdateTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\CatalogueCategoryTests\AddTests.Should_Add.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\CatalogueCategoryTests\FullListTests.Should_ListAllItems.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\CatalogueCategoryTests\UpdateTests.Should_Update.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\CatalogueItemTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\CatalogueItemTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>GetTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\CatalogueItemTests\UpdateTests.Should_Update.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\CatalogueTests\ExportToExcelTests.Should_ExportCataloguesToExcel.verified.txt">
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\CatalogueTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\CatalogueTypeTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\EstateMainUsageTypeTests\GenericGetTests.Should_GetFirstEntityById.received.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\EstateMainUsageTypeTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>GetTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\EstateSubUnitTests\GenericGetTests.Should_GetFirstEntityById.received.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\EstateSubUnitTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>GetTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\EstateTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\EstateTests\GenericGetTests.Should_GetFirstEntityById.received.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\EstateTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>GetTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\EstateTests\GenericGetTests.Should_RunWithNoFilters.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\EstateTests\OldListTests.Should_List10Estates.verified.txt">
+      <DependentUpon>OldListTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\EstateUnitTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\EstateUnitTests\MergeEstateUnitTest.Should_SplitEstateUnit.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>MergeEstateUnitTest.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\EstateUnitTests\SplitEstateUnitTest.Should_AddEstateUnit.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>SplitEstateUnitTest.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\EstateUnitTests\UpdateEstateUnitTests.Should_AddEstateUnit.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>UpdateEstateUnitTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\EstateUnitTests\BaseEstateUnitMutationTest.Should_AddEstateUnit.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>BaseEstateUnitMutationTest.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\EstateMainUsageTypeTests\AddTests.Should_Add.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\EstateMainUsageTypeTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\EstateMainUsageTypeTests\UpdateTests.Should_Update.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\EstateUsageTypeTests\ExportToExcelTests.Should_ExportToExcel.received.txt">
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\EstateUsageTypeTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\EstateUsageTypeTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>GetTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\FloorTemplateTests\AddFloorTemplateTest.Should_AddFloorConfigByQuery.verified.txt">
+      <DependentUpon>AddFloorTemplateTest.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\FloorTemplateTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <DependentUpon>GetTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\FunctionAreaTests\AddRangeTest.Should_Add.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>AddRangeTest.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\FunctionAreaTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Asst\FunctionAreaTests\UpdateTests.Should_Add.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>UpdateTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Common\AccountingItemTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Common\AccountingItemTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <DependentUpon>GetTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Common\BillItemTypeTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Common\BillItemTypeTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <DependentUpon>GetTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Common\CityTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <DependentUpon>GetTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Common\InterestRateTests\AddTests.Should_Add.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Common\InterestRateTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Common\InterestRateTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <DependentUpon>GetTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Common\NotificationTests\ListTests.Should_List5Items.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Common\RevaluationDataTests\ExportToExcelTests.Should_ExportToExcel.received.txt">
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Common\RevaluationDataTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <DependentUpon>GetTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Common\TaxConfigTests\ItaILIATests\GlobalExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Common\TaxConfigTests\ItaIMUTests\CoefficientsExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>CoefficientsExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Common\TaxConfigTests\ItaIMUTests\GlobalExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <DependentUpon>GlobalExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Common\VATRateTests\AddTests.Should_Add.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Common\VATRateTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Common\VATRateTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Common\VATRateTests\UpdateTests.Should_Update.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Econ\TaxCreditTests\AddTests.Should_Add.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>AddTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Econ\TaxCreditTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <DependentUpon>GetTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Econ\TaxCreditTests\ListGroupedOperationsTests.Should_List5Items.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>ListGroupedOperationsTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\CalendarTests\AddTests.Should_Add.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\CalendarTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\CalendarTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\CalendarTests\ListTests.Should_ListFirst10Items.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\CalendarTests\UpdateTests.Should_Update.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\PriceListArticleTests\AddTests.Should_Add.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\PriceListArticleTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\PriceListArticleTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\PriceListArticleTests\ListTests.Should_ListFirst10Items.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\PriceListArticleTests\UpdateTests.Should_Update.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\PriceListArticleTests\UpdateWithoutChangesTests.Should_Update.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\CraftTests\AddTests.Should_Add.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\CraftTests\UpdateTests.Should_Update.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\PriceListTests\AddTests.Should_Add.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\PriceListTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\PriceListTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\PriceListTests\ListTests.Should_ListFirst10Items.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\PriceListTests\UpdateTests.Should_Update.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\PenaltyTests\FullListTests.Should_ListAllItems.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\PriceListMeasurementUnitTests\AddTests.Should_Add.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\PriceListMeasurementUnitTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\PriceListMeasurementUnitTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\PriceListMeasurementUnitTests\ListTests.Should_ListFirst10Items.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\PriceListMeasurementUnitTests\UpdateTests.Should_Update.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\InterventionTypeTests\AddTests.Should_Add.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\InterventionTypeTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\InterventionTypeTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\InterventionTypeTests\ListTests.Should_ListFirst10Items.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\InterventionTypeTests\UpdateTests.Should_Update.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\QualificationLevelTests\AddTests.Should_Add.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>AddTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\QualificationLevelTests\UpdateTests.Should_Update.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>UpdateTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\SLATests\FullListTests.Should_ListAllItems.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\TicketChecklistTemplateTests\AddRangeTests.Should_Add.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\TicketChecklistTemplateTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\TicketChecklistTemplateTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\TicketChecklistTemplateTests\ListTests.Should_ListFirst10Items.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\TicketChecklistTemplateTests\UpdateTests.Should_Update.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\TicketChecklistTemplateTests\UpdateWithoutChangesTests.Should_Update.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\SLATests\UpdateWithoutChangesTests.Should_Update.received.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\SLATests\UpdateWithoutChangesTests.Should_Update.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\TicketTypeTests\AddTests.Should_Add.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\TicketTypeTests\UpdateTests.Should_Update.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\WorkTeamTests\AddTests.Should_Add.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\WorkTeamTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\WorkTeamTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\WorkTeamTests\ListTests.Should_ListFirst10Items.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\TicketTypeTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\TicketTypeTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\TicketTypeTests\ListTests.Should_ListFirst10Items.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\EstateUnitGroupTests\ExportToExcelTests.Should_ExportToExcel.received.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\EstateUnitGroupTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\CraftTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\CraftTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\CraftTests\ListTests.Should_ListFirst10Items.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Fclt\WorkTeamTests\UpdateTests.Should_Update.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Nrgy\CostChargeTests\AnalysisTests.Should_GetFirstEntityById.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>AnalysisTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Nrgy\CostChargeTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Nrgy\CostChargeTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <DependentUpon>GetTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Nrgy\ReadingTests\AddTests.Should_Add.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Nrgy\ReadingTests\UpdateTests.Should_Update.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Nrgy\CostChargeTests\AddTests.Should_Add.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Nrgy\CostChargeTests\UpdateTests.Should_Update.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Nrgy\UtilityServiceTests\AddTests.Should_Add.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Nrgy\UtilityServiceTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Nrgy\UtilityServiceTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <DependentUpon>GetTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Nrgy\UtilityTypeTests\ExportToExcelTests.Should_ExportToExcel.received.txt">
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Nrgy\UtilityTypeTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Nrgy\UtilityTypeTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <DependentUpon>GetTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Prop\AdministrationTermTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>GetTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Prop\AdministrationTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Prop\AdministrationTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>GetTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Prop\ContractTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <DependentUpon>GetTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Prop\PassiveBillTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Prop\AdministrationTermTests\AddTests.Should_AddAdministrationTerm.verified.txt">
+      <DependentUpon>AddTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Prop\AdministrationTermTests\UpdateTests.Should_UpdateAdministrationTerm.verified.txt">
+      <DependentUpon>UpdateTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Prop\AdministrationTests\AddTests.Should_Add.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Prop\AdministrationTests\UpdateTests.Should_Update.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Prop\ActiveBillTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Prop\ContractTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Prop\ContractTests\ListTests.Should_RunWithNoFilters.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>ListTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Prop\ContractTests\TakeoverLandlordTests.Should_PauseBilling.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>TakeoverLandlordTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Prop\ContractTests\ResumeBillingTests.Should_PauseBilling.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>ResumeBillingTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Prop\ContractTests\ProposeNewinternalCodeTests.Should_Add.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>ProposeNewinternalCodeTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Prop\ContractTests\AddTests.Should_Add.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Prop\ContractTypeTests\AddTests.Should_Add.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Prop\ContractTypeTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Prop\ContractTypeTests\GetTests.Should_GetFirstEntityById.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Prop\ContractTypeTests\UpdateTests.Should_Update.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>%(ParentFile).cs</DependentUpon>
+    </None>
+    <None Update="Tests\Common\RevaluationDataTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="Tests\Prop\RegistrationPaymentTests\ExportToExcelTests.Should_ExportToExcel.verified.txt">
+      <DependentUpon>ExportToExcelTests.cs</DependentUpon>
+    </None>
+    <None Update="xunit.runner.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

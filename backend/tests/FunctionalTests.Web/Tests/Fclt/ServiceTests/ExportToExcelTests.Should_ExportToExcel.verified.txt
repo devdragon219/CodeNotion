@@ -1,0 +1,122 @@
+﻿[
+  [
+    S000003,
+    Disinfezione e sanificazione di superfici e ambienti,
+    Igiene ambientale,
+    Pulizia e sanificazione
+  ],
+  [
+    S000004,
+    Raccolta differenziata e smaltimento rifiuti,
+    Igiene ambientale,
+    Gestione dei rifiuti
+  ],
+  [
+    S000005,
+    Gestione dei rifiuti speciali e pericolosi,
+    Igiene ambientale,
+    Gestione dei rifiuti
+  ],
+  [
+    S000006,
+    Trattamento e riciclo dei rifiuti,
+    Igiene ambientale,
+    Gestione dei rifiuti
+  ],
+  [
+    S000007,
+    Trattamenti antiparassitari,
+    Igiene ambientale,
+    Disinfestazione e deratizzazione
+  ],
+  [
+    S000008,
+    Derattizzazione e controllo infestazioni,
+    Igiene ambientale,
+    Disinfestazione e deratizzazione
+  ],
+  [
+    S000009,
+    Bonifica ambientale (aree infestate o contaminate),
+    Igiene ambientale,
+    Disinfestazione e deratizzazione
+  ],
+  [
+    S000010,
+    Taglio dell’erba e pulizia delle aree verdi,
+    Manutenzione del verde,
+    Manutenzione ordinaria
+  ],
+  [
+    S000011,
+    Potatura e cura degli alberi e delle siepi,
+    Manutenzione del verde,
+    Manutenzione ordinaria
+  ],
+  [
+    S000012,
+    Rimozione di fogliame e altri detriti,
+    Manutenzione del verde,
+    Manutenzione ordinaria
+  ],
+  [
+    S000013,
+    Installazione e manutenzione di impianti di irrigazione,
+    Manutenzione del verde,
+    Irrigazione e concimazione
+  ],
+  [
+    S000014,
+    Concimazione e trattamenti del suolo,
+    Manutenzione del verde,
+    Irrigazione e concimazione
+  ],
+  [
+    S000015,
+    Raccolta e utilizzo di acqua piovana per irrigazione,
+    Manutenzione del verde,
+    Irrigazione e concimazione
+  ],
+  [
+    S000016,
+    Valutazione e cura della salute degli alberi,
+    Manutenzione del verde,
+    Servizi di Arboricoltura
+  ],
+  [
+    S000017,
+    Interventi di rimozione e abbattimento alberi pericolosi,
+    Manutenzione del verde,
+    Servizi di Arboricoltura
+  ],
+  [
+    S000018,
+    Piantumazione e sostituzione di specie vegetali,
+    Manutenzione del verde,
+    Servizi di Arboricoltura
+  ],
+  [
+    S000019,
+    Monitoraggio e controllo degli accessi,
+    Sicurezza,
+    Vigilanza e controllo accessi
+  ],
+  [
+    S000020,
+    Videosorveglianza e allarmi,
+    Sicurezza,
+    Vigilanza e controllo accessi
+  ],
+  [
+    S000021,
+    Servizio di guardie di sicurezza,
+    Sicurezza,
+    Vigilanza e controllo accessi
+  ],
+  [
+    S000022,
+    Valutazione dei rischi e adeguamenti normativi,
+    Sicurezza,
+    Sicurezza sul Lavoro
+  ]
+]

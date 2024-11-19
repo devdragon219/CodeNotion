@@ -1,0 +1,7 @@
+fragment EstateSurfacesFragment on EstateSurfaces {
+  metric
+  heritageType
+  surfaceSqMTotal
+  surfaceSqMCommonArea
+  surfaceSqMSideArea
+}

@@ -1,0 +1,51 @@
+{
+  "vat_rate": {
+    "title": "Aliquote IVA",
+    "field": {
+      "internal_code": "Codice Aliquota IVA",
+      "description": "Descrizione",
+      "type": "Tipo Aliquota IVA",
+      "rate_percent": "Aliquota IVA %"
+    },
+    "error": {
+      "internal_code": "Il codice aliquota IVA inserito è già in uso"
+    },
+    "action": {
+      "add_vat_rate": "Aggiungi aliquota IVA"
+    },
+    "text": {
+      "no_vat_rates": "Non sono presenti aliquote IVA"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta aliquota IVA",
+        "save": "Salva aliquota IVA"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa aliquota IVA?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste aliquote IVA?\nIl processo non potrà essere annullato"
+        }
+      },
+      "update": {
+        "title": "Modifica aliquota IVA",
+        "save": "Salva aliquota IVA"
+      },
+      "view": {
+        "title": "Visualizza aliquota IVA"
+      }
+    },
+    "feedback": {
+      "create": {
+        "single": "Aliquota IVA creata con successo",
+        "multiple": "Aliquote IVA create con successo"
+      },
+      "delete": {
+        "single": "Aliquota IVA cancellata con successo",
+        "multiple": "Aliquote IVA cancellate con successo"
+      },
+      "update": "Aliquota IVA modificata con successo"
+    }
+  }
+}

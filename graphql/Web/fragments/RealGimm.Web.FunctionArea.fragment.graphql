@@ -1,0 +1,6 @@
+fragment FunctionAreaFragment on FunctionArea {
+  name
+  internalCode
+  surfaceType
+  id
+}

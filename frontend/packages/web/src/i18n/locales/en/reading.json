@@ -1,0 +1,90 @@
+{
+  "reading": {
+    "section_title": {
+      "no_readings": "No reading available, press edit to add a reading",
+      "measurement_data": "Measurement data",
+      "reading_data": "Reading data"
+    },
+    "field": {
+      "measurement_unit_code": "Measurement unit code",
+      "measurement_unit_description": "Measurement unit description",
+      "date": "Reading date",
+      "type": "Reading type",
+      "notes": "Reading notes",
+      "value": "Reading value {{ index }}"
+    },
+    "estimated": {
+      "false": "Actual",
+      "true": "Estimated"
+    },
+    "action": {
+      "add_reading": "Add reading"
+    },
+    "text": {
+      "no_readings": "No readings available"
+    },
+    "dialog": {
+      "create": "Add reading",
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this reading?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these readings?\nThe process cannot be undone"
+        }
+      },
+      "edit": "Edit reading"
+    },
+    "feedback": {
+      "create": "Reading created successfully",
+      "delete": {
+        "single": "Reading deleted successfully",
+        "multiple": "Readings deleted successfully"
+      },
+      "update": "Reading edited successfully"
+    }
+  },
+  "usage": {
+    "section_title": {
+      "no_usages": "No usage available, press edit to add an usage",
+      "measurement_data": "Measurement data",
+      "usage_data": "Usage data"
+    },
+    "field": {
+      "measurement_unit_code": "Measurement unit code",
+      "measurement_unit_description": "Measurement unit description",
+      "date": "Usage date",
+      "type": "Usage type",
+      "notes": "Usage notes",
+      "value": "Usage value {{ index }}"
+    },
+    "estimated": {
+      "false": "Actual",
+      "true": "Estimated"
+    },
+    "action": {
+      "add_usage": "Add usage"
+    },
+    "text": {
+      "no_usages": "No usages available"
+    },
+    "dialog": {
+      "create": "Add usage",
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this usage?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these usages?\nThe process cannot be undone"
+        }
+      },
+      "edit": "Edit usage"
+    },
+    "feedback": {
+      "create": "Usage created successfully",
+      "delete": {
+        "single": "Usage deleted successfully",
+        "multiple": "Usages deleted successfully"
+      },
+      "update": "Usage edited successfully"
+    }
+  }
+}

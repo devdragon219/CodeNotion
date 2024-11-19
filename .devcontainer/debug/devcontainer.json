@@ -1,0 +1,7 @@
+{
+    "name": "C# and NodeJS, with Postgres, RabbitMQ, InMemoryDocs, Aspire Dashboard, Keycloak",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspace",
+    "forwardPorts": ["app:5050", "db:5432", "inmemorydocs:8081", "aspire-dashboard:18888"]
+}

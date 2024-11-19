@@ -1,0 +1,22 @@
+fragment ContractTypeFragment on ContractType {
+  id
+  internalCode
+  description
+  isActive
+  isRentChargeApplicable
+  nature
+  usageTypeId
+  usageType {
+    ...UsageTypeFragment
+  }
+  isRegistrationTax
+  isStampTax
+  registrationTaxIncomeType
+  registrationTaxPercent
+  registrationTaxTenantPercent
+  isRevaluationApplicable
+  isAbsoluteRevaluation
+  revaluationRatePercent
+  revaluationIndexMonth
+  revaluationCalculationMonth
+}

@@ -1,0 +1,356 @@
+{
+  "core": {
+    "button": {
+      "actions": "Azioni",
+      "close": "Chiudi",
+      "confirm": "Conferma",
+      "detail": "Vedi dettagli",
+      "duplicate": "Duplica",
+      "exclude": "Escludi",
+      "include": "Includi",
+      "show": "Visualizza",
+      "show_all": "Vedi tutti"
+    },
+    "enum": {
+      "applicability": {
+        "ADMINISTRATION": "Amministrazione",
+        "CONTRACT_COSTS": "Spese contratto",
+        "CONTRACT_FEE": "Canone contratto",
+        "TAX": "Tasse"
+      },
+      "condition_type": {
+        "CATALOGUE_CATEGORY": "Categoria",
+        "CATALOGUE_SUB_CATEGORY": "Sottocategoria",
+        "CATALOGUE_TYPE": "Tipologia oggetto",
+        "PENALTY_TYPE": "Tipo penale",
+        "PRIORITY": "Priorità ticket",
+        "TICKET_MASTER_STATUS": "Stato ticket",
+        "TICKET_TYPE": "Tipologia ticket"
+      },
+      "contract_landlord_variation": {
+        "TAKEOVER": "Subentro locatore",
+        "TRANSFER": "Cessione ad altro ente"
+      },
+      "contract_tenant_variation": {
+        "TAKEOVER": "Subentro conduttore",
+        "TRANSFER": "Cessione ad altro ente"
+      },
+      "cost_charge_analysis_period": {
+        "PER_HEATING_COOLING_SURFACE": "Mq energy",
+        "PER_GROSS_SURFACE": "Mq lordo",
+        "TOTAL": "Totale"
+      },
+      "counterpart_landlord_variation": {
+        "ADD": "Aggiunta locatore",
+        "TAKEOVER": "Subentro locatore",
+        "TRANSFER": "Cessione locatore",
+        "DECEASE": "Decesso locatore"
+      },
+      "counterpart_tenant_variation": {
+        "ADD": "Aggiunta conduttore",
+        "TAKEOVER": "Subentro conduttore",
+        "TRANSFER": "Cessione conduttore",
+        "DECEASE": "Decesso conduttore"
+      },
+      "dashboard_widget_last_period": {
+        "BI_WEEK": "Ultimi 14 giorni",
+        "CUSTOM": "Intervallo personalizzato",
+        "MONTH": "Ultimo mese",
+        "QUARTER": "Ultimo trimestre",
+        "QUARTER_PER_DAY": "Ultimo trimestre per giorno",
+        "QUARTER_PER_WEEK": "Ultimo trimestre per settimana",
+        "SEMESTER": "Ultimo semestre",
+        "WEEK": "Ultimi 7 giorni",
+        "YEAR": "Ultimo anno",
+        "YEAR_PER_MONTH": "Ultimo anno per mese",
+        "YEAR_PER_WEEK": "Ultimo anno per settimana"
+      },
+      "dashboard_widget_period": {
+        "BI_WEEK": "14 giorni",
+        "CUSTOM": "Intervallo personalizzato",
+        "MONTH": "Mese",
+        "QUARTER": "Trimestre",
+        "QUARTER_PER_DAY": "Trimestre per giorno",
+        "QUARTER_PER_WEEK": "Trimestre per settimana",
+        "SEMESTER": "Semestre",
+        "WEEK": "7 giorni",
+        "YEAR": "Anno",
+        "YEAR_PER_MONTH": "Anno per mese",
+        "YEAR_PER_WEEK": "Anno per settimana"
+      },
+      "dashboard_widget_type": {
+        "ACTIVE_CONTRACTS_EXPIRATIONS_LIST": "Scadenze contratti attivi",
+        "BILL_PAYMENTS_STATUS_PERCENTAGE": "Percentuali stati pagamento",
+        "CHECKLIST_TICKETS_EXPIRATIONS_LIST": "Scadenze manutenzioni",
+        "CONTRACTS_RECAP": "Riepilogo contratti",
+        "ESTATE_MAP": "Mappa immobili",
+        "ESTATE_OCCUPATION_STATUS_PERCENTAGE": "Grafico andamento occupazione",
+        "ESTATE_UNIT_TYPES_PERCENTAGE": "Percentuali tipologie UI",
+        "INCOME_OUTCOME_COMPARISON_CHART": "Grafico confronto entrate uscite",
+        "ISSUE_TICKETS_EXPIRATIONS_LIST": "Scadenze ticket",
+        "MANDATORY_BY_LAW_TICKETS_EXPIRATIONS_LIST": "Scadenze manutenzioni obbligo di legge",
+        "NOTIFICATIONS_LIST": "Notifiche",
+        "PASSIVE_CONTRACTS_EXPIRATIONS_LIST": "Scadenze contratti passivi",
+        "REAL_ESTATE_RECAP": "Patrimonio immobiliare",
+        "TICKETS_COMPLETED_CHART": "Grafico manutenzioni eseguite",
+        "TICKETS_COUNT_CHART": "Grafico confronto attività di manutenzione",
+        "TICKETS_EXCLUDED_FROM_MAINTENANCE_CONTRACT_CHART": "Grafico canone/extra canone ticket",
+        "TICKETS_EXCLUDED_FROM_MAINTENANCE_CONTRACT_EXPENSES_CHART": "Grafico costi canone/extra canone ticket",
+        "TICKETS_EXCLUDED_FROM_MAINTENANCE_CONTRACT_EXPENSES_PERCENTAGE": "Percentuale costi canone/extra canone ticket",
+        "TICKETS_EXCLUDED_FROM_MAINTENANCE_CONTRACT_PERCENTAGE": "Percentuale canone/extra canone ticket",
+        "TICKETS_EXCLUDED_FROM_MAINTENANCE_CONTRACT_TOTAL_EXPENSES_COUNT": "Costi totali canone/extra canone ticket",
+        "TICKETS_MANDATORY_BY_LAW_EXPIRED": "Manutenzioni obbligo di legge scadute",
+        "TICKETS_MANDATORY_BY_LAW_LIST": "Scadenze manutenzioni obbligo di legge",
+        "TICKETS_MANDATORY_BY_LAW_STATUS_PERCENTAGE": "Percentuali stati manutenzioni obbligo di legge",
+        "TICKETS_MANDATORY_BY_LAW_TYPE_PERCENTAGE": "Percentuali tipologie manutenzioni obbligo di legge",
+        "TICKETS_PREVENTATIVE_EXPIRED": "Manutenzioni programmate scadute",
+        "TICKETS_PRIORITY_PERCENTAGE": "Percentuali priorità ticket",
+        "TICKETS_SLA_RESPECTING_PERCENTAGE": "Percentuali ticket rispetto degli SLA",
+        "TICKETS_STATUS_CHART_AVERAGE_RESOLUTION_DURATION": "Tempi medi di risoluzione ticket",
+        "TICKETS_STATUS_CHART": "Grafico stati ticket",
+        "TICKETS_STATUS_COUNT": "Stati ticket",
+        "TICKETS_STATUS_PERCENTAGE": "Percentuali stati ticket",
+        "TICKETS_TOTAL_EXPENSES_CHART": "Grafico confronto costi totali ticket",
+        "TICKETS_TYPE_CHART": "Grafico attività di manutenzione",
+        "TICKETS_TYPE_LIST": "Tipologie ticket",
+        "USAGE_TYPES_PERCENTAGE": "Percentuali destinazioni d'uso"
+      },
+      "legal_nature": {
+        "LEGAL_PERSON": "Persona giuridica",
+        "PHYSICAL_PERSON": "Persona fisica",
+        "OTHER": "Altra natura (condomini, ecc.)"
+      },
+      "notification_body": {
+        "CATALOGUE_ITEM_DOCUMENT_EXPIRED_NOTIFICATION": "Un documento della consistenza è scaduto.",
+        "CONTRACT_DOCUMENT_EXPIRED_NOTIFICATION": "Un documento del contratto è scaduto.",
+        "CONTRACTS_EXPIRATION_NOTIFICATION": "{{ amount }} contratti scadono entro {{ daysToExpiration }} giorni.",
+        "COST_CHARGES_EXPIRATION_NOTIFICATION": "{{ amount }} spese raggiungeranno la scadenza del pagamento entro {{ daysToExpiration }} giorni.",
+        "ESTATE_DOCUMENT_EXPIRED_NOTIFICATION": "Un documento dell'immobile è scaduto.",
+        "ESTATE_PORTFOLIO_EXPORT_IS_READY_NOTIFICATION": "L'esportazione del Fascicolo Fabbricato è pronta per il download.",
+        "ESTATE_UNIT_DOCUMENT_EXPIRED_NOTIFICATION": "Un documento dell'unità immobiliare è scaduto.",
+        "PASSWORD_EXPIRATION_NOTIFICATION": "La tua password scadrà tra {{ daysToExpiration }} giorni. Per favore, cambiala prima della scadenza.",
+        "SUBJECT_DOCUMENT_EXPIRED_NOTIFICATION": "Un documento del soggetto è scaduto."
+      },
+      "notification_title": {
+        "CATALOGUE_ITEM_DOCUMENT_EXPIRED_NOTIFICATION": "Scadenza documento consistenza",
+        "CONTRACT_DOCUMENT_EXPIRED_NOTIFICATION": "Scadenza documento contratto",
+        "CONTRACTS_EXPIRATION_NOTIFICATION": "Scadenza dei contratti",
+        "COST_CHARGES_EXPIRATION_NOTIFICATION": "Scadenza delle spese",
+        "ESTATE_DOCUMENT_EXPIRED_NOTIFICATION": "Scadenza documento immobile",
+        "ESTATE_PORTFOLIO_EXPORT_IS_READY_NOTIFICATION": "Esportazione del Fascicolo Fabbricato",
+        "ESTATE_UNIT_DOCUMENT_EXPIRED_NOTIFICATION": "Scadenza documento unità immobiliare",
+        "PASSWORD_EXPIRATION_NOTIFICATION": "Scadenza password",
+        "SUBJECT_DOCUMENT_EXPIRED_NOTIFICATION": "Scadenza documento soggetto"
+      },
+      "rate_plan_status": {
+        "NOT_EXPECTED": "Non da dichiarare",
+        "WAITING": "Da dichiarare",
+        "DECLARED": "Dichiarata in elaborazione definitiva"
+      },
+      "subject_type": {
+        "MANAGEMENT_SUBJECT": "Ente",
+        "OTHER": "Soggetto non Ente"
+      },
+      "surface_mode": {
+        "FLOOR": "Superficie totale per piano",
+        "FUNCTION_AREA": "Superficie per area funzionale per piano",
+        "TOTAL": "Superficie totale per UI"
+      },
+      "usage_type_applicability": {
+        "ESTATE": "Immobili",
+        "ESTATE_UNIT": "Unità immobiliari",
+        "ESTATE_SUB_UNIT": "Sotto unità immobiliari",
+        "CONTRACT": "Contratti"
+      }
+    },
+    "error": {
+      "download": "Il download dei documenti non è andato a buon fine, si prega di riprovare",
+      "fields_not_matching": "Il campo '{{ first }}' non coincide col campo '{{ second }}'",
+      "iban": "IBAN non valido",
+      "upload": "Il caricamento dei documenti non è andato a buon fine, si prega di riprovare"
+    },
+    "feature": {
+      "registry": {
+        "title": "Anagrafica",
+        "subjects": "Soggetti",
+        "org_units": "Unità organizzative"
+      },
+      "real_estate": {
+        "title": "Patrimonio immobiliare",
+        "estates": "Immobili",
+        "estates_catalogue": "Consistenza immobili",
+        "estate_units": "Unità immobiliari",
+        "estate_units_variations": "Variazioni unità immobiliari",
+        "cadastral_units": "Unità catastali",
+        "catalogue_config": "Configurazioni consistenza",
+        "cadastral_land_categories": "Configurazioni tipi qualità",
+        "asset_taxes": "Elaborazione tributi"
+      },
+      "asset_management": {
+        "title": "Amministrazione patrimoniale",
+        "contracts": "Contratti",
+        "contract_types": "Tipologie contratti",
+        "bills": "Avvisi/Mandati di pagamento",
+        "administration": "Amministrazione",
+        "registry_communications": "Comunicazioni di registro",
+        "registration_payments": "Cartelle esattoriali"
+      },
+      "repository": {
+        "title": "Documenti",
+        "documents": "Documenti"
+      },
+      "energy_management": {
+        "title": "Amministrazione energetica",
+        "utility_types": "Tipologie forniture",
+        "utility_services": "Forniture",
+        "cost_charges": "Spese"
+      },
+      "system": {
+        "title": "Sistema",
+        "permissions": "Permessi",
+        "audit_events": "Audit log",
+        "configs": "Impostazioni moduli"
+      },
+      "maintenance": {
+        "title": "Manutenzione",
+        "estate_unit_groups": "Lotti",
+        "facility_contracts": "Contratti manutenzione",
+        "facility_contract_templates": "Modelli contratti manutenzione",
+        "facility_contract_types": "Tipologie contratti manutenzione",
+        "slas": "SLA",
+        "config": "Configurazioni",
+        "penalties": "Penali",
+        "price_lists": "Listini",
+        "price_list_articles": "Articoli",
+        "tickets": "Attività manutenzione",
+        "service_categories": "Categorie servizi"
+      },
+      "common": {
+        "title": "Configurazioni",
+        "vat_rates": "Aliquote IVA",
+        "interest_rates": "Interessi legali",
+        "accounting_items": "Voci di bilancio",
+        "bill_item_types": "Voci bollettazione",
+        "revaluation_data": "Rivalutazione monetaria",
+        "tax_rates": "Aliquote tributi",
+        "report_generators": "Report"
+      }
+    },
+    "feedback": {
+      "document_updated": "Documento modificato con successo",
+      "documents_download": "Il download dei documenti continuerà in background, riceverai una notifica quando sarà disponibile"
+    },
+    "menu": {
+      "registry": {
+        "title": "Anagrafica",
+        "subjects": "Soggetti",
+        "org_units": "Unità organizzative"
+      },
+      "real_estate": {
+        "title": "Patrimonio immobiliare",
+        "estates": "Immobili",
+        "estate_units": "Unità immobiliari",
+        "cadastral_units": "Unità catastali",
+        "catalogues": "Consistenza"
+      },
+      "asset_management": {
+        "title": "Amministrazione patrimoniale",
+        "active_contracts": "Contratti attivi",
+        "passive_contracts": "Contratti passivi",
+        "active_bills": "Avvisi di pagamento",
+        "passive_bills": "Mandati di pagamento",
+        "administration": "Amministrazione",
+        "registry_communications": "Comunicazioni di registro",
+        "registration_payments": "Cartelle esattoriali"
+      },
+      "energy_management": {
+        "title": "Amministrazione energetica",
+        "utility_services": "Forniture",
+        "cost_charges": "Spese",
+        "cost_charge_analysis": "Analisi"
+      },
+      "maintenance": {
+        "title": "Manutenzione",
+        "tickets": "Attività manutenzione",
+        "tickets_calendar": "Calendario manutenzioni",
+        "tickets_timetable": {
+          "title": "Scadenzario",
+          "expired": "Scaduti",
+          "expiring": "In scadenza"
+        },
+        "facility_contracts": "Contratti manutenzione",
+        "work_teams": "Squadre",
+        "price_lists": "Listini",
+        "price_list_articles": "Articoli"
+      },
+      "tax_management": {
+        "title": "Fisco",
+        "asset_taxes": "Elaborazione tributi",
+        "report_generator": "Report"
+      },
+      "repository": {
+        "title": "Documenti",
+        "documents": "Documenti",
+        "expired_documents": "Scaduti",
+        "expiring_documents": "In scadenza"
+      },
+      "system": {
+        "title": "Sistema",
+        "users": "Utenti",
+        "groups": "Gruppi",
+        "audit_events": "Audit",
+        "configs": "Impostazioni moduli"
+      },
+      "settings": {
+        "title": "Configurazioni",
+        "real_estate": {
+          "floors": "Piani",
+          "function_areas": "Aree funzionali",
+          "catalogue_types": "Tipologie oggetti",
+          "catalogue_categories": "Categorie oggetti",
+          "main_usage_types": "Macro destinazioni d'uso",
+          "usage_types": "Destinazioni d'uso",
+          "cadastral_land_categories": "Tipi qualità"
+        },
+        "asset_management": {
+          "contract_types": "Tipologie contratti",
+          "accounting_items": "Voci di bilancio",
+          "bill_item_types": "Voci bollettazione",
+          "vat_rates": "Aliquote IVA",
+          "interest_rates": "Interesse legale",
+          "revaluation_data": "Rivalutazione monetaria"
+        },
+        "energy_management": {
+          "utility_types": "Tipologie forniture"
+        },
+        "tax_management": {
+          "revaluation_coefficients": "Coefficienti rivalutazione",
+          "tax_rates": "Aliquote tributi"
+        },
+        "maintenance": {
+          "facility_contract_types": "Tipologie contratti manutenzione",
+          "facility_contract_templates": "Modelli contratti manutenzione",
+          "estate_unit_groups": "Lotti",
+          "slas": "SLA",
+          "penalties": "Penali",
+          "calendars": "Calendari",
+          "ticket_checklist_templates": "Modelli schede manutenzione",
+          "intervention_types": "Tipologie interventi",
+          "crafts": "Specializzazioni",
+          "qualification_levels": "Livelli",
+          "ticket_types": "Tipologie ticket",
+          "price_list_measurement_units": "Unità misura articoli listini",
+          "service_categories": "Categorie servizi"
+        }
+      }
+    },
+    "text": {
+      "days": "gg",
+      "last_updated": "Ultimo aggiornamento {{date}}",
+      "no_data": "Nessun dato",
+      "outstanding": "In essere",
+      "percentage": "Percentuale",
+      "uncategorized": "Nessuna categoria"
+    }
+  }
+}

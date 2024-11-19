@@ -1,0 +1,115 @@
+query getEstateUnitGroups(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: EstateUnitGroupFilterInput
+  $order: [EstateUnitGroupSortInput!]
+) {
+  estateUnitGroup {
+    listEstateUnitGroups(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...EstateUnitGroupFragment
+      }
+      totalCount
+    }
+  }
+}
+
+mutation addEstateUnitGroup($input: EstateUnitGroupInput!) {
+  estateUnitGroup {
+    add(input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateEstateUnitGroup(
+  $estateUnitGroupId: Int!
+  $input: EstateUnitGroupInput!
+) {
+  estateUnitGroup {
+    update(id: $estateUnitGroupId, input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteEstateUnitGroups($ids: [Int!]!) {
+  estateUnitGroup {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getEstateUnitGroupInternalCode {
+  estateUnitGroup {
+    proposeNewInternalCode
+  }
+}
+
+query canUseEstateUnitGroupInternalCode(
+  $internalCode: String!
+  $currentEstateUnitGroupId: Int
+) {
+  estateUnitGroup {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentEstateUnitGroupId: $currentEstateUnitGroupId
+    )
+  }
+}
+
+query exportEstateUnitGroups(
+  $where: EstateUnitGroupFilterInput
+  $order: [EstateUnitGroupSortInput!]
+) {
+  estateUnitGroup {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+query getEstateUnitGroup($estateUnitGroupId: Int!) {
+  estateUnitGroup {
+    get(id: $estateUnitGroupId) {
+      ...EstateUnitGroupFragment
+    }
+  }
+}
+
+mutation deleteEstateUnitGroup($id: Int!) {
+  estateUnitGroup {
+    delete(id: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}

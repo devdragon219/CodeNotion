@@ -1,0 +1,182 @@
+query getAssetTaxes(
+  $taxCalculatorId: UUID!
+  $currentYear: Boolean!
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: AssetTaxGroupedRowFilterInput
+  $order: [AssetTaxGroupedRowSortInput!]
+) {
+  assetTax {
+    groupedPayments(
+      taxCalculatorId: $taxCalculatorId
+      currentYear: $currentYear
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...AssetTaxFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getAllAssetTaxes(
+  $taxCalculatorId: UUID!
+  $currentYear: Boolean!
+  $where: AssetTaxGroupedRowFilterInput
+  $order: [AssetTaxGroupedRowSortInput!]
+) {
+  assetTax {
+    fullGroupedPayments(
+      taxCalculatorId: $taxCalculatorId
+      currentYear: $currentYear
+      where: $where
+      order: $order
+    ) {
+      ...AssetTaxFragment
+    }
+  }
+}
+
+query getAssetTax(
+  $taxCalculatorId: UUID!
+  $year: Int!
+  $managementSubjectId: Int!
+  $expectedDueDate: Date!
+) {
+  assetTax {
+    singleGroupedPayment(
+      taxCalculatorId: $taxCalculatorId
+      year: $year
+      managementSubjectId: $managementSubjectId
+      expectedDueDate: $expectedDueDate
+    ) {
+      ...AssetTaxFragment
+    }
+  }
+}
+
+query getAssetTaxPayments(
+  $taxCalculatorId: UUID!
+  $year: Int!
+  $managementSubjectId: Int!
+  $expectedDueDate: Date!
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: AssetTaxDetailRowFilterInput
+  $order: [AssetTaxDetailRowSortInput!]
+) {
+  assetTax {
+    detailGroupedPayments(
+      taxCalculatorId: $taxCalculatorId
+      year: $year
+      managementSubjectId: $managementSubjectId
+      expectedDueDate: $expectedDueDate
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...AssetTaxPaymentFragment
+      }
+      totalCount
+    }
+  }
+}
+
+mutation finalizeAssetTaxes($taxPaymentIds: [Int!]!, $taxCalculatorId: UUID!) {
+  assetTax {
+    setDefinitive(
+      taxPaymentIds: $taxPaymentIds
+      taxCalculatorId: $taxCalculatorId
+    ) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation setAssetTaxPaymentsIssueOverridden(
+  $taxCalculatorId: UUID!
+  $year: Int!
+  $managementSubjectId: Int!
+  $expectedDueDate: Date!
+  $inputValues: [KeyValuePairOfInt32AndBooleanInput!]!
+) {
+  assetTax {
+    setIssueOverridden(
+      taxCalculatorId: $taxCalculatorId
+      year: $year
+      managementSubjectId: $managementSubjectId
+      expectedDueDate: $expectedDueDate
+      inputValues: $inputValues
+    ) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query exportAssetTaxPayments(
+  $taxCalculatorId: UUID!
+  $year: Int!
+  $managementSubjectId: Int!
+  $expectedDueDate: Date!
+  $where: AssetTaxDetailRowFilterInput
+  $order: [AssetTaxDetailRowSortInput!]
+) {
+  assetTax {
+    exportDetailGroupedPayments(
+      taxCalculatorId: $taxCalculatorId
+      year: $year
+      managementSubjectId: $managementSubjectId
+      expectedDueDate: $expectedDueDate
+      where: $where
+      order: $order
+    ) {
+      resourceUrl
+    }
+  }
+}
+
+query exportAssetTaxes(
+  $taxCalculatorId: UUID!
+  $currentYear: Boolean!
+  $where: AssetTaxGroupedRowFilterInput
+  $order: [AssetTaxGroupedRowSortInput!]
+) {
+  assetTax {
+    exportGroupedPayments(
+      taxCalculatorId: $taxCalculatorId
+      currentYear: $currentYear
+      where: $where
+      order: $order
+    ) {
+      resourceUrl
+    }
+  }
+}

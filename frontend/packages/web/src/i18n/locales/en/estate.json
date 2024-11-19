@@ -1,0 +1,175 @@
+{
+  "estate": {
+    "title": "Estates",
+    "tab": {
+      "general_data": "General data",
+      "addresses": "Addresses",
+      "estate_values": "Estate values",
+      "surfaces": "Surfaces",
+      "surface": "Superface",
+      "coefficients": "Coefficients",
+      "market_values": "Market values",
+      "estate_units": "Estate units",
+      "catalogues": "Catalogues",
+      "refactorings": "Refactorings",
+      "select_estate_unit": "Choose UI",
+      "documents": "Images and documents",
+      "recap": "Recap"
+    },
+    "section_title": {
+      "general_data": "General data",
+      "stairs": "Stairs",
+      "floors": "Floors",
+      "primary_address": "Primary address",
+      "secondary_addresses": "Secondary addresses",
+      "no_surfaces": "Enter the different types of areas in the estate units to view the total of the respective areas in the estate",
+      "total_surfaces": "Total surfaces",
+      "market_values": "Market values",
+      "coefficients": "Coefficients",
+      "asset_values": "Asset values",
+      "add_total_surface": "Add total surface (sqm)",
+      "add_coefficients": "Add coefficients",
+      "add_market_values": "Add market value",
+      "no_estate_units": "No estate units available",
+      "no_catalogue_items": "No catalogue items available",
+      "refactorings": "Refactorings history",
+      "no_estate_units_available": "Refactorings cannot be added because there are no estate units",
+      "no_refactorings": "No refactorings available, press edit to add a refactoring",
+      "select_estate_unit": "Select the UE to refactor",
+      "selected_estate_unit": "Selected UE for refactoring",
+      "estate_units": "Estate units selected for refactoring",
+      "images": "Images",
+      "documents": "Documents",
+      "recap": "Recap"
+    },
+    "field": {
+      "estate_code": "Estate code",
+      "estate_name": "Estate Name",
+      "estate_type": "Estate type",
+      "estate_status": "Estate status",
+      "management_subject": "Management subject",
+      "address_toponymy": "Address",
+      "address_city": "City",
+      "address_postal_code": "Postal code",
+      "address_county": "County",
+      "address_country": "Country",
+      "address_notes": "Notes",
+      "external_estate_code": "External estate code",
+      "estate_surface": "Estate surface (sqm)",
+      "estate_units_counter": "Number of EU",
+      "floors_counter": "Number of floors",
+      "main_usage_type": "Main usage type",
+      "usage_type": "Usage type",
+      "ownership": "Ownership",
+      "build_year": "Build year",
+      "management_org_unit": "Management org unit",
+      "disused_date": "Disused date",
+      "notes": "Notes",
+      "stair": "Description",
+      "floors": "Floors",
+      "floor_position": "Floor position",
+      "floor_name": "Floor name",
+      "total_surface": "Total surface (sqm)",
+      "surface_unit": "Measurement unit",
+      "surface_total": "Total measurement",
+      "surface_common_area": "Of common area",
+      "surface_side_area": "Of side area",
+      "surface_heritage_type": "Heritage type",
+      "coefficient_type": "Type",
+      "coefficient_value": "Value",
+      "market_value_type": "Type",
+      "market_value_value": "Value",
+      "market_value_total_value": "Total value",
+      "asset_value_year": "Year",
+      "asset_value_rba": "RBA",
+      "asset_value_ias": "IAS",
+      "asset_value_depreciation": "Deprecation",
+      "asset_value_transfer_in": "Transfer in",
+      "asset_value_reclamation_interventions": "Reclamation interventions",
+      "refactoring_year": "Refactoring year",
+      "refactoring_building_permit_year": "Building permit year",
+      "refactoring_condition": "Condition",
+      "refactoring_age_condition": "Age condition",
+      "refactoring_estate_units": "EU Code",
+      "image_upload": "Upload images",
+      "document_upload": "Upload documents"
+    },
+    "error": {
+      "no_estate_unit": "No estate unit selected",
+      "internal_code": "The estate code provided is already in use"
+    },
+    "action": {
+      "add_stairs": "Add stairs",
+      "add_floor": "Add floor",
+      "add_address": "Add secondary address",
+      "add_total_market_values": "Compute total market values",
+      "edit_total_market_values": "Recompute total market values",
+      "add_coefficient": "Add coefficients",
+      "add_market_value": "Add market value",
+      "add_asset_values": "Add asset values",
+      "add_estate_unit": "Add estate unit",
+      "add_catalogue_item": "Add catalogue item",
+      "add_refactoring": "Add refactoring",
+      "add_document": "Add document",
+      "view_portfolio": "Estate portfolio",
+      "view_estate": "View estate"
+    },
+    "text": {
+      "no_estates": "No estates available",
+      "no_stairs": "No stairs entered",
+      "no_secondary_addresses": "No secondary address entered",
+      "surfaces": "To enter new surfaces and/or edit, delete existing ones go to the appropriate section of estate units.",
+      "no_market_values": "No market value entered",
+      "no_coefficients": "No coefficients entered",
+      "no_asset_values": "No asset value entered",
+      "no_refactorings": "No refactorings available",
+      "no_documents": "No documents uploaded",
+      "no_images": "No images uploaded",
+      "estate_qr_code": "Estate QR Code"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add Estate",
+        "save": "Save estate"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this estate?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these estates?\nThe process cannot be undone"
+        }
+      },
+      "stair": {
+        "add": "Add stair",
+        "edit": "Edit stair"
+      },
+      "address": {
+        "add": "Add secondary address",
+        "edit": "Edit secondary address"
+      },
+      "total_market_value": {
+        "title": "Compute total market value",
+        "action": "Compute total market value"
+      },
+      "asset_values": {
+        "title": "Add asset values"
+      },
+      "refactoring": {
+        "add": "Add refactoring",
+        "edit": "Edit refactoring"
+      },
+      "estate_units": {
+        "title": "Estate units",
+        "description": "Estate units selected for refactoring"
+      }
+    },
+    "feedback": {
+      "create": "Estate successfully created",
+      "delete": {
+        "single": "Estate successfully deleted",
+        "multiple": "Estates successfully deleted"
+      },
+      "update": "Estate successfully updated"
+    }
+  }
+}

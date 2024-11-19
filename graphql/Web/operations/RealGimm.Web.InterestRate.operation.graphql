@@ -1,0 +1,74 @@
+query getInterestRates(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: InterestRateFilterInput
+  $order: [InterestRateSortInput!]
+) {
+  interestRate {
+    listInterestRates(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...InterestRateFragment
+      }
+      totalCount
+    }
+  }
+}
+
+mutation addInterestRate($input: InterestRateInput!) {
+  interestRate {
+    add(input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateInterestRate($interestRateId: Int!, $input: InterestRateInput!) {
+  interestRate {
+    update(id: $interestRateId, input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteInterestRates($ids: [Int!]!) {
+  interestRate {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query exportInterestRates(
+  $where: InterestRateFilterInput
+  $order: [InterestRateSortInput!]
+) {
+  interestRate {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}

@@ -1,0 +1,19 @@
+﻿[
+  {
+    InternalCode: MP00001,
+    IsTemporary: true,
+    Year: 2023,
+    TransactorSubjectId: 3,
+    MainCounterpartSubjectId: 3,
+    EstateUnitId: 1,
+    IsOccupiedWithoutRight: false,
+    IsInvoiced: true,
+    TransactorPaymentType: NOPA,
+    Date: Date_1,
+    Since: Date_1,
+    Until: Date_2,
+    EmissionType: Automatic,
+    TotalAmount: 8355.930000,
+    Id: 1
+  }
+]

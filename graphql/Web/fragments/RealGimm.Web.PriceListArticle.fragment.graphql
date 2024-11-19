@@ -1,0 +1,51 @@
+fragment PriceListArticleFragment on PriceListArticle {
+  internalCode
+  name
+  priceList {
+    ...PriceListFragment
+  }
+  actualPrice
+  actualPriceSince
+  actualPriceUntil
+  measurementUnit {
+    id
+    name
+  }
+  catalogueTypes {
+    id
+    name
+    category {
+      id
+      name
+    }
+    subCategory {
+      id
+      name
+    }
+  }
+  id
+}
+
+fragment PriceListArticleDetailFragment on PriceListArticle {
+  ...PriceListArticleFragment
+  pricePeriods {
+    id
+    since
+    until
+    price
+  }
+}
+
+fragment TicketPriceListArticleFragment on PriceListArticle {
+  id
+  internalCode
+  name
+  priceList {
+    ...PriceListFragment
+  }
+  actualPrice
+  measurementUnit {
+    id
+    name
+  }
+}

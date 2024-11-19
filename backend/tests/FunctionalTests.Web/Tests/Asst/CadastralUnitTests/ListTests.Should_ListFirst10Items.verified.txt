@@ -1,0 +1,181 @@
+﻿{
+  nodes: [
+    {
+      addressId: 31,
+      cadastralNotes: A quas porro sed ad et autem suscipit blanditiis ratione modi velit porro dolorum corrupti.,
+      consortiumNotes: Eius repellat deleniti et quisquam consequatur aut qui porro consequuntur et consectetur voluptatum ut voluptas.,
+      deletionDate: null,
+      fiscalNotes: Adipisci debitis dolorem id vero soluta fuga eius saepe eveniet dicta quo ipsum facilis dolorem.,
+      historyTags: [
+        Guid_1
+      ],
+      id: 1,
+      internalCode: trk7kwfz9a,
+      lastRelevantChangeDate: null,
+      since: 2023-12-10,
+      status: DISCONTINUED_MERGE,
+      type: BUILDING_AREA,
+      until: null
+    },
+    {
+      addressId: 34,
+      cadastralNotes: Adipisci aut dolores cupiditate possimus autem quisquam blanditiis dicta qui ipsa omnis ut cumque impedit.,
+      consortiumNotes: Nesciunt delectus dignissimos et et illo rerum nemo repellat et blanditiis libero explicabo asperiores est.,
+      deletionDate: null,
+      fiscalNotes: Laudantium perspiciatis quo nihil et voluptate illum culpa facere ut et qui doloribus ab unde.,
+      historyTags: [
+        Guid_2
+      ],
+      id: 4,
+      internalCode: ln2jz5h25z,
+      lastRelevantChangeDate: null,
+      since: 2023-12-16,
+      status: CANCELLED,
+      type: BUILDING,
+      until: null
+    },
+    {
+      addressId: 35,
+      cadastralNotes: Provident ut consequuntur voluptatem reiciendis ut in illum nihil tenetur aut ut et qui est.,
+      consortiumNotes: Quo eum quaerat est sapiente tempore placeat quos id soluta nihil odit mollitia accusamus consequuntur.,
+      deletionDate: null,
+      fiscalNotes: Veritatis ut distinctio modi unde dolorem laborum sapiente amet repellendus et ex ab quibusdam ipsum.,
+      historyTags: [
+        Guid_3
+      ],
+      id: 5,
+      internalCode: d6n3msbb3o,
+      lastRelevantChangeDate: null,
+      since: 2023-12-20,
+      status: DISCONTINUED_SPLIT,
+      type: BUILDING_AREA,
+      until: null
+    },
+    {
+      addressId: 36,
+      cadastralNotes: Dignissimos alias dolorum molestiae aut omnis modi labore et consectetur qui at numquam et dolores.,
+      consortiumNotes: Quasi veniam itaque et autem porro qui unde dolores dolorem atque sunt sit laborum accusamus.,
+      deletionDate: null,
+      fiscalNotes: Nesciunt dicta dolores nam occaecati deleniti delectus distinctio incidunt libero quia debitis autem sequi provident.,
+      historyTags: [
+        Guid_4
+      ],
+      id: 6,
+      internalCode: f98a8gh5u4,
+      lastRelevantChangeDate: null,
+      since: 2023-12-04,
+      status: TRANSFORMED,
+      type: BUILDING,
+      until: null
+    },
+    {
+      addressId: 37,
+      cadastralNotes: Non illo atque corporis quos facere qui deserunt modi quia velit laudantium sit alias cumque.,
+      consortiumNotes: Ea voluptatem dolore fuga voluptates maiores nihil facilis iste est exercitationem molestiae ipsam voluptas enim.,
+      deletionDate: null,
+      fiscalNotes: Nostrum non nostrum aperiam ut laudantium ea perspiciatis commodi sit sit tempore porro velit quibusdam.,
+      historyTags: [
+        Guid_5
+      ],
+      id: 7,
+      internalCode: ce9hwf3p44,
+      lastRelevantChangeDate: null,
+      since: 2023-12-05,
+      status: TRANSFORMED,
+      type: GROUND,
+      until: null
+    },
+    {
+      addressId: 38,
+      cadastralNotes: Non minima magnam necessitatibus quae neque at veritatis aliquid repellendus ratione voluptates ut exercitationem aut.,
+      consortiumNotes: Et error ex et eveniet distinctio repellendus nesciunt qui rerum quaerat consectetur debitis et aliquam.,
+      deletionDate: null,
+      fiscalNotes: Sint occaecati minus architecto consequatur modi at quibusdam omnis quam in id sit quidem placeat.,
+      historyTags: [
+        Guid_6
+      ],
+      id: 8,
+      internalCode: i44h206fp5,
+      lastRelevantChangeDate: null,
+      since: 2023-12-04,
+      status: TRANSFORMED,
+      type: OTHER,
+      until: null
+    },
+    {
+      addressId: 39,
+      cadastralNotes: Voluptas nihil voluptas ad necessitatibus tempore ut ad at harum dolorem blanditiis quod ipsa assumenda.,
+      consortiumNotes: Ut quam cum et eos voluptas ut nihil voluptatum pariatur dolor voluptatem et ullam aliquam.,
+      deletionDate: null,
+      fiscalNotes: Eum cumque fugit hic ratione modi quia ut ut tempore ipsa magnam porro et quia.,
+      historyTags: [
+        Guid_7
+      ],
+      id: 9,
+      internalCode: hggnkufljl,
+      lastRelevantChangeDate: null,
+      since: 2023-12-17,
+      status: TRANSFORMED,
+      type: BUILDING_AREA,
+      until: null
+    },
+    {
+      addressId: 40,
+      cadastralNotes: Molestiae a dolor dolorem recusandae nulla optio itaque fugit et in cupiditate molestiae voluptatem ipsum.,
+      consortiumNotes: Harum impedit saepe consequatur libero velit nostrum debitis nam dolore quas aliquid nulla sit perspiciatis.,
+      deletionDate: null,
+      fiscalNotes: Temporibus esse sint quia ea natus laudantium quia nihil voluptatem neque aliquid facilis omnis iusto.,
+      historyTags: [
+        Guid_8
+      ],
+      id: 10,
+      internalCode: ieluftdode,
+      lastRelevantChangeDate: null,
+      since: 2023-12-17,
+      status: TRANSFORMED,
+      type: URBAN_AREA,
+      until: null
+    },
+    {
+      addressId: 41,
+      cadastralNotes: Facere qui quia dolorem sit pariatur dolores aliquid velit sed est autem quidem blanditiis et.,
+      consortiumNotes: Magni error praesentium ea voluptatem ducimus aperiam qui eos doloremque in aperiam commodi voluptatum porro.,
+      deletionDate: null,
+      fiscalNotes: Eos ut dolorum voluptatum et iure recusandae quis nobis sunt magnam sint odio corrupti necessitatibus.,
+      historyTags: [
+        Guid_9
+      ],
+      id: 11,
+      internalCode: scsrh16ozo,
+      lastRelevantChangeDate: null,
+      since: 2023-12-06,
+      status: DISCONTINUED_SPLIT,
+      type: URBAN_AREA,
+      until: null
+    },
+    {
+      addressId: 42,
+      cadastralNotes: Optio nisi ipsum inventore ea excepturi voluptatibus quo qui eaque dolore laudantium cupiditate aut libero.,
+      consortiumNotes: Maiores minima aperiam aut facere nesciunt dolor excepturi quos blanditiis ad nemo numquam aut ipsum.,
+      deletionDate: null,
+      fiscalNotes: Sequi magnam sit occaecati laboriosam fuga sed aut ducimus est hic aspernatur quae quam quidem.,
+      historyTags: [
+        Guid_10
+      ],
+      id: 12,
+      internalCode: 2hlrc2vb27,
+      lastRelevantChangeDate: null,
+      since: 2023-12-20,
+      status: CANCELLED,
+      type: OTHER,
+      until: null
+    }
+  ],
+  pageInfo: {
+    endCursor: OQ==,
+    hasNextPage: true,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 28
+}

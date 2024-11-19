@@ -1,0 +1,33 @@
+- name: Setup Alfresco Host
+  hosts: hosting-alfresco
+  become: true
+  tasks:
+    - name: Copy files to the VM
+      copy:
+        src: "alfresco/{{ item }}"
+        dest: /opt/
+      with_items:
+        - community-docker-compose.yml
+
+    - name: Gather IP addresses of hosting-dev group
+      ansible.builtin.add_host:
+        name: "{{ item }}"
+        groups: trusted_hosts
+      loop: "{{ groups['hosting-dev'] }}"
+      when: groups['hosting-dev'] is defined
+
+    - name: Gather IP addresses of hosting-test
+      ansible.builtin.add_host:
+        name: "{{ item }}"
+        groups: trusted_hosts
+      loop: "{{ groups['hosting-test'] }}"
+      when: groups['hosting-test'] is defined
+
+    - name: Allow specific ports from trusted addresses
+      ufw:
+        rule: allow
+        port: "8080"
+        proto: tcp
+        from_ip: "{{ item }}"
+      with_items: "{{ groups['trusted_hosts'] }}"
+      when: groups['trusted_hosts'] is defined

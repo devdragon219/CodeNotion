@@ -1,0 +1,52 @@
+{
+  "cost_charge_analysis": {
+    "title": "Analysis",
+    "tab": {
+      "general_data": "Select elements to analyse",
+      "results": "Analysis"
+    },
+    "section_title": {
+      "surfaces": "Surfaces",
+      "consumptions": "Consumptions",
+      "costs": "Costs",
+      "yearly_consumptions": "Yearly consumptions",
+      "monthly_consumptions": "Monthly consumptions",
+      "yearly_costs": "Yearly costs",
+      "monthly_costs": "Monthly costs"
+    },
+    "field": {
+      "filter_type": "Filter",
+      "estate": "Estate",
+      "utility_type": "Utility type",
+      "utility_service": "Utility service",
+      "country": "Country",
+      "city": "City",
+      "county": "County",
+      "toponymy": "Address",
+      "year": "Year",
+      "years": "Years",
+      "from": "From",
+      "to": "To"
+    },
+    "text": {
+      "target_year": "Actual year",
+      "previous_year": "Previous year",
+      "surface": "{{ value }} sqm",
+      "difference": "Difference",
+      "difference_percentage": "% difference",
+      "yearly_consumption": "Yearly consumption",
+      "monthly_consumption": "Monthly consumption",
+      "yearly_cost": "Yearly cost",
+      "monthly_cost": "Monthly cost",
+      "year": "Year",
+      "month": "Month",
+      "consumption": "Consumption",
+      "cost": "Cost",
+      "total": "Total"
+    },
+    "action": {
+      "add_filter": "Add filter",
+      "complete": "Done"
+    }
+  }
+}

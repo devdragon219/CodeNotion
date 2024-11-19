@@ -1,0 +1,201 @@
+﻿{
+  nodes: [
+    {
+      agreementDate: 2022-10-01,
+      cancellationNoticeDaysCount: 60,
+      description: Ad nostrum totam harum totam voluptatibus doloremque eos asperiores cum.,
+      effectiveDate: 2022-10-20,
+      entryStatus: WORKING,
+      expirationDate: 2023-07-20,
+      externalCode: SVTOFOXL,
+      id: 1,
+      internalCode: CM00001,
+      maximumRenewalDaysCount: 90,
+      renewalNoticeDaysCount: 30,
+      type: {
+        id: 35,
+        internalCode: TCM035,
+        name: Pagac LLC,
+        ordering: 35
+      }
+    },
+    {
+      agreementDate: 2022-11-29,
+      cancellationNoticeDaysCount: 60,
+      description: A doloribus iure cupiditate minima molestias provident inventore.,
+      effectiveDate: 2022-12-21,
+      entryStatus: WORKING,
+      expirationDate: 2023-04-21,
+      externalCode: OFQAJWBH,
+      id: 2,
+      internalCode: CM00002,
+      maximumRenewalDaysCount: 120,
+      renewalNoticeDaysCount: 60,
+      type: {
+        id: 36,
+        internalCode: TCM036,
+        name: Mosciski Inc,
+        ordering: 36
+      }
+    },
+    {
+      agreementDate: 2023-05-20,
+      cancellationNoticeDaysCount: 30,
+      description: Veritatis aut minus aut.,
+      effectiveDate: 2023-06-10,
+      entryStatus: INCOMPLETE_DRAFT,
+      expirationDate: 2024-05-10,
+      externalCode: ZPAZZEUC,
+      id: 3,
+      internalCode: CM00003,
+      maximumRenewalDaysCount: 120,
+      renewalNoticeDaysCount: 30,
+      type: {
+        id: 9,
+        internalCode: TCM009,
+        name: Bode - Dibbert,
+        ordering: 9
+      }
+    },
+    {
+      agreementDate: null,
+      cancellationNoticeDaysCount: 60,
+      description: Eius voluptates occaecati eos hic enim dolores voluptas amet.,
+      effectiveDate: 2023-01-11,
+      entryStatus: WORKING,
+      expirationDate: 2023-05-11,
+      externalCode: RPYXHRIM,
+      id: 4,
+      internalCode: CM00004,
+      maximumRenewalDaysCount: 120,
+      renewalNoticeDaysCount: 60,
+      type: {
+        id: 37,
+        internalCode: TCM037,
+        name: Stark - Berge,
+        ordering: 37
+      }
+    },
+    {
+      agreementDate: 2023-04-17,
+      cancellationNoticeDaysCount: 60,
+      description: Illum earum occaecati sit excepturi.,
+      effectiveDate: 2023-05-01,
+      entryStatus: INCOMPLETE_DRAFT,
+      expirationDate: 2023-12-01,
+      externalCode: LRCZRBWS,
+      id: 5,
+      internalCode: CM00005,
+      maximumRenewalDaysCount: 90,
+      renewalNoticeDaysCount: 30,
+      type: {
+        id: 31,
+        internalCode: TCM031,
+        name: Murray, Walter and Ernser,
+        ordering: 31
+      }
+    },
+    {
+      agreementDate: 2021-07-31,
+      cancellationNoticeDaysCount: 60,
+      description: Deleniti neque voluptatem ducimus totam architecto a ut.,
+      effectiveDate: 2021-08-12,
+      entryStatus: INCOMPLETE_DRAFT,
+      expirationDate: 2022-08-12,
+      externalCode: KWFDOFRM,
+      id: 6,
+      internalCode: CM00006,
+      maximumRenewalDaysCount: 90,
+      renewalNoticeDaysCount: 30,
+      type: {
+        id: 38,
+        internalCode: TCM038,
+        name: Purdy Group,
+        ordering: 38
+      }
+    },
+    {
+      agreementDate: 2020-04-05,
+      cancellationNoticeDaysCount: 30,
+      description: Sunt inventore quibusdam.,
+      effectiveDate: 2020-04-20,
+      entryStatus: INCOMPLETE_DRAFT,
+      expirationDate: 2020-12-20,
+      externalCode: LAIUYOVB,
+      id: 7,
+      internalCode: CM00007,
+      maximumRenewalDaysCount: 120,
+      renewalNoticeDaysCount: 30,
+      type: {
+        id: 30,
+        internalCode: TCM030,
+        name: Bernhard LLC,
+        ordering: 30
+      }
+    },
+    {
+      agreementDate: null,
+      cancellationNoticeDaysCount: 30,
+      description: Dolore in officia dicta aut quas quaerat.,
+      effectiveDate: 2023-03-23,
+      entryStatus: WORKING,
+      expirationDate: 2023-08-23,
+      externalCode: HPSVGUGM,
+      id: 8,
+      internalCode: CM00008,
+      maximumRenewalDaysCount: 90,
+      renewalNoticeDaysCount: 30,
+      type: {
+        id: 16,
+        internalCode: TCM016,
+        name: Jast LLC,
+        ordering: 16
+      }
+    },
+    {
+      agreementDate: 2021-10-15,
+      cancellationNoticeDaysCount: 30,
+      description: Modi quia velit laudantium sit alias cumque.,
+      effectiveDate: 2021-11-07,
+      entryStatus: INCOMPLETE_DRAFT,
+      expirationDate: 2022-05-07,
+      externalCode: AYBMHMTS,
+      id: 9,
+      internalCode: CM00009,
+      maximumRenewalDaysCount: 120,
+      renewalNoticeDaysCount: 30,
+      type: {
+        id: 36,
+        internalCode: TCM036,
+        name: Mosciski Inc,
+        ordering: 36
+      }
+    },
+    {
+      agreementDate: null,
+      cancellationNoticeDaysCount: 30,
+      description: Cum deleniti rem totam est natus quo molestiae id.,
+      effectiveDate: 2021-10-19,
+      entryStatus: WORKING,
+      expirationDate: 2022-01-19,
+      externalCode: ZGCOVTFN,
+      id: 10,
+      internalCode: CM00010,
+      maximumRenewalDaysCount: 90,
+      renewalNoticeDaysCount: 60,
+      type: {
+        id: 23,
+        internalCode: TCM023,
+        name: Bradtke, Rempel and Raynor,
+        ordering: 23
+      }
+    }
+  ],
+  pageInfo: {
+    endCursor: OQ==,
+    hasNextPage: false,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 10
+}

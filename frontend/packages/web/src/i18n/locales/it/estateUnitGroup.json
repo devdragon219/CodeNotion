@@ -1,0 +1,64 @@
+{
+  "estate_unit_group": {
+    "title": "Lotti",
+    "tab": {
+      "general_data": "Dati generali",
+      "estate_units": "Unità immobiliari"
+    },
+    "section_title": {
+      "general_data": "Dati generali",
+      "estate_units": "Unità immobiliari",
+      "select_estate_units": "Seleziona le UI da associare al lotto",
+      "selected_estate_units": "UI selezionate"
+    },
+    "field": {
+      "internal_code": "Codice",
+      "name": "Descrizione",
+      "management_subject": "Ente",
+      "estate_units": "Unità immobiliari",
+      "estate_unit_internal_code": "Codice UI",
+      "estate_unit_name": "Denominazione UI",
+      "estate_unit_type": "Tipologia UI",
+      "estate_unit_status": "Stato UI",
+      "estate_unit_address": "Indirizzo",
+      "estate_unit_estate_internal_code": "Codice immobile",
+      "estate_unit_estate_name": "Denominazione immobile"
+    },
+    "error": {
+      "internal_code": "Il codice inserito è già in uso",
+      "no_estate_units": "Nessuna unità immobiliare selezionata"
+    },
+    "action": {
+      "add_estate_units": "Aggiungi unità immobiliari"
+    },
+    "text": {
+      "no_estate_unit_groups": "Non sono presenti lotti",
+      "no_selected_estate_units": "Non sono presenti UI selezionate"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta lotto",
+        "save": "Salva lotto"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questo lotto?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare questi lotti?\nIl processo non potrà essere annullato"
+        }
+      },
+      "estate_units": {
+        "view": "Vedi unità immobiliari",
+        "add": "Aggiunta unità immobiliari"
+      }
+    },
+    "feedback": {
+      "create": "Lotto creato con successo",
+      "delete": {
+        "single": "Lotto cancellato con successo",
+        "multiple": "Lotti cancellati con successo"
+      },
+      "update": "Lotto modificato con successo"
+    }
+  }
+}

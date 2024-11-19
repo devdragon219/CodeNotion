@@ -1,0 +1,125 @@
+services:
+  caddy:
+    image: caddy
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - /opt/caddy-data:/data
+      - /opt/Caddyfile:/etc/caddy/Caddyfile
+    depends_on:
+      - bo-frontend
+      - bo-backend
+      - fo-frontend
+      - fo-backend
+
+  bo-frontend:
+    image: europe-west8-docker.pkg.dev/scaitecno-2023-rg41-dev/rg5-dev/frontend-web-dev:latest
+
+  fo-frontend:
+    image: europe-west8-docker.pkg.dev/scaitecno-2023-rg41-dev/rg5-dev/frontend-frontoffice-dev:latest
+
+  bo-backend:
+    image: europe-west8-docker.pkg.dev/scaitecno-2023-rg41-dev/rg5-dev/backend-dev:latest
+    restart: unless-stopped
+    environment:
+      ASPNETCORE_URLS: "http://*:80"
+    volumes:
+      - /opt/appsettings.json:/app/appsettings.json
+      - /opt/backend-data:/root/.aspnet/DataProtection-Keys
+      - exportcache:/opt/rg5-cache
+    depends_on:
+      db:
+        condition: service_healthy
+      queue:
+        condition: service_started
+
+  fo-backend:
+    image: europe-west8-docker.pkg.dev/scaitecno-2023-rg41-dev/rg5-dev/backend-dev:latest
+    restart: unless-stopped
+    environment:
+      ASPNETCORE_URLS: "http://*:80"
+    entrypoint: "/app/RealGimm.WebFrontOffice"
+    volumes:
+      - /opt/appsettings.json:/app/appsettings.json
+      - /opt/backend-fo-data:/root/.aspnet/DataProtection-Keys
+      - exportcache:/opt/rg5-cache
+    depends_on:
+      db:
+        condition: service_healthy
+      queue:
+        condition: service_started
+
+  tasks:
+    image: europe-west8-docker.pkg.dev/scaitecno-2023-rg41-dev/rg5-dev/backend-dev:latest
+    volumes:
+      - /opt/appsettings.json:/app/appsettings.json
+      - exportcache:/opt/rg5-cache
+    entrypoint: "/app/Tasks"
+    depends_on:
+      db:
+        condition: service_healthy
+
+  db:
+    image: postgis/postgis:14-3.3-alpine
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "psql -U postgres -c 'SELECT PostGIS_Full_Version();'"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: "aStrongP@ssword"
+  
+  queue:
+    image: rabbitmq:3-alpine
+    restart: unless-stopped
+    ports:
+      - "5672:5672"
+
+  keycloak-db:
+    image: postgres:14-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: keycloak-db
+      POSTGRES_USER: keycloak
+      POSTGRES_PASSWORD: "htkDUQaoX3JwsQedrqLHZTWY"
+    volumes:
+      - kcdata:/var/lib/postgresql/data
+
+  keycloak:
+    image: quay.io/keycloak/keycloak:25.0.1
+    restart: unless-stopped
+    command: start-dev
+    depends_on:
+      - keycloak-db
+    ports:
+      - "127.0.0.1:9000:9000"
+    volumes:
+      - /opt/realgimm-realm.json:/opt/keycloak/data/import/realgimm-realm.json
+    environment:
+      - KEYCLOAK_ADMIN=admin
+      - KEYCLOAK_ADMIN_PASSWORD=5kMu2ghtkDUQaoX3Jws
+      - KC_DB=postgres
+      - KC_DB_URL=jdbc:postgresql://keycloak-db:5432/keycloak-db
+      - KC_DB_USERNAME=keycloak
+      - KC_DB_PASSWORD=htkDUQaoX3JwsQedrqLHZTWY
+      - KC_HTTP_RELATIVE_PATH=/kc/
+      - KC_HOSTNAME=rg5-dev.grupposcai.it
+      - KC_HOSTNAME_STRICT=true
+      - KC_HOSTNAME_STRICT_HTTPS=true
+      - KC_PROXY=edge
+    entrypoint:
+      - /bin/sh
+      - -c
+      - |
+        /opt/keycloak/bin/kc.sh import --file /opt/keycloak/data/import/realgimm-realm.json --override false &&
+        /opt/keycloak/bin/kc.sh start
+
+volumes:
+  pgdata:
+  exportcache:
+  kcdata:

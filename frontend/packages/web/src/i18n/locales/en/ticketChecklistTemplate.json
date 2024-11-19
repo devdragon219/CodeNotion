@@ -1,0 +1,82 @@
+{
+  "ticket_checklist_template": {
+    "title": "Ticket checklist templates",
+    "tab": {
+      "general_data": "General data",
+      "costs": "Costs",
+      "preventative_maintenance": "Preventative maintenance",
+      "on_condition_maintenance": "On condition maintenance",
+      "recap": "Recap"
+    },
+    "section_title": {
+      "general_data": "General data",
+      "costs": "Costs",
+      "preventative_maintenance": "Preventative maintenance",
+      "preventative_maintenance_activities": "Preventative maintenance activities",
+      "select_preventative_maintenance_activities": "Select preventative maintenance activities",
+      "selected_maintenance_activities": "Selected activities",
+      "on_condition_maintenance": "On condition maintenance",
+      "on_condition_maintenance_activities": "On condition maintenance activities",
+      "select_on_condition_maintenance_activities": "Select on condition maintenance activities",
+      "activities": "Activities",
+      "recap": "Recap"
+    },
+    "field": {
+      "internal_code": "Code",
+      "name": "Name",
+      "catalogue_category": "Category",
+      "catalogue_subcategory": "Subcategory",
+      "ticket_checklist_template_type": "Ticket checklist template type",
+      "catalogue_type": "Catalogue type",
+      "measurement_unit": "Measurement unit",
+      "raw_work_cost": "Raw work cost",
+      "safety_cost": "Safety cost",
+      "planned_period": "Planned period",
+      "yearly_visits": "Yearly visits",
+      "days_of_week": "Days of week",
+      "tolerance_days": "Tolerance days",
+      "intervention_type": "Intervention type",
+      "craft": "Craft",
+      "activity_type": "Type",
+      "activity_name": "Activity",
+      "activity_mandatory_by_law": "Mandatory by law"
+    },
+    "error": {
+      "internal_code": "The code provided is already in use",
+      "no_selected_days_of_week": "Select at least one day of week",
+      "no_selected_activities": "No activity selected"
+    },
+    "text": {
+      "no_ticket_checklist_templates": "No ticket checklist templates available",
+      "no_selected_activities": "No activity selected"
+    },
+    "action": {
+      "add_ticket_checklist_template_on_condition": "On condition template",
+      "add_ticket_checklist_template_preventative": "Preventative template",
+      "add_ticket_checklist_template_preventative_and_on_condition": "Preventative and on condition template",
+      "add_activities": "Add activities"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add ticket checklist template",
+        "save": "Save ticket checklist template"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this ticket checklist template?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these ticket checklist templates?\nThe process cannot be undone"
+        }
+      },
+      "add_activities": "Add activities"
+    },
+    "feedback": {
+      "create": "Ticket checklist template created successfully",
+      "delete": {
+        "single": "Ticket checklist template deleted successfully",
+        "multiple": "Ticket checklist templates deleted successfully"
+      },
+      "update": "Ticket checklist template edited successfully"
+    }
+  }
+}

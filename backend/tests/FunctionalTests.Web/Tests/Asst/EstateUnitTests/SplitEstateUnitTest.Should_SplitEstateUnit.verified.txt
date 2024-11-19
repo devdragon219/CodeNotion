@@ -1,0 +1,86 @@
+﻿{
+  Data: {
+    estateUnit: {
+      split: {
+        isSuccess: true,
+        status: OK,
+        value: [
+          {
+            address: {
+              addressType: PRIMARY,
+              cityName: New York,
+              countryISO: USA,
+              id: 2,
+              localPostCode: 10001,
+              numbering: 2,
+              toponymy: Downtown
+            },
+            estate: {
+              id: 1
+            },
+            floors: [
+              {
+                id: 1,
+                name: Floor0,
+                position: 0.0
+              }
+            ],
+            id: 2,
+            internalCode: EU2023_42,
+            officialAct: null,
+            ownershipStartDate: 2023-01-02,
+            ownershipType: PROPERTY,
+            sharedArea: false,
+            stair: {
+              description: Stair2,
+              id: 2
+            },
+            status: EXISTING,
+            subNumbering: 42a,
+            type: BUILDING
+          },
+          {
+            address: {
+              addressType: PRIMARY,
+              cityName: New York,
+              countryISO: USA,
+              id: 3,
+              localPostCode: 10001,
+              numbering: 3,
+              toponymy: Downtown
+            },
+            estate: {
+              id: 1
+            },
+            floors: [
+              {
+                id: 1,
+                name: Floor0,
+                position: 0.0
+              },
+              {
+                id: 2,
+                name: Floor1,
+                position: 1.0
+              }
+            ],
+            id: 3,
+            internalCode: EU2023_42,
+            officialAct: null,
+            ownershipStartDate: 2023-01-02,
+            ownershipType: PROPERTY,
+            sharedArea: false,
+            stair: {
+              description: Stair3,
+              id: 3
+            },
+            status: EXISTING,
+            subNumbering: 42a,
+            type: BUILDING
+          }
+        ]
+      }
+    }
+  },
+  IsDataSet: true
+}

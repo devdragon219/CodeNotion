@@ -1,0 +1,297 @@
+query getSubjects(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: SubjectFilterInput
+  $order: [SubjectSortInput!]
+) {
+  subject {
+    listSubjects(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...SubjectFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getSubjectInternalCode {
+  subject {
+    proposeNewInternalCode
+  }
+}
+
+mutation createLegalSubject($subjectInput: LegalSubjectInput!) {
+  subject {
+    addLegalSubject(input: $subjectInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+      value {
+        id
+      }
+    }
+  }
+}
+
+mutation createManagementSubject($subjectInput: ManagementSubjectInput!) {
+  subject {
+    addManagementSubject(input: $subjectInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+      value {
+        id
+      }
+    }
+  }
+}
+
+mutation createPhysicalSubject($subjectInput: PhysicalSubjectInput!) {
+  subject {
+    addPhysicalSubject(input: $subjectInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+      value {
+        id
+      }
+    }
+  }
+}
+
+mutation deleteSubject($id: Int!) {
+  subject {
+    delete(subjectId: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteSubjects($ids: [Int!]!) {
+  subject {
+    deleteByIds(subjectIds: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query exportSubjects($where: SubjectFilterInput, $order: [SubjectSortInput!]) {
+  subject {
+    exportSubjectsToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+query getSubject($subjectId: Int!) {
+  subject {
+    subject(subjectId: $subjectId) {
+      ...SubjectDetailFragment
+    }
+  }
+}
+
+query canUseSubjectInternalCode(
+  $internalCode: String!
+  $currentSubjectId: Int
+) {
+  subject {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentSubjectId: $currentSubjectId
+    )
+  }
+}
+
+query canUseInterGroupSignature(
+  $signature: String!
+  $companyGroupId: Int!
+  $currentSubjectId: Int
+) {
+  subject {
+    canUseInterGroupSignature(
+      signature: $signature
+      companyGroupId: $companyGroupId
+      currentSubjectId: $currentSubjectId
+    )
+  }
+}
+
+query checkItalianTaxID(
+  $firstName: String!
+  $lastName: String!
+  $gender: String!
+  $birthDate: Date!
+  $cityIstatCode: String!
+  $taxId: String!
+) {
+  subject {
+    checkItalianTaxID(
+      firstName: $firstName
+      lastName: $lastName
+      gender: $gender
+      birthDate: $birthDate
+      cityIstatCode: $cityIstatCode
+      taxId: $taxId
+    )
+  }
+}
+
+query canBeGroupLeader($managementSubjectId: Int!, $subjectId: Int) {
+  subject {
+    canBeGroupLeader(
+      managementSubjectId: $managementSubjectId
+      subjectId: $subjectId
+    )
+  }
+}
+
+mutation updateLegalSubject($subjectInput: LegalSubjectInput!) {
+  subject {
+    updateLegalSubject(input: $subjectInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateManagementSubject($subjectInput: ManagementSubjectInput!) {
+  subject {
+    updateManagementSubject(input: $subjectInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updatePhysicalSubject($subjectInput: PhysicalSubjectInput!) {
+  subject {
+    updatePhysicalSubject(input: $subjectInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation addSubjectDocuments($subjectId: Int!, $inputs: [DocumentInput!]!) {
+  subject {
+    document {
+      addRange(subjectId: $subjectId, inputs: $inputs) {
+        errors
+        isSuccess
+        validationErrors {
+          ...ValidationErrorFragment
+        }
+      }
+    }
+  }
+}
+
+mutation deleteSubjectDocuments($entityId: Int!, $cmisIds: [String!]!) {
+  subject {
+    document {
+      deleteRange(subjectId: $entityId, cmisIds: $cmisIds) {
+        errors
+        isSuccess
+        validationErrors {
+          ...ValidationErrorFragment
+        }
+      }
+    }
+  }
+}
+
+mutation updateSubjectDocument($subjectId: Int!, $input: DocumentInput!) {
+  subject {
+    document {
+      update(subjectId: $subjectId, input: $input) {
+        errors
+        isSuccess
+        validationErrors {
+          ...ValidationErrorFragment
+        }
+      }
+    }
+  }
+}
+
+query getAllSubjects($where: SubjectFilterInput, $order: [SubjectSortInput!]) {
+  subject {
+    listSubjectsFull(where: $where, order: $order) {
+      ...SubjectFragment
+    }
+  }
+}
+
+mutation addHeirs($subjectId: Int!, $heirs: [HeirInput!]!) {
+  subject {
+    addHeirs(subjectId: $subjectId, heirs: $heirs) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getSubjectDocuments(
+  $subjectId: Int!
+  $where: DocumentFilterInput
+  $order: [DocumentSortInput!]
+) {
+  subject {
+    subject(subjectId: $subjectId) {
+      ... on LegalSubject {
+        documents(where: $where, order: $order) {
+          ...DocumentFragment
+        }
+      }
+      ... on ManagementSubject {
+        documents(where: $where, order: $order) {
+          ...DocumentFragment
+        }
+      }
+      ... on PhysicalSubject {
+        documents(where: $where, order: $order) {
+          ...DocumentFragment
+        }
+      }
+    }
+  }
+}

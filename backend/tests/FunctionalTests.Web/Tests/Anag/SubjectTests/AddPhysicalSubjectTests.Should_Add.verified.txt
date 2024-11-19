@@ -1,0 +1,137 @@
+﻿{
+  Data: {
+    subject: {
+      addPhysicalSubject: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          addresses: [
+            {
+              cityName: South Oletafurt,
+              cityReference: null,
+              countryISO: sur,
+              countryName: null,
+              countyName: Borders,
+              countyReference: null,
+              id: 1,
+              localPostCode: 67790,
+              notes: Rerum iste porro cumque perferendis doloribus aut vero veritatis.,
+              numbering: 37173,
+              regionName: null,
+              regionReference: null,
+              toponymy: 0239 Bradtke Port
+            }
+          ],
+          birthCountryTaxIdCode: amppy35ds6,
+          birthDate: 1986-03-13,
+          birthLocation: {
+            cityName: South Oletafurt,
+            cityReference: null,
+            countryISO: sur,
+            countryName: null,
+            countyName: Borders,
+            countyReference: null,
+            id: 2,
+            localPostCode: 67790,
+            notes: Rerum iste porro cumque perferendis doloribus aut vero veritatis.,
+            numbering: 37173,
+            regionName: null,
+            regionReference: null,
+            toponymy: 0239 Bradtke Port
+          },
+          birthSex: MALE,
+          closureDate: null,
+          customGender: null,
+          customPersonType: null,
+          customSubjectStatus: null,
+          deathDate: null,
+          deletionDate: null,
+          entryStatus: WORKING,
+          externalSourceCode: 83GRNFCX3N,
+          firstName: Della,
+          id: 2,
+          internalCode: S0000001,
+          lastName: Della Hammes MD,
+          name: Della Hammes MD Della,
+          owningMgmtSubjects: [
+            {
+              groupRelationType: null,
+              id: 2,
+              main: {
+                additionalGovIdCode: null,
+                additionalTaxIdCode: null,
+                bankingId1: null,
+                bankingId2: null,
+                baseCountryISO: null,
+                baseCountryTaxIdCode: US123456789,
+                businessStart: null,
+                closureDate: null,
+                companiesHouseIdCode: null,
+                customPersonType: null,
+                customSubjectStatus: null,
+                deletionDate: null,
+                entryStatus: INCOMPLETE_DRAFT,
+                externalSourceCode: null,
+                fullName: FinanceDepartment,
+                id: 1,
+                interGroupSignature: null,
+                internalCode: MNG_SUBJ_2023_42,
+                location: null,
+                managementCode: MGMT2023_42,
+                name: FinanceDepartment,
+                personType: MANAGEMENT_SUBJECT,
+                shareCapital: null,
+                shorthandDescription: null
+              },
+              notes: null,
+              officerRelationType: null,
+              relationType: MANAGEMENT_ENTITY_OWNED,
+              since: null,
+              until: null
+            }
+          ],
+          personType: PHYSICAL_PERSON,
+          professionalTaxIdCode: sbtvkpp0zt,
+          relationSubordinates: [
+            {
+              groupRelationType: null,
+              id: 2,
+              main: {
+                additionalGovIdCode: null,
+                additionalTaxIdCode: null,
+                bankingId1: null,
+                bankingId2: null,
+                baseCountryISO: null,
+                baseCountryTaxIdCode: US123456789,
+                businessStart: null,
+                closureDate: null,
+                companiesHouseIdCode: null,
+                customPersonType: null,
+                customSubjectStatus: null,
+                deletionDate: null,
+                entryStatus: INCOMPLETE_DRAFT,
+                externalSourceCode: null,
+                fullName: FinanceDepartment,
+                id: 1,
+                interGroupSignature: null,
+                internalCode: MNG_SUBJ_2023_42,
+                location: null,
+                managementCode: MGMT2023_42,
+                name: FinanceDepartment,
+                personType: MANAGEMENT_SUBJECT,
+                shareCapital: null,
+                shorthandDescription: null
+              },
+              notes: null,
+              officerRelationType: null,
+              relationType: MANAGEMENT_ENTITY_OWNED,
+              since: null,
+              until: null
+            }
+          ]
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

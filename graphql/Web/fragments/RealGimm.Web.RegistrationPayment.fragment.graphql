@@ -1,0 +1,68 @@
+fragment ContractRegistrationPaymentFragment on RegistrationPayment {
+  paymentType
+  paymentYear
+  paymentCode
+  valueDate
+  taxAmount
+  sanctionAmount
+  totalAmount
+  id
+}
+
+fragment RegistrationPaymentFragment on RegistrationPayment {
+  paymentType
+  paymentYear
+  paymentCode
+  valueDate
+  id
+  contract {
+    id
+    internalCode
+    managementSubject {
+      id
+      name
+    }
+    locatedUnits {
+      id
+      isMainUnit
+      estateUnit {
+        id
+        estate {
+          id
+          internalCode
+          addresses {
+            ...AsstAddressFragment
+          }
+        }
+      }
+    }
+  }
+}
+
+fragment RegistrationPaymentDetailFragment on RegistrationPayment {
+  paymentType
+  paymentYear
+  paymentCode
+  valueDate
+  sanctionAmount
+  taxAmount
+  id
+  contract {
+    id
+    internalCode
+    managementSubject {
+      id
+      name
+    }
+  }
+  rows {
+    amountCleared
+    amountDue
+    paymentRowCode
+    paymentRowReceivingEntity
+    paymentRowSection
+    referencePeriod
+    referenceYear
+    id
+  }
+}

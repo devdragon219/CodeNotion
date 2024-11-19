@@ -1,0 +1,17 @@
+fragment EstateLocationFragment on EstateLocation {
+  estateId
+  estateInternalCode
+  estateName
+  address {
+    id
+    cityName
+    countryISO
+    countyName
+    localPostCode
+    numbering
+    toponymy
+    locationLatLon {
+      coordinates
+    }
+  }
+}

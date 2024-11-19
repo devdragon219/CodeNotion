@@ -1,0 +1,128 @@
+﻿{
+  Data: {
+    subject: {
+      addLegalSubject: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          additionalGovIdCode: ODFOOH8CI6,
+          additionalTaxIdCode: 5DS6SBTVKP,
+          addresses: [
+            {
+              cityName: South Oletafurt,
+              cityReference: null,
+              countryISO: sur,
+              countryName: null,
+              countyName: Borders,
+              countyReference: null,
+              id: 1,
+              localPostCode: 67790,
+              notes: Rerum iste porro cumque perferendis doloribus aut vero veritatis.,
+              numbering: 37173,
+              regionName: null,
+              regionReference: null,
+              toponymy: 0239 Bradtke Port
+            }
+          ],
+          bankingId1: 473BJBZVS7,
+          bankingId2: 36FYERY4HB,
+          baseCountryISO: null,
+          baseCountryTaxIdCode: BZONAMPPY3,
+          businessStart: null,
+          closureDate: null,
+          companiesHouseIdCode: P0ZTU2II9Z,
+          customPersonType: null,
+          customSubjectStatus: null,
+          deletionDate: null,
+          entryStatus: WORKING,
+          externalSourceCode: 83GRNFCX3N,
+          fullName: Alessandro Friesen,
+          id: 2,
+          interGroupSignature: COE5Y3ZHN1,
+          internalCode: S0000001,
+          legalSubjectType: ACTUAL_LEGAL_SUBJECT,
+          location: null,
+          name: Alessandro Friesen,
+          owningMgmtSubjects: [
+            {
+              groupRelationType: null,
+              id: 2,
+              main: {
+                additionalGovIdCode: null,
+                additionalTaxIdCode: null,
+                bankingId1: null,
+                bankingId2: null,
+                baseCountryISO: null,
+                baseCountryTaxIdCode: US123456789,
+                businessStart: null,
+                closureDate: null,
+                companiesHouseIdCode: null,
+                customPersonType: null,
+                customSubjectStatus: null,
+                deletionDate: null,
+                entryStatus: INCOMPLETE_DRAFT,
+                externalSourceCode: null,
+                fullName: FinanceDepartment,
+                id: 1,
+                interGroupSignature: null,
+                internalCode: MNG_SUBJ_2023_42,
+                location: null,
+                managementCode: MGMT2023_42,
+                name: FinanceDepartment,
+                personType: MANAGEMENT_SUBJECT,
+                shareCapital: null,
+                shorthandDescription: null
+              },
+              notes: null,
+              officerRelationType: null,
+              relationType: MANAGEMENT_ENTITY_OWNED,
+              since: null,
+              until: null
+            }
+          ],
+          personType: LEGAL_PERSON,
+          relationSubordinates: [
+            {
+              groupRelationType: null,
+              id: 2,
+              main: {
+                additionalGovIdCode: null,
+                additionalTaxIdCode: null,
+                bankingId1: null,
+                bankingId2: null,
+                baseCountryISO: null,
+                baseCountryTaxIdCode: US123456789,
+                businessStart: null,
+                closureDate: null,
+                companiesHouseIdCode: null,
+                customPersonType: null,
+                customSubjectStatus: null,
+                deletionDate: null,
+                entryStatus: INCOMPLETE_DRAFT,
+                externalSourceCode: null,
+                fullName: FinanceDepartment,
+                id: 1,
+                interGroupSignature: null,
+                internalCode: MNG_SUBJ_2023_42,
+                location: null,
+                managementCode: MGMT2023_42,
+                name: FinanceDepartment,
+                personType: MANAGEMENT_SUBJECT,
+                shareCapital: null,
+                shorthandDescription: null
+              },
+              notes: null,
+              officerRelationType: null,
+              relationType: MANAGEMENT_ENTITY_OWNED,
+              since: null,
+              until: null
+            }
+          ],
+          shareCapital: null,
+          shorthandDescription: Alessandro Friesen
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

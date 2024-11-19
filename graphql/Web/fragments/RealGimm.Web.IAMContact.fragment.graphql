@@ -1,0 +1,6 @@
+fragment UserContactFragment on IAMContact {
+  id
+  contactInfoType
+  contactInfo
+  contactType
+}

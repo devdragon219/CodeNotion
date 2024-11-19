@@ -1,0 +1,30 @@
+{
+  "estate_unit_merge": {
+    "title": "Fusione",
+    "tab": {
+      "estate_units": "UI da fondere",
+      "estate": "Seleziona immobile",
+      "estate_unit": "Nuova UI",
+      "cadastral_unit": "Nuova UC",
+      "cadastral_coordinates": "Identificativi catastali",
+      "recap": "Riepilogo"
+    },
+    "section_title": {
+      "select_estate_units": "Seleziona le UI da fondere",
+      "selected_estate_units": "UI da fondere selezionate"
+    },
+    "error": {
+      "no_estate_units": "Selezionare almeno due unità immobiliari",
+      "invalid_estate_units": "Le unità immobiliari devono essere ubicate nello stesso comune"
+    },
+    "action": {
+      "save": "Salva fusione"
+    },
+    "text": {
+      "no_selected_estate_units": "Non sono presenti UI da fondere"
+    },
+    "feedback": {
+      "succeeded": "Unità immobiliari fuse con successo"
+    }
+  }
+}

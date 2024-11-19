@@ -1,0 +1,101 @@
+﻿{
+  nodes: [
+    {
+      baseYear: 1976,
+      countryISO3: ITA,
+      dataProvider: Guid_1,
+      id: 1,
+      month: 1,
+      revaluationIndex: 125.900000,
+      year: 1978
+    },
+    {
+      baseYear: 1976,
+      countryISO3: ITA,
+      dataProvider: Guid_1,
+      id: 2,
+      month: 2,
+      revaluationIndex: 127.200000,
+      year: 1978
+    },
+    {
+      baseYear: 1976,
+      countryISO3: ITA,
+      dataProvider: Guid_1,
+      id: 3,
+      month: 3,
+      revaluationIndex: 128.500000,
+      year: 1978
+    },
+    {
+      baseYear: 1976,
+      countryISO3: ITA,
+      dataProvider: Guid_1,
+      id: 4,
+      month: 4,
+      revaluationIndex: 129.900000,
+      year: 1978
+    },
+    {
+      baseYear: 1976,
+      countryISO3: ITA,
+      dataProvider: Guid_1,
+      id: 5,
+      month: 5,
+      revaluationIndex: 131.300000,
+      year: 1978
+    },
+    {
+      baseYear: 1976,
+      countryISO3: ITA,
+      dataProvider: Guid_1,
+      id: 6,
+      month: 6,
+      revaluationIndex: 132.400000,
+      year: 1978
+    },
+    {
+      baseYear: 1976,
+      countryISO3: ITA,
+      dataProvider: Guid_1,
+      id: 7,
+      month: 7,
+      revaluationIndex: 133.400000,
+      year: 1978
+    },
+    {
+      baseYear: 1976,
+      countryISO3: ITA,
+      dataProvider: Guid_1,
+      id: 8,
+      month: 8,
+      revaluationIndex: 134.000000,
+      year: 1978
+    },
+    {
+      baseYear: 1976,
+      countryISO3: ITA,
+      dataProvider: Guid_1,
+      id: 9,
+      month: 9,
+      revaluationIndex: 135.800000,
+      year: 1978
+    },
+    {
+      baseYear: 1976,
+      countryISO3: ITA,
+      dataProvider: Guid_1,
+      id: 10,
+      month: 10,
+      revaluationIndex: 137.300000,
+      year: 1978
+    }
+  ],
+  pageInfo: {
+    endCursor: OQ==,
+    hasNextPage: true,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 561
+}

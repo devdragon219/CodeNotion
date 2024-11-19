@@ -1,0 +1,7 @@
+fragment CatalogueDocumentsOutputFragment on CatalogueDocumentsOutput {
+  estateInternalCode
+  guid
+  subRows {
+    ...CatalogueDocumentsCategoryOutputFragment
+  }
+}

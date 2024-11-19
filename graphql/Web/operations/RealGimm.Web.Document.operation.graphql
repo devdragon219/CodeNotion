@@ -1,0 +1,311 @@
+query getAllDocuments(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: DocumentRowFilterInput
+  $order: [DocumentRowSortInput!]
+) {
+  document {
+    allDocuments(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...DocumentRowFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getAllEstateDocuments(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: EstateDocumentsFlatOutputFilterInput
+  $order: [EstateDocumentsOutputSortInput!]
+) {
+  document {
+    estateDocuments(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...EstateDocumentsOutputFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getAllEstateUnitDocuments(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: EstateUnitDocumentsFlatOutputFilterInput
+  $order: [EstateUnitDocumentsOutputSortInput!]
+) {
+  document {
+    estateUnitDocuments(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...EstateUnitDocumentsOutputFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getAllCatalogueDocuments(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: CatalogueDocumentsFlatOutputFilterInput
+  $order: [CatalogueDocumentsOutputSortInput!]
+) {
+  document {
+    catalogueDocuments(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...CatalogueDocumentsOutputFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getAllSubjectDocuments(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: SubjectDocumentsFlatOutputFilterInput
+  $order: [SubjectDocumentsOutputSortInput!]
+) {
+  document {
+    subjectDocuments(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...SubjectDocumentsOutputFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getAllContractDocuments(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: ContractDocumentsFlatOutputFilterInput
+  $order: [ContractDocumentsOutputSortInput!]
+) {
+  document {
+    contractDocuments(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...ContractDocumentsOutputFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getAllFacilityContractDocuments(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: FcltContractDocumentsFlatOutputFilterInput
+  $order: [FcltContractDocumentsOutputSortInput!]
+) {
+  document {
+    fcltContractDocuments(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...FacilityContractDocumentsOutputFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getAllTicketDocuments(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: TicketDocumentsFlatOutputFilterInput
+  $order: [TicketDocumentsOutputSortInput!]
+) {
+  document {
+    ticketDocuments(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...TicketDocumentsOutputFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query exportDocuments(
+  $where: DocumentRowFilterInput
+  $order: [DocumentRowSortInput!]
+) {
+  document {
+    exportDocumentsToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+query exportEstateDocuments(
+  $where: EstateDocumentsFlatOutputFilterInput
+  $order: [EstateDocumentsOutputSortInput!]
+) {
+  document {
+    exportEstateDocumentsToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+query exportEstateUnitDocuments(
+  $where: EstateUnitDocumentsFlatOutputFilterInput
+  $order: [EstateUnitDocumentsOutputSortInput!]
+) {
+  document {
+    exportEstateUnitDocumentsToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+query exportCatalogueDocuments(
+  $where: CatalogueDocumentsFlatOutputFilterInput
+  $order: [CatalogueDocumentsOutputSortInput!]
+) {
+  document {
+    exportCatalogueDocumentsToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+query exportSubjectDocuments(
+  $where: SubjectDocumentsFlatOutputFilterInput
+  $order: [SubjectDocumentsOutputSortInput!]
+) {
+  document {
+    exportSubjectDocumentsToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+query exportContractDocuments(
+  $where: ContractDocumentsFlatOutputFilterInput
+  $order: [ContractDocumentsOutputSortInput!]
+) {
+  document {
+    exportContractDocumentsToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+query exportFacilityContractDocuments(
+  $where: FcltContractDocumentsFlatOutputFilterInput
+  $order: [FcltContractDocumentsOutputSortInput!]
+) {
+  document {
+    exportFcltContractDocumentsToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+query exportTicketDocuments(
+  $where: TicketDocumentsFlatOutputFilterInput
+  $order: [TicketDocumentsOutputSortInput!]
+) {
+  document {
+    exportTicketDocumentsToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}

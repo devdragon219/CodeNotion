@@ -1,0 +1,6 @@
+fragment TicketTypeFragment on TicketType {
+  internalCode
+  description
+  ordering
+  id
+}

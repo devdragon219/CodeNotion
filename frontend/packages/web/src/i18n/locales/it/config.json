@@ -1,0 +1,29 @@
+{
+  "config": {
+    "title": "Impostazioni moduli",
+    "field": {
+      "function": "Modulo",
+      "name": "Chiave",
+      "value": "Valore",
+      "last_updated": "Ultimo aggiornamento"
+    },
+    "dialog": {
+      "update": {
+        "title": "Modifica impostazione modulo",
+        "save": "Salva impostazione modulo"
+      },
+      "view": {
+        "title": "Visualizza impostazione modulo"
+      }
+    },
+    "text": {
+      "no_configs": "Non sono presenti moduli"
+    },
+    "error": {
+      "value_max_length": "La lunghezza del valore non può essere superiore a 1024 caratteri"
+    },
+    "feedback": {
+      "update": "Impostazione modulo aggiornata con successo"
+    }
+  }
+}

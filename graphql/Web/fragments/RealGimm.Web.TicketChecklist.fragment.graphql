@@ -1,0 +1,66 @@
+fragment TicketChecklistFragment on TicketChecklist {
+  internalCode
+  name
+  catalogueType {
+    id
+    category {
+      id
+      name
+    }
+    subCategory {
+      id
+      name
+    }
+  }
+  estateUnit {
+    id
+    internalCode
+    grossSurface
+    netSurface
+  }
+  type
+  costBaseFactor
+  rawWorkCost
+  safetyCost
+  id
+}
+
+fragment TicketChecklistDetailFragment on TicketChecklist {
+  internalCode
+  name
+  catalogueType {
+    ...CatalogueTypeDetailFragment
+  }
+  type
+  costBaseFactor
+  rawWorkCost
+  safetyCost
+  preventativeActivities {
+    ...CatalogueTypeActivityFragment
+  }
+  preventativePlannedPeriod
+  preventativeInterventionType {
+    ...InterventionTypeFragment
+  }
+  preventativeCraft {
+    ...CraftFragment
+  }
+  preventativeDaysOfWeek
+  preventativeToleranceDays
+  onTriggerActivities {
+    ...CatalogueTypeActivityFragment
+  }
+  onTriggerInterventionType {
+    ...InterventionTypeFragment
+  }
+  onTriggerCraft {
+    ...CraftFragment
+  }
+  id
+  estateUnit {
+    ...EstateUnitFragment
+  }
+  contract {
+    ...FacilityContractFragment
+  }
+}

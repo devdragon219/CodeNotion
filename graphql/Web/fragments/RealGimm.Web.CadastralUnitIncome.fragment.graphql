@@ -1,0 +1,19 @@
+fragment CadastralUnitIncomeFragment on CadastralUnitIncome {
+  cadastralCategory {
+    ...CadastralCategoryFragment
+  }
+  cadastralLandCategory {
+    ...CadastralLandCategoryFragment
+  }
+  macroCategory
+  microCategory
+  metric
+  metricAmount
+  metricRentedAmount
+  registeredSurface
+  type
+  cadastralAmount
+  farmAmount
+  landAmount
+  marketValue
+}

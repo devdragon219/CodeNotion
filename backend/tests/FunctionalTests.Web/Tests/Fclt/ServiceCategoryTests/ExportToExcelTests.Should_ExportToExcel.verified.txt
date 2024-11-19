@@ -1,0 +1,14 @@
+﻿[
+  [
+    SC00001,
+    Igiene ambientale
+  ],
+  [
+    SC00002,
+    Manutenzione del verde
+  ],
+  [
+    SC00003,
+    Sicurezza
+  ]
+]

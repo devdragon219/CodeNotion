@@ -1,0 +1,97 @@
+query getCalendars(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: CalendarFilterInput
+  $order: [CalendarSortInput!]
+) {
+  calendar {
+    listCalendars(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...CalendarFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getAllCalendars(
+  $where: CalendarFilterInput
+  $order: [CalendarSortInput!]
+) {
+  calendar {
+    listCalendarsFull(where: $where, order: $order) {
+      ...CalendarFragment
+    }
+  }
+}
+
+mutation addCalendar($input: CalendarInput!) {
+  calendar {
+    add(input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateCalendar($calendarId: Int!, $input: CalendarInput!) {
+  calendar {
+    update(id: $calendarId, input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteCalendars($ids: [Int!]!) {
+  calendar {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteCalendar($id: Int!) {
+  calendar {
+    delete(id: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query exportCalendars(
+  $where: CalendarFilterInput
+  $order: [CalendarSortInput!]
+) {
+  calendar {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}

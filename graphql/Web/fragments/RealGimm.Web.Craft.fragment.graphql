@@ -1,0 +1,6 @@
+fragment CraftFragment on Craft {
+  internalCode
+  name
+  ordering
+  id
+}

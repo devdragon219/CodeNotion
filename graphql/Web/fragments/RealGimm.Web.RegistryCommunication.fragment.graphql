@@ -1,0 +1,29 @@
+fragment RegistryCommunicationFragment on RegistryCommunication {
+  id
+  contract {
+    id
+    internalCode
+    landlord {
+      id
+      name
+    }
+    tenant {
+      id
+      name
+    }
+  }
+  estatesUnits {
+    id
+    estateUnit {
+      id
+      name
+      internalCode
+      address {
+        ...AsstAddressFragment
+      }
+    }
+  }
+  debtAmount
+  hasAnomalies
+  isExcluded
+}

@@ -1,0 +1,39 @@
+- name: Setup TEST VM
+  hosts: hosting-test
+  become: true
+  tasks:
+    - name: Copy files to the VM
+      copy:
+        src: "test/{{ item }}"
+        dest: /opt/
+      with_items:
+        - update-images.service
+        - update-images.timer
+        - update-images.sh
+        - docker-compose.yml
+        - Caddyfile
+        - appsettings.json
+
+    - name: Copy files to the VM (2)
+      copy:
+        src: "{{ item }}"
+        dest: /opt/
+      with_items:
+        - dump-db-data.sh
+        - restore-db-data.sh
+        
+    - name: Move systemd timer and service files
+      command: mv /opt/update-images.{{ item }} /etc/systemd/system/
+      with_items:
+        - timer
+        - service
+
+    - name: Reload systemd daemon
+      systemd:
+        daemon_reload: yes
+
+    - name: Enable and start the update-images.timer
+      systemd:
+        name: update-images.timer
+        enabled: yes
+        state: started

@@ -1,0 +1,38 @@
+query getRevaluationData(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: RevaluationDataFilterInput
+  $order: [RevaluationDataSortInput!]
+) {
+  revaluationData {
+    listRevaluationData(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...RevaluationDataFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query exportRevaluationData(
+  $where: RevaluationDataFilterInput
+  $order: [RevaluationDataSortInput!]
+) {
+  revaluationData {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}

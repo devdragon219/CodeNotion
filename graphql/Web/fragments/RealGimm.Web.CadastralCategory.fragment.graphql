@@ -1,0 +1,5 @@
+fragment CadastralCategoryFragment on CadastralCategory {
+  id
+  description
+  externalCode
+}

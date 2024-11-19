@@ -1,0 +1,95 @@
+query getAccountingItems(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: AccountingItemFilterInput
+  $order: [AccountingItemSortInput!]
+) {
+  accountingItem {
+    listAccountingTypes(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...AccountingItemFragment
+      }
+      totalCount
+    }
+  }
+}
+
+mutation addAccountingItem($input: AccountingItemInput!) {
+  accountingItem {
+    add(input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateAccountingItem(
+  $accountingItemId: Int!
+  $input: AccountingItemInput!
+) {
+  accountingItem {
+    update(id: $accountingItemId, input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteAccountingItems($ids: [Int!]!) {
+  accountingItem {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query exportAccountingItems(
+  $where: AccountingItemFilterInput
+  $order: [AccountingItemSortInput!]
+) {
+  accountingItem {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+query getAccountingItemInternalCode {
+  accountingItem {
+    proposeNewInternalCode
+  }
+}
+
+query canUseAccountingItemInternalCode(
+  $internalCode: String!
+  $currentAccountingItemId: Int
+) {
+  accountingItem {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentAccountingItemId: $currentAccountingItemId
+    )
+  }
+}

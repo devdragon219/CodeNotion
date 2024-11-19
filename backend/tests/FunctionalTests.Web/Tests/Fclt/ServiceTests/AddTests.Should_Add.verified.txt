@@ -1,0 +1,58 @@
+﻿{
+  Data: {
+    service: {
+      add: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          activities: [
+            {
+              activityType: ON_INCIDENT,
+              id: 1,
+              isMandatoryByLaw: true,
+              name: dolore
+            },
+            {
+              activityType: PLANNED_MAINTENANCE,
+              id: 2,
+              isMandatoryByLaw: true,
+              name: est
+            },
+            {
+              activityType: PLANNED_MAINTENANCE,
+              id: 3,
+              isMandatoryByLaw: true,
+              name: ex
+            },
+            {
+              activityType: ON_INCIDENT,
+              id: 4,
+              isMandatoryByLaw: true,
+              name: rerum
+            },
+            {
+              activityType: PLANNED_MAINTENANCE,
+              id: 5,
+              isMandatoryByLaw: false,
+              name: voluptatem
+            }
+          ],
+          category: {
+            id: 1,
+            internalCode: trk7kwfz9a,
+            name: est
+          },
+          id: 1,
+          internalCode: rnfcx3n18b,
+          name: Service 0,
+          subCategory: {
+            id: 1,
+            internalCode: rk7kwfz9ag,
+            name: illum
+          }
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

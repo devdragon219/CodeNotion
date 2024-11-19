@@ -1,0 +1,6 @@
+[hosting-dev]
+162.55.181.108
+[hosting-test]
+188.245.67.192
+[hosting-alfresco]
+188.245.68.36

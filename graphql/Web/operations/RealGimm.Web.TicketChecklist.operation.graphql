@@ -1,0 +1,128 @@
+query getTicketChecklists(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: TicketChecklistFilterInput
+  $order: [TicketChecklistSortInput!]
+) {
+  ticketChecklist {
+    listTicketChecklists(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...TicketChecklistFragment
+      }
+      totalCount
+    }
+  }
+}
+
+mutation addTicketChecklists(
+  $facilityContractId: Int!
+  $inputs: [TicketChecklistTemplatesPerEstateUnitInput!]!
+) {
+  ticketChecklist {
+    addRange(contractId: $facilityContractId, inputs: $inputs) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateTicketChecklist(
+  $ticketChecklistId: Int!
+  $input: UpdateTicketChecklistInput!
+) {
+  ticketChecklist {
+    update(id: $ticketChecklistId, input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteTicketChecklists($ids: [Int!]!) {
+  ticketChecklist {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query exportTicketChecklists(
+  $where: TicketChecklistFilterInput
+  $order: [TicketChecklistSortInput!]
+) {
+  ticketChecklist {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+query getTicketChecklist($ticketChecklistId: Int!) {
+  ticketChecklist {
+    get(id: $ticketChecklistId) {
+      ...TicketChecklistDetailFragment
+    }
+  }
+}
+
+mutation deleteTicketChecklist($id: Int!) {
+  ticketChecklist {
+    delete(id: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getGroupedTicketChecklists(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: TicketChecklistFilterInput
+  $order: [TicketChecklistSortInput!]
+) {
+  ticketChecklist {
+    listTicketChecklistsPerEstateUnits(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...TicketChecklistsPerEstateUnitFragment
+      }
+      totalCount
+    }
+  }
+}

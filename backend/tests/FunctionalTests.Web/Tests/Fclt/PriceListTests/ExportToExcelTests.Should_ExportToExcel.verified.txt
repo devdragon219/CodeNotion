@@ -1,0 +1,52 @@
+﻿[
+  [
+    1,
+    LS0001,
+    Est illum.
+  ],
+  [
+    2,
+    LS0002,
+    Assumenda iste.
+  ],
+  [
+    3,
+    LS0003,
+    Quia natus.
+  ],
+  [
+    4,
+    LS0004,
+    Et dignissimos.
+  ],
+  [
+    5,
+    LS0005,
+    Reiciendis ad.
+  ],
+  [
+    6,
+    LS0006,
+    Nostrum totam.
+  ],
+  [
+    7,
+    LS0007,
+    Harum totam.
+  ],
+  [
+    8,
+    LS0008,
+    Voluptatibus doloremque.
+  ],
+  [
+    9,
+    LS0009,
+    Eos asperiores.
+  ],
+  [
+    10,
+    LS0010,
+    Cum ipsam.
+  ]
+]

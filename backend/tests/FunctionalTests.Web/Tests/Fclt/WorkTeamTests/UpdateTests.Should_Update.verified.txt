@@ -1,0 +1,26 @@
+﻿{
+  Data: {
+    workTeam: {
+      update: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          description: Aut totam.,
+          id: 1,
+          insertionDate: 2023-01-26,
+          internalCode: SQ01,
+          leaderUser: {
+            firstName: null,
+            id: 1,
+            lastName: null
+          },
+          providerSubject: {
+            id: 2,
+            name: FinanceDepartment
+          }
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

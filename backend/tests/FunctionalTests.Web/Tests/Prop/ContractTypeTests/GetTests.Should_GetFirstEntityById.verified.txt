@@ -1,0 +1,19 @@
+﻿{
+  description: Illum assumenda iste quia natus et dignissimos reiciendis ad nostrum totam harum.,
+  id: 1,
+  internalCode: CT00001,
+  isAbsoluteRevaluation: true,
+  isActive: true,
+  isRegistrationTax: true,
+  isRentChargeApplicable: false,
+  isRevaluationApplicable: false,
+  isStampTax: false,
+  nature: LAND,
+  registrationTaxIncomeType: ITA_T1_FARMLAND,
+  registrationTaxPercent: null,
+  registrationTaxTenantPercent: null,
+  revaluationCalculationMonth: null,
+  revaluationIndexMonth: 9,
+  revaluationRatePercent: null,
+  usageTypeId: 12
+}

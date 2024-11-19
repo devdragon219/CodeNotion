@@ -1,0 +1,42 @@
+{
+  "facility_contract_type": {
+    "title": "Facility contract types",
+    "field": {
+      "ordering": "Ordering",
+      "internal_code": "Contract code",
+      "name": "Description"
+    },
+    "error": {
+      "internal_code": "The contract code provided is already in use"
+    },
+    "text": {
+      "no_facility_contract_types": "No facility contract types available"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add facility contract type"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this facility contract type?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these facility contract types?\nThe process cannot be undone"
+        }
+      },
+      "update": {
+        "title": "Update facility contract type"
+      },
+      "view": {
+        "title": "View facility contract type"
+      }
+    },
+    "feedback": {
+      "create": "Facility contract type created successfully",
+      "delete": {
+        "single": "Facility contract type deleted successfully",
+        "multiple": "Facility contract types deleted successfully"
+      },
+      "update": "Facility contract type edited successfully"
+    }
+  }
+}

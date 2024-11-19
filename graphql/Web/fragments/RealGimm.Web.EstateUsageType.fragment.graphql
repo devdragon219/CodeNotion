@@ -1,0 +1,10 @@
+fragment UsageTypeFragment on EstateUsageType {
+  id
+  name
+  internalCode
+  ordering
+  isForEstate
+  isForEstateUnit
+  isForEstateSubUnit
+  isForContracts
+}

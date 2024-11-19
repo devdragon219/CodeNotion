@@ -1,0 +1,71 @@
+﻿{
+  nodes: [
+    {
+      id: 1,
+      rate: 5.000000,
+      since: 1942-04-21,
+      until: 1990-12-15
+    },
+    {
+      id: 2,
+      rate: 10.000000,
+      since: 1990-12-16,
+      until: 1996-12-31
+    },
+    {
+      id: 3,
+      rate: 5.000000,
+      since: 1997-01-01,
+      until: 1998-12-31
+    },
+    {
+      id: 4,
+      rate: 2.500000,
+      since: 1999-01-01,
+      until: 2000-12-31
+    },
+    {
+      id: 5,
+      rate: 3.500000,
+      since: 2001-01-01,
+      until: 2001-12-31
+    },
+    {
+      id: 6,
+      rate: 3.000000,
+      since: 2002-01-01,
+      until: 2003-12-31
+    },
+    {
+      id: 7,
+      rate: 2.500000,
+      since: 2004-01-01,
+      until: 2007-12-31
+    },
+    {
+      id: 8,
+      rate: 3.000000,
+      since: 2008-01-01,
+      until: 2009-12-31
+    },
+    {
+      id: 9,
+      rate: 1.000000,
+      since: 2010-01-01,
+      until: 2010-12-31
+    },
+    {
+      id: 10,
+      rate: 1.500000,
+      since: 2011-01-01,
+      until: 2011-12-31
+    }
+  ],
+  pageInfo: {
+    endCursor: OQ==,
+    hasNextPage: true,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 22
+}

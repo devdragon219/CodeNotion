@@ -1,0 +1,12 @@
+﻿{
+  Data: {
+    subject: {
+      document: {
+        addRange: {
+          isSuccess: true
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

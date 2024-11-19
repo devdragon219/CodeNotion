@@ -1,0 +1,19 @@
+﻿{
+  Data: {
+    administrationTerm: {
+      add: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          expectedAmount: 773.89,
+          id: 1,
+          name: Granite,
+          since: 2023-09-29,
+          termType: GENERIC,
+          until: 2024-07-08
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

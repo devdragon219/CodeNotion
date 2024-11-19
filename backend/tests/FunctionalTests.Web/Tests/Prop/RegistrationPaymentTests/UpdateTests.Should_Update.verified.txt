@@ -1,0 +1,21 @@
+﻿{
+  Data: {
+    registrationPayment: {
+      update: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          id: 1,
+          paymentCode: GRNFCX3N18,
+          paymentType: MANUAL_INPUT,
+          paymentYear: 2020,
+          sanctionAmount: 713.91,
+          taxAmount: 990.79,
+          totalAmount: 2998.23,
+          valueDate: 2021-08-08
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

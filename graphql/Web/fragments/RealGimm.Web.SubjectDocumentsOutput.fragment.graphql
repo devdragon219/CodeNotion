@@ -1,0 +1,7 @@
+fragment SubjectDocumentsOutputFragment on SubjectDocumentsOutput {
+  subjectInternalCode
+  guid
+  subRows {
+    ...DocumentFragment
+  }
+}

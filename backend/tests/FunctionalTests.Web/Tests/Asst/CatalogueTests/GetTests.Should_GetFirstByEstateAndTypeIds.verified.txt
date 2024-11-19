@@ -1,0 +1,9 @@
+﻿[
+  {
+    activationDate: 2022-06-14,
+    id: 21,
+    internalCode: f4ukpn0kgz,
+    lastMaintenanceDate: 2023-05-12,
+    status: OPERATIONAL
+  }
+]

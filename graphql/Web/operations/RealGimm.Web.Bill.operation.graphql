@@ -1,0 +1,107 @@
+query getBills(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: BillFilterInput
+  $order: [BillSortInput!]
+) {
+  bill {
+    listBills(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...BillFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getAllBills($where: BillFilterInput, $order: [BillSortInput!]) {
+  bill {
+    listBillsFull(where: $where, order: $order) {
+      ...BillFullListOutputFragment
+    }
+  }
+}
+
+query getBill($billId: Int!) {
+  bill {
+    get(id: $billId) {
+      ...BillDetailFragment
+    }
+  }
+}
+
+mutation updateBill($billId: Int!, $input: BillInput!) {
+  bill {
+    update(id: $billId, input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation finalizeBills($billIds: [Int!]!) {
+  bill {
+    finalize(ids: $billIds) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query exportActiveBills($where: BillFilterInput, $order: [BillSortInput!]) {
+  bill {
+    exportActiveToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+query exportPassiveBills($where: BillFilterInput, $order: [BillSortInput!]) {
+  bill {
+    exportPassiveToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+query getBillStatistics {
+  bill {
+    billStateStatisticsOutput {
+      finalBillsPercentage
+      temporaryBillsPercentage
+    }
+  }
+}
+
+query generateBillPdf($billId: Int!) {
+  bill {
+    generatePdf(billId: $billId) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+      value {
+        resourceUrl
+      }
+    }
+  }
+}

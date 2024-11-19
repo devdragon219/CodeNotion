@@ -1,0 +1,480 @@
+﻿[
+  {
+    Name: -,
+    InternalCode: U0000001,
+    Ownership: Mixed,
+    MainUsageType: {
+      Name: nostrum,
+      InternalCode: qtrk7kwfz9,
+      Id: 1
+    },
+    UsageType: {
+      Name: voluptas,
+      InternalCode: re5z3bsg80,
+      IsForEstate: true,
+      IsForEstateUnit: true,
+      IsForEstateSubUnit: true,
+      IsForContracts: true,
+      Id: 1
+    },
+    BuildYear: 2022,
+    ManagementSubjectId: 1,
+    Notes: Ad nostrum totam harum totam.; Iste quia natus et dignissimos.,
+    Addresses: [
+      {
+        CityName: South Susieview,
+        CityReference: Guid_1,
+        CountryISO: AZE,
+        Toponymy: Nitzsche Skyway Suite,
+        Numbering: 129,
+        LocalPostCode: 96388-9065,
+        LocationLatLon: {
+          CoordinateSequence: {
+            Dimension: 2,
+            Spatial: 2,
+            Ordinates: XY,
+            HasZ: false,
+            HasM: false,
+            ZOrdinateIndex: -1,
+            MOrdinateIndex: -1,
+            First: {
+              X: -169.06788333741383,
+              Y: 86.78722556530835,
+              Z: "NaN",
+              M: "NaN",
+              IsValid: true
+            },
+            Last: {
+              X: -169.06788333741383,
+              Y: 86.78722556530835,
+              Z: "NaN",
+              M: "NaN",
+              IsValid: true
+            },
+            Count: 1
+          },
+          Coordinates: [
+            {
+              X: -169.06788333741383,
+              Y: 86.78722556530835,
+              Z: "NaN",
+              M: "NaN",
+              IsValid: true
+            }
+          ],
+          NumPoints: 1,
+          IsEmpty: false,
+          BoundaryDimension: False,
+          X: -169.06788333741383,
+          Y: 86.78722556530835,
+          Coordinate: {
+            X: -169.06788333741383,
+            Y: 86.78722556530835,
+            Z: "NaN",
+            M: "NaN",
+            IsValid: true
+          },
+          GeometryType: Point,
+          OgcGeometryType: Point,
+          Boundary: [],
+          Z: "NaN",
+          M: "NaN",
+          Factory: {
+            PrecisionModel: {
+              IsFloating: true,
+              MaximumSignificantDigits: 16,
+              GridSize: "NaN"
+            },
+            CoordinateSequenceFactory: {
+              Ordinates: XYZM
+            },
+            GeometryServices: {
+              GeometryOverlay: {},
+              CoordinateEqualityComparer: {},
+              DefaultSRID: -1,
+              DefaultCoordinateSequenceFactory: {
+                Ordinates: XYZM
+              },
+              DefaultPrecisionModel: {
+                IsFloating: true,
+                MaximumSignificantDigits: 16,
+                GridSize: "NaN"
+              }
+            }
+          },
+          PrecisionModel: {
+            IsFloating: true,
+            MaximumSignificantDigits: 16,
+            GridSize: "NaN"
+          },
+          NumGeometries: 1,
+          IsSimple: true,
+          IsValid: true,
+          EnvelopeInternal: {
+            IsNull: false,
+            MinX: -169.06788333741383,
+            MaxX: -169.06788333741383,
+            MinY: 86.78722556530835,
+            MaxY: 86.78722556530835,
+            Centre: {
+              X: -169.06788333741383,
+              Y: 86.78722556530835,
+              Z: "NaN",
+              M: "NaN",
+              IsValid: true
+            }
+          },
+          IsRectangle: false
+        },
+        Id: 1
+      }
+    ],
+    PrimaryAddress: {
+      CityName: South Susieview,
+      CityReference: Guid_1,
+      CountryISO: AZE,
+      Toponymy: Nitzsche Skyway Suite,
+      Numbering: 129,
+      LocalPostCode: 96388-9065,
+      LocationLatLon: {
+        CoordinateSequence: {
+          Dimension: 2,
+          Spatial: 2,
+          Ordinates: XY,
+          HasZ: false,
+          HasM: false,
+          ZOrdinateIndex: -1,
+          MOrdinateIndex: -1,
+          First: {
+            X: -169.06788333741383,
+            Y: 86.78722556530835,
+            Z: "NaN",
+            M: "NaN",
+            IsValid: true
+          },
+          Last: {
+            X: -169.06788333741383,
+            Y: 86.78722556530835,
+            Z: "NaN",
+            M: "NaN",
+            IsValid: true
+          },
+          Count: 1
+        },
+        Coordinates: [
+          {
+            X: -169.06788333741383,
+            Y: 86.78722556530835,
+            Z: "NaN",
+            M: "NaN",
+            IsValid: true
+          }
+        ],
+        NumPoints: 1,
+        IsEmpty: false,
+        BoundaryDimension: False,
+        X: -169.06788333741383,
+        Y: 86.78722556530835,
+        Coordinate: {
+          X: -169.06788333741383,
+          Y: 86.78722556530835,
+          Z: "NaN",
+          M: "NaN",
+          IsValid: true
+        },
+        GeometryType: Point,
+        OgcGeometryType: Point,
+        Boundary: [],
+        Z: "NaN",
+        M: "NaN",
+        Factory: {
+          PrecisionModel: {
+            IsFloating: true,
+            MaximumSignificantDigits: 16,
+            GridSize: "NaN"
+          },
+          CoordinateSequenceFactory: {
+            Ordinates: XYZM
+          },
+          GeometryServices: {
+            GeometryOverlay: {},
+            CoordinateEqualityComparer: {},
+            DefaultSRID: -1,
+            DefaultCoordinateSequenceFactory: {
+              Ordinates: XYZM
+            },
+            DefaultPrecisionModel: {
+              IsFloating: true,
+              MaximumSignificantDigits: 16,
+              GridSize: "NaN"
+            }
+          }
+        },
+        PrecisionModel: {
+          IsFloating: true,
+          MaximumSignificantDigits: 16,
+          GridSize: "NaN"
+        },
+        NumGeometries: 1,
+        IsSimple: true,
+        IsValid: true,
+        EnvelopeInternal: {
+          IsNull: false,
+          MinX: -169.06788333741383,
+          MaxX: -169.06788333741383,
+          MinY: 86.78722556530835,
+          MaxY: 86.78722556530835,
+          Centre: {
+            X: -169.06788333741383,
+            Y: 86.78722556530835,
+            Z: "NaN",
+            M: "NaN",
+            IsValid: true
+          }
+        },
+        IsRectangle: false
+      },
+      Id: 1
+    },
+    Id: 1
+  },
+  {
+    Name: -,
+    InternalCode: U0000002,
+    Ownership: Mixed,
+    MainUsageType: {
+      Name: nostrum,
+      InternalCode: qtrk7kwfz9,
+      Id: 1
+    },
+    UsageType: {
+      Name: voluptas,
+      InternalCode: re5z3bsg80,
+      IsForEstate: true,
+      IsForEstateUnit: true,
+      IsForEstateSubUnit: true,
+      IsForContracts: true,
+      Id: 1
+    },
+    BuildYear: 1989,
+    ManagementSubjectId: 1,
+    Notes: Corrupti adipisci debitis dolorem.; Ratione modi velit porro.,
+    Addresses: [
+      {
+        CityName: South Susieview,
+        CityReference: Guid_1,
+        CountryISO: AZE,
+        Toponymy: Raynor Creek Suite,
+        Numbering: 488,
+        LocalPostCode: 62880-8168,
+        LocationLatLon: {
+          CoordinateSequence: {
+            Dimension: 2,
+            Spatial: 2,
+            Ordinates: XY,
+            HasZ: false,
+            HasM: false,
+            ZOrdinateIndex: -1,
+            MOrdinateIndex: -1,
+            First: {
+              X: 128.95891475908405,
+              Y: 42.37154838273841,
+              Z: "NaN",
+              M: "NaN",
+              IsValid: true
+            },
+            Last: {
+              X: 128.95891475908405,
+              Y: 42.37154838273841,
+              Z: "NaN",
+              M: "NaN",
+              IsValid: true
+            },
+            Count: 1
+          },
+          Coordinates: [
+            {
+              X: 128.95891475908405,
+              Y: 42.37154838273841,
+              Z: "NaN",
+              M: "NaN",
+              IsValid: true
+            }
+          ],
+          NumPoints: 1,
+          IsEmpty: false,
+          BoundaryDimension: False,
+          X: 128.95891475908405,
+          Y: 42.37154838273841,
+          Coordinate: {
+            X: 128.95891475908405,
+            Y: 42.37154838273841,
+            Z: "NaN",
+            M: "NaN",
+            IsValid: true
+          },
+          GeometryType: Point,
+          OgcGeometryType: Point,
+          Boundary: [],
+          Z: "NaN",
+          M: "NaN",
+          Factory: {
+            PrecisionModel: {
+              IsFloating: true,
+              MaximumSignificantDigits: 16,
+              GridSize: "NaN"
+            },
+            CoordinateSequenceFactory: {
+              Ordinates: XYZM
+            },
+            GeometryServices: {
+              GeometryOverlay: {},
+              CoordinateEqualityComparer: {},
+              DefaultSRID: -1,
+              DefaultCoordinateSequenceFactory: {
+                Ordinates: XYZM
+              },
+              DefaultPrecisionModel: {
+                IsFloating: true,
+                MaximumSignificantDigits: 16,
+                GridSize: "NaN"
+              }
+            }
+          },
+          PrecisionModel: {
+            IsFloating: true,
+            MaximumSignificantDigits: 16,
+            GridSize: "NaN"
+          },
+          NumGeometries: 1,
+          IsSimple: true,
+          IsValid: true,
+          EnvelopeInternal: {
+            IsNull: false,
+            MinX: 128.95891475908405,
+            MaxX: 128.95891475908405,
+            MinY: 42.37154838273841,
+            MaxY: 42.37154838273841,
+            Centre: {
+              X: 128.95891475908405,
+              Y: 42.37154838273841,
+              Z: "NaN",
+              M: "NaN",
+              IsValid: true
+            }
+          },
+          IsRectangle: false
+        },
+        Id: 2
+      }
+    ],
+    PrimaryAddress: {
+      CityName: South Susieview,
+      CityReference: Guid_1,
+      CountryISO: AZE,
+      Toponymy: Raynor Creek Suite,
+      Numbering: 488,
+      LocalPostCode: 62880-8168,
+      LocationLatLon: {
+        CoordinateSequence: {
+          Dimension: 2,
+          Spatial: 2,
+          Ordinates: XY,
+          HasZ: false,
+          HasM: false,
+          ZOrdinateIndex: -1,
+          MOrdinateIndex: -1,
+          First: {
+            X: 128.95891475908405,
+            Y: 42.37154838273841,
+            Z: "NaN",
+            M: "NaN",
+            IsValid: true
+          },
+          Last: {
+            X: 128.95891475908405,
+            Y: 42.37154838273841,
+            Z: "NaN",
+            M: "NaN",
+            IsValid: true
+          },
+          Count: 1
+        },
+        Coordinates: [
+          {
+            X: 128.95891475908405,
+            Y: 42.37154838273841,
+            Z: "NaN",
+            M: "NaN",
+            IsValid: true
+          }
+        ],
+        NumPoints: 1,
+        IsEmpty: false,
+        BoundaryDimension: False,
+        X: 128.95891475908405,
+        Y: 42.37154838273841,
+        Coordinate: {
+          X: 128.95891475908405,
+          Y: 42.37154838273841,
+          Z: "NaN",
+          M: "NaN",
+          IsValid: true
+        },
+        GeometryType: Point,
+        OgcGeometryType: Point,
+        Boundary: [],
+        Z: "NaN",
+        M: "NaN",
+        Factory: {
+          PrecisionModel: {
+            IsFloating: true,
+            MaximumSignificantDigits: 16,
+            GridSize: "NaN"
+          },
+          CoordinateSequenceFactory: {
+            Ordinates: XYZM
+          },
+          GeometryServices: {
+            GeometryOverlay: {},
+            CoordinateEqualityComparer: {},
+            DefaultSRID: -1,
+            DefaultCoordinateSequenceFactory: {
+              Ordinates: XYZM
+            },
+            DefaultPrecisionModel: {
+              IsFloating: true,
+              MaximumSignificantDigits: 16,
+              GridSize: "NaN"
+            }
+          }
+        },
+        PrecisionModel: {
+          IsFloating: true,
+          MaximumSignificantDigits: 16,
+          GridSize: "NaN"
+        },
+        NumGeometries: 1,
+        IsSimple: true,
+        IsValid: true,
+        EnvelopeInternal: {
+          IsNull: false,
+          MinX: 128.95891475908405,
+          MaxX: 128.95891475908405,
+          MinY: 42.37154838273841,
+          MaxY: 42.37154838273841,
+          Centre: {
+            X: 128.95891475908405,
+            Y: 42.37154838273841,
+            Z: "NaN",
+            M: "NaN",
+            IsValid: true
+          }
+        },
+        IsRectangle: false
+      },
+      Id: 2
+    },
+    Id: 2
+  }
+]

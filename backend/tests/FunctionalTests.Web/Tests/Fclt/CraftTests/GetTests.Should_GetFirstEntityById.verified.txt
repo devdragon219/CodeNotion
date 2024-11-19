@@ -1,0 +1,6 @@
+﻿{
+  id: 1,
+  internalCode: SP01,
+  name: Est illum.,
+  ordering: 1
+}

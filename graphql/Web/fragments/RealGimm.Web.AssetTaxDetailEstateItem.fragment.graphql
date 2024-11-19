@@ -1,0 +1,13 @@
+fragment AssetTaxDetailEstateItemFragment on AssetTaxDetailEstateItem {
+  address {
+    ...AsstAddressFragment
+  }
+  estateInternalCode
+  totalAmountPaid
+  totalBaseTaxableAmount
+  totalGrossCadastralIncome
+  totalActualizedCadastralIncome
+  subRows {
+    ...AssetTaxDetailEstateUnitItemFragment
+  }
+}

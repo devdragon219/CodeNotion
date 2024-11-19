@@ -1,0 +1,8 @@
+fragment BankAccountFragment on BankAccount {
+  bankAccountType
+  referenceCode
+  referenceCodeType
+  notes
+  accountHolder
+  id
+}

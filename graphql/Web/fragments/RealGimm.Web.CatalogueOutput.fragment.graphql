@@ -1,0 +1,9 @@
+fragment CatalogueFragment on CatalogueOutput {
+  estateId
+  estateInternalCode
+  catalogueCategory
+  catalogueSubCategory
+  catalogueType
+  catalogueTypeCount
+  catalogueTypeId
+}

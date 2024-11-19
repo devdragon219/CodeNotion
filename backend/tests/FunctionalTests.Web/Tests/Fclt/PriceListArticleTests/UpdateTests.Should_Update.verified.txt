@@ -1,0 +1,66 @@
+﻿{
+  Data: {
+    priceListArticle: {
+      update: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          actualPrice: 35.41,
+          actualPriceSince: 2023-01-05,
+          actualPriceUntil: 2023-07-24,
+          catalogueTypes: [
+            {
+              category: {
+                id: 1,
+                name: est
+              },
+              id: 2,
+              name: unde,
+              subCategory: {
+                id: 2,
+                name: iste
+              }
+            },
+            {
+              category: {
+                id: 2,
+                name: assumenda
+              },
+              id: 1,
+              name: est,
+              subCategory: {
+                id: 18,
+                name: doloremque
+              }
+            }
+          ],
+          id: 1,
+          internalCode: AR001,
+          measurementUnit: {
+            id: 1,
+            internalCode: UL01,
+            name: Est illum.,
+            ordering: 1
+          },
+          name: Dolore aut.,
+          priceList: {
+            name: Assumenda iste.
+          },
+          pricePeriods: [
+            {
+              price: 66.03,
+              since: 2022-05-23,
+              until: 2022-06-22
+            },
+            {
+              price: 35.41,
+              since: 2023-01-05,
+              until: 2023-07-24
+            }
+          ]
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

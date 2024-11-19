@@ -1,0 +1,10 @@
+﻿{
+  id: 1,
+  paymentCode: RK7KWFZ9AG,
+  paymentType: MANUAL_INPUT,
+  paymentYear: 2024,
+  sanctionAmount: 983.940000,
+  taxAmount: 522.560000,
+  totalAmount: 5489.620000,
+  valueDate: 2023-03-02
+}

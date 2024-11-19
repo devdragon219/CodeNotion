@@ -1,0 +1,27 @@
+query getRegistrationOffices(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: RegistrationOfficeFilterInput
+  $order: [RegistrationOfficeSortInput!]
+) {
+  registrationOffice {
+    listRegistrationOffices(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...RegistrationOfficeFragment
+      }
+      totalCount
+    }
+  }
+}

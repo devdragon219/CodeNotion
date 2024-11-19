@@ -1,0 +1,69 @@
+{
+  "contract_type": {
+    "title": "Tipologie contratti",
+    "tab": {
+      "general_data": "Dati generali",
+      "parametric_data": "Dati parametrici",
+      "recap": "Riepilogo"
+    },
+    "section_title": {
+      "general_data": "Dati generali",
+      "registration_data": "Dati registrazione",
+      "revaluation_data": "Dati rivalutazione ISTAT",
+      "recap": "Riepilogo"
+    },
+    "contract_typology": {
+      "active": "Attivo",
+      "passive": "Passivo"
+    },
+    "field": {
+      "internal_code": "Codice",
+      "description": "Descrizione",
+      "typology": "Tipo contratto",
+      "fee": "Canone",
+      "nature_type": "Natura patrimonio",
+      "usage_type": "Tipo destinazione d'uso",
+      "subject_registration_tax": "Soggetto imposta di registro",
+      "registration_tax": "Imposta di registro",
+      "stamp_tax": "Bollo",
+      "registration_tax_income_type": "IR Tipologia contratto",
+      "registration_tax_percent": "% canone soggetto IR",
+      "registration_tax_tenant_percent": "% IR a carico conduttore",
+      "revaluation": "Soggetto rivalutazione ISTAT",
+      "is_absolute_revaluation": "Assoluto",
+      "revaluation_percent": "% applicazione ISTAT",
+      "revaluation_index_month": "ISTAT mese indice",
+      "revaluation_calculation_month": "ISTAT mese calcolo"
+    },
+    "error": {
+      "internal_code": "Il codice tipologia contratto inserito è già in uso"
+    },
+    "action": {
+      "add_category": "Aggiungi tipologia contratto"
+    },
+    "text": {
+      "no_contract_types": "Non sono presenti tipologie contratto"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta tipologia contratto",
+        "save": "Salva tipologia contratto"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa tipologia contratto?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste tipologie contratto?\nIl processo non potrà essere annullato"
+        }
+      }
+    },
+    "feedback": {
+      "create": "Tipologia contratto creata con successo",
+      "delete": {
+        "single": "Tipologia contratto cancellata con successo",
+        "multiple": "Tipologie contratto cancellate con successo"
+      },
+      "update": "Tipologia contratto modificata con successo"
+    }
+  }
+}

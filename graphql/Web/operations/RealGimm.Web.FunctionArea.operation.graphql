@@ -1,0 +1,108 @@
+query getFunctionAreas(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: FunctionAreaFilterInput
+  $order: [FunctionAreaSortInput!]
+) {
+  functionArea {
+    listFunctionAreas(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...FunctionAreaFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getFunctionAreaInternalCode($additionallyOccupiedCodes: [String!]!) {
+  functionArea {
+    proposeNewInternalCode(
+      additionallyOccupiedCodes: $additionallyOccupiedCodes
+    )
+  }
+}
+
+query canUseFunctionAreaInternalCode(
+  $internalCode: String!
+  $currentFunctionAreaId: Int
+) {
+  functionArea {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentFunctionAreaId: $currentFunctionAreaId
+    )
+  }
+}
+
+mutation createFunctionAreas($functionAreaInputs: [FunctionAreaInput!]!) {
+  functionArea {
+    addRange(inputs: $functionAreaInputs) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteFunctionAreas($ids: [Int!]!) {
+  functionArea {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query exportFunctionAreas(
+  $where: FunctionAreaFilterInput
+  $order: [FunctionAreaSortInput!]
+) {
+  functionArea {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+mutation updateFunctionArea(
+  $functionAreaId: Int!
+  $functionAreaInput: FunctionAreaInput!
+) {
+  functionArea {
+    update(id: $functionAreaId, input: $functionAreaInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getAllFunctionAreas(
+  $where: FunctionAreaFilterInput
+  $order: [FunctionAreaSortInput!]
+) {
+  functionArea {
+    listFunctionAreasFull(where: $where, order: $order) {
+      ...FunctionAreaFragment
+    }
+  }
+}

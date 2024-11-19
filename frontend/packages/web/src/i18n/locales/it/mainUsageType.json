@@ -1,0 +1,49 @@
+{
+  "main_usage_type": {
+    "title": "Macro destinazioni d'uso",
+    "section_title": {
+      "main_usage_type": "Macro destinazione d'uso"
+    },
+    "field": {
+      "internal_code": "Codice macro destinazione d'uso",
+      "name": "Descrizione macro destinazione d'uso",
+      "ordering": "Ordinamento"
+    },
+    "error": {
+      "internal_code": "Il codice macro destinazione d'uso inserito è già in uso"
+    },
+    "action": {
+      "add_main_usage_type": "Aggiungi macro destinazione d'uso"
+    },
+    "text": {
+      "no_main_usage_types": "Non sono presenti macro destinazioni d'uso"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta macro destinazione d'uso",
+        "save": "Salva macro destinazione d'uso"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa macro destinazione d'uso?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste macro destinazioni d'uso?\nIl processo non potrà essere annullato"
+        }
+      },
+      "update": {
+        "title": "Modifica macro destinazione d'uso"
+      },
+      "view": {
+        "title": "Visualizza macro destinazione d'uso"
+      }
+    },
+    "feedback": {
+      "create": "Macro destinazione d'uso creata con successo",
+      "delete": {
+        "single": "Macro destinazione d'uso cancellata con successo",
+        "multiple": "Macro destinazioni d'uso cancellate con successo"
+      },
+      "update": "Macro destinazione d'uso modificata con successo"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  category: ELECTRICAL,
+  chargeFields: null,
+  description: Energia elettrica 4 fasi,
+  expenseClass: null,
+  externalCode: null,
+  hasHeatingAccountingSystem: false,
+  id: 1,
+  internalCode: TF001,
+  measurementUnit: KWH,
+  measurementUnitDescription: chilowattora,
+  meteringType: INCREMENTAL_READING,
+  timeOfUseRateCount: 4
+}

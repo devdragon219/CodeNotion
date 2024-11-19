@@ -1,0 +1,42 @@
+{
+  "craft": {
+    "title": "Crafts",
+    "field": {
+      "ordering": "Ordering",
+      "internal_code": "Code",
+      "name": "Name"
+    },
+    "error": {
+      "internal_code": "The code provided is already in use"
+    },
+    "text": {
+      "no_crafts": "No crafts available"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add craft"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this craft?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these crafts?\nThe process cannot be undone"
+        }
+      },
+      "update": {
+        "title": "Update craft"
+      },
+      "view": {
+        "title": "View craft"
+      }
+    },
+    "feedback": {
+      "create": "Craft created successfully",
+      "delete": {
+        "single": "Craft deleted successfully",
+        "multiple": "Crafts deleted successfully"
+      },
+      "update": "Craft edited successfully"
+    }
+  }
+}

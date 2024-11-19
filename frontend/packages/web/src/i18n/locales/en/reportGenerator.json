@@ -1,0 +1,20 @@
+{
+  "report_generator": {
+    "title": "Report",
+    "tab": {
+      "general_data": "Report type",
+      "fields": "Filters"
+    },
+    "section_title": {
+      "general_data": "Report type",
+      "fields": "Filters"
+    },
+    "fields": {
+      "type": "Report type",
+      "format": "Report format"
+    },
+    "action": {
+      "generate": "Export report"
+    }
+  }
+}

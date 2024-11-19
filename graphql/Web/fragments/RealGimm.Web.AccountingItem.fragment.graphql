@@ -1,0 +1,6 @@
+fragment AccountingItemFragment on AccountingItem {
+  id
+  description
+  internalCode
+  externalCode
+}

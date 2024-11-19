@@ -1,0 +1,13 @@
+fragment TaxConfigSubTableRowFragment on TaxConfigSubTableRow {
+  ... on TaxConfigCoefficientSubTableRow {
+    id
+    referenceYear
+    coefficient
+  }
+  ... on TaxConfigRateSubTableRow {
+    id
+    code
+    description
+    rate
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "facility_contract_template": {
+    "title": "Modelli contratti manutenzione",
+    "tab": {
+      "general_data": "Dati generali",
+      "catalogue_types": "Tipologie oggetti",
+      "slas": "SLA",
+      "penalties": "Penali",
+      "recap": "Riepilogo"
+    },
+    "section_title": {
+      "general_data": "Dati generali",
+      "catalogue_types": "Tipologie oggetti",
+      "slas": "SLA",
+      "select_slas": "Seleziona gli SLA da associare al modello di contratto",
+      "selected_slas": "SLA selezionati",
+      "penalties": "Penali",
+      "select_penalties": "Seleziona le penali da associare al modello di contratto",
+      "selected_penalties": "Penali selezionate",
+      "recap": "Riepilogo"
+    },
+    "field": {
+      "internal_code": "Codice contratto",
+      "description": "Descrizione",
+      "contract_type": "Tipologia contratto",
+      "catalogue_types": "Tipologie oggetti",
+      "catalogue_category": "Categoria oggetto",
+      "catalogue_subcategory": "Sottocategoria oggetto",
+      "catalogue_type": "Tipologia oggetto"
+    },
+    "error": {
+      "internal_code": "Il codice contratto inserito è già in uso",
+      "no_catalogue_types_selected": "Nessuna tipologia oggetto selezionata"
+    },
+    "text": {
+      "no_facility_contract_templates": "Non sono presenti modelli contratti manutenzione",
+      "no_slas_selected": "Nessuna SLA selezionata",
+      "no_slas": "Non è presente alcuna SLA, clicca su modifica per aggiungere una SLA",
+      "no_penalties_selected": "Nessuna penale selezionata",
+      "no_penalties": "Non è presente alcuna penale, clicca su modifica per aggiungere una penale"
+    },
+    "action": {
+      "calendar": "Calendario",
+      "edit_catalogue_types": "Modifica tipologia oggetti",
+      "add_slas": "Aggiungi SLA",
+      "add_penalties": "Aggiungi penali"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta modello contratto manutenzione",
+        "save": "Salva modello contratto manutenzione"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa modello contratto manutenzione?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste modelli contratti manutenzione?\nIl processo non potrà essere annullato"
+        }
+      },
+      "view_catalogue_types": "Vedi oggetti contratto manutenzione",
+      "edit_catalogue_types": "Modifica tipologia oggetti",
+      "add_slas": "Aggiunta SLA",
+      "add_penalties": "Aggiunta penali"
+    },
+    "feedback": {
+      "create": "Modello contratto manutenzione creato con successo",
+      "delete": {
+        "single": "Modello contratto manutenzione cancellato con successo",
+        "multiple": "Modelli contratti manutenzione cancellati con successo"
+      },
+      "update": "Modello contratto manutenzione modificato con successo"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "main_usage_type": {
+    "title": "Main usage types",
+    "section_title": {
+      "main_usage_type": "Main usage type"
+    },
+    "field": {
+      "internal_code": "Main usage Type Code",
+      "name": "Main usage Type Description",
+      "ordering": "Ordering"
+    },
+    "error": {
+      "internal_code": "The main usage type code provided is already in use"
+    },
+    "action": {
+      "add_main_usage_type": "Add main usage type"
+    },
+    "text": {
+      "no_main_usage_types": "No main usage types available"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add main usage type",
+        "save": "Save main usage type"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this main usage type?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these main usage types?\nThe process cannot be undone"
+        }
+      },
+      "update": {
+        "title": "Update main usage type"
+      },
+      "view": {
+        "title": "View main usage type"
+      }
+    },
+    "feedback": {
+      "create": "Main usage type created successfully",
+      "delete": {
+        "single": "Main usage type deleted successfully",
+        "multiple": "Main usage types deleted successfully"
+      },
+      "update": "Main usage type edited successfully"
+    }
+  }
+}

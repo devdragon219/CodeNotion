@@ -1,0 +1,14 @@
+fragment AddressFragment on Address {
+  id
+  addressType
+  city {
+    ...CityFragment
+  }
+  cityName
+  countryISO
+  countyName
+  localPostCode
+  notes
+  numbering
+  toponymy
+}

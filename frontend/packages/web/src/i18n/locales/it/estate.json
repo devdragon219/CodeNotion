@@ -1,0 +1,175 @@
+{
+  "estate": {
+    "title": "Immobili",
+    "tab": {
+      "general_data": "Dati generali",
+      "addresses": "Indirizzi",
+      "estate_values": "Valori immobile",
+      "surfaces": "Superfici",
+      "surface": "Superficie",
+      "coefficients": "Coefficienti",
+      "market_values": "Valori di mercato",
+      "estate_units": "Unità immobiliari",
+      "catalogues": "Consistenza",
+      "refactorings": "Ristrutturazioni",
+      "select_estate_unit": "Scelta UI",
+      "documents": "Foto e documenti",
+      "recap": "Riepilogo"
+    },
+    "section_title": {
+      "general_data": "Dati generali",
+      "stairs": "Scale",
+      "floors": "Piani",
+      "primary_address": "Indirizzo principale",
+      "secondary_addresses": "Indirizzi secondari",
+      "no_surfaces": "Inserisci le diverse tipologie di superfici nelle unità immobiliari per visualizzare il totale delle rispettive superfici dell’immobile",
+      "total_surfaces": "Totale superfici",
+      "market_values": "Valori di mercato",
+      "coefficients": "Coefficienti",
+      "asset_values": "Valori di patrimonio",
+      "add_total_surface": "Aggiungi totale superficie ragguagliata (mq)",
+      "add_coefficients": "Aggiungi coefficienti",
+      "add_market_values": "Aggiungi valori di mercato",
+      "no_estate_units": "Non sono presenti unità immobiliari",
+      "no_catalogue_items": "Non sono presenti oggetti",
+      "refactorings": "Storico ristrutturazioni",
+      "no_estate_units_available": "Non si possono aggiungere ristrutturazioni perché non ci sono unità immobiliari",
+      "no_refactorings": "Non sono presenti ristrutturazioni, clicca su modifica per aggiungere una ristrutturazione",
+      "select_estate_unit": "Seleziona le UI da ristrutturare",
+      "selected_estate_unit": "UI da ristrutturare selezionate",
+      "estate_units": "Unità immobiliari selezionate per la ristrutturazione",
+      "images": "Foto",
+      "documents": "Documenti",
+      "recap": "Riepilogo"
+    },
+    "field": {
+      "estate_code": "Codice immobile",
+      "estate_name": "Denominazione immobile",
+      "estate_type": "Tipologia immobile",
+      "estate_status": "Stato immobile",
+      "management_subject": "Ente di gestione",
+      "address_toponymy": "Indirizzo",
+      "address_city": "Comune",
+      "address_postal_code": "CAP",
+      "address_county": "Provincia",
+      "address_country": "Nazione",
+      "address_notes": "Note",
+      "external_estate_code": "Codice immobile esterno",
+      "estate_surface": "Superficie immobile (mq)",
+      "estate_units_counter": "Numero di UI",
+      "floors_counter": "Numero di piani",
+      "main_usage_type": "Macro destinazione d’uso",
+      "usage_type": "Destinazione d’uso",
+      "ownership": "Tipologia di possesso",
+      "build_year": "Anno di costruzione",
+      "management_org_unit": "UO gestionale",
+      "disused_date": "Data dismissione",
+      "notes": "Note",
+      "stair": "Descrizione",
+      "floors": "Piani",
+      "floor_position": "Posizione piano",
+      "floor_name": "Denominazione piano",
+      "total_surface": "Totale superficie ragguagliata (mq)",
+      "surface_unit": "Unità di misura",
+      "surface_total": "Misura totale",
+      "surface_common_area": "Di cui area comune",
+      "surface_side_area": "Di cui pertinenza",
+      "surface_heritage_type": "Natura patrimonio",
+      "coefficient_type": "Tipologia",
+      "coefficient_value": "Valore",
+      "market_value_type": "Tipologia",
+      "market_value_value": "Valore",
+      "market_value_total_value": "Valore totale",
+      "asset_value_year": "Anno",
+      "asset_value_rba": "RBA",
+      "asset_value_ias": "IAS",
+      "asset_value_depreciation": "Ammortamento",
+      "asset_value_transfer_in": "Cessione nel",
+      "asset_value_reclamation_interventions": "Interventi di bonifica",
+      "refactoring_year": "Anno ristrutturazione",
+      "refactoring_building_permit_year": "Anno concessione edilizia",
+      "refactoring_condition": "Condizione",
+      "refactoring_age_condition": "Vetustà",
+      "refactoring_estate_units": "Codice UI",
+      "image_upload": "Carica foto",
+      "document_upload": "Carica documenti"
+    },
+    "error": {
+      "no_estate_units": "Nessuna unità immobiliare selezionata",
+      "internal_code": "Il codice immobile inserito è già in uso"
+    },
+    "action": {
+      "add_stairs": "Aggiungi scale",
+      "add_floor": "Aggiungi piano",
+      "add_address": "Aggiungi indirizzo secondario",
+      "add_total_market_values": "Calcola valori totali di mercato",
+      "edit_total_market_values": "Ricalcola valori totali di mercato",
+      "add_coefficient": "Aggiungi coefficiente",
+      "add_market_value": "Aggiungi valore di mercato",
+      "add_asset_values": "Aggiungi valori di patrimonio",
+      "add_estate_unit": "Aggiungi Unità Immobiliare",
+      "add_catalogue_item": "Aggiungi oggetto",
+      "add_refactoring": "Aggiungi ristrutturazione",
+      "add_document": "Aggiungi documento",
+      "view_portfolio": "Fascicolo immobile",
+      "view_estate": "Vedi immobile"
+    },
+    "text": {
+      "no_estates": "Non sono presenti immobili",
+      "no_stairs": "Nessuna scala inserita",
+      "no_secondary_addresses": "Nessun indirizzo secondario aggiunto",
+      "surfaces": "Per inserire nuove superfici e/o modificare, cancellare le esistenti andare nell’apposita sezione delle unità immobiliari.",
+      "no_market_values": "Nessun valore di mercato inserito",
+      "no_coefficients": "Nessun coefficiente inserito",
+      "no_asset_values": "Nessun valore di patrimonio inserito",
+      "no_refactorings": "Non sono presenti UI da ristrutturare",
+      "no_documents": "Non sono stati caricati documenti",
+      "no_images": "Non sono state caricate foto",
+      "estate_qr_code": "QR Code immobile"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta Immobile",
+        "save": "Salva immobile"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questo immobile?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare questi immobili?\nIl processo non potrà essere annullato"
+        }
+      },
+      "stair": {
+        "add": "Aggiungi scale",
+        "edit": "Modifica scala"
+      },
+      "address": {
+        "add": "Aggiungi indirizzo secondario",
+        "edit": "Modifica indirizzo secondario"
+      },
+      "total_market_value": {
+        "title": "Calcola valore totale di mercato",
+        "action": "Calcola valore totale di mercato"
+      },
+      "asset_values": {
+        "title": "Aggiungi valori di patrimonio"
+      },
+      "refactoring": {
+        "add": "Aggiungi ristrutturazione",
+        "edit": "Modifica ristrutturazione"
+      },
+      "estate_units": {
+        "title": "Unità immobiliari",
+        "description": "Unità immobiliari selezionate per la ristrutturazione"
+      }
+    },
+    "feedback": {
+      "create": "Immobile creato con successo",
+      "delete": {
+        "single": "Immobile cancellato con successo",
+        "multiple": "Immobili cancellati con successo"
+      },
+      "update": "Immobile modificato con successo"
+    }
+  }
+}

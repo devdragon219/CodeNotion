@@ -1,0 +1,38 @@
+query getSubjectCategories(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: SubjectCategoryFilterInput
+  $order: [SubjectCategorySortInput!]
+) {
+  subjectCategory {
+    listSubjectCategories(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...SubjectCategoryFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getAllSubjectCategories(
+  $where: SubjectCategoryFilterInput
+  $order: [SubjectCategorySortInput!]
+) {
+  subjectCategory {
+    allSubjectCategories(where: $where, order: $order) {
+      ...SubjectCategoryFragment
+    }
+  }
+}

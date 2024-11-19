@@ -1,0 +1,7 @@
+﻿{
+  description: Harum totam voluptatibus doloremque eos asperiores.,
+  id: 1,
+  managementSubjectId: 15,
+  notes: Ipsam illum pariatur doloribus aperiam cumque non recusandae.,
+  taxCode: vtofoxlzhh
+}

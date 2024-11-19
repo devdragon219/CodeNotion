@@ -1,0 +1,29 @@
+fragment AdministrationTermFragment on AdministrationTerm {
+  id
+  termType
+  name
+  expectedAmount
+  since
+  until
+  installments {
+    ...TermInstallmentFragment
+  }
+}
+
+fragment AdministrationTermDetailFragment on AdministrationTerm {
+  id
+  name
+  expectedAmount
+  since
+  until
+  termType
+  administration {
+    ...AdministrationDetailFragment
+  }
+  installments {
+    ...TermInstallmentFragment
+  }
+  payments {
+    ...TermGroupedInstallmentPaymentFragment
+  }
+}

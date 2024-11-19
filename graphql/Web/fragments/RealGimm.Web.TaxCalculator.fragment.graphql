@@ -1,0 +1,15 @@
+fragment TaxCalculatorFragment on TaxCalculator {
+  id
+  description
+  configuration {
+    availableMainTables {
+      ...TableFragment
+    }
+    availableSubTables {
+      key
+      value {
+        ...TableFragment
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+fragment CatalogueTypeActivityFragment on CatalogueTypeActivity {
+  activityType
+  id
+  name
+  isMandatoryByLaw
+}

@@ -1,0 +1,80 @@
+query getEstateSubUnits(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: EstateSubUnitFilterInput
+  $order: [EstateSubUnitSortInput!]
+) {
+  estateSubUnit {
+    listEstateSubUnit(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...EstateSubUnitFragment
+      }
+      totalCount
+    }
+  }
+}
+
+mutation deleteEstateSubUnits($ids: [Int!]!) {
+  estateSubUnit {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getEstateSubUnitInternalCode($estateUnitId: Int!) {
+  estateSubUnit {
+    proposeNewInternalCode(parentUnitEstateId: $estateUnitId)
+  }
+}
+
+mutation createEstateSubUnit($estateSubUnitInput: EstateSubUnitInput!) {
+  estateSubUnit {
+    add(subInput: $estateSubUnitInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateEstateSubUnit($estateSubUnitInput: EstateSubUnitInput!) {
+  estateSubUnit {
+    update(subInput: $estateSubUnitInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getAllEstateSubUnits(
+  $where: EstateSubUnitFilterInput
+  $order: [EstateSubUnitSortInput!]
+) {
+  estateSubUnit {
+    listEstateSubUnitsFull(where: $where, order: $order) {
+      ...EstateSubUnitFragment
+    }
+  }
+}

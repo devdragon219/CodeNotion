@@ -1,0 +1,18 @@
+﻿{
+  Data: {
+    sla: {
+      addRange: {
+        isSuccess: true,
+        status: OK,
+        value: [
+          {
+            description: Est illum.,
+            id: 1,
+            internalCode: SLA001
+          }
+        ]
+      }
+    }
+  },
+  IsDataSet: true
+}

@@ -1,0 +1,89 @@
+﻿{
+  Data: {
+    notification: {
+      lastNotifications: [
+        {
+          downloadGuid: Guid_1,
+          id: 11,
+          isSuccess: true,
+          status: READ,
+          timestamp: 2023-12-28T23:36:22.369Z,
+          username: admin@tenant1
+        },
+        {
+          downloadGuid: Guid_2,
+          id: 6,
+          isSuccess: true,
+          status: READ,
+          timestamp: 2023-12-27T07:35:04.351Z,
+          username: admin@tenant1
+        },
+        {
+          downloadGuid: Guid_3,
+          id: 10,
+          isSuccess: true,
+          status: READ,
+          timestamp: 2023-12-26T07:30:52.308Z,
+          username: admin@tenant1
+        },
+        {
+          downloadGuid: Guid_4,
+          id: 8,
+          isSuccess: true,
+          status: READ,
+          timestamp: 2023-12-25T19:38:10.629Z,
+          username: admin@tenant1
+        },
+        {
+          downloadGuid: Guid_5,
+          id: 7,
+          isSuccess: true,
+          status: READ,
+          timestamp: 2023-12-25T16:42:19.253Z,
+          username: admin@tenant1
+        },
+        {
+          downloadGuid: Guid_6,
+          id: 3,
+          isSuccess: true,
+          status: READ,
+          timestamp: 2023-12-25T13:45:09.383Z,
+          username: admin@tenant1
+        },
+        {
+          downloadGuid: Guid_7,
+          id: 4,
+          isSuccess: true,
+          status: READ,
+          timestamp: 2023-12-24T19:30:20.016Z,
+          username: admin@tenant1
+        },
+        {
+          downloadGuid: Guid_8,
+          id: 1,
+          isSuccess: true,
+          status: READ,
+          timestamp: 2023-12-24T17:42:05.814Z,
+          username: admin@tenant1
+        },
+        {
+          downloadGuid: Guid_9,
+          id: 5,
+          isSuccess: true,
+          status: READ,
+          timestamp: 2023-12-23T17:33:52.353Z,
+          username: admin@tenant1
+        },
+        {
+          downloadGuid: Guid_10,
+          id: 9,
+          isSuccess: true,
+          status: READ,
+          timestamp: 2023-12-23T12:51:37.017Z,
+          username: admin@tenant1
+        }
+      ]
+    }
+  },
+  IsDataSet: true
+}

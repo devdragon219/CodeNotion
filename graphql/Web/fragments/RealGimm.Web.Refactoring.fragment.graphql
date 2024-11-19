@@ -1,0 +1,15 @@
+fragment RefactoringFragment on Refactoring {
+  referenceYear
+  buildingPermitYear
+  condition
+  ageCoefficient
+  estateUnits {
+    id
+    internalCode
+    name
+    address {
+      ...AsstAddressFragment
+    }
+  }
+  id
+}

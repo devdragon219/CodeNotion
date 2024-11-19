@@ -1,0 +1,14 @@
+fragment EstateTotalMarketValueFragment on EstateTotalMarketValue {
+  totalSurfaceAreaSqM
+  notes
+  coefficients {
+    id
+    type
+    value
+  }
+  marketValues {
+    id
+    type
+    value
+  }
+}

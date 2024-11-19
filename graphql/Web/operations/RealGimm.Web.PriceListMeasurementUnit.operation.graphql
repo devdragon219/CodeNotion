@@ -1,0 +1,95 @@
+query getPriceListMeasurementUnits(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: PriceListMeasurementUnitFilterInput
+  $order: [PriceListMeasurementUnitSortInput!]
+) {
+  priceListMeasurementUnit {
+    listPriceListMeasurementUnits(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...PriceListMeasurementUnitFragment
+      }
+      totalCount
+    }
+  }
+}
+
+mutation addPriceListMeasurementUnit($input: PriceListMeasurementUnitInput!) {
+  priceListMeasurementUnit {
+    add(input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updatePriceListMeasurementUnit(
+  $priceListMeasurementUnitId: Int!
+  $input: PriceListMeasurementUnitInput!
+) {
+  priceListMeasurementUnit {
+    update(id: $priceListMeasurementUnitId, input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deletePriceListMeasurementUnits($ids: [Int!]!) {
+  priceListMeasurementUnit {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getPriceListMeasurementUnitInternalCode {
+  priceListMeasurementUnit {
+    proposeNewInternalCode
+  }
+}
+
+query canUsePriceListMeasurementUnitInternalCode(
+  $internalCode: String!
+  $currentPriceListMeasurementUnitId: Int
+) {
+  priceListMeasurementUnit {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentPriceListMeasurementUnitId: $currentPriceListMeasurementUnitId
+    )
+  }
+}
+
+query exportPriceListMeasurementUnits(
+  $where: PriceListMeasurementUnitFilterInput
+  $order: [PriceListMeasurementUnitSortInput!]
+) {
+  priceListMeasurementUnit {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}

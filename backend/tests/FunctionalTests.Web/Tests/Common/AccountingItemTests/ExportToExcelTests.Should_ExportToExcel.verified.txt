@@ -1,0 +1,117 @@
+﻿[
+  [
+    PAY001,
+    Debiti,
+    0101001
+  ],
+  [
+    REC001,
+    Crediti,
+    0201001
+  ],
+  [
+    001,
+    Affitti attivi,
+    QTRK7KWFZ
+  ],
+  [
+    002,
+    Rendite da locazione,
+    9AGMGZ1VZ
+  ],
+  [
+    003,
+    Proventi da servizi,
+    OBTUZ1PIX
+  ],
+  [
+    004,
+    Contributi e finanziamenti,
+    OJ26GAZNR
+  ],
+  [
+    005,
+    Affitti passivi,
+    1DCYIP49W
+  ],
+  [
+    006,
+    Spese di manutenzione ordinaria,
+    SCG57EPMH
+  ],
+  [
+    007,
+    Spese di manutenzione straordinaria,
+    7VTQUOM7W
+  ],
+  [
+    008,
+    Assicurazioni,
+    W3U6NT7ZH
+  ],
+  [
+    009,
+    Imposte e tasse,
+    NPT3QP4W6
+  ],
+  [
+    010,
+    Spese di gestione amministrativa,
+    HJBOGUTSR
+  ],
+  [
+    011,
+    Spese di vigilanza e sicurezza,
+    XAINBAT86
+  ],
+  [
+    012,
+    Spese condominiali,
+    2MOMX7X2W
+  ],
+  [
+    013,
+    Spese per utenze,
+    O353LYH5O
+  ],
+  [
+    014,
+    Spese legali e contenziosi,
+    K8M0CU2AP
+  ],
+  [
+    015,
+    Spese marketing,
+    YZDIAIJ2A
+  ],
+  [
+    016,
+    Ammortamenti,
+    HUM3QEX4P
+  ],
+  [
+    017,
+    Spese per attrezzature e arredi,
+    MTOK66L9Z
+  ],
+  [
+    018,
+    Accantonamenti per rischi e oneri,
+    K29UKNIY2
+  ],
+  [
+    019,
+    Ricavi e oneri finanziari,
+    I5TNKJOZA
+  ],
+  [
+    020,
+    Accantonamenti per fondo manutenzione,
+    2GH7285GG
+  ],
+  [
+    021,
+    Plusvalenza da vendita immobili,
+    0DT7W1IYZ
+  ]
+]

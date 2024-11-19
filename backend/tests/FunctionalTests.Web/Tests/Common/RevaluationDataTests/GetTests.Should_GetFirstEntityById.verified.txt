@@ -1,0 +1,9 @@
+﻿{
+  baseYear: 1976,
+  countryISO3: ITA,
+  dataProvider: Guid_1,
+  id: 1,
+  month: 1,
+  revaluationIndex: 125.900000,
+  year: 1978
+}

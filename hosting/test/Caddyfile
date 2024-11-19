@@ -1,0 +1,39 @@
+rg5-test.grupposcai.it {
+    handle /api/* {
+        reverse_proxy bo-backend
+    }
+    handle /* {
+        reverse_proxy bo-frontend
+    }
+    handle_path /nominatim/* {
+        reverse_proxy https://admin.geomanager.info:7080
+    }
+    header {
+      -Server
+      X-Content-Type-Options nosniff
+      Strict-Transport-Security "max-age=31536000; includeSubDomains"
+      Permissions-Policy "accelerometer=(), camera=(), geolocation=(), microphone=(), payment=(), usb=(), fullscreen=(self), gyroscope=()"
+      Referrer-Policy "no-referrer-when-downgrade"
+      X-Frame-Options "SAMEORIGIN"
+    }
+}
+
+rg5-test-fo.grupposcai.it {
+    handle /api/* {
+        reverse_proxy fo-backend
+    }
+    handle /* {
+        reverse_proxy fo-frontend
+    }
+    handle_path /nominatim/* {
+        reverse_proxy https://admin.geomanager.info:7080
+    }
+    header {
+      -Server
+      X-Content-Type-Options nosniff
+      Strict-Transport-Security "max-age=31536000; includeSubDomains"
+      Permissions-Policy "accelerometer=(), camera=(), geolocation=(), microphone=(), payment=(), usb=(), fullscreen=(self), gyroscope=()"
+      Referrer-Policy "no-referrer-when-downgrade"
+      X-Frame-Options "SAMEORIGIN"
+    }
+}

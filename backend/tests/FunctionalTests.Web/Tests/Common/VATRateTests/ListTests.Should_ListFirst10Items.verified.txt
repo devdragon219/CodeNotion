@@ -1,0 +1,67 @@
+﻿{
+  nodes: [
+    {
+      description: IVA 10% (N.127 - TER TAB A PARTE III DPR 633),
+      id: 1,
+      internalCode: 001,
+      ratePercent: 10.0,
+      type: RATE
+    },
+    {
+      description: IVA 21%,
+      id: 2,
+      internalCode: 002,
+      ratePercent: 21.0,
+      type: RATE
+    },
+    {
+      description: IVA 22%,
+      id: 3,
+      internalCode: 003,
+      ratePercent: 22.0,
+      type: RATE
+    },
+    {
+      description: ESENTE DA I.V.A.AI SENSI ART.6 L.133/99,
+      id: 4,
+      internalCode: 004,
+      ratePercent: 0.0,
+      type: EXEMPT
+    },
+    {
+      description: ESENTE DA I.V.A.AI SENSI ART.10 D.P.R. 633 DEL 26/10/1972,
+      id: 5,
+      internalCode: 005,
+      ratePercent: 0.0,
+      type: EXEMPT
+    },
+    {
+      description: ESENTE DA I.V.A.,
+      id: 6,
+      internalCode: 006,
+      ratePercent: 0.0,
+      type: EXEMPT
+    },
+    {
+      description: NON IMP. AI SENSI ART.8 D.P.R. 633 DEL 26/10/1972,
+      id: 7,
+      internalCode: 007,
+      ratePercent: 0.0,
+      type: NON_TAXABLE
+    },
+    {
+      description: NON IMPONIBILE,
+      id: 8,
+      internalCode: 008,
+      ratePercent: 0.0,
+      type: NON_TAXABLE
+    }
+  ],
+  pageInfo: {
+    endCursor: Nw==,
+    hasNextPage: false,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 8
+}

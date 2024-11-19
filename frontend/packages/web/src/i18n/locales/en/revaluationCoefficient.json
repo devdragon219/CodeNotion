@@ -1,0 +1,12 @@
+{
+  "revaluation_coefficient": {
+    "title": {
+      "current": "Revaluation coefficient",
+      "history": "Revaluation coefficient history"
+    },
+    "subtitle": "For IMU calculation of units with cadastral category D",
+    "action": {
+      "show_history": "Show history"
+    }
+  }
+}

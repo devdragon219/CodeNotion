@@ -1,0 +1,15 @@
+fragment ReplyFragment on Reply {
+  timestamp
+  isOperator
+  user {
+    ...TicketUserFragment
+  }
+  comment
+  id
+  documents {
+    ...DocumentFragment
+  }
+  images {
+    ...DocumentFragment
+  }
+}

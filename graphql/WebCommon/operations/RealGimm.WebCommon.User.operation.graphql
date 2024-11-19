@@ -1,0 +1,64 @@
+mutation switchTenant($input: SwitchTenantInput!) {
+  user {
+    switchTenant(input: $input) {
+      ...LoginResultFragment
+    }
+  }
+}
+
+mutation changePassword($input: ChangePasswordInput!) {
+  user {
+    changePassword(input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getProfile {
+  user {
+    me {
+      ...UserProfileFragment
+    }
+  }
+}
+
+query getSessions {
+  user {
+    sessions {
+      id
+      loginUserAgent
+      loginIPAddress
+      loginLocation
+      creationDate
+      refreshTokenExpiration
+    }
+  }
+}
+
+mutation revokeSession($sessionId: Int!) {
+  user {
+    revokeSession(sessionId: $sessionId) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation revokeAllSessions {
+  user {
+    revokeAllSessions {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}

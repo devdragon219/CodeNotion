@@ -1,0 +1,12 @@
+fragment EstateUnitGroupFragment on EstateUnitGroup {
+  name
+  internalCode
+  id
+  managementSubject {
+    id
+    name
+  }
+  estateUnits {
+    ...EstateUnitFragment
+  }
+}

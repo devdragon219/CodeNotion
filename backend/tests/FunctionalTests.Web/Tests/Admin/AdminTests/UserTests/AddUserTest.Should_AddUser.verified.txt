@@ -1,0 +1,39 @@
+﻿{
+  Data: {
+    admin: {
+      addUser: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          ceasedDate: null,
+          creationDate: DateTimeOffset_1,
+          deletionDate: null,
+          enabledSince: DateTimeOffset_2,
+          firstName: SampleUser,
+          id: 2,
+          lastLoggedIn: null,
+          lastLogInAttempt: null,
+          lastName: Demo1Add,
+          lastPasswordUpdated: DateTimeOffset_3,
+          lockedSince: null,
+          lockedUntil: null,
+          orgUnits: [
+            1,
+            2
+          ],
+          preferredLanguageCode: null,
+          status: ACTIVE,
+          subjects: [
+            1,
+            2,
+            3
+          ],
+          suspensionReason: null,
+          type: INTERNAL,
+          userName: demouser1add@sample.com
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

@@ -1,0 +1,49 @@
+{
+  "catalogue_item": {
+    "tab": {
+      "general_data": "Dati generali",
+      "documents": "Documenti"
+    },
+    "section_title": {
+      "documents": "Documenti"
+    },
+    "field": {
+      "estate": "Immobile",
+      "catalogue_category": "Categoria",
+      "catalogue_subcategory": "Sottocategoria",
+      "catalogue_type": "Tipologia oggetto",
+      "catalogue_type_count": "Numero oggetti",
+      "catalogue_item_code": "Codice oggetto",
+      "catalogue_item_status": "Stato oggetto",
+      "catalogue_item_activation_date": "Data di attivazione",
+      "catalogue_item_decommissioning_date": "Data di disattivazione",
+      "catalogue_item_last_maintenance_date": "Data ultima manutenzione",
+      "document_upload": "Carica documenti"
+    },
+    "error": {
+      "internal_code": "Il codice oggetto inserito è già in uso"
+    },
+    "action": {
+      "add_document": "Aggiungi documento"
+    },
+    "text": {
+      "no_documents": "Non sono presenti documenti, clicca su modifica per aggiungere un documento"
+    },
+    "dialog": {
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questo oggetto?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare questi oggetti?\nIl processo non potrà essere annullato"
+        }
+      }
+    },
+    "feedback": {
+      "delete": {
+        "single": "Oggetto cancellato con successo",
+        "multiple": "Oggetti cancellati con successo"
+      },
+      "update": "Oggetto modificato con successo"
+    }
+  }
+}

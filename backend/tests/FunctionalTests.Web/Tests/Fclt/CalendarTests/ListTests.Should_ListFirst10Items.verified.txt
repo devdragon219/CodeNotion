@@ -1,0 +1,21 @@
+﻿{
+  nodes: [
+    {
+      id: 1,
+      name: Calendar 0,
+      timeZoneId: Indian/Mahe
+    },
+    {
+      id: 2,
+      name: Calendar 1,
+      timeZoneId: Europe/Vatican
+    }
+  ],
+  pageInfo: {
+    endCursor: MQ==,
+    hasNextPage: false,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 2
+}

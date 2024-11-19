@@ -1,0 +1,42 @@
+{
+  "price_list_measurement_unit": {
+    "title": "Price list measurement units",
+    "field": {
+      "ordering": "Ordering",
+      "internal_code": "Unit code",
+      "name": "Description"
+    },
+    "error": {
+      "internal_code": "The unit code provided is already in use"
+    },
+    "text": {
+      "no_price_list_measurement_units": "No price list measurement units available"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add price list measurement units"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this price list measurement unit?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these price list measurement units?\nThe process cannot be undone"
+        }
+      },
+      "update": {
+        "title": "Edit price list measurement unit"
+      },
+      "view": {
+        "title": "View price list measurement unit"
+      }
+    },
+    "feedback": {
+      "create": "Price list measurement unit created successfully",
+      "delete": {
+        "single": "Price list measurement unit deleted successfully",
+        "multiple": "Price list measurement units deleted successfully"
+      },
+      "update": "Price list measurement unit edited successfully"
+    }
+  }
+}

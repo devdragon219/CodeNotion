@@ -1,0 +1,9 @@
+fragment CityFragment on City {
+  guid
+  id
+  name
+  countyName
+  countryName
+  countryISO
+  cadastralCode
+}

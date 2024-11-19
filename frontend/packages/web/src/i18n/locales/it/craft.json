@@ -1,0 +1,42 @@
+{
+  "craft": {
+    "title": "Specializzazioni",
+    "field": {
+      "ordering": "Ordinamento",
+      "internal_code": "Codice",
+      "name": "Denominazione"
+    },
+    "error": {
+      "internal_code": "Il codice inserito è già in uso"
+    },
+    "text": {
+      "no_crafts": "Non sono presenti specializzazioni"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta specializzazione"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa specializzazione?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste specializzazioni?\nIl processo non potrà essere annullato"
+        }
+      },
+      "update": {
+        "title": "Modifica specializzazione"
+      },
+      "view": {
+        "title": "Visualizza specializzazione"
+      }
+    },
+    "feedback": {
+      "create": "Specializzazione creato con successo",
+      "delete": {
+        "single": "Specializzazione cancellato con successo",
+        "multiple": "Specializzazioni cancellati con successo"
+      },
+      "update": "Specializzazione modificato con successo"
+    }
+  }
+}

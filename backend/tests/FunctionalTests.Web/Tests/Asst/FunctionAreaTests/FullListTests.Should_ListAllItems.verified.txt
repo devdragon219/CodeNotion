@@ -1,0 +1,68 @@
+﻿[
+  {
+    id: 1,
+    internalCode: FA001,
+    name: Ufficio,
+    surfaceType: MAIN_AREA
+  },
+  {
+    id: 2,
+    internalCode: FA002,
+    name: Segreteria,
+    surfaceType: COMMON_AREA
+  },
+  {
+    id: 3,
+    internalCode: FA003,
+    name: Magazzino,
+    surfaceType: MAIN_AREA
+  },
+  {
+    id: 4,
+    internalCode: FA004,
+    name: Reception,
+    surfaceType: COMMON_AREA
+  },
+  {
+    id: 5,
+    internalCode: FA005,
+    name: Cucina,
+    surfaceType: MAIN_AREA
+  },
+  {
+    id: 6,
+    internalCode: FA006,
+    name: Bagno,
+    surfaceType: COMMON_AREA
+  },
+  {
+    id: 7,
+    internalCode: FA007,
+    name: Ripostiglio,
+    surfaceType: SIDE_AREA
+  },
+  {
+    id: 8,
+    internalCode: FA008,
+    name: Balcone,
+    surfaceType: SIDE_AREA
+  },
+  {
+    id: 9,
+    internalCode: FA009,
+    name: Cantina,
+    surfaceType: MAIN_AREA
+  },
+  {
+    id: 10,
+    internalCode: FA010,
+    name: Posto auto,
+    surfaceType: SIDE_AREA
+  },
+  {
+    id: 11,
+    internalCode: FA011,
+    name: Giardino,
+    surfaceType: COMMON_AREA
+  }
+]

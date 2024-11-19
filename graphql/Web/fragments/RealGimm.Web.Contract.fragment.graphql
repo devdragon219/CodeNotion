@@ -1,0 +1,236 @@
+fragment SublocatedContractDetailFragment on Contract {
+  internalCode
+  externalCode
+  status
+  managementSubject {
+    name
+  }
+  type {
+    description
+  }
+  reason
+  agreementDate
+  effectStartDate
+  lastRenewalStartDate
+  firstTermDurationMonths
+  secondTermDurationMonths
+  firstTermExpirationDate
+  secondTermExpirationDate
+  anytimeTerminationWarningMonths
+  nonRenewalWarningMonths
+  terminationDate
+  terminator
+  id
+}
+
+fragment ContractDetailFragment on Contract {
+  status
+  internalCode
+  externalCode
+  previousCode
+  managementSubject {
+    ...SubjectDetailFragment
+  }
+  type {
+    ...ContractTypeFragment
+  }
+  reason
+  agreementDate
+  effectStartDate
+  lastRenewalStartDate
+  firstTermDurationMonths
+  secondTermDurationMonths
+  firstTermExpirationDate
+  secondTermExpirationDate
+  anytimeTerminationWarningMonths
+  nonRenewalWarningMonths
+  terminationDate
+  terminator
+  billingStartDate
+  billingEndDate
+  billingAfterTerm
+  recoverBillsAfterSuspension
+  billingAlignedToCalendarYear
+  billingAppliesBaseFee
+  billingBaseFee
+  billingBaseFeeBillItemType {
+    ...BillItemTypeFragment
+  }
+  billingVATRateType
+  billingPeriod
+  billingWithSplitPayment
+  billingWithStampTax
+  notes
+  billingNotes
+  billingPauses {
+    ...BillingPauseFragment
+  }
+  isReleased
+  releaseDate
+  releaseReason
+  isOccupiedWithoutRight
+  registrationTaxData {
+    contractRegistrationCode
+    exemptions
+    firstOnlineRegistrationDate
+    firstRegistrationDate
+    firstRegistrationPeriod
+    incomeType
+    incomeTypeRLI
+    isAccountingManaged
+    isRLIModeEnabled
+    isTakeoverFromPreviousSubject
+    isVoluntarySanctionApplied
+    lastOnlinePaymentDate
+    lastPaymentDate
+    numberOfCopies
+    numberOfPages
+    paymentType
+    registrationNumber
+    registrationSerialNumber
+    registrationYear
+    specialCase
+    takeoverDate
+    legalRepresentativeSubject {
+      ...SubjectDetailFragment
+    }
+    originalSubjects {
+      ...SubjectDetailFragment
+    }
+    takeoverType
+    registrationOffice {
+      ...RegistrationOfficeFragment
+    }
+    taxableRateRatioPercent
+    tenantShareOfStampTaxPercent
+    tenantTaxSharePercent
+    transferResolutionAmount
+  }
+  registrationPayments {
+    ...ContractRegistrationPaymentFragment
+  }
+  takeovers {
+    ...TakeoverFragment
+  }
+  revaluationData {
+    baseRevaluationRate
+    isAbsoluteRevaluationApplied
+    isBackHistoryEnabled
+    isRevaluationCalculated
+    nextApplicationDate
+    rateType
+    referencePeriodEnd
+    referencePeriodStart
+    revaluationPeriodMonths
+    revaluationSharePercent
+  }
+  revaluationHistories {
+    ...RevaluationHistoryFragment
+  }
+  locatedUnits {
+    id
+    estateSubUnit {
+      ...EstateSubUnitFragment
+    }
+    estateUnit {
+      ...EstateUnitDetailFragment
+    }
+    isMainUnit
+    isPartialLocation
+    isRegistryUpdateEnabled
+    surfaceSqM
+  }
+  counterparts {
+    id
+    contractSharePercent
+    type
+    isMainCounterpart
+    since
+    until
+    subject {
+      ...SubjectDetailFragment
+    }
+  }
+  transactors {
+    id
+    addressId
+    invoiceAddressId
+    isInvoiced
+    since
+    subject {
+      ...SubjectDetailFragment
+    }
+    transactionSharePercent
+    type
+    until
+  }
+  securityDeposits {
+    id
+    bankAccountId
+    baseAmount
+    interestCalculationStartDate
+    isInterestCalculated
+    isSuretyRenewable
+    notes
+    type
+    since
+    subject {
+      ...SubjectDetailFragment
+    }
+    suretySubject {
+      ...SubjectDetailFragment
+    }
+    takeoverDate
+    until
+    interestRows {
+      ...SecurityDepositInterestRowFragment
+    }
+  }
+  oneshotAdditions {
+    startDate
+    isRentalRateVariation
+    amount
+    installments
+    isBoundToTermDay
+    termStartDate
+    termEndDate
+    notes
+    id
+    vatRate {
+      ...VatRateFragment
+    }
+    billItemType {
+      ...BillItemTypeFragment
+    }
+    accountingItem {
+      ...AccountingItemFragment
+    }
+  }
+  recurringAdditions {
+    amountPerInstallment
+    excludeStartMonth
+    excludeEndMonth
+    notes
+    id
+    vatRate {
+      ...VatRateFragment
+    }
+    billItemType {
+      ...BillItemTypeFragment
+    }
+    accountingItem {
+      ...AccountingItemFragment
+    }
+  }
+  ratePlans {
+    id
+    since
+    newYearlyRate
+    isDeclarationExpected
+    isDeclared
+  }
+  id
+  sublocatedContract {
+    ...SublocatedContractDetailFragment
+  }
+}

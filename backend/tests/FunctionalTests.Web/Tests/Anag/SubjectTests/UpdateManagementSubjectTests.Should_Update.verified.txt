@@ -1,0 +1,128 @@
+﻿{
+  Data: {
+    subject: {
+      updateManagementSubject: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          additionalGovIdCode: ODFOOH8CI6,
+          additionalTaxIdCode: 5DS6SBTVKP,
+          addresses: [
+            {
+              cityName: South Oletafurt,
+              cityReference: null,
+              countryISO: sur,
+              countryName: null,
+              countyName: Borders,
+              countyReference: null,
+              id: 1,
+              localPostCode: 67790,
+              notes: Rerum iste porro cumque perferendis doloribus aut vero veritatis.,
+              numbering: 37173,
+              regionName: null,
+              regionReference: null,
+              toponymy: 0239 Bradtke Port
+            }
+          ],
+          bankingId1: 473BJBZVS7,
+          bankingId2: 36FYERY4HB,
+          baseCountryISO: null,
+          baseCountryTaxIdCode: BZONAMPPY3,
+          businessStart: null,
+          closureDate: null,
+          companiesHouseIdCode: P0ZTU2II9Z,
+          customPersonType: null,
+          customSubjectStatus: null,
+          deletionDate: null,
+          entryStatus: WORKING,
+          externalSourceCode: 83GRNFCX3N,
+          fullName: Alessandro Friesen,
+          id: 1,
+          interGroupSignature: COE5Y3ZHN1,
+          internalCode: S0000001,
+          location: null,
+          managementCode: 2gcdd0muur,
+          name: Alessandro Friesen,
+          personType: MANAGEMENT_SUBJECT,
+          relationMains: [
+            {
+              groupRelationType: MEMBER,
+              id: 1,
+              notes: null,
+              officerRelationType: null,
+              relationType: COMPANY_GROUP,
+              since: null,
+              subordinate: {
+                additionalGovIdCode: ODFOOH8CI6,
+                additionalTaxIdCode: 5DS6SBTVKP,
+                bankingId1: 473BJBZVS7,
+                bankingId2: 36FYERY4HB,
+                baseCountryISO: null,
+                baseCountryTaxIdCode: BZONAMPPY3,
+                businessStart: null,
+                closureDate: null,
+                companiesHouseIdCode: P0ZTU2II9Z,
+                customPersonType: null,
+                customSubjectStatus: null,
+                deletionDate: null,
+                entryStatus: WORKING,
+                externalSourceCode: 83GRNFCX3N,
+                fullName: Alessandro Friesen,
+                id: 1,
+                interGroupSignature: COE5Y3ZHN1,
+                internalCode: S0000001,
+                location: null,
+                managementCode: 2gcdd0muur,
+                name: Alessandro Friesen,
+                personType: MANAGEMENT_SUBJECT,
+                shareCapital: null,
+                shorthandDescription: Alessandro Friesen
+              },
+              until: null
+            }
+          ],
+          relationSubordinates: [
+            {
+              groupRelationType: MEMBER,
+              id: 1,
+              main: {
+                additionalGovIdCode: ODFOOH8CI6,
+                additionalTaxIdCode: 5DS6SBTVKP,
+                bankingId1: 473BJBZVS7,
+                bankingId2: 36FYERY4HB,
+                baseCountryISO: null,
+                baseCountryTaxIdCode: BZONAMPPY3,
+                businessStart: null,
+                closureDate: null,
+                companiesHouseIdCode: P0ZTU2II9Z,
+                customPersonType: null,
+                customSubjectStatus: null,
+                deletionDate: null,
+                entryStatus: WORKING,
+                externalSourceCode: 83GRNFCX3N,
+                fullName: Alessandro Friesen,
+                id: 1,
+                interGroupSignature: COE5Y3ZHN1,
+                internalCode: S0000001,
+                location: null,
+                managementCode: 2gcdd0muur,
+                name: Alessandro Friesen,
+                personType: MANAGEMENT_SUBJECT,
+                shareCapital: null,
+                shorthandDescription: Alessandro Friesen
+              },
+              notes: null,
+              officerRelationType: null,
+              relationType: COMPANY_GROUP,
+              since: null,
+              until: null
+            }
+          ],
+          shareCapital: null,
+          shorthandDescription: Alessandro Friesen
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

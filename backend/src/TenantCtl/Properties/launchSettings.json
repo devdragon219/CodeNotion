@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TenantCtl": {
+      "commandName": "Project",
+      "commandLineArgs": "make-demo 58491b8c-6ed7-4bd8-92c9-859bc8c70695"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "notification": {
+    "title": "All notifications",
+    "field": {
+      "title": "Title",
+      "body": "Description",
+      "timestamp": "Date",
+      "status": "Status"
+    },
+    "action": {
+      "mark_all": "Mark all as read",
+      "mark_row": "Mark as read",
+      "mark_rows": "Mark as read"
+    },
+    "text": {
+      "no_notifications": "No notifications available"
+    },
+    "dialog": {
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this notification?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these notifications?\nThe process cannot be undone"
+        }
+      }
+    },
+    "feedback": {
+      "delete": {
+        "single": "Notification successfully deleted",
+        "multiple": "Notifications successfully deleted"
+      },
+      "mark": {
+        "single": "Notification successfully marked as read",
+        "multiple": "Notifications successfully marked as read"
+      }
+    }
+  }
+}

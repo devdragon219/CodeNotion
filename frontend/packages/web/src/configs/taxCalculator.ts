@@ -1,0 +1,1 @@
+export const TAX_CALCULATOR_REVALUATION_COEFFICIENTS_TABLE_CODE = 'revaluation-coeff-d';

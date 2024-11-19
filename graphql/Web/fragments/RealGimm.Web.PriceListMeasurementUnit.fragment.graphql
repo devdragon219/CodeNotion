@@ -1,0 +1,6 @@
+fragment PriceListMeasurementUnitFragment on PriceListMeasurementUnit {
+  internalCode
+  name
+  ordering
+  id
+}

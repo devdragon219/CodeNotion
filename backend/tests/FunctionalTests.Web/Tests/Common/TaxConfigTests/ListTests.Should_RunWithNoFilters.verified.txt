@@ -1,0 +1,17 @@
+﻿{
+  Data: {
+    taxConfiguration: {
+      availableCalculators: [
+        {
+          description: IMU,
+          id: Guid_1
+        },
+        {
+          description: ILIA,
+          id: Guid_2
+        }
+      ]
+    }
+  },
+  IsDataSet: true
+}

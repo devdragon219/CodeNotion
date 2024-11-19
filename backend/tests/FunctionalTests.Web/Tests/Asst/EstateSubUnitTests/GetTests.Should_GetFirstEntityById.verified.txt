@@ -1,0 +1,73 @@
+﻿{
+  deletionDate: null,
+  estateUnit: {
+    cadastralUnits: [
+      {
+        addressId: 31,
+        cadastralNotes: A quas porro sed ad et autem suscipit blanditiis ratione modi velit porro dolorum corrupti.,
+        consortiumNotes: Eius repellat deleniti et quisquam consequatur aut qui porro consequuntur et consectetur voluptatum ut voluptas.,
+        deletionDate: null,
+        fiscalNotes: Adipisci debitis dolorem id vero soluta fuga eius saepe eveniet dicta quo ipsum facilis dolorem.,
+        historyTags: [
+          Guid_1
+        ],
+        id: 1,
+        internalCode: trk7kwfz9a,
+        lastRelevantChangeDate: null,
+        since: 2023-12-10,
+        status: DISCONTINUED_MERGE,
+        type: BUILDING_AREA,
+        until: null
+      }
+    ],
+    currentCadastralUnit: {
+      addressId: 31,
+      cadastralNotes: A quas porro sed ad et autem suscipit blanditiis ratione modi velit porro dolorum corrupti.,
+      consortiumNotes: Eius repellat deleniti et quisquam consequatur aut qui porro consequuntur et consectetur voluptatum ut voluptas.,
+      deletionDate: null,
+      fiscalNotes: Adipisci debitis dolorem id vero soluta fuga eius saepe eveniet dicta quo ipsum facilis dolorem.,
+      historyTags: [
+        Guid_1
+      ],
+      id: 1,
+      internalCode: trk7kwfz9a,
+      lastRelevantChangeDate: null,
+      since: 2023-12-10,
+      status: DISCONTINUED_MERGE,
+      type: BUILDING_AREA,
+      until: null
+    },
+    deletionDate: null,
+    disusedDate: null,
+    externalCode: bab2dj845z,
+    grossSurface: 0,
+    id: 9,
+    internalCode: I00025U009,
+    lastRelevantChangeDate: null,
+    managementSubjectId: 17,
+    name: Legros and Sons,
+    netSurface: 0,
+    notes: Ut in illum nihil tenetur aut ut et qui est veritatis ut distinctio modi unde dolorem laborum sapiente amet repellendus et ex ab quibusdam ipsum quo eum quaerat est sapiente tempore placeat quos id soluta nihil odit mollitia accusamus consequuntur doloribus tempora rerum dolorem similique ipsa quidem explicabo non eius.,
+    officialActId: null,
+    ownershipEndDate: null,
+    ownershipPercent: null,
+    ownershipStartDate: 2023-12-10,
+    ownershipType: RIGHT_OF_USE,
+    procurementActId: null,
+    sharedArea: false,
+    status: TRANSFORMED,
+    subNumbering: 9,
+    type: OTHER
+  },
+  id: 1,
+  internalCode: I00025U009SU001,
+  notes: null,
+  occupancyPercent: null,
+  occupantId: null,
+  occupantType: COMMON_AREA,
+  orgUnitId: null,
+  since: null,
+  surfaceSqM: null,
+  until: null,
+  usageType: null
+}

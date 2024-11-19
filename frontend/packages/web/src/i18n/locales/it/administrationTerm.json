@@ -1,0 +1,86 @@
+{
+  "administration_term": {
+    "tab": {
+      "general_data": "Esercizio",
+      "installments": "Rate",
+      "recap": "Riepilogo"
+    },
+    "section_title": {
+      "term": "Esercizio",
+      "installments": "Rate",
+      "recap": "Riepilogo",
+      "expected_amount_installments": "Rate del preventivo",
+      "payments": "Pagamenti rate"
+    },
+    "field": {
+      "term_type": "Tipo esercizio",
+      "name": "Denominazione esercizio",
+      "expected_amount": "Totale preventivo",
+      "since": "Data inizio",
+      "until": "Data fine",
+      "days": "Giorni",
+      "installments": "Rate",
+      "installment_number": "Numero rata",
+      "expense_reason": "Causale spesa",
+      "due_date": "Data scadenza",
+      "taxable_amount": "Imponibile",
+      "tax": "Imposta",
+      "total_amount": "Importo",
+      "installment_since": "Inizio competenza",
+      "installment_until": "Fine competenza",
+      "payment_date": "Data pagamento",
+      "bill_internal_code": "Mandato di pagamento",
+      "notes": "Note"
+    },
+    "action": {
+      "add_administration_term": "Aggiungi esercizio",
+      "add_installment": "Aggiungi rata",
+      "add_payment": "Aggiungi pagamento",
+      "show_all": "Vedi tutte"
+    },
+    "error": {
+      "no_duplicated_administration_term": "Non è possibile aggiungere due esercizi dello stesso tipo nello stesso periodo",
+      "installments_total_greater_than_expected": "Il totale degli importi delle rate non può essere maggiore del preventivo dell'esercizio",
+      "no_expected_amount_smaller_than_installments_total": "Il preventivo non può essere minore del totale delle rate",
+      "due_date_earlier_than_previous_installment_due_date": "La data di scadenza non può essere precedente alla data di scadenza di una delle rate precedenti"
+    },
+    "text": {
+      "no_administration_terms": "Non sono presenti esercizi",
+      "estate": "Immobile",
+      "installment": "Rata",
+      "installment_payment": "Pagamento rata",
+      "installments_payment": "Pagamento rate",
+      "total_paid": "Totale pagato"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiungi esercizio",
+        "save": "Salva esercizio"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questo esercizio?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare questo esercizio?\nIl processo non potrà essere annullato"
+        }
+      },
+      "installment": {
+        "add": "Aggiunta rate",
+        "edit": "Modifica rata",
+        "view": "Visualizza rate"
+      },
+      "payment": {
+        "add": "Aggiunta pagamenti",
+        "edit": "Modifica pagamento"
+      }
+    },
+    "feedback": {
+      "create": "Esercizio creato con successo",
+      "delete": {
+        "single": "Esercizio cancellato con successo",
+        "multiple": "Esercizi cancellati con successo"
+      },
+      "update": "Esercizio modificato con successo"
+    }
+  }
+}

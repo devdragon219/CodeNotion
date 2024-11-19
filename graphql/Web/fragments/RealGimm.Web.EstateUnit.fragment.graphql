@@ -1,0 +1,118 @@
+fragment EstateUnitFragment on EstateUnit {
+  id
+  internalCode
+  type
+  address {
+    ...AsstAddressFragment
+  }
+  subNumbering
+  stair {
+    ...StairFragment
+  }
+  externalCode
+  name
+  netSurface
+  grossSurface
+  floors {
+    ...FloorFragment
+  }
+  estate {
+    id
+    internalCode
+    name
+    type
+    managementSubject {
+      name
+      id
+    }
+  }
+  currentCadastralUnit {
+    id
+    coordinates {
+      ...CadastralCoordinatesFragment
+    }
+    since
+    isCadastralRegistrationInProgress
+    isAncillaryUnit
+  }
+  usageType {
+    id
+    name
+  }
+  ownershipStartDate
+  status
+  sharedArea
+  disusedDate
+  ownershipType
+  ownershipEndDate
+  ownershipPercent
+  notes
+}
+
+fragment EstateUnitDetailFragment on EstateUnit {
+  id
+  name
+  internalCode
+  externalCode
+  type
+  status
+  usageType {
+    ...UsageTypeFragment
+  }
+  disusedDate
+  ownershipType
+  ownershipStartDate
+  ownershipEndDate
+  ownershipPercent
+  address {
+    ...AsstAddressFragment
+  }
+  subNumbering
+  estate {
+    ...EstateFragment
+  }
+  floors {
+    ...FloorFragment
+  }
+  stair {
+    ...StairFragment
+  }
+  sharedArea
+  notes
+  netSurface
+  grossSurface
+  officialAct {
+    id
+    protocolNumber
+    registrationNumber
+    registrationDate
+    issuerName
+    actRegistrationFields {
+      fieldType
+      value
+      id
+    }
+    actRegistrationDates {
+      dateType
+      value
+      id
+    }
+  }
+  lastRepossession {
+    notes
+    eventDate
+    eventType
+    eventReason
+    unitStatus
+    isAssignable
+    isKeysReturned
+    isWithValuables
+    id
+  }
+  surfacesTree {
+    ...EstateUnitSurfaceSummaryFragment
+  }
+  currentCadastralUnit {
+    ...EstateUnitCadastralUnitDetailFragment
+  }
+}

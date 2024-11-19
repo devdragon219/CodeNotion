@@ -1,0 +1,63 @@
+{
+  "utility_type": {
+    "title": "Tipologie forniture",
+    "tab": {
+      "general_data": "Fornitura",
+      "fields": "Configuratore spesa",
+      "recap": "Riepilogo"
+    },
+    "section_title": {
+      "utility": "Fornitura",
+      "meter": "Contatore",
+      "default_fields": "Campi predefiniti",
+      "additional_fields": "Campi configurabili",
+      "recap": "Riepilogo"
+    },
+    "field": {
+      "utility_category": "Categoria fornitura",
+      "utility_code": "Codice tipologia",
+      "utility_description": "Descrizione tipologia",
+      "external_code": "Codice esterno",
+      "expense_class": "Codice di spesa",
+      "measurement_unit_code": "Codice unità di misura",
+      "measurement_unit_description": "Descrizione unità di misura",
+      "time_of_use_rate_count": "Fasce di lettura",
+      "metering_type": "Lettura/consumo",
+      "has_heating_accounting_system": "Conta calorie",
+      "expense_amount": "Importo totale da pagare",
+      "expense_period": "Periodo",
+      "expense_since": "Data emissione",
+      "expense_until": "Data scadenza",
+      "expense_number": "Numero fattura",
+      "expense_vat": "Totale IVA"
+    },
+    "error": {
+      "internal_code": "Il codice tipologia inserito è già in uso"
+    },
+    "text": {
+      "no_utility_types": "Non sono presenti tipologie forniture",
+      "no_additional_fields": "Non sono presenti campi configurabili, clicca su modifica per aggiungere un campo configurabile"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta tipologia fornitura",
+        "save": "Salva tipologia fornitura"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa tipologia fornitura?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste tipologie forniture?\nIl processo non potrà essere annullato"
+        }
+      }
+    },
+    "feedback": {
+      "create": "Tipologia fornitura creata con successo",
+      "delete": {
+        "single": "Tipologia fornitura cancellata con successo",
+        "multiple": "Tipologie forniture cancellate con successo"
+      },
+      "update": "Tipologia fornitura modificata con successo"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+query getNotifications(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: NotificationFilterInput
+  $order: [NotificationSortInput!]
+) {
+  notification {
+    listNotifications(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...NotificationFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getAllNotifications(
+  $where: NotificationFilterInput
+  $order: [NotificationSortInput!]
+) {
+  notification {
+    listNotificationsFull(where: $where, order: $order) {
+      ...NotificationFragment
+    }
+  }
+}
+
+query getLastNotifications {
+  notification {
+    lastNotifications {
+      ...NotificationFragment
+    }
+  }
+}
+
+mutation deleteNotifications($ids: [Int!]!) {
+  notification {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}

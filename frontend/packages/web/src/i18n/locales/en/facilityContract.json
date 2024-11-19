@@ -1,0 +1,147 @@
+{
+  "facility_contract": {
+    "title": "Facility contracts",
+    "tab": {
+      "general_data": "General data",
+      "estate_units": "Estate units",
+      "catalogue_types": "Catalogue types",
+      "slas": "SLAs",
+      "penalties": "Penalties",
+      "billing": "Billing",
+      "ticket_checklist": "Ticket checklists",
+      "tickets": "Tickets",
+      "price_lists": "Price lists",
+      "term_extensions": "Term extensions",
+      "documents": "Documents",
+      "recap": "Recap"
+    },
+    "section_title": {
+      "general_data": "General data",
+      "framework_agreements": "Framework agreements",
+      "estate_unit_group": "Estate unit group",
+      "estate_units": "Estate units",
+      "select_estate_units": "Select estate units",
+      "selected_estate_units": "Selected estate units",
+      "catalogue_types": "Catalogue types",
+      "slas": "SLAs",
+      "select_slas": "Select slas",
+      "selected_slas": "SLAs selected",
+      "penalties": "Penalties",
+      "select_penalties": "Select penalties",
+      "selected_penalties": "Penalties selected",
+      "billing": "Billing",
+      "ticket_checklist": "Ticket checklists",
+      "tickets": "Tickets",
+      "price_lists": "Price lists",
+      "select_price_lists": "Select price lists",
+      "selected_price_lists": "Price lists selected",
+      "term_extensions": "Term extensions",
+      "documents": "Documents",
+      "recap": "Recap"
+    },
+    "field": {
+      "internal_code": "Contract code",
+      "external_code": "External contract code",
+      "contract_type": "Contract type",
+      "contract_status": "Contract status",
+      "provider_subject": "Provider",
+      "description": "Description",
+      "agreement_date": "Agreement date",
+      "effective_date": "Effective date",
+      "expiration_date": "Expiration date",
+      "contract_template": "Contract template",
+      "cancellation_notice": "Cancellation notice (days)",
+      "renewal_notice": "Renewal notice (days)",
+      "maximum_renewal": "Maximum renewal (days)",
+      "framework_agreement_code": "Number",
+      "framework_agreement_notes": "Notes",
+      "estate_unit_group": "Estate unit group",
+      "estate_unit_code": "EU code",
+      "estate_unit_name": "EU name",
+      "estate_unit_address": "Address",
+      "estate_unit_type": "Type",
+      "catalogue_types": "Catalogue types",
+      "catalogue_category": "Catalogue category",
+      "catalogue_subcategory": "Catalogue subcategory",
+      "catalogue_type": "Catalogue type",
+      "billing_period": "Billing period",
+      "billing_vat_percentage": "% VAT",
+      "billing_estimated_fee_without_vat": "Estimated fee without VAT",
+      "billing_estimated_fee_with_vat": "Estimated fee with VAT",
+      "billing_estimated_work_safety_fee": "Work safety fee",
+      "billing_purchase_fee_without_vat": "Purchase fee without VAT",
+      "billing_purchase_fee_with_vat": "Purchase fee with VAT",
+      "billing_fixed_rate_fee": "Fixed rate fee",
+      "billing_contract_amount": "Contract amount",
+      "billing_discount_percentage": "% discount",
+      "price_list_code": "Price list code",
+      "price_list_name": "Price list name",
+      "term_extension_days": "Days",
+      "term_extension_fee": "Fee",
+      "term_extension_notes": "Notes",
+      "document_upload": "Upload document"
+    },
+    "error": {
+      "internal_code": "The contract number provided is already in use",
+      "no_estate_units_selected": "NO EU selected",
+      "no_catalogue_types_selected": "No item selected",
+      "no_price_lists_selected": "No price list selected"
+    },
+    "text": {
+      "no_facility_contracts": "No facility contracts available",
+      "no_framework_agreements": "No framework agreements available",
+      "no_estate_units_selected": "NO EU selected",
+      "no_slas_selected": "No SLA selected",
+      "no_slas": "There are no SLAs, click edit to add a SLA",
+      "no_penalties_selected": "No penalty selected",
+      "no_penalties": "There are no penalties, click edit to add a penalty",
+      "no_tickets": "No tickets available",
+      "no_tickets_history": "No history tickets available",
+      "no_price_lists_selected": "No price list selected",
+      "no_term_extensions": "No term extensions available"
+    },
+    "action": {
+      "calendar": "Calendar",
+      "add_framework_agreement": "Add framework agreement",
+      "add_estate_units": "Add estate units",
+      "edit_catalogue_types": "Edit catalogue types",
+      "add_slas": "Add SLAs",
+      "add_penalties": "Add penalties",
+      "view_tickets_history": "History",
+      "add_price_lists": "Add price lists",
+      "add_term_extension": "Add term extension",
+      "add_document": "Add document"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add facility contract",
+        "save": "Save facility contract"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this facility contract?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these facility contracts?\nThe process cannot be undone"
+        }
+      },
+      "add_framework_agreement": "Add framework agreement",
+      "edit_framework_agreement": "Edit fragment agreement",
+      "add_estate_units": "Add estate units",
+      "edit_catalogue_types": "Edit catalogue types",
+      "add_slas": "Add SLAs",
+      "add_penalties": "Add penalties",
+      "tickets_history": "Tickets history",
+      "add_price_lists": "Add price lists",
+      "add_term_extension": "Add term extension",
+      "edit_term_extension": "Edit term extension"
+    },
+    "feedback": {
+      "create": "Facility contract created successfully",
+      "delete": {
+        "single": "Facility contract deleted successfully",
+        "multiple": "Facility contracts deleted successfully"
+      },
+      "update": "Facility contract edited successfully"
+    }
+  }
+}

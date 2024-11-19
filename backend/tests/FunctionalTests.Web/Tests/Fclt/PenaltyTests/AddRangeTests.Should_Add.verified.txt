@@ -1,0 +1,18 @@
+﻿{
+  Data: {
+    penalty: {
+      addRange: {
+        isSuccess: true,
+        status: OK,
+        value: [
+          {
+            description: Dolore aut.,
+            id: 1,
+            internalCode: PE001
+          }
+        ]
+      }
+    }
+  },
+  IsDataSet: true
+}

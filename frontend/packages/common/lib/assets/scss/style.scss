@@ -1,0 +1,370 @@
+@use "./_variables.module.scss" as *;
+
+// ==============================|| ANIMATION KEYFRAMES ||============================== //
+
+@keyframes wings {
+  50% {
+    transform: translateY(-40px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  53%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translateZ(0);
+  }
+
+  40%,
+  43% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -5px, 0);
+  }
+
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -7px, 0);
+  }
+
+  80% {
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translateZ(0);
+  }
+
+  90% {
+    transform: translate3d(0, -2px, 0);
+  }
+}
+
+@keyframes slideY {
+  0%,
+  50%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  25% {
+    transform: translateY(-10px);
+  }
+
+  75% {
+    transform: translateY(10px);
+  }
+}
+
+@keyframes slideX {
+  0%,
+  50%,
+  100% {
+    transform: translateX(0px);
+  }
+
+  25% {
+    transform: translateX(-10px);
+  }
+
+  75% {
+    transform: translateX(10px);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes lazy-blink {
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+// ==============================|| OVERRIDES ||============================== //
+
+.cursor-default-override {
+  cursor: default !important;
+}
+
+// ==============================|| LEAFLET ||============================== //
+
+.custom-marker-cluster {
+  border: none;
+  border-radius: 50%;
+  background-color: $blue500;
+  display: grid;
+  place-items: center;
+  opacity: 85%;
+
+  & span {
+    color: $white;
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+
+.custom-marker-popup {
+  border: none;
+  border-radius: 25%;
+}
+
+// ==============================|| FULLCALENDAR ||============================== //
+
+.fc {
+  .fc-daygrid .fc-scrollgrid {
+    border-color: $grey200;
+    border-radius: 8px;
+
+    .fc-scrollgrid-section-header {
+      & > th {
+        border-color: $grey200;
+        border-radius: 0 8px 0 0;
+      }
+
+      .fc-col-header-cell {
+        border-color: $grey200;
+        text-align: left;
+
+        .fc-col-header-cell-cushion {
+          padding: 12px;
+        }
+      }
+    }
+
+    .fc-scrollgrid-section-body {
+      & > td {
+        border-color: $grey200;
+        border-radius: 0 0 8px 8px;
+
+        .fc-daygrid-day {
+          border-color: $grey200;
+          height: 200px;
+
+          &.fc-day-sat,
+          &.fc-day-sun {
+            background-color: $grey50;
+          }
+
+          &.fc-day-other {
+            background-color: $grey100;
+          }
+
+          &.fc-day-today {
+            background-color: $blue10;
+          }
+
+          .fc-daygrid-day-frame {
+            display: flex;
+            flex-direction: column;
+
+            .fc-daygrid-day-top {
+              flex-direction: row;
+              opacity: 1;
+
+              .fc-daygrid-day-number {
+                padding: 12px;
+              }
+            }
+
+            .fc-daygrid-day-events {
+              display: flex;
+              flex: 1;
+              flex-direction: column;
+              justify-content: flex-end;
+              margin: 0 12px 12px;
+              min-height: 0;
+
+              .fc-daygrid-event-harness {
+                &:not(:first-child) {
+                  margin-top: 6px !important;
+                }
+
+                .fc-event {
+                  margin: 0;
+                  padding: 0;
+                }
+              }
+
+              .fc-daygrid-day-bottom {
+                margin: 6px 0 0 !important;
+
+                .fc-daygrid-more-link {
+                  margin: 0;
+                  padding: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .fc-timegrid {
+    &.fc-timeGridDay-view {
+      .fc-day-today {
+        background-color: $white;
+      }
+
+      .fc-timegrid-more-link {
+        width: 20%;
+      }
+    }
+
+    &.fc-timeGridWeek-view {
+      .fc-day-today {
+        background-color: $blue10;
+      }
+
+      .fc-timegrid-more-link {
+        width: 50%;
+      }
+    }
+
+    .fc-scrollgrid {
+      border: none;
+
+      .fc-scrollgrid-section {
+        & > td,
+        & > th {
+          border-color: $grey200;
+        }
+
+        .fc-timegrid-axis,
+        .fc-timegrid-slot-label {
+          border: none;
+        }
+
+        .fc-timegrid-slot {
+          height: 36px;
+
+          .fc-timegrid-slot-label-cushion {
+            padding: 0 12px 0 0;
+          }
+        }
+
+        .fc-timegrid-slot-lane {
+          border-color: $grey200;
+          border-left: 0;
+          border-style: solid;
+
+          &.fc-timegrid-slot-minor {
+            border-color: $grey100;
+          }
+        }
+
+        .fc-timegrid-col {
+          border-color: $grey200;
+          border-bottom: 0;
+
+          &:nth-child(2) {
+            border-left: 0;
+          }
+
+          .fc-event {
+            background-color: transparent;
+            border: none;
+            box-shadow: none;
+            margin-bottom: 4px;
+
+            .fc-event-main {
+              overflow: hidden;
+              padding: 0;
+            }
+          }
+
+          .fc-timegrid-more-link {
+            margin-bottom: 4px;
+
+            .fc-timegrid-more-link-inner {
+              height: 100%;
+              padding: 0;
+            }
+          }
+        }
+
+        .fc-col-header {
+          .fc-col-header-cell {
+            border-color: $grey200;
+            text-align: left;
+
+            &:nth-child(2) {
+              border-left: 0;
+            }
+
+            .fc-col-header-cell-cushion {
+              padding: 4px 8px 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .fc-list {
+    border: none;
+
+    .fc-list-empty {
+      background-color: $grey100;
+    }
+
+    .fc-list-table {
+      th,
+      td {
+        border: none;
+      }
+
+      .fc-list-day-cushion {
+        padding: 0;
+      }
+
+      .fc-list-event-time {
+        font-size: 14px;
+        font-weight: 500;
+        color: $grey700;
+        vertical-align: middle;
+        width: 200px;
+
+        @media screen and (max-width: 780px) {
+          width: 100px;
+        }
+      }
+
+      .fc-list-event-graphic {
+        display: none;
+      }
+
+      .fc-list-event-title {
+        padding: 4px 0;
+      }
+    }
+  }
+
+  .fc-more-popover {
+    visibility: hidden;
+  }
+}

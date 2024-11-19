@@ -1,0 +1,156 @@
+﻿[
+  [
+    TO00001,
+    Impianto di terra,
+    Impianti elettrici,
+    Impianto di terra e protezione scariche atmosferiche,
+    Altro, Box/posto auto, Cantina/sottotetto, Sede associativa
+  ],
+  [
+    TO00002,
+    Impianto di protezione da scariche atmosferiche,
+    Impianti elettrici,
+    Impianto di terra e protezione scariche atmosferiche,
+    Magazzino, Terreno, Misto
+  ],
+  [
+    TO00003,
+    Cabine ricezione MT e di trasformazione MT/BT,
+    Impianti elettrici,
+    Sistema di alimentazione normale,
+    Negozio/bar/mercato, Laboratorio
+  ],
+  [
+    TO00004,
+    Impianto rifasamento (anello e anello B ),
+    Impianti elettrici,
+    Sistema di alimentazione normale,
+    Ufficio, Magazzino, Terreno, Misto
+  ],
+  [
+    TO00005,
+    Quadri elettrici di ricezione e distribuzione in media tensione,
+    Impianti elettrici,
+    Sistema di alimentazione normale,
+    Ufficio, Box/posto auto, Scuola, Terreno, Misto
+  ],
+  [
+    TO00006,
+    Quadro generale di bassa tensione,
+    Impianti elettrici,
+    Sistema di alimentazione normale,
+    Scuola
+  ],
+  [
+    TO00007,
+    Gruppo elettrogeno,
+    Impianti elettrici,
+    Sistema di alimentazione emergenza,
+    Cantina/sottotetto, Scuola, Misto
+  ],
+  [
+    TO00008,
+    Estintori,
+    Impianti e attrezzature antincendio,
+    Attrezzature antincendio,
+    Ufficio
+  ],
+  [
+    TO00009,
+    Idranti,
+    Impianti e attrezzature antincendio,
+    Attrezzature antincendio,
+    Negozio/bar/mercato, Scuola, Misto
+  ],
+  [
+    TO00010,
+    Evacuatori di fumo,
+    Impianti e attrezzature antincendio,
+    Attrezzature antincendio,
+    Altro, Abitativo, Magazzino, Misto
+  ],
+  [
+    TO00011,
+    Porte tagliafuoco e uscite di sicurezza,
+    Impianti e attrezzature antincendio,
+    Compartimentazione antincendio,
+    Ufficio, Box/posto auto, Scuola
+  ],
+  [
+    TO00012,
+    Serrande di compartimentazione,
+    Impianti e attrezzature antincendio,
+    Compartimentazione antincendio,
+    Abitativo, Box/posto auto, Magazzino, Laboratorio, Sede associativa
+  ],
+  [
+    TO00013,
+    Argano e motogeneratore,
+    Elevatori,
+    Elevatori elettromeccanici,
+    Laboratorio, Cantina/sottotetto, Scuola
+  ],
+  [
+    TO00014,
+    Quadro di manovra,
+    Elevatori,
+    Elevatori elettromeccanici,
+    Terreno
+  ],
+  [
+    TO00015,
+    Vano corsa e cabina,
+    Elevatori,
+    Elevatori elettromeccanici,
+    Altro, Ufficio, Magazzino, Scuola, Terreno
+  ],
+  [
+    TO00016,
+    Imp. elevatore elettrico AC/VF fino a 6 fermate,
+    Elevatori,
+    Elevatori elettromeccanici,
+    Altro, Abitativo, Box/posto auto, Sede associativa, Terreno
+  ],
+  [
+    TO00017,
+    Imp. elevatore elettrico AC/VF fino a 12 fermate,
+    Elevatori,
+    Elevatori elettromeccanici,
+    Ufficio, Laboratorio, Scuola, Sede associativa, Misto
+  ],
+  [
+    TO00018,
+    Imp. elevatore idraulico fino a 6 fermate,
+    Elevatori,
+    Elevatori idraulici,
+    Altro, Abitativo, Box/posto auto, Sede associativa, Misto
+  ],
+  [
+    TO00019,
+    Imp. elevatore idraulico fino a 12 fermate,
+    Elevatori,
+    Elevatori idraulici,
+    Magazzino
+  ],
+  [
+    TO00020,
+    Unità di trattamento aria primaria,
+    Condizionamento e riscaldamento,
+    Climatizzazione,
+    Negozio/bar/mercato, Laboratorio, Scuola
+  ],
+  [
+    TO00021,
+    Filtri aria,
+    Condizionamento e riscaldamento,
+    Climatizzazione,
+    Altro, Abitativo, Laboratorio, Sede associativa, Misto
+  ],
+  [
+    TO00022,
+    Ventilconvettori,
+    Condizionamento e riscaldamento,
+    Climatizzazione,
+    Abitativo, Box/posto auto, Cantina/sottotetto
+  ]
+]

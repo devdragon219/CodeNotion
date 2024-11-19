@@ -1,0 +1,75 @@
+{
+  "asset_tax": {
+    "title": {
+      "current": "Asset taxes",
+      "history": "Asset taxes history"
+    },
+    "section_title": {
+      "issues": "Issues",
+      "select_asset_taxes": "Select asset taxes to finalize",
+      "selected_asset_taxes": "Selected asset taxes",
+      "general_data": "General data",
+      "payments": "Payments"
+    },
+    "calculator": {
+      "IMU": {
+        "tab": "IMU processing",
+        "subtitle": "IMU recap"
+      },
+      "ILIA": {
+        "tab": "ILIA processing",
+        "subtitle": "ILIA recap"
+      }
+    },
+    "dialog": {
+      "issues": "Issues",
+      "finalize_asset_taxes": {
+        "title": "Finalize asset taxes",
+        "confirmation": "Are you really sure you want to\nfinalize these asset taxes?",
+        "action": "Finalize asset taxes"
+      },
+      "finalize_asset_tax": {
+        "title": "Are you really sure\nyou want to finalize this asset tax?",
+        "action": "Finalize asset tax"
+      }
+    },
+    "field": {
+      "year": "Year",
+      "management_subject": "Management subject",
+      "definitive": "Definitive",
+      "last_update": "Last update date",
+      "expected_due_date": "Expiry date",
+      "taxable_amount": "Taxable amount",
+      "amount": "Amount",
+      "estate": "Estate",
+      "estate_unit": "Estate unit",
+      "issues": "Issues",
+      "override": "Override",
+      "city": "City",
+      "address": "Address",
+      "cadastral_coordinates": "Cadastral coordinates",
+      "cadastral_unit_income_macro_category": "Macro category",
+      "cadastral_unit_income_micro_category": "Micro category",
+      "cadastral_unit_income_metric_amount": "Metric amount",
+      "actualized_cadastral_income": "Actualized cadastral income",
+      "cadastral_income": "Income",
+      "cadastral_unit_income_type": "Income type",
+      "estate_unit_ownership_percent": "% ownership"
+    },
+    "text": {
+      "no_asset_taxes": "No asset taxes available",
+      "no_asset_tax_payments": "No payments available"
+    },
+    "action": {
+      "show_history": "Show history",
+      "finalize_asset_taxes": "Finalize asset taxes",
+      "finalize_asset_tax": "Finalize asse tax"
+    },
+    "feedback": {
+      "finalize": {
+        "single": "Asset tax successfully finalized",
+        "multiple": "Asset taxes successfully finalized"
+      }
+    }
+  }
+}

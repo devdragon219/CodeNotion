@@ -1,0 +1,114 @@
+query getUtilityTypes(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: UtilityTypeFilterInput
+  $order: [UtilityTypeSortInput!]
+) {
+  utilityType {
+    listUtilityType(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...UtilityTypeFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getUtilityType($utilityTypeId: Int!) {
+  utilityType {
+    get(id: $utilityTypeId) {
+      ...UtilityTypeDetailFragment
+    }
+  }
+}
+
+query exportUtilityTypes(
+  $where: UtilityTypeFilterInput
+  $order: [UtilityTypeSortInput!]
+) {
+  utilityType {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+mutation createUtilityType($utilityTypeInput: UtilityTypeInput!) {
+  utilityType {
+    add(input: $utilityTypeInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+mutation updateUtilityType(
+  $utilityTypeId: Int!
+  $utilityTypeInput: UtilityTypeInput!
+) {
+  utilityType {
+    update(id: $utilityTypeId, input: $utilityTypeInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteUtilityTypes($ids: [Int!]!) {
+  utilityType {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteUtilityType($id: Int!) {
+  utilityType {
+    delete(id: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getUtilityTypeInternalCode {
+  utilityType {
+    proposeNewInternalCode
+  }
+}
+
+query canUseUtilityTypeInternalCode(
+  $internalCode: String!
+  $currentUtilityTypeId: Int
+) {
+  utilityType {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentUtilityTypeId: $currentUtilityTypeId
+    )
+  }
+}

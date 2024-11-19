@@ -1,0 +1,18 @@
+﻿{
+  Data: {
+    contract: {
+      pauseBilling: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          id: 1,
+          isRecoveryArrears: null,
+          notes: notes,
+          since: 2020-01-01,
+          until: null
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

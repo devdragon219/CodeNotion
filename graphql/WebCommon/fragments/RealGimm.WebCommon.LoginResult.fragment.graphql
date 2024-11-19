@@ -1,0 +1,7 @@
+fragment LoginResultFragment on LoginResult {
+  jwt
+  refreshToken
+  user {
+    username
+  }
+}

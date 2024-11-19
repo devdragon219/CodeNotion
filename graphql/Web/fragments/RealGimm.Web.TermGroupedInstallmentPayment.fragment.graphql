@@ -1,0 +1,17 @@
+fragment TermGroupedInstallmentPaymentFragment on TermGroupedInstallmentPayment {
+  termInstallments {
+    id
+    amount
+    installmentNumber
+    billItemType {
+      description
+      administrationVR {
+        ratePercent
+      }
+    }
+  }
+  billId
+  billDate
+  billInternalCode
+  billIsTemporary
+}

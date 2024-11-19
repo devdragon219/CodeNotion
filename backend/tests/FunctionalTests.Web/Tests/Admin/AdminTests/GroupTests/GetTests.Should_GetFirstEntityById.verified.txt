@@ -1,0 +1,383 @@
+﻿{
+  description: Amministratori,
+  features: [
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 121,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 126,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 131,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 211,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 212,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 214,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 215,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 217,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 230,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 240,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 250,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 311,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 321,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 322,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 323,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 324,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 331,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 341,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 351,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 401,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 501,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 511,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 512,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 521,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 531,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 541,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 551,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 601,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 611,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 621,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 701,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 800,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 810,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 811,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 812,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 820,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 830,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 840,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 850,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 851,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 860,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 865,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 870,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 911,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 921,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 922,
+      groupId: 1
+    },
+    {
+      canCreate: true,
+      canDelete: true,
+      canRead: true,
+      canUpdate: true,
+      feature: 923,
+      groupId: 1
+    }
+  ],
+  id: 1,
+  name: Admin
+}

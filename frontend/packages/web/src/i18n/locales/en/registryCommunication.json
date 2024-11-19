@@ -1,0 +1,85 @@
+{
+  "registry_communication": {
+    "title": "Registry communications",
+    "tab": {
+      "temporary": "Temporary",
+      "confirmed": "Confirmed"
+    },
+    "section_title": {
+      "general_data": "Communications data",
+      "anomalies": "Detected anomalies",
+      "contracts": "Contracts"
+    },
+    "field": {
+      "management_subject": "Management subject",
+      "contract_type": "Contract type",
+      "communication_type": "Communication type",
+      "end_date": "End date",
+      "payment_date": "Payment date",
+      "date": "Date",
+      "legal_representative": "Legal representative",
+      "bank_account": "Bank account",
+      "debt_amount": "Debt amount",
+      "anomalies": "Anomalies",
+      "anomalies_counter": "Number of anomalies",
+      "anomaly": "Anomaly",
+      "included_excluded": "Included/excluded",
+      "contract_code": "Contract code",
+      "estate_units": "Estate units",
+      "estate_unit_address": "Address",
+      "landlord": "Landlord",
+      "tenant": "Tenant",
+      "estate_unit_name": "EU name",
+      "estate_unit_internal_code": "EU code"
+    },
+    "action": {
+      "confirm_all": "Confirm all communications",
+      "confirm_single": "Confirm communication",
+      "confirm_multiple": "Confirm communications",
+      "cancel_all": "Cancel all communications",
+      "cancel_single": "Cancel communication",
+      "cancel_multiple": "Cancel communications",
+      "export": "Export XML RLI",
+      "include": "Include",
+      "exclude": "Exclude"
+    },
+    "text": {
+      "no_registry_communications": "No registry communications available",
+      "no_anomalies": "No anomalies available",
+      "no_contracts": "No contracts available",
+      "active_contract": "Active",
+      "passive_contract": "Passive"
+    },
+    "dialog": {
+      "estate_units": "Estate units",
+      "anomalies": "Detected anomalies",
+      "confirm_temporary_registry_communications": {
+        "title": "Confirm communications",
+        "action": "Confirm"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this contract from the communication?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these contracts from the communication?\nThe process cannot be undone"
+        }
+      }
+    },
+    "feedback": {
+      "confirm": {
+        "single": "Communication successfully confirmed",
+        "multiple": "Communications successfully confirmed"
+      },
+      "cancel": {
+        "single": "Communication successfully canceled",
+        "multiple": "Communications successfully canceled"
+      },
+      "delete": {
+        "single": "Contract successfully deleted from the communication",
+        "multiple": "Contracts successfully deleted from the communication"
+      },
+      "exclude": "Communication successfully marked as excluded",
+      "include": "Communication successfully marked as included"
+    }
+  }
+}

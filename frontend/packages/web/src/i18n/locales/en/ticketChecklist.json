@@ -1,0 +1,94 @@
+{
+  "ticket_checklist": {
+    "title": "Ticket checklists",
+    "tab": {
+      "estate_units": "Estate units",
+      "ticket_checklist_templates": "Ticket checklists",
+      "recap": "Recap",
+      "general_data": "General data",
+      "costs": "Costs",
+      "preventative_maintenance": "Preventative maintenance",
+      "on_condition_maintenance": "On condition maintenance"
+    },
+    "section_title": {
+      "estate_units": "Estate units",
+      "select_estate_units": "Select estate units",
+      "selected_estate_units": "EU selected",
+      "ticket_checklist_templates": "Ticket checklists",
+      "select_ticket_checklist_templates": "Select ticket checklist templates",
+      "selected_ticket_checklist_templates": "Ticket checklist templates selected",
+      "recap": "Recap",
+      "general_data": "General data",
+      "general_data_unit": "Unit general data",
+      "costs": "Costs",
+      "preventative_maintenance": "Preventative maintenance",
+      "on_condition_maintenance": "On condition maintenance",
+      "activities": "Activities"
+    },
+    "field": {
+      "internal_code": "Code",
+      "name": "Name",
+      "catalogue_category": "Category",
+      "catalogue_subcategory": "Subcategory",
+      "ticket_checklist_template_type": "Ticket checklist template type",
+      "catalogue_type": "Catalogue type",
+      "estate_unit_code": "EU code",
+      "estate_unit_name": "EU name",
+      "estate_unit_address": "Address",
+      "estate_unit_type": "Type",
+      "facility_contract_code": "Contract code",
+      "facility_contract_provider": "Provider",
+      "facility_contract_type": "Contract type",
+      "facility_contract_status": "Contract status",
+      "measurement_unit": "Measurement unit",
+      "raw_work_cost": "Raw work cost",
+      "safety_cost": "Safety cost",
+      "planned_period": "Planned period",
+      "yearly_visits": "Yearly visits",
+      "days_of_week": "Days of week",
+      "tolerance_days": "Tolerance days",
+      "intervention_type": "Intervention type",
+      "craft": "Craft",
+      "activity_type": "Type",
+      "activity_name": "Activity"
+    },
+    "error": {
+      "no_estate_units_selected": "NO EU selected",
+      "no_ticket_checklist_templates_selected": "No ticket checklist template selected",
+      "no_selected_days_of_week": "Select at least one day of week",
+      "no_selected_activities": "No activity selected"
+    },
+    "text": {
+      "no_ticket_checklists": "No ticket checklists available",
+      "no_estate_units_selected": "NO EU selected",
+      "no_ticket_checklist_templates_selected": "No ticket checklist template selected",
+      "no_selected_activities": "No activity selected"
+    },
+    "action": {
+      "add_ticket_checklists": "Add ticket checklists",
+      "edit_activities": "Edit activities"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add ticket checklists",
+        "save": "Save ticket checklists"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this ticket checklist?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these ticket checklists?\nThe process cannot be undone"
+        }
+      },
+      "edit_activities": "Edit activities"
+    },
+    "feedback": {
+      "create": "Ticket checklist created successfully",
+      "delete": {
+        "single": "Ticket checklist deleted successfully",
+        "multiple": "Ticket checklists deleted successfully"
+      },
+      "update": "Ticket checklist edited successfully"
+    }
+  }
+}

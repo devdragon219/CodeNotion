@@ -1,0 +1,17 @@
+﻿{
+  Data: {
+    craft: {
+      add: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          id: 1,
+          internalCode: SP01,
+          name: Dolore aut.,
+          ordering: 1
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

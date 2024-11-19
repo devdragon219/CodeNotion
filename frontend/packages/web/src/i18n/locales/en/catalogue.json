@@ -1,0 +1,88 @@
+{
+  "catalogue": {
+    "title": "Catalogue",
+    "tab": {
+      "estate": "Estate",
+      "general_data": "Category",
+      "items": "Objects",
+      "activities": "Activities",
+      "documents": "Documents",
+      "recap": "Recap"
+    },
+    "section_title": {
+      "estate": "Select estate",
+      "general_data": "Select category",
+      "item": "Object configuration",
+      "documents": "Documents",
+      "recap": "Recap"
+    },
+    "field": {
+      "estate": "Estate",
+      "estate_code": "Estate code",
+      "external_estate_code": "Estate external code",
+      "estate_name": "Estate name",
+      "estate_address": "Address",
+      "estate_status": "Estate status",
+      "estate_type": "Estate type",
+      "estate_usage_type": "Usage type",
+      "estate_ownership": "Ownership type",
+      "estate_management_subject": "Management subject",
+      "estate_management_org_unit": "Management OU",
+      "notes": "Notes",
+      "catalogue_category": "Category",
+      "catalogue_subcategory": "Subcategory",
+      "catalogue_type": "Category type",
+      "catalogue_type_count": "Objects counter",
+      "catalogue_item_code": "Object code",
+      "catalogue_item_status": "Object status",
+      "catalogue_item_activation_date": "Activation date",
+      "catalogue_item_decommissioning_date": "Decommissioning date",
+      "catalogue_item_last_maintenance_date": "Last maintenance date",
+      "activity_type": "Activity type",
+      "activity_name": "Activity name",
+      "document_upload": "Upload documents"
+    },
+    "error": {
+      "no_estate": "No estate selected"
+    },
+    "action": {
+      "add_catalogue_item": "Add object",
+      "add_document": "Add document"
+    },
+    "text": {
+      "no_consistencies": "No catalogues available",
+      "no_catalogue_items": "No objects available, press edit to add an object",
+      "no_activities": "No activities available",
+      "no_documents": "No documents available, press edit to add a document"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add object",
+        "save": "Save object"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this catalogue?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these catalogues?\nThe process cannot be undone"
+        }
+      },
+      "item": {
+        "add": "Add object",
+        "edit": "Edit object"
+      },
+      "document": {
+        "add": "Add document",
+        "edit": "Edit document"
+      }
+    },
+    "feedback": {
+      "create": "Catalogue created successfully",
+      "delete": {
+        "single": "Catalogue item deleted successfully",
+        "multiple": "Catalogues deleted successfully"
+      },
+      "update": "Catalogue edited successfully"
+    }
+  }
+}

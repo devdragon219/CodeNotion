@@ -1,0 +1,7 @@
+fragment CatalogueItemFieldFragment on CatalogueItemField {
+  name
+  isMandatory
+  templateTypeId
+  type
+  value
+}

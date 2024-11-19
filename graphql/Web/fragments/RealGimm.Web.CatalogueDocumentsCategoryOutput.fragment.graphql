@@ -1,0 +1,38 @@
+fragment CatalogueDocumentsCategoryOutputFragment on CatalogueDocumentsCategoryOutput {
+  categoryName
+  guid
+  subRows {
+    subCategoryName
+    guid
+    subRows {
+      catalogueTypeName
+      guid
+      subRows {
+        guid
+        contentCategoryGroup
+        subRows {
+          guid
+          contentCategory
+          subRows {
+            catalogueItemInternalCode
+            estateId
+            catalogueTypeId
+            cmisId
+            creationDate
+            entityId
+            catalogueItemId
+            fileName
+            issueDate
+            issuer
+            name
+            notes
+            protocolNumber
+            since
+            until
+            uploaderName
+          }
+        }
+      }
+    }
+  }
+}

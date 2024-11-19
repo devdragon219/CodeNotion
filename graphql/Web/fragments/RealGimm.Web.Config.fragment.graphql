@@ -1,0 +1,7 @@
+fragment ConfigFragment on Config {
+  id
+  function
+  name
+  value
+  lastUpdated
+}

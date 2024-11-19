@@ -1,0 +1,47 @@
+{
+  "interest_rate": {
+    "title": "interest rates",
+    "field": {
+      "since": "Start date",
+      "until": "End date",
+      "rate": "Interest %"
+    },
+    "action": {
+      "add_interest_rate": "Add interest rate"
+    },
+    "text": {
+      "no_interest_rates": "No interest rates available"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add interest rate",
+        "save": "Save interest rate"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this interest rate?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these interest rates?\nThe process cannot be undone"
+        }
+      },
+      "update": {
+        "title": "Edit interest rate",
+        "save": "Save interest rate"
+      },
+      "view": {
+        "title": "Interest rate details"
+      }
+    },
+    "feedback": {
+      "create": {
+        "single": "Interest rate successfully created",
+        "multiple": "Interest rates successfully created"
+      },
+      "delete": {
+        "single": "Interest rate successfully deleted",
+        "multiple": "Interest rates successfully deleted"
+      },
+      "update": "Interest rate successfully updated"
+    }
+  }
+}

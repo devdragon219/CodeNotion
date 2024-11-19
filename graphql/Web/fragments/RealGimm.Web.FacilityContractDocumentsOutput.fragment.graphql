@@ -1,0 +1,7 @@
+fragment FacilityContractDocumentsOutputFragment on FcltContractDocumentsOutput {
+  guid
+  fcltContractInternalCode
+  subRows {
+    ...DocumentsPerContentCategoryGroupOutputFragment
+  }
+}

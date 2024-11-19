@@ -1,0 +1,30 @@
+fragment UtilityTypeFragment on UtilityType {
+  id
+  category
+  internalCode
+  description
+  externalCode
+  expenseClass
+  measurementUnit
+  measurementUnitDescription
+  timeOfUseRateCount
+  meteringType
+  hasHeatingAccountingSystem
+}
+
+fragment UtilityTypeDetailFragment on UtilityType {
+  category
+  description
+  internalCode
+  expenseClass
+  externalCode
+  measurementUnit
+  measurementUnitDescription
+  timeOfUseRateCount
+  meteringType
+  hasHeatingAccountingSystem
+  chargeFields {
+    ...UtilityChargeFieldFragment
+  }
+  id
+}

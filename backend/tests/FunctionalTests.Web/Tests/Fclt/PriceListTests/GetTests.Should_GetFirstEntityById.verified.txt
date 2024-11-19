@@ -1,0 +1,7 @@
+﻿{
+  id: 1,
+  internalCode: LS0001,
+  isDefault: false,
+  name: Est illum.,
+  ordering: 1
+}

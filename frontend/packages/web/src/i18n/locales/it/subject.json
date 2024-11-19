@@ -1,0 +1,170 @@
+{
+  "subject": {
+    "title": "Soggetti",
+    "tab": {
+      "general_data": "Dati generali",
+      "personal_data": "Dati anagrafici",
+      "addresses_and_contacts": "Indirizzi e contatti",
+      "accounting_data": "Dati contabili",
+      "documents": "Documenti",
+      "recap": "Riepilogo"
+    },
+    "section_title": {
+      "general_data": "Dati generali",
+      "personal_data": "Dati anagrafici",
+      "corporate_data": "Dati Societari",
+      "legal_representative": "Legale rappresentante",
+      "legal_representative_or_other": "Legale rappresentante/Tutore legale/Amministratore di sostegno",
+      "heirs": "Eredi",
+      "heir": "Erede",
+      "legal_address": "Indirizzo legale",
+      "residential_address": "Indirizzo di residenza",
+      "other_addresses": "Altri indirizzi",
+      "contacts": "Contatti",
+      "bank_account": "Conto corrente",
+      "split_payment": "Split payment",
+      "identity_document": "Documento identificativo",
+      "other_documents": "Altri documenti",
+      "recap": "Riepilogo"
+    },
+    "field": {
+      "name": "Denominazione",
+      "subject_type": "Tipo soggetto",
+      "status": "Stato",
+      "subject_category": "Tipologia soggetto",
+      "split_payment": "Split payment",
+      "legal_nature": "Natura giuridica",
+      "category": "Tipologia",
+      "management_code": "Codice ente",
+      "subject_code": "Codice soggetto",
+      "external_subject_code": "Codice soggetto esterno",
+      "subject_status": "Stato di soggetto",
+      "closure_date": "Data cessazione",
+      "owning_management_subjects": "Ente/i di gestione",
+      "first_name": "Nome",
+      "last_name": "Cognome",
+      "birth_sex": "Sesso",
+      "birth_date": "Data di nascita",
+      "business_name": "Ragione sociale",
+      "subject_name": "Denominazione soggetto",
+      "establishment_date": "Data costituzione",
+      "share_capital": "Capitale sociale",
+      "vat_number": "Partita IVA",
+      "tax_id_code": "Codice fiscale",
+      "cciaa_number": "Numero CCIAA",
+      "cciaa_county": "Provincia CCIAA",
+      "rea_number": "Numero REA",
+      "rea_county": "Provincia REA",
+      "group_leader": "Capo gruppo",
+      "tax_status_landlord_vat": "Soggetto ad IVA locatore",
+      "tax_status_tenant_vat": "Soggetto ad IVA conduttore",
+      "birth_address_country": "Nazione di nascita",
+      "birth_address_city": "Comune di nascita",
+      "birth_address_county": "Provincia di nascita",
+      "signature": "Contrassegno",
+      "sia_code": "Codice SIA",
+      "company_group_parent": "Ente di cui il soggetto è società del gruppo",
+      "officer_type": "Natura legame",
+      "officer_name": "Denominazione soggetto rappresentante",
+      "officer_since": "Data inizio",
+      "officer_until": "Data fine",
+      "heir_name": "Denominazione soggetto erede",
+      "address_type": "Tipologia",
+      "address_country": "Nazione",
+      "address_city": "Comune",
+      "address_county": "Provincia",
+      "address_toponymy": "Indirizzo",
+      "address_number": "Numero civico",
+      "address_postal_code": "CAP",
+      "address_notes": "Note",
+      "contact_phone_type": "Tipologia telefono",
+      "contact_phone_number": "Numero",
+      "contact_mobile_phone": "Cellulare",
+      "contact_landline_phone": "Telefono fisso",
+      "contact_email_type": "Tipologia email",
+      "contact_email": "Email",
+      "contact_registered_email": "PEC",
+      "bank_account_number": "IBAN",
+      "bank_account_holder": "Intestatario",
+      "bank_account_notes": "Note",
+      "tax_status_split_payment": "Soggettività",
+      "tax_status_split_payment_since": "Data inizio validità",
+      "tax_status_split_payment_until": "Data fine validità",
+      "document_type": "Tipo di documento",
+      "document_number": "Numero documento",
+      "document_issue_date": "Data emissione documento",
+      "document_expiry_date": "Data scadenza documento",
+      "document_issued_by": "Autorità di rilascio",
+      "identity_document_upload": "Carica documento identificativo",
+      "other_document_upload": "Carica altro documento",
+      "identity_document_upload_description": "Carica in un unico file il fronte\ne il resto del tuo documento."
+    },
+    "error": {
+      "internal_code": "Il codice soggetto inserito è già in uso",
+      "company_group_relation": "Esiste già una capogruppo per questa società",
+      "signature": "Il contrassegno inserito è già in uso",
+      "tax_id_code": "Il codice fiscale inserito non risulta valido",
+      "iban": "Esiste già un conto corrente con questo valore"
+    },
+    "action": {
+      "add_management_subject": "Ente di gestione",
+      "add_other_subject": "Soggetto non ente",
+      "add_legal_representative": "Aggiungi legale rappresentante",
+      "add_heir": "Aggiungi erede",
+      "add_address": "Aggiungi indirizzo",
+      "add_bank_account": "Aggiungi conto corrente",
+      "add_identity_document": "Aggiungi documento identificativo",
+      "add_other_document": "Aggiungi altro documento"
+    },
+    "text": {
+      "no_subjects": "Non sono presenti soggetti",
+      "no_legal_representatives": "Non ci sono Legale rappresentante inseriti",
+      "no_legal_representatives_or_other": "Non ci sono Legale rappresentante/Tutore legale/Amministratore di sostegno inseriti",
+      "no_heirs": "Nessun erede inserito",
+      "no_other_addresses": "Non ci sono altri indirizzi inseriti",
+      "no_bank_accounts": "Non ci sono conti corrente inseriti",
+      "no_identity_documents": "Non sono stati caricati documenti identificativi",
+      "no_other_documents": "Non sono stati caricati altri documenti"
+    },
+    "dialog": {
+      "create": {
+        "title": {
+          "MANAGEMENT_SUBJECT": "Aggiunta Soggetto Ente",
+          "OTHER": "Aggiunta Soggetto Non Ente"
+        },
+        "save": "Salva soggetto"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questo soggetto?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare questi soggetti?\nIl processo non potrà essere annullato"
+        }
+      },
+      "legal_representative": {
+        "add": "Aggiungi legale rappresentante",
+        "edit": "Modifica legale rappresentante"
+      },
+      "heir": {
+        "add": "Aggiungi erede",
+        "edit": "Modifica erede"
+      },
+      "address": {
+        "add": "Aggiungi indirizzo",
+        "edit": "Modifica indirizzo"
+      },
+      "bank_account": {
+        "add": "Aggiungi conto corrente",
+        "edit": "Modifica conto corrente"
+      }
+    },
+    "feedback": {
+      "create": "Soggetto creato con successo",
+      "delete": {
+        "single": "Soggetto cancellato con successo",
+        "multiple": "Soggetti cancellati con successo"
+      },
+      "update": "Soggetto modificato con successo"
+    }
+  }
+}

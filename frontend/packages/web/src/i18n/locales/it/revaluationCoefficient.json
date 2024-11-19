@@ -1,0 +1,12 @@
+{
+  "revaluation_coefficient": {
+    "title": {
+      "current": "Coefficienti rivalutazione",
+      "history": "Storico coefficienti rivalutazione"
+    },
+    "subtitle": "Per calcolo IMU delle unità con categoria catastale D",
+    "action": {
+      "show_history": "Visualizza storico"
+    }
+  }
+}

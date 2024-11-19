@@ -1,0 +1,17 @@
+﻿{
+  Data: {
+    ticketType: {
+      add: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          description: Dolore aut.,
+          id: 1,
+          internalCode: TTK01,
+          ordering: 1
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

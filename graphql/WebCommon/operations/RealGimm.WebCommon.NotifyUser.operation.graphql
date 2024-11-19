@@ -1,0 +1,5 @@
+subscription notifications {
+  notifyUser {
+    id
+  }
+}

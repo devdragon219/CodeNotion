@@ -1,0 +1,47 @@
+{
+  "interest_rate": {
+    "title": "Interesse legale",
+    "field": {
+      "since": "Data inizio",
+      "until": "Data fine",
+      "rate": "Interesse %"
+    },
+    "action": {
+      "add_interest_rate": "Aggiungi interesse legale"
+    },
+    "text": {
+      "no_interest_rates": "Non sono presenti interessi legali"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta interesse legale",
+        "save": "Salva interesse legale"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questo interesse legale?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare questi interessi legali?\nIl processo non potrà essere annullato"
+        }
+      },
+      "update": {
+        "title": "Modifica interesse legale",
+        "save": "Salva interesse legale"
+      },
+      "view": {
+        "title": "Visualizza interesse legale"
+      }
+    },
+    "feedback": {
+      "create": {
+        "single": "Interesse legale creato con successo",
+        "multiple": "Interessi legali creati con successo"
+      },
+      "delete": {
+        "single": "Interesse legale cancellato con successo",
+        "multiple": "Interessi legali cancellati con successo"
+      },
+      "update": "Interesse legale modificato con successo"
+    }
+  }
+}

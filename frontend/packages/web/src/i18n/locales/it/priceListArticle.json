@@ -1,0 +1,82 @@
+{
+  "price_list_article": {
+    "title": "Articoli",
+    "tab": {
+      "general_data": "Dati generali",
+      "catalogue_types": "Tipologie oggetti"
+    },
+    "section_title": {
+      "import": "Per aggiungere in modo massivo gli articoli, scaricare il template, compilarlo nei campi richiesti e caricarlo",
+      "upload_articles": "Upload articoli",
+      "general_data": "Dati generali",
+      "price_periods": "Prezzi",
+      "price_period": "Prezzo",
+      "catalogue_types": "Tipologie oggetti",
+      "select_catalogue_types": "Seleziona le tipologie oggetti da associare all'articolo",
+      "selected_catalogue_types": "Tipologie oggetti selezionate"
+    },
+    "field": {
+      "internal_code": "Codice articolo",
+      "name": "Denominazione",
+      "catalogue_types": "Tipologie oggetti",
+      "price_list": "Listino",
+      "date_since": "Data inizio validità",
+      "date_until": "Data fine validità",
+      "measurement_unit": "Unità",
+      "price": "Prezzo",
+      "actual_price": "Prezzo in corso",
+      "catalogue_category": "Categoria",
+      "catalogue_subcategory": "Sottocategoria",
+      "catalogue_type": "Tipologia oggetto"
+    },
+    "error": {
+      "internal_code": "Il codice articolo inserito è già in uso",
+      "no_price_periods": "Nessun prezzo inserito",
+      "price_period_date": "La data inserita ricade all'interno di un periodo già esistente",
+      "price_period_date_until": "Esiste già un periodo senza data di fine validità",
+      "no_catalogue_types_selected": "Nessuna tipologia oggetto selezionata"
+    },
+    "text": {
+      "no_price_list_articles": "Non sono presenti articoli",
+      "no_catalogue_types": "Non sono presenti tipologie oggetti"
+    },
+    "action": {
+      "add_single_article": "Aggiunta singolo articolo",
+      "add_multiple_articles": "Aggiunta massiva articoli",
+      "download_template": "Scarica template",
+      "add_price_period": "Aggiungi prezzo",
+      "add_catalogue_types": "Aggiungi tipologie oggetti"
+    },
+    "dialog": {
+      "create": {
+        "single": {
+          "title": "Aggiunta articolo",
+          "save": "Salva articolo"
+        },
+        "multiple": {
+          "title": "Aggiunta massiva articoli"
+        }
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questo articolo?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare questi articoli?\nIl processo non potrà essere annullato"
+        }
+      },
+      "add_price_period": "Aggiunta prezzo",
+      "edit_price_period": "Modifica prezzo",
+      "view_catalogue_types": "Visualizza tipologie oggetti",
+      "add_catalogue_types": "Aggiunta tipologie oggetti"
+    },
+    "feedback": {
+      "create": "Articolo creato con successo",
+      "delete": {
+        "single": "Articolo cancellato con successo",
+        "multiple": "Articoli cancellati con successo"
+      },
+      "import": "{{ amount }} articoli importati con successo",
+      "update": "Articolo modificato con successo"
+    }
+  }
+}

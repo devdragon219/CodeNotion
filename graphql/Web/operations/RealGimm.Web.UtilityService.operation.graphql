@@ -1,0 +1,114 @@
+query getUtilityServices(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: UtilityServiceFilterInput
+  $order: [UtilityServiceSortInput!]
+) {
+  utilityService {
+    listUtilityServices(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...UtilityServiceFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getUtilityService($utilityServiceId: Int!) {
+  utilityService {
+    get(id: $utilityServiceId) {
+      ...UtilityServiceDetailFragment
+    }
+  }
+}
+
+mutation deleteUtilityServices($ids: [Int!]!) {
+  utilityService {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteUtilityService($id: Int!) {
+  utilityService {
+    delete(id: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query exportUtilityServices(
+  $where: UtilityServiceFilterInput
+  $order: [UtilityServiceSortInput!]
+) {
+  utilityService {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+mutation createUtilityService($utilityServiceInput: UtilityServiceInput!) {
+  utilityService {
+    add(input: $utilityServiceInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+mutation updateUtilityService(
+  $utilityServiceId: Int!
+  $utilityServiceInput: UtilityServiceInput!
+) {
+  utilityService {
+    update(id: $utilityServiceId, input: $utilityServiceInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getUtilityServiceInternalCode {
+  utilityService {
+    proposeNewInternalCode
+  }
+}
+
+query canUseUtilityServiceInternalCode(
+  $internalCode: String!
+  $currentUtilityServiceId: Int
+) {
+  utilityService {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentUtilityServiceId: $currentUtilityServiceId
+    )
+  }
+}

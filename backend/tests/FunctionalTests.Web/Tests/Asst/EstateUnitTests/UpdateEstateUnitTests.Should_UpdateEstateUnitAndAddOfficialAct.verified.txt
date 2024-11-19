@@ -1,0 +1,87 @@
+﻿{
+  Data: {
+    estateUnit: {
+      update: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          address: {
+            addressType: PRIMARY,
+            cityName: New York,
+            countryISO: USA,
+            id: 2,
+            localPostCode: 10001,
+            numbering: 2,
+            toponymy: Downtown
+          },
+          estate: {
+            id: 2
+          },
+          floors: [
+            {
+              id: 1,
+              name: Floor0,
+              position: 0.0
+            },
+            {
+              id: 2,
+              name: Floor1,
+              position: 1.0
+            }
+          ],
+          id: 2,
+          internalCode: EU2023_42,
+          officialAct: {
+            actRegistrationDates: [
+              {
+                dateType: IT_TRANSCRIPTION_DATE,
+                value: 2023-01-15
+              },
+              {
+                dateType: IT_NOTARY_ACT_DATE,
+                value: 2023-01-05
+              }
+            ],
+            actRegistrationFields: [
+              {
+                fieldType: IT_REPERTOIRE_NUMBER,
+                value: RPTR2023_42
+              },
+              {
+                fieldType: IT_WRITTEN_AT_CITY,
+                value: Los Angeles
+              },
+              {
+                fieldType: IT_TRANSCRIPTION_NUMBER,
+                value: TRANS2023_42
+              },
+              {
+                fieldType: IT_TRANSCRIPTION_CITY,
+                value: Los Angeles
+              },
+              {
+                fieldType: IT_COLLECTION_NUMBER,
+                value: CN2023_42
+              }
+            ],
+            id: 1,
+            protocolNumber: PRTCL2023_42,
+            registrationDate: 2023-01-10,
+            registrationNumber: REG2023_42
+          },
+          ownershipStartDate: 2023-01-02,
+          ownershipType: PROPERTY,
+          sharedArea: false,
+          stair: {
+            description: Stair2,
+            id: 2
+          },
+          status: EXISTING,
+          subNumbering: 42a,
+          type: BUILDING
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

@@ -1,0 +1,10 @@
+[Unit]
+Description=Start image updates
+
+[Timer]
+OnCalendar=*-*-* *:0,15,30,45:05
+Persistent=true
+Unit=update-images.service
+
+[Install]
+WantedBy=multi-user.target

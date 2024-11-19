@@ -1,0 +1,7 @@
+﻿{
+  description: IVA 10% (N.127 - TER TAB A PARTE III DPR 633),
+  id: 1,
+  internalCode: 001,
+  ratePercent: 10.0,
+  type: RATE
+}

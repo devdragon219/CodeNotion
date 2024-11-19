@@ -1,0 +1,295 @@
+query getContracts(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: ContractFilterInput
+  $order: [ContractSortInput!]
+) {
+  contract {
+    listContracts(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...ContractFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getAllContracts(
+  $where: ContractFilterInput
+  $order: [ContractSortInput!]
+) {
+  contract {
+    listContractsFull(where: $where, order: $order) {
+      ...ContractDetailFragment
+    }
+  }
+}
+
+query getContract($contractId: Int!) {
+  contract {
+    contract(contractId: $contractId) {
+      ...ContractDetailFragment
+    }
+  }
+}
+
+mutation deleteContract($id: Int!) {
+  contract {
+    delete(id: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteContracts($ids: [Int!]!) {
+  contract {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation createContract($contractInput: ContractInput!) {
+  contract {
+    add(input: $contractInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+      value {
+        id
+      }
+    }
+  }
+}
+
+mutation updateContract($contractId: Int!, $contractInput: ContractInput!) {
+  contract {
+    update(id: $contractId, input: $contractInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getContractInternalCode($isActiveContract: Boolean!) {
+  contract {
+    proposeNewInternalCode(isActiveContract: $isActiveContract)
+  }
+}
+
+query canUseContractInternalCode(
+  $internalCode: String!
+  $currentContractId: Int
+) {
+  contract {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentContractId: $currentContractId
+    )
+  }
+}
+
+query exportContracts(
+  $where: ContractFilterInput
+  $order: [ContractSortInput!]
+) {
+  contract {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+mutation pauseContractBilling(
+  $contractId: Int!
+  $since: Date!
+  $notes: String
+) {
+  contract {
+    pauseBilling(contractId: $contractId, since: $since, notes: $notes) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation resumeContractBilling(
+  $contractId: Int!
+  $pauseEndDate: Date!
+  $isRecoveryArrears: Boolean!
+  $notes: String
+) {
+  contract {
+    resumeBilling(
+      contractId: $contractId
+      pauseEndDate: $pauseEndDate
+      isRecoveryArrears: $isRecoveryArrears
+      notes: $notes
+    ) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation releaseContract(
+  $contractId: Int!
+  $releaseReason: ReleaseReason
+  $releaseDate: Date
+  $isOccupiedWithoutRight: Boolean!
+) {
+  contract {
+    release(
+      id: $contractId
+      releaseReason: $releaseReason
+      releaseDate: $releaseDate
+      isOccupiedWithoutRight: $isOccupiedWithoutRight
+    ) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation transferContractManagementSubject(
+  $contractIds: [Int!]!
+  $newManagementSubjectId: Int!
+  $legalRepresentativeSubjectId: Int!
+  $paymentDate: Date!
+  $terminationDate: Date!
+  $takeoverType: TakeoverType!
+) {
+  contract {
+    transferManagementSubject(
+      contractIds: $contractIds
+      newManagementSubjectId: $newManagementSubjectId
+      legalRepresentativeSubjectId: $legalRepresentativeSubjectId
+      paymentDate: $paymentDate
+      terminationDate: $terminationDate
+      takeoverType: $takeoverType
+    ) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation addContractDocuments($contractId: Int!, $inputs: [DocumentInput!]!) {
+  contract {
+    document {
+      addRange(contractId: $contractId, inputs: $inputs) {
+        errors
+        isSuccess
+        validationErrors {
+          ...ValidationErrorFragment
+        }
+      }
+    }
+  }
+}
+
+mutation deleteContractDocuments($entityId: Int!, $cmisIds: [String!]!) {
+  contract {
+    document {
+      deleteRange(contractId: $entityId, cmisIds: $cmisIds) {
+        errors
+        isSuccess
+        validationErrors {
+          ...ValidationErrorFragment
+        }
+      }
+    }
+  }
+}
+
+mutation updateContractDocument($contractId: Int!, $input: DocumentInput!) {
+  contract {
+    document {
+      update(contractId: $contractId, input: $input) {
+        errors
+        isSuccess
+        validationErrors {
+          ...ValidationErrorFragment
+        }
+      }
+    }
+  }
+}
+
+query getContractDocuments(
+  $contractId: Int!
+  $where: DocumentFilterInput
+  $order: [DocumentsPerContentCategoryGroupOutputSortInput!]
+) {
+  contract {
+    contract(contractId: $contractId) {
+      documents(where: $where, order: $order) {
+        ...DocumentsPerContentCategoryGroupOutputFragment
+      }
+    }
+  }
+}
+
+query getLastContractExpiries($isActive: Boolean!) {
+  contract {
+    lastContractExpiries(isActive: $isActive) {
+      ...ContractExpiryOutputFragment
+    }
+  }
+}
+
+query getContractStatistics {
+  contract {
+    statistics {
+      monthly {
+        totalActiveContractsCount
+        totalActiveContractsRevenue
+        totalPassiveContractsCount
+        totalPassiveContractsRevenue
+      }
+      yearly {
+        totalActiveContractsCount
+        totalActiveContractsRevenue
+        totalPassiveContractsCount
+        totalPassiveContractsRevenue
+      }
+    }
+  }
+}

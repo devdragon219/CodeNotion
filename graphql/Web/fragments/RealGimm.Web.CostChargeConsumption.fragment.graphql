@@ -1,0 +1,7 @@
+fragment CostChargeConsumptionFragment on CostChargeConsumption {
+  since
+  until
+  values {
+    ...ReadingValueFragment
+  }
+}

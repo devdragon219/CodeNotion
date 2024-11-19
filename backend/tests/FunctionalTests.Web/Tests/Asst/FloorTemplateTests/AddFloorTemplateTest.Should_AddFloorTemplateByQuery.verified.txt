@@ -1,0 +1,17 @@
+﻿{
+  Data: {
+    floorTemplate: {
+      addFloorTemplate: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          guid: Guid_1,
+          id: 1,
+          name: Test Floor 1,
+          position: 2.0
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

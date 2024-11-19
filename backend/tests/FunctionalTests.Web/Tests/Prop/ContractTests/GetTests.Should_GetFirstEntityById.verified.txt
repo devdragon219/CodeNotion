@@ -1,0 +1,242 @@
+﻿{
+  agreementDate: 2023-03-25,
+  anytimeTerminationWarningMonths: 3,
+  billingAfterTerm: false,
+  billingAlignedToCalendarYear: true,
+  billingAppliesBaseFee: true,
+  billingBaseFee: 957.500000,
+  billingBaseFeeBillItemType: {
+    id: 53
+  },
+  billingEndDate: null,
+  billingNotes: null,
+  billingPauses: [
+    {
+      id: 1,
+      isRecoveryArrears: false,
+      notes: null,
+      since: 2022-01-27,
+      until: 2022-02-25
+    }
+  ],
+  billingPeriod: MONTHLY,
+  billingStartDate: 2024-08-23,
+  billingVATRateType: NON_TAXABLE,
+  billingWithSplitPayment: true,
+  billingWithStampTax: FALSE,
+  counterparts: [
+    {
+      contractSharePercent: 84.01,
+      id: 1,
+      isMainCounterpart: true,
+      since: 2023-12-25,
+      subjectId: 59,
+      type: NON_PROFIT,
+      until: null
+    },
+    {
+      contractSharePercent: 9.53,
+      id: 2,
+      isMainCounterpart: false,
+      since: 2023-09-22,
+      subjectId: 17,
+      type: NON_PROFIT,
+      until: null
+    },
+    {
+      contractSharePercent: 6.46,
+      id: 3,
+      isMainCounterpart: false,
+      since: 2023-06-09,
+      subjectId: 79,
+      type: NON_PROFIT,
+      until: null
+    }
+  ],
+  effectStartDate: 2023-09-14,
+  externalCode: TRK7KWFZ9A,
+  firstTermDurationMonths: 8,
+  firstTermExpirationDate: 2024-07-19,
+  id: 1,
+  internalCode: CA00001,
+  isOccupiedWithoutRight: null,
+  lastRenewalStartDate: 2023-03-25,
+  locatedUnits: [
+    {
+      estateSubUnitId: 9,
+      estateUnitId: 24,
+      id: 1,
+      isMainUnit: true,
+      isPartialLocation: false,
+      isRegistryUpdateEnabled: false,
+      surfaceSqM: 563
+    }
+  ],
+  managementSubjectId: 18,
+  nonRenewalWarningMonths: 6,
+  notes: Ratione modi velit porro dolorum corrupti adipisci debitis dolorem id vero soluta.,
+  previousCode: GMGZ1VZOBT,
+  ratePlans: [
+    {
+      id: 1,
+      isDeclarationExpected: false,
+      isDeclared: false,
+      newYearlyRate: 8355.930000,
+      since: 2023-09-23
+    },
+    {
+      id: 2,
+      isDeclarationExpected: false,
+      isDeclared: true,
+      newYearlyRate: 6029.960000,
+      since: 2023-03-17
+    }
+  ],
+  reason: NOT_SPECIFIED,
+  recoverBillsAfterSuspension: true,
+  recurringAdditions: [
+    {
+      accountingItemId: 19,
+      amountPerInstallment: 602.350000,
+      billItemType: {
+        id: 75
+      },
+      excludeEndMonth: null,
+      excludeStartMonth: 7,
+      id: 1,
+      notes: Ad nostrum totam harum totam voluptatibus doloremque eos asperiores cum ipsam illum pariatur.,
+      vatRateId: 7
+    },
+    {
+      accountingItemId: 1,
+      amountPerInstallment: 573.660000,
+      billItemType: {
+        id: 103
+      },
+      excludeEndMonth: null,
+      excludeStartMonth: null,
+      id: 2,
+      notes: null,
+      vatRateId: 6
+    }
+  ],
+  registrationTaxData: {
+    contractRegistrationCode: J26GAZNR1D,
+    exemptions: DUTIES,
+    firstOnlineRegistrationDate: 2023-04-11,
+    firstRegistrationDate: 2023-02-13,
+    firstRegistrationPeriod: YEAR,
+    incomeType: NONRESIDENTIAL_RENTAL_LAW633_ART10,
+    incomeTypeRLI: ITA_S3_NONRESIDENTIAL_FINANCIAL,
+    isAccountingManaged: false,
+    isRLIModeEnabled: false,
+    isTakeoverFromPreviousSubject: false,
+    isVoluntarySanctionApplied: true,
+    lastOnlinePaymentDate: 2023-10-18,
+    lastPaymentDate: 2023-11-28,
+    numberOfCopies: 7,
+    numberOfPages: 72,
+    paymentType: ITA_TELEMATICO,
+    registrationNumber: ZOBTUZ1PIX,
+    registrationOffice: {
+      cityId: 3739,
+      description: Gorizia,
+      externalCode: R52,
+      id: 255
+    },
+    registrationSerialNumber: FZ9AGMGZ1V,
+    registrationYear: 2023,
+    specialCase: ITA_2_SUBLETTING,
+    takeoverDate: null,
+    takeoverLegalRepresentativeSubjectId: null,
+    takeoverType: null,
+    taxableRateRatioPercent: 19.190000,
+    tenantShareOfStampTaxPercent: 10.271393,
+    tenantTaxSharePercent: 10.600000,
+    transferResolutionAmount: 147.678215
+  },
+  releaseDate: null,
+  releaseReason: null,
+  revaluationData: {
+    baseRevaluationRate: 8.850000,
+    isAbsoluteRevaluationApplied: false,
+    isBackHistoryEnabled: true,
+    isRevaluationCalculated: false,
+    nextApplicationDate: 2023-12-24,
+    rateType: MULTIYEAR_RATE,
+    referencePeriodEnd: 2023-10-07,
+    referencePeriodStart: 2023-07-24,
+    revaluationPeriodMonths: 9,
+    revaluationSharePercent: 11.180000
+  },
+  secondTermDurationMonths: null,
+  secondTermExpirationDate: null,
+  securityDeposits: [
+    {
+      bankAccountId: null,
+      baseAmount: 7536.190000,
+      id: 1,
+      interestCalculationStartDate: null,
+      isInterestCalculated: false,
+      isSuretyRenewable: false,
+      notes: null,
+      since: 2023-07-24,
+      subjectId: null,
+      suretySubjectId: 45,
+      takeoverDate: null,
+      type: BANK_SURETY,
+      until: 2023-08-29
+    },
+    {
+      bankAccountId: null,
+      baseAmount: 4979.600000,
+      id: 2,
+      interestCalculationStartDate: null,
+      isInterestCalculated: false,
+      isSuretyRenewable: false,
+      notes: null,
+      since: 2023-04-17,
+      subjectId: null,
+      suretySubjectId: null,
+      takeoverDate: null,
+      type: BANK_ACCOUNT,
+      until: null
+    }
+  ],
+  status: WORKING,
+  sublocatedContract: null,
+  terminationDate: null,
+  terminator: null,
+  transactors: [
+    {
+      addressId: 96,
+      id: 1,
+      invoiceAddressId: 96,
+      isInvoiced: true,
+      since: 2023-09-23,
+      subjectId: 66,
+      transactionSharePercent: 100.0,
+      type: NOPA,
+      until: null
+    }
+  ],
+  type: {
+    description: Illum assumenda iste quia natus et dignissimos reiciendis ad nostrum totam harum.,
+    id: 1,
+    internalCode: CT00001,
+    isAbsoluteRevaluation: true,
+    isActive: true,
+    isRegistrationTax: true,
+    isRentChargeApplicable: false,
+    isRevaluationApplicable: false,
+    isStampTax: false,
+    nature: LAND,
+    registrationTaxIncomeType: ITA_T1_FARMLAND,
+    registrationTaxPercent: null,
+    registrationTaxTenantPercent: null,
+    revaluationCalculationMonth: null,
+    revaluationIndexMonth: 9,
+    revaluationRatePercent: null,
+    usageTypeId: 12
+  }
+}

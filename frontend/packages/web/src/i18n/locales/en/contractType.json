@@ -1,0 +1,69 @@
+{
+  "contract_type": {
+    "title": "Contract type",
+    "tab": {
+      "general_data": "General data",
+      "parametric_data": "Parametric data",
+      "recap": "Recap"
+    },
+    "section_title": {
+      "general_data": "General data",
+      "registration_data": "Registration data",
+      "revaluation_data": "Revaluation data",
+      "recap": "Recap"
+    },
+    "contract_typology": {
+      "active": "Active",
+      "passive": "Passive"
+    },
+    "field": {
+      "internal_code": "Code",
+      "description": "Description",
+      "typology": "Contract typology",
+      "fee": "Fee",
+      "nature_type": "Nature type",
+      "usage_type": "Usage type",
+      "subject_registration_tax": "Subject registration tax",
+      "registration_tax": "Registration tax",
+      "stamp_tax": "Stamp tax",
+      "registration_tax_income_type": "Registration tax income type",
+      "registration_tax_percent": "Registration tax percentage",
+      "registration_tax_tenant_percent": "Registration tax tenant percentage",
+      "revaluation": "Revaluation",
+      "is_absolute_revaluation": "Absolute revaluation",
+      "revaluation_percent": "Revaluation percentage",
+      "revaluation_index_month": "Revaluation index month",
+      "revaluation_calculation_month": "Revaluation calculation month"
+    },
+    "error": {
+      "internal_code": "The Contract type code provided is already in use"
+    },
+    "action": {
+      "add_contract_type": "Add contract type"
+    },
+    "text": {
+      "no_contract_types": "No contract types available"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add contract type",
+        "save": "Save contract type"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this contract type?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these contract types?\nThe process cannot be undone"
+        }
+      }
+    },
+    "feedback": {
+      "create": "Contract type created successfully",
+      "delete": {
+        "single": "Contract type deleted successfully",
+        "multiple": "Contract types deleted successfully"
+      },
+      "update": "Contract type edited successfully"
+    }
+  }
+}

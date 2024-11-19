@@ -1,0 +1,48 @@
+{
+  "document": {
+    "title": {
+      "documents": "Documents",
+      "expired": "Expired",
+      "expiring": "Expiring"
+    },
+    "tab": {
+      "all": "All",
+      "estates": "Estates",
+      "estate_units": "Estate Units",
+      "catalogues": "Catalogues",
+      "subjects": "Subjects",
+      "contracts": "Contracts",
+      "facility_contracts": "Facility contracts",
+      "tickets": "Tickets"
+    },
+    "field": {
+      "document_name": "Document name",
+      "identity_document_type": "Identity document type",
+      "protocol_number": "Document Number",
+      "content_category": "Category / Subcategory",
+      "since": "Since",
+      "until": "Until",
+      "issue_date": "Issue date",
+      "issuer": "Issuer",
+      "estate": "Estate",
+      "estate_unit": "Estate unit",
+      "subject": "Subject",
+      "catalogue_item": "Catalogue item",
+      "catalogue_category": "Catalogue category",
+      "catalogue_sub_category": "Catalogue subcategory",
+      "catalogue_type": "Catalogue type",
+      "contract": "Contract code",
+      "facility_contract": "Facility contract code",
+      "ticket": "Activity code",
+      "file_name": "Attachment",
+      "uploader_name": "Uploader name",
+      "creation_date": "Creation date",
+      "expired": "Expired",
+      "expired_days": "days after expiration",
+      "expiring_days": "days to expiration"
+    },
+    "text": {
+      "no_documents": "No documents available"
+    }
+  }
+}

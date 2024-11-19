@@ -1,0 +1,191 @@
+{
+  "cadastral_unit": {
+    "title": "Unità Catastali",
+    "tab": {
+      "estate_unit": "Unità immobiliare",
+      "general_data": "Dati generali",
+      "inspection": "Visura",
+      "income": "Rendita",
+      "cadastral_coordinates": "Dati catastali",
+      "unavailability": "Inagibilità",
+      "history": "Storico",
+      "fiscal_data": "Dati fiscali",
+      "tax_payments": "Versamenti",
+      "recap": "Riepilogo"
+    },
+    "section_title": {
+      "select_estate_unit": "Seleziona unità immobiliare",
+      "estate_unit": "Dati generali unità immobiliare",
+      "general_data": "Dati generali",
+      "cadastral_unit_general_data": "Dati generali unità catastale",
+      "estate": "Immobile",
+      "inspection": "Visura",
+      "no_inspection": "Nessuna visura presente, clicca su modifica per aggiungere una visura",
+      "income": "Rendita",
+      "cadastral_coordinates": "Identificativi catastali",
+      "notes": "Note",
+      "unavailability": "Inagibilità",
+      "no_unavailability": "Nessuna inagibilità presente, clicca su modifica per aggiungere una inagibilità",
+      "no_history": "Nessuno storico presente",
+      "fiscal_data": "Dati fiscali",
+      "no_fiscal_data": "Nessun dato fiscale presente",
+      "tax_payments": "Versamenti",
+      "recap": "Riepilogo"
+    },
+    "field": {
+      "cadastral_unit_code": "Codice UC",
+      "estate_unit_code": "Codice UI",
+      "estate_code": "Codice immobile",
+      "cadastral_unit_type": "Tipologia UC",
+      "since": "Data inizio validità",
+      "until": "Data fine validità",
+      "address_toponymy": "Indirizzo",
+      "address_city": "Comune",
+      "address_country": "Nazione",
+      "address_county": "Provincia",
+      "management_subject": "Ente di gestione",
+      "cadastral_coordinates": "Dati catastali",
+      "cadastral_unit_status": "Stato UC",
+      "estate_unit_external_code": "Codice UI esterno",
+      "estate_unit_name": "Denominazione UI",
+      "address_indoor_number": "Numero interno",
+      "stair": "Scala",
+      "floors": "Piani",
+      "estate_unit_type": "Tipologia UI",
+      "shared_area": "Area comune",
+      "estate_unit_status": "Stato UI",
+      "disused_date": "Data dismissione",
+      "ownership_type": "Tipologia possesso UI",
+      "ownership_start_date": "Data inizio possesso UI",
+      "ownership_end_date": "Data fine possesso UI",
+      "ownership_percentage": "% possesso",
+      "usage_type": "Destinazione d’uso",
+      "notes": "Note",
+      "address_number": "Numero civico",
+      "address_postal_code": "CAP",
+      "estate_name": "Denominazione immobile",
+      "is_ancillary_unit": "Pertinenza",
+      "is_registration_in_progress": "In via di accatastamento",
+      "inspection_macro_zone": "Zona censuaria",
+      "inspection_micro_zone": "Micro zona",
+      "inspection_historical_estate": "Interesse storico",
+      "inspection_direct_restriction": "Vincolo diretto",
+      "inspection_protocol_date": "Data protocollo",
+      "inspection_protocol_number": "Numero protocollo",
+      "inspection_date": "Data visura",
+      "inspection_heading": "Intestazione visura",
+      "income_macro_category": "Categoria catastale",
+      "income_micro_category": "Classe",
+      "income_registered_surface": "Superficie catastale",
+      "income_type": "Tipo rendita",
+      "income_cadastral_amount": "Rendita Catastale",
+      "income_metric": "Tipo consistenza",
+      "income_metric_amount": "Consistenza",
+      "income_metric_rented_amount": "Consistenza locata",
+      "income_land_category": "Tipo qualità",
+      "income_farm_amount": "Reddito agrario",
+      "income_land_amount": "Reddito dominicale",
+      "income_market_value": "Valore venale",
+      "coordinate_level1": "Sezione",
+      "coordinate_table_base": "Tavolare",
+      "coordinate_level2": "Foglio",
+      "coordinate_level3": "Mappale",
+      "coordinate_level4": "Subalterno",
+      "coordinate_it_table_match": "Partita tavolare",
+      "coordinate_it_table_body": "Corpo tavolare",
+      "coordinate_it_table_portion": "Porzione",
+      "coordinate_unmanaged_override": "Informazioni catastali",
+      "cadastral_notes": "Note catastali",
+      "fiscal_notes": "Note fiscali",
+      "consortium_notes": "Note consortili",
+      "unavailability_since": "Data inizio inagibilità",
+      "unavailability_until": "Data fine inagibilità",
+      "history_since": "Data inizio",
+      "history_until": "Data fine",
+      "history_date": "Data operazione",
+      "history_estate_unit": "UI iniziale",
+      "year": "Anno",
+      "tax_name": "Nome tributo",
+      "down_payment": "Acconto",
+      "down_payment_amount": "Importo acconti",
+      "down_payment_date": "Data acconto",
+      "payment_amount": "Saldo",
+      "payment_date": "Data saldo",
+      "total_amount": "Totale",
+      "imu_enabled": "IMU",
+      "imu_variation": "Variazione di dichiarazione IMU",
+      "imu_exemption": "Esenzione IMU",
+      "imu_rate": "Aliquota IMU",
+      "imu_ownership_start": "Data inizio possesso",
+      "imu_ownership_end": "Data fine possesso",
+      "imu_last_cadastre_update": "Data variazione",
+      "ilia_enabled": "ILIA",
+      "ilia_variation": "Variazione di dichiarazione ILIA",
+      "ilia_exemption": "Esenzione ILIA",
+      "ilia_instrumental": "Strumentale ai fini dell’applicazione ILIA",
+      "ilia_rate": "Aliquota ILIA",
+      "ilia_ownership_start": "Data inizio possesso",
+      "ilia_ownership_end": "Data fine possesso",
+      "ilia_last_cadastre_update": "Data variazione"
+    },
+    "error": {
+      "no_estate_unit": "Nessuna unità immobiliare selezionata"
+    },
+    "action": {
+      "add_inspection": "Aggiungi visura",
+      "add_cadastral_coordinates": "Aggiungi identificativi catastali",
+      "add_unavailability": "Aggiungi inagibilità"
+    },
+    "text": {
+      "no_cadastral_units": "Non sono presenti unità catastali",
+      "no_inspection": "Nessuna visura presente",
+      "no_cadastral_coordinates": "Nessun identificativo catastale presente"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta Unità Catastale",
+        "save": "Salva unità catastale"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa unità catastale?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste unità catastali?\nIl processo non potrà essere annullato"
+        }
+      },
+      "update": {
+        "title": {
+          "save_as_variation": "Vuoi salvare come variazione?",
+          "saving_as_variation": "Stai salvando una variazione"
+        },
+        "description": {
+          "save_as_variation": "Salvando come variazione l'applicativo storicizzerà i precedenti dati catastali e ne salverà una nuova versione.\nCliccando salva i dati verranno invece sovrascritti.",
+          "saving_as_variation": "Inserisci la data di inizio validità\ndella nuova variazione catastale"
+        },
+        "save": "Salva variazione"
+      },
+      "inspection": {
+        "title": "Aggiungi Visura"
+      },
+      "cadastral_coordinates": {
+        "add": "Aggiungi Identificativi Catastali",
+        "edit": "Modifica Identificativi Catastali"
+      },
+      "unavailability": {
+        "add": "Aggiungi inagibilità",
+        "edit": "Modifica inagibilità"
+      },
+      "down_payments": {
+        "title": "Importo acconti {{taxDetail}}"
+      }
+    },
+    "feedback": {
+      "create": "Unità catastale creata con successo",
+      "delete": {
+        "single": "Unità catastale cancellata con successo",
+        "multiple": "Unità catastali cancellate con successo"
+      },
+      "update": "Unità catastale modificata con successo"
+    }
+  }
+}

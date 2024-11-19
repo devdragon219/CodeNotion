@@ -1,0 +1,82 @@
+{
+  "ticket_checklist_template": {
+    "title": "Modelli schede manutenzione",
+    "tab": {
+      "general_data": "Dati generali",
+      "costs": "Costi",
+      "preventative_maintenance": "Manutenzione PP",
+      "on_condition_maintenance": "Manutenzione SC",
+      "recap": "Riepilogo"
+    },
+    "section_title": {
+      "general_data": "Dati generali",
+      "costs": "Costi",
+      "preventative_maintenance": "Manutenzione preventiva programmata (MPP)",
+      "preventative_maintenance_activities": "Attività di manutenzione preventiva programmata (MPP)",
+      "select_preventative_maintenance_activities": "Seleziona le attività da associare al modello di scheda manutenzione PP",
+      "selected_maintenance_activities": "Attività selezionate",
+      "on_condition_maintenance": "Manutenzione su condizione (MSC)",
+      "on_condition_maintenance_activities": "Attività di manutenzione su condizione (MSC)",
+      "select_on_condition_maintenance_activities": "Seleziona la attività da associare al modello di scheda di manutenzione su condizione",
+      "activities": "Attività",
+      "recap": "Riepilogo"
+    },
+    "field": {
+      "internal_code": "Codice",
+      "name": "Denominazione",
+      "catalogue_category": "Categoria",
+      "catalogue_subcategory": "Sottocategoria",
+      "ticket_checklist_template_type": "Tipologia modello schema",
+      "catalogue_type": "Tipologia oggetto",
+      "measurement_unit": "Unità di misura",
+      "raw_work_cost": "Costi di manutenzione",
+      "safety_cost": "Oneri di sicurezza",
+      "planned_period": "Periodicità",
+      "yearly_visits": "Visite annue",
+      "days_of_week": "Giorni della settimana",
+      "tolerance_days": "Giorni di tolleranza",
+      "intervention_type": "Tipologia intervento",
+      "craft": "Specializzazione",
+      "activity_type": "Tipologia",
+      "activity_name": "Attività",
+      "activity_mandatory_by_law": "Obbligo di legge"
+    },
+    "error": {
+      "internal_code": "Il codice inserito è già in uso",
+      "no_selected_days_of_week": "Selezionare almeno un giorno della settimana",
+      "no_selected_activities": "Nessuna attività selezionata"
+    },
+    "text": {
+      "no_ticket_checklist_templates": "Non sono presenti modelli schede manutenzione",
+      "no_selected_activities": "Nessuna attività selezionata"
+    },
+    "action": {
+      "add_ticket_checklist_template_on_condition": "Modello scheda MSC",
+      "add_ticket_checklist_template_preventative": "Modello scheda MPP",
+      "add_ticket_checklist_template_preventative_and_on_condition": "Modello scheda MPP-MSC",
+      "add_activities": "Aggiungi attività"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta modello scheda manutenzione",
+        "save": "Salva modello scheda manutenzione"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questo modello scheda manutenzione?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare questi modelli schede manutenzione?\nIl processo non potrà essere annullato"
+        }
+      },
+      "add_activities": "Aggiunta attività"
+    },
+    "feedback": {
+      "create": "Modello scheda manutenzione creata con successo",
+      "delete": {
+        "single": "Modello scheda manutenzione cancellata con successo",
+        "multiple": "Modelli schede manutenzione cancellate con successo"
+      },
+      "update": "Modello scheda manutenzione modificata con successo"
+    }
+  }
+}

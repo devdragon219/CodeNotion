@@ -1,0 +1,4 @@
+fragment ChecklistTicketsCountLineChartDataPointFragment on ChecklistTicketsCountLineChartDataPoint {
+  preventiveCount
+  onTriggerConditionCount
+}

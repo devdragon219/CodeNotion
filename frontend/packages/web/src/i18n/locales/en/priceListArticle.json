@@ -1,0 +1,82 @@
+{
+  "price_list_article": {
+    "title": "Articles",
+    "tab": {
+      "general_data": "General data",
+      "catalogue_types": "Catalogue types"
+    },
+    "section_title": {
+      "import": "To add multiple articles at one, download the template, fill it and upload",
+      "upload_articles": "Upload articles",
+      "general_data": "General data",
+      "price_periods": "Prices",
+      "price_period": "Price",
+      "catalogue_types": "Catalogue types",
+      "select_catalogue_types": "Select catalogue types",
+      "selected_catalogue_types": "Catalogue types selected"
+    },
+    "field": {
+      "internal_code": "Article code",
+      "name": "Name",
+      "catalogue_types": "Catalogue types",
+      "price_list": "Price list",
+      "date_since": "Since",
+      "date_until": "Until",
+      "measurement_unit": "Unit",
+      "price": "Price",
+      "actual_price": "Actual price",
+      "catalogue_category": "Category",
+      "catalogue_subcategory": "Subcategory",
+      "catalogue_type": "Catalogue type"
+    },
+    "error": {
+      "internal_code": "The article code provided is already in use",
+      "no_price_periods": "No price provided",
+      "price_period_date": "The provided date cannot be in between an existing price period",
+      "price_period_date_until": "A price period without end date already exists",
+      "no_catalogue_types_selected": "No catalogue types selected"
+    },
+    "text": {
+      "no_price_list_articles": "No articles available",
+      "no_catalogue_types": "No catalogue types available"
+    },
+    "action": {
+      "add_single_article": "Add single article",
+      "add_multiple_articles": "Add multiple articles",
+      "download_template": "Download template",
+      "add_price_period": "Add price",
+      "add_catalogue_types": "Add catalogue types"
+    },
+    "dialog": {
+      "create": {
+        "single": {
+          "title": "Add article",
+          "save": "Save article"
+        },
+        "multiple": {
+          "title": "Add articles"
+        }
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this article?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these articles?\nThe process cannot be undone"
+        }
+      },
+      "add_price_period": "Add price",
+      "edit_price_period": "Edit price",
+      "view_catalogue_types": "View catalogue types",
+      "add_catalogue_types": "Add catalogue types"
+    },
+    "feedback": {
+      "create": "Article created successfully",
+      "delete": {
+        "single": "Article deleted successfully",
+        "multiple": "Articles deleted successfully"
+      },
+      "import": "{{ amount }} articles imported successfully",
+      "update": "Article edited successfully"
+    }
+  }
+}

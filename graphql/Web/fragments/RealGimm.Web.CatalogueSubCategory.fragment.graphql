@@ -1,0 +1,5 @@
+fragment CatalogueSubCategoryFragment on CatalogueSubCategory {
+  name
+  internalCode
+  id
+}

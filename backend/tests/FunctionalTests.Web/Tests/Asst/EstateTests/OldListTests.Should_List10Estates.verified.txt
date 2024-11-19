@@ -1,0 +1,1080 @@
+﻿{
+  Data: {
+    estate: {
+      listEstates: {
+        nodes: [
+          {
+            addresses: [
+              {
+                addressType: PRIMARY,
+                city: null,
+                cityName: West Milfordstad,
+                countryISO: FRA,
+                countyName: Cambridgeshire,
+                id: 3,
+                localPostCode: 28808-1682,
+                locationLatLon: {
+                  coordinates: [
+                    48.999863489065255,
+                    6.295022116180054
+                  ]
+                },
+                notes: null,
+                numbering: 786,
+                toponymy: Jacquelyn Curve
+              }
+            ],
+            buildYear: 1967,
+            estateUnits: [
+              {
+                id: 4,
+                name: Macejkovic - O'Kon
+              },
+              {
+                id: 6,
+                name: Nienow - Marks
+              },
+              {
+                id: 11,
+                name: Tromp - Johns
+              }
+            ],
+            externalCode: 9ukniy2i5t,
+            floors: [
+              {
+                id: 20,
+                name: Seminterrato,
+                position: -1.0,
+                templateReference: Guid_1
+              },
+              {
+                id: 21,
+                name: Piano terra,
+                position: 0.0,
+                templateReference: Guid_2
+              },
+              {
+                id: 22,
+                name: Primo piano,
+                position: 1.0,
+                templateReference: Guid_3
+              },
+              {
+                id: 23,
+                name: Secondo piano,
+                position: 2.0,
+                templateReference: Guid_4
+              },
+              {
+                id: 24,
+                name: Terzo piano,
+                position: 3.0,
+                templateReference: Guid_5
+              },
+              {
+                id: 25,
+                name: Quarto piano,
+                position: 4.0,
+                templateReference: Guid_6
+              }
+            ],
+            id: 3,
+            internalCode: I00003,
+            mainUsageType: {
+              internalCode: MU08,
+              name: Agricola
+            },
+            managementOrgUnit: null,
+            managementSubject: {
+              id: 5,
+              name: Ratke LLC
+            },
+            name: Denesik LLC,
+            notes: Tempore asperiores corporis et laudantium atque numquam quasi incidunt voluptatem ducimus qui sit iure illum sed repudiandae doloremque molestias sapiente asperiores sit et minima delectus officia est quia quam aut rerum aut aliquam magni eveniet dolor aut perspiciatis repellendus excepturi aliquid doloribus aperiam eligendi quia adipisci dolores culpa voluptatem enim.,
+            ownership: MIXED,
+            stairs: [
+              {
+                description: Et dignissimos reiciendis.,
+                id: 3
+              }
+            ],
+            status: DECOMMISSIONED,
+            surfaceAreaSqM: 5796,
+            totalMarketValue: null,
+            type: LAND_PLOT_UNDEVELOPED,
+            usageType: {
+              internalCode: U01,
+              name: Altro
+            }
+          },
+          {
+            addresses: [
+              {
+                addressType: PRIMARY,
+                city: null,
+                cityName: Lake Milesland,
+                countryISO: ESP,
+                countyName: Berkshire,
+                id: 4,
+                localPostCode: 77925-6328,
+                locationLatLon: {
+                  coordinates: [
+                    45.112589629419425,
+                    3.0555875995455253
+                  ]
+                },
+                notes: null,
+                numbering: 3648,
+                toponymy: Reichel Station
+              }
+            ],
+            buildYear: 1929,
+            externalCode: pwn99h7vhm,
+            floors: [
+              {
+                id: 26,
+                name: Seminterrato,
+                position: -1.0,
+                templateReference: Guid_1
+              },
+              {
+                id: 27,
+                name: Piano terra,
+                position: 0.0,
+                templateReference: Guid_2
+              },
+              {
+                id: 28,
+                name: Primo piano,
+                position: 1.0,
+                templateReference: Guid_3
+              },
+              {
+                id: 29,
+                name: Secondo piano,
+                position: 2.0,
+                templateReference: Guid_4
+              },
+              {
+                id: 30,
+                name: Terzo piano,
+                position: 3.0,
+                templateReference: Guid_5
+              },
+              {
+                id: 31,
+                name: Quarto piano,
+                position: 4.0,
+                templateReference: Guid_6
+              },
+              {
+                id: 32,
+                name: Quinto piano,
+                position: 5.0,
+                templateReference: Guid_7
+              },
+              {
+                id: 33,
+                name: Sesto piano,
+                position: 6.0,
+                templateReference: Guid_8
+              },
+              {
+                id: 34,
+                name: Settimo piano,
+                position: 7.0,
+                templateReference: Guid_9
+              },
+              {
+                id: 35,
+                name: Ottavo piano,
+                position: 8.0,
+                templateReference: Guid_10
+              },
+              {
+                id: 36,
+                name: Nono piano,
+                position: 9.0,
+                templateReference: Guid_11
+              }
+            ],
+            id: 4,
+            internalCode: I00004,
+            mainUsageType: {
+              internalCode: MU02,
+              name: Abitativo
+            },
+            managementOrgUnit: null,
+            managementSubject: {
+              id: 5,
+              name: Ratke LLC
+            },
+            name: Macejkovic - O'Kon,
+            notes: Asperiores laborum alias voluptatibus sapiente nesciunt est sunt consectetur veritatis aut minus aut voluptas facilis sunt et quo eos ducimus et et praesentium laboriosam omnis molestiae est repellat est sunt fuga doloribus officiis ut eos alias iste tempore vel et quia repellendus occaecati eum ut cupiditate neque harum omnis ipsam.,
+            ownership: FREEHOLD,
+            stairs: [
+              {
+                description: Ad nostrum totam.,
+                id: 4
+              }
+            ],
+            status: OPERATIONAL,
+            surfaceAreaSqM: 3753,
+            totalMarketValue: null,
+            type: LAND_PLOT_BUILDABLE,
+            usageType: {
+              internalCode: U11,
+              name: Terreno
+            }
+          },
+          {
+            addresses: [
+              {
+                addressType: PRIMARY,
+                city: null,
+                cityName: Timmyberg,
+                countryISO: ESP,
+                countyName: Cambridgeshire,
+                id: 5,
+                localPostCode: 94165-2603,
+                locationLatLon: {
+                  coordinates: [
+                    48.25242475664822,
+                    1.6853926147731917
+                  ]
+                },
+                notes: null,
+                numbering: 011,
+                toponymy: Linnea Rest
+              }
+            ],
+            buildYear: 1969,
+            externalCode: jirh3f4ukp,
+            floors: [
+              {
+                id: 37,
+                name: Seminterrato,
+                position: -1.0,
+                templateReference: Guid_1
+              },
+              {
+                id: 38,
+                name: Piano terra,
+                position: 0.0,
+                templateReference: Guid_2
+              },
+              {
+                id: 39,
+                name: Primo piano,
+                position: 1.0,
+                templateReference: Guid_3
+              },
+              {
+                id: 40,
+                name: Secondo piano,
+                position: 2.0,
+                templateReference: Guid_4
+              },
+              {
+                id: 41,
+                name: Terzo piano,
+                position: 3.0,
+                templateReference: Guid_5
+              },
+              {
+                id: 42,
+                name: Quarto piano,
+                position: 4.0,
+                templateReference: Guid_6
+              },
+              {
+                id: 43,
+                name: Quinto piano,
+                position: 5.0,
+                templateReference: Guid_7
+              },
+              {
+                id: 44,
+                name: Sesto piano,
+                position: 6.0,
+                templateReference: Guid_8
+              },
+              {
+                id: 45,
+                name: Settimo piano,
+                position: 7.0,
+                templateReference: Guid_9
+              },
+              {
+                id: 46,
+                name: Ottavo piano,
+                position: 8.0,
+                templateReference: Guid_10
+              },
+              {
+                id: 47,
+                name: Nono piano,
+                position: 9.0,
+                templateReference: Guid_11
+              }
+            ],
+            id: 5,
+            internalCode: I00005,
+            mainUsageType: {
+              internalCode: MU10,
+              name: Struttura ricettiva
+            },
+            managementOrgUnit: null,
+            managementSubject: {
+              id: 8,
+              name: Sauer, Shanahan and Weber
+            },
+            name: Waelchi - Hauck,
+            notes: Praesentium asperiores quia quia veniam harum et aliquam voluptatem perferendis dignissimos exercitationem voluptas qui provident hic sed rerum at eveniet totam nulla ex omnis corporis quam reprehenderit nihil nam animi recusandae repudiandae ullam soluta nisi totam et eius voluptates occaecati eos hic enim dolores voluptas amet voluptatem et officia voluptates.,
+            ownership: LOAN,
+            stairs: [
+              {
+                description: Harum totam voluptatibus.,
+                id: 5
+              }
+            ],
+            status: DECOMMISSIONED,
+            surfaceAreaSqM: 253,
+            totalMarketValue: null,
+            type: LAND_PLOT_UNDEVELOPED,
+            usageType: {
+              internalCode: U03,
+              name: Ufficio
+            }
+          },
+          {
+            addresses: [
+              {
+                addressType: PRIMARY,
+                city: null,
+                cityName: Howellport,
+                countryISO: DEU,
+                countyName: Borders,
+                id: 6,
+                localPostCode: 49166-8651,
+                locationLatLon: {
+                  coordinates: [
+                    44.92266382692506,
+                    7.7002197670285675
+                  ]
+                },
+                notes: null,
+                numbering: 24861,
+                toponymy: Meagan Ville
+              }
+            ],
+            buildYear: 1904,
+            externalCode: 8dln2jz5h2,
+            floors: [
+              {
+                id: 48,
+                name: Seminterrato,
+                position: -1.0,
+                templateReference: Guid_1
+              },
+              {
+                id: 49,
+                name: Piano terra,
+                position: 0.0,
+                templateReference: Guid_2
+              },
+              {
+                id: 50,
+                name: Primo piano,
+                position: 1.0,
+                templateReference: Guid_3
+              },
+              {
+                id: 51,
+                name: Secondo piano,
+                position: 2.0,
+                templateReference: Guid_4
+              },
+              {
+                id: 52,
+                name: Terzo piano,
+                position: 3.0,
+                templateReference: Guid_5
+              },
+              {
+                id: 53,
+                name: Quarto piano,
+                position: 4.0,
+                templateReference: Guid_6
+              }
+            ],
+            id: 6,
+            internalCode: I00006,
+            mainUsageType: {
+              internalCode: MU12,
+              name: Posto barca
+            },
+            managementOrgUnit: null,
+            managementSubject: {
+              id: 17,
+              name: Kuhlman LLC
+            },
+            name: Brakus LLC,
+            notes: Sit aperiam sint sunt vero modi fugit nesciunt omnis fugiat facere labore quia quia dolor in qui eum tempora in quae minima atque ex est esse autem adipisci aut dolores cupiditate possimus autem quisquam blanditiis dicta qui ipsa omnis ut cumque impedit laudantium perspiciatis quo nihil et voluptate illum culpa.,
+            ownership: OVERGROUND_ONLY,
+            stairs: [
+              {
+                description: Doloremque eos asperiores.,
+                id: 6
+              }
+            ],
+            status: OPERATIONAL,
+            surfaceAreaSqM: 9854,
+            totalMarketValue: null,
+            type: URBAN_PLOT,
+            usageType: {
+              internalCode: U11,
+              name: Terreno
+            }
+          },
+          {
+            addresses: [
+              {
+                addressType: PRIMARY,
+                city: null,
+                cityName: East Rooseveltmouth,
+                countryISO: GBR,
+                countyName: Cambridgeshire,
+                id: 7,
+                localPostCode: 69304-4202,
+                locationLatLon: {
+                  coordinates: [
+                    44.754163246953006,
+                    5.915898530704854
+                  ]
+                },
+                notes: null,
+                numbering: 51865,
+                toponymy: Zion Parks
+              }
+            ],
+            buildYear: 1906,
+            externalCode: fx1nbzvgo3,
+            floors: [
+              {
+                id: 54,
+                name: Seminterrato,
+                position: -1.0,
+                templateReference: Guid_1
+              },
+              {
+                id: 55,
+                name: Piano terra,
+                position: 0.0,
+                templateReference: Guid_2
+              },
+              {
+                id: 56,
+                name: Primo piano,
+                position: 1.0,
+                templateReference: Guid_3
+              },
+              {
+                id: 57,
+                name: Secondo piano,
+                position: 2.0,
+                templateReference: Guid_4
+              },
+              {
+                id: 58,
+                name: Terzo piano,
+                position: 3.0,
+                templateReference: Guid_5
+              },
+              {
+                id: 59,
+                name: Quarto piano,
+                position: 4.0,
+                templateReference: Guid_6
+              },
+              {
+                id: 60,
+                name: Quinto piano,
+                position: 5.0,
+                templateReference: Guid_7
+              },
+              {
+                id: 61,
+                name: Sesto piano,
+                position: 6.0,
+                templateReference: Guid_8
+              },
+              {
+                id: 62,
+                name: Settimo piano,
+                position: 7.0,
+                templateReference: Guid_9
+              }
+            ],
+            id: 7,
+            internalCode: I00007,
+            mainUsageType: {
+              internalCode: MU14,
+              name: Misto
+            },
+            managementOrgUnit: null,
+            managementSubject: {
+              id: 5,
+              name: Ratke LLC
+            },
+            name: McDermott, Zemlak and Bechtelar,
+            notes: Aut cumque laboriosam illum earum occaecati sit excepturi eum autem occaecati eum nostrum fugiat temporibus qui ea sed nihil architecto suscipit sint omnis et dolorem ut quo iste qui quod quisquam officia veritatis sit ipsa rerum et ut est rerum dolor recusandae quae perspiciatis sed quaerat sit dolorem architecto est.,
+            ownership: LOAN,
+            stairs: [
+              {
+                description: Cum ipsam illum.,
+                id: 7
+              }
+            ],
+            status: DECOMMISSIONED,
+            surfaceAreaSqM: 6920,
+            totalMarketValue: null,
+            type: URBAN_PLOT,
+            usageType: {
+              internalCode: U06,
+              name: Magazzino
+            }
+          },
+          {
+            addresses: [
+              {
+                addressType: PRIMARY,
+                city: null,
+                cityName: Douglasside,
+                countryISO: ITA,
+                countyName: Cambridgeshire,
+                id: 8,
+                localPostCode: 57349-8921,
+                locationLatLon: {
+                  coordinates: [
+                    48.48626647213766,
+                    2.9604329257087936
+                  ]
+                },
+                notes: null,
+                numbering: 062,
+                toponymy: Aisha Junctions
+              }
+            ],
+            buildYear: 2013,
+            externalCode: om2nnxb3sw,
+            floors: [
+              {
+                id: 63,
+                name: Seminterrato,
+                position: -1.0,
+                templateReference: Guid_1
+              },
+              {
+                id: 64,
+                name: Piano terra,
+                position: 0.0,
+                templateReference: Guid_2
+              },
+              {
+                id: 65,
+                name: Primo piano,
+                position: 1.0,
+                templateReference: Guid_3
+              },
+              {
+                id: 66,
+                name: Secondo piano,
+                position: 2.0,
+                templateReference: Guid_4
+              },
+              {
+                id: 67,
+                name: Terzo piano,
+                position: 3.0,
+                templateReference: Guid_5
+              },
+              {
+                id: 68,
+                name: Quarto piano,
+                position: 4.0,
+                templateReference: Guid_6
+              },
+              {
+                id: 69,
+                name: Quinto piano,
+                position: 5.0,
+                templateReference: Guid_7
+              },
+              {
+                id: 70,
+                name: Sesto piano,
+                position: 6.0,
+                templateReference: Guid_8
+              },
+              {
+                id: 71,
+                name: Settimo piano,
+                position: 7.0,
+                templateReference: Guid_9
+              },
+              {
+                id: 72,
+                name: Ottavo piano,
+                position: 8.0,
+                templateReference: Guid_10
+              },
+              {
+                id: 73,
+                name: Nono piano,
+                position: 9.0,
+                templateReference: Guid_11
+              },
+              {
+                id: 74,
+                name: Decimo piano,
+                position: 10.0,
+                templateReference: Guid_12
+              }
+            ],
+            id: 8,
+            internalCode: I00008,
+            mainUsageType: {
+              internalCode: MU14,
+              name: Misto
+            },
+            managementOrgUnit: null,
+            managementSubject: {
+              id: 16,
+              name: Weissnat, Connelly and Waters
+            },
+            name: Raynor - Wisoky,
+            notes: Repellendus nostrum ea accusamus incidunt sed similique eius tempore atque est deleniti neque voluptatem ducimus totam architecto a ut et et sapiente sequi officiis ea necessitatibus animi itaque voluptates autem dolorem et explicabo harum repellendus quia ipsam explicabo eligendi similique molestiae atque aut qui suscipit neque quos voluptates officiis rerum.,
+            ownership: UNDERGROUND_ONLY,
+            stairs: [
+              {
+                description: Pariatur doloribus aperiam.,
+                id: 8
+              }
+            ],
+            status: OPERATIONAL,
+            surfaceAreaSqM: 1769,
+            totalMarketValue: null,
+            type: MIXED,
+            usageType: {
+              internalCode: U09,
+              name: Scuola
+            }
+          },
+          {
+            addresses: [
+              {
+                addressType: PRIMARY,
+                city: null,
+                cityName: Feltonshire,
+                countryISO: ITA,
+                countyName: Avon,
+                id: 9,
+                localPostCode: 16563-0087,
+                locationLatLon: {
+                  coordinates: [
+                    48.46069522270034,
+                    8.163907755242619
+                  ]
+                },
+                notes: null,
+                numbering: 45232,
+                toponymy: Little Spurs
+              }
+            ],
+            buildYear: 2019,
+            externalCode: cimbab2dj8,
+            floors: [
+              {
+                id: 75,
+                name: Seminterrato,
+                position: -1.0,
+                templateReference: Guid_1
+              },
+              {
+                id: 76,
+                name: Piano terra,
+                position: 0.0,
+                templateReference: Guid_2
+              },
+              {
+                id: 77,
+                name: Primo piano,
+                position: 1.0,
+                templateReference: Guid_3
+              },
+              {
+                id: 78,
+                name: Secondo piano,
+                position: 2.0,
+                templateReference: Guid_4
+              },
+              {
+                id: 79,
+                name: Terzo piano,
+                position: 3.0,
+                templateReference: Guid_5
+              },
+              {
+                id: 80,
+                name: Quarto piano,
+                position: 4.0,
+                templateReference: Guid_6
+              },
+              {
+                id: 81,
+                name: Quinto piano,
+                position: 5.0,
+                templateReference: Guid_7
+              }
+            ],
+            id: 9,
+            internalCode: I00009,
+            mainUsageType: {
+              internalCode: MU08,
+              name: Agricola
+            },
+            managementOrgUnit: null,
+            managementSubject: {
+              id: 19,
+              name: Cassin Group
+            },
+            name: Walsh Inc,
+            notes: Ut in illum nihil tenetur aut ut et qui est veritatis ut distinctio modi unde dolorem laborum sapiente amet repellendus et ex ab quibusdam ipsum quo eum quaerat est sapiente tempore placeat quos id soluta nihil odit mollitia accusamus consequuntur doloribus tempora rerum dolorem similique ipsa quidem explicabo non eius.,
+            ownership: LOAN,
+            stairs: [
+              {
+                description: Cumque non recusandae.,
+                id: 9
+              }
+            ],
+            status: OPERATIONAL,
+            surfaceAreaSqM: 1595,
+            totalMarketValue: null,
+            type: BUILDING,
+            usageType: {
+              internalCode: U06,
+              name: Magazzino
+            }
+          },
+          {
+            addresses: [
+              {
+                addressType: PRIMARY,
+                city: null,
+                cityName: Port Jensenfurt,
+                countryISO: DEU,
+                countyName: Bedfordshire,
+                id: 10,
+                localPostCode: 17010-1718,
+                locationLatLon: {
+                  coordinates: [
+                    47.21335372431825,
+                    7.3027207606019084
+                  ]
+                },
+                notes: null,
+                numbering: 609,
+                toponymy: Dillon Mall
+              }
+            ],
+            buildYear: 1911,
+            estateUnits: [
+              {
+                id: 17,
+                name: Schamberger and Sons
+              }
+            ],
+            externalCode: 6agf0brxju,
+            floors: [
+              {
+                id: 82,
+                name: Seminterrato,
+                position: -1.0,
+                templateReference: Guid_1
+              },
+              {
+                id: 83,
+                name: Piano terra,
+                position: 0.0,
+                templateReference: Guid_2
+              },
+              {
+                id: 84,
+                name: Primo piano,
+                position: 1.0,
+                templateReference: Guid_3
+              },
+              {
+                id: 85,
+                name: Secondo piano,
+                position: 2.0,
+                templateReference: Guid_4
+              },
+              {
+                id: 86,
+                name: Terzo piano,
+                position: 3.0,
+                templateReference: Guid_5
+              },
+              {
+                id: 87,
+                name: Quarto piano,
+                position: 4.0,
+                templateReference: Guid_6
+              },
+              {
+                id: 88,
+                name: Quinto piano,
+                position: 5.0,
+                templateReference: Guid_7
+              },
+              {
+                id: 89,
+                name: Sesto piano,
+                position: 6.0,
+                templateReference: Guid_8
+              }
+            ],
+            id: 10,
+            internalCode: I00010,
+            mainUsageType: {
+              internalCode: MU04,
+              name: Commerciale
+            },
+            managementOrgUnit: null,
+            managementSubject: {
+              id: 17,
+              name: Kuhlman LLC
+            },
+            name: Hickle, Herman and Veum,
+            notes: Inventore quibusdam ea velit tempora incidunt magni architecto id minus iste quae in aut consequuntur eum assumenda ex dicta ut et earum impedit possimus excepturi consequatur magnam ut quo omnis nobis nesciunt ut sit aut error hic quas quia autem quia dolorem ducimus perspiciatis repudiandae iure et excepturi est ut.,
+            ownership: FREEHOLD,
+            stairs: [
+              {
+                description: Est unde vitae.,
+                id: 10
+              }
+            ],
+            status: OPERATIONAL,
+            surfaceAreaSqM: 249,
+            totalMarketValue: null,
+            type: LAND_PLOT_BUILDABLE,
+            usageType: {
+              internalCode: U03,
+              name: Ufficio
+            }
+          },
+          {
+            addresses: [
+              {
+                addressType: PRIMARY,
+                city: null,
+                cityName: Port Prudence,
+                countryISO: FRA,
+                countyName: Buckinghamshire,
+                id: 11,
+                localPostCode: 98510-5638,
+                locationLatLon: {
+                  coordinates: [
+                    45.62514467566513,
+                    9.652983746795442
+                  ]
+                },
+                notes: null,
+                numbering: 6960,
+                toponymy: Rodger Throughway
+              }
+            ],
+            buildYear: 1928,
+            externalCode: zvd61e57xk,
+            floors: [
+              {
+                id: 90,
+                name: Seminterrato,
+                position: -1.0,
+                templateReference: Guid_1
+              },
+              {
+                id: 91,
+                name: Piano terra,
+                position: 0.0,
+                templateReference: Guid_2
+              },
+              {
+                id: 92,
+                name: Primo piano,
+                position: 1.0,
+                templateReference: Guid_3
+              },
+              {
+                id: 93,
+                name: Secondo piano,
+                position: 2.0,
+                templateReference: Guid_4
+              },
+              {
+                id: 94,
+                name: Terzo piano,
+                position: 3.0,
+                templateReference: Guid_5
+              }
+            ],
+            id: 11,
+            internalCode: I00011,
+            mainUsageType: {
+              internalCode: MU13,
+              name: Terreno
+            },
+            managementOrgUnit: null,
+            managementSubject: {
+              id: 4,
+              name: Willms, Crist and Swift
+            },
+            name: Ortiz, Kohler and Carroll,
+            notes: Exercitationem tempora laudantium dolores neque voluptas quia consectetur quod et quia repellendus adipisci sit ut porro voluptas voluptatum corporis id impedit vel quaerat et ut dolores sint dolore in officia dicta aut quas quaerat soluta dignissimos alias dolorum molestiae aut omnis modi labore et consectetur qui at numquam et dolores.,
+            ownership: UNDERGROUND_ONLY,
+            stairs: [
+              {
+                description: Amet qui exercitationem.,
+                id: 11
+              }
+            ],
+            status: OPERATIONAL,
+            surfaceAreaSqM: 2749,
+            totalMarketValue: null,
+            type: UNDEFINED,
+            usageType: {
+              internalCode: U05,
+              name: Box/posto auto
+            }
+          },
+          {
+            addresses: [
+              {
+                addressType: PRIMARY,
+                city: null,
+                cityName: Carsonfurt,
+                countryISO: GBR,
+                countyName: Bedfordshire,
+                id: 12,
+                localPostCode: 16255,
+                locationLatLon: {
+                  coordinates: [
+                    47.86625529912592,
+                    6.305778625563615
+                  ]
+                },
+                notes: null,
+                numbering: 493,
+                toponymy: Simonis Mountains
+              }
+            ],
+            buildYear: 1917,
+            estateUnits: [
+              {
+                id: 10,
+                name: Fritsch Inc
+              },
+              {
+                id: 23,
+                name: Herzog, Ebert and Strosin
+              }
+            ],
+            externalCode: obvs5j2axi,
+            floors: [
+              {
+                id: 95,
+                name: Seminterrato,
+                position: -1.0,
+                templateReference: Guid_1
+              },
+              {
+                id: 96,
+                name: Piano terra,
+                position: 0.0,
+                templateReference: Guid_2
+              },
+              {
+                id: 97,
+                name: Primo piano,
+                position: 1.0,
+                templateReference: Guid_3
+              },
+              {
+                id: 98,
+                name: Secondo piano,
+                position: 2.0,
+                templateReference: Guid_4
+              },
+              {
+                id: 99,
+                name: Terzo piano,
+                position: 3.0,
+                templateReference: Guid_5
+              },
+              {
+                id: 100,
+                name: Quarto piano,
+                position: 4.0,
+                templateReference: Guid_6
+              },
+              {
+                id: 101,
+                name: Quinto piano,
+                position: 5.0,
+                templateReference: Guid_7
+              }
+            ],
+            id: 12,
+            internalCode: I00012,
+            mainUsageType: {
+              internalCode: MU10,
+              name: Struttura ricettiva
+            },
+            managementOrgUnit: null,
+            managementSubject: {
+              id: 4,
+              name: Willms, Crist and Swift
+            },
+            name: O'Reilly LLC,
+            notes: Unde dolores dolorem atque sunt sit laborum accusamus facilis corporis laboriosam ut molestiae alias ut quo id velit voluptatum laboriosam reprehenderit quaerat atque eveniet et dicta quo sed fugit repudiandae quo fugit dolor perferendis ut quidem quo eaque voluptates hic ab ea voluptatem sit ut necessitatibus est provident aut dignissimos.,
+            ownership: MIXED,
+            stairs: [
+              {
+                description: Doloribus facilis omnis.,
+                id: 12
+              }
+            ],
+            status: DECOMMISSIONED,
+            surfaceAreaSqM: 7199,
+            totalMarketValue: null,
+            type: LAND_PLOT_BUILDABLE,
+            usageType: {
+              internalCode: U03,
+              name: Ufficio
+            }
+          }
+        ],
+        pageInfo: {
+          endCursor: OQ==,
+          hasNextPage: true,
+          hasPreviousPage: false,
+          startCursor: MA==
+        },
+        totalCount: 28
+      }
+    }
+  },
+  IsDataSet: true
+}

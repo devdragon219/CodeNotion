@@ -1,0 +1,32 @@
+fragment CalendarFragment on Calendar {
+  name
+  timeZoneId
+  sunday {
+    ...CalendarDayFragment
+  }
+  monday {
+    ...CalendarDayFragment
+  }
+  tuesday {
+    ...CalendarDayFragment
+  }
+  wednesday {
+    ...CalendarDayFragment
+  }
+  thursday {
+    ...CalendarDayFragment
+  }
+  friday {
+    ...CalendarDayFragment
+  }
+  saturday {
+    ...CalendarDayFragment
+  }
+  holidays {
+    name
+    date
+    periodicity
+    id
+  }
+  id
+}

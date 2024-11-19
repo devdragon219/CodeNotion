@@ -1,0 +1,73 @@
+{
+  "catalogue_type": {
+    "title": "Catalogue type",
+    "tab": {
+      "general_data": "General data",
+      "fields": "Item configuration",
+      "activities": "Activity",
+      "recap": "Recap"
+    },
+    "section_title": {
+      "general_data": "General data",
+      "default_fields": "Default fields",
+      "additional_fields": "Additional fields",
+      "activities": "Activity",
+      "recap": "Recap"
+    },
+    "field": {
+      "catalogue_type_code": "Catalogue type Code",
+      "catalogue_type": "Catalogue Type",
+      "catalogue_type_category": "Category",
+      "catalogue_type_subcategory": "Subcategory",
+      "catalogue_type_usage_type": "Usage type",
+      "notes": "Notes",
+      "catalogue_item_code": "Object code",
+      "catalogue_item_status": "Object status",
+      "catalogue_item_activation_date": "Activation date",
+      "catalogue_item_decommissioning_date": "Decommissioning date",
+      "catalogue_item_last_maintenance_date": "Last maintenance date",
+      "activity_type": "Activity type",
+      "activity_name": "Activity name",
+      "activity_mandatory_by_law": "Mandatory by law"
+    },
+    "error": {
+      "internal_code": "The Catalogue type code provided is already in use"
+    },
+    "action": {
+      "add_category": "Add category",
+      "add_subcategory": "Add subcategory",
+      "select_all_usage_types": "Select all usage types",
+      "add_activity": "Add activity"
+    },
+    "text": {
+      "no_catalogue_types": "No catalogue types available",
+      "no_fields": "No additional fields available, press edit to add an additional field",
+      "no_activities": "No activity available, press edit to add an activity"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add catalogue type",
+        "save": "Save catalogue type"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this catalogue type?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these catalogue types?\nThe process cannot be undone"
+        }
+      },
+      "activity": {
+        "add": "Add activity",
+        "edit": "Edit activity"
+      }
+    },
+    "feedback": {
+      "create": "Catalogue type created successfully",
+      "delete": {
+        "single": "Catalogue type deleted successfully",
+        "multiple": "Catalogue types deleted successfully"
+      },
+      "update": "Catalogue type edited successfully"
+    }
+  }
+}

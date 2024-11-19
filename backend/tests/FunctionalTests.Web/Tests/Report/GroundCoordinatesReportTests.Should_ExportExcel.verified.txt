@@ -1,0 +1,25 @@
+﻿[
+  [
+    Codice unità,
+    Uso,
+    Indirizzo,
+    Partita,
+    Foglio,
+    Mappale,
+    Subalterno,
+    Numero protocollo,
+    Data protocollo,
+    Sezione,
+    Reddito agrario,
+    Reddito dominicale,
+    Superficie
+  ],
+  [
+    I00012U010,
+    Laboratorio,
+    Simonis Mountains, Carsonfurt - 493 - 16255 - Regno Unito,
+    0,
+    0,
+    7099.76
+  ]
+]

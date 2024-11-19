@@ -1,0 +1,66 @@
+{
+  "catalogue_category": {
+    "title": "Categorie Oggetti",
+    "tab": {
+      "general_data": "Dati generali",
+      "catalogue_sub_category": "Sottocategoria"
+    },
+    "section_title": {
+      "general_data": "Dati generali",
+      "catalogue_sub_category": "Sottocategoria oggetto"
+    },
+    "field": {
+      "catalogue_category_code": "Codice Categoria",
+      "catalogue_category_name": "Descrizione",
+      "catalogue_sub_category": "Sottocategoria",
+      "catalogue_sub_category_code": "Codice Sottocategoria",
+      "catalogue_sub_category_name": "Descrizione",
+      "catalogue_sub_category_parent": "Categoria"
+    },
+    "error": {
+      "category_internal_code": "Il codice categoria inserito è già in uso",
+      "sub_category_internal_code": "Il codice sottocategoria inserito è già in uso"
+    },
+    "action": {
+      "add_catalogue_category": "Aggiungi categoria oggetto",
+      "add_sub_category": "Aggiungi sottocategoria"
+    },
+    "text": {
+      "no_catalogue_categories": "Non sono presenti categorie oggetti",
+      "no_sub_categories": "Non sono presenti sottocategorie, clicca su modifica per aggiungere una sottocategoria"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta categoria oggetto",
+        "save": "Salva categoria"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa categoria oggetto?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste categorie oggetto?\nIl processo non potrà essere annullato"
+        }
+      },
+      "update": {
+        "title": "Modifica categoria oggetto",
+        "save": "Salva categoria"
+      },
+      "sub_category": {
+        "add": "Aggiunta sottocategoria",
+        "edit": "Modifica sottocategoria",
+        "view": "Vedi tutte sottocategorie"
+      }
+    },
+    "feedback": {
+      "create": {
+        "single": "Categoria oggetto creata con successo",
+        "multiple": "Categorie oggetto create con successo"
+      },
+      "delete": {
+        "single": "Categoria oggetto cancellata con successo",
+        "multiple": "Categorie oggetto cancellate con successo"
+      },
+      "update": "Categoria oggetto modificata con successo"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "administration": {
+    "title": "Amministrazioni",
+    "detail_title": "Amministrazione {{type}}",
+    "tab": {
+      "general_data": "Dati generali",
+      "estate": "Immobile",
+      "administration": "Amministrazione",
+      "terms": "Esercizi",
+      "recap": "Riepilogo"
+    },
+    "section_title": {
+      "select_estate": "Seleziona immobile",
+      "estate": "Immobile",
+      "administration": "Amministrazione",
+      "general_data": "Dati generali",
+      "bank_account": "Conto corrente",
+      "address": "Indirizzo",
+      "contacts": "Contatti",
+      "recap": "Riepilogo"
+    },
+    "field": {
+      "administration_type": "Tipo amministrazione",
+      "administrator": "Amministratore",
+      "start_date": "Data inizio mandato",
+      "end_date": "Data fine mandato",
+      "payment_type": "Tipo pagamento",
+      "is_payment_data_included": "Includi nel flusso di pagamento",
+      "bank_account_holder": "Intestatario conto corrente",
+      "notes": "Note"
+    },
+    "action": {
+      "add_administration": "Aggiungi amministrazione"
+    },
+    "error": {
+      "no_estate": "Nessun immobile selezionato",
+      "administration_not_expired": "Esiste un'amministrazione della stessa tipologia ancora in vigore",
+      "no_administrations": "Aggiungi almeno un'amministrazione",
+      "no_duplicated_administration": "Non è possibile aggiungere due amministrazioni dello stesso tipo nello stesso periodo di mandato"
+    },
+    "text": {
+      "no_administrations": "Non sono presenti amministrazioni"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiungi amministrazione",
+        "save": "Salva amministrazione"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa amministrazione?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste amministrazioni?\nIl processo non potrà essere annullato"
+        }
+      }
+    },
+    "feedback": {
+      "create": "Amministrazione creata con successo",
+      "delete": {
+        "single": "Amministrazione cancellata con successo",
+        "multiple": "Amministrazioni cancellate con successo"
+      },
+      "update": "Amministrazione modificata con successo"
+    }
+  }
+}

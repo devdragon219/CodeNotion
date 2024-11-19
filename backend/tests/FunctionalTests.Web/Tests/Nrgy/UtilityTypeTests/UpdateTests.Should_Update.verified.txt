@@ -1,0 +1,92 @@
+﻿{
+  Data: {
+    utilityType: {
+      update: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          category: LIQUID_FOSSIL_FUELS,
+          chargeFields: [
+            [
+              {
+                id: Guid_1,
+                isMandatory: true,
+                name: aut,
+                type: SINGLE_ITEM_FROM_LIST,
+                validValues: [
+                  et,
+                  ex,
+                  rerum,
+                  aut
+                ]
+              }
+            ],
+            [
+              {
+                id: Guid_2,
+                isMandatory: true,
+                name: doloremque,
+                type: SIMPLE_NUMBER,
+                validValues: null
+              },
+              {
+                id: Guid_3,
+                isMandatory: false,
+                name: doloribus,
+                type: DATE,
+                validValues: null
+              },
+              {
+                id: Guid_4,
+                isMandatory: false,
+                name: veniam,
+                type: DATE,
+                validValues: null
+              }
+            ],
+            [
+              {
+                id: Guid_5,
+                isMandatory: true,
+                name: hic,
+                type: SIMPLE_TEXT,
+                validValues: null
+              },
+              {
+                id: Guid_6,
+                isMandatory: false,
+                name: eum,
+                type: SIMPLE_TEXT,
+                validValues: null
+              },
+              {
+                id: Guid_7,
+                isMandatory: true,
+                name: autem,
+                type: SINGLE_ITEM_FROM_LIST,
+                validValues: [
+                  iste,
+                  porro,
+                  cumque,
+                  perferendis,
+                  doloribus
+                ]
+              }
+            ]
+          ],
+          description: aut,
+          expenseClass: mppy35ds6s,
+          externalCode: x3n18bzona,
+          hasHeatingAccountingSystem: false,
+          id: 1,
+          internalCode: grnfc,
+          measurementUnit: btv,
+          measurementUnitDescription: Oklahoma,
+          meteringType: INCREMENTAL_READING,
+          timeOfUseRateCount: 5
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

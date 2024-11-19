@@ -1,0 +1,193 @@
+query getCatalogueCategories(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: CatalogueCategoryFilterInput
+  $order: [CatalogueCategorySortInput!]
+) {
+  catalogueCategory {
+    listCatalogueCategories(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...CatalogueCategoryFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getAllCatalogueCategories(
+  $where: CatalogueCategoryFilterInput
+  $order: [CatalogueCategorySortInput!]
+) {
+  catalogueCategory {
+    listCatalogueCategoriesFull(where: $where, order: $order) {
+      ...CatalogueCategoryFragment
+    }
+  }
+}
+
+query getCatalogueCategory($catalogueCategoryId: Int!) {
+  catalogueCategory {
+    get(id: $catalogueCategoryId) {
+      ...CatalogueCategoryFragment
+    }
+  }
+}
+
+mutation createCatalogueCategory($input: CatalogueCategoryInput!) {
+  catalogueCategory {
+    add(input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+      value {
+        ...CatalogueCategoryFragment
+      }
+    }
+  }
+}
+
+mutation deleteCatalogueCategory($id: Int!) {
+  catalogueCategory {
+    delete(id: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteCatalogueCategories($ids: [Int!]!) {
+  catalogueCategory {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateCatalogueCategory(
+  $catalogueCategoryId: Int!
+  $input: CatalogueCategoryInput!
+) {
+  catalogueCategory {
+    update(id: $catalogueCategoryId, input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+      value {
+        ...CatalogueCategoryFragment
+      }
+    }
+  }
+}
+
+query getCatalogueCategoryInternalCode {
+  catalogueCategory {
+    proposeNewInternalCode
+  }
+}
+
+query canUseCatalogueCategoryInternalCode(
+  $internalCode: String!
+  $currentCatalogueCategoryId: Int
+) {
+  catalogueCategory {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentCatalogueCategoryId: $currentCatalogueCategoryId
+    )
+  }
+}
+
+query getCatalogueSubCategoryInternalCode(
+  $parentInternalCode: String!
+  $additionallyOccupiedCodes: [String!]!
+) {
+  catalogueCategory {
+    proposeNewInternalCodeSubCategory(
+      parentInternalCode: $parentInternalCode
+      additionallyOccupiedCodes: $additionallyOccupiedCodes
+    )
+  }
+}
+
+query canUseCatalogueSubCategoryInternalCode(
+  $internalCode: String!
+  $catalogueCategoryId: Int
+  $currentCatalogueSubCategoryId: Int
+) {
+  catalogueCategory {
+    canUseInternalCodeSubCategory(
+      internalCode: $internalCode
+      catalogueCategoryId: $catalogueCategoryId
+      currentCatalogueSubCategoryId: $currentCatalogueSubCategoryId
+    )
+  }
+}
+
+query getCatalogueSubCategories(
+  $catalogueCategoryId: Int
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: CatalogueSubCategoryFilterInput
+  $order: [CatalogueSubCategorySortInput!]
+) {
+  catalogueCategory {
+    listCatalogueSubCategories(
+      catalogueCategoryId: $catalogueCategoryId
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...CatalogueSubCategoryFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getAllCatalogueSubCategories(
+  $catalogueCategoryId: Int!
+  $where: CatalogueSubCategoryFilterInput
+  $order: [CatalogueSubCategorySortInput!]
+) {
+  catalogueCategory {
+    listCatalogueSubCategoriesFull(
+      catalogueCategoryId: $catalogueCategoryId
+      where: $where
+      order: $order
+    ) {
+      ...CatalogueSubCategoryFragment
+    }
+  }
+}

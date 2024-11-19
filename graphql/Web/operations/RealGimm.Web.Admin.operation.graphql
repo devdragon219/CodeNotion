@@ -1,0 +1,131 @@
+query getUsers(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: UserFilterInput
+  $order: [UserSortInput!]
+) {
+  admin {
+    listUsers(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...UserFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getUser($userId: Int!) {
+  admin {
+    user(userId: $userId) {
+      ...UserDetailFragment
+    }
+  }
+}
+
+query exportUsers($where: UserFilterInput, $order: [UserSortInput!]) {
+  admin {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+mutation createUser($userInput: AdminUserInput!) {
+  admin {
+    addUser(userInput: $userInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateUser($userId: Int!, $userInput: AdminUserInput!) {
+  admin {
+    updateUser(userId: $userId, userInput: $userInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteUser($id: Int!) {
+  admin {
+    deleteUser(userId: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteUsers($ids: [Int!]!) {
+  admin {
+    deleteByIds(userIds: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getUserSessions($userId: Int!) {
+  admin {
+    user(userId: $userId) {
+      sessions {
+        ...SessionFragment
+      }
+    }
+  }
+}
+
+mutation revokeUserSession($userId: Int!, $sessionId: Int!) {
+  admin {
+    revokeSession(userId: $userId, sessionId: $sessionId) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation revokeAllUserSessions($userId: Int!) {
+  admin {
+    revokeAllSessions(userId: $userId) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query canUseUsername($userName: String!, $currentUserId: Int) {
+  admin {
+    canUseUsername(userName: $userName, currentUserId: $currentUserId)
+  }
+}

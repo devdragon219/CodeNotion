@@ -1,0 +1,228 @@
+{
+  "component": {
+    "addresses_field": {
+      "field": {
+        "type": "Tipologia",
+        "country": "Nazione",
+        "city": "Comune",
+        "county": "Provincia",
+        "toponymy": "Indirizzo",
+        "number": "Numero civico",
+        "postal_code": "CAP",
+        "notes": "Note"
+      }
+    },
+    "conditions_builder": {
+      "section_title": {
+        "if": "Se",
+        "then": "Allora"
+      },
+      "field": {
+        "condition": "Condizione parametro",
+        "operator": "Operazione",
+        "calendar": "Calendario",
+        "value": "Valore",
+        "value_max": "Valore a",
+        "value_min": "Valore da",
+        "penalty_type": "Tipo penale",
+        "penalty_value": "Valore penale"
+      },
+      "action": {
+        "add_condition": "Aggiungi condizione",
+        "add_inner_condition": "Aggiungi condizione interna",
+        "add_penalty": "Aggiungi tipo penale"
+      },
+      "error": {
+        "no_conditions": "Creare almeno una condizione"
+      }
+    },
+    "dashboard_widget": {
+      "bill_payments_status_percentage": {
+        "title": "Stato pagamenti",
+        "paid": "Pagato",
+        "pending": "In sospeso",
+        "view_all": "Vedi tutti i pagamenti"
+      },
+      "contracts_expirations_list": {
+        "title": {
+          "active": "Scadenze contratti attivi",
+          "passive": "Scadenze contratti passivi"
+        },
+        "view_all": "Vedi tutte"
+      },
+      "contracts_recap": {
+        "active_contracts_count": "Numero contratti attivi",
+        "active_contracts_income": "Entrate contratti attivi",
+        "passive_contracts_count": "Numero contratti passivi",
+        "passive_contracts_outcome": "Uscite contratti passivi"
+      },
+      "estate_occupation_status_percentage": {
+        "title": "Percentuale occupazione",
+        "last_year_increase": "Rispetto anno precedente",
+        "two_years_increase": "Rispetto 2 anni fa",
+        "total": "Totale",
+        "average": "Media"
+      },
+      "estate_unit_types_percentage": {
+        "title": "Tipologie UI",
+        "view_all": "Vedi tutte le tipologie"
+      },
+      "income_outcome_comparison_chart": {
+        "title": "Confronto entrate e uscite",
+        "income": "Entrate",
+        "outcome": "Uscite"
+      },
+      "notifications_list": {
+        "title": "Notifiche",
+        "no_notifications": "Al momento non sono presenti notifiche",
+        "view_all": "Vedi tutte"
+      },
+      "real_estate_recap": {
+        "estates": "Immobili",
+        "estate_units": "Unità immobiliari",
+        "occupied_estates": "Immobili occupati",
+        "vacant_estates": "Immobili liberi"
+      },
+      "tickets_completed_chart": {
+        "title": "Manutenzioni eseguite",
+        "start_date": "Data inizio",
+        "end_date": "Data fine",
+        "chart_type": "Periodo",
+        "tickets_on_condition": "Manutenzioni su condizione",
+        "tickets_preventative": "Manutenzioni programmate"
+      },
+      "tickets_count_chart": {
+        "title": "Confronto tra il totale delle attività di manutenzione",
+        "years": "Anni"
+      },
+      "tickets_excluded_from_maintenance_contract": {
+        "title": {
+          "default": "Canone/extra canone",
+          "expenses": "Costi",
+          "total_expenses": "Costi totali"
+        },
+        "start_date": "Data inizio",
+        "end_date": "Data fine",
+        "chart_type": "Periodo",
+        "excluded": "Extra canone",
+        "non_excluded": "Canone",
+        "total_yearly_expenses": "Costi totali annui",
+        "excluded_expenses": "Costi extra canone",
+        "non_excluded_expenses": "Costi a canone"
+      },
+      "tickets_expirations_list": {
+        "title": {
+          "checklist": "Scadenze manutenzioni",
+          "mandatory_by_law": "Scadenze obbligo di legge",
+          "issue": "Scadenze ticket"
+        },
+        "view_all": "Vedi tutte"
+      },
+      "tickets_mandatory_by_law_expired": {
+        "title": "Manutenzioni obbligo di legge scadute"
+      },
+      "tickets_mandatory_by_law_list": {
+        "title": "Scadenze",
+        "catalogue_type": "Tipologia oggetto / servizio",
+        "ticket_code": "Codice manutenzione",
+        "date": "Data"
+      },
+      "tickets_mandatory_by_law_status_percentage": {
+        "title": "Stati",
+        "tickets_done": "Eseguite",
+        "tickets_expired": "Scadute",
+        "tickets_scheduled": "Programmate"
+      },
+      "tickets_mandatory_by_law_type_percentage": {
+        "title": "Tipologie"
+      },
+      "tickets_preventative_expired": {
+        "title": "Manutenzioni programmate scadute"
+      },
+      "tickets_priority_percentage": {
+        "title": "Priorità"
+      },
+      "tickets_sla_respecting_percentage": {
+        "title": "Rispetto degli SLA",
+        "respecting": "In SLA",
+        "non_respecting": "Fuori SLA"
+      },
+      "tickets_status": {
+        "title": {
+          "average": "Tempi medi di risoluzione",
+          "count": "Stati"
+        },
+        "start_date": "Data inizio",
+        "end_date": "Data fine",
+        "chart_type": "Periodo",
+        "status_assigned": "In carico",
+        "status_completed": "Chiusi",
+        "status_in_progress": "In lavorazione",
+        "status_new": "Censiti",
+        "status_resolved": "Risolti"
+      },
+      "tickets_total_expenses": {
+        "title": "Confronto costi totali",
+        "years": "Anni"
+      },
+      "tickets_type_chart": {
+        "title": "Attività di manutenzione",
+        "start_date": "Data inizio",
+        "end_date": "Data fine",
+        "chart_type": "Periodo",
+        "tickets_issue": "Ticket",
+        "tickets_on_condition": "Manutenzioni su condizione",
+        "tickets_preventative": "Manutenzioni programmate"
+      },
+      "tickets_type_list": {
+        "title": "Tipologie",
+        "type": "Tipologia"
+      },
+      "usage_types_percentage": {
+        "title": "Destinazioni d'uso",
+        "view_all": "Vedi tutte le destinazioni d'uso"
+      }
+    },
+    "estate_unit_usage_type_field": {
+      "label": "Destinazione d'uso"
+    },
+    "estate_usage_type_field": {
+      "label": "Destinazione d'uso"
+    },
+    "permissions_table": {
+      "module": "Modulo",
+      "block": "Blocco",
+      "module_and_block": "Modulo e blocco",
+      "permissions": "Permessi",
+      "read": "Visualizza",
+      "edit": "Modifica",
+      "delete": "Cancella",
+      "add": "Aggiungi",
+      "no_permissions": "Nessun permesso"
+    },
+    "worker": {
+      "section_title": {
+        "workers": "Operai"
+      },
+      "field": {
+        "worker_first_name": "Nome",
+        "worker_last_name": "Cognome",
+        "worker_since": "Data inizio",
+        "worker_until": "Data fine",
+        "worker_craft": "Specializzazione",
+        "worker_level": "Livello"
+      },
+      "text": {
+        "no_workers": "Non sono presenti operai"
+      },
+      "action": {
+        "add_workers": "Aggiunta operai"
+      },
+      "dialog": {
+        "view_workers": "Visualizza operai",
+        "add_workers": "Aggiunta operai",
+        "edit_worker": "Modifica operaio"
+      }
+    }
+  }
+}

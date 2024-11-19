@@ -1,0 +1,123 @@
+{
+  "cost_charge": {
+    "title": "Cost charges",
+    "tab": {
+      "utility_service": "Utility service",
+      "general_data": "Cost charge",
+      "recap": "Recap"
+    },
+    "section_title": {
+      "import": "To add multiple cost charges at one, download the template, fill it and upload",
+      "upload_cost_charges": "Upload cost charges",
+      "select_utility_service": "Select utility service",
+      "utility_service": "Utility service data",
+      "cost_charge": "Cost charge",
+      "invoiced_consumption": "Invoiced consumption",
+      "actual_consumption": "Actual consumption",
+      "expected_consumption": "Expected consumption",
+      "other_data": "Other data",
+      "recap": "Recap"
+    },
+    "field": {
+      "estates": "Estates",
+      "estate_units": "Estate units",
+      "utility_type": "Utility type",
+      "total_amount": "Total amount",
+      "period": "Period",
+      "period_start": "Period start",
+      "period_end": "Period end",
+      "reference_date": "Reference date",
+      "due_date": "Due date",
+      "invoice_number": "Invoice number",
+      "vat_amount": "VAT amount",
+      "invoiced_consumption": "Invoiced consumption",
+      "invoiced_consumption_with_unit": "Invoiced consumption ({{ measurementUnit }})",
+      "since": "Start date",
+      "until": "End date",
+      "reading": "Reading",
+      "reading_value": "Reading {{ index }}",
+      "usage_value": "Usage",
+      "usage_value_with_unit": "Usage ({{ measurementUnit }})",
+      "reference_subject": "Reference subject",
+      "org_unit": "Org unit",
+      "utility_type_category": "Utility category",
+      "provider_subject": "Provider",
+      "provider_subject_internal_code": "Provider code",
+      "provider_subject_vat_number": "VAT",
+      "accounting_item": "Accounting item",
+      "utility_description": "Utility description",
+      "utility_contract_code": "Utility code (contract)",
+      "utility_user_code": "User code",
+      "utility_type_metering_type": "Reading/usage",
+      "free_market": "Free market",
+      "deposit": "Deposit",
+      "status": "Contract status",
+      "utility_meter_serial": "Meter serial",
+      "utility_delivery_point_code": "Delivery point code",
+      "activation_date": "Activation date",
+      "deactivation_date": "Deactivation date",
+      "deactivation_request_date": "Deactivation request date",
+      "contract_power_nominal": "Nominal power",
+      "contract_power_maximum": "Maximum power",
+      "contract_nominal_tension": "Tension",
+      "notes": "Notes"
+    },
+    "error": {
+      "no_utility_service": "No utility service selected",
+      "invoiced_consumption": "The invoiced consumption cannot be less than the sum of actual and expected consumption",
+      "since": "The 'Start date' must match the 'Period start'",
+      "until": "The 'End date' must match the 'Period end'",
+      "consumptions": "The period of expected consumption must begin the day after the end date of the period of actual consumption"
+    },
+    "action": {
+      "add_single_cost_charge": "Add single cost charge",
+      "add_multiple_cost_charges": "Add multiple cost charges",
+      "download_csv_template": "Download csv template",
+      "download_excel_template": "Download excel template",
+      "add_actual_consumption": "Add actual consumption",
+      "add_expected_consumption": "Add expected consumption"
+    },
+    "text": {
+      "no_cost_charges": "No cost charges available",
+      "no_actual_consumption": "No actual consumption entered",
+      "no_expected_consumption": "No expected consumption entered"
+    },
+    "dialog": {
+      "create": {
+        "single": {
+          "title": "Add cost charge",
+          "save": "Save cost charge"
+        },
+        "multiple": {
+          "title": "Add cost charges"
+        }
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this cost charge?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these cost charges?\nThe process cannot be undone"
+        }
+      },
+      "consumption": {
+        "add": {
+          "actual": "Add actual consumption",
+          "expected": "Add expected consumption"
+        },
+        "edit": {
+          "actual": "Edit actual consumption",
+          "expected": "Edit expected consumption"
+        }
+      }
+    },
+    "feedback": {
+      "create": "Cost charge successfully created",
+      "delete": {
+        "single": "Cost charge successfully deleted",
+        "multiple": "Cost charges successfully deleted"
+      },
+      "import": "{{ amount }} cost charges imported successfully",
+      "update": "Cost charge successfully updated"
+    }
+  }
+}

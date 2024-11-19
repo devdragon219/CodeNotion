@@ -1,0 +1,26 @@
+﻿{
+  nodes: [
+    {
+      id: 1,
+      internalCode: SC00001,
+      name: Igiene ambientale
+    },
+    {
+      id: 2,
+      internalCode: SC00002,
+      name: Manutenzione del verde
+    },
+    {
+      id: 3,
+      internalCode: SC00003,
+      name: Sicurezza
+    }
+  ],
+  pageInfo: {
+    endCursor: Mg==,
+    hasNextPage: false,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 3
+}

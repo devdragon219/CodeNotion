@@ -1,0 +1,27 @@
+﻿{
+  activeExemptVR: {
+    id: 6
+  },
+  activeNonTaxableVR: {
+    id: 8
+  },
+  activeSubjectVR: {
+    id: 3
+  },
+  description: Canone,
+  id: 1,
+  internalCode: VB001,
+  isForAdministration: false,
+  isForContractCosts: false,
+  isForContractFee: true,
+  isPositive: true,
+  passiveExemptVR: {
+    id: 6
+  },
+  passiveNonTaxableVR: {
+    id: 8
+  },
+  passiveSubjectVR: {
+    id: 3
+  }
+}

@@ -1,0 +1,481 @@
+﻿{
+  nodes: [
+    {
+      activities: [
+        {
+          activityType: ON_INCIDENT,
+          id: 11,
+          isMandatoryByLaw: true,
+          name: amet
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 12,
+          isMandatoryByLaw: false,
+          name: doloribus
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 13,
+          isMandatoryByLaw: true,
+          name: doloremque
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 14,
+          isMandatoryByLaw: false,
+          name: a
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 15,
+          isMandatoryByLaw: false,
+          name: sed
+        }
+      ],
+      category: {
+        id: 1,
+        internalCode: SC00001,
+        name: Igiene ambientale
+      },
+      id: 3,
+      internalCode: S000003,
+      name: Disinfezione e sanificazione di superfici e ambienti,
+      subCategory: {
+        id: 1,
+        internalCode: SC00001SC001,
+        name: Pulizia e sanificazione
+      }
+    },
+    {
+      activities: [
+        {
+          activityType: ON_INCIDENT,
+          id: 16,
+          isMandatoryByLaw: true,
+          name: autem
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 17,
+          isMandatoryByLaw: true,
+          name: ratione
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 18,
+          isMandatoryByLaw: true,
+          name: porro
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 19,
+          isMandatoryByLaw: false,
+          name: adipisci
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 20,
+          isMandatoryByLaw: false,
+          name: id
+        }
+      ],
+      category: {
+        id: 1,
+        internalCode: SC00001,
+        name: Igiene ambientale
+      },
+      id: 4,
+      internalCode: S000004,
+      name: Raccolta differenziata e smaltimento rifiuti,
+      subCategory: {
+        id: 2,
+        internalCode: SC00001SC002,
+        name: Gestione dei rifiuti
+      }
+    },
+    {
+      activities: [
+        {
+          activityType: ON_INCIDENT,
+          id: 21,
+          isMandatoryByLaw: false,
+          name: fuga
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 22,
+          isMandatoryByLaw: false,
+          name: eveniet
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 23,
+          isMandatoryByLaw: false,
+          name: ipsum
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 24,
+          isMandatoryByLaw: true,
+          name: eius
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 25,
+          isMandatoryByLaw: false,
+          name: et
+        }
+      ],
+      category: {
+        id: 1,
+        internalCode: SC00001,
+        name: Igiene ambientale
+      },
+      id: 5,
+      internalCode: S000005,
+      name: Gestione dei rifiuti speciali e pericolosi,
+      subCategory: {
+        id: 2,
+        internalCode: SC00001SC002,
+        name: Gestione dei rifiuti
+      }
+    },
+    {
+      activities: [
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 26,
+          isMandatoryByLaw: false,
+          name: aut
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 27,
+          isMandatoryByLaw: true,
+          name: consequuntur
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 28,
+          isMandatoryByLaw: true,
+          name: voluptatum
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 29,
+          isMandatoryByLaw: false,
+          name: tempore
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 30,
+          isMandatoryByLaw: false,
+          name: consequatur
+        }
+      ],
+      category: {
+        id: 1,
+        internalCode: SC00001,
+        name: Igiene ambientale
+      },
+      id: 6,
+      internalCode: S000006,
+      name: Trattamento e riciclo dei rifiuti,
+      subCategory: {
+        id: 2,
+        internalCode: SC00001SC002,
+        name: Gestione dei rifiuti
+      }
+    },
+    {
+      activities: [
+        {
+          activityType: ON_INCIDENT,
+          id: 31,
+          isMandatoryByLaw: false,
+          name: itaque
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 32,
+          isMandatoryByLaw: true,
+          name: nam
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 33,
+          isMandatoryByLaw: true,
+          name: qui
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 34,
+          isMandatoryByLaw: false,
+          name: quasi
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 35,
+          isMandatoryByLaw: true,
+          name: et
+        }
+      ],
+      category: {
+        id: 1,
+        internalCode: SC00001,
+        name: Igiene ambientale
+      },
+      id: 7,
+      internalCode: S000007,
+      name: Trattamenti antiparassitari,
+      subCategory: {
+        id: 3,
+        internalCode: SC00001SC003,
+        name: Disinfestazione e deratizzazione
+      }
+    },
+    {
+      activities: [
+        {
+          activityType: ON_INCIDENT,
+          id: 36,
+          isMandatoryByLaw: false,
+          name: non
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 37,
+          isMandatoryByLaw: true,
+          name: cum
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 38,
+          isMandatoryByLaw: false,
+          name: odit
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 39,
+          isMandatoryByLaw: false,
+          name: quos
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 40,
+          isMandatoryByLaw: false,
+          name: similique
+        }
+      ],
+      category: {
+        id: 1,
+        internalCode: SC00001,
+        name: Igiene ambientale
+      },
+      id: 8,
+      internalCode: S000008,
+      name: Derattizzazione e controllo infestazioni,
+      subCategory: {
+        id: 3,
+        internalCode: SC00001SC003,
+        name: Disinfestazione e deratizzazione
+      }
+    },
+    {
+      activities: [
+        {
+          activityType: ON_INCIDENT,
+          id: 41,
+          isMandatoryByLaw: false,
+          name: consequatur
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 42,
+          isMandatoryByLaw: false,
+          name: veritatis
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 43,
+          isMandatoryByLaw: true,
+          name: a
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 44,
+          isMandatoryByLaw: false,
+          name: cupiditate
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 45,
+          isMandatoryByLaw: true,
+          name: provident
+        }
+      ],
+      category: {
+        id: 1,
+        internalCode: SC00001,
+        name: Igiene ambientale
+      },
+      id: 9,
+      internalCode: S000009,
+      name: Bonifica ambientale (aree infestate o contaminate),
+      subCategory: {
+        id: 3,
+        internalCode: SC00001SC003,
+        name: Disinfestazione e deratizzazione
+      }
+    },
+    {
+      activities: [
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 46,
+          isMandatoryByLaw: false,
+          name: dolores
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 47,
+          isMandatoryByLaw: true,
+          name: aut
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 48,
+          isMandatoryByLaw: false,
+          name: recusandae
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 49,
+          isMandatoryByLaw: false,
+          name: et
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 50,
+          isMandatoryByLaw: true,
+          name: similique
+        }
+      ],
+      category: {
+        id: 2,
+        internalCode: SC00002,
+        name: Manutenzione del verde
+      },
+      id: 10,
+      internalCode: S000010,
+      name: Taglio dell’erba e pulizia delle aree verdi,
+      subCategory: {
+        id: 4,
+        internalCode: SC00002SC001,
+        name: Manutenzione ordinaria
+      }
+    },
+    {
+      activities: [
+        {
+          activityType: ON_INCIDENT,
+          id: 51,
+          isMandatoryByLaw: false,
+          name: est
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 52,
+          isMandatoryByLaw: true,
+          name: similique
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 53,
+          isMandatoryByLaw: false,
+          name: voluptas
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 54,
+          isMandatoryByLaw: true,
+          name: sint
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 55,
+          isMandatoryByLaw: false,
+          name: excepturi
+        }
+      ],
+      category: {
+        id: 2,
+        internalCode: SC00002,
+        name: Manutenzione del verde
+      },
+      id: 11,
+      internalCode: S000011,
+      name: Potatura e cura degli alberi e delle siepi,
+      subCategory: {
+        id: 4,
+        internalCode: SC00002SC001,
+        name: Manutenzione ordinaria
+      }
+    },
+    {
+      activities: [
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 56,
+          isMandatoryByLaw: false,
+          name: rerum
+        },
+        {
+          activityType: PLANNED_MAINTENANCE,
+          id: 57,
+          isMandatoryByLaw: true,
+          name: tempore
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 58,
+          isMandatoryByLaw: true,
+          name: et
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 59,
+          isMandatoryByLaw: true,
+          name: numquam
+        },
+        {
+          activityType: ON_INCIDENT,
+          id: 60,
+          isMandatoryByLaw: true,
+          name: voluptatem
+        }
+      ],
+      category: {
+        id: 2,
+        internalCode: SC00002,
+        name: Manutenzione del verde
+      },
+      id: 12,
+      internalCode: S000012,
+      name: Rimozione di fogliame e altri detriti,
+      subCategory: {
+        id: 4,
+        internalCode: SC00002SC001,
+        name: Manutenzione ordinaria
+      }
+    }
+  ],
+  pageInfo: {
+    endCursor: OQ==,
+    hasNextPage: true,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 20
+}

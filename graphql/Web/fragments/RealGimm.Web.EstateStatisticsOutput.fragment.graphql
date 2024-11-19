@@ -1,0 +1,6 @@
+fragment EstateStatisticsOutputFragment on EstateStatisticsOutput {
+  estatesCount
+  estateUnitsCount
+  occupiedEstatesCount
+  vacantEstatesCount
+}

@@ -1,0 +1,71 @@
+﻿{
+  nodes: [
+    {
+      cityId: null,
+      description: Tutti Gli Uffici,
+      externalCode: ALL,
+      id: 1
+    },
+    {
+      cityId: 1016,
+      description: Valenza,
+      externalCode: R05,
+      id: 2
+    },
+    {
+      cityId: 6332,
+      description: Vallo della Lucania,
+      externalCode: RES,
+      id: 3
+    },
+    {
+      cityId: 6332,
+      description: Ufficio Territoriale di Vallo della Lucania,
+      externalCode: TE7,
+      id: 4
+    },
+    {
+      cityId: 1380,
+      description: Ufficio Territoriale di Varese,
+      externalCode: TPJ,
+      id: 5
+    },
+    {
+      cityId: 1380,
+      description: Varese,
+      externalCode: R3A,
+      id: 6
+    },
+    {
+      cityId: 5645,
+      description: Vasto,
+      externalCode: RA7,
+      id: 7
+    },
+    {
+      cityId: 5211,
+      description: Velletri,
+      externalCode: 882,
+      id: 8
+    },
+    {
+      cityId: 5211,
+      description: Ufficio Territoriale di Velletri,
+      externalCode: TJ2,
+      id: 9
+    },
+    {
+      cityId: 3445,
+      description: Ufficio Territoriale di Venezia 1,
+      externalCode: T6F,
+      id: 10
+    }
+  ],
+  pageInfo: {
+    endCursor: OQ==,
+    hasNextPage: true,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 743
+}

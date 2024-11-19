@@ -1,0 +1,57 @@
+{
+  "service_category": {
+    "title": "Categorie servizi",
+    "tab": {
+      "general_data": "Dati generali",
+      "service_sub_category": "Sottocategoria servizio"
+    },
+    "section_title": {
+      "general_data": "Dati generali",
+      "service_sub_category": "Sottocategoria servizio"
+    },
+    "error": {
+      "service_category_code": "Il codice categoria servizio inserito è già in uso",
+      "service_sub_category_code": "Il codice sottocategoria servizio inserito è già in uso"
+    },
+    "text": {
+      "no_service_categories": "Non sono presenti categorie servizi",
+      "no_sub_categories": "Non sono presenti sottocategorie, clicca su modifica per aggiungere una sottocategoria"
+    },
+    "field": {
+      "service_category_code": "Codice categoria servizio",
+      "name": "Denominazione",
+      "service_category": "Categoria servizio",
+      "service_sub_categories": "Sottocategorie servizio",
+      "internal_code": "Codice"
+    },
+    "action": {
+      "add_sub_category": "Aggiungi sottocategoria servizio"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta categoria servizio",
+        "save": "Salva categoria servizio"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa categoria servizio?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste categorie servizio?\nIl processo non potrà essere annullato"
+        }
+      },
+      "sub_category": {
+        "view": "Visualizza sottocategorie servizio",
+        "add": "Aggiunta sottocategorie servizio",
+        "edit": "Modifica sottocategoria servizio"
+      }
+    },
+    "feedback": {
+      "create": "Categoria servizio creata con successo",
+      "delete": {
+        "single": "Categoria servizio cancellata con successo",
+        "multiple": "Categorie servizi cancellate con successo"
+      },
+      "update": "Categoria servizio modificata con successo"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+﻿{
+  nodes: [
+    {
+      catalogueCategory: Impianti e attrezzature antincendio,
+      catalogueSubCategory: Compartimentazione antincendio,
+      catalogueType: Serrande di compartimentazione,
+      catalogueTypeCount: 1,
+      catalogueTypeId: 12,
+      estateId: 22,
+      estateInternalCode: I00022
+    },
+    {
+      catalogueCategory: Condizionamento e riscaldamento,
+      catalogueSubCategory: Climatizzazione,
+      catalogueType: Filtri aria,
+      catalogueTypeCount: 1,
+      catalogueTypeId: 21,
+      estateId: 26,
+      estateInternalCode: I00026
+    },
+    {
+      catalogueCategory: Impianti elettrici,
+      catalogueSubCategory: Sistema di alimentazione normale,
+      catalogueType: Cabine ricezione MT e di trasformazione MT/BT,
+      catalogueTypeCount: 1,
+      catalogueTypeId: 3,
+      estateId: 14,
+      estateInternalCode: I00014
+    },
+    {
+      catalogueCategory: Impianti e attrezzature antincendio,
+      catalogueSubCategory: Attrezzature antincendio,
+      catalogueType: Estintori,
+      catalogueTypeCount: 1,
+      catalogueTypeId: 8,
+      estateId: 11,
+      estateInternalCode: I00011
+    },
+    {
+      catalogueCategory: Impianti elettrici,
+      catalogueSubCategory: Sistema di alimentazione normale,
+      catalogueType: Quadri elettrici di ricezione e distribuzione in media tensione,
+      catalogueTypeCount: 1,
+      catalogueTypeId: 5,
+      estateId: 7,
+      estateInternalCode: I00007
+    },
+    {
+      catalogueCategory: Impianti elettrici,
+      catalogueSubCategory: Sistema di alimentazione normale,
+      catalogueType: Quadro generale di bassa tensione,
+      catalogueTypeCount: 1,
+      catalogueTypeId: 6,
+      estateId: 22,
+      estateInternalCode: I00022
+    },
+    {
+      catalogueCategory: Impianti elettrici,
+      catalogueSubCategory: Impianto di terra e protezione scariche atmosferiche,
+      catalogueType: Impianto di protezione da scariche atmosferiche,
+      catalogueTypeCount: 1,
+      catalogueTypeId: 2,
+      estateId: 16,
+      estateInternalCode: I00016
+    },
+    {
+      catalogueCategory: Condizionamento e riscaldamento,
+      catalogueSubCategory: Climatizzazione,
+      catalogueType: Ventilconvettori,
+      catalogueTypeCount: 1,
+      catalogueTypeId: 22,
+      estateId: 28,
+      estateInternalCode: I00028
+    },
+    {
+      catalogueCategory: Impianti e attrezzature antincendio,
+      catalogueSubCategory: Compartimentazione antincendio,
+      catalogueType: Serrande di compartimentazione,
+      catalogueTypeCount: 1,
+      catalogueTypeId: 12,
+      estateId: 26,
+      estateInternalCode: I00026
+    },
+    {
+      catalogueCategory: Impianti e attrezzature antincendio,
+      catalogueSubCategory: Attrezzature antincendio,
+      catalogueType: Idranti,
+      catalogueTypeCount: 1,
+      catalogueTypeId: 9,
+      estateId: 19,
+      estateInternalCode: I00019
+    }
+  ],
+  pageInfo: {
+    endCursor: OQ==,
+    hasNextPage: true,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 29
+}

@@ -1,0 +1,17 @@
+fragment AsstAddressFragment on AsstAddress {
+  id
+  addressType
+  city {
+    ...CityFragment
+  }
+  cityName
+  countryISO
+  countyName
+  localPostCode
+  notes
+  numbering
+  toponymy
+  locationLatLon {
+    coordinates
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "Web": {
+      "commandName": "Project",
+      "launchUrl": "api/v1/graphql",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:5050;http://localhost:8180;"
+    },
+    "Generate Shema": {
+      "commandName": "Project",
+      "commandLineArgs": "--generate-schema ../../../graphql/RealGimm.Web.schema.graphql"
+    }
+  }
+}

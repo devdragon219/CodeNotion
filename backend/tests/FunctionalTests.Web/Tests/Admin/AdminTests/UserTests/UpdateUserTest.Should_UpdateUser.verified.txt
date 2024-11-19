@@ -1,0 +1,34 @@
+﻿{
+  Data: {
+    admin: {
+      updateUser: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          ceasedDate: null,
+          creationDate: DateTimeOffset_1,
+          deletionDate: null,
+          enabledSince: DateTimeOffset_2,
+          firstName: ChangedName,
+          id: 3,
+          lastLoggedIn: null,
+          lastLogInAttempt: null,
+          lastName: Demo1,
+          lastPasswordUpdated: DateTimeOffset_3,
+          lockedSince: null,
+          lockedUntil: null,
+          orgUnits: null,
+          preferredLanguageCode: null,
+          status: ACTIVE,
+          subjects: [
+            3
+          ],
+          suspensionReason: null,
+          type: EXTERNAL_SUPPLIER,
+          userName: demouser1@sample.com
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

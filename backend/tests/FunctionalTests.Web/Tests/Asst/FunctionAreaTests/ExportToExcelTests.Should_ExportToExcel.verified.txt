@@ -1,0 +1,57 @@
+﻿[
+  [
+    Ufficio,
+    FA001,
+    Area principale
+  ],
+  [
+    Segreteria,
+    FA002,
+    Area comune
+  ],
+  [
+    Magazzino,
+    FA003,
+    Area principale
+  ],
+  [
+    Reception,
+    FA004,
+    Area comune
+  ],
+  [
+    Cucina,
+    FA005,
+    Area principale
+  ],
+  [
+    Bagno,
+    FA006,
+    Area comune
+  ],
+  [
+    Ripostiglio,
+    FA007,
+    Area pertinenza
+  ],
+  [
+    Balcone,
+    FA008,
+    Area pertinenza
+  ],
+  [
+    Cantina,
+    FA009,
+    Area principale
+  ],
+  [
+    Posto auto,
+    FA010,
+    Area pertinenza
+  ],
+  [
+    Giardino,
+    FA011,
+    Area comune
+  ]
+]

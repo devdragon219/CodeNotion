@@ -1,0 +1,23 @@
+fragment SlaFragment on SLA {
+  internalCode
+  description
+  id
+}
+
+fragment SlaDetailFragment on SLA {
+  internalCode
+  description
+  ifCondition {
+    ...TicketConditionFragment
+  }
+  thenCondition {
+    ...TicketConditionFragment
+  }
+  id
+  flatIfConditions {
+    ...TicketConditionFragment
+  }
+  flatThenConditions {
+    ...TicketConditionFragment
+  }
+}

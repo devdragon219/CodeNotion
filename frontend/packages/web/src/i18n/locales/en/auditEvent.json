@@ -1,0 +1,19 @@
+{
+  "audit_event": {
+    "title": "Audit log",
+    "field": {
+      "type": "Entity type",
+      "table_pk": "Table primary key",
+      "user": "User",
+      "action": "Action",
+      "date": "Date",
+      "audit_data": "Audit data"
+    },
+    "text": {
+      "no_audit_events": "No audit log available"
+    },
+    "dialog": {
+      "view": "Audit event details"
+    }
+  }
+}

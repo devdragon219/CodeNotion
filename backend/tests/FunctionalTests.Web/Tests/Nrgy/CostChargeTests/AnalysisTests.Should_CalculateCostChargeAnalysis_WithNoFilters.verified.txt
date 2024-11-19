@@ -1,0 +1,1869 @@
+﻿{
+  Data: {
+    costCharge: {
+      analysis: [
+        {
+          key: WATER,
+          value: {
+            consumption: {
+              currentYearValue: 3279.66,
+              difference: 1649.31,
+              differencePercentage: 101.16,
+              previousYearValue: 1630.35
+            },
+            cost: {
+              currentYearValue: 2439.37,
+              difference: -133.56,
+              differencePercentage: -5.19,
+              previousYearValue: 2572.93
+            },
+            measurementUnit: mc,
+            perYear: [
+              {
+                key: 2022,
+                value: {
+                  perMonth: [
+                    {
+                      key: 1,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 2,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 336.33,
+                        totalCost: 130.55
+                      }
+                    },
+                    {
+                      key: 3,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 811.25,
+                        totalCost: 254.53
+                      }
+                    },
+                    {
+                      key: 4,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 424.72,
+                        totalCost: 106.45
+                      }
+                    },
+                    {
+                      key: 5,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 6,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 7,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 354.35,
+                        totalCost: 340.14
+                      }
+                    },
+                    {
+                      key: 8,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 689.09,
+                        totalCost: 450.47
+                      }
+                    },
+                    {
+                      key: 9,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 10,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 573.92,
+                        totalCost: 928.66
+                      }
+                    },
+                    {
+                      key: 11,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 12,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    }
+                  ],
+                  value: {
+                    consumptionPerGrossSurface: null,
+                    consumptionPerHeatingCoolingSurface: null,
+                    costPerGrossSurface: null,
+                    costPerHeatingCoolingSurface: null,
+                    totalConsumption: 3189.66,
+                    totalCost: 2210.79
+                  }
+                }
+              },
+              {
+                key: 2023,
+                value: {
+                  perMonth: [
+                    {
+                      key: 1,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 171.14,
+                        totalCost: 523.14
+                      }
+                    },
+                    {
+                      key: 2,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 154.57,
+                        totalCost: 472.51
+                      }
+                    },
+                    {
+                      key: 3,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 4,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 5,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 6,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 7,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 770.58,
+                        totalCost: 546.14
+                      }
+                    },
+                    {
+                      key: 8,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 195.86,
+                        totalCost: 316.47
+                      }
+                    },
+                    {
+                      key: 9,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 10,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 171.88,
+                        totalCost: 363.19
+                      }
+                    },
+                    {
+                      key: 11,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 166.33,
+                        totalCost: 351.48
+                      }
+                    },
+                    {
+                      key: 12,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    }
+                  ],
+                  value: {
+                    consumptionPerGrossSurface: null,
+                    consumptionPerHeatingCoolingSurface: null,
+                    costPerGrossSurface: null,
+                    costPerHeatingCoolingSurface: null,
+                    totalConsumption: 1630.35,
+                    totalCost: 2572.93
+                  }
+                }
+              },
+              {
+                key: 2024,
+                value: {
+                  perMonth: [
+                    {
+                      key: 1,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 2,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 3,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 4,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 5,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 6,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 348.54,
+                        totalCost: 127.27
+                      }
+                    },
+                    {
+                      key: 7,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 601.11,
+                        totalCost: 241.17
+                      }
+                    },
+                    {
+                      key: 8,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 240.96,
+                        totalCost: 109.66
+                      }
+                    },
+                    {
+                      key: 9,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 895.39,
+                        totalCost: 749.48
+                      }
+                    },
+                    {
+                      key: 10,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 360.16,
+                        totalCost: 134.00
+                      }
+                    },
+                    {
+                      key: 11,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 833.50,
+                        totalCost: 1077.80
+                      }
+                    },
+                    {
+                      key: 12,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    }
+                  ],
+                  value: {
+                    consumptionPerGrossSurface: null,
+                    consumptionPerHeatingCoolingSurface: null,
+                    costPerGrossSurface: null,
+                    costPerHeatingCoolingSurface: null,
+                    totalConsumption: 3279.66,
+                    totalCost: 2439.37
+                  }
+                }
+              }
+            ],
+            surface: {
+              currentYear: null,
+              previousYear: null
+            }
+          }
+        },
+        {
+          key: ELECTRICITY,
+          value: {
+            consumption: {
+              currentYearValue: 7104.59,
+              difference: 1839.15,
+              differencePercentage: 34.93,
+              previousYearValue: 5265.44
+            },
+            cost: {
+              currentYearValue: 4705.93,
+              difference: -11.27,
+              differencePercentage: -0.24,
+              previousYearValue: 4717.20
+            },
+            measurementUnit: KWH,
+            perYear: [
+              {
+                key: 2022,
+                value: {
+                  perMonth: [
+                    {
+                      key: 1,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 2,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 989.47,
+                        totalCost: 1310.32
+                      }
+                    },
+                    {
+                      key: 3,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 545.68,
+                        totalCost: 1198.78
+                      }
+                    },
+                    {
+                      key: 4,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 690.48,
+                        totalCost: 1031.06
+                      }
+                    },
+                    {
+                      key: 5,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 300.02,
+                        totalCost: 96.29
+                      }
+                    },
+                    {
+                      key: 6,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 290.35,
+                        totalCost: 93.19
+                      }
+                    },
+                    {
+                      key: 7,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 8,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 845.68,
+                        totalCost: 1271.56
+                      }
+                    },
+                    {
+                      key: 9,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 169.79,
+                        totalCost: 268.72
+                      }
+                    },
+                    {
+                      key: 10,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 11,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 12,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 611.98,
+                        totalCost: 932.72
+                      }
+                    }
+                  ],
+                  value: {
+                    consumptionPerGrossSurface: null,
+                    consumptionPerHeatingCoolingSurface: null,
+                    costPerGrossSurface: null,
+                    costPerHeatingCoolingSurface: null,
+                    totalConsumption: 4443.46,
+                    totalCost: 6202.64
+                  }
+                }
+              },
+              {
+                key: 2023,
+                value: {
+                  perMonth: [
+                    {
+                      key: 1,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 328.36,
+                        totalCost: 631.83
+                      }
+                    },
+                    {
+                      key: 2,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 523.79,
+                        totalCost: 677.18
+                      }
+                    },
+                    {
+                      key: 3,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 372.37,
+                        totalCost: 499.87
+                      }
+                    },
+                    {
+                      key: 4,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 5,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 698.23,
+                        totalCost: 271.73
+                      }
+                    },
+                    {
+                      key: 6,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 675.71,
+                        totalCost: 262.96
+                      }
+                    },
+                    {
+                      key: 7,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 8,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 224.29,
+                        totalCost: 327.31
+                      }
+                    },
+                    {
+                      key: 9,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 169.79,
+                        totalCost: 293.42
+                      }
+                    },
+                    {
+                      key: 10,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 884.15,
+                        totalCost: 861.35
+                      }
+                    },
+                    {
+                      key: 11,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 996.03,
+                        totalCost: 788.40
+                      }
+                    },
+                    {
+                      key: 12,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 392.72,
+                        totalCost: 103.15
+                      }
+                    }
+                  ],
+                  value: {
+                    consumptionPerGrossSurface: null,
+                    consumptionPerHeatingCoolingSurface: null,
+                    costPerGrossSurface: null,
+                    costPerHeatingCoolingSurface: null,
+                    totalConsumption: 5265.44,
+                    totalCost: 4717.20
+                  }
+                }
+              },
+              {
+                key: 2024,
+                value: {
+                  perMonth: [
+                    {
+                      key: 1,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 708.70,
+                        totalCost: 194.69
+                      }
+                    },
+                    {
+                      key: 2,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 835.81,
+                        totalCost: 529.87
+                      }
+                    },
+                    {
+                      key: 3,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 190.75,
+                        totalCost: 67.21
+                      }
+                    },
+                    {
+                      key: 4,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 184.60,
+                        totalCost: 65.04
+                      }
+                    },
+                    {
+                      key: 5,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 365.62,
+                        totalCost: 288.71
+                      }
+                    },
+                    {
+                      key: 6,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 1358.26,
+                        totalCost: 1400.13
+                      }
+                    },
+                    {
+                      key: 7,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 360.16,
+                        totalCost: 507.73
+                      }
+                    },
+                    {
+                      key: 8,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 9,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 951.99,
+                        totalCost: 98.93
+                      }
+                    },
+                    {
+                      key: 10,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 774.76,
+                        totalCost: 669.59
+                      }
+                    },
+                    {
+                      key: 11,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 675.71,
+                        totalCost: 434.76
+                      }
+                    },
+                    {
+                      key: 12,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 698.23,
+                        totalCost: 449.26
+                      }
+                    }
+                  ],
+                  value: {
+                    consumptionPerGrossSurface: null,
+                    consumptionPerHeatingCoolingSurface: null,
+                    costPerGrossSurface: null,
+                    costPerHeatingCoolingSurface: null,
+                    totalConsumption: 7104.59,
+                    totalCost: 4705.93
+                  }
+                }
+              }
+            ],
+            surface: {
+              currentYear: null,
+              previousYear: null
+            }
+          }
+        },
+        {
+          key: GAS,
+          value: {
+            consumption: {
+              currentYearValue: 15723.30,
+              difference: 5599.99,
+              differencePercentage: 55.32,
+              previousYearValue: 10123.31
+            },
+            cost: {
+              currentYearValue: 10939.38,
+              difference: 3521.58,
+              differencePercentage: 47.47,
+              previousYearValue: 7417.80
+            },
+            measurementUnit: smc,
+            perYear: [
+              {
+                key: 2022,
+                value: {
+                  perMonth: [
+                    {
+                      key: 1,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 1046.83,
+                        totalCost: 649.83
+                      }
+                    },
+                    {
+                      key: 2,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 1648.97,
+                        totalCost: 1230.81
+                      }
+                    },
+                    {
+                      key: 3,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 836.94,
+                        totalCost: 338.40
+                      }
+                    },
+                    {
+                      key: 4,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 580.47,
+                        totalCost: 436.77
+                      }
+                    },
+                    {
+                      key: 5,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 856.64,
+                        totalCost: 1052.76
+                      }
+                    },
+                    {
+                      key: 6,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 1892.27,
+                        totalCost: 1121.04
+                      }
+                    },
+                    {
+                      key: 7,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 531.15,
+                        totalCost: 73.55
+                      }
+                    },
+                    {
+                      key: 8,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 531.15,
+                        totalCost: 73.55
+                      }
+                    },
+                    {
+                      key: 9,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 10,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 11,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 12,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    }
+                  ],
+                  value: {
+                    consumptionPerGrossSurface: null,
+                    consumptionPerHeatingCoolingSurface: null,
+                    costPerGrossSurface: null,
+                    costPerHeatingCoolingSurface: null,
+                    totalConsumption: 7924.42,
+                    totalCost: 4976.71
+                  }
+                }
+              },
+              {
+                key: 2023,
+                value: {
+                  perMonth: [
+                    {
+                      key: 1,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 558.16,
+                        totalCost: 68.86
+                      }
+                    },
+                    {
+                      key: 2,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 721.35,
+                        totalCost: 161.79
+                      }
+                    },
+                    {
+                      key: 3,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 941.33,
+                        totalCost: 958.57
+                      }
+                    },
+                    {
+                      key: 4,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 2047.63,
+                        totalCost: 1420.47
+                      }
+                    },
+                    {
+                      key: 5,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 317.33,
+                        totalCost: 31.68
+                      }
+                    },
+                    {
+                      key: 6,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 522.44,
+                        totalCost: 342.53
+                      }
+                    },
+                    {
+                      key: 7,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 1651.59,
+                        totalCost: 1492.76
+                      }
+                    },
+                    {
+                      key: 8,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 486.48,
+                        totalCost: 149.44
+                      }
+                    },
+                    {
+                      key: 9,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 346.37,
+                        totalCost: 726.89
+                      }
+                    },
+                    {
+                      key: 10,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 999.20,
+                        totalCost: 487.23
+                      }
+                    },
+                    {
+                      key: 11,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 1358.82,
+                        totalCost: 1125.58
+                      }
+                    },
+                    {
+                      key: 12,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 172.62,
+                        totalCost: 452.00
+                      }
+                    }
+                  ],
+                  value: {
+                    consumptionPerGrossSurface: null,
+                    consumptionPerHeatingCoolingSurface: null,
+                    costPerGrossSurface: null,
+                    costPerHeatingCoolingSurface: null,
+                    totalConsumption: 10123.31,
+                    totalCost: 7417.80
+                  }
+                }
+              },
+              {
+                key: 2024,
+                value: {
+                  perMonth: [
+                    {
+                      key: 1,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 1024.67,
+                        totalCost: 819.87
+                      }
+                    },
+                    {
+                      key: 2,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 797.07,
+                        totalCost: 344.13
+                      }
+                    },
+                    {
+                      key: 3,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 4,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 1426.01,
+                        totalCost: 1226.20
+                      }
+                    },
+                    {
+                      key: 5,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 2930.33,
+                        totalCost: 1363.64
+                      }
+                    },
+                    {
+                      key: 6,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 1818.18,
+                        totalCost: 607.12
+                      }
+                    },
+                    {
+                      key: 7,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 1388.71,
+                        totalCost: 1345.52
+                      }
+                    },
+                    {
+                      key: 8,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 1759.25,
+                        totalCost: 1214.58
+                      }
+                    },
+                    {
+                      key: 9,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 1109.11,
+                        totalCost: 1258.95
+                      }
+                    },
+                    {
+                      key: 10,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 970.63,
+                        totalCost: 833.16
+                      }
+                    },
+                    {
+                      key: 11,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 1229.18,
+                        totalCost: 947.31
+                      }
+                    },
+                    {
+                      key: 12,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 1270.15,
+                        totalCost: 978.89
+                      }
+                    }
+                  ],
+                  value: {
+                    consumptionPerGrossSurface: null,
+                    consumptionPerHeatingCoolingSurface: null,
+                    costPerGrossSurface: null,
+                    costPerHeatingCoolingSurface: null,
+                    totalConsumption: 15723.30,
+                    totalCost: 10939.38
+                  }
+                }
+              }
+            ],
+            surface: {
+              currentYear: null,
+              previousYear: null
+            }
+          }
+        },
+        {
+          key: OTHER,
+          value: {
+            consumption: {
+              currentYearValue: 1421.19,
+              difference: -1798.88,
+              differencePercentage: -55.86,
+              previousYearValue: 3220.07
+            },
+            cost: {
+              currentYearValue: 1796.50,
+              difference: -2971.42,
+              differencePercentage: -62.32,
+              previousYearValue: 4767.92
+            },
+            measurementUnit: n° svuot.,
+            perYear: [
+              {
+                key: 2022,
+                value: {
+                  perMonth: [
+                    {
+                      key: 1,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 181.40,
+                        totalCost: 33.79
+                      }
+                    },
+                    {
+                      key: 2,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 163.84,
+                        totalCost: 30.52
+                      }
+                    },
+                    {
+                      key: 3,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 754.44,
+                        totalCost: 829.58
+                      }
+                    },
+                    {
+                      key: 4,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 5,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 6,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 532.79,
+                        totalCost: 92.36
+                      }
+                    },
+                    {
+                      key: 7,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 8,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 240.29,
+                        totalCost: 403.95
+                      }
+                    },
+                    {
+                      key: 9,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 232.53,
+                        totalCost: 390.92
+                      }
+                    },
+                    {
+                      key: 10,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 114.90,
+                        totalCost: 352.34
+                      }
+                    },
+                    {
+                      key: 11,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 280.99,
+                        totalCost: 633.27
+                      }
+                    },
+                    {
+                      key: 12,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 175.45,
+                        totalCost: 302.04
+                      }
+                    }
+                  ],
+                  value: {
+                    consumptionPerGrossSurface: null,
+                    consumptionPerHeatingCoolingSurface: null,
+                    costPerGrossSurface: null,
+                    costPerHeatingCoolingSurface: null,
+                    totalConsumption: 2676.63,
+                    totalCost: 3068.77
+                  }
+                }
+              },
+              {
+                key: 2023,
+                value: {
+                  perMonth: [
+                    {
+                      key: 1,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 2,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 3,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 4,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 5,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 6,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 980.08,
+                        totalCost: 1405.43
+                      }
+                    },
+                    {
+                      key: 7,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 656.00,
+                        totalCost: 719.34
+                      }
+                    },
+                    {
+                      key: 8,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 9,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 169.79,
+                        totalCost: 426.22
+                      }
+                    },
+                    {
+                      key: 10,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 744.35,
+                        totalCost: 1498.41
+                      }
+                    },
+                    {
+                      key: 11,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 345.24,
+                        totalCost: 54.83
+                      }
+                    },
+                    {
+                      key: 12,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 324.61,
+                        totalCost: 663.69
+                      }
+                    }
+                  ],
+                  value: {
+                    consumptionPerGrossSurface: null,
+                    consumptionPerHeatingCoolingSurface: null,
+                    costPerGrossSurface: null,
+                    costPerHeatingCoolingSurface: null,
+                    totalConsumption: 3220.07,
+                    totalCost: 4767.92
+                  }
+                }
+              },
+              {
+                key: 2024,
+                value: {
+                  perMonth: [
+                    {
+                      key: 1,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 2,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 3,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 4,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 5,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 6,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 7,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 8,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 9,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 515.03,
+                        totalCost: 749.38
+                      }
+                    },
+                    {
+                      key: 10,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 175.45,
+                        totalCost: 243.17
+                      }
+                    },
+                    {
+                      key: 11,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 0.0,
+                        totalCost: 0.0
+                      }
+                    },
+                    {
+                      key: 12,
+                      value: {
+                        consumptionPerGrossSurface: null,
+                        consumptionPerHeatingCoolingSurface: null,
+                        costPerGrossSurface: null,
+                        costPerHeatingCoolingSurface: null,
+                        totalConsumption: 730.71,
+                        totalCost: 803.95
+                      }
+                    }
+                  ],
+                  value: {
+                    consumptionPerGrossSurface: null,
+                    consumptionPerHeatingCoolingSurface: null,
+                    costPerGrossSurface: null,
+                    costPerHeatingCoolingSurface: null,
+                    totalConsumption: 1421.19,
+                    totalCost: 1796.50
+                  }
+                }
+              }
+            ],
+            surface: {
+              currentYear: null,
+              previousYear: null
+            }
+          }
+        }
+      ]
+    }
+  },
+  IsDataSet: true
+}

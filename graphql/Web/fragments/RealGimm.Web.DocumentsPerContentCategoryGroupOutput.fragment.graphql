@@ -1,0 +1,7 @@
+fragment DocumentsPerContentCategoryGroupOutputFragment on DocumentsPerContentCategoryGroupOutput {
+  contentCategoryGroup
+  guid
+  subRows {
+    ...DocumentsPerContentCategoryOutputFragment
+  }
+}

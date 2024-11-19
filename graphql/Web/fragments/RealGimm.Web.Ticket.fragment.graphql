@@ -1,0 +1,154 @@
+fragment TicketFragment on Ticket {
+  id
+  internalCode
+  workOrderReference
+  mainType
+  description
+  masterStatus
+  supplierSubject {
+    id
+    name
+  }
+  requestor
+  isExcludedFromMaintenanceContract
+  dueDate
+}
+
+fragment TicketDetailFragment on Ticket {
+  id
+  mainType
+  locationEstateUnit {
+    ...EstateUnitFragment
+  }
+  locationFloor {
+    ...FloorFragment
+  }
+  locationSector
+  locationRoom
+  internalCode
+  workOrderReference
+  masterStatus
+  isWorkSafetyExpected
+  requestor
+  requestorContactEmail
+  requestorContactPhone
+  requestDateTime
+  dueDate
+  isExcludedFromMaintenanceContract
+  customType {
+    id
+    description
+  }
+  priority
+  catalogueType {
+    ...CatalogueTypeDetailFragment
+  }
+  catalogueItems {
+    id
+    internalCode
+    catalogueType {
+      ...FacilityCatalogueTypeFragment
+    }
+  }
+  summary
+  description
+  supplierSubject {
+    id
+    name
+  }
+  plannedTeam {
+    ...WorkTeamFragment
+  }
+  plannedTeamLeaderUser {
+    ...TicketUserFragment
+  }
+  quote {
+    isFrameworkAgreement
+    masterStatus
+    externalCode
+    classifications
+    interventionDueDate
+    orderNumber
+    notes
+    history {
+      ...QuoteHistoryEntryFragment
+    }
+    articles {
+      id
+      sourceArticle {
+        ...TicketPriceListArticleFragment
+      }
+      internalCode
+      name
+      unitPrice
+      isExcluded
+      quantity
+      ordering
+      measurementUnit {
+        ...PriceListMeasurementUnitFragment
+      }
+    }
+  }
+  reminders {
+    id
+    date
+    summary
+  }
+  resolution {
+    interventionStart
+    interventionEnd
+    closure
+    operationsPerformed
+    diagnosis
+    resolutionNotes
+    partsAndSupplies
+  }
+  workers {
+    ...WorkerFragment
+  }
+  history {
+    ...TicketHistoryEntryFragment
+  }
+  checklist {
+    ...TicketChecklistFragment
+  }
+  contract {
+    ...FacilityContractFragment
+  }
+  performedActivities {
+    id
+    status
+    ordering
+    name
+  }
+}
+
+fragment FacilityContractTicketFragment on Ticket {
+  id
+  internalCode
+  description
+  masterStatus
+  dueDate
+  catalogueType {
+    ...CatalogueTypeDetailFragment
+  }
+  catalogueItems {
+    id
+    internalCode
+  }
+  requestDateTime
+  supplierSubject {
+    id
+    name
+  }
+  plannedTeam {
+    id
+    description
+  }
+  plannedTeamLeaderUser {
+    id
+    firstName
+    lastName
+    userName
+  }
+}

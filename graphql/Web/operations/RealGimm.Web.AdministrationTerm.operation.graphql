@@ -1,0 +1,91 @@
+query getAdministrationTerms(
+  $administrationId: Int!
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: AdministrationTermFilterInput
+  $order: [AdministrationTermSortInput!]
+) {
+  administration {
+    listAdministrationTerms(
+      administrationId: $administrationId
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...AdministrationTermFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getAdministrationTerm($administrationTermId: Int!) {
+  administrationTerm {
+    get(id: $administrationTermId) {
+      ...AdministrationTermDetailFragment
+    }
+  }
+}
+
+mutation createAdministrationTerm(
+  $administrationId: Int!
+  $input: AdministrationTermInput!
+) {
+  administrationTerm {
+    add(administrationId: $administrationId, input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateAdministrationTerm(
+  $administrationTermId: Int!
+  $input: AdministrationTermInput!
+) {
+  administrationTerm {
+    update(id: $administrationTermId, input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteAdministrationTerm($id: Int!) {
+  administrationTerm {
+    delete(id: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteAdministrationTerms($ids: [Int!]!) {
+  administrationTerm {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}

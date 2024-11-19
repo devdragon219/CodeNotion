@@ -1,0 +1,965 @@
+{
+  "common": {
+    "button": {
+      "add": "Add",
+      "back": "Back",
+      "cancel": "Cancel",
+      "continue": "Continue",
+      "delete": "Delete",
+      "download": "Download",
+      "edit": "Edit",
+      "export": "Export",
+      "finish": "Finish",
+      "proceed": "Proceed",
+      "remove": "Remove",
+      "save": "Save"
+    },
+    "component": {
+      "calendar": {
+        "today": "Today",
+        "more_link": "{{ num }} more",
+        "no_events": "No events available"
+      },
+      "chat": {
+        "field": {
+          "message": "Write a message"
+        }
+      },
+      "contacts_field": {
+        "section_title": {
+          "contacts": "Contacts",
+          "phone": "Telefono",
+          "email": "Email"
+        },
+        "field": {
+          "phone_type": "Phone type",
+          "phone_number": "Phone number",
+          "mobile_phone": "Mobile phone",
+          "landline_phone": "Landline phone",
+          "email_type": "Email type",
+          "email": "Email",
+          "registered_email": "Registered email"
+        },
+        "error": {
+          "email": "An email address already exist with this value",
+          "phone": "A phone number already exist with this value"
+        },
+        "action": {
+          "add_phone": "Add phone number",
+          "add_email": "Add email"
+        },
+        "text": {
+          "no_contacts": "The are no contacts entered"
+        },
+        "dialog": {
+          "phone": {
+            "add": "Add phone",
+            "edit": "Edit phone"
+          },
+          "email": {
+            "add": "Add email",
+            "edit": "Edit email"
+          }
+        }
+      },
+      "dashboard": {
+        "actions": {
+          "personalize": "Personalize"
+        },
+        "text": {
+          "no_widgets": "No widgets available, press personalize to add a widget"
+        },
+        "feedback": {
+          "update": "Widgets successfully updated"
+        }
+      },
+      "dashboard_builder": {
+        "field": {
+          "section_title": "Title",
+          "section_color": "Background color"
+        },
+        "action": {
+          "add_section": "Add section"
+        },
+        "sidebar": {
+          "title": "Widgets"
+        }
+      },
+      "document_field": {
+        "field": {
+          "document_name": "Document name",
+          "protocol_number": "Document n. / Protocol n.",
+          "valid_since": "Validity start date",
+          "valid_until": "Validity end date",
+          "notes": "Notes",
+          "issuer": "Issued by",
+          "issue_date": "Issuing date",
+          "content_category_group": "Category",
+          "content_category": "Subcategory",
+          "file_name": "Attachment",
+          "upload_date": "Upload date",
+          "uploaded_by": "Uploaded by",
+          "expired": "Expired"
+        },
+        "error": {
+          "duplicate_name": "A document with this name already exists"
+        }
+      },
+      "document_upload": {
+        "title": "Drag and drop the file",
+        "subtitle": "or",
+        "select_file": "Select file to upload",
+        "upload_requirements": "Supported files: {{ extensions }}. Maximum size: {{ maxSize }}",
+        "max_uploads": "You can upload maximum {{ maxUploads }} files at the same time",
+        "uploads_remaining": "You still have {{ remainingUploads }} uploads on {{ maxUploads }} available",
+        "no_uploads_remaining": "You reached the maximum quota of uploads {{ maxDownloads }} on {{ maxDownloads }}",
+        "further_uploads": "To upload another document, save the current work and start another change, or delete a document among those uploaded but still not saved."
+      },
+      "documents_table": {
+        "section_title": {
+          "documents": "Documents"
+        },
+        "field": {
+          "document_upload": "Upload document",
+          "documents_upload": "Upload documents"
+        },
+        "action": {
+          "add_document": "Add document",
+          "download": "Download"
+        },
+        "text": {
+          "no_documents": "No documents available"
+        },
+        "dialog": {
+          "add": "Add document",
+          "edit": "Edit document",
+          "delete": {
+            "title": "Are you sure?",
+            "description": {
+              "single": "Are you really sure\nyou want to delete this document?\nThe process cannot be undone",
+              "multiple": "Are you really sure\nyou want to delete these documents?\nThe process cannot be undone"
+            }
+          }
+        },
+        "feedback": {
+          "delete": {
+            "single": "Document successfully deleted",
+            "multiple": "Documents successfully deleted"
+          }
+        }
+      },
+      "error": {
+        "title": "Something is wrong",
+        "description": "The page you are looking was moved, removed, renamed, or might never exist!",
+        "button": "Home"
+      },
+      "form_builder": {
+        "description": "Drag the chosen field to the position in the configurator that you prefer. You will be able to position and then move the fields both vertically and horizontally",
+        "name_placeholder": "Enter field name",
+        "option_placeholder": "Enter option",
+        "required": "Required",
+        "add_option": "Add option",
+        "error": {
+          "name": "Verify that all fields have a name entered",
+          "values": "Verify that all selection fields have at least one option entered"
+        }
+      },
+      "header": {
+        "home": "Home",
+        "notification": {
+          "notifications": "Notifications",
+          "no_notifications": "There are currently no notifications",
+          "new_notification": "You have received a new notification",
+          "mark_all": "Mark all as read",
+          "show_all": "Show all"
+        },
+        "profile": {
+          "welcome": "Welcome",
+          "account_settings": "Account Settings",
+          "logout": "Logout"
+        }
+      },
+      "login": {
+        "title": "Welcome",
+        "field": {
+          "username": "Email",
+          "password": "Password",
+          "remember_me": "Keep me logged in"
+        },
+        "error": {
+          "invalid_oidc": "Invalid OpenID credentials",
+          "invalid_tenant": "Invalid selected tenant"
+        },
+        "action": {
+          "sign_in": "Sign In",
+          "sign_in_with_oidc": "Sign In with OpenID"
+        },
+        "text": {
+          "description": "Login into your account",
+          "use_credentials": "Enter with your credentials"
+        },
+        "dialog": {
+          "select_tenant": "Select tenant"
+        }
+      },
+      "profile": {
+        "title": "Profile",
+        "tab": {
+          "general_data": "General data",
+          "change_password": "Change password",
+          "sessions": "Sessions"
+        },
+        "field": {
+          "last_name": "Last Name",
+          "first_name": "First Name",
+          "user_name": "Username",
+          "status": "User status",
+          "enabled_since": "Activation date",
+          "management_subjects": "Management subjects",
+          "current_password": "Current password",
+          "new_password": "New password",
+          "confirm_password": "Confirm password",
+          "session_creation_date": "Creation date",
+          "session_ip_address": "IP address",
+          "session_ip_location": "Address",
+          "session_user_agent": "User agent"
+        },
+        "action": {
+          "change_password": "Change password",
+          "revoke_all_sessions": "Revoke all sessions"
+        },
+        "error": {
+          "invalid_new_password": "New password cannot be the same as the current password",
+          "invalid_confirm_password": "Confirm password do not match the current password"
+        },
+        "feedback": {
+          "change_password": "Password change was successful"
+        }
+      },
+      "search": {
+        "placeholder": "Search",
+        "filter": {
+          "none": "No filters applied",
+          "single": "1 filter applied",
+          "multiple": "{{ count }} filters applied"
+        }
+      },
+      "table": {
+        "reset_filters": "Reset filters",
+        "cancel": "Cancel",
+        "save": "Save",
+        "edit": "Edit",
+        "delete": "Delete",
+        "view": "View",
+        "export": "Export",
+        "add": "Add",
+        "expand": "Expand all",
+        "collapse": "Collapse all",
+        "actions": "Actions",
+        "select": "Select",
+        "unselect": "Unselect",
+        "empty": "No results available",
+        "visible_columns": "{{ count }} visible column(s)",
+        "select_all_columns": "All columns",
+        "options_selected": "{{ count }} options selected",
+        "go_to_first_page": "Go to first page",
+        "go_to_last_page": "Go to last page",
+        "go_to_next_page": "Go to next page",
+        "go_to_previous_page": "Go to previous page",
+        "rows_selected": "{{ count }} row(s) selected",
+        "rows_per_page": "Rows per page:",
+        "displayed_rows": "{{ from }}-{{ to }} of {{ count }}"
+      },
+      "tree": {
+        "tooltip": {
+          "expand": "Expand",
+          "collapse": "Collapse"
+        }
+      }
+    },
+    "dialog": {
+      "close": {
+        "title": {
+          "destructive": "Are you sure?",
+          "draft": "Do you want to save in draft?",
+          "working": "Do you want to save?",
+          "blocker": "Are you sure?"
+        },
+        "description": {
+          "destructive": "The data entered is not sufficient\nin order to save in draft.\nClicking delete will lose all data.\nThe process cannot be undone",
+          "draft": "By saving as a draft you will not lose\nthe data entered so far.\nClicking delete will not save the data.\nThe process cannot be undone",
+          "working": "By saving you will not lose\nthe data entered so far.\nClicking delete will not save the data.\nThe process cannot be undone",
+          "blocker": "You are trying to leave this page.\nClicking proceed will lose all data.\nThe process cannot be undone"
+        },
+        "action": {
+          "draft": "Save draft",
+          "working": "Save"
+        }
+      }
+    },
+    "enum": {
+      "address_type": {
+        "BIRTH_LOCATION": "Birth location",
+        "CARE_OF": "C/O",
+        "FISCAL": "Fiscal",
+        "LEGAL_RESIDENTIAL": "Legal residential",
+        "MAILING": "Mailing"
+      },
+      "administration_type": {
+        "CONCIERGE": "Concierge",
+        "GENERIC": "Generic",
+        "HEATING": "Heating",
+        "HEATING_PROVIDER": "Heating provider",
+        "OWNER": "Owner",
+        "RENT_GENERAL": "Rent general",
+        "SERVICE_PROVIDER": "Service provider",
+        "BUILDING_COMPLEX": "Building complex"
+      },
+      "asset_nature": {
+        "BUILDING": "Building",
+        "LAND": "Land",
+        "UNDEFINED": "Not defined"
+      },
+      "automatic_boolean": {
+        "AUTOMATIC": "Automatic",
+        "FALSE": "No",
+        "TRUE": "Yes"
+      },
+      "bill_emission_type": {
+        "AUTOMATIC": "Automatic",
+        "MANUAL": "Manual"
+      },
+      "billing_period": {
+        "BIMONTHLY": "Bimonthly",
+        "MONTHLY": "Monthly",
+        "PER_QUADRIMESTER": "Per quadrimester",
+        "PER_QUARTER": "Per quarter",
+        "PER_SEMESTER": "Per semester",
+        "YEARLY": "Yearly"
+      },
+      "birth_sex": {
+        "FEMALE": "Woman",
+        "MALE": "Man"
+      },
+      "boolean_operator": {
+        "AND": "and",
+        "OR": "or"
+      },
+      "cadastral_unit_status": {
+        "CANCELLED": "Cancelled",
+        "CHANGED": "Changed",
+        "DISCONTINUED_MERGE": "Discontinued merge",
+        "DISCONTINUED_SPLIT": "Discontinued split",
+        "EXISTING": "Existing",
+        "TRANSFORMED": "Transformed"
+      },
+      "calculation_issue": {
+        "MISSING_CADASTRAL_CATEGORY": "Missing cadastral category",
+        "MISSING_CADASTRAL_INCOME_DATA": "Missing cadastral income",
+        "MISSING_OR_INVALID_OWNERSHIP_DATES": "Missing or invalid ownership dates",
+        "MISSING_OR_ZERO_RATE": "Missing or zero rate"
+      },
+      "calendar_view": {
+        "DAY": "Day",
+        "LIST": "Agenda",
+        "MONTH": "Month",
+        "WEEK": "Week"
+      },
+      "catalogue_type_activity_type": {
+        "ON_INCIDENT": "Maintenance on condition",
+        "PLANNED_MAINTENANCE": "Preventive or scheduled maintenance"
+      },
+      "communication_type": {
+        "ITA_RLI12_DEATH": "Death",
+        "ITA_RLI12_FIRST_REGISTRATION": "First registration",
+        "ITA_RLI12_TAKEOVER": "Takeover",
+        "ITA_RLI12_TRANSFER": "Transfer",
+        "ITA_RLI12_UPDATE": "Update"
+      },
+      "comparison_operator": {
+        "BETWEEN": "Between",
+        "GREATER_THAN": "Greater than",
+        "LESS_THAN": "Less than"
+      },
+      "config_function": {
+        "CMIS_ENDPOINT": "CMIS Endpoint",
+        "DATA_IMPORT": "Data Import",
+        "EXTERNAL_LOGIN": "External Login",
+        "GEOCODER": "Geocoder",
+        "PASSWORD_LOGIN": "Password Login",
+        "SEPA_XML_EXPORT": "Sepa Xml Export"
+      },
+      "contact_info_type": {
+        "E_MAIL": "Email",
+        "LANDLINE_PHONE": "Landline phone",
+        "MOBILE_PHONE": "Mobile phone",
+        "REGISTERED_EMAIL": "Registered email",
+        "SKYPE": "Skype",
+        "UNKNOWN": "Unknown"
+      },
+      "content_category": {
+        "GENERIC": "Other",
+        "BLD_ADMIN_CADASTRE": "Cadastre",
+        "BLD_ADMIN_COMMUNICATIONS": "Administrative communications",
+        "BLD_ADMIN_CONTEXT": "Context",
+        "BLD_ADMIN_GENERIC": "Other",
+        "BLD_ADMIN_GOVERNMENT": "Government",
+        "BLD_ADMIN_LIMITATIONS": "Limitations",
+        "BLD_ADMIN_ORIGIN": "Origin and building titles",
+        "BLD_ADMIN_OWNERSHIP": "Ownership",
+        "BLD_ADMIN_PERMITS_APPROVALS": "Permits Approvals",
+        "BLD_MGMT_COMMUNICATIONS": "Management communications",
+        "BLD_MGMT_CONDOMINIUM": "Condominium",
+        "BLD_MGMT_EQUIPMENT_MANUALS": "Manuals",
+        "BLD_MGMT_EQUIPMENT_WARRANTIES": "Warranties",
+        "BLD_MGMT_GENERIC": "Other",
+        "BLD_MGMT_INCIDENTS_REPORTS": "Incidents Reports",
+        "BLD_MGMT_INSPECTIONS": "Inspections",
+        "BLD_MGMT_INSURANCE": "Insurance",
+        "BLD_MGMT_LITIGATION": "Litigation",
+        "BLD_MGMT_MAINTENANCE": "Maintenance",
+        "BLD_MGMT_PROCUREMENT": "Procurement",
+        "BLD_MGMT_REVAMPING": "Revamping",
+        "BLD_MGMT_SAFETY_TRAINING": "Training and safety",
+        "BLD_MGMT_SELLING": "Selling plans",
+        "BLD_MGMT_USAGE": "Usage",
+        "BLD_MGMT_UTILITIES": "Utilities",
+        "BLD_PHOTO": "Photos",
+        "BLD_PLAN": "Planimetry",
+        "BLD_TECH_ASBESTO_AND_MSDS": "Asbesto and dangerous materials",
+        "BLD_TECH_BUILDTECH": "Building technology",
+        "BLD_TECH_COMMUNICATIONS": "Technical communications",
+        "BLD_TECH_ENERGY_ACOUSTICS": "Energetic and acoustic requirements",
+        "BLD_TECH_FIREPROOFING": "Fireproofing",
+        "BLD_TECH_GENERIC": "Other",
+        "BLD_TECH_OBSTACLES": "Architectural barriers",
+        "BLD_TECH_REFACTORING": "Building interventions",
+        "BLD_TECH_SAFETY_AND_EVACUATION": "Safety and evacuation",
+        "BLD_TECH_STRUCTURE": "Structure",
+        "BLD_TECH_SYSTEMS": "Systems",
+        "CAT_ADMIN_COMMUNICATIONS": "Administrative communications",
+        "CAT_ADMIN_CONTRACTS": "Maintenance contracts",
+        "CAT_ADMIN_GENERIC": "Other",
+        "CAT_ADMIN_OWNERSHIP": "Buying and selling",
+        "CAT_MGMT_COMMUNICATIONS": "Management communications",
+        "CAT_MGMT_EQUIPMENT_MANUALS": "Manuals",
+        "CAT_MGMT_EQUIPMENT_WARRANTIES": "Warranties",
+        "CAT_MGMT_GENERIC": "Other",
+        "CAT_MGMT_INSPECTIONS": "Inspections",
+        "CAT_MGMT_MAINTENANCE_OPERATION": "Maintenance",
+        "CAT_MGMT_OPERATIONAL_REPORTS": "Operational reports",
+        "CAT_MGMT_SAFETY_TRAINING": "Training and safety",
+        "CAT_TECH_CERTIFICATIONS": "Certifications",
+        "CAT_TECH_COMMUNICATIONS": "Technical communications",
+        "CAT_TECH_DATASHEETS": "Datasheets",
+        "CAT_TECH_GENERIC": "Other",
+        "CAT_TECH_MANUALS": "Manuals",
+        "SBJ_IDENTITY_NATIONAL": "National identity",
+        "SBJ_IDENTITY_PASSPORT": "Passport",
+        "SBJ_OTHER": "Other documents"
+      },
+      "content_category_domain": {
+        "BLD": "Immobili",
+        "CAT": "Consistenza",
+        "SBJ": "Soggetti"
+      },
+      "content_category_group": {
+        "GENERIC": "Other",
+        "BLD_ADMIN": "Administration",
+        "BLD_MGMT": "Management",
+        "BLD_PLAN": "Planimetry",
+        "BLD_PHOTO": "Photos",
+        "BLD_TECH": "Technology",
+        "CAT_ADMIN": "Administration",
+        "CAT_MGMT": "Management",
+        "CAT_TECH": "Technology",
+        "SBJ_IDENTITY": "Identity",
+        "SBJ_OTHER": "Other"
+      },
+      "contract_terminator": {
+        "LANDLORD": "Landlord",
+        "TENANT": "Tenant"
+      },
+      "cost_base_factor": {
+        "FORFAIT": "Object",
+        "SQ_M": "Square meter"
+      },
+      "cost_charge_analysis_category": {
+        "ELECTRICITY": "Electricity",
+        "GAS": "Gas",
+        "OTHER": "Other",
+        "WATER": "Water"
+      },
+      "counterpart_type": {
+        "NON_PROFIT": "Cooperative or nonprofit organization",
+        "PHYSICAL_SUBJECT_WITH_TEMPORARY_ID": "Physical person identified by a provisional tax identification number",
+        "REGULAR": "No special situation"
+      },
+      "custom_field_type": {
+        "DATE": "Date Field",
+        "SIMPLE_NUMBER": "Number Field",
+        "SIMPLE_TEXT": "Text Field",
+        "SINGLE_ITEM_FROM_LIST": "Select Field"
+      },
+      "dashboard_section_background_color": {
+        "BLUE": "Blue",
+        "GREY": "Grey"
+      },
+      "day_of_week": {
+        "FRIDAY": "Friday",
+        "MONDAY": "Monday",
+        "SATURDAY": "Saturday",
+        "SUNDAY": "Sunday",
+        "THURSDAY": "Thursday",
+        "TUESDAY": "Tuesday",
+        "WEDNESDAY": "Wednesday"
+      },
+      "document_type": {
+        "GENERIC": "Generic",
+        "PAPER": "Carta",
+        "IMAGE": "Image",
+        "VIDEO": "Video",
+        "EMAIL": "Email",
+        "PDF": "PDF",
+        "CAD_DRAWING": "CAD drawing",
+        "SPREADSHEET": "Spreadsheet"
+      },
+      "entry_status": {
+        "FROZEN_CLOSED": "Closed",
+        "INCOMPLETE_DRAFT": "Draft",
+        "WORKING": "In progress"
+      },
+      "equality_operator": {
+        "EQUAL": "Equal",
+        "NOT_EQUAL": "Not equal"
+      },
+      "estate_market_value_type": {
+        "MAX_VALUE_PER_SQ_M": "Max value per sqm",
+        "MIN_VALUE_PER_SQ_M": "Min value per sqm",
+        "MOST_COMMON_VALUE_PER_SQ_M": "Most common value per sqm"
+      },
+      "estate_ownership": {
+        "EASEMENT": "Easement",
+        "FREEHOLD": "Freehold",
+        "LEASING": "Leasing",
+        "LOAN": "Loan",
+        "MIXED": "Mixed",
+        "OVERGROUND_ONLY": "Overground only",
+        "THIRD_PARTY": "Third party",
+        "UNDERGROUND_ONLY": "Underground only"
+      },
+      "estate_status": {
+        "DECOMMISSIONED": "Decommissioned",
+        "OPERATIONAL": "Operational"
+      },
+      "estate_type": {
+        "BUILDING": "Building",
+        "LAND_PLOT_BUILDABLE": "Land plot buildable",
+        "LAND_PLOT_UNDEVELOPED": "Land plot undeveloped",
+        "MIXED": "Mixed",
+        "UNDEFINED": "Undefined",
+        "URBAN_PLOT": "Urban plot"
+      },
+      "estate_total_market_value_coefficient_type": {
+        "AGE": "Age",
+        "OBSOLESCENCE": "Obsolescence"
+      },
+      "estate_unit_heritage_type": {
+        "BUILDING": "Building",
+        "LAND": "Land"
+      },
+      "estate_unit_ownership_type": {
+        "LEASING": "Leasing",
+        "LOAN": "Loan",
+        "PROPERTY": "Property",
+        "RIGHT_OF_USE": "Right of use",
+        "SUBSOIL_RIGHTS": "Subsoil rights",
+        "SURFACE_RIGHTS": "Surface rights",
+        "THIRD_PARTIES": "Third parties"
+      },
+      "estate_unit_status": {
+        "CANCELLED": "Cancelled",
+        "DISCONTINUED_MERGE": "Discontinued merge",
+        "DISCONTINUED_SPLIT": "Discontinued split",
+        "DISUSED": "Disused",
+        "EXISTING": "Existing",
+        "RETURNED": "Returned",
+        "SOLD": "Sold",
+        "TRANSFORMED": "Transformed"
+      },
+      "estate_unit_type": {
+        "BUILDING": "Building",
+        "BUILDING_AREA": "Building area",
+        "GROUND": "Ground",
+        "OTHER": "Other",
+        "URBAN_AREA": "Urban area"
+      },
+      "expense_class": {
+        "CLASS1": "Class 1",
+        "CLASS2": "Class 2",
+        "CLASS3": "Class 3",
+        "CLASS4": "Class 4",
+        "CLASS5": "Class 5"
+      },
+      "holiday_periodicity": {
+        "ONCE": "Once",
+        "YEARLY": "Yearly"
+      },
+      "income_metric": {
+        "ARES": "Ares",
+        "CUBIC_METRES": "Cubic metres",
+        "ROOMS": "Rooms",
+        "SQUARE_METRES": "Square metres"
+      },
+      "income_type": {
+        "ACTUAL_INCOME": "Actual income",
+        "BALANCE_SHEET_VALUE": "Balance sheet value",
+        "PRESUMED_INCOME": "Presumed income",
+        "PROPOSED_INCOME_BY_LAW_IT701_94": "Proposed income by law IT 701/94"
+      },
+      "line_chart_type": {
+        "DAILY": "Daily",
+        "MONTHLY": "Monthly",
+        "WEEKLY": "Weekly"
+      },
+      "login_error": {
+        "INVALID_CREDENTIALS": "Invalid user credentials",
+        "PASSWORD_EXPIRED": "Password expired",
+        "USER_LOCKED": "User locked"
+      },
+      "metering_type": {
+        "INCREMENTAL_READING": "Reading",
+        "USAGE": "Usage"
+      },
+      "month": {
+        "JANUARY": "January",
+        "FEBRUARY": "February",
+        "MARCH": "March",
+        "APRIL": "April",
+        "MAY": "May",
+        "JUNE": "June",
+        "JULY": "July",
+        "AUGUST": "August",
+        "SEPTEMBER": "September",
+        "OCTOBER": "October",
+        "NOVEMBER": "November",
+        "DECEMBER": "December"
+      },
+      "notification_status": {
+        "NEW": "New",
+        "READ": "Read",
+        "UNREAD": "Unread"
+      },
+      "occupant_type": {
+        "COMMON_AREA": "Common area",
+        "COMPANY_GROUP_MEMBER": "Company group member",
+        "THIRD_PARTIES": "Third parties"
+      },
+      "office_access": {
+        "BACK_OFFICE": "Back office",
+        "BOTH": "Back office - Front office",
+        "FRONT_OFFICE": "Front office"
+      },
+      "officer_type": {
+        "ATTORNEY": "Attorney",
+        "CURATOR": "Curator",
+        "EXECUTOR_ADMINISTRATOR": "Executor administrator",
+        "GUARDIAN": "Guarding",
+        "HEIR": "Heir",
+        "LEGAL_REPRESENTATIVE": "Legal representative",
+        "SPECIAL_LEGAL_REPRESENTATIVE": "Special legal representative",
+        "TRUSTEE": "Trustee"
+      },
+      "org_unit_type": {
+        "COST_CENTRE": "COST_CENTRE",
+        "GEOGRAPHICAL_HIERARCHY": "Geographical",
+        "MANAGEMENT_HIERARCHY": "Management"
+      },
+      "payment_type": {
+        "AITO": "AITO",
+        "ASCI": "ASCI",
+        "ASTR": "ASTR",
+        "CASH": "Cash",
+        "CCPM": "CCP-M",
+        "CHECK": "Check",
+        "DEBT_NOTE": "Debt note",
+        "F23": "F23",
+        "MAV": "MAV",
+        "NOPA": "NOPA",
+        "POST_ACCOUNT": "Post account",
+        "RID": "RID",
+        "SALARY_DEDUCTION": "Salary deduction",
+        "UNDEFINED": "N.D.",
+        "WIRE_TRANSFER": "Wire transfer"
+      },
+      "penalty_type": {
+        "FIXED": "Fixed",
+        "PERCENTAGE": "Percentage"
+      },
+      "performed_activity_status": {
+        "CANNOT_PERFORM": "Cannot perform",
+        "PERFORMED_SUCCESSFULLY": "Performed",
+        "PERFORMED_UNSUCCESSFULLY": "Partially performed",
+        "TO_BE_PERFORMED": "Scheduled"
+      },
+      "planned_period": {
+        "ANNUAL": "Annual",
+        "BIMONTHLY": "Bimonthly",
+        "BIWEEKLY": "Biweekly",
+        "DAILY": "Daily",
+        "EVERY_FOUR_MONTHS": "Every four months",
+        "MIDWEEK": "Midweek",
+        "MONTHLY": "Monthly",
+        "QUARTERLY": "Quarterly",
+        "SEMIANNUAL": "Semiannual",
+        "THRICE_WEEKLY": "Thrice weekly",
+        "WEEKLY": "Weekly"
+      },
+      "planning_status": {
+        "EXECUTED_LATE": "Executed late",
+        "EXECUTED_ON_TIME": "Executed",
+        "PLANNED_FUTURE": "Planned",
+        "PLANNED_OVERDUE": "Planned overdue"
+      },
+      "priority": {
+        "CRITICAL": "Critical",
+        "MAJOR": "High",
+        "MINOR": "Low",
+        "NORMAL": "Normal"
+      },
+      "quote_master_status": {
+        "COMPLETED": "Approved",
+        "IN_PROGRESS": "Waiting for approval",
+        "NEW": "Open"
+      },
+      "reason": {
+        "MODIFICATIONS_TO_EXISTING": "Modifications to existing",
+        "NOT_SPECIFIED": "Not specified",
+        "RATIFICATION": "Ratification",
+        "RENT_START": "Rent start",
+        "SILENT_RENEWAL": "Silent renewal",
+        "TRANSFER": "Transfer"
+      },
+      "registration_payment_type": {
+        "MANUAL_INPUT": "Manual input",
+        "PAYMENT": "Payment"
+      },
+      "registration_tax_exemption": {
+        "DUTIES": "Duties",
+        "STAMP": "Stamp",
+        "STAMP_AND_DUTIES": "Stamp/Duties"
+      },
+      "registration_tax_income_type": {
+        "FARMLAND": "Farmland",
+        "NONRESIDENTIAL_LEASING": "Nonresidential leasing",
+        "NONRESIDENTIAL_LEASING_WITH_VAT": "Nonresidential leasing with VAT",
+        "NONRESIDENTIAL_RENTAL": "Nonresidential rental",
+        "NONRESIDENTIAL_RENTAL_LAW133_ART6": "Nonresidential rental - Law 133 Art 6",
+        "NONRESIDENTIAL_RENTAL_LAW633_ART10": "Nonresidential rental - Law 633 Art 10",
+        "NONRESIDENTIAL_RENTAL_WITH_VAT": "Nonresidential rental with VAT",
+        "OTHER_ESTATES": "Other estates",
+        "OTHER_LEASING": "Other leasing",
+        "OTHER_RENTAL_LAW133_ART6": "Other rental - Law 133 Art 6",
+        "OTHER_RENTAL_LAW633_ART10": "Other rental - Law 633 Art 10",
+        "RESIDENTIAL_LEASING": "Residential leasing",
+        "RESIDENTIAL_RENTAL_BY_BUILDERS": "Residential rental by builders",
+        "RESIDENTIAL_RENTAL_LAW133_ART6": "Residential rental - Law 133 Art 6",
+        "RESIDENTIAL_RENTAL_LAW633_ART10": "Residential rental - Law 633 Art 10",
+        "URBAN_ESTATES": "Urban estates"
+      },
+      "registration_tax_income_type_rli": {
+        "ITA_L1_RESIDENTIAL": "L1 - Residential",
+        "ITA_L2_RESIDENTIAL_DISCOUNT": "L2 - Residential discount",
+        "ITA_L3_RESIDENTIAL_WITH_VAT": "L3 - Residential with VAT",
+        "ITA_L4_RESIDENTIAL_FINANCIAL": "L4 - Residential financial",
+        "ITA_S1_NONRESIDENTIAL": "S1 - Nonresidential",
+        "ITA_S2_INSTRUMENTAL_WITH_VAT": "S2 - Instrumental with VAT",
+        "ITA_S3_NONRESIDENTIAL_FINANCIAL": "S3 - Nonresidential financial",
+        "ITA_T1_FARMLAND": "T1 - Farmland",
+        "ITA_T2_FARMLAND_DISCOUNT": "T2 - Farmland discount",
+        "ITA_T3_NONBUILDABLE_LAND": "T3 - Nonbuildable land",
+        "ITA_T4_NONBUILDABLE_PARKING_WITH_VAT": "T4 - Nonbuildable parking with VAT"
+      },
+      "registration_tax_payment_type": {
+        "ITA_F24_ELIDE": "F24 elide",
+        "ITA_TELEMATICO": "Telematic",
+        "UNDEFINED": "Not defined"
+      },
+      "registration_tax_period": {
+        "ENTIRE_DURATION": "Entire duration",
+        "YEAR": "Year"
+      },
+      "registration_tax_special_case": {
+        "ITA_1_YEARS_WITH_DIFFERENT_RATES": "1 - Years with different rates",
+        "ITA_2_SUBLETTING": "2 - Subletting",
+        "ITA_3_YEARS_WITH_RATES_DIFFERENT_FROM_WHOLE": "3 - Years with rates different from whole"
+      },
+      "release_reason": {
+        "NOT_RENEWED_AT_TERMINATION": "Not renewed at termination",
+        "WITHDRAWAL": "Withdrawal",
+        "TERMINATION": "Termination"
+      },
+      "report_format": {
+        "EXCEL": ".xlsx",
+        "PDF": ".pdf"
+      },
+      "repossession_reason": {
+        "CITY_DECREE": "City decree",
+        "EMERGENCY_MAINTENANCE": "Emergency maintenance",
+        "ESTATE_STATUS_CHECK": "Estate status check",
+        "GIVEN_BACK_FORCED_SALE": "Given back forced sale",
+        "GIVEN_BACK_JUDICIARY_OFFICIAL": "Given back judiciary official",
+        "GOODWILL_LOAN": "Goodwill loan",
+        "JUDICIARY_INJUCTION": "Judiciary injuction",
+        "NEGOTIATION_COMMERCIAL_LOCATION": "Negotiation commercial location",
+        "NEGOTIATION_OCCUPATION_PAYBACK": "Negotiation occupation payback",
+        "OTHER": "Other",
+        "SQUATTING": "Squatting",
+        "TECHNICAL_DIFFICULTIES": "Technical difficulties",
+        "TENANT_DEFAULT": "Tenant default"
+      },
+      "repossession_type": {
+        "BLOCKED_REPOSSESSION": "Blocked repossession",
+        "CHECK_BEFORE": "Check before",
+        "INCOMPLETE_REPOSSESSION": "Incomplete repossession",
+        "REPOSSESSION": "Repossession"
+      },
+      "revaluation_rate_type": {
+        "ACTUAL_RATE": "Actual rate",
+        "BASE_RATE": "Base rate",
+        "MULTIYEAR_RATE": "Multiyear rate"
+      },
+      "security_deposit_type": {
+        "BANK_ACCOUNT": "Bank account",
+        "BANK_SURETY": "Bank surety",
+        "CASH": "Cash",
+        "INSURANCE_SURETY": "Insurance surety"
+      },
+      "surface_measurement_metric": {
+        "SQUARE_METRE_GROSS_NORMAL": "sqm gross",
+        "SQUARE_METRE_HEATING_COOLING": "sqm energy",
+        "SQUARE_METRE_NET_LOW_CEILING": "sqm height <1.7 m",
+        "SQUARE_METRE_NET_NORMAL": "sqm net",
+        "ROOMS": "rooms"
+      },
+      "surface_type": {
+        "COMMON_AREA": "Common area",
+        "MAIN_AREA": "Main area",
+        "SIDE_AREA": "Side area"
+      },
+      "takeover_type": {
+        "ITA_T1_DEMISE": "T1 Demise",
+        "ITA_T2_RIGHTS_TRANSFER": "T2 Rights transfer",
+        "ITA_T3_COMPANY_TRANSFORMATION": "T3 Company transformation",
+        "ITA_T4_COMPANY_MERGER": "T4 Company merger",
+        "ITA_T5_COMPANY_SPLIT": "T5 Company split",
+        "ITA_T6_OTHERS": "T6 Others"
+      },
+      "term_type": {
+        "EXTRAORDINARY_ASSET": "Extraordinary Asset",
+        "EXTRAORDINARY_NON_ASSET": "Extraordinary Non Asset",
+        "GENERIC": "Generic",
+        "HEATING": "Heating"
+      },
+      "ticket_checklist_template_type": {
+        "ON_TRIGGER_CONDITION": "On condition",
+        "PREVENTATIVE": "Preventative",
+        "PREVENTATIVE_AND_ON_TRIGGER_CONDITION": "Preventative and on condition"
+      },
+      "ticket_history_entry_type": {
+        "STATUS_UPDATED": "Status updated"
+      },
+      "ticket_main_type": {
+        "CHECKLIST_ON_TRIGGER_CONDITION": "Maintenance on condition",
+        "CHECKLIST_PREVENTATIVE": "Preventive maintenance",
+        "ISSUE": "Ticket",
+        "ISSUE_PARENT": "Cumulative ticket"
+      },
+      "ticket_master_status": {
+        "ASSIGNED": "Assigned",
+        "COMPLETED": "Closed",
+        "IN_PROGRESS": "In progress",
+        "NEW": "Open",
+        "RESOLVED": "Resolved"
+      },
+      "unit_condition": {
+        "ACCEPTABLE": "Acceptable",
+        "DEGRADED": "Degraded",
+        "NORMAL": "Normal",
+        "UNAVAILABLE": "Unavailable"
+      },
+      "user_type": {
+        "INTERNAL": "Internal user",
+        "EXTERNAL_SUPPLIER": "External user"
+      },
+      "user_status": {
+        "ACTIVE": "Active",
+        "CEASED": "Ceased",
+        "SUSPENDED": "Suspended"
+      },
+      "utility_category": {
+        "WATER_SUPPLY": "Water supply",
+        "ELECTRICAL": "Electrical",
+        "NATURAL_GAS": "Natural gas",
+        "LIQUID_FOSSIL_FUELS": "Liquid fossil fuels",
+        "CLEANING_AND_MAINTENANCE": "Cleaning and maintenance",
+        "GARDENING": "Gardening",
+        "TELECOMMUNICATION": "Telecommunication",
+        "SEWAGE": "Sewage",
+        "WASTE_MANAGEMENT_COLLECTION": "Waste management collection",
+        "DISTRICT_HEATING": "District heating",
+        "DISTRICT_COOLING": "District cooling",
+        "PUBLIC_TRANSPORTATION": "Public transportation",
+        "STREET_LIGHTING": "Street lighting",
+        "POSTAL_SERVICE": "Postal service"
+      },
+      "vat_rate": {
+        "EXEMPT": "Exempt",
+        "NON_TAXABLE": "Non taxable",
+        "RATE": "VAT 22%"
+      },
+      "vat_rate_type": {
+        "EXEMPT": "Exempt",
+        "NON_TAXABLE": "Non taxable",
+        "RATE": "Rate"
+      }
+    },
+    "error": {
+      "date_not_after": "The '{{ first }}' field cannot be subsequent to the '{{ second }}' field",
+      "date_not_before": "The '{{ first }}' field cannot be prior to the '{{ second }}' field",
+      "date_not_future": "The '{{ name }}' field cannot be in the future",
+      "email": "Invalid email",
+      "generic": "An error occurred, please try again",
+      "max": "The '{{ name }}' field value cannot be greater than {{ max }}",
+      "min": "The '{{ name }}' field value cannot be less than {{ min }}",
+      "number_not_greater": "The '{{ first }}' field cannot be greater than the '{{ second }}' field",
+      "number_not_less": "The '{{ first }}' field cannot be less than the '{{ second }}' field",
+      "password_unsafe": "Password must be at least 8 characters and must contain at least 3 kind of characters between lowercase, uppercase, numbers, and symbols",
+      "phone": "Invalid phone number",
+      "required": "The '{{ name }}' field is required",
+      "required_upload": "A file upload is required",
+      "upload_limit_exceeded": "You exceeded the maximum upload limit {{ maxUploads }} on {{ maxUploads }}",
+      "upload_single_exceeded": "You tried to upload more than a single file",
+      "upload_size_exceeded": "You exceeded the maximum upload size {{ maxSize }}MB",
+      "upload_type_invalid": "You tried to upload a file with an invalid format"
+    },
+    "feedback": {
+      "document_upload": "Document upload will continue in the background",
+      "document_uploaded": "Document successfully uploaded",
+      "documents_upload": "Documents upload will continue in the background",
+      "documents_uploaded": "Documents successfully uploaded"
+    },
+    "language": {
+      "en": "English",
+      "it": "Italiano"
+    },
+    "text": {
+      "all": "All",
+      "false": "No",
+      "loading": "Loading",
+      "no_options": "No options",
+      "search": "Search",
+      "true": "Yes"
+    }
+  }
+}

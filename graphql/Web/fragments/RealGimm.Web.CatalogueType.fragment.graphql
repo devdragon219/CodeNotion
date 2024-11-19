@@ -1,0 +1,56 @@
+fragment CatalogueTypeFragment on CatalogueType {
+  id
+  internalCode
+  name
+  category {
+    id
+    name
+  }
+  subCategory {
+    id
+    name
+  }
+  usageTypes {
+    id
+    name
+  }
+}
+
+fragment CatalogueCategoryCatalogueTypeDetailFragment on CatalogueType {
+  id
+  internalCode
+  name
+  notes
+  subCategory {
+    ...CatalogueSubCategoryFragment
+  }
+  activities {
+    ...CatalogueTypeActivityFragment
+  }
+  usageTypes {
+    ...UsageTypeFragment
+  }
+  fields {
+    ...CatalogueTypeFieldFragment
+  }
+}
+
+fragment CatalogueTypeDetailFragment on CatalogueType {
+  ...CatalogueCategoryCatalogueTypeDetailFragment
+  category {
+    ...CatalogueCategoryFragment
+  }
+}
+
+fragment FacilityCatalogueTypeFragment on CatalogueType {
+  id
+  name
+  category {
+    id
+    name
+  }
+  subCategory {
+    id
+    name
+  }
+}

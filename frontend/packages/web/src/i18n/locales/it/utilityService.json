@@ -1,0 +1,109 @@
+{
+  "utility_service": {
+    "title": "Forniture",
+    "tab": {
+      "general_data": "Dati generali",
+      "estates": "Immobili",
+      "estate_units": "Unità immobiliari",
+      "readings_usages": "Letture/Consumi",
+      "readings": "Letture",
+      "usages": "Consumi",
+      "cost_charges": "Spese",
+      "recap": "Riepilogo"
+    },
+    "section_title": {
+      "general_data": "Dati generali",
+      "estates": "Immobili",
+      "select_estates": "Seleziona gli immobili da associare",
+      "selected_estates": "Immobili selezionati",
+      "estate_units": "Unità immobiliari",
+      "select_estate_units": "Seleziona le UI da associare",
+      "selected_estate_units": "UI selezionate",
+      "cost_charges": "Spese",
+      "no_cost_charges": "Non sono presenti spese",
+      "recap": "Riepilogo"
+    },
+    "field": {
+      "internal_code": "Codice fornitura",
+      "reference_subject": "Intestatario",
+      "org_unit": "Unità organizzativa",
+      "utility_type": "Tipologia fornitura",
+      "utility_type_category": "Categoria fornitura",
+      "provider_subject": "Fornitore",
+      "provider_subject_internal_code": "Codice fornitore",
+      "provider_subject_vat_number": "P.IVA",
+      "accounting_item": "Codice contabilità",
+      "description": "Descrizione fornitura",
+      "utility_contract_code": "Codice fornitura (contratto)",
+      "utility_user_code": "Codice cliente",
+      "utility_type_metering_type": "Lettura/consumo",
+      "free_market": "Mercato libero",
+      "deposit": "Deposito cauzionale",
+      "status": "Stato contratto",
+      "activation_date": "Data attivazione",
+      "deactivation_date": "Data cessazione",
+      "deactivation_request_date": "Data disdetta",
+      "utility_meter_serial": "Matricola contatore",
+      "utility_delivery_point_code": "POD/PDR/Presa",
+      "contract_power_nominal": "Potenza contrattuale",
+      "contract_power_maximum": "Potenza disponibile",
+      "contract_nominal_tension": "Tensione",
+      "notes": "Note",
+      "estates": "Immobili",
+      "estate_code": "Codice immobile",
+      "estate_name": "Denominazione immobile",
+      "estate_type": "Tipologia immobile",
+      "estate_status": "Stato immobile",
+      "estate_usage_type": "Destinazione d'uso",
+      "estate_management_subject": "Ente di gestione",
+      "address_toponymy": "Indirizzo",
+      "address_indoor_number": "Numero interno",
+      "estate_units": "Unità immobiliari",
+      "estate_unit_code": "Codice UI",
+      "estate_unit_name": "Denominazione UI",
+      "estate_unit_type": "Tipologia UI",
+      "estate_unit_usage_type": "Destinazione d’uso",
+      "estate_unit_cadastral_coordinates": "Dati catastali",
+      "measurement_unit_code": "Codice unità di misura",
+      "measurement_unit_description": "Descrizione unità di misura"
+    },
+    "error": {
+      "internal_code": "Il codice fornitura inserito è già in uso",
+      "no_estates": "Nessun immobile selezionato",
+      "no_estate_units": "Nessuna UI selezionata"
+    },
+    "action": {
+      "add_estates": "Aggiungi immobili",
+      "add_estate_units": "Aggiungi unità immobiliari",
+      "add_cost_charge": "Aggiungi spesa"
+    },
+    "text": {
+      "no_utility_services": "Non sono presenti forniture",
+      "no_estates": "Non sono presenti immobili selezionati",
+      "no_estate_units": "Non sono presenti UI selezionate"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta fornitura",
+        "save": "Salva fornitura"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa fornitura?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste forniture?\nIl processo non potrà essere annullato"
+        }
+      },
+      "estates": "Aggiunta immobili",
+      "estate_units": "Aggiunta unità immobiliari"
+    },
+    "feedback": {
+      "create": "Fornitura creata con successo",
+      "delete": {
+        "single": "Fornitura cancellata con successo",
+        "multiple": "Forniture cancellate con successo"
+      },
+      "update": "Fornitura modificata con successo"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "usage_type": {
+    "title": "Destinazioni d'uso",
+    "section_title": {
+      "usage_type": "Destinazione d'uso"
+    },
+    "field": {
+      "internal_code": "Codice destinazione d'uso",
+      "name": "Descrizione destinazione d'uso",
+      "applicability": "Applicabilità",
+      "ordering": "Ordinamento"
+    },
+    "error": {
+      "internal_code": "Il codice destinazione d'uso inserito è già in uso"
+    },
+    "action": {
+      "add_usage_type": "Aggiungi destinazione d'uso"
+    },
+    "text": {
+      "no_usage_types": "Non sono presenti destinazioni d'uso"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta destinazione d'uso",
+        "save": "Salva destinazione d'uso"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa destinazione d'uso?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste destinazioni d'uso?\nIl processo non potrà essere annullato"
+        }
+      },
+      "update": {
+        "title": "Modifica destinazione d'uso"
+      },
+      "view": {
+        "title": "Visualizza destinazione d'uso"
+      }
+    },
+    "feedback": {
+      "create": "Destinazione d'uso creata con successo",
+      "delete": {
+        "single": "Destinazione d'uso cancellata con successo",
+        "multiple": "Destinazioni d'uso cancellate con successo"
+      },
+      "update": "Destinazione d'uso modificata con successo"
+    }
+  }
+}

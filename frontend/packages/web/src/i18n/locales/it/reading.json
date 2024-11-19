@@ -1,0 +1,90 @@
+{
+  "reading": {
+    "section_title": {
+      "no_readings": "Non è presente alcuna lettura, clicca su modifica per aggiungere una lettura",
+      "measurement_data": "Dati unità",
+      "reading_data": "Dati lettura"
+    },
+    "field": {
+      "measurement_unit_code": "Codice unità di misura",
+      "measurement_unit_description": "Descrizione unità di misura",
+      "date": "Data lettura",
+      "type": "Tipo lettura",
+      "notes": "Note lettura",
+      "value": "Lettura fascia {{ index }}"
+    },
+    "estimated": {
+      "false": "Reale",
+      "true": "Presunta"
+    },
+    "action": {
+      "add_reading": "Aggiungi lettura"
+    },
+    "text": {
+      "no_readings": "Non è presente alcuna lettura"
+    },
+    "dialog": {
+      "create": "Aggiunta lettura",
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa lettura?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste letture?\nIl processo non potrà essere annullato"
+        }
+      },
+      "edit": "Modifica lettura"
+    },
+    "feedback": {
+      "create": "Lettura creata con successo",
+      "delete": {
+        "single": "Lettura cancellata con successo",
+        "multiple": "Letture cancellate con successo"
+      },
+      "update": "Lettura modificata con successo"
+    }
+  },
+  "usage": {
+    "section_title": {
+      "no_usages": "Non è presente alcun consumo, clicca su modifica per aggiungere un consumo",
+      "measurement_data": "Dati unità",
+      "usage_data": "Dati consumo"
+    },
+    "field": {
+      "measurement_unit_code": "Codice unità di misura",
+      "measurement_unit_description": "Descrizione unità di misura",
+      "date": "Data consumo",
+      "type": "Tipo consumo",
+      "notes": "Note consumo",
+      "value": "Consumo fascia {{ index }}"
+    },
+    "estimated": {
+      "false": "Reale",
+      "true": "Presunta"
+    },
+    "action": {
+      "add_usage": "Aggiungi consumo"
+    },
+    "text": {
+      "no_usages": "Non è presente alcun consumo"
+    },
+    "dialog": {
+      "create": "Aggiunta consumo",
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questo consumo?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare questi consumi?\nIl processo non potrà essere annullato"
+        }
+      },
+      "edit": "Modifica consumo"
+    },
+    "feedback": {
+      "create": "Consumo creato con successo",
+      "delete": {
+        "single": "Consumo cancellato con successo",
+        "multiple": "Consumi cancellati con successo"
+      },
+      "update": "Consumo modificato con successo"
+    }
+  }
+}

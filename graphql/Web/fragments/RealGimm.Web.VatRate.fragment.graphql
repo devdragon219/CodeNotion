@@ -1,0 +1,7 @@
+fragment VatRateFragment on VATRate {
+  id
+  internalCode
+  description
+  type
+  ratePercent
+}

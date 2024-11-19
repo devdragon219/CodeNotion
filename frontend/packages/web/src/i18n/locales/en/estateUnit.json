@@ -1,0 +1,166 @@
+{
+  "estate_unit": {
+    "title": "Estate Units",
+    "tab": {
+      "general_data": "General data",
+      "official_act": "Official act",
+      "estate": "Estate",
+      "cadastral_unit": "CU",
+      "estate_sub_units": "Sub EU",
+      "surface": "EU surface",
+      "select_surface": "Select surface",
+      "enter_surface": "Enter surface",
+      "repossession": "Repossession",
+      "documents": "Documents",
+      "recap": "Recap"
+    },
+    "section_title": {
+      "estate": "Select estate",
+      "general_data": "General data",
+      "estate_unit_general_data": "Estate unit general data",
+      "official_act": "Official act",
+      "no_official_act": "No official act available, press edit to add an official act",
+      "no_cadastral_unit": "No cadastral unit available",
+      "surface_mode": "Select the surface insertion mode",
+      "surface_value": "Enter the surface value",
+      "surface_floor": "Choose the floor",
+      "documents": "Documents",
+      "recap": "Recap"
+    },
+    "field": {
+      "estate_unit_code": "EU code",
+      "estate_unit_type": "EU type",
+      "estate_unit_status": "EU status",
+      "management_subject": "Management subject",
+      "address_toponymy": "Address",
+      "address_city": "City",
+      "address_postal_code": "Postal code",
+      "address_county": "County",
+      "address_country": "Country",
+      "address_indoor_number": "Indoor number",
+      "stair": "Stair",
+      "external_estate_unit_code": "EU external code",
+      "estate_unit_name": "EU name",
+      "net_surface": "Net surface (mq)",
+      "gross_surface": "Gross surface (mq)",
+      "floors_counter": "Number of floors",
+      "estate_code": "Estate code",
+      "estate_name": "Estate Name",
+      "estate_type": "Estate type",
+      "cadastral_coordinates": "Cadastral data",
+      "usage_type": "Use type",
+      "external_estate_code": "External estate code",
+      "estate_status": "Estate status",
+      "estate_usage_type": "Usage type",
+      "estate_ownership": "Ownership type",
+      "estate_management_subject": "Management subject",
+      "estate_management_org_unit": "Management OU",
+      "floors": "Floors",
+      "shared_area": "Shared area",
+      "disused_date": "Disused date",
+      "ownership_type": "Ownership type EU",
+      "ownership_start_date": "Ownership start date EU",
+      "ownership_end_date": "Ownership end date EU",
+      "ownership_percentage": "% ownership",
+      "notes": "Notes",
+      "official_act_protocol_number": "Protocol act number",
+      "official_act_repertoire_number": "Repertoire number",
+      "official_act_registration_number": "Registration number",
+      "official_act_registration_date": "In date",
+      "official_act_written_at_city": "Written by",
+      "official_act_transcription_number": "Transcription number",
+      "official_act_transcription_date": "In date",
+      "official_act_transcription_city": "Written by",
+      "official_act_notary_act_date": "Notary act date",
+      "official_act_collection_number": "Collection number",
+      "official_act_notary_name": "Notary",
+      "cadastral_unit_code": "Cadastral unit code",
+      "cadastral_unit_coordinates": "Coordinates",
+      "cadastral_unit_since": "Validity start date",
+      "cadastral_unit_income_macro_category": "Cadastral category",
+      "cadastral_unit_income_type": "Income type",
+      "cadastral_unit_income_cadastral_amount": "Cadastral amount",
+      "cadastral_unit_income_micro_category": "Class",
+      "cadastral_unit_inspection_protocol_number": "Protocol number",
+      "cadastral_unit_inspection_protocol_date": "Protocol date",
+      "cadastral_unit_inspection_date": "Inspection date",
+      "cadastral_unit_inspection_heading": "Inspection heading",
+      "cadastral_unit_address": "Full address",
+      "surface_metric": "Measurement unit",
+      "surface_floors": "Floors",
+      "surface_function_area": "Function area",
+      "surface_total_measure": "Total measure",
+      "surface_common_area": "Of common area",
+      "surface_side_area": "Of side area",
+      "surface_function_area_type": "Function area type",
+      "surface_total_area": "Total surface sqm",
+      "surface_floor": "Floor number",
+      "repossession_type": "Repossession type",
+      "repossession_reason": "Repossession reason",
+      "repossession_date": "Repossession date",
+      "repossession_status": "Repossession status",
+      "repossession_assignable": "Unit assignable",
+      "repossession_keys_returned": "Keys returned",
+      "repossession_with_values": "With values",
+      "document_upload": "Upload documents"
+    },
+    "error": {
+      "no_estate": "No estate selected",
+      "surface_common_area": "The surface of the common area cannot be greater than the total surface",
+      "surface_side_area": "The surface of the side area cannot be greater than the total surface",
+      "surface_total_area": "The sum of the surfaces of the common and side area cannot be greater than the total surface"
+    },
+    "action": {
+      "add_official_act": "Add official act",
+      "add_cadastral_unit": "Add cadastral unit",
+      "add_surface_floor": "Add surface for an other floor",
+      "merge": "Merge",
+      "split": "Split",
+      "transform": "Transform",
+      "add_document": "Add document"
+    },
+    "text": {
+      "no_estate_units": "No estate units available",
+      "no_official_act": "No official act available",
+      "no_documents": "No documents uploaded"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add Estate Unit",
+        "save": "Save estate unit"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this estate unit?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these estate units?\nThe process cannot be undone"
+        }
+      },
+      "official_act": {
+        "title": "Add official act"
+      },
+      "surfaces": {
+        "title": "Edit EU surfaces"
+      },
+      "split": {
+        "title": "UI Split",
+        "tab": {
+          "estate": "Select estate",
+          "estate_unit": "EU split",
+          "cadastral_unit": "New CU",
+          "cadastral_coordinates": "Cadastral coordinates",
+          "recap": "Recap"
+        },
+        "save": "Save split EU"
+      }
+    },
+    "feedback": {
+      "create": "Estate unit successfully created",
+      "delete": {
+        "single": "Estate unit successfully deleted",
+        "multiple": "Estate units successfully deleted"
+      },
+      "update": "Estate unit successfully updated"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+fragment DocumentRowFragment on DocumentRow {
+  document {
+    ...DocumentFragment
+  }
+  estateInternalCode
+  estateUnitInternalCode
+  catalogueItemInternalCode
+  catalogueTypeInternalCode
+  catalogueCategory
+  catalogueSubCategory
+  subjectInternalCode
+  contractInternalCode
+  isContractActive
+  isContractSublocated
+  estateId
+  catalogueTypeId
+  ticketId
+  ticketInternalCode
+  isTicketExcludedFromMaintenanceContract
+  fcltContractId
+  fcltContractInternalCode
+}

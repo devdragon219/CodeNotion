@@ -1,0 +1,17 @@
+﻿{
+  Data: {
+    priceListMeasurementUnit: {
+      update: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          id: 1,
+          internalCode: UL01,
+          name: Dolore aut.,
+          ordering: 1
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

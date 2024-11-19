@@ -1,0 +1,14 @@
+fragment PriceListFragment on PriceList {
+  internalCode
+  name
+  ordering
+  id
+}
+
+fragment PriceListDetailFragment on PriceList {
+  internalCode
+  name
+  ordering
+  isDefault
+  id
+}

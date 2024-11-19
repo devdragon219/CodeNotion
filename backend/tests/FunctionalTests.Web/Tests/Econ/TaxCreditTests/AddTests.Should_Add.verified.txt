@@ -1,0 +1,29 @@
+﻿{
+  Data: {
+    taxCredit: {
+      add: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          description: Totam harum totam voluptatibus doloremque.,
+          id: 1,
+          managementSubjectId: 1,
+          notes: Asperiores cum ipsam illum pariatur doloribus aperiam cumque non.,
+          operations: [
+            {
+              amount: 7188.58,
+              assetTaxPaymentId: null,
+              date: 2023-12-08,
+              id: 1,
+              notes: null,
+              since: null,
+              until: null
+            }
+          ],
+          taxCode: svtofoxlzh
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

@@ -1,0 +1,43 @@
+{
+  "penalty": {
+    "title": "Penali",
+    "section_title": {
+      "general_data": "Dati generali",
+      "penalties": "Penali"
+    },
+    "field": {
+      "internal_code": "Codice penale",
+      "description": "Descrizione penale"
+    },
+    "error": {
+      "internal_code": "Il codice penale inserito è già in uso"
+    },
+    "text": {
+      "no_penalties": "Non sono presenti penali"
+    },
+    "action": {
+      "calendar": "Calendario",
+      "add_penalty": "Aggiungi penale"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta penale"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa penale?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste penali?\nIl processo non potrà essere annullato"
+        }
+      }
+    },
+    "feedback": {
+      "create": "Penale creata con successo",
+      "delete": {
+        "single": "Penale cancellata con successo",
+        "multiple": "Penali cancellate con successo"
+      },
+      "update": "Penale modificata con successo"
+    }
+  }
+}

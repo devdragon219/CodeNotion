@@ -1,0 +1,71 @@
+﻿{
+  nodes: [
+    {
+      description: Debiti,
+      externalCode: 0101001,
+      id: 1,
+      internalCode: PAY001
+    },
+    {
+      description: Crediti,
+      externalCode: 0201001,
+      id: 2,
+      internalCode: REC001
+    },
+    {
+      description: Affitti attivi,
+      externalCode: QTRK7KWFZ,
+      id: 3,
+      internalCode: 001
+    },
+    {
+      description: Rendite da locazione,
+      externalCode: 9AGMGZ1VZ,
+      id: 4,
+      internalCode: 002
+    },
+    {
+      description: Proventi da servizi,
+      externalCode: OBTUZ1PIX,
+      id: 5,
+      internalCode: 003
+    },
+    {
+      description: Contributi e finanziamenti,
+      externalCode: OJ26GAZNR,
+      id: 6,
+      internalCode: 004
+    },
+    {
+      description: Affitti passivi,
+      externalCode: 1DCYIP49W,
+      id: 7,
+      internalCode: 005
+    },
+    {
+      description: Spese di manutenzione ordinaria,
+      externalCode: SCG57EPMH,
+      id: 8,
+      internalCode: 006
+    },
+    {
+      description: Spese di manutenzione straordinaria,
+      externalCode: 7VTQUOM7W,
+      id: 9,
+      internalCode: 007
+    },
+    {
+      description: Assicurazioni,
+      externalCode: W3U6NT7ZH,
+      id: 10,
+      internalCode: 008
+    }
+  ],
+  pageInfo: {
+    endCursor: OQ==,
+    hasNextPage: true,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 23
+}

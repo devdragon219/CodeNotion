@@ -1,0 +1,81 @@
+{
+  "org_unit": {
+    "title": "Unità Organizzative",
+    "tab": {
+      "management": "Gestionale",
+      "geographical": "Territoriale"
+    },
+    "tree": {
+      "tooltip": {
+        "expand": "Espandi UO",
+        "collapse": "Comprimi UO"
+      }
+    },
+    "step": {
+      "general_data": "Dati generali",
+      "geographical_data": "Dati territoriali",
+      "contacts": "Contatti",
+      "recap": "Riepilogo"
+    },
+    "section_title": {
+      "general_data": "Dati generali",
+      "geographical_data": "Dati territoriali",
+      "contacts": "Contatti",
+      "recap": "Riepilogo"
+    },
+    "field": {
+      "management_subject": "Ente",
+      "group_society": "Società del gruppo",
+      "internal_code": "Codice UO",
+      "additional_code": "Codice UO esterno",
+      "entry_description": "Descrizione UO",
+      "entry_status": "Stato UO",
+      "closure_date": "Data cessazione",
+      "parent_org_unit": "UO di riferimento",
+      "associated_city": "Comune associato",
+      "city": "Comune",
+      "county": "Provincia",
+      "country": "Nazione",
+      "contact_phone_type": "Tipologia telefono",
+      "contact_phone_number": "Numero",
+      "contact_mobile_phone": "Cellulare",
+      "contact_landline_phone": "Telefono fisso",
+      "contact_email_type": "Tipologia email",
+      "contact_email": "Email"
+    },
+    "error": {
+      "internal_code": "Il codice UO inserito è già in uso"
+    },
+    "dialog": {
+      "create": {
+        "title": {
+          "COST_CENTRE": "COST_CENTRE",
+          "GEOGRAPHICAL_HIERARCHY": "Aggiunta Unità Organizzativa Territoriale",
+          "MANAGEMENT_HIERARCHY": "Aggiunta Unità Organizzativa Gestionale"
+        },
+        "save": "Salva unità organizzativa"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa unità organizzativa?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste unità organizzative?\nIl processo non potrà essere annullato"
+        }
+      },
+      "cities": {
+        "title": "Modifica dati territoriali",
+        "associable_cities": "Seleziona i comuni da associare",
+        "associated_cities": "Comuni associati",
+        "no_associated_cities": "Non sono presenti comuni associati"
+      }
+    },
+    "feedback": {
+      "create": "Unità organizzativa creata con successo",
+      "delete": {
+        "single": "Unità organizzativa cancellata con successo",
+        "multiple": "Unità organizzative cancellate con successo"
+      },
+      "update": "Unità organizzativa modificata con successo"
+    }
+  }
+}

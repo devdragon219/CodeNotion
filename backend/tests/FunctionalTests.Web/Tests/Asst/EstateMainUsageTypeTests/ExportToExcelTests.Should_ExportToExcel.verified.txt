@@ -1,0 +1,72 @@
+﻿[
+  [
+    0,
+    MU01,
+    Altro
+  ],
+  [
+    0,
+    MU02,
+    Abitativo
+  ],
+  [
+    0,
+    MU03,
+    Clinica/casa di cura/ospedale
+  ],
+  [
+    0,
+    MU04,
+    Commerciale
+  ],
+  [
+    0,
+    MU05,
+    Industriale
+  ],
+  [
+    0,
+    MU06,
+    Artigianale
+  ],
+  [
+    0,
+    MU07,
+    Direzionale
+  ],
+  [
+    0,
+    MU08,
+    Agricola
+  ],
+  [
+    0,
+    MU09,
+    Struttura per attività ludico sportive
+  ],
+  [
+    0,
+    MU10,
+    Struttura ricettiva
+  ],
+  [
+    0,
+    MU11,
+    Autorimessa
+  ],
+  [
+    0,
+    MU12,
+    Posto barca
+  ],
+  [
+    0,
+    MU13,
+    Terreno
+  ],
+  [
+    0,
+    MU14,
+    Misto
+  ]
+]

@@ -1,0 +1,29 @@
+{
+  "config": {
+    "title": "Modules settings",
+    "field": {
+      "function": "Module",
+      "name": "Key",
+      "value": "Value",
+      "last_updated": "Latest update"
+    },
+    "dialog": {
+      "update": {
+        "title": "Update module setting",
+        "save": "Save module setting"
+      },
+      "view": {
+        "title": "View module setting"
+      }
+    },
+    "text": {
+      "no_configs": "No module settings available"
+    },
+    "error": {
+      "value_max_length": "The value cannot be longer than 1024 characters"
+    },
+    "feedback": {
+      "update": "Module setting updated successfully"
+    }
+  }
+}

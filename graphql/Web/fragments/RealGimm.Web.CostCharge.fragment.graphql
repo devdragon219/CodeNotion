@@ -1,0 +1,90 @@
+fragment CostChargeFragment on CostCharge {
+  id
+  referenceDate
+  totalAmount
+  periodStart
+  periodEnd
+  dueDate
+  invoiceNumber
+  totalVATAmount
+  invoicedConsumptionAmount
+  actualConsumption {
+    since
+    until
+  }
+  expectedConsumption {
+    since
+    until
+  }
+  service {
+    estateIds
+    estates {
+      id
+      name
+      internalCode
+      status
+      type
+      usageType {
+        ...UsageTypeFragment
+      }
+      managementSubject {
+        id
+        name
+      }
+      addresses {
+        ...AsstAddressFragment
+      }
+    }
+    estateUnitIds
+    estateUnits {
+      address {
+        ...AsstAddressFragment
+      }
+      id
+      name
+      internalCode
+      usageType {
+        ...UsageTypeFragment
+      }
+      type
+      subNumbering
+      currentCadastralUnit {
+        coordinates {
+          ...CadastralCoordinatesFragment
+        }
+      }
+      estate {
+        id
+      }
+    }
+    utilityType {
+      internalCode
+      description
+      measurementUnit
+    }
+  }
+}
+
+fragment CostChargeDetailFragment on CostCharge {
+  service {
+    ...UtilityServiceFragment
+  }
+  totalAmount
+  referenceDate
+  dueDate
+  invoiceNumber
+  totalVATAmount
+  periodStart
+  periodEnd
+  invoicedConsumptionAmount
+  actualConsumption {
+    ...CostChargeConsumptionFragment
+  }
+  expectedConsumption {
+    ...CostChargeConsumptionFragment
+  }
+  fields {
+    ...CostChargeFieldFragment
+  }
+  id
+}

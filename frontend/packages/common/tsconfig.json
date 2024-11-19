@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "dist",
+    "types": ["vite/client"]
+  },
+  "include": ["lib", "lib/i18n/locales/**/*.json", "src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

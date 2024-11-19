@@ -1,0 +1,26 @@
+fragment TicketChecklistsPerEstateUnitFragment on TicketChecklistsPerEstateUnit {
+  estateUnitId
+  estateUnit {
+    ...EstateUnitFragment
+  }
+  ticketChecklists {
+    internalCode
+    name
+    catalogueType {
+      id
+      category {
+        id
+        name
+      }
+      subCategory {
+        id
+        name
+      }
+    }
+    type
+    costBaseFactor
+    rawWorkCost
+    safetyCost
+    id
+  }
+}

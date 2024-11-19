@@ -1,0 +1,50 @@
+{
+  "accounting_item": {
+    "title": "Accounting items",
+    "field": {
+      "internal_code": "Internal code",
+      "description": "Description",
+      "external_code": "External code"
+    },
+    "error": {
+      "internal_code": "The accounting item code provided is already in use"
+    },
+    "action": {
+      "add_accounting_item": "Add accounting item"
+    },
+    "text": {
+      "no_accounting_items": "No accounting items available"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add accounting item",
+        "save": "Save accounting item"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this accounting item?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these accounting items?\nThe process cannot be undone"
+        }
+      },
+      "update": {
+        "title": "Edit accounting item",
+        "save": "Save accounting item"
+      },
+      "view": {
+        "title": "Accounting item details"
+      }
+    },
+    "feedback": {
+      "create": {
+        "single": "Accounting item successfully created",
+        "multiple": "Accounting items successfully created"
+      },
+      "delete": {
+        "single": "Accounting item successfully deleted",
+        "multiple": "Accounting items successfully deleted"
+      },
+      "update": "Accounting item successfully updated"
+    }
+  }
+}

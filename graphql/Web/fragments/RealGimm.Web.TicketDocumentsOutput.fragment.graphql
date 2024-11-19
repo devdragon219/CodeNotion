@@ -1,0 +1,7 @@
+fragment TicketDocumentsOutputFragment on TicketDocumentsOutput {
+  guid
+  ticketInternalCode
+  subRows {
+    ...DocumentFragment
+  }
+}

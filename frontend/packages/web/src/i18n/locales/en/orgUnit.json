@@ -1,0 +1,81 @@
+{
+  "org_unit": {
+    "title": "Organizational Units",
+    "tab": {
+      "management": "Management",
+      "geographical": "Geographical"
+    },
+    "tree": {
+      "tooltip": {
+        "expand": "Expand OU",
+        "collapse": "Collapse OU"
+      }
+    },
+    "step": {
+      "general_data": "General data",
+      "geographical_data": "Geographical data",
+      "contacts": "Contacts",
+      "recap": "Recap"
+    },
+    "section_title": {
+      "general_data": "General data",
+      "geographical_data": "Select cities",
+      "contacts": "Contacts",
+      "recap": "Recap"
+    },
+    "field": {
+      "management_subject": "Management subject",
+      "group_society": "Group society",
+      "internal_code": "OU code",
+      "additional_code": "External OU code",
+      "entry_description": "OU description",
+      "entry_status": "OU status",
+      "closure_date": "Termination date",
+      "parent_org_unit": "Reference OU",
+      "associated_city": "Associated city",
+      "city": "City",
+      "county": "County",
+      "country": "Country",
+      "contact_phone_type": "Phone type",
+      "contact_phone_number": "Number",
+      "contact_mobile_phone": "Mobile",
+      "contact_landline_phone": "Landline phone",
+      "contact_email_type": "Email type",
+      "contact_email": "Email"
+    },
+    "error": {
+      "internal_code": "The OU code provided is already in use"
+    },
+    "dialog": {
+      "create": {
+        "title": {
+          "COST_CENTRE": "COST_CENTRE",
+          "GEOGRAPHICAL_HIERARCHY": "Add Geographical Organizational Unit",
+          "MANAGEMENT_HIERARCHY": "Add Management Organizational Unit"
+        },
+        "save": "Save organizational unit"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this organizational unit?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these organizational units?\nThe process cannot be undone"
+        }
+      },
+      "cities": {
+        "title": "Edit geographical data",
+        "associable_cities": "Select associable cities",
+        "associated_cities": "Associated cities",
+        "no_associated_cities": "There are no associated cities"
+      }
+    },
+    "feedback": {
+      "create": "Organizational unit successfully created",
+      "delete": {
+        "single": "Organizational unit successfully deleted",
+        "multiple": "Organizational units successfully deleted"
+      },
+      "update": "Organizational unit successfully updated"
+    }
+  }
+}

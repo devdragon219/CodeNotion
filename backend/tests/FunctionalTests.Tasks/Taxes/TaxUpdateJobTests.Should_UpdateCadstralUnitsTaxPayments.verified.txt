@@ -1,0 +1,129 @@
+﻿[
+  {
+    CadastralUnit: {
+      InternalCode: UC000001,
+      Status: Existing,
+      Type: Building,
+      EstateUnit: {
+        Name: EU2023_41X,
+        InternalCode: EU2023_41,
+        ExternalCode: EXT2023_41,
+        Notes: EstateUnit 41,
+        Type: Other,
+        Status: Existing,
+        UsageType: {
+          Name: est,
+          InternalCode: illum,
+          IsForEstate: true,
+          IsForEstateUnit: true,
+          IsForEstateSubUnit: true,
+          IsForContracts: true,
+          Id: 13
+        },
+        OwnershipStartDate: Date_1,
+        OwnershipPercent: 0.1,
+        SharedArea: true,
+        ManagementSubjectId: 1,
+        Estate: {
+          Name: GreenVilleEstate,
+          InternalCode: EST2023_42,
+          Type: Building,
+          Ownership: Mixed,
+          MainUsageType: {
+            Name: est,
+            InternalCode: illum,
+            Id: 15
+          },
+          UsageType: {
+            Name: est,
+            InternalCode: illum,
+            IsForEstate: true,
+            IsForEstateUnit: true,
+            IsForEstateSubUnit: true,
+            IsForContracts: true,
+            Id: 13
+          },
+          ManagementSubjectId: 1,
+          EstateUnits: [],
+          Id: 1
+        },
+        Address: {
+          EstateUnit: [],
+          CityName: New York,
+          CountyName: Manhattan,
+          CountryName: United States,
+          CountryISO: USA,
+          Toponymy: Downtown,
+          Numbering: 1,
+          LocalPostCode: 10001,
+          Id: 4
+        },
+        SubNumbering: Suite 101,
+        CadastralUnits: [],
+        NetSurface: 0,
+        GrossSurface: 0,
+        Id: 1
+      },
+      Address: {
+        CityName: City,
+        CityReference: Guid_Empty,
+        CountryName: Italy,
+        CountryISO: ITA,
+        Toponymy: Toponymy,
+        Numbering: Numbering,
+        LocalPostCode: LocalPostcode,
+        Id: 5
+      },
+      AddressId: 5,
+      Since: Date_2,
+      IsCadastralRegistrationInProgress: false,
+      IsAncillaryUnit: false,
+      TaxConfig: [
+        {
+          TaxCalculator: Guid_1,
+          Code: ita-enabled,
+          IsMandatory: true,
+          TemplateTypeId: Guid_2,
+          Type: SingleItemFromList,
+          Value: true,
+          Id: 1
+        }
+      ],
+      Income: {},
+      Id: 1
+    },
+    TaxCalculator: IMU,
+    TaxCalculatorId: Guid_1,
+    Year: 2024,
+    Installments: [
+      {
+        ManagementSubjectId: 1,
+        ManagementSubjectBankAccountId: 1,
+        Date: Date_3,
+        IsDefinitive: false,
+        ExpectedDueDate: Date_4,
+        InstallmentsPaid: [
+          0
+        ],
+        Issue: MissingCadastralIncomeData,
+        IsIssueOverridden: false,
+        Id: 1
+      },
+      {
+        ManagementSubjectId: 1,
+        ManagementSubjectBankAccountId: 1,
+        Date: Date_3,
+        IsDefinitive: false,
+        ExpectedDueDate: Date_5,
+        InstallmentsPaid: [
+          1
+        ],
+        Issue: MissingCadastralIncomeData,
+        IsIssueOverridden: false,
+        Id: 2
+      }
+    ],
+    ExpectedInstallments: 2,
+    Id: 1
+  }
+]

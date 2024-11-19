@@ -1,0 +1,131 @@
+﻿{
+  nodes: [
+    {
+      administrationType: OWNER,
+      administratorBankAccountId: 66,
+      administratorSubjectId: 66,
+      estateId: 22,
+      id: 1,
+      isPaymentDataIncluded: true,
+      notes: null,
+      paymentType: WIRE_TRANSFER,
+      since: 2023-08-24,
+      until: 2024-12-29
+    },
+    {
+      administrationType: HEATING_PROVIDER,
+      administratorBankAccountId: 22,
+      administratorSubjectId: 22,
+      estateId: 30,
+      id: 2,
+      isPaymentDataIncluded: true,
+      notes: null,
+      paymentType: RID,
+      since: 2023-07-22,
+      until: 2025-01-26
+    },
+    {
+      administrationType: SERVICE_PROVIDER,
+      administratorBankAccountId: 80,
+      administratorSubjectId: 80,
+      estateId: 26,
+      id: 3,
+      isPaymentDataIncluded: true,
+      notes: null,
+      paymentType: F23,
+      since: 2023-12-08,
+      until: 2025-01-30
+    },
+    {
+      administrationType: BUILDING_COMPLEX,
+      administratorBankAccountId: 43,
+      administratorSubjectId: 43,
+      estateId: 21,
+      id: 4,
+      isPaymentDataIncluded: true,
+      notes: null,
+      paymentType: MAV,
+      since: 2023-03-02,
+      until: 2024-04-09
+    },
+    {
+      administrationType: HEATING,
+      administratorBankAccountId: 80,
+      administratorSubjectId: 80,
+      estateId: 9,
+      id: 5,
+      isPaymentDataIncluded: false,
+      notes: null,
+      paymentType: UNDEFINED,
+      since: 2023-06-20,
+      until: 2024-06-05
+    },
+    {
+      administrationType: SERVICE_PROVIDER,
+      administratorBankAccountId: 58,
+      administratorSubjectId: 58,
+      estateId: 16,
+      id: 6,
+      isPaymentDataIncluded: true,
+      notes: null,
+      paymentType: NOPA,
+      since: 2023-11-18,
+      until: 2024-06-03
+    },
+    {
+      administrationType: BUILDING_COMPLEX,
+      administratorBankAccountId: 18,
+      administratorSubjectId: 18,
+      estateId: 5,
+      id: 7,
+      isPaymentDataIncluded: false,
+      notes: null,
+      paymentType: RID,
+      since: 2023-07-29,
+      until: 2024-04-12
+    },
+    {
+      administrationType: BUILDING_COMPLEX,
+      administratorBankAccountId: 59,
+      administratorSubjectId: 59,
+      estateId: 25,
+      id: 8,
+      isPaymentDataIncluded: false,
+      notes: null,
+      paymentType: RID,
+      since: 2023-04-21,
+      until: 2024-12-25
+    },
+    {
+      administrationType: BUILDING_COMPLEX,
+      administratorBankAccountId: 68,
+      administratorSubjectId: 68,
+      estateId: 3,
+      id: 9,
+      isPaymentDataIncluded: true,
+      notes: null,
+      paymentType: F23,
+      since: 2023-04-22,
+      until: 2025-02-01
+    },
+    {
+      administrationType: GENERIC,
+      administratorBankAccountId: 58,
+      administratorSubjectId: 58,
+      estateId: 20,
+      id: 10,
+      isPaymentDataIncluded: false,
+      notes: null,
+      paymentType: POST_ACCOUNT,
+      since: 2023-10-21,
+      until: 2024-03-18
+    }
+  ],
+  pageInfo: {
+    endCursor: OQ==,
+    hasNextPage: true,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 30
+}

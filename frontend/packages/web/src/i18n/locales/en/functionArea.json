@@ -1,0 +1,50 @@
+{
+  "function_area": {
+    "title": "Function areas",
+    "field": {
+      "function_area_code": "Function area code",
+      "function_area_name": "Function area name",
+      "function_area_type": "Function area type"
+    },
+    "error": {
+      "internal_code": "The function area code provided is already in use"
+    },
+    "action": {
+      "add_function_area": "Add function area"
+    },
+    "text": {
+      "no_function_areas": "No function area available"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add function areas",
+        "save": "Save function areas"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this function area?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these function areas?\nThe process cannot be undone"
+        }
+      },
+      "update": {
+        "title": "Edit function area",
+        "save": "Save function area"
+      },
+      "view": {
+        "title": "Function area details"
+      }
+    },
+    "feedback": {
+      "create": {
+        "single": "Function area created successfully",
+        "multiple": "Function areas created successfully"
+      },
+      "delete": {
+        "single": "Function area deleted successfully",
+        "multiple": "Function areas deleted successfully"
+      },
+      "update": "Function area edited successfully"
+    }
+  }
+}

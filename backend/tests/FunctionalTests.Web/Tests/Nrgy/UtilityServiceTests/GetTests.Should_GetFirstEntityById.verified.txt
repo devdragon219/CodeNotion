@@ -1,0 +1,42 @@
+﻿{
+  accountingItemId: 11,
+  activationDate: 2023-04-23,
+  contractNominalTension: cg5,
+  contractPowerMaximum: ip4,
+  contractPowerNominal: 9ws,
+  deactivationDate: 2024-12-20,
+  deactivationRequestDate: 2024-02-26,
+  deposit: 0.820000,
+  description: est,
+  estateIds: [
+    21
+  ],
+  estateUnitIds: [
+    16
+  ],
+  id: 1,
+  internalCode: F00001,
+  isFreeMarket: false,
+  orgUnitId: 19,
+  providerSubjectId: 24,
+  referenceSubjectId: 38,
+  status: FROZEN_CLOSED,
+  utilityContractCode: tuz1p,
+  utilityDeliveryPointCode: r1dcy,
+  utilityMeterSerial: ixoj26gazn,
+  utilityType: {
+    category: ELECTRICAL,
+    chargeFields: null,
+    description: Energia elettrica monofase,
+    expenseClass: null,
+    externalCode: null,
+    hasHeatingAccountingSystem: false,
+    id: 4,
+    internalCode: TF004,
+    measurementUnit: KWH,
+    measurementUnitDescription: chilowattora,
+    meteringType: USAGE,
+    timeOfUseRateCount: 1
+  },
+  utilityUserCode: 1vzob
+}

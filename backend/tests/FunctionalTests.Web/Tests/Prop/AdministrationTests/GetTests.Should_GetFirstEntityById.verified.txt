@@ -1,0 +1,12 @@
+﻿{
+  administrationType: OWNER,
+  administratorBankAccountId: 66,
+  administratorSubjectId: 66,
+  estateId: 22,
+  id: 1,
+  isPaymentDataIncluded: true,
+  notes: null,
+  paymentType: WIRE_TRANSFER,
+  since: 2023-08-24,
+  until: 2024-12-29
+}

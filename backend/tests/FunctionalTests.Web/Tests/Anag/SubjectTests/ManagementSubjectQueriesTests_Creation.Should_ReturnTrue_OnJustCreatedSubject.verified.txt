@@ -1,0 +1,8 @@
+﻿{
+  Data: {
+    subject: {
+      canBeGroupLeader: true
+    }
+  },
+  IsDataSet: true
+}

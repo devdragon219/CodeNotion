@@ -1,0 +1,143 @@
+query getFacilityContractTemplates(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: ContractTemplateFilterInput
+  $order: [ContractTemplateSortInput!]
+) {
+  contractTemplate {
+    listContractTemplates(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...FacilityContractTemplateFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getFullFacilityContractTemplates(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: ContractTemplateFilterInput
+  $order: [ContractTemplateSortInput!]
+) {
+  contractTemplate {
+    listContractTemplates(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...FacilityContractTemplateDetailFragment
+      }
+      totalCount
+    }
+  }
+}
+
+mutation addFacilityContractTemplate($input: ContractTemplateInput!) {
+  contractTemplate {
+    add(input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateFacilityContractTemplate(
+  $facilityContractTemplateId: Int!
+  $input: ContractTemplateInput!
+) {
+  contractTemplate {
+    update(id: $facilityContractTemplateId, input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteFacilityContractTemplates($ids: [Int!]!) {
+  contractTemplate {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getFacilityContractTemplateInternalCode {
+  contractTemplate {
+    proposeNewInternalCode
+  }
+}
+
+query canUseFacilityContractTemplateInternalCode(
+  $internalCode: String!
+  $currentFacilityContractTemplateId: Int
+) {
+  contractTemplate {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentContractTemplateId: $currentFacilityContractTemplateId
+    )
+  }
+}
+
+query exportFacilityContractTemplates(
+  $where: ContractTemplateFilterInput
+  $order: [ContractTemplateSortInput!]
+) {
+  contractTemplate {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+query getFacilityContractTemplate($facilityContractTemplateId: Int!) {
+  contractTemplate {
+    get(id: $facilityContractTemplateId) {
+      ...FacilityContractTemplateDetailFragment
+    }
+  }
+}
+
+mutation deleteFacilityContractTemplate($id: Int!) {
+  contractTemplate {
+    delete(id: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}

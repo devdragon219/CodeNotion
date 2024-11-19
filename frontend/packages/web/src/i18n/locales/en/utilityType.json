@@ -1,0 +1,63 @@
+{
+  "utility_type": {
+    "title": "Utility types",
+    "tab": {
+      "general_data": "Utility",
+      "fields": "Expense configuratore",
+      "recap": "Recap"
+    },
+    "section_title": {
+      "utility": "Utility",
+      "meter": "Meter",
+      "default_fields": "Default fields",
+      "additional_fields": "Additional fields",
+      "recap": "Recap"
+    },
+    "field": {
+      "utility_category": "Utility category",
+      "utility_code": "Utility code",
+      "utility_description": "Utility description",
+      "external_code": "External code",
+      "expense_class": "Expense class",
+      "measurement_unit_code": "Measurement unit code",
+      "measurement_unit_description": "Measurement unit description",
+      "time_of_use_rate_count": "Time of use rate count",
+      "metering_type": "Reading/usage",
+      "has_heating_accounting_system": "Heating accounting system",
+      "expense_amount": "Total amount",
+      "expense_period": "Period",
+      "expense_since": "Since",
+      "expense_until": "Until",
+      "expense_number": "Invoice number",
+      "expense_vat": "Total VAT"
+    },
+    "error": {
+      "internal_code": "The utility code provided is already in use"
+    },
+    "text": {
+      "no_utility_types": "No utility types available",
+      "no_additional_fields": "No additional fields available, press edit to add an additional field"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add utility type",
+        "save": "Edit utility type"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this utility type?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these utility types?\nThe process cannot be undone"
+        }
+      }
+    },
+    "feedback": {
+      "create": "Utility type created successfully",
+      "delete": {
+        "single": "Utility type deleted successfully",
+        "multiple": "Utility types deleted successfully"
+      },
+      "update": "Utility type edited successfully"
+    }
+  }
+}

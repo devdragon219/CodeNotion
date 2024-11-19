@@ -1,0 +1,112 @@
+﻿[
+  [
+    Luce,
+    TF001,
+    Energia elettrica 4 fasi,
+    KWH,
+    chilowattora,
+    4,
+    Lettura,
+    NO
+  ],
+  [
+    Luce,
+    TF002,
+    Energia elettrica 3 fasi,
+    KWH,
+    chilowattora,
+    3,
+    Lettura,
+    NO
+  ],
+  [
+    Luce,
+    TF003,
+    Energia elettrica 2 fasi,
+    KWH,
+    chilowattora,
+    2,
+    Lettura,
+    NO
+  ],
+  [
+    Luce,
+    TF004,
+    Energia elettrica monofase,
+    KWH,
+    chilowattora,
+    1,
+    Consumo,
+    NO
+  ],
+  [
+    Gas,
+    TF005,
+    Gas naturale 4 fasi,
+    smc,
+    metri cubi standard,
+    4,
+    Lettura,
+    NO
+  ],
+  [
+    Gas,
+    TF006,
+    Gas naturale 3 fasi,
+    smc,
+    metri cubi standard,
+    3,
+    Lettura,
+    NO
+  ],
+  [
+    Gas,
+    TF007,
+    Gas naturale 2 fasi,
+    smc,
+    metri cubi standard,
+    2,
+    Lettura,
+    NO
+  ],
+  [
+    Gas,
+    TF008,
+    Gas naturale monofase,
+    smc,
+    metri cubi standard,
+    1,
+    Consumo,
+    NO
+  ],
+  [
+    Acqua,
+    TF009,
+    Servizio idrico integrato 2 fasi,
+    mc,
+    metri cubi,
+    2,
+    Lettura,
+    NO
+  ],
+  [
+    Acqua,
+    TF010,
+    Servizio idrico integrato monofase,
+    mc,
+    metri cubi,
+    1,
+    Consumo,
+    NO
+  ],
+  [
+    Rifiuti,
+    TF011,
+    Gestione rifiuti urbani,
+    n° svuot.,
+    numero svuotamenti,
+    1,
+    Consumo,
+    NO
+  ]
+]

@@ -1,0 +1,7 @@
+fragment EstateUnitDocumentsOutputFragment on EstateUnitDocumentsOutput {
+  estateUnitInternalCode
+  guid
+  subRows {
+    ...DocumentsPerContentCategoryGroupOutputFragment
+  }
+}

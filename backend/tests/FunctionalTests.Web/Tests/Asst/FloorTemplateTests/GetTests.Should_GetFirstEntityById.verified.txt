@@ -1,0 +1,6 @@
+﻿{
+  guid: Guid_1,
+  id: 1,
+  name: Seminterrato,
+  position: -1.0
+}

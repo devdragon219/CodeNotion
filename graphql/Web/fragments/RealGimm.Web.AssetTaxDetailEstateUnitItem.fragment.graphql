@@ -1,0 +1,24 @@
+fragment AssetTaxDetailEstateUnitItemFragment on AssetTaxDetailEstateUnitItem {
+  address {
+    ...AsstAddressFragment
+  }
+  cadastralCoordinates {
+    ...CadastralCoordinatesFragment
+  }
+  cadastralUnitIncome {
+    macroCategory
+    microCategory
+    metricAmount
+    type
+  }
+  cadastralUnitTaxConfig {
+    id
+    value
+  }
+  estateUnitInternalCode
+  estateUnitOwnershipPercent
+  amountPaid
+  baseTaxableAmount
+  grossCadastralIncome
+  actualizedCadastralIncome
+}

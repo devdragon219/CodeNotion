@@ -1,0 +1,42 @@
+{
+  "price_list_measurement_unit": {
+    "title": "Unità misura articoli listini",
+    "field": {
+      "ordering": "Ordinamento",
+      "internal_code": "Codice unità",
+      "name": "Descrizione"
+    },
+    "error": {
+      "internal_code": "Il codice unità inserito è già in uso"
+    },
+    "text": {
+      "no_price_list_measurement_units": "Non sono presenti unità misura articoli listini"
+    },
+    "dialog": {
+      "create": {
+        "title": "Aggiunta unità misura articoli listini"
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa unità misura articolo listino?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste unità misura articoli listini?\nIl processo non potrà essere annullato"
+        }
+      },
+      "update": {
+        "title": "Modifica unità misura articolo listino"
+      },
+      "view": {
+        "title": "Visualizza unità misura articolo listino"
+      }
+    },
+    "feedback": {
+      "create": "Unità misura articolo listino creata con successo",
+      "delete": {
+        "single": "Unità misura articolo listino cancellata con successo",
+        "multiple": "Unità misura articoli listini cancellate con successo"
+      },
+      "update": "Unità misura articolo listino modificata con successo"
+    }
+  }
+}

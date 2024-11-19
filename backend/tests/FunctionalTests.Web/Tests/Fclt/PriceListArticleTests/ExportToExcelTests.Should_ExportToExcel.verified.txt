@@ -1,0 +1,603 @@
+﻿[
+  [
+    AR001,
+    Est illum.,
+    Elevatori - Elevatori elettromeccanici - Argano e motogeneratore,
+    Reiciendis ad.,
+    Date_1,
+    Date_2,
+    Assumenda iste.,
+    31
+  ],
+  [
+    AR002,
+    Nostrum totam.
+    
+Impianti elettrici - Impianto di terra e protezione scariche atmosferiche - Impianto di terra
+Condizionamento e riscaldamento - Climatizzazione - Unità di trattamento aria primaria
+Condizionamento e riscaldamento - Climatizzazione - Ventilconvettori,
+    Nostrum totam.,
+    Date_3,
+    Date_4,
+    Assumenda iste.,
+    85.56
+  ],
+  [
+    AR003,
+    Doloribus aperiam.
+    
+Elevatori - Elevatori elettromeccanici - Imp. elevatore elettrico AC/VF fino a 6 fermate
+Elevatori - Elevatori elettromeccanici - Argano e motogeneratore
+Impianti elettrici - Sistema di alimentazione normale - Impianto rifasamento (anello e anello B ),
+    Reiciendis ad.,
+    Date_5,
+    -,
+    Assumenda iste.,
+    98.91
+  ],
+  [
+    AR004,
+    Facilis omnis.
+    
+Condizionamento e riscaldamento - Climatizzazione - Ventilconvettori
+Impianti e attrezzature antincendio - Compartimentazione antincendio - Serrande di compartimentazione,
+    Harum totam.,
+    Date_6,
+    -,
+    Reiciendis ad.,
+    91.17
+  ],
+  [
+    AR005,
+    Autem suscipit.,
+    Impianti e attrezzature antincendio - Attrezzature antincendio - Evacuatori di fumo,
+    Eos asperiores.,
+    Date_7,
+    -,
+    Quia natus.,
+    23.52
+  ],
+  [
+    AR006,
+    Debitis dolorem.
+    
+Elevatori - Elevatori elettromeccanici - Quadro di manovra
+Impianti elettrici - Sistema di alimentazione normale - Quadro generale di bassa tensione
+Condizionamento e riscaldamento - Climatizzazione - Unità di trattamento aria primaria,
+    Assumenda iste.,
+    Date_8,
+    Date_9,
+    Assumenda iste.,
+    21.16
+  ],
+  [
+    AR007,
+    Facilis dolorem.
+    
+Elevatori - Elevatori elettromeccanici - Vano corsa e cabina
+Elevatori - Elevatori elettromeccanici - Imp. elevatore elettrico AC/VF fino a 12 fermate,
+    Est illum.,
+    Date_10,
+    Date_11,
+    Et dignissimos.,
+    73.25
+  ],
+  [
+    AR008,
+    Consequuntur et.
+    
+Impianti e attrezzature antincendio - Attrezzature antincendio - Estintori
+Elevatori - Elevatori elettromeccanici - Imp. elevatore elettrico AC/VF fino a 6 fermate,
+    Nostrum totam.,
+    Date_12,
+    Date_13,
+    Reiciendis ad.,
+    80.39
+  ],
+  [
+    AR009,
+    Voluptas itaque.
+    
+Impianti e attrezzature antincendio - Attrezzature antincendio - Estintori
+Impianti elettrici - Impianto di terra e protezione scariche atmosferiche - Impianto di terra,
+    Reiciendis ad.,
+    Date_14,
+    -,
+    Et dignissimos.,
+    11.51
+  ],
+  [
+    AR010,
+    Fuga eligendi.,
+    Condizionamento e riscaldamento - Climatizzazione - Filtri aria,
+    Est illum.,
+    Date_15,
+    Date_16,
+    Assumenda iste.,
+    13.93
+  ],
+  [
+    AR011,
+    Voluptatem odit.
+    
+Impianti elettrici - Sistema di alimentazione normale - Impianto rifasamento (anello e anello B )
+Elevatori - Elevatori elettromeccanici - Imp. elevatore elettrico AC/VF fino a 6 fermate,
+    Est illum.,
+    Date_17,
+    Date_18,
+    Assumenda iste.,
+    5.48
+  ],
+  [
+    AR012,
+    Ea pariatur.
+    
+Condizionamento e riscaldamento - Climatizzazione - Ventilconvettori
+Impianti elettrici - Impianto di terra e protezione scariche atmosferiche - Impianto di terra
+Impianti e attrezzature antincendio - Attrezzature antincendio - Evacuatori di fumo,
+    Voluptatibus doloremque.,
+    Date_19,
+    Date_20,
+    Reiciendis ad.,
+    55.5
+  ],
+  [
+    AR013,
+    Inventore minima.
+    
+Impianti elettrici - Sistema di alimentazione normale - Cabine ricezione MT e di trasformazione MT/BT
+Elevatori - Elevatori elettromeccanici - Imp. elevatore elettrico AC/VF fino a 12 fermate,
+    Assumenda iste.,
+    Date_21,
+    -,
+    Quia natus.,
+    71.47
+  ],
+  [
+    AR014,
+    Et eum.,
+    Impianti elettrici - Sistema di alimentazione normale - Quadri elettrici di ricezione e distribuzione in media tensione,
+    Reiciendis ad.,
+    Date_22,
+    Date_23,
+    Assumenda iste.,
+    59.03
+  ],
+  [
+    AR015,
+    Veritatis voluptatem.
+    
+Impianti e attrezzature antincendio - Compartimentazione antincendio - Serrande di compartimentazione
+Condizionamento e riscaldamento - Climatizzazione - Ventilconvettori,
+    Reiciendis ad.,
+    Date_24,
+    -,
+    Est illum.,
+    82.3
+  ],
+  [
+    AR016,
+    Rerum in.
+    
+Impianti elettrici - Sistema di alimentazione emergenza - Gruppo elettrogeno
+Impianti elettrici - Sistema di alimentazione normale - Cabine ricezione MT e di trasformazione MT/BT
+Impianti e attrezzature antincendio - Compartimentazione antincendio - Serrande di compartimentazione,
+    Et dignissimos.,
+    Date_25,
+    -,
+    Quia natus.,
+    26.87
+  ],
+  [
+    AR017,
+    Voluptatem ducimus.
+    
+Elevatori - Elevatori idraulici - Imp. elevatore idraulico fino a 6 fermate
+Impianti elettrici - Sistema di alimentazione normale - Quadro generale di bassa tensione,
+    Cum ipsam.,
+    Date_26,
+    Date_27,
+    Quia natus.,
+    96.47
+  ],
+  [
+    AR018,
+    Asperiores sit.
+    
+Elevatori - Elevatori elettromeccanici - Argano e motogeneratore
+Elevatori - Elevatori idraulici - Imp. elevatore idraulico fino a 6 fermate
+Impianti e attrezzature antincendio - Attrezzature antincendio - Idranti,
+    Voluptatibus doloremque.,
+    Date_28,
+    Date_29,
+    Assumenda iste.,
+    97.42
+  ],
+  [
+    AR019,
+    Aliquam magni.
+    
+Impianti e attrezzature antincendio - Compartimentazione antincendio - Serrande di compartimentazione
+Elevatori - Elevatori idraulici - Imp. elevatore idraulico fino a 6 fermate
+Elevatori - Elevatori elettromeccanici - Argano e motogeneratore,
+    Eos asperiores.,
+    Date_30,
+    -,
+    Est illum.,
+    70.71
+  ],
+  [
+    AR020,
+    Quia adipisci.,
+    Impianti elettrici - Sistema di alimentazione emergenza - Gruppo elettrogeno,
+    Reiciendis ad.,
+    Date_31,
+    -,
+    Quia natus.,
+    63.19
+  ],
+  [
+    AR021,
+    Natus expedita.,
+    Condizionamento e riscaldamento - Climatizzazione - Unità di trattamento aria primaria,
+    Cum ipsam.,
+    Date_32,
+    Date_33,
+    Et dignissimos.,
+    29.25
+  ],
+  [
+    AR022,
+    Voluptatem voluptatum.
+    
+Elevatori - Elevatori elettromeccanici - Vano corsa e cabina
+Impianti e attrezzature antincendio - Attrezzature antincendio - Estintori,
+    Assumenda iste.,
+    Date_34,
+    Date_35,
+    Reiciendis ad.,
+    63
+  ],
+  [
+    AR023,
+    Alias voluptatibus.
+    
+Impianti elettrici - Sistema di alimentazione normale - Cabine ricezione MT e di trasformazione MT/BT
+Impianti elettrici - Sistema di alimentazione normale - Quadro generale di bassa tensione
+Impianti elettrici - Sistema di alimentazione normale - Impianto rifasamento (anello e anello B ),
+    Eos asperiores.,
+    Date_36,
+    -,
+    Est illum.,
+    84.78
+  ],
+  [
+    AR024,
+    Facilis sunt.
+    
+Impianti e attrezzature antincendio - Attrezzature antincendio - Evacuatori di fumo
+Condizionamento e riscaldamento - Climatizzazione - Filtri aria
+Elevatori - Elevatori idraulici - Imp. elevatore idraulico fino a 12 fermate,
+    Assumenda iste.,
+    Date_37,
+    Date_38,
+    Et dignissimos.,
+    45.55
+  ],
+  [
+    AR025,
+    Est repellat.
+    
+Condizionamento e riscaldamento - Climatizzazione - Ventilconvettori
+Condizionamento e riscaldamento - Climatizzazione - Unità di trattamento aria primaria,
+    Cum ipsam.,
+    Date_39,
+    -,
+    Assumenda iste.,
+    57.96
+  ],
+  [
+    AR026,
+    Tempore vel.
+    
+Impianti e attrezzature antincendio - Compartimentazione antincendio - Serrande di compartimentazione
+Elevatori - Elevatori idraulici - Imp. elevatore idraulico fino a 12 fermate
+Elevatori - Elevatori elettromeccanici - Argano e motogeneratore,
+    Harum totam.,
+    Date_40,
+    Date_41,
+    Est illum.,
+    57.56
+  ],
+  [
+    AR027,
+    Ipsam magnam.
+    
+Impianti e attrezzature antincendio - Attrezzature antincendio - Estintori
+Impianti elettrici - Sistema di alimentazione normale - Quadro generale di bassa tensione
+Impianti elettrici - Impianto di terra e protezione scariche atmosferiche - Impianto di protezione da scariche atmosferiche,
+    Nostrum totam.,
+    Date_42,
+    Date_43,
+    Est illum.,
+    53.45
+  ],
+  [
+    AR028,
+    Est atque.,
+    Elevatori - Elevatori idraulici - Imp. elevatore idraulico fino a 12 fermate,
+    Nostrum totam.,
+    Date_44,
+    Date_45,
+    Reiciendis ad.,
+    6.47
+  ],
+  [
+    AR029,
+    Similique praesentium.,
+    Impianti elettrici - Sistema di alimentazione emergenza - Gruppo elettrogeno,
+    Eos asperiores.,
+    Date_46,
+    -,
+    Est illum.,
+    30.08
+  ],
+  [
+    AR030,
+    Perferendis dignissimos.
+    
+Impianti e attrezzature antincendio - Compartimentazione antincendio - Serrande di compartimentazione
+Condizionamento e riscaldamento - Climatizzazione - Filtri aria
+Impianti elettrici - Sistema di alimentazione emergenza - Gruppo elettrogeno,
+    Assumenda iste.,
+    Date_47,
+    Date_48,
+    Et dignissimos.,
+    49.36
+  ],
+  [
+    AR031,
+    Nulla ex.
+    
+Impianti e attrezzature antincendio - Attrezzature antincendio - Idranti
+Impianti e attrezzature antincendio - Attrezzature antincendio - Evacuatori di fumo,
+    Harum totam.,
+    Date_49,
+    Date_50,
+    Quia natus.,
+    91.69
+  ],
+  [
+    AR032,
+    Ullam soluta.
+    
+Impianti elettrici - Sistema di alimentazione normale - Quadri elettrici di ricezione e distribuzione in media tensione
+Condizionamento e riscaldamento - Climatizzazione - Filtri aria
+Elevatori - Elevatori elettromeccanici - Argano e motogeneratore,
+    Nostrum totam.,
+    Date_51,
+    -,
+    Et dignissimos.,
+    52.21
+  ],
+  [
+    AR033,
+    Voluptas amet.
+    
+Condizionamento e riscaldamento - Climatizzazione - Unità di trattamento aria primaria
+Impianti e attrezzature antincendio - Attrezzature antincendio - Idranti,
+    Et dignissimos.,
+    Date_52,
+    -,
+    Et dignissimos.,
+    14.74
+  ],
+  [
+    AR034,
+    Laborum quidem.
+    
+Impianti elettrici - Sistema di alimentazione normale - Quadro generale di bassa tensione
+Impianti e attrezzature antincendio - Attrezzature antincendio - Idranti
+Elevatori - Elevatori elettromeccanici - Quadro di manovra,
+    Assumenda iste.,
+    Date_49,
+    Date_53,
+    Quia natus.,
+    99.55
+  ],
+  [
+    AR035,
+    Nesciunt deleniti.
+    
+Impianti elettrici - Impianto di terra e protezione scariche atmosferiche - Impianto di terra
+Impianti e attrezzature antincendio - Attrezzature antincendio - Estintori
+Impianti elettrici - Sistema di alimentazione normale - Cabine ricezione MT e di trasformazione MT/BT,
+    Eos asperiores.,
+    Date_54,
+    Date_55,
+    Reiciendis ad.,
+    26.31
+  ],
+  [
+    AR036,
+    Fugit nesciunt.
+    
+Impianti elettrici - Sistema di alimentazione normale - Quadro generale di bassa tensione
+Impianti elettrici - Sistema di alimentazione normale - Quadri elettrici di ricezione e distribuzione in media tensione
+Impianti elettrici - Impianto di terra e protezione scariche atmosferiche - Impianto di protezione da scariche atmosferiche,
+    Assumenda iste.,
+    Date_56,
+    Date_57,
+    Assumenda iste.,
+    83.8
+  ],
+  [
+    AR037,
+    Tempora in.
+    
+Impianti e attrezzature antincendio - Attrezzature antincendio - Estintori
+Elevatori - Elevatori elettromeccanici - Quadro di manovra,
+    Voluptatibus doloremque.,
+    Date_58,
+    -,
+    Reiciendis ad.,
+    14.71
+  ],
+  [
+    AR038,
+    Dolores cupiditate.
+    
+Impianti e attrezzature antincendio - Compartimentazione antincendio - Porte tagliafuoco e uscite di sicurezza
+Impianti elettrici - Sistema di alimentazione normale - Cabine ricezione MT e di trasformazione MT/BT
+Elevatori - Elevatori elettromeccanici - Quadro di manovra,
+    Harum totam.,
+    Date_59,
+    -,
+    Assumenda iste.,
+    71.49
+  ],
+  [
+    AR039,
+    Impedit laudantium.
+    
+Condizionamento e riscaldamento - Climatizzazione - Unità di trattamento aria primaria
+Impianti e attrezzature antincendio - Attrezzature antincendio - Evacuatori di fumo,
+    Assumenda iste.,
+    Date_60,
+    Date_61,
+    Quia natus.,
+    27.26
+  ],
+  [
+    AR040,
+    Et qui.
+    
+Impianti elettrici - Sistema di alimentazione normale - Impianto rifasamento (anello e anello B )
+Condizionamento e riscaldamento - Climatizzazione - Ventilconvettori,
+    Cum ipsam.,
+    Date_62,
+    Date_63,
+    Est illum.,
+    10.23
+  ],
+  [
+    AR041,
+    Rerum nemo.
+    
+Elevatori - Elevatori elettromeccanici - Vano corsa e cabina
+Impianti elettrici - Sistema di alimentazione normale - Cabine ricezione MT e di trasformazione MT/BT,
+    Assumenda iste.,
+    Date_64,
+    -,
+    Est illum.,
+    88.83
+  ],
+  [
+    AR042,
+    Cumque laboriosam.
+    
+Impianti elettrici - Sistema di alimentazione normale - Quadri elettrici di ricezione e distribuzione in media tensione
+Impianti e attrezzature antincendio - Compartimentazione antincendio - Serrande di compartimentazione,
+    Est illum.,
+    Date_65,
+    Date_66,
+    Est illum.,
+    41.43
+  ],
+  [
+    AR043,
+    Nostrum fugiat.
+    
+Impianti e attrezzature antincendio - Compartimentazione antincendio - Serrande di compartimentazione
+Impianti e attrezzature antincendio - Attrezzature antincendio - Evacuatori di fumo,
+    Quia natus.,
+    Date_67,
+    Date_68,
+    Assumenda iste.,
+    78.76
+  ],
+  [
+    AR044,
+    Et dolorem.
+    
+Impianti e attrezzature antincendio - Attrezzature antincendio - Evacuatori di fumo
+Elevatori - Elevatori elettromeccanici - Imp. elevatore elettrico AC/VF fino a 12 fermate,
+    Assumenda iste.,
+    Date_69,
+    -,
+    Et dignissimos.,
+    22.37
+  ],
+  [
+    AR045,
+    Ipsa rerum.
+    
+Elevatori - Elevatori elettromeccanici - Vano corsa e cabina
+Elevatori - Elevatori idraulici - Imp. elevatore idraulico fino a 6 fermate,
+    Voluptatibus doloremque.,
+    Date_70,
+    Date_71,
+    Assumenda iste.,
+    55.75
+  ],
+  [
+    AR046,
+    Quaerat sit.
+    
+Impianti elettrici - Sistema di alimentazione normale - Quadro generale di bassa tensione
+Elevatori - Elevatori elettromeccanici - Argano e motogeneratore
+Elevatori - Elevatori elettromeccanici - Quadro di manovra,
+    Cum ipsam.,
+    Date_72,
+    Date_73,
+    Reiciendis ad.,
+    92.81
+  ],
+  [
+    AR047,
+    Nobis asperiores.
+    
+Impianti elettrici - Impianto di terra e protezione scariche atmosferiche - Impianto di protezione da scariche atmosferiche
+Elevatori - Elevatori elettromeccanici - Vano corsa e cabina,
+    Et dignissimos.,
+    Date_74,
+    -,
+    Assumenda iste.,
+    15.26
+  ],
+  [
+    AR048,
+    Temporibus et.
+    
+Elevatori - Elevatori idraulici - Imp. elevatore idraulico fino a 6 fermate
+Impianti e attrezzature antincendio - Attrezzature antincendio - Estintori
+Impianti e attrezzature antincendio - Compartimentazione antincendio - Porte tagliafuoco e uscite di sicurezza,
+    Eos asperiores.,
+    Date_75,
+    -,
+    Reiciendis ad.,
+    58.8
+  ],
+  [
+    AR049,
+    Eius tempore.
+    
+Impianti elettrici - Sistema di alimentazione normale - Impianto rifasamento (anello e anello B )
+Impianti elettrici - Impianto di terra e protezione scariche atmosferiche - Impianto di protezione da scariche atmosferiche,
+    Quia natus.,
+    Date_76,
+    -,
+    Quia natus.,
+    96.16
+  ],
+  [
+    AR050,
+    Ut et.,
+    Condizionamento e riscaldamento - Climatizzazione - Unità di trattamento aria primaria,
+    Est illum.,
+    Date_77,
+    Date_78,
+    Est illum.,
+    93.95
+  ]
+]

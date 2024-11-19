@@ -1,0 +1,16 @@
+﻿{
+  function: {
+    isAgreementParty: false,
+    isBuildingAdministrator: false,
+    isCompanyGroup: false,
+    isEmployee: false,
+    isHeir: false,
+    isLandlord: false,
+    isNone: true,
+    isOfficer: true,
+    isSupplier: false,
+    isTenant: false
+  },
+  id: 1,
+  name: Legale Rappresentante/Amministratore
+}

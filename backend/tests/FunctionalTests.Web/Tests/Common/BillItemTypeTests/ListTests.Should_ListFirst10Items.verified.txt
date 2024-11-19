@@ -1,0 +1,281 @@
+﻿{
+  nodes: [
+    {
+      activeExemptVR: {
+        id: 6
+      },
+      activeNonTaxableVR: {
+        id: 8
+      },
+      activeSubjectVR: {
+        id: 3
+      },
+      description: Canone,
+      id: 1,
+      internalCode: VB001,
+      isForAdministration: false,
+      isForContractCosts: false,
+      isForContractFee: true,
+      isPositive: true,
+      passiveExemptVR: {
+        id: 6
+      },
+      passiveNonTaxableVR: {
+        id: 8
+      },
+      passiveSubjectVR: {
+        id: 3
+      }
+    },
+    {
+      activeExemptVR: {
+        id: 6
+      },
+      activeNonTaxableVR: {
+        id: 8
+      },
+      activeSubjectVR: {
+        id: 3
+      },
+      description: Acconto Morosità,
+      id: 2,
+      internalCode: VB002,
+      isForAdministration: false,
+      isForContractCosts: true,
+      isForContractFee: false,
+      isPositive: true,
+      passiveExemptVR: {
+        id: 6
+      },
+      passiveNonTaxableVR: {
+        id: 8
+      },
+      passiveSubjectVR: {
+        id: 3
+      }
+    },
+    {
+      activeExemptVR: {
+        id: 6
+      },
+      activeNonTaxableVR: {
+        id: 8
+      },
+      activeSubjectVR: {
+        id: 3
+      },
+      description: Accredito Spese Amm.Ne,
+      id: 3,
+      internalCode: VB003,
+      isForAdministration: true,
+      isForContractCosts: true,
+      isForContractFee: false,
+      isPositive: false,
+      passiveExemptVR: {
+        id: 6
+      },
+      passiveNonTaxableVR: {
+        id: 8
+      },
+      passiveSubjectVR: {
+        id: 3
+      }
+    },
+    {
+      activeExemptVR: {
+        id: 6
+      },
+      activeNonTaxableVR: {
+        id: 8
+      },
+      activeSubjectVR: {
+        id: 3
+      },
+      description: Aggiornamento Montante Istat,
+      id: 4,
+      internalCode: VB004,
+      isForAdministration: false,
+      isForContractCosts: true,
+      isForContractFee: false,
+      isPositive: false,
+      passiveExemptVR: {
+        id: 6
+      },
+      passiveNonTaxableVR: {
+        id: 8
+      },
+      passiveSubjectVR: {
+        id: 3
+      }
+    },
+    {
+      activeExemptVR: {
+        id: 6
+      },
+      activeNonTaxableVR: {
+        id: 8
+      },
+      activeSubjectVR: {
+        id: 3
+      },
+      description: Lavori Straord. Imm. Alienati,
+      id: 5,
+      internalCode: VB005,
+      isForAdministration: false,
+      isForContractCosts: true,
+      isForContractFee: false,
+      isPositive: true,
+      passiveExemptVR: {
+        id: 6
+      },
+      passiveNonTaxableVR: {
+        id: 8
+      },
+      passiveSubjectVR: {
+        id: 3
+      }
+    },
+    {
+      activeExemptVR: {
+        id: 6
+      },
+      activeNonTaxableVR: {
+        id: 8
+      },
+      activeSubjectVR: {
+        id: 3
+      },
+      description: Morosità Dilazionata,
+      id: 6,
+      internalCode: VB006,
+      isForAdministration: false,
+      isForContractCosts: true,
+      isForContractFee: false,
+      isPositive: true,
+      passiveExemptVR: {
+        id: 6
+      },
+      passiveNonTaxableVR: {
+        id: 8
+      },
+      passiveSubjectVR: {
+        id: 3
+      }
+    },
+    {
+      activeExemptVR: {
+        id: 6
+      },
+      activeNonTaxableVR: {
+        id: 8
+      },
+      activeSubjectVR: {
+        id: 3
+      },
+      description: Penale,
+      id: 7,
+      internalCode: VB007,
+      isForAdministration: false,
+      isForContractCosts: true,
+      isForContractFee: false,
+      isPositive: true,
+      passiveExemptVR: {
+        id: 6
+      },
+      passiveNonTaxableVR: {
+        id: 8
+      },
+      passiveSubjectVR: {
+        id: 3
+      }
+    },
+    {
+      activeExemptVR: {
+        id: 6
+      },
+      activeNonTaxableVR: {
+        id: 8
+      },
+      activeSubjectVR: {
+        id: 3
+      },
+      description: Prev. Spese Amministrazione,
+      id: 8,
+      internalCode: VB008,
+      isForAdministration: false,
+      isForContractCosts: true,
+      isForContractFee: false,
+      isPositive: true,
+      passiveExemptVR: {
+        id: 6
+      },
+      passiveNonTaxableVR: {
+        id: 8
+      },
+      passiveSubjectVR: {
+        id: 3
+      }
+    },
+    {
+      activeExemptVR: {
+        id: 6
+      },
+      activeNonTaxableVR: {
+        id: 8
+      },
+      activeSubjectVR: {
+        id: 3
+      },
+      description: Prev. Spese Amministrazione,
+      id: 9,
+      internalCode: VB009,
+      isForAdministration: false,
+      isForContractCosts: true,
+      isForContractFee: false,
+      isPositive: false,
+      passiveExemptVR: {
+        id: 6
+      },
+      passiveNonTaxableVR: {
+        id: 8
+      },
+      passiveSubjectVR: {
+        id: 3
+      }
+    },
+    {
+      activeExemptVR: {
+        id: 6
+      },
+      activeNonTaxableVR: {
+        id: 8
+      },
+      activeSubjectVR: {
+        id: 3
+      },
+      description: Spese Amm.Ne Forfettarie,
+      id: 10,
+      internalCode: VB010,
+      isForAdministration: true,
+      isForContractCosts: true,
+      isForContractFee: false,
+      isPositive: true,
+      passiveExemptVR: {
+        id: 6
+      },
+      passiveNonTaxableVR: {
+        id: 8
+      },
+      passiveSubjectVR: {
+        id: 3
+      }
+    }
+  ],
+  pageInfo: {
+    endCursor: OQ==,
+    hasNextPage: true,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 103
+}

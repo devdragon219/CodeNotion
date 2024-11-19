@@ -1,0 +1,69 @@
+{
+  "bill_item_type": {
+    "title": "Bill item type",
+    "tab": {
+      "general_data": "General data",
+      "rates": "Rates",
+      "recap": "Recap"
+    },
+    "section_title": {
+      "general_data": "General data",
+      "other_data": "Other data",
+      "active_contracts": "Active contracts",
+      "passive_contracts": "Passive contracts",
+      "administration": "Administration",
+      "recap": "Recap"
+    },
+    "field": {
+      "internal_code": "Bill Item Type Code",
+      "description": "Description",
+      "sign": "Sign",
+      "applicability": "Applicability",
+      "accounting_item": "Corresponding Accounting Item Code",
+      "active_subject_vr": "Subject AC",
+      "active_exempt_vr": "Exempt AC",
+      "active_non_taxable_vr": "Non taxable AC",
+      "passive_subject_vr": "Subject PC",
+      "passive_exempt_vr": "Exempt PC",
+      "passive_non_taxable_vr": "Non taxable PC",
+      "vat_rate_type": "VAT rate type",
+      "vat_rate": "VAT rate"
+    },
+    "error": {
+      "internal_code": "The bill item type code provided is already in use",
+      "no_contract": "No contract selected"
+    },
+    "action": {
+      "add_bill_item_type": "Add bill item type",
+      "select_all_applicabilities": "Select all applicabilities"
+    },
+    "text": {
+      "no_bill_item_types": "No bill item types available"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add bill item type",
+        "save": "Save bill item type"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this bill item type?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these bill item types?\nThe process cannot be undone"
+        }
+      },
+      "activity": {
+        "add": "Add activity",
+        "edit": "Edit activity"
+      }
+    },
+    "feedback": {
+      "create": "Bill item type created successfully",
+      "delete": {
+        "single": "Bill item type deleted successfully",
+        "multiple": "Bill item types deleted successfully"
+      },
+      "update": "Bill item type edited successfully"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+mutation login($credentials: LoginInput!) {
+  login {
+    login(input: $credentials) {
+      ...LoginResultFragment
+    }
+  }
+}
+
+mutation loginWithOidc($idToken: String!) {
+  login {
+    loginOIDC(idToken: $idToken) {
+      ...LoginResultFragment
+    }
+  }
+}
+
+mutation refreshToken($accessToken: String!, $refreshToken: String!) {
+  login {
+    refreshAccessToken(accessToken: $accessToken, refreshToken: $refreshToken) {
+      ...LoginResultFragment
+    }
+  }
+}

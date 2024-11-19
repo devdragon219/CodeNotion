@@ -1,0 +1,17 @@
+﻿[
+  [
+    Unitá immobiliare,
+    Indirizzo,
+    Dati catastali,
+    Tipo categoria,
+    Classe,
+    Consistenza,
+    Rendita catastale rivalutata,
+    Rendita,
+    Tipo rendita,
+    % possesso,
+    Imponibile,
+    Aliquota,
+    Importo
+  ]
+]

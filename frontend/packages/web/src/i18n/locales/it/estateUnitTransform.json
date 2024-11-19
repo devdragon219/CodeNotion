@@ -1,0 +1,26 @@
+{
+  "estate_unit_transform": {
+    "title": "Trasformazione",
+    "tab": {
+      "initial_estate_unit": "UI da trasformare",
+      "estate": "Seleziona immobile",
+      "estate_unit": "Nuova UI",
+      "cadastral_unit": "Nuova UC",
+      "cadastral_coordinates": "Identificativi catastali",
+      "recap": "Riepilogo"
+    },
+    "section_title": {
+      "estate_unit": "Seleziona unità immobiliare da trasformare"
+    },
+    "error": {
+      "no_estate_unit": "Nessun unità immobiliare selezionata",
+      "estate_unit_types": "Tipologia e destinazione d'uso devono essere differenti rispetto ai valori iniziali"
+    },
+    "action": {
+      "save": "Salva trasformazione"
+    },
+    "feedback": {
+      "succeeded": "Unità immobiliare trasformata con successo"
+    }
+  }
+}

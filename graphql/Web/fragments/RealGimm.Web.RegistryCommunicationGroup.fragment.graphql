@@ -1,0 +1,19 @@
+fragment RegistryCommunicationGroupFragment on RegistryCommunicationGroup {
+  id {
+    ...RegistryCommunicationGroupIdFragment
+  }
+  debtAmount
+  managementSubject {
+    ...RegistryCommunicationManagementSubjectFragment
+  }
+  requestingSubjectLegalRepresentative {
+    id
+    name
+  }
+  debtBankAccount {
+    id
+    referenceCode
+  }
+  hasAnomalies
+  anomaliesCount
+}

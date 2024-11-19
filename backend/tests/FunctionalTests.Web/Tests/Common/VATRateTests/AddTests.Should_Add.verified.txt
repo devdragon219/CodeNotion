@@ -1,0 +1,18 @@
+﻿{
+  Data: {
+    vatRate: {
+      add: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          description: Aut totam,
+          id: 1,
+          internalCode: 001,
+          ratePercent: 0.43,
+          type: RATE
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

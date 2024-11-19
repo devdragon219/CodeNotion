@@ -1,0 +1,43 @@
+query getMainDashboard {
+  user {
+    me {
+      mainDashboard {
+        ...WidgetSectionFragment
+      }
+    }
+  }
+}
+
+mutation updateMainDashboard($inputs: [WidgetSectionInput!]!) {
+  user {
+    updateMainDashboardWidgets(inputs: $inputs) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getFacilityDashboard {
+  user {
+    me {
+      facilityDashboard {
+        ...WidgetSectionFragment
+      }
+    }
+  }
+}
+
+mutation updateFacilityDashboard($inputs: [WidgetSectionInput!]!) {
+  user {
+    updateFacilityDashboardWidgets(inputs: $inputs) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+# .graphqlrc.yml
+schema: 'graphql/RealGimm.Web.schema.graphql'
+documents: 'graphql/**/*.{fragment,operation}.graphql'

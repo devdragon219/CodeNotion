@@ -1,0 +1,39 @@
+fragment ContractFragment on ContractListOutput {
+  id
+  isActive
+  internalCode
+  externalCode
+  counterpartName
+  typeDescription
+  isSublocated
+  status
+  effectStartDate
+  expirationDate
+  daysToExpiration
+  locatedUnits {
+    estateUnitOrSubUnitInternalCode
+    estateUnitName
+    estateUnitAddress {
+      ...AsstAddressFragment
+    }
+    isMainUnit
+    isRegistryUpdateEnabled
+    isPartialLocation
+    surfaceSqM
+  }
+  managementSubjectName
+  releaseDate
+  releaseReason
+  isOccupiedWithoutRight
+  terminationDate
+  terminator
+  firstTermDurationMonths
+  secondTermDurationMonths
+  firstTermExpirationDate
+  secondTermExpirationDate
+  anytimeTerminationWarningMonths
+  nonRenewalWarningMonths
+  reason
+  agreementDate
+  lastRenewalStartDate
+}

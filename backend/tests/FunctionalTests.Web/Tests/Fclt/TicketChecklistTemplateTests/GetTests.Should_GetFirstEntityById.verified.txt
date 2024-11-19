@@ -1,0 +1,93 @@
+﻿{
+  catalogueType: {
+    category: {
+      name: Elevatori
+    },
+    name: Argano e motogeneratore,
+    subCategory: {
+      name: Elevatori elettromeccanici
+    }
+  },
+  costBaseFactor: FORFAIT,
+  id: 1,
+  internalCode: SM01,
+  name: Runte, Macejkovic and DuBuque,
+  onTriggerActivities: [
+    {
+      activityType: ON_INCIDENT,
+      id: 61,
+      isMandatoryByLaw: false,
+      name: sit
+    },
+    {
+      activityType: PLANNED_MAINTENANCE,
+      id: 62,
+      isMandatoryByLaw: true,
+      name: sed
+    },
+    {
+      activityType: PLANNED_MAINTENANCE,
+      id: 63,
+      isMandatoryByLaw: false,
+      name: molestias
+    },
+    {
+      activityType: PLANNED_MAINTENANCE,
+      id: 64,
+      isMandatoryByLaw: true,
+      name: sit
+    },
+    {
+      activityType: PLANNED_MAINTENANCE,
+      id: 65,
+      isMandatoryByLaw: false,
+      name: delectus
+    }
+  ],
+  onTriggerCraft: null,
+  onTriggerInterventionType: null,
+  preventativeActivities: [
+    {
+      activityType: ON_INCIDENT,
+      id: 61,
+      isMandatoryByLaw: false,
+      name: sit
+    },
+    {
+      activityType: PLANNED_MAINTENANCE,
+      id: 62,
+      isMandatoryByLaw: true,
+      name: sed
+    },
+    {
+      activityType: PLANNED_MAINTENANCE,
+      id: 63,
+      isMandatoryByLaw: false,
+      name: molestias
+    },
+    {
+      activityType: PLANNED_MAINTENANCE,
+      id: 64,
+      isMandatoryByLaw: true,
+      name: sit
+    },
+    {
+      activityType: PLANNED_MAINTENANCE,
+      id: 65,
+      isMandatoryByLaw: false,
+      name: delectus
+    }
+  ],
+  preventativeCraft: null,
+  preventativeDaysOfWeek: null,
+  preventativeInterventionType: {
+    id: 3,
+    internalCode: TI03,
+    name: Quia natus.
+  },
+  preventativePlannedPeriod: BIWEEKLY,
+  preventativeToleranceDays: 1,
+  rawWorkCost: 915.420000,
+  safetyCost: 1015.420000,
+  type: PREVENTATIVE_AND_ON_TRIGGER_CONDITION
+}

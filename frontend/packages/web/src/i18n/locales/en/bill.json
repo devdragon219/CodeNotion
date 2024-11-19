@@ -1,0 +1,110 @@
+{
+  "bill": {
+    "title": {
+      "active_bills": "Payment notices",
+      "passive_bills": "Payment warrants"
+    },
+    "tab": {
+      "temporary": "Temporaries",
+      "definitive": "Definitives",
+      "all": "All",
+      "general_data": "General data",
+      "accounting_data": "Accounting data"
+    },
+    "section_title": {
+      "select_active_bills": "Select payment notices to finalize",
+      "selected_active_bills": "Selected payment notices",
+      "select_passive_bills": "Select payment warrants to finalize",
+      "selected_passive_bills": "Selected payment warrants",
+      "active_bill": "Payment notice",
+      "passive_bill": "Payment warrant",
+      "totals": "Totals",
+      "bill_rows": "Bill rows",
+      "vat_rates": "VAT rates"
+    },
+    "field": {
+      "active_status": "Notice status",
+      "passive_status": "Warrant status",
+      "contract_code": "Contract code",
+      "management_subject": "Management subject",
+      "counterpart": "Counterpart",
+      "year": "Year",
+      "contract_type": "Contract type",
+      "active_invoiced": "Notice invoiced",
+      "passive_invoiced": "Warrant invoiced",
+      "estate_unit_code": "EU code",
+      "estate_unit_address": "Address",
+      "billing_period": "Billing period",
+      "is_occupied_without_right": "Occupied without right",
+      "active_date": "Notice date",
+      "passive_date": "Warrant date",
+      "since": "Since",
+      "until": "Until",
+      "pay_by": "Pay by",
+      "payment_type": "Payment type",
+      "active_transactor": "Issue notice/invoice to",
+      "passive_transactor": "Issue warrant/invoice to",
+      "emission_type": "Emission type",
+      "total_amount": "Total",
+      "final_date": "Definitive generation date",
+      "total_income": "Total income",
+      "total_vat": "Total VAT",
+      "bill_row_item_type": "Item",
+      "bill_row_since": "Since",
+      "bill_row_until": "Until",
+      "bill_row_amount": "Amount",
+      "bill_row_vat_code": "VAT code",
+      "bill_row_accounting_item": "Accounting item",
+      "bill_row_vat_description": "VAT description",
+      "bill_row_vat_percent": "% VAT rate",
+      "bill_row_vat": "VAT"
+    },
+    "temporary": {
+      "true": "Temporary",
+      "false": "Definitive"
+    },
+    "action": {
+      "finalize_bills": "Finalize bills",
+      "finalize_bill": "Finalize bill",
+      "generate_pdf": "Generate PDF",
+      "add_bill_row": "Add bill row"
+    },
+    "text": {
+      "no_active_bills": "No payment notices available",
+      "no_passive_bills": "No payment warrants available",
+      "no_bill_rows": "No bill rows available",
+      "no_vat_rates": "No VAT rates available"
+    },
+    "dialog": {
+      "finalize_bills": {
+        "title": "Finalize bills",
+        "confirmation": {
+          "active": "Are you really sure you want to\nfinalize these payment notices?",
+          "passive": "Are you really sure you want to\nfinalize these payment warrants?"
+        },
+        "action": "Finalize bills"
+      },
+      "finalize_bill": {
+        "title": {
+          "active": "Are you really sure\nyou want to finalize this payment notice?",
+          "passive": "Are you really sure you want to\nfinalize this payment warrant?"
+        },
+        "action": "Finalize bill"
+      },
+      "bill_row": {
+        "add": "Add bill row",
+        "edit": "Edit bill row"
+      }
+    },
+    "feedback": {
+      "finalize": {
+        "single": "Bill successfully finalized",
+        "multiple": "Bills successfully finalized"
+      },
+      "update": {
+        "active": "Payment notice successfully update",
+        "passive": "Payment warrant successfully updated"
+      }
+    }
+  }
+}

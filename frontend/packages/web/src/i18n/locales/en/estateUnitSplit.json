@@ -1,0 +1,24 @@
+{
+  "estate_unit_split": {
+    "title": "Split",
+    "tab": {
+      "estate_unit": "EU to split",
+      "estate_units": "EU split",
+      "recap": "Recap"
+    },
+    "section_title": {
+      "estate_unit": "Select estate unit to split"
+    },
+    "error": {
+      "no_estate_unit": "No estate unit selected",
+      "no_estate_units": "Add at least two estate units"
+    },
+    "action": {
+      "add_estate_unit": "Add EU split",
+      "save": "Save split"
+    },
+    "feedback": {
+      "succeeded": "Estate unit split successfully"
+    }
+  }
+}

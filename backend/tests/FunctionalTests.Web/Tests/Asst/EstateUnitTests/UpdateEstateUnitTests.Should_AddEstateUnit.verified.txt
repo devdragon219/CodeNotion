@@ -1,0 +1,80 @@
+﻿{
+  Data: {
+    estateUnit: {
+      add: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          address: {
+            addressType: PRIMARY,
+            cityName: New York,
+            countryISO: USA,
+            id: 1,
+            localPostCode: 10001,
+            numbering: 42,
+            toponymy: Downtown
+          },
+          estate: {
+            id: 1
+          },
+          floors: [
+            {
+              id: 1,
+              name: Ground floor,
+              position: 0.0
+            }
+          ],
+          id: 1,
+          internalCode: EU2023_42,
+          officialAct: {
+            actRegistrationDates: [
+              {
+                dateType: IT_TRANSCRIPTION_DATE,
+                value: 2023-01-15
+              },
+              {
+                dateType: IT_NOTARY_ACT_DATE,
+                value: 2023-01-05
+              }
+            ],
+            actRegistrationFields: [
+              {
+                fieldType: IT_REPERTOIRE_NUMBER,
+                value: RPTR2023_42
+              },
+              {
+                fieldType: IT_WRITTEN_AT_CITY,
+                value: Los Angeles
+              },
+              {
+                fieldType: IT_TRANSCRIPTION_NUMBER,
+                value: TRANS2023_42
+              },
+              {
+                fieldType: IT_TRANSCRIPTION_CITY,
+                value: Los Angeles
+              },
+              {
+                fieldType: IT_COLLECTION_NUMBER,
+                value: CN2023_42
+              }
+            ],
+            id: 1,
+            protocolNumber: PRTCL2023_42,
+            registrationDate: 2023-01-10,
+            registrationNumber: REG2023_42
+          },
+          ownershipStartDate: 2023-01-01,
+          ownershipType: PROPERTY,
+          sharedArea: false,
+          stair: {
+            description: Stair,
+            id: 1
+          },
+          status: EXISTING,
+          type: BUILDING
+        }
+      }
+    }
+  }
+}

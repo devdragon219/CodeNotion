@@ -1,0 +1,194 @@
+fragment SubjectFragment on ISubject {
+  id
+  internalCode
+  name
+  __typename
+  ... on LegalSubject {
+    legalSubjectType
+    baseCountryTaxIdCode
+    additionalTaxIdCode
+    interGroupSignature
+    companyGroupParent {
+      id
+      groupRelationType
+      main {
+        id
+        name
+      }
+    }
+  }
+  entryStatus
+  ... on ManagementSubject {
+    baseCountryTaxIdCode
+    additionalTaxIdCode
+    companyGroupParent {
+      id
+      groupRelationType
+      main {
+        id
+        name
+      }
+    }
+  }
+  ... on PhysicalSubject {
+    professionalTaxIdCode
+    birthCountryTaxIdCode
+  }
+  addresses {
+    ...AddressFragment
+  }
+  owningMgmtSubjects {
+    id
+    main {
+      id
+      name
+    }
+  }
+  categories {
+    id
+    function {
+      isCompanyGroup
+    }
+  }
+  externalSourceCode
+  taxStatuses {
+    taxStatusType
+    until
+    id
+  }
+  contacts {
+    ...ContactFragment
+  }
+  bankAccounts {
+    ...BankAccountFragment
+  }
+  officers {
+    id
+    subordinate {
+      id
+      name
+    }
+  }
+  heirs {
+    id
+    since
+    subordinate {
+      id
+      name
+    }
+  }
+}
+
+fragment SubjectDetailFragment on ISubject {
+  __typename
+  name
+  id
+  personType
+  internalCode
+  externalSourceCode
+  entryStatus
+  closureDate
+  addresses {
+    ...AddressFragment
+  }
+  bankAccounts {
+    ...BankAccountFragment
+  }
+  contacts {
+    ...ContactFragment
+  }
+  categories {
+    ...SubjectCategoryFragment
+  }
+  heirs {
+    ...SubjectRelationFragment
+  }
+  officers {
+    ...SubjectRelationFragment
+  }
+  owningMgmtSubjects {
+    ...SubjectRelationFragment
+  }
+  taxStatuses {
+    taxStatusType
+    since
+    until
+    id
+  }
+  ... on LegalSubject {
+    fullName
+    shorthandDescription
+    baseCountryTaxIdCode
+    additionalTaxIdCode
+    additionalGovIdCode
+    bankingId1
+    bankingId2
+    businessStart
+    companiesHouseIdCode
+    shareCapital
+    interGroupSignature
+    legalSubjectType
+    companyGroupParent {
+      ...SubjectRelationFragment
+    }
+  }
+  ... on ManagementSubject {
+    fullName
+    shorthandDescription
+    baseCountryTaxIdCode
+    additionalTaxIdCode
+    additionalGovIdCode
+    bankingId1
+    bankingId2
+    businessStart
+    managementCode
+    companiesHouseIdCode
+    shareCapital
+    interGroupSignature
+    companyGroupParent {
+      ...SubjectRelationFragment
+    }
+  }
+  ... on PhysicalSubject {
+    firstName
+    lastName
+    birthCountryTaxIdCode
+    professionalTaxIdCode
+    birthDate
+    birthLocation {
+      ...AddressFragment
+    }
+    birthSex
+  }
+}
+
+fragment AdministratorFragment on ISubject {
+  __typename
+  id
+  name
+  addresses {
+    ...AddressFragment
+  }
+  contacts {
+    ...ContactFragment
+  }
+  bankAccounts {
+    ...BankAccountFragment
+  }
+}
+
+fragment RegistryCommunicationManagementSubjectFragment on ISubject {
+  id
+  name
+  bankAccounts {
+    id
+    referenceCode
+  }
+  officers {
+    id
+    subordinate {
+      id
+      name
+    }
+  }
+}

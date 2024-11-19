@@ -1,0 +1,86 @@
+{
+  "administration_term": {
+    "tab": {
+      "general_data": "Term",
+      "installments": "Installments",
+      "recap": "Recap"
+    },
+    "section_title": {
+      "term": "Term",
+      "installments": "Installments",
+      "recap": "Recap",
+      "expected_amount_installments": "Expected amount installments",
+      "payments": "Installments payments"
+    },
+    "field": {
+      "term_type": "Administration term type",
+      "name": "Administration term name",
+      "expected_amount": "Expected amount",
+      "since": "Start date",
+      "until": "End date",
+      "days": "Days",
+      "installments": "Installments",
+      "installment_number": "Installment number",
+      "expense_reason": "Expense reason",
+      "due_date": "Due Date",
+      "taxable_amount": "Taxable amount",
+      "tax": "Tax",
+      "total_amount": "Total amount",
+      "installment_since": "Start date",
+      "installment_until": "End date",
+      "payment_date": "Payment date",
+      "bill_internal_code": "Bill internal code",
+      "notes": "Notes"
+    },
+    "action": {
+      "add_administration_term": "Add administration term",
+      "add_installment": "Add installment",
+      "add_payment": "Add payment",
+      "show_all": "Show all"
+    },
+    "error": {
+      "no_duplicated_administration_term": "An administration term with the same type and date interval already exists",
+      "installments_total_greater_than_expected": "Installments total amount cannot exceed the administration term expected amount",
+      "no_expected_amount_smaller_than_installments_total": "Expected amount cannot be lower than installments total amount",
+      "due_date_earlier_than_previous_installment_due_date": "Due date cannot be earlier than any of the due dates of previous installments"
+    },
+    "text": {
+      "no_administration_terms": "No administration terms available",
+      "estate": "Estate",
+      "installment": "Installment",
+      "installment_payment": "Installment payment",
+      "installments_payment": "Installments payment",
+      "total_paid": "Total paid"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add administration term",
+        "save": "Save administration term"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this administration term?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these administrations term?\nThe process cannot be undone"
+        }
+      },
+      "installment": {
+        "add": "Add installment",
+        "edit": "Edit installment",
+        "view": "View installment"
+      },
+      "payment": {
+        "add": "Add payments",
+        "edit": "Edit payment"
+      }
+    },
+    "feedback": {
+      "create": "Administration term created successfully",
+      "delete": {
+        "single": "Administration term deleted successfully",
+        "multiple": "Administration terms deleted successfully"
+      },
+      "update": "Administration term edited successfully"
+    }
+  }
+}

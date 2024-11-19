@@ -1,0 +1,27 @@
+fragment QuoteHistoryEntryFragment on QuoteHistoryEntry {
+  __typename
+  id
+  timestamp
+  userId
+  ... on AmountUpdatedQuoteHistoryEntry {
+    oldAmount
+    newAmount
+    user {
+      ...TicketUserFragment
+    }
+  }
+  ... on ApprovedAmountUpdatedQuoteHistoryEntry {
+    oldApprovedAmount
+    newApprovedAmount
+    user {
+      ...TicketUserFragment
+    }
+  }
+  ... on MasterStatusUpdatedQuoteHistoryEntry {
+    oldMasterStatus
+    newMasterStatus
+    user {
+      ...TicketUserFragment
+    }
+  }
+}

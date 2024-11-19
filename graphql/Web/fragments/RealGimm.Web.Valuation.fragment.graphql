@@ -1,0 +1,9 @@
+fragment ValuationFragment on Valuation {
+  referenceYear
+  iasValue
+  rbaValue
+  mortgageAmount
+  transferYear
+  revampOperations
+  id
+}

@@ -1,0 +1,730 @@
+query getTickets(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: TicketFilterInput
+  $order: [TicketSortInput!]
+) {
+  ticket {
+    listTickets(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...TicketFragment
+      }
+      totalCount
+    }
+  }
+}
+
+mutation deleteTicket($id: Int!) {
+  ticket {
+    delete(id: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteTickets($ids: [Int!]!) {
+  ticket {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query exportTickets($where: TicketFilterInput, $order: [TicketSortInput!]) {
+  ticket {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+query getTicketInternalCode($mainType: TicketMainType!) {
+  ticket {
+    proposeNewInternalCode(mainType: $mainType)
+  }
+}
+
+query canUseTicketInternalCode($internalCode: String!, $currentTicketId: Int) {
+  ticket {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentTicketId: $currentTicketId
+    )
+  }
+}
+
+mutation createIssueTicket($input: TicketInput!) {
+  ticket {
+    addIssue(input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+      value {
+        id
+      }
+    }
+  }
+}
+
+mutation createOnConditionTicket(
+  $input: AddOnTriggerChecklistTicketRangeInput!
+) {
+  ticket {
+    addOnTriggerChecklistTicketRange(input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+      value {
+        id
+      }
+    }
+  }
+}
+
+query getTicket($ticketId: Int!) {
+  ticket {
+    get(id: $ticketId) {
+      ...TicketDetailFragment
+    }
+  }
+}
+
+mutation updateTicket($ticketId: Int!, $input: TicketInput!) {
+  ticket {
+    update(id: $ticketId, input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation addTicketDocuments($ticketId: Int!, $inputs: [DocumentInput!]!) {
+  ticket {
+    document {
+      addRange(ticketId: $ticketId, inputs: $inputs) {
+        errors
+        isSuccess
+        validationErrors {
+          ...ValidationErrorFragment
+        }
+      }
+    }
+  }
+}
+
+mutation deleteTicketDocuments($entityId: Int!, $cmisIds: [String!]!) {
+  ticket {
+    document {
+      deleteRange(ticketId: $entityId, cmisIds: $cmisIds) {
+        errors
+        isSuccess
+        validationErrors {
+          ...ValidationErrorFragment
+        }
+      }
+    }
+  }
+}
+
+mutation updateTicketDocument($ticketId: Int!, $input: DocumentInput!) {
+  ticket {
+    document {
+      update(ticketId: $ticketId, input: $input) {
+        errors
+        isSuccess
+        validationErrors {
+          ...ValidationErrorFragment
+        }
+      }
+    }
+  }
+}
+
+query getTicketDocuments(
+  $ticketId: Int!
+  $where: DocumentFilterInput
+  $order: [DocumentSortInput!]
+) {
+  ticket {
+    get(id: $ticketId) {
+      documents(where: $where, order: $order) {
+        ...DocumentFragment
+      }
+    }
+  }
+}
+
+query getTicketImages($ticketId: Int!) {
+  ticket {
+    get(id: $ticketId) {
+      images {
+        ...DocumentFragment
+      }
+    }
+  }
+}
+
+query getTicketReplies($ticketId: Int!) {
+  ticket {
+    get(id: $ticketId) {
+      replies {
+        ...ReplyFragment
+      }
+    }
+  }
+}
+
+mutation sendTicketReply(
+  $ticketId: Int!
+  $comment: String
+  $inputs: [DocumentInput!]!
+) {
+  ticket {
+    sendReply(ticketId: $ticketId, comment: $comment, documentInputs: $inputs) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation convertTicketToExcludedFromMaintenanceContract($ticketId: Int!) {
+  ticket {
+    convertToExcludedFromMaintenanceContract(ticketId: $ticketId) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getTicketProviderSubjects(
+  $estateUnitId: Int!
+  $catalogueItemIds: [Int!]!
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: SubjectFilterInput
+  $order: [SubjectSortInput!]
+) {
+  ticket {
+    listAvailableProviderSubjects(
+      estateUnitId: $estateUnitId
+      catalogueItemIds: $catalogueItemIds
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...SubjectFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getTicketsPerEstateUnits(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: TicketFilterInput
+  $order: [TicketsPerEstateUnitSortInput!]
+) {
+  ticket {
+    listTicketsPerEstateUnits(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...TicketsPerEstateUnitFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getTicketsPerEstateUnitsPerYears(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: TicketFilterInput
+  $order: [TicketsPerEstateUnitsPerYearSortInput!]
+) {
+  ticket {
+    listTicketsPerEstateUnitsPerYears(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...TicketsPerEstateUnitsPerYearFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getTicketsCalendar(
+  $startDate: Date!
+  $endDate: Date!
+  $where: CalendarTicketOutputFilterInput
+) {
+  ticket {
+    listTicketsForCalendar(
+      startDate: $startDate
+      endDate: $endDate
+      where: $where
+    ) {
+      ...CalendarTicketOutputFragment
+    }
+  }
+}
+
+query getIssueTicketsExcludedFromMaintenanceContractStatistics(
+  $startDate: Date!
+  $endDate: Date!
+) {
+  ticket {
+    issuesExcludedFromMaintenanceContractStatistics(
+      startDate: $startDate
+      endDate: $endDate
+    ) {
+      excludedPercentage
+      nonExcludedPercentage
+    }
+  }
+}
+
+query getIssueTicketsPercentageByStatusStatistics(
+  $startDate: Date!
+  $endDate: Date!
+) {
+  ticket {
+    issuesPercentageByStatusStatistics(
+      startDate: $startDate
+      endDate: $endDate
+    ) {
+      newStatusPercentage
+      assignedStatusPercentage
+      inProgressStatusPercentage
+      resolvedStatusPercentage
+      completedStatusPercentage
+    }
+  }
+}
+
+query getIssueTicketsPercentageByPriorityStatistics(
+  $startDate: Date!
+  $endDate: Date!
+) {
+  ticket {
+    issuesPercentageByPriorityStatistics(
+      startDate: $startDate
+      endDate: $endDate
+    ) {
+      minorStatusPercentage
+      normalStatusPercentage
+      majorStatusPercentage
+      criticalStatusPercentage
+    }
+  }
+}
+
+query getIssueTicketsPercentageByTypeStatistics(
+  $startDate: Date!
+  $endDate: Date!
+) {
+  ticket {
+    issuesPercentageByTypeStatistics(startDate: $startDate, endDate: $endDate) {
+      key {
+        id
+        description
+      }
+      value
+    }
+  }
+}
+
+query getIssueTicketsCountByStatusStatistics(
+  $startDate: Date!
+  $endDate: Date!
+) {
+  ticket {
+    issuesCountByStatusStatistics(startDate: $startDate, endDate: $endDate) {
+      newStatusCount
+      assignedStatusCount
+      inProgressStatusCount
+      resolvedStatusCount
+      completedStatusCount
+    }
+  }
+}
+
+query getTicketsCountStatistics($where: TicketFilterInput) {
+  ticket {
+    listTickets(where: $where) {
+      totalCount
+    }
+  }
+}
+
+query getChecklistTicketsCountLineChart(
+  $startDate: Date!
+  $endDate: Date!
+  $chartType: LineChartType!
+) {
+  ticket {
+    checklistTicketsCountLineChart(
+      startDate: $startDate
+      endDate: $endDate
+      chartType: $chartType
+    ) {
+      daily {
+        date
+        dataPoint {
+          ...ChecklistTicketsCountLineChartDataPointFragment
+        }
+      }
+      weekly {
+        week
+        dataPoint {
+          ...ChecklistTicketsCountLineChartDataPointFragment
+        }
+      }
+      monthly {
+        month
+        dataPoint {
+          ...ChecklistTicketsCountLineChartDataPointFragment
+        }
+      }
+    }
+  }
+}
+
+query getIssueTicketsExcludedFromMaintenanceContractLineChart(
+  $startDate: Date!
+  $endDate: Date!
+  $chartType: LineChartType!
+) {
+  ticket {
+    issuesExcludedFromMaintenanceContractLineChart(
+      startDate: $startDate
+      endDate: $endDate
+      chartType: $chartType
+    ) {
+      daily {
+        date
+        dataPoint {
+          ...IssuesExcludedFromMaintenanceContractLineChartDataPointFragment
+        }
+      }
+      weekly {
+        week
+        dataPoint {
+          ...IssuesExcludedFromMaintenanceContractLineChartDataPointFragment
+        }
+      }
+      monthly {
+        month
+        dataPoint {
+          ...IssuesExcludedFromMaintenanceContractLineChartDataPointFragment
+        }
+      }
+    }
+  }
+}
+
+query getIssueTicketsStatusLineChart(
+  $startDate: Date!
+  $endDate: Date!
+  $chartType: LineChartType!
+) {
+  ticket {
+    issuesStatusLineChart(
+      startDate: $startDate
+      endDate: $endDate
+      chartType: $chartType
+    ) {
+      daily {
+        date
+        dataPoint {
+          ...IssuesStatusLineChartDataPointFragment
+        }
+      }
+      weekly {
+        week
+        dataPoint {
+          ...IssuesStatusLineChartDataPointFragment
+        }
+      }
+      monthly {
+        month
+        dataPoint {
+          ...IssuesStatusLineChartDataPointFragment
+        }
+      }
+    }
+  }
+}
+
+query getChecklistTicketsMandatoryByLawPerformedActivitiesStatistics(
+  $startDate: Date!
+  $endDate: Date!
+) {
+  ticket {
+    checklistTicketsMandatoryByLawPerformedActivitiesStatistics(
+      startDate: $startDate
+      endDate: $endDate
+    ) {
+      key
+      value
+    }
+  }
+}
+
+query getChecklistTicketsMandatoryByLawStatusStatistics(
+  $startDate: Date!
+  $endDate: Date!
+) {
+  ticket {
+    mandatoryByLawChecklistTicketsStatusStatistics(
+      startDate: $startDate
+      endDate: $endDate
+    ) {
+      donePercentage
+      expiredPercentage
+      scheduledPercentage
+    }
+  }
+}
+
+query getChecklistTicketsMandatoryByLaw($startDate: Date!, $endDate: Date!) {
+  ticket {
+    listTickets(
+      first: 5
+      order: [{ dueDate: ASC }]
+      where: {
+        mainType: {
+          in: [CHECKLIST_ON_TRIGGER_CONDITION, CHECKLIST_PREVENTATIVE]
+        }
+        isMandatoryByLaw: { eq: true }
+        masterStatus: { neq: COMPLETED }
+        dueDate: { gte: $startDate, lte: $endDate }
+      }
+    ) {
+      nodes {
+        id
+        internalCode
+        dueDate
+        catalogueType {
+          id
+          name
+        }
+      }
+    }
+  }
+}
+
+query getIssueTicketsAverageResolutionDurationByStatusStatistics(
+  $startDate: Date!
+  $endDate: Date!
+) {
+  ticket {
+    issuesAverageResolutionDurationByStatusStatistics(
+      startDate: $startDate
+      endDate: $endDate
+    ) {
+      newDuration
+      assignedDuration
+      inProgressDuration
+      resolvedDuration
+      completedDuration
+    }
+  }
+}
+
+query getTicketsTypeLineChart(
+  $startDate: Date!
+  $endDate: Date!
+  $chartType: LineChartType!
+) {
+  ticket {
+    ticketsTypeLineChart(
+      startDate: $startDate
+      endDate: $endDate
+      chartType: $chartType
+    ) {
+      daily {
+        date
+        dataPoint {
+          ...TicketsTypeLineChartDataPointFragment
+        }
+      }
+      weekly {
+        week
+        dataPoint {
+          ...TicketsTypeLineChartDataPointFragment
+        }
+      }
+      monthly {
+        month
+        dataPoint {
+          ...TicketsTypeLineChartDataPointFragment
+        }
+      }
+    }
+  }
+}
+
+query getTicketsCountMonthlyChart($years: [Int!]!) {
+  ticket {
+    ticketsCountMonthlyChart(years: $years) {
+      year
+      month
+      dataPoint {
+        ticketsCount
+      }
+    }
+  }
+}
+
+query getTicketsExcludedFromMaintenanceContractExpensesPercentageStatistics(
+  $startDate: Date!
+  $endDate: Date!
+) {
+  ticket {
+    ticketAmountPercentageByIsExcludedFromMaintenanceContractStatistics(
+      startDate: $startDate
+      endDate: $endDate
+    ) {
+      excludedAmountPercentage
+      nonExcludedAmountPercentage
+    }
+  }
+}
+
+query getTicketsExcludedFromMaintenanceContractExpensesLineChart(
+  $startDate: Date!
+  $endDate: Date!
+  $chartType: LineChartType!
+) {
+  ticket {
+    ticketsAmountLineChart(
+      startDate: $startDate
+      endDate: $endDate
+      chartType: $chartType
+    ) {
+      daily {
+        date
+        dataPoint {
+          ...TicketsAmountChartDataPointFragment
+        }
+      }
+      weekly {
+        week
+        dataPoint {
+          ...TicketsAmountChartDataPointFragment
+        }
+      }
+      monthly {
+        month
+        dataPoint {
+          ...TicketsAmountChartDataPointFragment
+        }
+      }
+    }
+  }
+}
+
+query getTicketsTotalExpensesMonthlyChart($years: [Int!]!) {
+  ticket {
+    ticketsTotalAmountMonthlyChart(years: $years) {
+      year
+      month
+      dataPoint {
+        totalAmount
+      }
+    }
+  }
+}
+
+query getTicketsExcludedFromMaintenanceContractTotalExpensesStatistics {
+  ticket {
+    yearlyTicketAmountStatistics {
+      totalAmount
+      totalAmountTrend
+      excludedAmount
+      excludedAmountTrend
+      nonExcludedAmount
+      nonExcludedAmountTrend
+    }
+  }
+}
+
+query getIssueTicketsSLARespectingPercentageStatistics(
+  $startDate: Date!
+  $endDate: Date!
+) {
+  ticket {
+    issuesSLARespectingPercentageStatistics(
+      startDate: $startDate
+      endDate: $endDate
+    ) {
+      respectingPercentage
+      notRespectingPercentage
+    }
+  }
+}

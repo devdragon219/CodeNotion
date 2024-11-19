@@ -1,0 +1,81 @@
+﻿{
+  nodes: [
+    {
+      description: Harum totam voluptatibus doloremque eos asperiores.,
+      id: 1,
+      managementSubjectId: 15,
+      notes: Ipsam illum pariatur doloribus aperiam cumque non recusandae.,
+      taxCode: vtofoxlzhh
+    },
+    {
+      description: Autem suscipit blanditiis ratione modi velit porro dolorum corrupti adipisci.,
+      id: 2,
+      managementSubjectId: 20,
+      notes: Dolorem id vero soluta fuga eius saepe eveniet dicta quo.,
+      taxCode: qtajiynsdh
+    },
+    {
+      description: Cupiditate minima molestias provident inventore minima.,
+      id: 3,
+      managementSubjectId: 12,
+      notes: Nulla laborum aut quod ea recusandae.,
+      taxCode: fqajwbhsyz
+    },
+    {
+      description: Officia est quia quam aut rerum aut aliquam magni eveniet.,
+      id: 4,
+      managementSubjectId: 8,
+      notes: Aut perspiciatis repellendus excepturi.,
+      taxCode: vfxanzzaqh
+    },
+    {
+      description: Expedita laboriosam voluptatem aspernatur debitis quo saepe.,
+      id: 5,
+      managementSubjectId: 14,
+      notes: Aliquam voluptatem voluptatum adipisci necessitatibus quos quidem voluptatem.,
+      taxCode: dfmpgigudp
+    },
+    {
+      description: Perferendis similique praesentium asperiores quia quia veniam harum.,
+      id: 6,
+      managementSubjectId: 5,
+      notes: Aliquam voluptatem perferendis dignissimos exercitationem voluptas qui provident hic.,
+      taxCode: nnumcldwos
+    },
+    {
+      description: Fugiat facere labore quia quia dolor in qui eum.,
+      id: 7,
+      managementSubjectId: 4,
+      notes: In quae minima atque.,
+      taxCode: zaianowfde
+    },
+    {
+      description: Illo rerum nemo repellat et blanditiis libero explicabo asperiores est.,
+      id: 8,
+      managementSubjectId: 16,
+      notes: Aut cumque laboriosam.,
+      taxCode: gypzboezll
+    },
+    {
+      description: Architecto est voluptatem natus.,
+      id: 9,
+      managementSubjectId: 14,
+      notes: Et porro delectus molestiae nobis asperiores nihil.,
+      taxCode: gpquybonga
+    },
+    {
+      description: Sed similique eius tempore.,
+      id: 10,
+      managementSubjectId: 7,
+      notes: Est deleniti neque voluptatem ducimus totam.,
+      taxCode: cuxbeyuhkw
+    }
+  ],
+  pageInfo: {
+    endCursor: OQ==,
+    hasNextPage: true,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 50
+}

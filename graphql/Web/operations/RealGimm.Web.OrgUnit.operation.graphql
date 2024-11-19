@@ -1,0 +1,145 @@
+query getOrgUnitsTree($orgUnitType: OrgUnitType!) {
+  orgUnit {
+    listOrgUnitsTree(orgUnitType: $orgUnitType) {
+      ...OrgUnitTreeNodeFragment
+    }
+  }
+}
+
+query getOrgUnits(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: OrgUnitFilterInput
+  $order: [OrgUnitSortInput!]
+) {
+  orgUnit {
+    listOrgUnits(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...OrgUnitFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getAllOrgUnits($where: OrgUnitFilterInput, $order: [OrgUnitSortInput!]) {
+  orgUnit {
+    listOrgUnitsFull(where: $where, order: $order) {
+      ...OrgUnitFragment
+    }
+  }
+}
+
+query getAllOrgUnitsByManagementSubjectIds(
+  $managementSubjectIds: [Int!]!
+  $where: OrgUnitFilterInput
+  $order: [OrgUnitSortInput!]
+) {
+  orgUnit {
+    listOrgUnitsByManagementSubject(
+      managementSubjectIds: $managementSubjectIds
+      where: $where
+      order: $order
+    ) {
+      ...OrgUnitFragment
+    }
+  }
+}
+
+query getOrgUnit($orgUnitId: Int!) {
+  orgUnit {
+    orgUnit(orgUnitId: $orgUnitId) {
+      ...OrgUnitFragment
+    }
+  }
+}
+
+mutation createManagementOrgUnit($orgUnitInput: ManagementOrgUnitInput!) {
+  orgUnit {
+    addManagementOrgUnit(orgUnitInput: $orgUnitInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation createGeographicalOrgUnit($orgUnitInput: GeographicalOrgUnitInput!) {
+  orgUnit {
+    addGeographicalOrgUnit(orgUnitInput: $orgUnitInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateManagementOrgUnit($input: ManagementOrgUnitInput!) {
+  orgUnit {
+    updateManagementOrgUnit(orgUnitInput: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateGeographicalOrgUnit($input: GeographicalOrgUnitInput!) {
+  orgUnit {
+    updateGeographicalOrgUnit(orgUnitInput: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteOrgUnit($id: Int!) {
+  orgUnit {
+    delete(orgUnitId: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getOrgUnitInternalCode {
+  orgUnit {
+    proposeNewInternalCode
+  }
+}
+
+query canUseOrgUnitInternalCode(
+  $internalCode: String!
+  $currentOrgUnitId: Int
+) {
+  orgUnit {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentOrgUnitId: $currentOrgUnitId
+    )
+  }
+}

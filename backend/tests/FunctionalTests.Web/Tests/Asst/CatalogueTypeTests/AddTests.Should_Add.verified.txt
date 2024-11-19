@@ -1,0 +1,157 @@
+﻿{
+  Data: {
+    catalogueType: {
+      add: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          activities: [
+            {
+              activityType: ON_INCIDENT,
+              id: 1,
+              isMandatoryByLaw: true,
+              name: dolore
+            },
+            {
+              activityType: PLANNED_MAINTENANCE,
+              id: 2,
+              isMandatoryByLaw: true,
+              name: est
+            },
+            {
+              activityType: PLANNED_MAINTENANCE,
+              id: 3,
+              isMandatoryByLaw: true,
+              name: ex
+            },
+            {
+              activityType: ON_INCIDENT,
+              id: 4,
+              isMandatoryByLaw: true,
+              name: rerum
+            },
+            {
+              activityType: PLANNED_MAINTENANCE,
+              id: 5,
+              isMandatoryByLaw: false,
+              name: voluptatem
+            }
+          ],
+          category: {
+            id: 1,
+            internalCode: illum,
+            name: est,
+            subCategories: [
+              {
+                id: 1,
+                internalCode: assumenda,
+                name: illum
+              },
+              {
+                id: 2,
+                internalCode: quia,
+                name: iste
+              },
+              {
+                id: 3,
+                internalCode: et,
+                name: natus
+              },
+              {
+                id: 4,
+                internalCode: reiciendis,
+                name: dignissimos
+              },
+              {
+                id: 5,
+                internalCode: nostrum,
+                name: ad
+              },
+              {
+                id: 6,
+                internalCode: harum,
+                name: totam
+              },
+              {
+                id: 7,
+                internalCode: voluptatibus,
+                name: totam
+              },
+              {
+                id: 8,
+                internalCode: eos,
+                name: doloremque
+              }
+            ]
+          },
+          fields: [
+            [
+              {
+                id: Guid_1,
+                isMandatory: false,
+                name: totam,
+                type: SIMPLE_TEXT,
+                validValues: null
+              }
+            ],
+            [
+              {
+                id: Guid_2,
+                isMandatory: false,
+                name: ex,
+                type: SIMPLE_NUMBER,
+                validValues: null
+              },
+              {
+                id: Guid_3,
+                isMandatory: true,
+                name: rerum,
+                type: SIMPLE_TEXT,
+                validValues: null
+              },
+              {
+                id: Guid_4,
+                isMandatory: false,
+                name: voluptatem,
+                type: SIMPLE_TEXT,
+                validValues: null
+              }
+            ],
+            [
+              {
+                id: Guid_5,
+                isMandatory: false,
+                name: veniam,
+                type: DATE,
+                validValues: null
+              },
+              {
+                id: Guid_6,
+                isMandatory: false,
+                name: cumque,
+                type: DATE,
+                validValues: null
+              },
+              {
+                id: Guid_7,
+                isMandatory: true,
+                name: neque,
+                type: SIMPLE_TEXT,
+                validValues: null
+              }
+            ]
+          ],
+          id: 1,
+          internalCode: nfcx3n18bz,
+          name: est,
+          subCategory: {
+            id: 1,
+            internalCode: assumenda,
+            name: illum
+          }
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

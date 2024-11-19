@@ -1,0 +1,74 @@
+{
+  "facility_contract_template": {
+    "title": "Facility contract templates",
+    "tab": {
+      "general_data": "General data",
+      "catalogue_types": "Catalogue types",
+      "slas": "SLAs",
+      "penalties": "Penalties",
+      "recap": "Recap"
+    },
+    "section_title": {
+      "general_data": "General data",
+      "catalogue_types": "Catalogue types",
+      "slas": "SLAs",
+      "select_slas": "Select SLAs",
+      "selected_slas": "SLAs selected",
+      "penalties": "Penalties",
+      "select_penalties": "Select penalties",
+      "selected_penalties": "Penalties selected",
+      "recap": "Recap"
+    },
+    "field": {
+      "internal_code": "Contract code",
+      "description": "Description",
+      "contract_type": "Contract type",
+      "catalogue_types": "Catalogue types",
+      "catalogue_category": "Catalogue category",
+      "catalogue_subcategory": "Catalogue subcategory",
+      "catalogue_type": "Catalogue type"
+    },
+    "error": {
+      "internal_code": "The contract code provided is already in use",
+      "no_catalogue_types_selected": "No catalogue types selected"
+    },
+    "text": {
+      "no_facility_contract_templates": "No facility contract templates available",
+      "no_slas_selected": "No SLAs selected",
+      "no_slas": "There are no SLAs, click edit to add a SLA",
+      "no_penalties_selected": "No penalties selected",
+      "no_penalties": "There are no penalties, click edit to add a penalty"
+    },
+    "action": {
+      "calendar": "Calendar",
+      "edit_catalogue_types": "Edit catalogue types",
+      "add_slas": "Add SLAs",
+      "add_penalties": "Add penalties"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add facility contract template",
+        "save": "Save facility contract template"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this facility contract template?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these facility contract templates?\nThe process cannot be undone"
+        }
+      },
+      "view_catalogue_types": "View catalogue types",
+      "edit_catalogue_types": "Edit catalogue types",
+      "add_slas": "Add SLAs",
+      "add_penalties": "Add penalties"
+    },
+    "feedback": {
+      "create": "Facility contract template created successfully",
+      "delete": {
+        "single": "Facility contract template deleted successfully",
+        "multiple": "Facility contract templates deleted successfully"
+      },
+      "update": "Facility contract template edited successfully"
+    }
+  }
+}

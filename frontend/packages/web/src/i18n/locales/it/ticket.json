@@ -1,0 +1,250 @@
+{
+  "ticket": {
+    "title": {
+      "activities": "Attività manutenzione",
+      "calendar": "Calendario manutenzioni",
+      "expired": "Scaduti",
+      "expiring": "In scadenza"
+    },
+    "tab": {
+      "tickets": "Ticket",
+      "maintenance_on_condition": "Manutenzione su condizione",
+      "maintenance_preventative": "Manutenzione programmata",
+      "facility_contract": "Contratto",
+      "estate_unit": "Unità immobiliare",
+      "ticket_checklist": "Schede manutenzione",
+      "catalogue_items": "Oggetti",
+      "general_data": "Dati generali",
+      "quote": "Preventivo",
+      "price_list": "Listino",
+      "articles": "Articoli",
+      "reminders": "Solleciti",
+      "reminder": "Sollecito",
+      "resolution": "Risoluzione",
+      "checklist_resolution": "Dati intervento",
+      "performed_activities": "Elenco attività",
+      "history": "Cronologia",
+      "replies": "Comunicazioni",
+      "documents": "Foto e documenti",
+      "recap": "Riepilogo"
+    },
+    "section_title": {
+      "facility_contract": "Contratto",
+      "estate_unit": "Unità immobiliare",
+      "ticket_checklist": "Schede manutenzione",
+      "catalogue_items": "Oggetti",
+      "general_data": "Dati generali",
+      "ticket_details": "Dettaglio ticket",
+      "supplier_subjects": "Fornitori",
+      "quote": "Preventivo",
+      "quote_articles": "Articoli preventivo",
+      "select_quote_articles": "Seleziona gli articoli da associare al preventivo",
+      "selected_quote_articles": "Articoli selezionati",
+      "reminders": "Solleciti",
+      "reminder": "Sollecito",
+      "resolution": "Risoluzione",
+      "checklist_resolution": "Dati intervento",
+      "performed_activities": "Attività",
+      "history": "Cronologia",
+      "images": "Foto",
+      "documents": "Documenti",
+      "recap": "Riepilogo"
+    },
+    "field": {
+      "internal_code": "Codice attività",
+      "main_type": "Tipologia manutenzione",
+      "estate_unit_code": "Codice UI",
+      "estate_unit_name": "Denominazione UI",
+      "estate_unit_address": "Indirizzo",
+      "location_floor": "Piano",
+      "location_sector": "Settore",
+      "location_room": "Stanza",
+      "issue_ticket_code": "Codice ticket",
+      "on_condition_ticket_code": "Codice intervento di manutenzione",
+      "ticket_checklist_code": "Codice scheda di manutenzione",
+      "ticket_checklist_name": "Denominazione",
+      "ticket_checklist_template_type": "Tipologia modello schema",
+      "contract_code": "Codice contratto",
+      "work_order_reference": "Ordine di lavoro",
+      "ticket_status": "Stato",
+      "issue_ticket_status": "Stato ticket",
+      "on_condition_ticket_status": "Stato intervento",
+      "work_safety_expected": "Sicurezza lavoro",
+      "requestor": "Richiedente",
+      "requestor_email": "Email richiedente",
+      "requestor_phone": "Telefono richiedente",
+      "request_date": "Data richiesta",
+      "request_time": "Ora",
+      "due_date": "Intervento entro",
+      "checklist_due_date": "Data intervento",
+      "planning_status": "Stato intervento",
+      "excluded_from_contract": "Extra canone",
+      "ticket_type": "Tipologia ticket",
+      "priority": "Priorità",
+      "catalogue_category": "Categoria",
+      "catalogue_subcategory": "Sottocategoria",
+      "catalogue_type": "Tipologia oggetto",
+      "catalogue_item": "Codice oggetto",
+      "catalogue_items": "Oggetti",
+      "summary": "Riepilogo",
+      "description": "Descrizione",
+      "supplier_subject": "Fornitore",
+      "work_team": "Squadra",
+      "leader_user": "Caposquadra",
+      "reminder_date": "Data sollecito",
+      "reminder_summary": "Descrizione sollecito",
+      "resolution_start_date": "Data inizio intervento",
+      "resolution_start_time": "Ora",
+      "resolution_end_date": "Data fine intervento",
+      "resolution_end_time": "Ora",
+      "resolution_closure_date": "Data chiusura effettiva",
+      "resolution_closure_time": "Ora",
+      "resolution_operations_performed": "Operazioni effettuate",
+      "resolution_diagnosis": "Diagnosi",
+      "resolution_parts_and_supplies": "Materiali sostituiti",
+      "resolution_notes": "Descrizione risoluzione",
+      "resolution_checklist_closure": "Data compilazione",
+      "resolution_checklist_notes": "Rapporto intervento",
+      "activity_status": "Eseguito",
+      "activity_number": "Numero attività",
+      "activity_name": "Attività",
+      "history_date": "Data",
+      "history_type": "Tipologia operazione",
+      "history_type_description": "Operazione",
+      "history_user": "Utente",
+      "quote_framework_agreement": "Accordo quadro",
+      "quote_status": "Stato preventivo",
+      "quote_external_code": "Codice preventivo",
+      "quote_classifications": "Classificazione",
+      "quote_amount": "Importo preventivo",
+      "quote_approved_amount": "Importo preventivo approvato",
+      "quote_due_date": "Preventivo entro",
+      "quote_order_number": "Numero ordine",
+      "quote_notes": "Note",
+      "quote_article_code": "Codice articolo",
+      "quote_article_name": "Descrizione",
+      "quote_article_unit": "Unità",
+      "quote_article_price": "Prezzo",
+      "quote_article_quantity": "Quantità",
+      "quote_article_total_amount": "Importo totale",
+      "quote_article_price_list": "Listino",
+      "image_upload": "Carica foto",
+      "document_upload": "Carica documenti",
+      "expired": "Scaduto",
+      "expired_days": "gg dalla scadenza",
+      "expiring_days": "gg alla scadenza"
+    },
+    "history": {
+      "AmountUpdatedQuoteHistoryEntry": {
+        "title": "Cambio importo preventivo",
+        "description": "Da {{ oldAmount }} a {{ newAmount }}"
+      },
+      "ApprovedAmountUpdatedQuoteHistoryEntry": {
+        "title": "Cambio importo preventivo approvato",
+        "description": "Da {{ oldApprovedAmount }} a {{ newApprovedAmount }}"
+      },
+      "ConvertedToExcludedFromMaintenanceContractTicketHistoryEntry": {
+        "title": "Trasformato in extra canone",
+        "description": "-"
+      },
+      "MasterStatusUpdatedQuoteHistoryEntry": {
+        "title": "Cambio stato",
+        "initial": "Creato preventivo",
+        "description": "Da {{ oldMasterStatus }} a {{ newMasterStatus }}"
+      },
+      "MasterStatusUpdatedTicketHistoryEntry": {
+        "title": "Cambio stato",
+        "initial": "Creato ticket",
+        "description": "Da {{ oldMasterStatus }} a {{ newMasterStatus }}"
+      },
+      "NewReminderTicketHistoryEntry": {
+        "title": "Ricevuto sollecito",
+        "description": "{{ reminderSummary }}"
+      },
+      "NewReplyTicketHistoryEntry": {
+        "title": "Ricevuta comunicazione",
+        "description": "Da {{ userName }}"
+      },
+      "ReminderDeletedTicketHistoryEntry": {
+        "title": "Cancellato sollecito",
+        "description": "{{ reminderSummary }}"
+      },
+      "ReminderUpdatedTicketHistoryEntry": {
+        "title": "Modificato sollecito",
+        "description": "Da {{ oldReminderSummary }} a {{ newReminderSummary }}"
+      }
+    },
+    "error": {
+      "ticket_code": "Il codice ticket inserito è già in uso",
+      "no_facility_contract_selected": "Nessun contratto selezionato",
+      "no_estate_unit_selected": "Nessuna unità immobiliare selezionata",
+      "no_ticket_checklist_selected": "Nessuna scheda manutenzione selezionata",
+      "no_catalogue_items_selected": "Nessun oggetto selezionato",
+      "no_articles_selected": "Nessun articolo selezionato"
+    },
+    "text": {
+      "no_tickets": "Non sono presenti attività manutenzione",
+      "no_articles": "Non sono presenti articoli",
+      "no_catalogue_items": "Non sono presenti oggetti",
+      "no_reminders": "Non sono presenti solleciti",
+      "no_performed_activities": "Non sono presenti attività",
+      "no_history": "Non sono presenti storici",
+      "no_documents": "Non sono stati caricati documenti",
+      "no_images": "Non sono state caricate foto"
+    },
+    "action": {
+      "add_cumulative_ticket": "Ticket cumulativo",
+      "add_single_ticket": "Ticket singolo",
+      "add_maintenance_on_condition": "Manutenzione su condizione",
+      "convert_in_excluded_from_contract": "Trasforma in extra canone",
+      "show_quote_history": "Cronologia preventivo",
+      "add_articles": "Aggiungi articoli",
+      "add_price_list_articles": "Aggiungi articoli da listino",
+      "add_new_articles": "Aggiungi articoli nuovi",
+      "add_reminder": "Aggiungi sollecito",
+      "add_document": "Aggiungi documento"
+    },
+    "dialog": {
+      "create": {
+        "title": {
+          "CHECKLIST_ON_TRIGGER_CONDITION": "Aggiunta manutenzione su condizione",
+          "CHECKLIST_PREVENTATIVE": "Aggiunta manutenzione preventiva",
+          "ISSUE": "Aggiunta ticket singolo",
+          "ISSUE_PARENT": "Aggiunta ticket cumulativo"
+        },
+        "save": {
+          "CHECKLIST_ON_TRIGGER_CONDITION": "Salva manutenzione su condizione",
+          "CHECKLIST_PREVENTATIVE": "Salva manutenzione preventiva",
+          "ISSUE": "Salva ticket singolo",
+          "ISSUE_PARENT": "Salva ticket cumulativo"
+        }
+      },
+      "delete": {
+        "title": "Sei sicuro?",
+        "description": {
+          "single": "Sei davvero sicuro\ndi voler cancellare questa attività?\nIl processo non potrà essere annullato",
+          "multiple": "Sei davvero sicuro\ndi voler cancellare queste attività?\nIl processo non potrà essere annullato"
+        }
+      },
+      "convert": {
+        "title": "Sei davvero sicuro di voler trasformare\nquesto ticket in extra canone?",
+        "action": "Trasforma ticket"
+      },
+      "quote_history": "Cronologia preventivo",
+      "add_price_list_articles": "Aggiunta articoli da listino",
+      "add_new_articles": "Aggiunta articoli nuovi",
+      "edit_article": "Modifica articolo",
+      "add_reminder": "Aggiunta sollecito",
+      "edit_reminder": "Modifica sollecito"
+    },
+    "feedback": {
+      "create": "Attività creata con successo",
+      "delete": {
+        "single": "Attività cancellata con successo",
+        "multiple": "Attività cancellate con successo"
+      },
+      "update": "Attività modificata con successo",
+      "convert": "Ticket trasformato con successo"
+    }
+  }
+}

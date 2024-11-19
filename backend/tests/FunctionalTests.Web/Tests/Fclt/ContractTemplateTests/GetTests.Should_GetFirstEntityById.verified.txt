@@ -1,0 +1,396 @@
+﻿{
+  catalogueTypeIds: [
+    22,
+    2
+  ],
+  contractType: {
+    id: 40,
+    internalCode: TCM040,
+    name: Lemke - Bednar,
+    ordering: 40
+  },
+  description: Schumm, Runte and Macejkovic,
+  id: 1,
+  internalCode: MCM001,
+  penalties: [
+    {
+      description: Minima molestias.,
+      flatIfConditions: [
+        {
+          complextConditionOperator: AND,
+          id: 630,
+          internalConditions: [
+            {
+              id: 698
+            },
+            {
+              id: 742
+            }
+          ]
+        },
+        {
+          id: 698,
+          operator: NOT_EQUAL,
+          targetCatalogueSubCategory: {
+            id: 32,
+            name: Rampe di carico idrauliche
+          }
+        },
+        {
+          id: 742,
+          operator: NOT_EQUAL,
+          targetPriority: CRITICAL
+        }
+      ],
+      id: 19,
+      ifCondition: {
+        id: 630
+      },
+      internalCode: PE019,
+      thenOperator: OR,
+      thenPenalties: [
+        {
+          amount: 52.130000,
+          type: FIXED
+        }
+      ]
+    }
+  ],
+  slas: [
+    {
+      description: Unde vitae.,
+      flatIfConditions: [
+        {
+          complextConditionOperator: OR,
+          id: 29,
+          internalConditions: [
+            {
+              id: 173
+            },
+            {
+              id: 223
+            },
+            {
+              id: 282
+            }
+          ]
+        },
+        {
+          id: 173,
+          operator: NOT_EQUAL,
+          targetCatalogueSubCategory: {
+            id: 32,
+            name: Rampe di carico idrauliche
+          }
+        },
+        {
+          calendar: {
+            id: 1,
+            name: Calendar 0,
+            timeZoneId: Indian/Mahe
+          },
+          id: 223,
+          maxTimePeriodInMinutes: 5,
+          minTimePeriodInMinutes: null,
+          targetMasterStatus: RESOLVED,
+          timeComparisonOperator: LESS_THAN
+        },
+        {
+          id: 282,
+          targetTicketType: {
+            description: Est illum.,
+            id: 1,
+            internalCode: TTK01,
+            ordering: 1
+          },
+          ticketTypeEqualityOperator: NOT_EQUAL
+        }
+      ],
+      flatThenConditions: [
+        {
+          complextConditionOperator: OR,
+          id: 30,
+          internalConditions: [
+            {
+              id: 109
+            },
+            {
+              id: 174
+            },
+            {
+              id: 255
+            }
+          ]
+        },
+        {
+          complextConditionOperator: OR,
+          id: 109,
+          internalConditions: [
+            {
+              id: 307
+            },
+            {
+              id: 308
+            },
+            {
+              id: 409
+            }
+          ]
+        },
+        {
+          complextConditionOperator: OR,
+          id: 307,
+          internalConditions: [
+            {
+              id: 450
+            },
+            {
+              id: 470
+            },
+            {
+              id: 479
+            }
+          ]
+        },
+        {
+          id: 450,
+          operator: NOT_EQUAL,
+          targetCatalogueSubCategory: {
+            id: 32,
+            name: Rampe di carico idrauliche
+          }
+        },
+        {
+          id: 470,
+          operator: NOT_EQUAL,
+          targetCatalogueType: {
+            id: 18,
+            name: Imp. elevatore idraulico fino a 6 fermate
+          }
+        },
+        {
+          calendar: {
+            id: 1,
+            name: Calendar 0,
+            timeZoneId: Indian/Mahe
+          },
+          id: 479,
+          maxTimePeriodInMinutes: 5,
+          minTimePeriodInMinutes: null,
+          targetMasterStatus: RESOLVED,
+          timeComparisonOperator: LESS_THAN
+        },
+        {
+          complextConditionOperator: OR,
+          id: 308,
+          internalConditions: [
+            {
+              id: 421
+            },
+            {
+              id: 441
+            },
+            {
+              id: 451
+            }
+          ]
+        },
+        {
+          complextConditionOperator: OR,
+          id: 421,
+          internalConditions: [
+            {
+              id: 509
+            },
+            {
+              id: 516
+            },
+            {
+              id: 545
+            }
+          ]
+        },
+        {
+          complextConditionOperator: OR,
+          id: 509,
+          internalConditions: [
+            {
+              id: 578
+            },
+            {
+              id: 583
+            },
+            {
+              id: 586
+            }
+          ]
+        },
+        {
+          id: 578,
+          operator: NOT_EQUAL,
+          targetCatalogueSubCategory: {
+            id: 32,
+            name: Rampe di carico idrauliche
+          }
+        },
+        {
+          id: 583,
+          operator: NOT_EQUAL,
+          targetCatalogueType: {
+            id: 18,
+            name: Imp. elevatore idraulico fino a 6 fermate
+          }
+        },
+        {
+          calendar: {
+            id: 1,
+            name: Calendar 0,
+            timeZoneId: Indian/Mahe
+          },
+          id: 586,
+          maxTimePeriodInMinutes: 5,
+          minTimePeriodInMinutes: null,
+          targetMasterStatus: RESOLVED,
+          timeComparisonOperator: LESS_THAN
+        },
+        {
+          id: 516,
+          operator: NOT_EQUAL,
+          targetCatalogueCategory: {
+            id: 5,
+            name: Condizionamento e riscaldamento
+          }
+        },
+        {
+          calendar: {
+            id: 1,
+            name: Calendar 0,
+            timeZoneId: Indian/Mahe
+          },
+          id: 545,
+          maxTimePeriodInMinutes: 5,
+          minTimePeriodInMinutes: null,
+          targetMasterStatus: RESOLVED,
+          timeComparisonOperator: LESS_THAN
+        },
+        {
+          id: 441,
+          operator: NOT_EQUAL,
+          targetCatalogueCategory: {
+            id: 5,
+            name: Condizionamento e riscaldamento
+          }
+        },
+        {
+          id: 451,
+          operator: NOT_EQUAL,
+          targetCatalogueSubCategory: {
+            id: 32,
+            name: Rampe di carico idrauliche
+          }
+        },
+        {
+          id: 409,
+          targetTicketType: {
+            description: Est illum.,
+            id: 1,
+            internalCode: TTK01,
+            ordering: 1
+          },
+          ticketTypeEqualityOperator: NOT_EQUAL
+        },
+        {
+          id: 174,
+          operator: NOT_EQUAL,
+          targetCatalogueSubCategory: {
+            id: 32,
+            name: Rampe di carico idrauliche
+          }
+        },
+        {
+          id: 255,
+          operator: NOT_EQUAL,
+          targetPriority: CRITICAL
+        }
+      ],
+      id: 15,
+      ifCondition: {
+        id: 29
+      },
+      internalCode: SLA015,
+      thenCondition: {
+        id: 30
+      }
+    },
+    {
+      description: Qui modi.,
+      flatIfConditions: [
+        {
+          complextConditionOperator: OR,
+          id: 97,
+          internalConditions: [
+            {
+              id: 243
+            },
+            {
+              id: 302
+            }
+          ]
+        },
+        {
+          calendar: {
+            id: 1,
+            name: Calendar 0,
+            timeZoneId: Indian/Mahe
+          },
+          id: 243,
+          maxTimePeriodInMinutes: 5,
+          minTimePeriodInMinutes: null,
+          targetMasterStatus: RESOLVED,
+          timeComparisonOperator: LESS_THAN
+        },
+        {
+          id: 302,
+          targetTicketType: {
+            description: Est illum.,
+            id: 1,
+            internalCode: TTK01,
+            ordering: 1
+          },
+          ticketTypeEqualityOperator: NOT_EQUAL
+        }
+      ],
+      flatThenConditions: [
+        {
+          complextConditionOperator: OR,
+          id: 98,
+          internalConditions: [
+            {
+              id: 244
+            }
+          ]
+        },
+        {
+          calendar: {
+            id: 1,
+            name: Calendar 0,
+            timeZoneId: Indian/Mahe
+          },
+          id: 244,
+          maxTimePeriodInMinutes: 5,
+          minTimePeriodInMinutes: null,
+          targetMasterStatus: RESOLVED,
+          timeComparisonOperator: LESS_THAN
+        }
+      ],
+      id: 49,
+      ifCondition: {
+        id: 97
+      },
+      internalCode: SLA049,
+      thenCondition: {
+        id: 98
+      }
+    }
+  ]
+}

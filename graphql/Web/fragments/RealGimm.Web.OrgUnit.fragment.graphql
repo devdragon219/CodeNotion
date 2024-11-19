@@ -1,0 +1,52 @@
+fragment OrgUnitFragment on OrgUnit {
+  id
+  name
+  internalCode
+  externalCode
+  entryStatus
+  closureDate
+  orgUnitType
+  cities {
+    ...CityFragment
+  }
+  parentSubject {
+    __typename
+    name
+    id
+    personType
+    relationSubordinates {
+      relationType
+      main {
+        name
+        id
+        personType
+      }
+    }
+    ... on ManagementSubject {
+      companyGroupParent {
+        main {
+          name
+          id
+          personType
+        }
+      }
+    }
+    ... on LegalSubject {
+      companyGroupParent {
+        main {
+          name
+          id
+          personType
+        }
+      }
+    }
+  }
+  parentOrgUnit {
+    id
+    name
+    orgUnitType
+  }
+  contacts {
+    ...ContactFragment
+  }
+}

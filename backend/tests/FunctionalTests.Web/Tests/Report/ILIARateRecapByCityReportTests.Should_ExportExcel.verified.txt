@@ -1,0 +1,9 @@
+﻿[
+  [
+    Ente,
+    Comune,
+    Codice catastale comune,
+    Numero fabbricati,
+    Rata ILIA
+  ]
+]

@@ -1,0 +1,56 @@
+﻿[
+  [
+    Codice stabile,
+    Codice unità,
+    Categoria,
+    Indirizzo,
+    Cod. contratto,
+    Inquilino,
+    Data decorrenza,
+    Data scadenza
+  ],
+  [
+    I00012,
+    I00012U010,
+    Laboratorio,
+    Simonis Mountains, Carsonfurt - 493 - 16255 - Regno Unito,
+    CA00010,
+    Hyatt LLC,
+    Date_1
+  ],
+  [
+    CA00010,
+    Johnston - Medhurst,
+    Date_1
+  ],
+  [
+    CA00010,
+    Lang Miriam,
+    Date_1
+  ],
+  [
+    CA00025,
+    Mueller and Sons,
+    Date_2
+  ],
+  [
+    CA00025,
+    Rice Lila,
+    Date_2
+  ],
+  [
+    CA00025,
+    Turner Rachel,
+    Date_2
+  ],
+  [
+    I00012,
+    I00012U023,
+    Magazzino,
+    Simonis Mountains, Carsonfurt - 493 - 16255 - Regno Unito,
+    -,
+    -,
+    -,
+    -
+  ]
+]

@@ -1,0 +1,25 @@
+﻿{
+  Data: {
+    functionArea: {
+      addRange: {
+        isSuccess: true,
+        status: OK,
+        value: [
+          {
+            id: 1,
+            internalCode: 3grnfcx3n1,
+            name: dolore,
+            surfaceType: MAIN_AREA
+          },
+          {
+            id: 2,
+            internalCode: zonamppy35,
+            name: voluptatem,
+            surfaceType: SIDE_AREA
+          }
+        ]
+      }
+    }
+  },
+  IsDataSet: true
+}

@@ -1,0 +1,965 @@
+{
+  "common": {
+    "button": {
+      "add": "Aggiungi",
+      "back": "Indietro",
+      "cancel": "Annulla",
+      "continue": "Continua",
+      "delete": "Cancella",
+      "download": "Scarica",
+      "edit": "Modifica",
+      "export": "Esporta",
+      "finish": "Finito",
+      "proceed": "Procedi",
+      "remove": "Rimuovi",
+      "save": "Salva"
+    },
+    "component": {
+      "calendar": {
+        "today": "Oggi",
+        "more_link": "Altri {{ num }}",
+        "no_events": "Non sono presenti eventi"
+      },
+      "chat": {
+        "field": {
+          "message": "Scrivi un messaggio"
+        }
+      },
+      "contacts_field": {
+        "section_title": {
+          "contacts": "Contatti",
+          "phone": "Telefono",
+          "email": "Email"
+        },
+        "field": {
+          "phone_type": "Tipologia telefono",
+          "phone_number": "Numero",
+          "mobile_phone": "Cellulare",
+          "landline_phone": "Telefono fisso",
+          "email_type": "Tipologia email",
+          "email": "Email",
+          "registered_email": "PEC"
+        },
+        "error": {
+          "email": "Esiste già un indirizzo email con questo valore",
+          "phone": "Esiste già un numero di telefono con questo valore"
+        },
+        "action": {
+          "add_phone": "Aggiungi telefono",
+          "add_email": "Aggiungi email"
+        },
+        "text": {
+          "no_contacts": "Non ci sono contatti inseriti"
+        },
+        "dialog": {
+          "phone": {
+            "add": "Aggiungi telefono",
+            "edit": "Modifica telefono"
+          },
+          "email": {
+            "add": "Aggiungi email",
+            "edit": "Modifica email"
+          }
+        }
+      },
+      "dashboard": {
+        "actions": {
+          "personalize": "Personalizza"
+        },
+        "text": {
+          "no_widgets": "Nessun widget presente, clicca su personalizza per aggiungere un widget"
+        },
+        "feedback": {
+          "update": "Widgets salvati con successo"
+        }
+      },
+      "dashboard_builder": {
+        "field": {
+          "section_title": "Titolo",
+          "section_color": "Sfondo"
+        },
+        "action": {
+          "add_section": "Aggiungi sezione"
+        },
+        "sidebar": {
+          "title": "Widgets"
+        }
+      },
+      "document_field": {
+        "field": {
+          "document_name": "Nome documento",
+          "protocol_number": "N. documento / N. protocollo",
+          "valid_since": "Data inizio validità",
+          "valid_until": "Data fine validità",
+          "notes": "Note",
+          "issuer": "Emesso da",
+          "issue_date": "Data emissione",
+          "content_category_group": "Categoria",
+          "content_category": "Sottocategoria",
+          "file_name": "Allegato",
+          "upload_date": "Data caricamento",
+          "uploaded_by": "Caricato da",
+          "expired": "Scaduto"
+        },
+        "error": {
+          "duplicate_name": "Esiste già un documento con questo nome"
+        }
+      },
+      "document_upload": {
+        "title": "Trascina e rilascia il file",
+        "subtitle": "o",
+        "select_file": "Seleziona il file da caricare",
+        "upload_requirements": "File supportati: {{ extensions }}. Dimensione max: {{ maxSize }}",
+        "max_uploads": "Puoi caricare al massimo {{ maxUploads }} file contemporaneamente",
+        "uploads_remaining": "Hai a disposizione ancora {{ remainingUploads }} upload su {{ maxUploads }}",
+        "no_uploads_remaining": "Hai raggiunto il limite massimo di upload {{ maxUploads }} su {{ maxUploads }}",
+        "further_uploads": "Per caricare un altro documento, salva e avvia una nuova modifica oppure cancella un documento tra quelli caricati e non ancora salvati."
+      },
+      "documents_table": {
+        "section_title": {
+          "documents": "Documenti"
+        },
+        "field": {
+          "document_upload": "Carica documento",
+          "documents_upload": "Carica documenti"
+        },
+        "action": {
+          "add_document": "Aggiungi documento",
+          "download": "Scarica"
+        },
+        "text": {
+          "no_documents": "Non sono presenti documenti"
+        },
+        "dialog": {
+          "add": "Aggiungi documento",
+          "edit": "Modifica documento",
+          "delete": {
+            "title": "Sei sicuro?",
+            "description": {
+              "single": "Sei davvero sicuro\ndi voler cancellare questo documento?\nIl processo non potrà essere annullato",
+              "multiple": "Sei davvero sicuro\ndi voler cancellare questi documenti?\nIl processo non potrà essere annullato"
+            }
+          }
+        },
+        "feedback": {
+          "delete": {
+            "single": "Documento cancellato con successo",
+            "multiple": "Documenti cancellati con successo"
+          }
+        }
+      },
+      "error": {
+        "title": "Qualcosa è andato storto",
+        "description": "La pagina che stai cercando è stata spostata, rimossa, rinominata o potrebbe non esistere!",
+        "button": "Home"
+      },
+      "form_builder": {
+        "description": "Trascinare il campo scelto nella posizione del configuratore che si preferisce. Sarà possibile posizionare e poi spostare i campi sia verticalmente che orizzontalmente",
+        "name_placeholder": "Inserisci nome campo",
+        "option_placeholder": "Inserisci opzione",
+        "required": "Obbligatorio",
+        "add_option": "Aggiungi opzione",
+        "error": {
+          "name": "Verificare che tutti i campi abbiano un nome inserito",
+          "values": "Verificare che tutti i campi selezione abbiano almeno un opzione inserita"
+        }
+      },
+      "header": {
+        "home": "Home",
+        "notification": {
+          "notifications": "Notifiche",
+          "no_notifications": "Al momento non sono presenti notifiche",
+          "new_notification": "Hai ricevuto una nuova notifica",
+          "mark_all": "Segna tutte come lette",
+          "show_all": "Vedi tutte"
+        },
+        "profile": {
+          "welcome": "Benvenuto/a",
+          "account_settings": "Impostazioni Account",
+          "logout": "Logout"
+        }
+      },
+      "login": {
+        "title": "Benvenuto",
+        "field": {
+          "username": "Email",
+          "password": "Password",
+          "remember_me": "Ricordami"
+        },
+        "error": {
+          "invalid_oidc": "Credenziali OpenID non valide",
+          "invalid_tenant": "Il tenant selezionato non risulta valido"
+        },
+        "action": {
+          "sign_in": "Accedi",
+          "sign_in_with_oidc": "Accedi con OpenID"
+        },
+        "text": {
+          "description": "Login nel tuo account",
+          "use_credentials": "Entra con le tue credenziali"
+        },
+        "dialog": {
+          "select_tenant": "Seleziona il tenant"
+        }
+      },
+      "profile": {
+        "title": "Profilo",
+        "tab": {
+          "general_data": "Dati generali",
+          "change_password": "Cambio password",
+          "sessions": "Sessioni"
+        },
+        "field": {
+          "last_name": "Cognome",
+          "first_name": "Nome",
+          "user_name": "Nome utente",
+          "status": "Stato utente",
+          "enabled_since": "Data di attivazione",
+          "management_subjects": "Ente/i di gestione",
+          "current_password": "Password attuale",
+          "new_password": "Nuova password",
+          "confirm_password": "Conferma password",
+          "session_creation_date": "Data avvio sessione",
+          "session_ip_address": "Indirizzo IP",
+          "session_ip_location": "Località",
+          "session_user_agent": "User agent"
+        },
+        "action": {
+          "change_password": "Cambia password",
+          "revoke_all_sessions": "Revoca tutte le sessioni"
+        },
+        "error": {
+          "invalid_new_password": "La nuova password non può coincidere con quella attuale",
+          "invalid_confirm_password": "La password di conferma non corrisponde a quella nuova"
+        },
+        "feedback": {
+          "change_password": "Cambio password avvenuto con successo"
+        }
+      },
+      "search": {
+        "placeholder": "Cerca",
+        "filter": {
+          "none": "Nessun filtro applicato",
+          "single": "1 filtro applicato",
+          "multiple": "{{ count }} filtri applicati"
+        }
+      },
+      "table": {
+        "reset_filters": "Cancella filtri",
+        "cancel": "Annulla",
+        "save": "Salva",
+        "edit": "Modifica",
+        "delete": "Cancella",
+        "view": "Visualizza",
+        "export": "Esporta",
+        "add": "Aggiungi",
+        "expand": "Espandi tutto",
+        "collapse": "Comprimi tutto",
+        "actions": "Azioni",
+        "select": "Seleziona",
+        "unselect": "Deseleziona",
+        "empty": "Nessun risultato presente",
+        "visible_columns": "{{ count }} colonne visibili",
+        "select_all_columns": "Tutte le colonne",
+        "options_selected": "{{ count }} opzioni selezionate",
+        "go_to_first_page": "Vai alla prima pagina",
+        "go_to_last_page": "Vai all'ultima pagina",
+        "go_to_next_page": "Vai alla pagina successiva",
+        "go_to_previous_page": "Vai alla pagina precedente",
+        "rows_selected": "{{ count }} righe selezionate",
+        "rows_per_page": "Righe per pagina:",
+        "displayed_rows": "{{ from }}-{{ to }} di {{ count }}"
+      },
+      "tree": {
+        "tooltip": {
+          "expand": "Espandi",
+          "collapse": "Comprimi"
+        }
+      }
+    },
+    "dialog": {
+      "close": {
+        "title": {
+          "destructive": "Sei sicuro?",
+          "draft": "Vuoi salvare in bozza?",
+          "working": "Vuoi salvare?",
+          "blocker": "Sei sicuro?"
+        },
+        "description": {
+          "destructive": "I dati inseriti non sono sufficienti\nper salvare in bozza.\nCliccando cancella tutti i dati andranno persi.\nIl processo non potrà essere annullato",
+          "draft": "Salvando in bozza non perderai\ni dati finora inseriti.\nCliccando cancella i dati non verranno salvati.\nIl processo non potrà essere annullato",
+          "working": "Salvando non perderai\ni dati finora inseriti.\nCliccando cancella i dati non verranno salvati.\nIl processo non potrà essere annullato",
+          "blocker": "Stai per lasciare questa pagina.\nCliccando procedi i dati non verranno salvati.\nIl processo non potrà essere annullato"
+        },
+        "action": {
+          "draft": "Salva in bozza",
+          "working": "Salva"
+        }
+      }
+    },
+    "enum": {
+      "address_type": {
+        "BIRTH_LOCATION": "Luogo di nascita",
+        "CARE_OF": "C/O",
+        "FISCAL": "Fiscale",
+        "LEGAL_RESIDENTIAL": "Residenza",
+        "MAILING": "Postale"
+      },
+      "administration_type": {
+        "CONCIERGE": "Portineria",
+        "GENERIC": "Generale",
+        "HEATING": "Riscaldamento",
+        "HEATING_PROVIDER": "Fornitore calore",
+        "OWNER": "Proprietario",
+        "RENT_GENERAL": "Affitto generale",
+        "SERVICE_PROVIDER": "Fornitore",
+        "BUILDING_COMPLEX": "Super condominio"
+      },
+      "asset_nature": {
+        "BUILDING": "Fabbricato",
+        "LAND": "Terreno",
+        "UNDEFINED": "Non definito"
+      },
+      "automatic_boolean": {
+        "AUTOMATIC": "Automatico",
+        "FALSE": "No",
+        "TRUE": "Si"
+      },
+      "bill_emission_type": {
+        "AUTOMATIC": "Automatica",
+        "MANUAL": "Manuale"
+      },
+      "billing_period": {
+        "BIMONTHLY": "Bimestrale",
+        "MONTHLY": "Mensile",
+        "PER_QUADRIMESTER": "Quadrimestrale",
+        "PER_QUARTER": "Trimestrale",
+        "PER_SEMESTER": "Semestrale",
+        "YEARLY": "Annuale"
+      },
+      "birth_sex": {
+        "FEMALE": "Donna",
+        "MALE": "Uomo"
+      },
+      "boolean_operator": {
+        "AND": "e",
+        "OR": "o"
+      },
+      "cadastral_unit_status": {
+        "CANCELLED": "Dismessa",
+        "CHANGED": "Cessata per variazione",
+        "DISCONTINUED_MERGE": "Cessata per fusione",
+        "DISCONTINUED_SPLIT": "Cessata per frazionamento",
+        "EXISTING": "In essere",
+        "TRANSFORMED": "Cessata per trasformazione"
+      },
+      "calculation_issue": {
+        "MISSING_CADASTRAL_CATEGORY": "Categoria catastale assente",
+        "MISSING_CADASTRAL_INCOME_DATA": "Rendita catastale assente",
+        "MISSING_OR_INVALID_OWNERSHIP_DATES": "Date di possesso assenti o invalide",
+        "MISSING_OR_ZERO_RATE": "Aliquota assente o uguale a 0,00"
+      },
+      "calendar_view": {
+        "DAY": "Giorno",
+        "LIST": "Agenda",
+        "MONTH": "Mese",
+        "WEEK": "Settimana"
+      },
+      "catalogue_type_activity_type": {
+        "ON_INCIDENT": "Manutenzione su condizione",
+        "PLANNED_MAINTENANCE": "Manutenzione preventiva programmata"
+      },
+      "communication_type": {
+        "ITA_RLI12_DEATH": "Decesso",
+        "ITA_RLI12_FIRST_REGISTRATION": "Prime registrazioni",
+        "ITA_RLI12_TAKEOVER": "Subentro",
+        "ITA_RLI12_TRANSFER": "Cessione",
+        "ITA_RLI12_UPDATE": "Aggiornamento"
+      },
+      "comparison_operator": {
+        "BETWEEN": "Compreso tra",
+        "GREATER_THAN": "Maggiore di",
+        "LESS_THAN": "Minore di"
+      },
+      "config_function": {
+        "CMIS_ENDPOINT": "CMIS Endpoint",
+        "DATA_IMPORT": "Data Import",
+        "EXTERNAL_LOGIN": "External Login",
+        "GEOCODER": "Geocoder",
+        "PASSWORD_LOGIN": "Password Login",
+        "SEPA_XML_EXPORT": "Sepa Xml Export"
+      },
+      "contact_info_type": {
+        "E_MAIL": "Email",
+        "LANDLINE_PHONE": "Telefono fisso",
+        "MOBILE_PHONE": "Cellulare",
+        "REGISTERED_EMAIL": "PEC",
+        "SKYPE": "Skype",
+        "UNKNOWN": "Sconosciuto"
+      },
+      "content_category": {
+        "GENERIC": "Altro",
+        "BLD_ADMIN_CADASTRE": "Catasto",
+        "BLD_ADMIN_COMMUNICATIONS": "Comunicazioni amministrative",
+        "BLD_ADMIN_CONTEXT": "Inquadramento",
+        "BLD_ADMIN_GENERIC": "Altri amministrativi",
+        "BLD_ADMIN_GOVERNMENT": "Soprintendenza",
+        "BLD_ADMIN_LIMITATIONS": "Vincoli",
+        "BLD_ADMIN_ORIGIN": "Origine e titoli edilizi",
+        "BLD_ADMIN_OWNERSHIP": "Titolarità",
+        "BLD_ADMIN_PERMITS_APPROVALS": "Autorizzazioni",
+        "BLD_MGMT_COMMUNICATIONS": "Comunicazioni gestionali",
+        "BLD_MGMT_CONDOMINIUM": "Condominio",
+        "BLD_MGMT_EQUIPMENT_MANUALS": "Manuali",
+        "BLD_MGMT_EQUIPMENT_WARRANTIES": "Garanzie",
+        "BLD_MGMT_GENERIC": "Altri gestionali",
+        "BLD_MGMT_INCIDENTS_REPORTS": "Rapporti incidenti",
+        "BLD_MGMT_INSPECTIONS": "Ispezioni",
+        "BLD_MGMT_INSURANCE": "Assicurazione",
+        "BLD_MGMT_LITIGATION": "Contenzioso",
+        "BLD_MGMT_MAINTENANCE": "Manutenzioni",
+        "BLD_MGMT_PROCUREMENT": "Approvvigionamento",
+        "BLD_MGMT_REVAMPING": "Ristrutturazioni",
+        "BLD_MGMT_SAFETY_TRAINING": "Formazione e sicurezza",
+        "BLD_MGMT_SELLING": "Piano di vendita",
+        "BLD_MGMT_USAGE": "Utilizzo",
+        "BLD_MGMT_UTILITIES": "Utenze",
+        "BLD_PHOTO": "Foto",
+        "BLD_PLAN": "Planimetrie",
+        "BLD_TECH_ASBESTO_AND_MSDS": "Amianto e materiali pericolosi",
+        "BLD_TECH_BUILDTECH": "Tecnologia costruttiva",
+        "BLD_TECH_COMMUNICATIONS": "Comunicazioni tecniche",
+        "BLD_TECH_ENERGY_ACOUSTICS": "Requisiti energetici e acustici",
+        "BLD_TECH_FIREPROOFING": "Antincendio",
+        "BLD_TECH_GENERIC": "Altri tecnici",
+        "BLD_TECH_OBSTACLES": "Barriere architettoniche",
+        "BLD_TECH_REFACTORING": "Interventi edilizi",
+        "BLD_TECH_SAFETY_AND_EVACUATION": "Sicurezza ed evacuazione",
+        "BLD_TECH_STRUCTURE": "Struttura",
+        "BLD_TECH_SYSTEMS": "Impianti",
+        "CAT_ADMIN_COMMUNICATIONS": "Comunicazioni amministrative",
+        "CAT_ADMIN_CONTRACTS": "Contratti manutenzione",
+        "CAT_ADMIN_GENERIC": "Altri amministrativi",
+        "CAT_ADMIN_OWNERSHIP": "Acquisto e vendita",
+        "CAT_MGMT_COMMUNICATIONS": "Comunicazioni gestionali",
+        "CAT_MGMT_EQUIPMENT_MANUALS": "Manuali",
+        "CAT_MGMT_EQUIPMENT_WARRANTIES": "Garanzie",
+        "CAT_MGMT_GENERIC": "Altri gestionali",
+        "CAT_MGMT_INSPECTIONS": "Ispezioni",
+        "CAT_MGMT_MAINTENANCE_OPERATION": "Manutenzioni",
+        "CAT_MGMT_OPERATIONAL_REPORTS": "Verbali interventi",
+        "CAT_MGMT_SAFETY_TRAINING": "Formazione e sicurezza",
+        "CAT_TECH_CERTIFICATIONS": "Dichiarazioni di conformità e certificazioni",
+        "CAT_TECH_COMMUNICATIONS": "Comunicazioni tecniche",
+        "CAT_TECH_DATASHEETS": "Schede tecniche",
+        "CAT_TECH_GENERIC": "Altri tecnici",
+        "CAT_TECH_MANUALS": "Libretti",
+        "SBJ_IDENTITY_NATIONAL": "Carta d'identità",
+        "SBJ_IDENTITY_PASSPORT": "Passaporto",
+        "SBJ_OTHER": "Altri documenti"
+      },
+      "content_category_domain": {
+        "BLD": "Immobili",
+        "CAT": "Consistenza",
+        "SBJ": "Soggetti"
+      },
+      "content_category_group": {
+        "GENERIC": "Altro",
+        "BLD_ADMIN": "Amministrativa",
+        "BLD_MGMT": "Gestionale",
+        "BLD_PLAN": "Planimetria",
+        "BLD_PHOTO": "Foto",
+        "BLD_TECH": "Tecnica",
+        "CAT_ADMIN": "Amministrativa",
+        "CAT_MGMT": "Gestionale",
+        "CAT_TECH": "Tecnica",
+        "SBJ_IDENTITY": "Identità",
+        "SBJ_OTHER": "Altro"
+      },
+      "contract_terminator": {
+        "LANDLORD": "Proprietario",
+        "TENANT": "Inquilino"
+      },
+      "cost_base_factor": {
+        "FORFAIT": "Oggetto",
+        "SQ_M": "Metri quadri"
+      },
+      "cost_charge_analysis_category": {
+        "ELECTRICITY": "Luce",
+        "GAS": "Gas",
+        "OTHER": "Altro",
+        "WATER": "Acqua"
+      },
+      "counterpart_type": {
+        "NON_PROFIT": "Cooperativa o ente senza scopo di lucro",
+        "PHYSICAL_SUBJECT_WITH_TEMPORARY_ID": "Persona fisica identificata mediante un codice fiscale provvisorio",
+        "REGULAR": "Nessuna situazione particolare"
+      },
+      "custom_field_type": {
+        "DATE": "Campo Data",
+        "SIMPLE_NUMBER": "Campo Numerico",
+        "SIMPLE_TEXT": "Campo Alfanumerico",
+        "SINGLE_ITEM_FROM_LIST": "Campo Selezione"
+      },
+      "dashboard_section_background_color": {
+        "BLUE": "Blu",
+        "GREY": "Grigio"
+      },
+      "day_of_week": {
+        "FRIDAY": "Venerdì",
+        "MONDAY": "Lunedì",
+        "SATURDAY": "Sabato",
+        "SUNDAY": "Domenica",
+        "THURSDAY": "Giovedì",
+        "TUESDAY": "Martedì",
+        "WEDNESDAY": "Mercoledì"
+      },
+      "document_type": {
+        "GENERIC": "Generico",
+        "PAPER": "Paper",
+        "IMAGE": "Immagine",
+        "VIDEO": "Video",
+        "EMAIL": "Email",
+        "PDF": "PDF",
+        "CAD_DRAWING": "Disegno tecnico",
+        "SPREADSHEET": "Foglio di calcolo"
+      },
+      "entry_status": {
+        "FROZEN_CLOSED": "Cessato",
+        "INCOMPLETE_DRAFT": "Bozza",
+        "WORKING": "Attivo"
+      },
+      "equality_operator": {
+        "EQUAL": "Uguale a",
+        "NOT_EQUAL": "Diverso da"
+      },
+      "estate_market_value_type": {
+        "MAX_VALUE_PER_SQ_M": "Valore massimo per mq",
+        "MIN_VALUE_PER_SQ_M": "Valore minimo per mq",
+        "MOST_COMMON_VALUE_PER_SQ_M": "Valore più comune per mq"
+      },
+      "estate_ownership": {
+        "EASEMENT": "Diritto di utilizzo",
+        "FREEHOLD": "Proprietà",
+        "LEASING": "Leasing",
+        "LOAN": "Comodato",
+        "MIXED": "Misto",
+        "OVERGROUND_ONLY": "Diritto di superficie",
+        "THIRD_PARTY": "Di terzi",
+        "UNDERGROUND_ONLY": "Diritto di sottosuolo"
+      },
+      "estate_status": {
+        "DECOMMISSIONED": "Dismesso",
+        "OPERATIONAL": "In essere"
+      },
+      "estate_type": {
+        "BUILDING": "Fabbricato",
+        "LAND_PLOT_BUILDABLE": "Area edificabile",
+        "LAND_PLOT_UNDEVELOPED": "Terreno",
+        "MIXED": "Misto",
+        "UNDEFINED": "Non definito",
+        "URBAN_PLOT": "Area urbana"
+      },
+      "estate_total_market_value_coefficient_type": {
+        "AGE": "Vetustà",
+        "OBSOLESCENCE": "Obsolescenza"
+      },
+      "estate_unit_heritage_type": {
+        "BUILDING": "Fabbricato",
+        "LAND": "Terreno"
+      },
+      "estate_unit_ownership_type": {
+        "LEASING": "Leasing",
+        "LOAN": "Comodato",
+        "PROPERTY": "Proprietà",
+        "RIGHT_OF_USE": "Diritto di utilizzo",
+        "SUBSOIL_RIGHTS": "Diritto di sottosuolo",
+        "SURFACE_RIGHTS": "Diritto di superficie",
+        "THIRD_PARTIES": "Di terzi"
+      },
+      "estate_unit_status": {
+        "CANCELLED": "Cancellata",
+        "DISCONTINUED_MERGE": "Cessata per fusione",
+        "DISCONTINUED_SPLIT": "Cessata per frazionamento",
+        "DISUSED": "Dismessa",
+        "EXISTING": "In essere",
+        "RETURNED": "Restituita",
+        "SOLD": "Venduta",
+        "TRANSFORMED": "Cessata per trasformazione"
+      },
+      "estate_unit_type": {
+        "BUILDING": "Fabbricato",
+        "BUILDING_AREA": "Area edificabile",
+        "GROUND": "Terreno",
+        "OTHER": "Altro",
+        "URBAN_AREA": "Area urbana"
+      },
+      "expense_class": {
+        "CLASS1": "Classe 1",
+        "CLASS2": "Classe 2",
+        "CLASS3": "Classe 3",
+        "CLASS4": "Classe 4",
+        "CLASS5": "Classe 5"
+      },
+      "holiday_periodicity": {
+        "ONCE": "Una volta",
+        "YEARLY": "Annualmente"
+      },
+      "income_metric": {
+        "ARES": "Are",
+        "CUBIC_METRES": "Metri cubi",
+        "ROOMS": "Vani",
+        "SQUARE_METRES": "Metri quadri"
+      },
+      "income_type": {
+        "ACTUAL_INCOME": "Rendita censita",
+        "BALANCE_SHEET_VALUE": "Voce di bilancio",
+        "PRESUMED_INCOME": "Rendita presunta",
+        "PROPOSED_INCOME_BY_LAW_IT701_94": "Rendita proposta D.M. 701/94"
+      },
+      "line_chart_type": {
+        "DAILY": "Giornaliero",
+        "MONTHLY": "Mensile",
+        "WEEKLY": "Settimanale"
+      },
+      "login_error": {
+        "INVALID_CREDENTIALS": "Credenziali utente non valide",
+        "PASSWORD_EXPIRED": "Password scaduta",
+        "USER_LOCKED": "Utente bloccato"
+      },
+      "metering_type": {
+        "INCREMENTAL_READING": "Lettura",
+        "USAGE": "Consumo"
+      },
+      "month": {
+        "JANUARY": "Gennaio",
+        "FEBRUARY": "Febbraio",
+        "MARCH": "Marzo",
+        "APRIL": "Aprile",
+        "MAY": "Maggio",
+        "JUNE": "Giugno",
+        "JULY": "Luglio",
+        "AUGUST": "Agosto",
+        "SEPTEMBER": "Settembre",
+        "OCTOBER": "Ottobre",
+        "NOVEMBER": "Novembre",
+        "DECEMBER": "Dicembre"
+      },
+      "notification_status": {
+        "NEW": "Nuova",
+        "READ": "Letta",
+        "UNREAD": "Non letta"
+      },
+      "occupant_type": {
+        "COMMON_AREA": "Area comune",
+        "COMPANY_GROUP_MEMBER": "Società del gruppo",
+        "THIRD_PARTIES": "Terzi"
+      },
+      "office_access": {
+        "BACK_OFFICE": "Back office",
+        "BOTH": "Back office - Front office",
+        "FRONT_OFFICE": "Front office"
+      },
+      "officer_type": {
+        "ATTORNEY": "Legale rappresentante",
+        "CURATOR": "Curatore",
+        "EXECUTOR_ADMINISTRATOR": "Amministratore di sostegno",
+        "GUARDIAN": "Tutore legale",
+        "HEIR": "Erede",
+        "LEGAL_REPRESENTATIVE": "Legale rappresentante",
+        "SPECIAL_LEGAL_REPRESENTATIVE": "Amministratore straordinario",
+        "TRUSTEE": "Fiduciario"
+      },
+      "org_unit_type": {
+        "COST_CENTRE": "COST_CENTRE",
+        "GEOGRAPHICAL_HIERARCHY": "Territoriale",
+        "MANAGEMENT_HIERARCHY": "Gestionale"
+      },
+      "payment_type": {
+        "AITO": "AITO",
+        "ASCI": "ASCI",
+        "ASTR": "ASTR",
+        "CASH": "Contanti",
+        "CCPM": "CCP-M",
+        "CHECK": "Assegno",
+        "DEBT_NOTE": "Nota di debito",
+        "F23": "F23",
+        "MAV": "MAV",
+        "NOPA": "NOPA",
+        "POST_ACCOUNT": "Post account",
+        "RID": "RID",
+        "SALARY_DEDUCTION": "Trattenuta da stipendio",
+        "UNDEFINED": "N.D.",
+        "WIRE_TRANSFER": "Bonifico"
+      },
+      "penalty_type": {
+        "FIXED": "Fissa",
+        "PERCENTAGE": "Percentuale"
+      },
+      "performed_activity_status": {
+        "CANNOT_PERFORM": "Non eseguibile",
+        "PERFORMED_SUCCESSFULLY": "Eseguita",
+        "PERFORMED_UNSUCCESSFULLY": "Eseguita parzialmente",
+        "TO_BE_PERFORMED": "Programmata"
+      },
+      "planned_period": {
+        "ANNUAL": "Annuale",
+        "BIMONTHLY": "Bimensile",
+        "BIWEEKLY": "Bisettimanale",
+        "DAILY": "Giornaliera",
+        "EVERY_FOUR_MONTHS": "Quadrimestrale",
+        "MIDWEEK": "Infrasettimanale",
+        "MONTHLY": "Mensile",
+        "QUARTERLY": "Trimestrale",
+        "SEMIANNUAL": "Semestrale",
+        "THRICE_WEEKLY": "Trisettimanale",
+        "WEEKLY": "Settimanale"
+      },
+      "planning_status": {
+        "EXECUTED_LATE": "Eseguito in ritardo",
+        "EXECUTED_ON_TIME": "Eseguito",
+        "PLANNED_FUTURE": "Programmato",
+        "PLANNED_OVERDUE": "Pianificazione superata"
+      },
+      "priority": {
+        "CRITICAL": "Urgente",
+        "MAJOR": "Alta",
+        "MINOR": "Bassa",
+        "NORMAL": "Normale"
+      },
+      "quote_master_status": {
+        "COMPLETED": "Approvato",
+        "IN_PROGRESS": "In attesa di approvazione",
+        "NEW": "Censito"
+      },
+      "reason": {
+        "MODIFICATIONS_TO_EXISTING": "Modifica contratto",
+        "NOT_SPECIFIED": "Non definito",
+        "RATIFICATION": "Regolarizzazione",
+        "RENT_START": "Inizio contratto",
+        "SILENT_RENEWAL": "Rinnovo silenzioso",
+        "TRANSFER": "Trasferimento"
+      },
+      "registration_payment_type": {
+        "MANUAL_INPUT": "Manuale",
+        "PAYMENT": "Registro"
+      },
+      "registration_tax_exemption": {
+        "DUTIES": "Imposta",
+        "STAMP": "Bollo",
+        "STAMP_AND_DUTIES": "Bollo/Imposta"
+      },
+      "registration_tax_income_type": {
+        "FARMLAND": "Fondi rustici",
+        "NONRESIDENTIAL_LEASING": "Leasing di immobili strumentali",
+        "NONRESIDENTIAL_LEASING_WITH_VAT": "Leasing di immobili strumentali con esercizio dell'opzione per l'assoggettamento all'IVA",
+        "NONRESIDENTIAL_RENTAL": "Locazione di immobili strumentali",
+        "NONRESIDENTIAL_RENTAL_LAW133_ART6": "Locazione di immobili strumentali - Art 6 L 13 maggio 1999 n.133",
+        "NONRESIDENTIAL_RENTAL_LAW633_ART10": "Locazione di immobili strumentali - Art 10 comma 2 DPR 633/1972",
+        "NONRESIDENTIAL_RENTAL_WITH_VAT": "Locazione di immobili strumentali con esercizio dell'opzione per l'assoggettamento all'IVA",
+        "OTHER_ESTATES": "Altri immobili",
+        "OTHER_LEASING": "Leasing di altro tipo",
+        "OTHER_RENTAL_LAW133_ART6": "Locazione di altri immobili - Art 6 L 13 maggio 1999 n.133",
+        "OTHER_RENTAL_LAW633_ART10": "Locazione di altri immobili - Art 10 comma 2 DPR 633/1972",
+        "RESIDENTIAL_LEASING": "Leasing di immobili abitativi",
+        "RESIDENTIAL_RENTAL_BY_BUILDERS": "Locazione di fabbricati abitativi effettuata da costruttori",
+        "RESIDENTIAL_RENTAL_LAW133_ART6": "Locazione di immobili abitativi - Art 6 L 13 maggio 1999 n. 133",
+        "RESIDENTIAL_RENTAL_LAW633_ART10": "Locazione di immobili abitativi - Art 10 comma 2 DPR633/1972",
+        "URBAN_ESTATES": "Immobili urbani"
+      },
+      "registration_tax_income_type_rli": {
+        "ITA_L1_RESIDENTIAL": "L1 - Locazione di immobile ad uso abitativo",
+        "ITA_L2_RESIDENTIAL_DISCOUNT": "L2 - Locazione agevolata di immobile ad uso abitativo",
+        "ITA_L3_RESIDENTIAL_WITH_VAT": "L3 - Locazione di immobile ad uso abitativo contratto assoggettato ad IVA",
+        "ITA_L4_RESIDENTIAL_FINANCIAL": "L4 - Locazione finanziaria di immobile ad uso abitativo",
+        "ITA_S1_NONRESIDENTIAL": "S1 - Locazione di immobile ad uso diverso dall'abitativo",
+        "ITA_S2_INSTRUMENTAL_WITH_VAT": "S2 - Locazione di immobile strumentale con locatore soggetto ad IVA",
+        "ITA_S3_NONRESIDENTIAL_FINANCIAL": "S3 - Locazione finanziaria di immobile ad uso diverso dall'abitativo",
+        "ITA_T1_FARMLAND": "T1 - Affitto di fondo rustico",
+        "ITA_T2_FARMLAND_DISCOUNT": "T2 - Affitto di fondo rustico agevolato",
+        "ITA_T3_NONBUILDABLE_LAND": "T3 - Affitto di terreni ed aree non edificabili, cave, torbiere",
+        "ITA_T4_NONBUILDABLE_PARKING_WITH_VAT": "T4 - Affitto di terreni edificabili o non edificabili destinati a parcheggi contratto assoggettato ad IVA"
+      },
+      "registration_tax_payment_type": {
+        "ITA_F24_ELIDE": "F24 elide",
+        "ITA_TELEMATICO": "Telematico",
+        "UNDEFINED": "Non definito"
+      },
+      "registration_tax_period": {
+        "ENTIRE_DURATION": "Intera durata",
+        "YEAR": "Annualità"
+      },
+      "registration_tax_special_case": {
+        "ITA_1_YEARS_WITH_DIFFERENT_RATES": "1 - Presenza di un canone diverso per una o più annualità",
+        "ITA_2_SUBLETTING": "2 - Sublocazione",
+        "ITA_3_YEARS_WITH_RATES_DIFFERENT_FROM_WHOLE": "3 - Canone diverso per una o più annualità e intera durata"
+      },
+      "release_reason": {
+        "NOT_RENEWED_AT_TERMINATION": "Non rinnovato alla scadenza",
+        "WITHDRAWAL": "Ritirato",
+        "TERMINATION": "Scaduto"
+      },
+      "report_format": {
+        "EXCEL": ".xlsx",
+        "PDF": ".pdf"
+      },
+      "repossession_reason": {
+        "CITY_DECREE": "Gestione ordinanza comunale",
+        "EMERGENCY_MAINTENANCE": "Manutenzione straordinaria",
+        "ESTATE_STATUS_CHECK": "Sopralluogo verifica immobili",
+        "GIVEN_BACK_FORCED_SALE": "Riconsegna da procedura concorsuale",
+        "GIVEN_BACK_JUDICIARY_OFFICIAL": "Riconsegna da ufficiale giudiziario",
+        "GOODWILL_LOAN": "Messa a disposizione bonaria",
+        "JUDICIARY_INJUCTION": "Provvedimento autorità giudiziaria",
+        "NEGOTIATION_COMMERCIAL_LOCATION": "Trattativa per locazione commerciale",
+        "NEGOTIATION_OCCUPATION_PAYBACK": "Trattativa per indennità occupazione",
+        "OTHER": "Altro",
+        "SQUATTING": "Immobile occupato da terzi senza titolo",
+        "TECHNICAL_DIFFICULTIES": "Problematica tecnica",
+        "TENANT_DEFAULT": "Fallimento conduttore"
+      },
+      "repossession_type": {
+        "BLOCKED_REPOSSESSION": "Ritiro immobile bloccato",
+        "CHECK_BEFORE": "Intervento pre ritiro",
+        "INCOMPLETE_REPOSSESSION": "Ritiro immobile non perfezionabile",
+        "REPOSSESSION": "Ritiro immobile"
+      },
+      "revaluation_rate_type": {
+        "ACTUAL_RATE": "Canone attuale",
+        "BASE_RATE": "Canone base",
+        "MULTIYEAR_RATE": "Canone pluriennale"
+      },
+      "security_deposit_type": {
+        "BANK_ACCOUNT": "C/C bancario vincolato",
+        "BANK_SURETY": "Fideiussione bancaria",
+        "CASH": "Deposito cauzionale contanti",
+        "INSURANCE_SURETY": "Fideiussione assicurativa"
+      },
+      "surface_measurement_metric": {
+        "SQUARE_METRE_GROSS_NORMAL": "mq lordi",
+        "SQUARE_METRE_HEATING_COOLING": "mq energy",
+        "SQUARE_METRE_NET_LOW_CEILING": "mq altezza <1.7 m",
+        "SQUARE_METRE_NET_NORMAL": "mq netti",
+        "ROOMS": "vani"
+      },
+      "surface_type": {
+        "COMMON_AREA": "Area comune",
+        "MAIN_AREA": "Area principale",
+        "SIDE_AREA": "Area pertinenza"
+      },
+      "takeover_type": {
+        "ITA_T1_DEMISE": "T1 Decesso di una o più parti del contratto",
+        "ITA_T2_RIGHTS_TRANSFER": "T2 Trasferimento di uno o più diritti reali su beni immobili oggetto del contratto di locazione",
+        "ITA_T3_COMPANY_TRANSFORMATION": "T3 Trasformazione della società o dell’ente parte del contratto",
+        "ITA_T4_COMPANY_MERGER": "T4 Fusione della società o dell’ente parte del contratto con altro soggetto",
+        "ITA_T5_COMPANY_SPLIT": "T5 Scissione della società o dell’ente parte del contratto in altro soggetto",
+        "ITA_T6_OTHERS": "T6 Altri casi"
+      },
+      "term_type": {
+        "EXTRAORDINARY_ASSET": "Straordinaria patrimoniale",
+        "EXTRAORDINARY_NON_ASSET": "Straordinaria non patrimoniale",
+        "GENERIC": "Generale",
+        "HEATING": "Riscaldamento"
+      },
+      "ticket_checklist_template_type": {
+        "ON_TRIGGER_CONDITION": "MSC",
+        "PREVENTATIVE": "MPP",
+        "PREVENTATIVE_AND_ON_TRIGGER_CONDITION": "MPP - MSC"
+      },
+      "ticket_history_entry_type": {
+        "STATUS_UPDATED": "Cambio stato"
+      },
+      "ticket_main_type": {
+        "CHECKLIST_ON_TRIGGER_CONDITION": "Manutenzione su condizione",
+        "CHECKLIST_PREVENTATIVE": "Manutenzione programmata",
+        "ISSUE": "Ticket",
+        "ISSUE_PARENT": "Ticket cumulativo"
+      },
+      "ticket_master_status": {
+        "ASSIGNED": "In carico",
+        "COMPLETED": "Chiuso",
+        "IN_PROGRESS": "In lavorazione",
+        "NEW": "Censito",
+        "RESOLVED": "Risolto"
+      },
+      "unit_condition": {
+        "ACCEPTABLE": "Mediocre",
+        "DEGRADED": "Scadente",
+        "NORMAL": "Normale",
+        "UNAVAILABLE": "Non disponibile"
+      },
+      "user_type": {
+        "INTERNAL": "Utente interno",
+        "EXTERNAL_SUPPLIER": "Utente esterno"
+      },
+      "user_status": {
+        "ACTIVE": "Attivo",
+        "CEASED": "Cessato",
+        "SUSPENDED": "Sospeso"
+      },
+      "utility_category": {
+        "WATER_SUPPLY": "Acqua",
+        "ELECTRICAL": "Luce",
+        "NATURAL_GAS": "Gas",
+        "LIQUID_FOSSIL_FUELS": "Combustibili fossili",
+        "CLEANING_AND_MAINTENANCE": "Pulizie",
+        "GARDENING": "Giardinaggio",
+        "TELECOMMUNICATION": "Telecomunicazioni",
+        "SEWAGE": "Fognatura",
+        "WASTE_MANAGEMENT_COLLECTION": "Rifiuti",
+        "DISTRICT_HEATING": "Riscaldamento",
+        "DISTRICT_COOLING": "Raffreddamento",
+        "PUBLIC_TRANSPORTATION": "Trasporti pubblici",
+        "STREET_LIGHTING": "Luce strada",
+        "POSTAL_SERVICE": "Posta"
+      },
+      "vat_rate": {
+        "EXEMPT": "Esente",
+        "NON_TAXABLE": "Non imponibile",
+        "RATE": "IVA 22%"
+      },
+      "vat_rate_type": {
+        "EXEMPT": "Esente",
+        "NON_TAXABLE": "Non imponibile",
+        "RATE": "Soggetto"
+      }
+    },
+    "error": {
+      "date_not_after": "Il campo '{{ first }}' non può essere successivo al campo '{{ second }}'",
+      "date_not_before": "Il campo '{{ first }}' non può essere antecedente al campo '{{ second }}'",
+      "date_not_future": "Il campo '{{ name }}' non può essere nel futuro",
+      "email": "Email non valida",
+      "generic": "Si è verificato un errore, si prega di riprovare",
+      "max": "Il valore del campo '{{ name }}' non può essere maggiore di {{ max }}",
+      "min": "Il valore del campo '{{ name }}' non può essere minore di {{ min }}",
+      "number_not_greater": "Il campo '{{ first }}' non può essere maggiore del campo '{{ second }}'",
+      "number_not_less": "Il campo '{{ first }}' non può essere minore del campo '{{ second }}'",
+      "password_unsafe": "La password deve essere lunga almeno 8 caratteri e deve contenere almeno tre tipi di caratteri tra minuscolo, maiuscolo, numeri e simboli",
+      "phone": "Numero di telefono non valido",
+      "required": "Il campo '{{ name }}' è obbligatorio",
+      "required_upload": "Il caricamento di un file è obbligatorio",
+      "upload_limit_exceeded": "Hai superato il limite massimo di upload {{ maxUploads }} su {{ maxUploads }}",
+      "upload_single_exceeded": "Hai provato a caricare più di un singolo file",
+      "upload_size_exceeded": "Hai superato la dimensione massima di upload {{ maxSize }}MB",
+      "upload_type_invalid": "Hai provato a caricare un file dal formato non supportato"
+    },
+    "feedback": {
+      "document_upload": "Il caricamento del documento continuerà in background",
+      "document_uploaded": "Documento caricato con successo",
+      "documents_upload": "Il caricamento dei documenti continuerà in background",
+      "documents_uploaded": "Documenti caricati con successo"
+    },
+    "language": {
+      "en": "English",
+      "it": "Italiano"
+    },
+    "text": {
+      "all": "Tutti",
+      "false": "No",
+      "loading": "Loading",
+      "no_options": "Nessuna opzione",
+      "search": "Cerca",
+      "true": "Si"
+    }
+  }
+}

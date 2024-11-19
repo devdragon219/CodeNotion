@@ -1,0 +1,59 @@
+﻿{
+  actualConsumption: null,
+  dueDate: 2023-05-31,
+  expectedConsumption: null,
+  id: 1,
+  invoicedConsumptionAmount: 553.740000,
+  invoiceNumber: 246,
+  referenceDate: 2023-05-10,
+  service: {
+    accountingItemId: 18,
+    activationDate: 2023-03-01,
+    contractNominalTension: pmx,
+    contractPowerMaximum: h3q,
+    contractPowerNominal: 66x,
+    deactivationDate: 2025-01-01,
+    deactivationRequestDate: 2024-03-26,
+    deposit: 0.670000,
+    description: consequatur,
+    estateIds: [
+      24,
+      12,
+      21
+    ],
+    estateUnitIds: [
+      23,
+      10,
+      17,
+      28,
+      13
+    ],
+    id: 22,
+    internalCode: F00022,
+    isFreeMarket: true,
+    orgUnitId: 29,
+    providerSubjectId: 57,
+    referenceSubjectId: 6,
+    status: WORKING,
+    utilityContractCode: ozomf,
+    utilityDeliveryPointCode: vwdko,
+    utilityMeterSerial: lrhj92w7m5,
+    utilityType: {
+      category: NATURAL_GAS,
+      chargeFields: null,
+      description: Gas naturale 3 fasi,
+      expenseClass: null,
+      externalCode: null,
+      hasHeatingAccountingSystem: false,
+      id: 6,
+      internalCode: TF006,
+      measurementUnit: smc,
+      measurementUnitDescription: metri cubi standard,
+      meteringType: INCREMENTAL_READING,
+      timeOfUseRateCount: 3
+    },
+    utilityUserCode: srh16
+  },
+  totalAmount: 779.620000,
+  totalVATAmount: 155.920000
+}

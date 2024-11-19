@@ -1,0 +1,7 @@
+{
+    "name": "Simple C# and NodeJS, with Postgres, RabbitMQ",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspace",
+    "forwardPorts": ["app:5050", "db:5432"]
+}

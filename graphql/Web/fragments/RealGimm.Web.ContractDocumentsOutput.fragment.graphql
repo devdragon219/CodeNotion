@@ -1,0 +1,29 @@
+fragment ContractDocumentsOutputFragment on ContractDocumentsOutput {
+  guid
+  contractInternalCode
+  subRows {
+    guid
+    contentCategoryGroup
+    subRows {
+      guid
+      contentCategory
+      subRows {
+        isContractSublocated
+        isContractActive
+        cmisId
+        creationDate
+        entityId
+        entityIntId
+        fileName
+        issueDate
+        issuer
+        name
+        notes
+        protocolNumber
+        since
+        until
+        uploaderName
+      }
+    }
+  }
+}

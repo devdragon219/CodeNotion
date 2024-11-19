@@ -1,0 +1,147 @@
+query getPriceListArticles(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: PriceListArticleFilterInput
+  $order: [PriceListArticleSortInput!]
+) {
+  priceListArticle {
+    listPriceListArticles(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...PriceListArticleFragment
+      }
+      totalCount
+    }
+  }
+}
+
+mutation addPriceListArticle($input: AddPriceListArticleInput!) {
+  priceListArticle {
+    add(input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updatePriceListArticle(
+  $priceListArticleId: Int!
+  $input: UpdatePriceListArticleInput!
+) {
+  priceListArticle {
+    update(id: $priceListArticleId, input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deletePriceListArticles($ids: [Int!]!) {
+  priceListArticle {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getPriceListArticleInternalCode {
+  priceListArticle {
+    proposeNewInternalCode
+  }
+}
+
+query canUsePriceListArticleInternalCode(
+  $internalCode: String!
+  $currentPriceListArticleId: Int
+) {
+  priceListArticle {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentPriceListArticleId: $currentPriceListArticleId
+    )
+  }
+}
+
+query exportPriceListArticles(
+  $where: PriceListArticleFilterInput
+  $order: [PriceListArticleSortInput!]
+) {
+  priceListArticle {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+query getPriceListArticle($priceListArticleId: Int!) {
+  priceListArticle {
+    get(id: $priceListArticleId) {
+      ...PriceListArticleDetailFragment
+    }
+  }
+}
+
+mutation deletePriceListArticle($id: Int!) {
+  priceListArticle {
+    delete(id: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getAllPriceListArticles(
+  $where: PriceListArticleFilterInput
+  $order: [PriceListArticleSortInput!]
+) {
+  priceListArticle {
+    listPriceListArticlesFull(where: $where, order: $order) {
+      ...TicketPriceListArticleFragment
+    }
+  }
+}
+
+query getPriceListArticleExcelImportTemplate {
+  priceListArticle {
+    templateOfImportFromExcel {
+      resourceUrl
+    }
+  }
+}
+
+mutation importPriceListArticles($file: Upload!) {
+  priceListArticle {
+    importFromExcel(file: $file) {
+      errors
+      isSuccess
+      value
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}

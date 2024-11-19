@@ -1,0 +1,45 @@
+query getCities(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: CityFilterInput
+  $order: [CitySortInput!]
+) {
+  city {
+    listCities(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...CityFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getAllCities($where: CityFilterInput, $order: [CitySortInput!]) {
+  city {
+    listCitiesFull(where: $where, order: $order) {
+      ...CityFragment
+    }
+  }
+}
+
+query findCountyCity($countyShortCode: String!) {
+  city {
+    findCountyCity(countyShortCode: $countyShortCode) {
+      value {
+        ...CityFragment
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+query getGeoPosition($address: AsstAddressInput!) {
+  geocoding {
+    position(address: $address) {
+      boundingBox
+      position
+    }
+  }
+}

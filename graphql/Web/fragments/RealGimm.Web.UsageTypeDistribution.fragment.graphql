@@ -1,0 +1,4 @@
+fragment UsageTypeDistributionFragment on UsageTypeDistribution {
+  percentage
+  usageTypeName
+}

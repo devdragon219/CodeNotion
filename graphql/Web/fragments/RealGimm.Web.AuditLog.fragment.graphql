@@ -1,0 +1,9 @@
+fragment AuditLogFragment on AuditLog {
+  id
+  tablePk
+  entityType
+  auditUser
+  action
+  auditDate
+  auditData
+}

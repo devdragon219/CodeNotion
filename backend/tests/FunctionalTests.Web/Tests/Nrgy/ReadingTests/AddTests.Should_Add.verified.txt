@@ -1,0 +1,29 @@
+﻿{
+  Data: {
+    reading: {
+      add: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          id: 1,
+          isEstimated: false,
+          notes: null,
+          readingTimestamp: DateTimeOffset_1,
+          values: [
+            {
+              id: 1,
+              touRateIndex: 0,
+              value: 1107.0
+            },
+            {
+              id: 2,
+              touRateIndex: 1,
+              value: 4670.0
+            }
+          ]
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

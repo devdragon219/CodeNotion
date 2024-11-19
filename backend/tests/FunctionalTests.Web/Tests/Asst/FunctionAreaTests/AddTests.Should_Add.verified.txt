@@ -1,0 +1,17 @@
+﻿{
+  Data: {
+    functionArea: {
+      add: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          id: 1,
+          internalCode: 3grnfcx3n1,
+          name: dolore,
+          surfaceType: MAIN_AREA
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

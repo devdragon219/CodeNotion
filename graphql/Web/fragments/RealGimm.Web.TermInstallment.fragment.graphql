@@ -1,0 +1,12 @@
+fragment TermInstallmentFragment on TermInstallment {
+  id
+  installmentNumber
+  dueDate
+  amount
+  since
+  until
+  notes
+  billItemType {
+    ...BillItemTypeFragment
+  }
+}

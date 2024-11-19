@@ -1,0 +1,938 @@
+﻿{
+  Data: {
+    subject: {
+      listSubjects: {
+        nodes: [
+          {
+            __typename: PhysicalSubject,
+            addresses: [
+              {
+                addressType: LEGAL_RESIDENTIAL,
+                city: null,
+                cityName: Zachariahtown,
+                countryISO: NER,
+                countyName: Cambridgeshire,
+                id: 21,
+                localPostCode: 49063,
+                notes: null,
+                numbering: 846,
+                toponymy: Feest Valleys
+              }
+            ],
+            bankAccounts: [
+              {
+                accountHolder: Auto Loan Account,
+                bankAccountType: MAIN,
+                id: 21,
+                notes: null,
+                referenceCode: LT630129239000200403,
+                referenceCodeType: IBAN
+              }
+            ],
+            birthCountryTaxIdCode: bogutsrxai,
+            birthDate: 2020-02-09,
+            birthLocation: {
+              addressType: BIRTH_LOCATION,
+              city: null,
+              cityName: North Jamirmouth,
+              countryISO: SWZ,
+              countyName: Berkshire,
+              id: 22,
+              localPostCode: null,
+              notes: null,
+              numbering: null,
+              toponymy: null
+            },
+            categories: [
+              {
+                function: {
+                  isCompanyGroup: false
+                },
+                id: 3,
+                name: Proprietario/Locatore
+              },
+              {
+                function: {
+                  isCompanyGroup: false
+                },
+                id: 5,
+                name: Controparte Contrattuale
+              },
+              {
+                function: {
+                  isCompanyGroup: false
+                },
+                id: 8,
+                name: Amministrazione di Condominio
+              }
+            ],
+            closureDate: null,
+            contacts: [
+              {
+                contactInfo: 6563008786,
+                contactInfoType: LANDLINE_PHONE,
+                contactType: MAIN,
+                id: 21
+              }
+            ],
+            customGender: null,
+            entryStatus: INCOMPLETE_DRAFT,
+            externalSourceCode: hnpt3qp4w6,
+            firstName: Ernestine,
+            id: 21,
+            internalCode: 10080,
+            lastName: Runte,
+            name: Runte Ernestine,
+            owningMgmtSubjects: [
+              {
+                id: 21,
+                main: {
+                  id: 13,
+                  name: Marks, Runte and Ferry
+                }
+              }
+            ],
+            personType: PHYSICAL_PERSON,
+            professionalTaxIdCode: nbat862mom
+          },
+          {
+            __typename: PhysicalSubject,
+            addresses: [
+              {
+                addressType: LEGAL_RESIDENTIAL,
+                city: null,
+                cityName: Port Mayborough,
+                countryISO: ALB,
+                countyName: Bedfordshire,
+                id: 23,
+                localPostCode: 33532-8774,
+                notes: null,
+                numbering: 4039,
+                toponymy: Zachery Rapids
+              }
+            ],
+            bankAccounts: [
+              {
+                accountHolder: Auto Loan Account,
+                bankAccountType: MAIN,
+                id: 22,
+                notes: null,
+                referenceCode: CH5880010K21753D706S5,
+                referenceCodeType: IBAN
+              }
+            ],
+            birthCountryTaxIdCode: 7w1iyz0nay,
+            birthDate: 1990-02-16,
+            birthLocation: {
+              addressType: BIRTH_LOCATION,
+              city: null,
+              cityName: Bradtkefurt,
+              countryISO: BLM,
+              countyName: Bedfordshire,
+              id: 24,
+              localPostCode: null,
+              notes: null,
+              numbering: null,
+              toponymy: null
+            },
+            categories: [
+              {
+                function: {
+                  isCompanyGroup: false
+                },
+                id: 4,
+                name: Fornitore
+              },
+              {
+                function: {
+                  isCompanyGroup: false
+                },
+                id: 5,
+                name: Controparte Contrattuale
+              },
+              {
+                function: {
+                  isCompanyGroup: false
+                },
+                id: 8,
+                name: Amministrazione di Condominio
+              }
+            ],
+            closureDate: null,
+            contacts: [
+              {
+                contactInfo: 2418463329,
+                contactInfoType: LANDLINE_PHONE,
+                contactType: MAIN,
+                id: 22
+              }
+            ],
+            customGender: null,
+            entryStatus: INCOMPLETE_DRAFT,
+            externalSourceCode: 2gh7285gg0,
+            firstName: Percy,
+            id: 22,
+            internalCode: 10085,
+            lastName: Bergstrom,
+            name: Bergstrom Percy,
+            owningMgmtSubjects: [
+              {
+                id: 22,
+                main: {
+                  id: 12,
+                  name: Ferry, Ritchie and Nicolas
+                }
+              }
+            ],
+            personType: PHYSICAL_PERSON,
+            professionalTaxIdCode: lrbfzvz94w
+          },
+          {
+            __typename: PhysicalSubject,
+            addresses: [
+              {
+                addressType: LEGAL_RESIDENTIAL,
+                city: null,
+                cityName: Lake Keanuview,
+                countryISO: KAZ,
+                countyName: Borders,
+                id: 25,
+                localPostCode: 10862,
+                notes: null,
+                numbering: 6790,
+                toponymy: O'Hara Stream
+              }
+            ],
+            bankAccounts: [
+              {
+                accountHolder: Auto Loan Account,
+                bankAccountType: MAIN,
+                id: 23,
+                notes: null,
+                referenceCode: EE470561155020053565,
+                referenceCodeType: IBAN
+              }
+            ],
+            birthCountryTaxIdCode: kodvbsitji,
+            birthDate: 1989-01-04,
+            birthLocation: {
+              addressType: BIRTH_LOCATION,
+              city: null,
+              cityName: Parkerfurt,
+              countryISO: PRY,
+              countyName: Buckinghamshire,
+              id: 26,
+              localPostCode: null,
+              notes: null,
+              numbering: null,
+              toponymy: null
+            },
+            categories: [
+              {
+                function: {
+                  isCompanyGroup: false
+                },
+                id: 2,
+                name: Conduttore/Locatario
+              },
+              {
+                function: {
+                  isCompanyGroup: false
+                },
+                id: 4,
+                name: Fornitore
+              },
+              {
+                function: {
+                  isCompanyGroup: false
+                },
+                id: 5,
+                name: Controparte Contrattuale
+              }
+            ],
+            closureDate: null,
+            contacts: [
+              {
+                contactInfo: 0991701017,
+                contactInfoType: MOBILE_PHONE,
+                contactType: MAIN,
+                id: 23
+              }
+            ],
+            customGender: null,
+            entryStatus: WORKING,
+            externalSourceCode: sfnzl3mzvj,
+            firstName: Priscilla,
+            id: 23,
+            internalCode: 10090,
+            lastName: Schaden,
+            name: Schaden Priscilla,
+            owningMgmtSubjects: [
+              {
+                id: 23,
+                main: {
+                  id: 19,
+                  name: Cassin Group
+                }
+              }
+            ],
+            personType: PHYSICAL_PERSON,
+            professionalTaxIdCode: 5mjb8sgxc6
+          },
+          {
+            __typename: PhysicalSubject,
+            addresses: [
+              {
+                addressType: LEGAL_RESIDENTIAL,
+                city: null,
+                cityName: East Aracelychester,
+                countryISO: PRI,
+                countyName: Borders,
+                id: 27,
+                localPostCode: 79969-7660,
+                notes: null,
+                numbering: 6931,
+                toponymy: Lesch Fork
+              }
+            ],
+            bankAccounts: [
+              {
+                accountHolder: Investment Account,
+                bankAccountType: MAIN,
+                id: 24,
+                notes: null,
+                referenceCode: XK176106481002062003,
+                referenceCodeType: IBAN
+              }
+            ],
+            birthCountryTaxIdCode: 5h25z1b1ik,
+            birthDate: 1990-03-10,
+            birthLocation: {
+              addressType: BIRTH_LOCATION,
+              city: null,
+              cityName: Vadaton,
+              countryISO: GLP,
+              countyName: Buckinghamshire,
+              id: 28,
+              localPostCode: null,
+              notes: null,
+              numbering: null,
+              toponymy: null
+            },
+            categories: [
+              {
+                function: {
+                  isCompanyGroup: false
+                },
+                id: 2,
+                name: Conduttore/Locatario
+              },
+              {
+                function: {
+                  isCompanyGroup: false
+                },
+                id: 3,
+                name: Proprietario/Locatore
+              },
+              {
+                function: {
+                  isCompanyGroup: false
+                },
+                id: 5,
+                name: Controparte Contrattuale
+              }
+            ],
+            closureDate: null,
+            contacts: [
+              {
+                contactInfo: 8652884984,
+                contactInfoType: LANDLINE_PHONE,
+                contactType: MAIN,
+                id: 24
+              }
+            ],
+            customGender: null,
+            entryStatus: INCOMPLETE_DRAFT,
+            externalSourceCode: mmktv8dln2,
+            firstName: Gladys,
+            id: 24,
+            internalCode: 10095,
+            lastName: Leuschke,
+            name: Leuschke Gladys,
+            owningMgmtSubjects: [
+              {
+                id: 24,
+                main: {
+                  id: 16,
+                  name: Weissnat, Connelly and Waters
+                }
+              }
+            ],
+            personType: PHYSICAL_PERSON,
+            professionalTaxIdCode: u845rtr864
+          },
+          {
+            __typename: PhysicalSubject,
+            addresses: [
+              {
+                addressType: LEGAL_RESIDENTIAL,
+                city: null,
+                cityName: Port Ottilieburgh,
+                countryISO: MAR,
+                countyName: Bedfordshire,
+                id: 29,
+                localPostCode: 52647,
+                notes: null,
+                numbering: 1044,
+                toponymy: Ullrich Circles
+              }
+            ],
+            bankAccounts: [
+              {
+                accountHolder: Savings Account,
+                bankAccountType: MAIN,
+                id: 25,
+                notes: null,
+                referenceCode: XK650217110074680345,
+                referenceCodeType: IBAN
+              }
+            ],
+            birthCountryTaxIdCode: rnt8ukgqpl,
+            birthDate: 1984-10-24,
+            birthLocation: {
+              addressType: BIRTH_LOCATION,
+              city: null,
+              cityName: Lake Elodyfort,
+              countryISO: TCA,
+              countyName: Buckinghamshire,
+              id: 30,
+              localPostCode: null,
+              notes: null,
+              numbering: null,
+              toponymy: null
+            },
+            categories: [
+              {
+                function: {
+                  isCompanyGroup: false
+                },
+                id: 1,
+                name: Legale Rappresentante/Amministratore
+              },
+              {
+                function: {
+                  isCompanyGroup: false
+                },
+                id: 3,
+                name: Proprietario/Locatore
+              },
+              {
+                function: {
+                  isCompanyGroup: false
+                },
+                id: 4,
+                name: Fornitore
+              }
+            ],
+            closureDate: null,
+            contacts: [
+              {
+                contactInfo: 7469606985,
+                contactInfoType: LANDLINE_PHONE,
+                contactType: MAIN,
+                id: 25
+              }
+            ],
+            customGender: null,
+            entryStatus: INCOMPLETE_DRAFT,
+            externalSourceCode: idatsqejf2,
+            firstName: Pam,
+            id: 25,
+            internalCode: 10100,
+            lastName: Simonis,
+            name: Simonis Pam,
+            owningMgmtSubjects: [
+              {
+                id: 25,
+                main: {
+                  id: 4,
+                  name: Willms, Crist and Swift
+                }
+              }
+            ],
+            personType: PHYSICAL_PERSON,
+            professionalTaxIdCode: 261vn8lnsx
+          },
+          {
+            __typename: PhysicalSubject,
+            addresses: [
+              {
+                addressType: LEGAL_RESIDENTIAL,
+                city: null,
+                cityName: Port Victorialand,
+                countryISO: ATF,
+                countyName: Cambridgeshire,
+                id: 31,
+                localPostCode: 99316-0673,
+                notes: null,
+                numbering: 06544,
+                toponymy: Vicenta Walk
+              }
+            ],
+            bankAccounts: [
+              {
+                accountHolder: Personal Loan Account,
+                bankAccountType: MAIN,
+                id: 26,
+                notes: null,
+                referenceCode: IS300034068200280500259263,
+                referenceCodeType: IBAN
+              }
+            ],
+            birthCountryTaxIdCode: py3x0t4jgc,
+            birthDate: 1989-01-16,
+            birthLocation: {
+              addressType: BIRTH_LOCATION,
+              city: null,
+              cityName: Adrainshire,
+              countryISO: UMI,
+              countyName: Avon,
+              id: 32,
+              localPostCode: null,
+              notes: null,
+              numbering: null,
+              toponymy: null
+            },
+            categories: [
+              {
+                function: {
+                  isCompanyGroup: false
+                },
+                id: 1,
+                name: Legale Rappresentante/Amministratore
+              },
+              {
+                function: {
+                  isCompanyGroup: false
+                },
+                id: 2,
+                name: Conduttore/Locatario
+              },
+              {
+                function: {
+                  isCompanyGroup: false
+                },
+                id: 3,
+                name: Proprietario/Locatore
+              }
+            ],
+            closureDate: null,
+            contacts: [
+              {
+                contactInfo: 0563837585,
+                contactInfoType: LANDLINE_PHONE,
+                contactType: MAIN,
+                id: 26
+              }
+            ],
+            customGender: null,
+            entryStatus: INCOMPLETE_DRAFT,
+            externalSourceCode: okfh05c5hw,
+            firstName: Nina,
+            id: 26,
+            internalCode: 10105,
+            lastName: Gerhold,
+            name: Gerhold Nina,
+            owningMgmtSubjects: [
+              {
+                id: 26,
+                main: {
+                  id: 16,
+                  name: Weissnat, Connelly and Waters
+                }
+              }
+            ],
+            personType: PHYSICAL_PERSON,
+            professionalTaxIdCode: imbab2dj84
+          },
+          {
+            __typename: PhysicalSubject,
+            addresses: [
+              {
+                addressType: LEGAL_RESIDENTIAL,
+                city: null,
+                cityName: South Tamiahaven,
+                countryISO: CRI,
+                countyName: Cambridgeshire,
+                id: 33,
+                localPostCode: 90815,
+                notes: null,
+                numbering: 3563,
+                toponymy: Bud Hill
+              }
+            ],
+            bankAccounts: [
+              {
+                accountHolder: Checking Account,
+                bankAccountType: MAIN,
+                id: 27,
+                notes: null,
+                referenceCode: QA41DNBHNS5856Q3L9T434L71S758,
+                referenceCodeType: IBAN
+              }
+            ],
+            birthCountryTaxIdCode: qj1et4drc3,
+            birthDate: 2005-02-26,
+            birthLocation: {
+              addressType: BIRTH_LOCATION,
+              city: null,
+              cityName: Judyburgh,
+              countryISO: QAT,
+              countyName: Berkshire,
+              id: 34,
+              localPostCode: null,
+              notes: null,
+              numbering: null,
+              toponymy: null
+            },
+            categories: [
+              {
+                function: {
+                  isCompanyGroup: false
+                },
+                id: 1,
+                name: Legale Rappresentante/Amministratore
+              },
+              {
+                function: {
+                  isCompanyGroup: false
+                },
+                id: 4,
+                name: Fornitore
+              },
+              {
+                function: {
+                  isCompanyGroup: false
+                },
+                id: 8,
+                name: Amministrazione di Condominio
+              }
+            ],
+            closureDate: null,
+            contacts: [
+              {
+                contactInfo: 1653284931,
+                contactInfoType: MOBILE_PHONE,
+                contactType: MAIN,
+                id: 27
+              }
+            ],
+            customGender: null,
+            entryStatus: INCOMPLETE_DRAFT,
+            externalSourceCode: 2032see884,
+            firstName: Pauline,
+            id: 27,
+            internalCode: 10110,
+            lastName: Jacobs,
+            name: Jacobs Pauline,
+            owningMgmtSubjects: [
+              {
+                id: 27,
+                main: {
+                  id: 16,
+                  name: Weissnat, Connelly and Waters
+                }
+              }
+            ],
+            personType: PHYSICAL_PERSON,
+            professionalTaxIdCode: cmxprit89p
+          },
+          {
+            __typename: PhysicalSubject,
+            addresses: [
+              {
+                addressType: LEGAL_RESIDENTIAL,
+                city: null,
+                cityName: South Dasia,
+                countryISO: TJK,
+                countyName: Cambridgeshire,
+                id: 35,
+                localPostCode: 48490,
+                notes: null,
+                numbering: 2360,
+                toponymy: Emely Circles
+              }
+            ],
+            bankAccounts: [
+              {
+                accountHolder: Savings Account,
+                bankAccountType: MAIN,
+                id: 28,
+                notes: null,
+                referenceCode: SE3203008500237009003775,
+                referenceCodeType: IBAN
+              }
+            ],
+            birthCountryTaxIdCode: f0mxtr8886,
+            birthDate: 2002-04-08,
+            birthLocation: {
+              addressType: BIRTH_LOCATION,
+              city: null,
+              cityName: New Marianna,
+              countryISO: UGA,
+              countyName: Berkshire,
+              id: 36,
+              localPostCode: null,
+              notes: null,
+              numbering: null,
+              toponymy: null
+            },
+            categories: [
+              {
+                function: {
+                  isCompanyGroup: false
+                },
+                id: 4,
+                name: Fornitore
+              },
+              {
+                function: {
+                  isCompanyGroup: false
+                },
+                id: 5,
+                name: Controparte Contrattuale
+              },
+              {
+                function: {
+                  isCompanyGroup: false
+                },
+                id: 8,
+                name: Amministrazione di Condominio
+              }
+            ],
+            closureDate: null,
+            contacts: [
+              {
+                contactInfo: 6255741418,
+                contactInfoType: LANDLINE_PHONE,
+                contactType: MAIN,
+                id: 28
+              }
+            ],
+            customGender: null,
+            entryStatus: INCOMPLETE_DRAFT,
+            externalSourceCode: s9hi8el33i,
+            firstName: Rachel,
+            id: 28,
+            internalCode: 10115,
+            lastName: Turner,
+            name: Turner Rachel,
+            owningMgmtSubjects: [
+              {
+                id: 28,
+                main: {
+                  id: 13,
+                  name: Marks, Runte and Ferry
+                }
+              }
+            ],
+            personType: PHYSICAL_PERSON,
+            professionalTaxIdCode: eu7wh534ni
+          },
+          {
+            __typename: PhysicalSubject,
+            addresses: [
+              {
+                addressType: LEGAL_RESIDENTIAL,
+                city: null,
+                cityName: Cathrynstad,
+                countryISO: AUT,
+                countyName: Buckinghamshire,
+                id: 37,
+                localPostCode: 30717-8279,
+                notes: null,
+                numbering: 747,
+                toponymy: Magdalena Fields
+              }
+            ],
+            bankAccounts: [
+              {
+                accountHolder: Home Loan Account,
+                bankAccountType: MAIN,
+                id: 29,
+                notes: null,
+                referenceCode: BG55KMIA220053307726Z6,
+                referenceCodeType: IBAN
+              }
+            ],
+            birthCountryTaxIdCode: gb0paia18g,
+            birthDate: 1993-07-21,
+            birthLocation: {
+              addressType: BIRTH_LOCATION,
+              city: null,
+              cityName: Ceasarborough,
+              countryISO: KHM,
+              countyName: Avon,
+              id: 38,
+              localPostCode: null,
+              notes: null,
+              numbering: null,
+              toponymy: null
+            },
+            categories: [
+              {
+                function: {
+                  isCompanyGroup: false
+                },
+                id: 3,
+                name: Proprietario/Locatore
+              },
+              {
+                function: {
+                  isCompanyGroup: false
+                },
+                id: 4,
+                name: Fornitore
+              },
+              {
+                function: {
+                  isCompanyGroup: false
+                },
+                id: 5,
+                name: Controparte Contrattuale
+              }
+            ],
+            closureDate: null,
+            contacts: [
+              {
+                contactInfo: 7605491126,
+                contactInfoType: MOBILE_PHONE,
+                contactType: MAIN,
+                id: 29
+              }
+            ],
+            customGender: null,
+            entryStatus: WORKING,
+            externalSourceCode: 0x1hahrql8,
+            firstName: Amelia,
+            id: 29,
+            internalCode: 10120,
+            lastName: Fay,
+            name: Fay Amelia,
+            owningMgmtSubjects: [
+              {
+                id: 29,
+                main: {
+                  id: 7,
+                  name: Torp, Gerlach and Dickens
+                }
+              }
+            ],
+            personType: PHYSICAL_PERSON,
+            professionalTaxIdCode: cjd60opese
+          },
+          {
+            __typename: PhysicalSubject,
+            addresses: [
+              {
+                addressType: LEGAL_RESIDENTIAL,
+                city: null,
+                cityName: Santinaland,
+                countryISO: UKR,
+                countyName: Cambridgeshire,
+                id: 39,
+                localPostCode: 50605-2929,
+                notes: null,
+                numbering: 3930,
+                toponymy: Prosacco Court
+              }
+            ],
+            bankAccounts: [
+              {
+                accountHolder: Checking Account,
+                bankAccountType: MAIN,
+                id: 30,
+                notes: null,
+                referenceCode: MT13HLIT04070051404177W4A712431,
+                referenceCodeType: IBAN
+              }
+            ],
+            birthCountryTaxIdCode: 207usrfel0,
+            birthDate: 2012-03-21,
+            birthLocation: {
+              addressType: BIRTH_LOCATION,
+              city: null,
+              cityName: Boganshire,
+              countryISO: ISR,
+              countyName: Avon,
+              id: 40,
+              localPostCode: null,
+              notes: null,
+              numbering: null,
+              toponymy: null
+            },
+            categories: [
+              {
+                function: {
+                  isCompanyGroup: false
+                },
+                id: 2,
+                name: Conduttore/Locatario
+              },
+              {
+                function: {
+                  isCompanyGroup: false
+                },
+                id: 3,
+                name: Proprietario/Locatore
+              },
+              {
+                function: {
+                  isCompanyGroup: false
+                },
+                id: 8,
+                name: Amministrazione di Condominio
+              }
+            ],
+            closureDate: null,
+            contacts: [
+              {
+                contactInfo: 2204288592,
+                contactInfoType: MOBILE_PHONE,
+                contactType: MAIN,
+                id: 30
+              }
+            ],
+            customGender: null,
+            entryStatus: INCOMPLETE_DRAFT,
+            externalSourceCode: u2cs5wca4i,
+            firstName: Evan,
+            id: 30,
+            internalCode: 10125,
+            lastName: Vandervort,
+            name: Vandervort Evan,
+            owningMgmtSubjects: [
+              {
+                id: 30,
+                main: {
+                  id: 5,
+                  name: Ratke LLC
+                }
+              }
+            ],
+            personType: PHYSICAL_PERSON,
+            professionalTaxIdCode: mq8kcnwns5
+          }
+        ],
+        pageInfo: {
+          endCursor: OQ==,
+          hasNextPage: true,
+          hasPreviousPage: false,
+          startCursor: MA==
+        },
+        totalCount: 41
+      }
+    }
+  },
+  IsDataSet: true
+}

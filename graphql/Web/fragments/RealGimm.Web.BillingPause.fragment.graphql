@@ -1,0 +1,7 @@
+fragment BillingPauseFragment on BillingPause {
+  since
+  until
+  notes
+  isRecoveryArrears
+  id
+}

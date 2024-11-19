@@ -1,0 +1,41 @@
+fragment NotificationFragment on Notification {
+  __typename
+  username
+  timestamp
+  status
+  id
+  ... on CatalogueItemDocumentExpiredNotification {
+    estateId
+    catalogueTypeId
+    entityId
+  }
+  ... on ContractDocumentExpiredNotification {
+    isContractActive
+    isContractSublocated
+    entityId
+  }
+  ... on ContractsExpirationNotification {
+    contractIds
+    daysToExpiration
+    isActiveContracts
+  }
+  ... on CostChargesExpirationNotification {
+    costChargeIds
+    daysToExpiration
+  }
+  ... on EstateDocumentExpiredNotification {
+    entityId
+  }
+  ... on EstatePortfolioExportIsReadyNotification {
+    downloadGuid
+  }
+  ... on EstateUnitDocumentExpiredNotification {
+    entityId
+  }
+  ... on PasswordExpirationNotification {
+    passwordExpirationDate
+  }
+  ... on SubjectDocumentExpiredNotification {
+    entityId
+  }
+}

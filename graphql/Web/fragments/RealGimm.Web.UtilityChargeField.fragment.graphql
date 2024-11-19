@@ -1,0 +1,7 @@
+fragment UtilityChargeFieldFragment on UtilityChargeField {
+  name
+  isMandatory
+  id
+  type
+  validValues
+}

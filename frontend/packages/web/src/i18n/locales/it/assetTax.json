@@ -1,0 +1,77 @@
+{
+  "asset_tax": {
+    "title": {
+      "current": "Elaborazione tributi",
+      "history": "Storico elaborazione tributi"
+    },
+    "section_title": {
+      "issues": "Anomalie",
+      "select_asset_taxes": "Seleziona i pagamenti da confermare",
+      "selected_asset_taxes": "Pagamenti selezionati",
+      "general_data": "Dati generali",
+      "payments": "Pagamenti"
+    },
+    "calculator": {
+      "IMU": {
+        "tab": "Elaborazione IMU",
+        "subtitle": "Riepilogo IMU"
+      },
+      "ILIA": {
+        "tab": "Elaborazione ILIA",
+        "subtitle": "Riepilogo ILIA"
+      }
+    },
+    "dialog": {
+      "issues": "Anomalie",
+      "finalize_asset_taxes": {
+        "title": "Conferma invio pagamenti",
+        "confirmation": "Sei davvero sicuro di voler confermare\nl'invio dei pagamenti?",
+        "action": "Conferma invio pagamenti"
+      },
+      "finalize_asset_tax": {
+        "title": "Sei davvero sicuro di voler confermare\nl'invio del pagamento?",
+        "action": "Conferma invio pagamento"
+      }
+    },
+    "field": {
+      "year": "Anno",
+      "management_subject": "Ente",
+      "definitive": "Definitivo",
+      "last_update": "Data ultimo aggiornamento",
+      "expected_due_date": "Data scadenza",
+      "taxable_amount": "Imponibile",
+      "amount": "Importo",
+      "estate": "Immobile",
+      "estate_unit": "Unità immobiliare",
+      "issues": "Anomalie",
+      "override": "Forzatura",
+      "city": "Comune",
+      "address": "Indirizzo",
+      "cadastral_coordinates": "Dati catastali",
+      "cadastral_unit_income_macro_category": "Tipo categoria",
+      "cadastral_unit_income_micro_category": "Classe",
+      "cadastral_unit_income_metric_amount": "Consistenza",
+      "actualized_cadastral_income": "Rendita catastale rivalutata",
+      "cadastral_income": "Rendita",
+      "cadastral_unit_income_type": "Tipo rendita",
+      "estate_unit_ownership_percent": "% possesso",
+      "cadastral_unit_tax_config": "Aliquota"
+    },
+    "text": {
+      "no_asset_taxes": "Non sono presenti elaborazioni tributi",
+      "no_asset_tax_payments": "Non sono presenti pagamenti"
+    },
+    "action": {
+      "show_history": "Visualizza storico",
+      "finalize_asset_taxes": "Conferma invio pagamenti",
+      "finalize_asset_tax": "Conferma invio pagamento"
+    },
+    "feedback": {
+      "finalize": {
+        "single": "Invio pagamento confermato con successo",
+        "multiple": "Invio pagamenti confermati con successo"
+      },
+      "override": "Forzatura salvata con successo"
+    }
+  }
+}

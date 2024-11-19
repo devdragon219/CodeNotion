@@ -1,0 +1,71 @@
+﻿{
+  nodes: [
+    {
+      description: TERRENO A PRATO,
+      id: 1,
+      internalCode: CLC001,
+      ordering: 0
+    },
+    {
+      description: VIGNETO,
+      id: 2,
+      internalCode: CLC002,
+      ordering: 1
+    },
+    {
+      description: BOSCO,
+      id: 3,
+      internalCode: CLC003,
+      ordering: 2
+    },
+    {
+      description: BOSCO ALTO,
+      id: 4,
+      internalCode: CLC004,
+      ordering: 3
+    },
+    {
+      description: BOSCO CEDUO,
+      id: 5,
+      internalCode: CLC005,
+      ordering: 4
+    },
+    {
+      description: BOSCO MISTO,
+      id: 6,
+      internalCode: CLC006,
+      ordering: 5
+    },
+    {
+      description: CASTAGNETO DA FRUTTO,
+      id: 7,
+      internalCode: CLC007,
+      ordering: 6
+    },
+    {
+      description: FABBRICATO RURALE,
+      id: 8,
+      internalCode: CLC008,
+      ordering: 7
+    },
+    {
+      description: FRUTTETO,
+      id: 9,
+      internalCode: CLC009,
+      ordering: 8
+    },
+    {
+      description: INCOLTO IMPRODUTTIVO,
+      id: 10,
+      internalCode: CLC010,
+      ordering: 9
+    }
+  ],
+  pageInfo: {
+    endCursor: OQ==,
+    hasNextPage: true,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 64
+}

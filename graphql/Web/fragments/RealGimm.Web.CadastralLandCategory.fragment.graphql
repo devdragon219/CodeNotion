@@ -1,0 +1,7 @@
+fragment CadastralLandCategoryFragment on CadastralLandCategory {
+  id
+  description
+  internalCode
+  countryISO
+  ordering
+}

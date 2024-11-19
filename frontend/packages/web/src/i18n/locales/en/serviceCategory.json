@@ -1,0 +1,57 @@
+{
+  "service_category": {
+    "title": "Service categories",
+    "tab": {
+      "general_data": "General data",
+      "service_sub_category": "Service sub category"
+    },
+    "section_title": {
+      "general_data": "General data",
+      "service_sub_category": "Service sub category"
+    },
+    "error": {
+      "service_category_code": "The service category code provided is already in use",
+      "service_sub_category_code": "The service subcategory code provided is already in use"
+    },
+    "text": {
+      "no_service_categories": "No service categories available",
+      "no_sub_categories": "No subcategories available, press edit to add a subcategory"
+    },
+    "field": {
+      "service_category_code": "Service category code",
+      "name": "Name",
+      "service_category": "Service category",
+      "service_sub_categories": "Service sub categories",
+      "internal_code": "Code"
+    },
+    "action": {
+      "add_sub_category": "Add service sub category"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add service category",
+        "save": "Save service category"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this service category?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these service categories?\nThe process cannot be undone"
+        }
+      },
+      "sub_category": {
+        "view": "View service sub categories",
+        "add": "Add service sub categories",
+        "edit": "Edit service sub category"
+      }
+    },
+    "feedback": {
+      "create": "Service category created successfully",
+      "delete": {
+        "single": "Service category deleted successfully",
+        "multiple": "Service categories deleted successfully"
+      },
+      "update": "Service category edited successfully"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+﻿[
+  [
+    Ragione sociale,
+    Codice fiscale,
+    Data versamento,
+    Importo da versare,
+    IBAN
+  ]
+]

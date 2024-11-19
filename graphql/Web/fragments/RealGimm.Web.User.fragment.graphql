@@ -1,0 +1,55 @@
+fragment UserFragment on User {
+  id
+  firstName
+  lastName
+  userName
+  status
+  managementSubjects {
+    id
+    name
+  }
+  type
+  officeAccess
+  groups {
+    id
+    name
+  }
+}
+
+fragment UserDetailFragment on User {
+  id
+  firstName
+  lastName
+  userName
+  type
+  officeAccess
+  supplierSubject {
+    id
+    name
+  }
+  status
+  enabledSince
+  ceasedDate
+  lockedSince
+  suspensionReason
+  groups {
+    ...GroupDetailFragment
+  }
+  managementSubjects {
+    id
+    name
+  }
+  managementOrgUnits {
+    ...OrgUnitFragment
+  }
+  contacts {
+    ...UserContactFragment
+  }
+}
+
+fragment TicketUserFragment on User {
+  id
+  firstName
+  lastName
+  userName
+}

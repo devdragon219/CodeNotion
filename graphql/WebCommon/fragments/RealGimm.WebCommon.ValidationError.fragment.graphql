@@ -1,0 +1,6 @@
+fragment ValidationErrorFragment on ValidationError {
+  identifier
+  errorMessage
+  errorCode
+  severity
+}

@@ -1,0 +1,251 @@
+{
+  "ticket": {
+    "title": {
+      "activities": "Maintenance activities",
+      "calendar": "Maintenance calendar",
+      "expired": "Expired",
+      "expiring": "Expiring"
+    },
+    "tab": {
+      "tickets": "Tickets",
+      "maintenance_on_condition": "Maintenance on condition",
+      "maintenance_preventative": "Maintenance preventative",
+      "facility_contract": "Contract",
+      "estate_unit": "Estate unit",
+      "ticket_checklist": "Ticket checklists",
+      "catalogue_items": "Catalogue items",
+      "general_data": "General data",
+      "quote": "Quote",
+      "price_list": "Price list",
+      "articles": "Articles",
+      "reminders": "Reminders",
+      "reminder": "Reminder",
+      "resolution": "Resolution",
+      "checklist_resolution": "Resolution data",
+      "performed_activities": "Activities list",
+      "replies": "Replies",
+      "history": "History",
+      "documents": "Images and documents",
+      "recap": "Recap"
+    },
+    "section_title": {
+      "facility_contract": "Contract",
+      "estate_unit": "Estate unit",
+      "ticket_checklist": "Ticket checklists",
+      "catalogue_items": "Catalogue items",
+      "general_data": "General data",
+      "ticket_details": "Ticket details",
+      "supplier_subjects": "Supplier subjects",
+      "quote": "Quote",
+      "quote_articles": "Quote articles",
+      "select_quote_articles": "Select articles for the quote",
+      "selected_quote_articles": "Selected articles",
+      "reminders": "Reminders",
+      "reminder": "Reminder",
+      "resolution": "Resolution",
+      "checklist_resolution": "Resolution data",
+      "performed_activities": "Activities",
+      "history": "History",
+      "images": "Images",
+      "documents": "Documents",
+      "recap": "Recap"
+    },
+    "field": {
+      "internal_code": "Activity code",
+      "main_type": "Maintenance type",
+      "estate_unit_code": "EU code",
+      "estate_unit_name": "EU name",
+      "estate_unit_address": "Address",
+      "location_floor": "Floor",
+      "location_sector": "Sector",
+      "location_room": "Room",
+      "issue_ticket_code": "Ticket code",
+      "on_condition_ticket_code": "Maintenance code",
+      "ticket_checklist_code": "Ticket checklist code",
+      "ticket_checklist_name": "Name",
+      "ticket_checklist_template_type": "Ticket checklist template type",
+      "contract_code": "Contract code",
+      "work_order_reference": "Work order reference",
+      "ticket_status": "Status",
+      "issue_ticket_status": "Ticket status",
+      "on_condition_ticket_status": "Maintenance status",
+      "work_safety_expected": "Work safety expected",
+      "requestor": "Requestor",
+      "requestor_email": "Requestor email",
+      "requestor_phone": "Requestor phone",
+      "request_date": "Request date",
+      "request_time": "Time",
+      "due_date": "Due date",
+      "checklist_due_date": "Resolution date",
+      "planning_status": "Planning status",
+      "excluded_from_contract": "Excluded from contract",
+      "ticket_type": "Ticket type",
+      "priority": "Priority",
+      "catalogue_category": "Catalogue category",
+      "catalogue_subcategory": "Catalogue subcategory",
+      "catalogue_type": "Catalogue type",
+      "catalogue_item": "Catalogue item",
+      "catalogue_items": "Catalogue items",
+      "summary": "Summary",
+      "description": "Description",
+      "supplier_subject": "Supplier subject",
+      "work_team": "Work team",
+      "leader_user": "Leader user",
+      "reminder_date": "Reminder date",
+      "reminder_summary": "Reminder description",
+      "resolution_start_date": "Start date",
+      "resolution_start_time": "Time",
+      "resolution_end_date": "End date",
+      "resolution_end_time": "Time",
+      "resolution_closure_date": "Closure date",
+      "resolution_closure_time": "Time",
+      "resolution_operations_performed": "Performed operations",
+      "resolution_diagnosis": "Diagnosis",
+      "resolution_parts_and_supplies": "Parts and supplies",
+      "resolution_notes": "Resolution notes",
+      "resolution_checklist_closure": "Fullfil date",
+      "resolution_checklist_notes": "Resolution notes",
+      "activity_status": "Executed",
+      "activity_number": "Activity number",
+      "activity_name": "Activity",
+      "history_date": "Date",
+      "history_type": "Operation type",
+      "history_type_description": "Operation",
+      "history_user": "User",
+      "quote_framework_agreement": "Framework agreement",
+      "quote_status": "Quote status",
+      "quote_external_code": "Quote number",
+      "quote_classifications": "Classifications",
+      "quote_amount": "Quote amount",
+      "quote_approved_amount": "Quote amount approved",
+      "quote_due_date": "Due date",
+      "quote_order_number": "Order number",
+      "quote_notes": "Notes",
+      "quote_article_code": "Article code",
+      "quote_article_name": "Description",
+      "quote_article_unit": "Unit",
+      "quote_article_price": "Price",
+      "quote_article_quantity": "Quantity",
+      "quote_article_total_amount": "Total amount",
+      "quote_article_price_list": "Price list",
+      "year": "Year",
+      "image_upload": "Upload images",
+      "document_upload": "Upload documents",
+      "expired": "Expired",
+      "expired_days": "days after expiration",
+      "expiring_days": "days to expiration"
+    },
+    "history": {
+      "AmountUpdatedQuoteHistoryEntry": {
+        "title": "Changed quote amount",
+        "description": "From {{ oldAmount }} to {{ newAmount }}"
+      },
+      "ApprovedAmountUpdatedQuoteHistoryEntry": {
+        "title": "Changed quote amount approved",
+        "description": "From {{ oldApprovedAmount }} to {{ newApprovedAmount }}"
+      },
+      "ConvertedToExcludedFromMaintenanceContractTicketHistoryEntry": {
+        "title": "Converted to excluded from contract",
+        "description": "-"
+      },
+      "MasterStatusUpdatedQuoteHistoryEntry": {
+        "title": "Changed status",
+        "initial": "Created quote",
+        "description": "From {{ oldMasterStatus }} to {{ newMasterStatus }}"
+      },
+      "MasterStatusUpdatedTicketHistoryEntry": {
+        "title": "Changed status",
+        "initial": "Created ticket",
+        "description": "From {{ oldMasterStatus }} to {{ newMasterStatus }}"
+      },
+      "NewReminderTicketHistoryEntry": {
+        "title": "Received reminder",
+        "description": "{{ reminderSummary }}"
+      },
+      "NewReplyTicketHistoryEntry": {
+        "title": "Received reply",
+        "description": "From {{ userName }}"
+      },
+      "ReminderDeletedTicketHistoryEntry": {
+        "title": "Deleted reminder",
+        "description": "{{ reminderSummary }}"
+      },
+      "ReminderUpdatedTicketHistoryEntry": {
+        "title": "Updated reminder",
+        "description": "From {{ oldReminderSummary }} to {{ newReminderSummary }}"
+      }
+    },
+    "error": {
+      "ticket_code": "The ticket code provided is already in use",
+      "no_facility_contract_selected": "No contract selected",
+      "no_estate_unit_selected": "No estate unit selected",
+      "no_ticket_checklist_selected": "No ticket checklist selected",
+      "no_catalogue_items_selected": "No catalogue item selected",
+      "no_articles": "No articles selected"
+    },
+    "text": {
+      "no_tickets": "No maintenance activities available",
+      "no_articles": "No articles available",
+      "no_catalogue_items": "No catalogue items available",
+      "no_reminders": "No reminders available",
+      "no_performed_activities": "No activities available",
+      "no_history": "No history available",
+      "no_documents": "No documents uploaded",
+      "no_images": "No images uploaded"
+    },
+    "action": {
+      "add_cumulative_ticket": "Cumulative ticket",
+      "add_single_ticket": "Single ticket",
+      "add_maintenance_on_condition": "Maintenance on condition",
+      "convert_in_excluded_from_contract": "Convert in excluded from contract",
+      "show_quote_history": "Quote history",
+      "add_articles": "Add articles",
+      "add_price_list_articles": "Add articles from price list",
+      "add_new_articles": "Add new articles",
+      "add_reminder": "Add reminder",
+      "add_document": "Add document"
+    },
+    "dialog": {
+      "create": {
+        "title": {
+          "CHECKLIST_ON_TRIGGER_CONDITION": "Add maintenance on condition",
+          "CHECKLIST_PREVENTATIVE": "Add preventive maintenance",
+          "ISSUE": "Add single ticket",
+          "ISSUE_PARENT": "Add cumulative ticket"
+        },
+        "save": {
+          "CHECKLIST_PREVENTATIVE": "Save preventive maintenance",
+          "CHECKLIST_ON_TRIGGER_CONDITION": "Save maintenance on condition",
+          "ISSUE": "Save single ticket",
+          "ISSUE_PARENT": "Save cumulative ticket"
+        }
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this activity?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these activities?\nThe process cannot be undone"
+        }
+      },
+      "convert": {
+        "title": "Are you really sure you want to\nconvert this ticket into an excluded from contract?",
+        "action": "Convert ticket"
+      },
+      "quote_history": "Quote history",
+      "add_price_list_articles": "Add articles from price list",
+      "add_new_articles": "Add new articles",
+      "edit_article": "Edit article",
+      "add_reminder": "Add reminder",
+      "edit_reminder": "Edit reminder"
+    },
+    "feedback": {
+      "create": "Activity created successfully",
+      "delete": {
+        "single": "Activity deleted successfully",
+        "multiple": "Activities deleted successfully"
+      },
+      "update": "Activity edited successfully",
+      "convert": "Ticket converted successfully"
+    }
+  }
+}

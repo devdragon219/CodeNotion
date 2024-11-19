@@ -1,0 +1,47 @@
+{
+  "cadastral_land_category": {
+    "title": "Cadastral land categories",
+    "field": {
+      "internal_code": "Cadastral land category code",
+      "description": "Cadastral land category description",
+      "country_iso": "Country",
+      "ordering": "Ordering"
+    },
+    "error": {
+      "internal_code": "The cadastral land category code provided is already in use"
+    },
+    "action": {
+      "add_cadastral_land_category": "Add cadastral land category"
+    },
+    "text": {
+      "no_cadastral_land_categories": "No cadastral land categories available"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add cadastral land category",
+        "save": "Save cadastral land category"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this cadastral land category?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these cadastral land categories?\nThe process cannot be undone"
+        }
+      },
+      "update": {
+        "title": "Update cadastral land category"
+      },
+      "view": {
+        "title": "View cadastral land category"
+      }
+    },
+    "feedback": {
+      "create": "Cadastral land category created successfully",
+      "delete": {
+        "single": "Cadastral land category deleted successfully",
+        "multiple": "Cadastral land categories deleted successfully"
+      },
+      "update": "Cadastral land category edited successfully"
+    }
+  }
+}

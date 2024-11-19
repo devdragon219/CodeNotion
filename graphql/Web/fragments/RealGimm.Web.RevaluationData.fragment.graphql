@@ -1,0 +1,7 @@
+fragment RevaluationDataFragment on RevaluationData {
+  id
+  year
+  month
+  baseYear
+  revaluationIndex
+}

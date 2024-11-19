@@ -1,0 +1,52 @@
+fragment TicketHistoryEntryFragment on TicketHistoryEntry {
+  __typename
+  id
+  timestamp
+  userId
+  ... on ConvertedToExcludedFromMaintenanceContractTicketHistoryEntry {
+    user {
+      ...TicketUserFragment
+    }
+  }
+  ... on MasterStatusUpdatedTicketHistoryEntry {
+    oldMasterStatus
+    newMasterStatus
+    user {
+      ...TicketUserFragment
+    }
+  }
+  ... on NewReminderTicketHistoryEntry {
+    reminderDate
+    reminderSummary
+    user {
+      ...TicketUserFragment
+    }
+  }
+  ... on NewReplyTicketHistoryEntry {
+    reply {
+      id
+      user {
+        ...TicketUserFragment
+      }
+    }
+    user {
+      ...TicketUserFragment
+    }
+  }
+  ... on ReminderDeletedTicketHistoryEntry {
+    reminderDate
+    reminderSummary
+    user {
+      ...TicketUserFragment
+    }
+  }
+  ... on ReminderUpdatedTicketHistoryEntry {
+    oldReminderDate
+    oldReminderSummary
+    newReminderDate
+    newReminderSummary
+    user {
+      ...TicketUserFragment
+    }
+  }
+}

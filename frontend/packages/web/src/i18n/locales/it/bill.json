@@ -1,0 +1,110 @@
+{
+  "bill": {
+    "title": {
+      "active_bills": "Avvisi di pagamento",
+      "passive_bills": "Mandati di pagamento"
+    },
+    "tab": {
+      "temporary": "Provvisori",
+      "definitive": "Definitivi",
+      "all": "Tutti",
+      "general_data": "Dati generali",
+      "accounting_data": "Dati contabili"
+    },
+    "section_title": {
+      "select_active_bills": "Seleziona gli avvisi da far diventare definitivi",
+      "selected_active_bills": "Avvisi di pagamento selezionati",
+      "select_passive_bills": "Seleziona i mandati da far diventare definitivi",
+      "selected_passive_bills": "Mandati di pagamento selezionati",
+      "active_bill": "Avviso di pagamento",
+      "passive_bill": "Mandato di pagamento",
+      "totals": "Totali",
+      "bill_rows": "Voci bollettazione",
+      "vat_rates": "IVA"
+    },
+    "field": {
+      "active_status": "Stato avviso",
+      "passive_status": "Stato mandato",
+      "contract_code": "Numero contratto",
+      "management_subject": "Ente",
+      "counterpart": "Controparte",
+      "year": "Anno esercizio",
+      "contract_type": "Tipologia contratto",
+      "active_invoiced": "Avviso fattura",
+      "passive_invoiced": "Mandato fattura",
+      "estate_unit_code": "Codice UI",
+      "estate_unit_address": "Indirizzo",
+      "billing_period": "Periodicità",
+      "is_occupied_without_right": "Occupazione senza titolo",
+      "active_date": "Data avviso",
+      "passive_date": "Data mandato",
+      "since": "Elaborazione da",
+      "until": "Elaborazione a",
+      "pay_by": "Pagare entro",
+      "payment_type": "Tipo pagamento",
+      "active_transactor": "Emettere avviso/fattura a",
+      "passive_transactor": "Emettere mandato/fattura a",
+      "emission_type": "Tipo emissione",
+      "total_amount": "Totale",
+      "final_date": "Data generazione definitivo",
+      "total_income": "Totale imponibile",
+      "total_vat": "Totale IVA",
+      "bill_row_item_type": "Voce",
+      "bill_row_since": "Competenza da",
+      "bill_row_until": "Competenza a",
+      "bill_row_amount": "Imponibile",
+      "bill_row_vat_code": "Codice IVA",
+      "bill_row_accounting_item": "Codice voce corrispondente",
+      "bill_row_vat_description": "Descrizione IVA",
+      "bill_row_vat_percent": "% aliquota IVA",
+      "bill_row_vat": "IVA"
+    },
+    "temporary": {
+      "true": "Provvisorio",
+      "false": "Definitivo"
+    },
+    "action": {
+      "finalize_bills": "Genera definitivi",
+      "finalize_bill": "Genera definitivo",
+      "generate_pdf": "Scarica PDF",
+      "add_bill_row": "Aggiungi voce bollettazione"
+    },
+    "text": {
+      "no_active_bills": "Non sono presenti avvisi di pagamento",
+      "no_passive_bills": "Non sono presenti mandati di pagamento",
+      "no_bill_rows": "Nessuna voce di bollettazione presente",
+      "no_vat_rates": "Nessuna voce iva presente"
+    },
+    "dialog": {
+      "finalize_bills": {
+        "title": "Genera definitivi",
+        "confirmation": {
+          "active": "Sei davvero sicuro di voler generare\ndegli avvisi di pagamento definitivi?",
+          "passive": "Sei davvero sicuro di voler generare\ndei mandati di pagamento definitivi?"
+        },
+        "action": "Genera definitivi"
+      },
+      "finalize_bill": {
+        "title": {
+          "active": "Sei davvero sicuro di voler generare\nun avviso di pagamento definitivo?",
+          "passive": "Sei davvero sicuro di voler generare\nun mandato di pagamento definitivo?"
+        },
+        "action": "Genera definitivo"
+      },
+      "bill_row": {
+        "add": "Aggiungi voce di bollettazione",
+        "edit": "Modifica voce di bollettazione"
+      }
+    },
+    "feedback": {
+      "finalize": {
+        "single": "Definitivo generato con successo",
+        "multiple": "Definitivi generato con successo"
+      },
+      "update": {
+        "active": "Avviso di pagamento modificato con successo",
+        "passive": "Mandato di pagamento modificato con successo"
+      }
+    }
+  }
+}

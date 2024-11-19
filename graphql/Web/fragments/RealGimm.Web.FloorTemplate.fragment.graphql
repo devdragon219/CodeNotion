@@ -1,0 +1,6 @@
+fragment FloorTemplateFragment on FloorTemplate {
+  id
+  guid
+  name
+  position
+}

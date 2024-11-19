@@ -1,0 +1,93 @@
+fragment EstateFragment on Estate {
+  id
+  internalCode
+  name
+  type
+  managementSubject {
+    id
+    name
+  }
+  addresses {
+    ...AsstAddressFragment
+  }
+  externalCode
+  surfaceAreaSqM
+  estateUnits {
+    id
+  }
+  floors {
+    ...FloorFragment
+  }
+  mainUsageType {
+    id
+    name
+  }
+  usageType {
+    id
+    name
+  }
+  ownership
+  buildYear
+  status
+  managementOrgUnit {
+    id
+    name
+  }
+  notes
+  stairs {
+    ...StairFragment
+  }
+}
+
+fragment EstateDetailFragment on Estate {
+  id
+  name
+  internalCode
+  type
+  status
+  decommissioningDate
+  managementOrgUnit {
+    id
+    name
+  }
+  managementSubject {
+    name
+    id
+  }
+  addresses {
+    ...AsstAddressFragment
+  }
+  externalCode
+  surfaceAreaSqM
+  floors {
+    ...FloorFragment
+  }
+  mainUsageType {
+    ...MainUsageTypeFragment
+  }
+  usageType {
+    ...UsageTypeFragment
+  }
+  ownership
+  buildYear
+  notes
+  stairs {
+    ...StairFragment
+  }
+  totalMarketValue {
+    ...EstateTotalMarketValueFragment
+  }
+  estateUnits {
+    id
+    name
+  }
+  valuations {
+    ...ValuationFragment
+  }
+  refactorings {
+    ...RefactoringFragment
+  }
+  catalogueItems {
+    id
+  }
+}

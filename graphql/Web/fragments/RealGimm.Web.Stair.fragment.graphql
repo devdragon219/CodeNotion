@@ -1,0 +1,4 @@
+fragment StairFragment on Stair {
+  id
+  description
+}

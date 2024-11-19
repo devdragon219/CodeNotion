@@ -1,0 +1,25 @@
+﻿{
+  Data: {
+    contractTemplate: {
+      add: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          catalogueTypeIds: [
+            1
+          ],
+          contractType: {
+            id: 2,
+            internalCode: TCM002,
+            name: Macejkovic Group,
+            ordering: 2
+          },
+          description: Brown and Sons,
+          id: 1,
+          internalCode: MCM001
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

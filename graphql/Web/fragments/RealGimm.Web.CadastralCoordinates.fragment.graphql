@@ -1,0 +1,15 @@
+fragment CadastralCoordinatesFragment on CadastralCoordinates {
+  coordinateType
+  unmanagedOverride
+  level1
+  level2
+  level3
+  level4
+  level5
+  itTavPartita
+  itTavCorpo
+  itTavPorzione
+  hasITTavData
+  notes
+  id
+}

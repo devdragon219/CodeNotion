@@ -1,0 +1,7 @@
+fragment IssuesStatusLineChartDataPointFragment on IssuesStatusLineChartDataPoint {
+  newCount
+  assignedCount
+  inProgressCount
+  resolvedCount
+  completedCount
+}

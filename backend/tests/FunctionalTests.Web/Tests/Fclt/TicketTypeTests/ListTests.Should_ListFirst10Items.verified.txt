@@ -1,0 +1,41 @@
+﻿{
+  nodes: [
+    {
+      description: Est illum.,
+      id: 1,
+      internalCode: TTK01,
+      ordering: 1
+    },
+    {
+      description: Assumenda iste.,
+      id: 2,
+      internalCode: TTK02,
+      ordering: 2
+    },
+    {
+      description: Quia natus.,
+      id: 3,
+      internalCode: TTK03,
+      ordering: 3
+    },
+    {
+      description: Et dignissimos.,
+      id: 4,
+      internalCode: TTK04,
+      ordering: 4
+    },
+    {
+      description: Reiciendis ad.,
+      id: 5,
+      internalCode: TTK05,
+      ordering: 5
+    }
+  ],
+  pageInfo: {
+    endCursor: NA==,
+    hasNextPage: false,
+    hasPreviousPage: false,
+    startCursor: MA==
+  },
+  totalCount: 5
+}

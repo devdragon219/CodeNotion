@@ -1,0 +1,134 @@
+﻿{
+  Data: {
+    utilityService: {
+      update: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          accountingItemId: 1,
+          activationDate: 2023-05-03,
+          contractNominalTension: ci6,
+          contractPowerMaximum: dfo,
+          contractPowerNominal: oh8,
+          deactivationDate: 2024-12-20,
+          deactivationRequestDate: 2024-02-26,
+          deposit: 0.64,
+          description: aut,
+          estateIds: [
+            2
+          ],
+          estateUnitIds: [
+            2
+          ],
+          id: 1,
+          internalCode: F00001,
+          isFreeMarket: false,
+          orgUnitId: 2,
+          providerSubjectId: 2,
+          referenceSubjectId: 2,
+          status: INCOMPLETE_DRAFT,
+          utilityContractCode: ds6sb,
+          utilityDeliveryPointCode: ii9zo,
+          utilityMeterSerial: tvkpp0ztu2,
+          utilityType: {
+            category: CLEANING_AND_MAINTENANCE,
+            chargeFields: [
+              [
+                {
+                  id: Guid_1,
+                  isMandatory: false,
+                  name: illum,
+                  type: DATE,
+                  validValues: null
+                },
+                {
+                  id: Guid_2,
+                  isMandatory: false,
+                  name: quia,
+                  type: SINGLE_ITEM_FROM_LIST,
+                  validValues: [
+                    reiciendis,
+                    ad,
+                    nostrum
+                  ]
+                },
+                {
+                  id: Guid_3,
+                  isMandatory: false,
+                  name: totam,
+                  type: SIMPLE_NUMBER,
+                  validValues: null
+                }
+              ],
+              [
+                {
+                  id: Guid_4,
+                  isMandatory: false,
+                  name: doloremque,
+                  type: SINGLE_ITEM_FROM_LIST,
+                  validValues: [
+                    ipsam,
+                    illum,
+                    pariatur,
+                    doloribus
+                  ]
+                },
+                {
+                  id: Guid_5,
+                  isMandatory: false,
+                  name: aperiam,
+                  type: DATE,
+                  validValues: null
+                },
+                {
+                  id: Guid_6,
+                  isMandatory: false,
+                  name: recusandae,
+                  type: DATE,
+                  validValues: null
+                },
+                {
+                  id: Guid_7,
+                  isMandatory: true,
+                  name: vitae,
+                  type: SIMPLE_NUMBER,
+                  validValues: null
+                }
+              ],
+              [
+                {
+                  id: Guid_8,
+                  isMandatory: false,
+                  name: doloribus,
+                  type: SINGLE_ITEM_FROM_LIST,
+                  validValues: [
+                    vel
+                  ]
+                },
+                {
+                  id: Guid_9,
+                  isMandatory: false,
+                  name: nisi,
+                  type: DATE,
+                  validValues: null
+                }
+              ]
+            ],
+            description: totam,
+            expenseClass: zobtuz1pix,
+            externalCode: qtrk7kwfz9,
+            hasHeatingAccountingSystem: false,
+            id: 1,
+            internalCode: mgz1v,
+            measurementUnit: oj2,
+            measurementUnitDescription: turquoise,
+            meteringType: USAGE,
+            timeOfUseRateCount: 2
+          },
+          utilityUserCode: ppy35
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

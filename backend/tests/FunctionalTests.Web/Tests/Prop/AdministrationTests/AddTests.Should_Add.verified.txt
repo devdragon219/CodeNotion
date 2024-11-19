@@ -1,0 +1,25 @@
+﻿{
+  Data: {
+    administration: {
+      add: {
+        isSuccess: true,
+        status: OK,
+        value: [
+          {
+            administrationType: HEATING,
+            administratorBankAccountId: 1,
+            administratorSubjectId: 1,
+            estateId: 1,
+            id: 1,
+            isPaymentDataIncluded: false,
+            notes: null,
+            paymentType: RID,
+            since: 2023-07-09,
+            until: 2024-06-09
+          }
+        ]
+      }
+    }
+  },
+  IsDataSet: true
+}

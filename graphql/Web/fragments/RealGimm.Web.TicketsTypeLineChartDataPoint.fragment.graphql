@@ -1,0 +1,5 @@
+fragment TicketsTypeLineChartDataPointFragment on TicketsTypeLineChartDataPoint {
+  issuesCount
+  preventiveCount
+  onTriggerConditionCount
+}

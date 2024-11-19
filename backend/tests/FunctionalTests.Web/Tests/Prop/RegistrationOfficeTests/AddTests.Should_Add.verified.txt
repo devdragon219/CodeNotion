@@ -1,0 +1,17 @@
+﻿{
+  Data: {
+    registrationOffice: {
+      add: {
+        isSuccess: true,
+        status: OK,
+        value: {
+          cityId: 276,
+          description: Aut totam est expedita et ex rerum aut rerum doloremque.,
+          externalCode: RO00001,
+          id: 1
+        }
+      }
+    }
+  },
+  IsDataSet: true
+}

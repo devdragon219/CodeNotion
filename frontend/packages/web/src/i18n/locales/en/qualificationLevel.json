@@ -1,0 +1,42 @@
+{
+  "qualification_level": {
+    "title": "Qualification levels",
+    "field": {
+      "ordering": "Ordering",
+      "internal_code": "Code",
+      "name": "Name"
+    },
+    "error": {
+      "internal_code": "The code provided is already in use"
+    },
+    "text": {
+      "no_qualification_levels": "No qualification levels available"
+    },
+    "dialog": {
+      "create": {
+        "title": "Add qualification level"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this qualification level?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these qualification levels?\nThe process cannot be undone"
+        }
+      },
+      "update": {
+        "title": "Update qualification level"
+      },
+      "view": {
+        "title": "View qualification level"
+      }
+    },
+    "feedback": {
+      "create": "Qualification level created successfully",
+      "delete": {
+        "single": "Qualification level deleted successfully",
+        "multiple": "Qualification levels deleted successfully"
+      },
+      "update": "Qualification level edited successfully"
+    }
+  }
+}

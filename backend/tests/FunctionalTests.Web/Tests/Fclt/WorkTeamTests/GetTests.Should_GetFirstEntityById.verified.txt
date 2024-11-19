@@ -1,0 +1,93 @@
+﻿{
+  description: Est illum.,
+  id: 1,
+  insertionDate: 2023-01-21,
+  internalCode: SQ01,
+  leaderUser: {
+    firstName: Ryan,
+    id: 7,
+    lastName: Parisian
+  },
+  providerSubject: {
+    id: 62,
+    name: Yundt LLC
+  },
+  workers: [
+    {
+      craft: {
+        id: 3,
+        internalCode: SP03,
+        name: Quia natus.,
+        ordering: 3
+      },
+      firstName: Reanna,
+      id: 1,
+      lastName: Runte,
+      qualificationLevel: {
+        id: 1,
+        internalCode: L01,
+        name: Est illum.,
+        ordering: 1
+      },
+      since: 2023-02-18,
+      until: null
+    },
+    {
+      craft: {
+        id: 3,
+        internalCode: SP03,
+        name: Quia natus.,
+        ordering: 3
+      },
+      firstName: Iliana,
+      id: 2,
+      lastName: Wolff,
+      qualificationLevel: {
+        id: 2,
+        internalCode: L02,
+        name: Assumenda iste.,
+        ordering: 2
+      },
+      since: 2023-02-03,
+      until: null
+    },
+    {
+      craft: {
+        id: 4,
+        internalCode: SP04,
+        name: Et dignissimos.,
+        ordering: 4
+      },
+      firstName: Janelle,
+      id: 3,
+      lastName: Wunsch,
+      qualificationLevel: {
+        id: 4,
+        internalCode: L04,
+        name: Et dignissimos.,
+        ordering: 4
+      },
+      since: 2023-01-22,
+      until: 2023-03-13
+    },
+    {
+      craft: {
+        id: 4,
+        internalCode: SP04,
+        name: Et dignissimos.,
+        ordering: 4
+      },
+      firstName: Reagan,
+      id: 4,
+      lastName: Stanton,
+      qualificationLevel: {
+        id: 3,
+        internalCode: L03,
+        name: Quia natus.,
+        ordering: 3
+      },
+      since: 2023-03-12,
+      until: null
+    }
+  ]
+}

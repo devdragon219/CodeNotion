@@ -1,0 +1,98 @@
+query getRegistrationPayments(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: RegistrationPaymentFilterInput
+  $order: [RegistrationPaymentSortInput!]
+) {
+  registrationPayment {
+    listRegistrationPayments(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...RegistrationPaymentFragment
+      }
+      totalCount
+    }
+  }
+}
+
+query getRegistrationPayment($registrationPaymentId: Int!) {
+  registrationPayment {
+    get(id: $registrationPaymentId) {
+      ...RegistrationPaymentDetailFragment
+    }
+  }
+}
+
+mutation deleteRegistrationPayments($ids: [Int!]!) {
+  registrationPayment {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteRegistrationPayment($id: Int!) {
+  registrationPayment {
+    delete(id: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation createRegistrationPayment(
+  $registrationPaymentInput: RegistrationPaymentInput!
+) {
+  registrationPayment {
+    add(input: $registrationPaymentInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+mutation updateRegistrationPayment(
+  $registrationPaymentId: Int!
+  $registrationPaymentInput: RegistrationPaymentInput!
+) {
+  registrationPayment {
+    update(id: $registrationPaymentId, input: $registrationPaymentInput) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query exportRegistrationPayments(
+  $where: RegistrationPaymentFilterInput
+  $order: [RegistrationPaymentSortInput!]
+) {
+  registrationPayment {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}

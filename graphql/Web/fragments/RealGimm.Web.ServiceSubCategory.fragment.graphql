@@ -1,0 +1,5 @@
+fragment ServiceSubCategoryFragment on ServiceSubCategory {
+  id
+  name
+  internalCode
+}

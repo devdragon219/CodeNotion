@@ -1,0 +1,162 @@
+import { BillEmissionType, BillingPeriod, PaymentType } from '@realgimm5/frontend-common/gql/types';
+import { TableColumn } from '@realgimm5/frontend-common/interfaces';
+import { TFunction } from 'i18next';
+
+import { BillFragment } from '../../gql/RealGimm.Web.Bill.fragment';
+import { parseAddressToString } from '../addressUtils';
+
+export const getBillColumns = (
+  active: boolean,
+  language: string,
+  t: TFunction,
+  useIsTemporary = true,
+): TableColumn<BillFragment>[] => [
+  ...((useIsTemporary
+    ? [
+        {
+          id: 'isTemporary',
+          label: `bill.field.${active ? 'active' : 'passive'}_status`,
+          enableColumnFilter: true,
+          enableSorting: true,
+          initialVisibility: 'hidden',
+          options: [true, false],
+          getOptionLabel: (option) => t(`bill.temporary.${option as boolean}`),
+        },
+      ]
+    : []) as TableColumn<BillFragment>[]),
+  {
+    id: 'contract.internalCode',
+    label: 'bill.field.contract_code',
+    enableColumnFilter: true,
+    enableGlobalFilter: true,
+    enableSorting: true,
+  },
+  {
+    id: 'managementSubjectName',
+    label: 'bill.field.management_subject',
+    enableColumnFilter: true,
+    enableGlobalFilter: true,
+    enableSorting: true,
+    getRowValue: (row) => row.contract?.managementSubject.name,
+  },
+  {
+    id: 'counterpartSubjectName',
+    label: 'bill.field.counterpart',
+    enableColumnFilter: true,
+    enableGlobalFilter: true,
+    enableSorting: true,
+    getRowValue: (row) => row.counterpartSubject.name,
+  },
+  {
+    id: 'year',
+    type: 'number',
+    label: 'bill.field.year',
+    enableColumnFilter: true,
+    enableSorting: true,
+  },
+  {
+    id: 'contract.type.description',
+    label: 'bill.field.contract_type',
+    enableColumnFilter: true,
+    enableGlobalFilter: true,
+    enableSorting: true,
+    initialVisibility: 'hidden',
+  },
+  {
+    id: 'isInvoiced',
+    type: 'boolean',
+    label: `bill.field.${active ? 'active' : 'passive'}_invoiced`,
+    enableColumnFilter: true,
+    enableSorting: true,
+    initialVisibility: 'hidden',
+  },
+  {
+    id: 'estateUnitInternalCode',
+    label: 'bill.field.estate_unit_code',
+    initialVisibility: 'hidden',
+    enableColumnFilter: true,
+    enableGlobalFilter: true,
+    enableSorting: true,
+    getRowValue: (row) => row.estateUnit?.internalCode,
+  },
+  {
+    id: 'estateUnitAddress',
+    label: 'bill.field.estate_unit_address',
+    initialVisibility: 'hidden',
+    enableColumnFilter: true,
+    enableGlobalFilter: true,
+    enableSorting: true,
+    getRowValue: (row) => parseAddressToString(row.estateUnit?.address, language),
+  },
+  {
+    id: 'contractBillingPeriod',
+    label: 'bill.field.billing_period',
+    enableColumnFilter: true,
+    initialVisibility: 'hidden',
+    multiple: true,
+    options: Object.values(BillingPeriod),
+    getOptionLabel: (option) => t(`common.enum.billing_period.${option as BillingPeriod}`),
+  },
+  {
+    id: 'isOccupiedWithoutRight',
+    type: 'boolean',
+    label: 'bill.field.is_occupied_without_right',
+    enableColumnFilter: true,
+    enableSorting: true,
+    initialVisibility: 'hidden',
+  },
+  {
+    id: 'date',
+    type: 'date',
+    label: `bill.field.${active ? 'active' : 'passive'}_date`,
+    enableColumnFilter: true,
+    enableSorting: true,
+  },
+  {
+    id: 'since',
+    type: 'date',
+    label: 'bill.field.since',
+    enableColumnFilter: true,
+    enableSorting: true,
+  },
+  {
+    id: 'until',
+    type: 'date',
+    label: 'bill.field.until',
+    enableColumnFilter: true,
+    enableSorting: true,
+  },
+  {
+    id: 'transactorPaymentType',
+    label: 'bill.field.payment_type',
+    enableColumnFilter: true,
+    initialVisibility: 'hidden',
+    multiple: true,
+    options: Object.values(PaymentType),
+    getOptionLabel: (option) => t(`common.enum.payment_type.${option as PaymentType}`),
+  },
+  {
+    id: 'transactorSubjectName',
+    label: `bill.field.${active ? 'active' : 'passive'}_transactor`,
+    initialVisibility: 'hidden',
+    enableColumnFilter: true,
+    enableGlobalFilter: true,
+    enableSorting: true,
+    getRowValue: (row) => row.transactorSubject.name,
+  },
+  {
+    id: 'emissionType',
+    label: 'bill.field.emission_type',
+    enableColumnFilter: true,
+    initialVisibility: 'hidden',
+    options: Object.values(BillEmissionType),
+    getOptionLabel: (option) => t(`common.enum.bill_emission_type.${option as BillEmissionType}`),
+  },
+  {
+    id: 'totalAmount',
+    type: 'currency',
+    label: 'bill.field.total_amount',
+    enableColumnFilter: true,
+    enableSorting: true,
+  },
+];

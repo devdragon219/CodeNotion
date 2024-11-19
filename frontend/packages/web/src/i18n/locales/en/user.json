@@ -1,0 +1,102 @@
+{
+  "user": {
+    "title": "Users",
+    "tab": {
+      "general_data": "General data",
+      "config": "Configuration",
+      "org_unit": "Belonging OU",
+      "contacts": "Contacts",
+      "sessions": "Sessions",
+      "recap": "Recap"
+    },
+    "section_title": {
+      "general_data": "General data",
+      "config": "Configuration",
+      "org_unit": "Belonging OU",
+      "contacts": "Contacts",
+      "change_password": "Change password",
+      "permissions": "Permissions",
+      "recap": "Recap"
+    },
+    "field": {
+      "first_name": "First name",
+      "last_name": "Last name",
+      "full_name": "Full name",
+      "user_name": "Username",
+      "status": "User status",
+      "enabled_since": "Activation date",
+      "ceased_date": "Closure date",
+      "locked_since": "Suspension date",
+      "suspension_reason": "Suspension reason",
+      "management_subjects": "Management subjects",
+      "type": "User type",
+      "groups": "Operational groups",
+      "new_password": "New password",
+      "confirm_password": "Confirm new password",
+      "office_access": "Office access",
+      "supplier_subject": "Supplier subject",
+      "org_unit_code": "OU code",
+      "org_unit_description": "OU description",
+      "org_unit_type": "OU type",
+      "org_unit_management_subject": "Management subject",
+      "org_unit_group_society": "Society",
+      "org_unit_parent_org_unit": "Reference OU",
+      "session_creation_date": "Creation date",
+      "session_ip_address": "IP address",
+      "session_ip_location": "Address",
+      "session_user_agent": "User agent",
+      "session_expiration_date": "Expiration date"
+    },
+    "action": {
+      "add_internal_user": "Internal user",
+      "add_external_user": "External user",
+      "change_password": "Change password",
+      "revoke_all_sessions": "Revoke all sessions"
+    },
+    "error": {
+      "user_name": "The username provided is already in use"
+    },
+    "text": {
+      "no_users": "No users available",
+      "associable_org_units": "Select belonging OU",
+      "associated_org_units": "Belonging OU",
+      "no_associated_org_units": "There are no belonging OU"
+    },
+    "dialog": {
+      "change_password": {
+        "title": "Change password"
+      },
+      "create": {
+        "title": {
+          "INTERNAL": "Add internal user",
+          "EXTERNAL_SUPPLIER": "Add external user"
+        },
+        "save": "Save user"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": {
+          "single": "Are you really sure\nyou want to delete this user?\nThe process cannot be undone",
+          "multiple": "Are you really sure\nyou want to delete these users?\nThe process cannot be undone"
+        }
+      },
+      "org_units": {
+        "title": "Edit belonging OU"
+      }
+    },
+    "feedback": {
+      "create": "User successfully created",
+      "delete": {
+        "single": "User successfully deleted",
+        "multiple": "Users successfully deleted"
+      },
+      "update": "User successfully updated"
+    },
+    "permission": {
+      "read": "Read",
+      "update": "Update",
+      "create": "Create",
+      "delete": "Delete"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+mutation markNotificationsAsView {
+  notification {
+    markNewAsUnread {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation markNotificationsAsRead($ids: [Int!]) {
+  notification {
+    markAsRead(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+﻿{
+  expectedAmount: 562.580000,
+  id: 1,
+  installments: [
+    {
+      amount: 0.817325,
+      billItemType: {
+        id: 58
+      },
+      dueDate: 2024-03-07,
+      id: 1,
+      installmentNumber: 7,
+      notes: et,
+      since: 2023-11-09,
+      until: 2024-10-22
+    },
+    {
+      amount: 0.977550,
+      billItemType: {
+        id: 66
+      },
+      dueDate: 2024-03-15,
+      id: 2,
+      installmentNumber: 4,
+      notes: totam,
+      since: 2023-05-12,
+      until: 2024-07-16
+    }
+  ],
+  name: 1080p,
+  since: 2023-04-17,
+  termType: EXTRAORDINARY_NON_ASSET,
+  until: 2024-08-24
+}

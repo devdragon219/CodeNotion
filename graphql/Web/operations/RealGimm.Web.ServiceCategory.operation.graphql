@@ -1,0 +1,141 @@
+query getServiceCategories(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: ServiceCategoryFilterInput
+  $order: [ServiceCategorySortInput!]
+) {
+  serviceCategory {
+    listServiceCategories(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...ServiceCategoryFragment
+      }
+      totalCount
+    }
+  }
+}
+
+mutation addServiceCategory($input: ServiceCategoryInput!) {
+  serviceCategory {
+    add(input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateServiceCategory(
+  $serviceCategoryId: Int!
+  $input: ServiceCategoryInput!
+) {
+  serviceCategory {
+    update(id: $serviceCategoryId, input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteServiceCategories($ids: [Int!]!) {
+  serviceCategory {
+    deleteRange(serviceCategoryIds: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getServiceCategoryInternalCode {
+  serviceCategory {
+    proposeNewInternalCode
+  }
+}
+
+query canUseServiceCategoryInternalCode(
+  $internalCode: String!
+  $currentServiceCategoryId: Int
+) {
+  serviceCategory {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentServiceCategoryId: $currentServiceCategoryId
+    )
+  }
+}
+
+query getServiceSubCategoryInternalCode(
+  $parentInternalCode: String!
+  $additionallyOccupiedCodes: [String!]!
+) {
+  serviceCategory {
+    proposeNewInternalCodeSubCategory(
+      parentInternalCode: $parentInternalCode
+      additionallyOccupiedCodes: $additionallyOccupiedCodes
+    )
+  }
+}
+
+query canUseServiceSubCategoryInternalCode(
+  $internalCode: String!
+  $serviceCategoryId: Int
+  $currentServiceCategoryId: Int
+) {
+  serviceCategory {
+    canUseInternalCodeSubCategory(
+      internalCode: $internalCode
+      serviceCategoryId: $serviceCategoryId
+      currentServiceSubCategoryId: $currentServiceCategoryId
+    )
+  }
+}
+
+query exportServiceCategories(
+  $where: ServiceCategoryFilterInput
+  $order: [ServiceCategorySortInput!]
+) {
+  serviceCategory {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+query getServiceCategory($serviceCategoryId: Int!) {
+  serviceCategory {
+    get(id: $serviceCategoryId) {
+      ...ServiceCategoryFragment
+    }
+  }
+}
+
+mutation deleteServiceCategory($id: Int!) {
+  serviceCategory {
+    delete(serviceCategoryId: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}

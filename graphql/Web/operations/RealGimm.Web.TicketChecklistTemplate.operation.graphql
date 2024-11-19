@@ -1,0 +1,126 @@
+query getTicketChecklistTemplates(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: TicketChecklistTemplateFilterInput
+  $order: [TicketChecklistTemplateSortInput!]
+) {
+  ticketChecklistTemplate {
+    listTicketChecklistTemplates(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...TicketChecklistTemplateFragment
+      }
+      totalCount
+    }
+  }
+}
+
+mutation addTicketChecklistTemplate($input: TicketChecklistTemplateInput!) {
+  ticketChecklistTemplate {
+    add(input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation updateTicketChecklistTemplate(
+  $ticketChecklistTemplateId: Int!
+  $input: TicketChecklistTemplateInput!
+) {
+  ticketChecklistTemplate {
+    update(id: $ticketChecklistTemplateId, input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteTicketChecklistTemplates($ids: [Int!]!) {
+  ticketChecklistTemplate {
+    deleteRange(ids: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getTicketChecklistTemplateInternalCode {
+  ticketChecklistTemplate {
+    proposeNewInternalCode
+  }
+}
+
+query canUseTicketChecklistTemplateInternalCode(
+  $internalCode: String!
+  $currentTicketChecklistTemplateId: Int
+) {
+  ticketChecklistTemplate {
+    canUseInternalCode(
+      internalCode: $internalCode
+      currentTicketChecklistTemplateId: $currentTicketChecklistTemplateId
+    )
+  }
+}
+
+query exportTicketChecklistTemplates(
+  $where: TicketChecklistTemplateFilterInput
+  $order: [TicketChecklistTemplateSortInput!]
+) {
+  ticketChecklistTemplate {
+    exportToExcel(where: $where, order: $order) {
+      resourceUrl
+    }
+  }
+}
+
+query getTicketChecklistTemplate($ticketChecklistTemplateId: Int!) {
+  ticketChecklistTemplate {
+    get(id: $ticketChecklistTemplateId) {
+      ...TicketChecklistTemplateDetailFragment
+    }
+  }
+}
+
+mutation deleteTicketChecklistTemplate($id: Int!) {
+  ticketChecklistTemplate {
+    delete(id: $id) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getAllTicketChecklistTemplates(
+  $where: TicketChecklistTemplateFilterInput
+  $order: [TicketChecklistTemplateSortInput!]
+) {
+  ticketChecklistTemplate {
+    listTicketChecklistTemplatesFull(where: $where, order: $order) {
+      ...TicketChecklistTemplateFragment
+    }
+  }
+}

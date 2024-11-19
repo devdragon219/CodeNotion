@@ -1,0 +1,80 @@
+mutation addFloorTemplates($input: [FloorTemplateInput!]!) {
+  floorTemplate {
+    addFloorTemplates(input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+      value {
+        ...FloorTemplateFragment
+      }
+    }
+  }
+}
+
+mutation updateFloorTemplate(
+  $floorTemplateId: Int!
+  $input: FloorTemplateInput!
+) {
+  floorTemplate {
+    updateFloor(floorTemplateId: $floorTemplateId, input: $input) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+mutation deleteFloorTemplates($ids: [Int!]!) {
+  floorTemplate {
+    deleteRangeFloor(floorIds: $ids) {
+      errors
+      isSuccess
+      validationErrors {
+        ...ValidationErrorFragment
+      }
+    }
+  }
+}
+
+query getAllFloorTemplates(
+  $where: FloorFilterInput
+  $order: [FloorTemplateSortInput!]
+) {
+  floorTemplate {
+    listFloorTemplates(where: $where, order: $order) {
+      ...FloorTemplateFragment
+    }
+  }
+}
+
+query getFloorTemplates(
+  $first: Int
+  $after: String
+  $last: Int
+  $before: String
+  $where: FloorTemplateFilterInput
+  $order: [FloorTemplateSortInput!]
+) {
+  floorTemplate {
+    listFloorTemplatesPaginated(
+      first: $first
+      after: $after
+      last: $last
+      before: $before
+      where: $where
+      order: $order
+    ) {
+      pageInfo {
+        ...PageInfoFragment
+      }
+      nodes {
+        ...FloorTemplateFragment
+      }
+      totalCount
+    }
+  }
+}
